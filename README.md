@@ -1,0 +1,1 @@
+# macs-fan-control-releases
