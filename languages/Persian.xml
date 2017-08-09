@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.2.0" Author="Hessam Mohamadi">
+	<MainWindow>
+		<staticFanListHeader>فن ها:</staticFanListHeader>
+		<staticSensorsListHeader>سنسورهای دما:</staticSensorsListHeader>
+		<listColumnFan>فن</listColumnFan>
+		<listColumnRPM>حداقل/فعلی/حداکثر دور برثانیه</listColumnRPM>
+		<listColumnControl>کنترل</listColumnControl>
+		<listColumnSensor>سنسور</listColumnSensor>
+		<listColumnSensorValue>مقدار</listColumnSensorValue>
+		<listSeparatorDrives>دیسک درایوها:</listSeparatorDrives>
+		<popupMenuItemControl>تغییر کنترل‫...‬</popupMenuItemControl>
+		<popupMenuItemReset>ریست به کنترل خودکار</popupMenuItemReset>
+		<fanControlAutomatic>خودکار</fanControlAutomatic>
+		<fanControlAutomaticInfo>خودکار (توسط سیستم کنترل میشود)</fanControlAutomaticInfo>
+		<fanControlConstant>مقدار ثابت %1</fanControlConstant>
+		<fanControlSensor>بر اساس %1</fanControlSensor>
+		<fanControlUnknown>ناشناخته!</fanControlUnknown>
+		<buttonFanControlCustom>دستی...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>تعیین یک حالت کنترل دستی</buttonFanControlCustomInfo>
+		<buttonMinimize>کمینه کن</buttonMinimize>
+		<buttonMinimizeMac>عدم نمایش نوار منو</buttonMinimizeMac>
+		<buttonPreferences>مزیت ها...</buttonPreferences>
+		<buttonAbout>درباره ‫...‬</buttonAbout>
+		<statusMoreApps>%1 نسخه و سایر برنامه ها</statusMoreApps>
+		<messageNonAppleFSWarningMac>حالت فقط خواندنی: فایل سیستمی اپل یافت نشد (%1). آیا برنامه را به مسیر ذیل منتقل نموده اید؟ /Applications ؟</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>کنترل فن برای %1 فن</title>
+		<radioConstant>مقدار گردش ثابت در دقیقه</radioConstant>
+		<radioSensor>مقدار مبتنی بر سنسور</radioSensor>
+		<staticIncrease>دمایی که بالاتر از آن فن ها شروع به گردش سریعتر میکنند‫:‬</staticIncrease>
+		<staticMax>حد اکثر دما‫:‬</staticMax>
+		<statusWarning>خطایی وجود دارد - مقادیر حدافل و حداکثر به صورت مساوی انتخاب شده اند (%1).&lt;br/&gt; لطفا از حذف نمودن نرم افزارهای مشابه برای کنترل سرعت فن مطمین شوید و سپس سیستم را ریستارت نمایید.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>نمایش کنترل فن مکینتاش</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>وبسایت</itemWebsite>
+		<itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>خروج</itemExit>
+		<itemSensorBased>مبتنی بر سنسور</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>مزیت ها</title>
+		<TabGeneral>عمومی</TabGeneral>
+		<tabTrayIcon>آیکون کنار ساعت</tabTrayIcon>
+		<tabTrayIconMac>نمایش نوار منو</tabTrayIconMac>
+		<tabDiagnostics>تشخیصی</tabDiagnostics>
+		<staticLanguage>زبان:</staticLanguage>
+		<checkSystemStart>اجرای خودکار بطور کمینه در کنار ساعت ‫(‬پیشنهاد میشود‫)‬</checkSystemStart>
+		<checkFahrenheit>استفاده از مقیاس درجه حرارتی فارنهایت</checkFahrenheit>
+		<checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
+		<staticSensor>سنسور:</staticSensor>
+		<staticFan>فن:</staticFan>
+		<staticIcon>آیکون:</staticIcon>
+		<comboIconOptionShow>نمایش</comboIconOptionShow>
+		<comboIconOptionShowBW>نمایش (سیاه و سفید)</comboIconOptionShowBW>
+		<comboOptionNone>هیچکدام</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(فقط سانتیگراد)</staticCelsiusOnlyOnWindows>
+		<checkLog>فعالسازی وقایع (ریستارت نیاز است)</checkLog>
+		<browseLog>جستجو..</browseLog>
+		<buttonCopyTechInfo>کپی اطلاعات فنی</buttonCopyTechInfo>
+		<copyInfoMessage>اطلاعات فنی به کلیپ برد کپی شد</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>درباره برنامه</title>
+		<staticTechnicalSupport>پشتیبانی فنی در انجمن</staticTechnicalSupport>
+		<staticOnlineHelp>راهنمای آنلاین</staticOnlineHelp>
+		<staticWarning>این برنامه برای کاربران حرفه ای است که نحوه ی استفاده از آن را بدون آسیب رساندن به سیستم خود میدانند‫.‬ سازنده هیچ مسیولیتی در خصوص از دست دادن اطلاعات سیستم یا هرگونه ضرر و زیان احتمالی و یا هر گونه خسارتی به هر دلیلی به عهده نخواهد داشت‫.‬</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>نرم افزار کنترل فن ‫-‬ نسخه جدید موجود است</title>
+		<staticNewVersion>نسخه جدید برنامه موجود است‫.‬ لطفا از &lt;a href='وبسایت'&gt;website&lt;/a&gt; برای آخرین نسخه دیدن فرمایید‫.‬</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>بستن</buttonClose>
+		<buttonOK>تایید</buttonOK>
+		<buttonCancel>لغو</buttonCancel>
+		<buttonContinue>ادامه</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>منتشر شده در %1</ReleasedOn>
+		<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
+		<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
+		<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
+		<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
+		<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
+		<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
+		<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
+		<UpdateProgressCancel>لغو</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
+		<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 از %2</UpdateProgressSize>
+		<UpdateProgressB>بایت</UpdateProgressB>
+		<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
+		<UpdateProgressMB>مگابایت</UpdateProgressMB>
+		<UpdateProgressGB>گیگابایت</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

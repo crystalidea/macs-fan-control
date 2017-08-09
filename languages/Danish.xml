@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1" Author="jacob">
+	<MainWindow>
+		<staticFanListHeader>Blæsere:</staticFanListHeader>
+		<staticSensorsListHeader>Temperaturmålere:</staticSensorsListHeader>
+		<listColumnFan>Blæser</listColumnFan>
+		<listColumnRPM>Min/Nuværende/Max RPM</listColumnRPM>
+		<listColumnControl>Kontrol</listColumnControl>
+		<listColumnSensor>Måler</listColumnSensor>
+		<listColumnSensorValue>Værdi</listColumnSensorValue>
+		<listSeparatorDrives>Disk Drev:</listSeparatorDrives>
+		<popupMenuItemControl>Ændre kontrol...</popupMenuItemControl>
+		<popupMenuItemReset>Nulstil til automatisk kontrol</popupMenuItemReset>
+		<fanControlAutomatic>Auto</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatisk (kontrolleret af systemet)</fanControlAutomaticInfo>
+		<fanControlConstant>Konstant værdi på %1</fanControlConstant>
+		<fanControlSensor>Baseret på %1</fanControlSensor>
+		<fanControlUnknown>Ukendt!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimer</buttonMinimize>
+		<buttonMinimizeMac>Skjul til menulinjen</buttonMinimizeMac>
+		<buttonPreferences>Præferencer...</buttonPreferences>
+		<buttonAbout>Om...</buttonAbout>
+		<statusMoreApps>%1 version &amp; flere programmer</statusMoreApps>
+		<messageNonAppleFSWarningMac>Skrivebeskyttet programstart: ikke-Apple fil system fundet (%1). Prøv at flytte programmet til '/Applications'?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Blæserkontrol for %1</title>
+		<radioConstant>Konstant RPM værdi</radioConstant>
+		<radioSensor>Måler-baseret værdi</radioSensor>
+		<staticIncrease>Temperaturen som blæserhastigheden vil stige fra:</staticIncrease>
+		<staticMax>Maximum temperatur:</staticMax>
+		<statusWarning>Noget er forkert - min/max blæserværdier er ens (%1).&lt;br/&gt; Afinstaller venligst alle andre programmer, som kontrollerer blæserne og nulstil SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Vis Macs Fan Control</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Webside</itemWebsite>
+		<itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Luk</itemExit>
+		<itemSensorBased>Måler-baseret</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Præferencer</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Ikon på menulinjen</tabTrayIcon>
+		<tabTrayIconMac>Visning af ikon på menulinjen</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Sprog:</staticLanguage>
+		<checkSystemStart>Autostart minimeret ved systemstart (anbefalet)</checkSystemStart>
+		<checkFahrenheit>Benyt Fahrenheit temperaturskala</checkFahrenheit>
+		<checkPrecise>Nøjagtig visning af temperatur, når det er muligt (f.eks. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Fan:</staticFan>
+		<staticIcon>Icon:</staticIcon>
+		<comboIconOptionShow>Show</comboIconOptionShow>
+		<comboIconOptionShowBW>Show (black &amp; white)</comboIconOptionShowBW>
+		<comboOptionNone>None</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(Kun Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Enable log (restart required)</checkLog>
+		<browseLog>Browse</browseLog>
+		<buttonCopyTechInfo>Kopier teknisk information</buttonCopyTechInfo>
+		<copyInfoMessage>Teknisk information er blevet kopieret til udklipsholderen</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Om Macs Fan Control</title>
+		<staticTechnicalSupport>Teknisk hjælp i forum</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>DETTE PROGRAM BØR KUN BENYTTES AF AVANCEREDE BRUGERE, SOM FORSTÅR AT ANVENDE DET UDEN AT FORÅRSAGE SKADE PÅ DERES MAC. FORFATTERNE ER IKKE ANSVARLIGE FOR DATA TAB, SKADER, ØKONOMISKE ELLER ANDRE SKADER ELLER TAB SOM FØLGE AF BRUG ELLER MISBRUG AF DETTE PROGRAM</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Ny version er tilgængelig</title>
+		<staticNewVersion>Ny version af programmet er tilgængelig. Besøg venligst vor &lt;a href='website'&gt;webside&lt;/a&gt; for at hente den nye version.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Luk</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Annuller</buttonCancel>
+		<buttonContinue>Fortsæt</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>released on %1</ReleasedOn>
+		<CheckForUpdates>Check for updates...</CheckForUpdates>
+		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Kunne ikke flytte til mappen Programmer</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Flyt til mappen Programmer?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Flyt til mappen Programmer i din hjemmemappe?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Jeg kan flytte mig selv til mappen Programmer, hvis du ønsker det.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Flyt til mappen Programmer</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Flyt ikke</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bemærk, at dette kræver en administrator-adgangskode.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Dette hjælper til med at holde orden i mappen Overførsler.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

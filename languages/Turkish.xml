@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.12" Author="A. Mesut Konuklar">
+	<MainWindow>
+		<staticFanListHeader>Fanlar (kontrol etmek için çift tıklayın):</staticFanListHeader>
+		<staticSensorsListHeader>Sıcaklık sensorü:</staticSensorsListHeader>
+		<listColumnFan>Fan</listColumnFan>
+		<listColumnRPM>En düşük/Şu anki/Maksimum RPM</listColumnRPM>
+		<listColumnControl>Kontrol</listColumnControl>
+		<listColumnSensor>Sensör</listColumnSensor>
+		<listColumnSensorValue>Değer</listColumnSensorValue>
+		<listSeparatorDrives>Disk Sürücüleri:</listSeparatorDrives>
+		<popupMenuItemControl>Kontrolü değiştir...</popupMenuItemControl>
+		<popupMenuItemReset>Otomatik kontrole dön</popupMenuItemReset>
+		<fanControlAutomatic>Otomatik</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
+		<fanControlConstant>%1 için sabit değer</fanControlConstant>
+		<fanControlSensor>%1 değerine göre</fanControlSensor>
+		<fanControlUnknown>Bilinmeyen!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Küçült</buttonMinimize>
+		<buttonMinimizeMac>Menü çubuğuna gizle</buttonMinimizeMac>
+		<buttonPreferences>Tercihler...</buttonPreferences>
+		<buttonAbout>Hakkında...</buttonAbout>
+		<statusMoreApps>%1 versiyonu &amp; daha fazla uygulama</statusMoreApps>
+		<messageNonAppleFSWarningMac>Salt okunur modu: Apple dışında bir sistem algılandı (%1). Uygulamayı '/Applications' klasörüne taşımayı deneyin.</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>%1 için Fan kontrolü</title>
+		<radioConstant>Sabit RPM değeri</radioConstant>
+		<radioSensor>Sensör-tabanlı değer</radioSensor>
+		<staticIncrease>Fan hızının artmaya başlayacağı sıcaklık:</staticIncrease>
+		<staticMax>Maksimum sıcaklık:</staticMax>
+		<statusWarning>Birşeyler yanlış - min/maks fan değerleri eşit (%1).&lt;br/&gt; Lütfen varsa başka fan kontrol yazılımını silin ve SMYci resetleyin.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Macs Fan Control'ü göster</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Website</itemWebsite>
+		<itemCheckForUpdates>Güncellemeleri kontrol et...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Çıkış</itemExit>
+		<itemSensorBased>Sensor-tabanlı</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Tercihler</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Tray icon</tabTrayIcon>
+		<tabTrayIconMac>Menubar display</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Dil:</staticLanguage>
+		<checkSystemStart>Sistemle birlikte otomatik olarak başlat (önerilen)</checkSystemStart>
+		<checkFahrenheit>Fahrenheit sıcaklık ölçeğini kullan</checkFahrenheit>
+		<checkPrecise>Mümkün olduğunda sıcaklığın hassas değerini göster (örn 45.4)</checkPrecise>
+		<staticSensor>Sensör:</staticSensor>
+		<staticFan>Fan:</staticFan>
+		<staticIcon>İkon:</staticIcon>
+		<comboIconOptionShow>Göster</comboIconOptionShow>
+		<comboIconOptionShowBW>Göster (siyah &amp; beyaz)</comboIconOptionShowBW>
+		<comboOptionNone>Yok</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(sadece Santigrat)</staticCelsiusOnlyOnWindows>
+		<checkLog>Günlüğü etkinleştirin (yeniden başlatmak gerekmekte)</checkLog>
+		<browseLog>Gözat...</browseLog>
+		<buttonCopyTechInfo>Copy technical info</buttonCopyTechInfo>
+		<copyInfoMessage>Technical information is copied to the clipboard</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Macs Fan Control Hakkında</title>
+		<staticTechnicalSupport>Forum aracılığıyla teknik destek</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>BU PROGRAM MACLERİNE ZARAR VERMEDEN KULLANABİLEN İLERİ SEVİYE KULLANICILAR İÇİNDİR. PROGRAMIN YAZARLARI KULLANICI TARAFINDAN VEYA PROGRAMIN YANLIŞ KULLANIMI SONUCU OLUŞAN HERHANGİ BİR DATA KAYBI, ZARAR, KAR KAYBI YA DA HERHANGİ BİR TÜRDEN KAYIPLAR İÇİN SORUMLU DEĞİLDİR.</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Yeni sürüm mevcut</title>
+		<staticNewVersion>Programın yeni sürümü mevcut. Lütfen en son sürümler için &lt;a href='website'&gt;website&lt;/a&gt; adresini ziyaret edin.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Kapat</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>İptal</buttonCancel>
+		<buttonContinue>Devam</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>%1 tarihinde yayınlandı</ReleasedOn>
+		<CheckForUpdates>Güncellemeleri kontrol et...</CheckForUpdates>
+		<NewVersionAvailable>%1'un yeni sürümü mevcut!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 şu an mevcut - sizde mevcut olan %3. Şimdi indirmek ister misiniz?</NewVersionAvailableText>
+		<UpdateAlertTitle>Yazılım Güncelleme</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Sürüm Notları:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Daha Sonra Hatırlat</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Bu Versiyonu Atla</UpdateAlertSkip>
+		<UpdateAlertInstall>Güncellemeyi Yükle</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Güncellemeleri otomatik denetle</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Sürümünüz güncel!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 mevcut olan en yeni versiyon.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Güncellemeyi indirirken bir hata meydana geldi. Lütfen daha sonra tekrar deneyin.</MessageErrorConnect>
+		<MessageErrorParse>Güncelleştirme bilgisini alırken bir hata meydana geldi.</MessageErrorParse>
+		<UpdateProgressTitle>Güncelleniyor %1</UpdateProgressTitle>
+		<UpdateProgressCancel>İptal</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Yükleyin ve Yeniden Başlatın</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Güncelleme indiriliyor...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Güncelleme ayıklanıyor...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Yüklemeye Hazır</UpdateProgressStatusReady>
+		<UpdateProgressSize>%2 de %1</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Applications klasörüne taşınamadı</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Application Klasörüne Taşınma</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Applications klasörü Kullanıcı klasörünüze taşınsın mı?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>İsterseniz uygulama Applications klasörüne taşınabilir.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Applications Klasörüne Taşınsın</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Taşınmasın</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu işlem için yönetici parolasının isteneceğeni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu işlem İndirmeler klasörünün dağılmasını engeller.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

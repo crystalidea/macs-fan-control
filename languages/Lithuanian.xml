@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.0" Author="Gytis Kvedaravičius">
+	<MainWindow>
+		<staticFanListHeader>Galimi ventiliatoriai:</staticFanListHeader>
+		<staticSensorsListHeader>Temperatūros jutikliai:</staticSensorsListHeader>
+		<listColumnFan>Ventiliatorius</listColumnFan>
+		<listColumnRPM>Min/Dabartinis/Max RPM</listColumnRPM>
+		<listColumnControl>Kontrolė</listColumnControl>
+		<listColumnSensor>Jutiklis</listColumnSensor>
+		<listColumnSensorValue>Temperatūra</listColumnSensorValue>
+		<listSeparatorDrives>Diskai:</listSeparatorDrives>
+		<popupMenuItemControl>Pakeisti kontrolę…</popupMenuItemControl>
+		<popupMenuItemReset>Atstatyti į automatinę kontrolę</popupMenuItemReset>
+		<fanControlAutomatic>Auto</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatiškai (kontroliuojama sistemos)</fanControlAutomaticInfo>
+		<fanControlConstant>Pastovi reikšmė %1</fanControlConstant>
+		<fanControlSensor>Remiantis %1</fanControlSensor>
+		<fanControlUnknown>Nežinoma!</fanControlUnknown>
+		<buttonFanControlCustom>Pasirinktinai…</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Pasirinkti pagal savo poreikius</buttonFanControlCustomInfo>
+		<buttonMinimize>Sumažinti</buttonMinimize>
+		<buttonMinimizeMac>Paslėpti į meniu juostą</buttonMinimizeMac>
+		<buttonPreferences>Nustatymai…</buttonPreferences>
+		<buttonAbout>Apie…</buttonAbout>
+		<statusMoreApps>%1 versija &amp; daugiau programų</statusMoreApps>
+		<messageNonAppleFSWarningMac>Skaitymo rėžimas: aptikta ne Apple failų sistema (%1). Pamėginkite perkelti programą į '/Applications'?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Ventiliatoriaus kontrolė '%1' ventiliatoriui’</title>
+		<radioConstant>Pastovi RPM reikšmė</radioConstant>
+		<radioSensor>Remiantis jutikliais reikšmė</radioSensor>
+		<staticIncrease>Temperatūra, nuo kurios pradės veikti ventiliatoriai:</staticIncrease>
+		<staticMax>Maksimali temperatūra:</staticMax>
+		<statusWarning>Kažkas blogai - min/max ventiliatoriaus reikšmės vienodos (%1).&lt;br/&gt; Prašome ištrinti visas kitas ventiliatorių kontroliuojančias programas ir perktrauti SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Atidaryti programą</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Tinklapis</itemWebsite>
+		<itemCheckForUpdates>Ieškoti atnaujinimų…</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Išeiti</itemExit>
+		<itemSensorBased>Remiantis jutikliais</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Nustatymai</title>
+		<TabGeneral>Pagriniai</TabGeneral>
+		<tabTrayIcon>Piktograma</tabTrayIcon>
+		<tabTrayIconMac>Meniu juostos ikona</tabTrayIconMac>
+		<tabDiagnostics>Diagnostika</tabDiagnostics>
+		<staticLanguage>Kalba:</staticLanguage>
+		<checkSystemStart>Paleisti su sistema (rekomenduojama)</checkSystemStart>
+		<checkFahrenheit>Naudoti Farenheito temperatūros skalę</checkFahrenheit>
+		<checkPrecise>Patikslinti temperatūrą, kai galima (pvz.: 45.4)</checkPrecise>
+		<staticSensor>Jutiklisr:</staticSensor>
+		<staticFan>Ventiliatorius:</staticFan>
+		<staticIcon>Ikona:</staticIcon>
+		<comboIconOptionShow>Rodyti</comboIconOptionShow>
+		<comboIconOptionShowBW>Rodyti (juoda &amp; balta)</comboIconOptionShowBW>
+		<comboOptionNone>Nė vienas</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(Tik Celsijus)</staticCelsiusOnlyOnWindows>
+		<checkLog>Įjungti registravima (reikia perkrovimo)</checkLog>
+		<browseLog>Naršyti</browseLog>
+		<buttonCopyTechInfo>Kopijuoti technine informaciją</buttonCopyTechInfo>
+		<copyInfoMessage>Techninė informacija nukopijjuota</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Apie Macs Fan Conrol programą</title>
+		<staticTechnicalSupport>Techninė pagalba forumuose</staticTechnicalSupport>
+		<staticOnlineHelp>Gyva pagalva</staticOnlineHelp>
+		<staticWarning>Programa skirta pažengusiems vartotojams, kurie žino, kaip nepakenkti kompiuteriui. Autoriai neatsakyngi už informacijos praradimą ar kitą žalą, kuri susieta su programos tinkamu ar netinkamu naudojimu</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - yra nauja versija</title>
+		<staticNewVersion>Yra nauja programos versija. Prašome apsilankyti mūsų &lt;a href=‘svetainėje’&gt;website&lt;/a&gt;</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Uždaryti</buttonClose>
+		<buttonOK>Gerai</buttonOK>
+		<buttonCancel>Atšaukti</buttonCancel>
+		<buttonContinue>Tęsti</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>išleista %1</ReleasedOn>
+		<CheckForUpdates>Ieškoti naujinimų…</CheckForUpdates>
+		<NewVersionAvailable>Nauja programos versija %1 yra pasiekiama!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 dabar pasiekiama - jūs turite %3. Ar norėtumėte atsisiųsti dabar?</NewVersionAvailableText>
+		<UpdateAlertTitle>Atnaujinimas</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Užrašai:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Priminti vėliau</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Praleisti šią versiją</UpdateAlertSkip>
+		<UpdateAlertInstall>Įrašyti naujinimą</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Ieškoti naujinimų dabar</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Jūs turite naujausią versiją!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 yra naujausia versiją.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Įvyko klaida siunčiantis atnaujinimą. Pameginkite vėiau.</MessageErrorConnect>
+		<MessageErrorParse>Įvyko klaida naujinant</MessageErrorParse>
+		<UpdateProgressTitle>Naujinama %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Atšaukti</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Įrašyti ir perkrauti</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Siunčiamas naujinimas…</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Atidaromas naujinimas…</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Paruošta naujinimui</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 iš %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

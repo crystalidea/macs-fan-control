@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.2.0" Author="Ismael Vilas Boas">
+	<MainWindow>
+		<staticFanListHeader>Ventoínhas:</staticFanListHeader>
+		<staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
+		<listColumnFan>Ventoínha</listColumnFan>
+		<listColumnRPM>Min/Actual/Max RPM</listColumnRPM>
+		<listColumnControl>Controlar</listColumnControl>
+		<listColumnSensor>Sensor</listColumnSensor>
+		<listColumnSensorValue>Valor</listColumnSensorValue>
+		<listSeparatorDrives>Unidades de Disco:</listSeparatorDrives>
+		<popupMenuItemControl>Modificar valores...</popupMenuItemControl>
+		<popupMenuItemReset>Reativar controlo automatico</popupMenuItemReset>
+		<fanControlAutomatic>Automatico</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatico (controlado pelo sistema)</fanControlAutomaticInfo>
+		<fanControlConstant>Valor Constante de %1</fanControlConstant>
+		<fanControlSensor>Fixo em %1</fanControlSensor>
+		<fanControlUnknown>Desconhecido!</fanControlUnknown>
+		<buttonFanControlCustom>Personalizado...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Especifique um modo de controlo personalizado</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimizar</buttonMinimize>
+		<buttonMinimizeMac>Ocultar na barra de menus</buttonMinimizeMac>
+		<buttonPreferences>Configurações...</buttonPreferences>
+		<buttonAbout>Sobre...</buttonAbout>
+		<statusMoreApps>Versão %1 e mais aplicações</statusMoreApps>
+		<messageNonAppleFSWarningMac>Modo de leitura apenas: sistema de ficheiros não Apple detectado (%1). Moveu a aplicação para a pasta /Aplicações?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Controlo para %1 ventoinha</title>
+		<radioConstant>RPM com valor constante</radioConstant>
+		<radioSensor>Valor baseado no Sensor</radioSensor>
+		<staticIncrease>Temperatura em que a velocidade \nda ventoinha começa a aumentar:</staticIncrease>
+		<staticMax>Temperatura maxima:</staticMax>
+		<statusWarning>Algo está errado - os valores min e max da ventoinha são iguais (%1).&lt;br/&gt; Por favor certifique-se que desinstala outros softwares de controlo de ventoinha e repõe o SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Mostrar Macs Fan Control</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Website</itemWebsite>
+		<itemCheckForUpdates>Procurar actualizações...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Sair</itemExit>
+		<itemSensorBased>Sensor-Baseado</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Configurações</title>
+		<TabGeneral>Geral</TabGeneral>
+		<tabTrayIcon>Icone na barra</tabTrayIcon>
+		<tabTrayIconMac>Icone na barra de menus</tabTrayIconMac>
+		<tabDiagnostics>Diagnosticos</tabDiagnostics>
+		<staticLanguage>Idioma:</staticLanguage>
+		<checkSystemStart>Abrir minimizado ao iniciar o sistema (recomendado)</checkSystemStart>
+		<checkFahrenheit>Usar escala de temperatura Fahrenheit</checkFahrenheit>
+		<checkPrecise>Mostrar valores de temperatura mais exatos quando possível (ex. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Ventoínha:</staticFan>
+		<staticIcon>Icone:</staticIcon>
+		<comboIconOptionShow>Mostrar</comboIconOptionShow>
+		<comboIconOptionShowBW>Mostrar (preto e branco)</comboIconOptionShowBW>
+		<comboOptionNone>Nenhum</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(apenas Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Activar depuração (necessário reiníciar)</checkLog>
+		<browseLog>Procurar</browseLog>
+		<buttonCopyTechInfo>Copiar informação tecnica</buttonCopyTechInfo>
+		<copyInfoMessage>A informação tecnica foi copiada para a área de tranferência</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Sobre Macs Fan Control</title>
+		<staticTechnicalSupport>Suporte tecnico no forum</staticTechnicalSupport>
+		<staticOnlineHelp>Ajuda Online</staticOnlineHelp>
+		<staticWarning>ESTE PROGRAMA É PARA UTILIZADORES AVANÇADOS QUE SABEM COMO O USAR SEM DANIFICAR O SEU MAC. OS AUTORES NÃO SÃO RESPONSÁVEIS POR PERDAS DE DADOS, DANOS, PERDA DE LUCROS OU OUTROS TIPOS DE PERDAS RELACIONADAS COM O USO OU MAU USO DO PROGRAMA</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Nova versão disponível</title>
+		<staticNewVersion>Nova versão do programa disponível. Por favor visite nosso &lt;a href='website'&gt;website&lt;/a&gt; para a nova versão.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Fechar</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Cancelar</buttonCancel>
+		<buttonContinue>Continuar</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>publicado em %1</ReleasedOn>
+		<CheckForUpdates>Procurar atualizações...</CheckForUpdates>
+		<NewVersionAvailable>Uma versão nova de %1 está disponível!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 está disponível - você tem a %3. Gostaria de a descarregar agora?</NewVersionAvailableText>
+		<UpdateAlertTitle>Atualização de Software</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Notas da Versão:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Lembrar depois</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Saltar esta Versão</UpdateAlertSkip>
+		<UpdateAlertInstall>Instalar Atualização</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Procurar atualizações automaticamente</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Encontra-se atualizado!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 é atualmente a ultima versão disponível.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Um erro ocorreu enquanto descarregava a atualização. Por favor tente mais tarde.</MessageErrorConnect>
+		<MessageErrorParse>Ocorreu um erro ao carregar a lista de versões.</MessageErrorParse>
+		<UpdateProgressTitle>Atualizando %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Cancelar</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Instalar e Reabrir</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Descarregando Atualização...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Extraindo atualização...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Pronto a instalar</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 de %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Não foi possível mover para a pasta Aplicações</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Mover para a pasta Aplicações</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Mover para a pasta Aplicações na sua pasta Pessoal?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Posso mover-me para a pasta Aplicações se desejar.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Mover para a pasta Aplicações</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Não mover</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Atenção que isto irá necessitar da palavra-passe de administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Isto irá manter a sua pasta Descargas organizada.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

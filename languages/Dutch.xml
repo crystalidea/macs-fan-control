@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.3" Author="Rene Jongma">
+	<MainWindow>
+		<staticFanListHeader>Ventilatoren:</staticFanListHeader>
+		<staticSensorsListHeader>Temperatuur sensoren:</staticSensorsListHeader>
+		<listColumnFan>Ventilator</listColumnFan>
+		<listColumnRPM>Min/Huidige/Max RPM</listColumnRPM>
+		<listColumnControl>Beheer</listColumnControl>
+		<listColumnSensor>Sensor</listColumnSensor>
+		<listColumnSensorValue>Waarde</listColumnSensorValue>
+		<listSeparatorDrives>Schijven:</listSeparatorDrives>
+		<popupMenuItemControl>Beheer wijzigen...</popupMenuItemControl>
+		<popupMenuItemReset>Herstellen naar automatisch beheer</popupMenuItemReset>
+		<fanControlAutomatic>Auto</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatisch (beheerd door systeem)</fanControlAutomaticInfo>
+		<fanControlConstant>Constante waarde van %1</fanControlConstant>
+		<fanControlSensor>Gebaseerd op %1</fanControlSensor>
+		<fanControlUnknown>Onbekend!</fanControlUnknown>
+		<buttonFanControlCustom>Aangepast...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specificeer een aangepaste controle modus</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimaliseren</buttonMinimize>
+		<buttonMinimizeMac>Verbergen naar menubalk</buttonMinimizeMac>
+		<buttonPreferences>Voorkeuren...</buttonPreferences>
+		<buttonAbout>Over...</buttonAbout>
+		<statusMoreApps>%1 versie &amp; meer apps</statusMoreApps>
+		<messageNonAppleFSWarningMac>Alleen lezen modus: niet-Apple bestandssysteem gedetecteerd (%1). Heb je de applicatie verplaatst naar /Applications ?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Ventilator beheer voor ventilator %1</title>
+		<radioConstant>Constante RPM waarde</radioConstant>
+		<radioSensor>Sensor-gebaseerde waarde</radioSensor>
+		<staticIncrease>Start temperatuur waarop de ventilator snelheid zal toenemen:</staticIncrease>
+		<staticMax>Maximum temperatuur:</staticMax>
+		<statusWarning>Er is iets fout gegaan - min/max waarden van de ventilator zijn gelijk (%1).&lt;br/&gt; Zorg er voor dat er geen andere ventilator applicatie actief is en herstel SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Toon Macs Fan Control</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Website</itemWebsite>
+		<itemCheckForUpdates>Controleren op updates...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Afsluiten</itemExit>
+		<itemSensorBased>Sensor gebaseerd</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Voorkeuren</title>
+		<TabGeneral>Algemeen</TabGeneral>
+		<tabTrayIcon>Menubalk symbool</tabTrayIcon>
+		<tabTrayIconMac>Menubalk symbool weergeven</tabTrayIconMac>
+		<tabDiagnostics>Diagnose</tabDiagnostics>
+		<staticLanguage>Taal:</staticLanguage>
+		<checkSystemStart>Geminimaliseerd starten met systeem (aanbevolen)</checkSystemStart>
+		<checkFahrenheit>Fahrenheit gebruiken voor temperatuur aanduiding</checkFahrenheit>
+		<checkPrecise>Als het mogelijk is de exact temperatuur weergeven (b.v. 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Ventilator:</staticFan>
+		<staticIcon>Symbool:</staticIcon>
+		<comboIconOptionShow>Tonen</comboIconOptionShow>
+		<comboIconOptionShowBW>Tonen (zwart &amp; wit)</comboIconOptionShowBW>
+		<comboOptionNone>Geen</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(alleen Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Log gebruiken (herstart noodzakelijk)</checkLog>
+		<browseLog>Zoeken</browseLog>
+		<buttonCopyTechInfo>Technische informatie kopiëren</buttonCopyTechInfo>
+		<copyInfoMessage>Technische informatie is naar het klembord gekopieerd</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Over Macs Fan Control</title>
+		<staticTechnicalSupport>Technische ondersteuning op het Forum</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>DIT PROGRAMMA IS VOOR GEAVANCEERDE GEBRUIKERS DIE WETEN HOE HET PROGRAMMA TE GEBRUIKEN ZONDER HUN MAC SCHADE TOE TE BRENGEN. DE AUTEURS ZIJN NIET VERANTWOORDELIJK VOOR DATA VERLIES, BESCHADIGINGEN, WINSTDERVING OF ENIGE ANDERE VORM VAN VERLIEZEN VERBONDEN AAN HET GEBRUIK OF MISBRUIK VAN HET PROGRAMMA.</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Nieuwe versie beschikbaar</title>
+		<staticNewVersion>Er is een nieuwe versie van het programma beschikbaar. Bezoek onze &lt;a href='website'&gt;website&lt;/a&gt; voor de nieuwste versie.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Sluiten</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Annuleren</buttonCancel>
+		<buttonContinue>Doorgaan</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>uitgebracht op %1</ReleasedOn>
+		<CheckForUpdates>Controleren op updates...</CheckForUpdates>
+		<NewVersionAvailable>Een nieuwe versie: %1 is beschikbaar!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 is nu beschikbaar - u heeft %3. Wilt u deze nieuwe versie downloaden?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Versie informatie:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Herinner mij later</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Deze versie overslaan</UpdateAlertSkip>
+		<UpdateAlertInstall>Update installeren</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Automatisch controleren updates</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Deze versie up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 is momenteel de meest recente versie.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Er is een fout opgetreden bij het downloaden van de update. Probeer het later nog eens.</MessageErrorConnect>
+		<MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
+		<UpdateProgressTitle>Bezig met bijwerken van versie %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Annuleren</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Update extraheren...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 van %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Kon niet verplaatsen naar de Programma's map</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Verplaatsen naar Programma's map?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Verplaatsen naar Programma's map in uw persoonlijke map?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Ik kan mezelf naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Verplaats naar Programma's map</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een wachtwoord van een beheerder.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map schoon.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

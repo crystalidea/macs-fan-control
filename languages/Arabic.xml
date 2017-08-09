@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.4.0" Author="Samer AlRubaee-Iraq">
+	<MainWindow>
+		<staticFanListHeader>المراوح:</staticFanListHeader>
+		<staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
+		<listColumnFan>المروحه</listColumnFan>
+		<listColumnRPM>اقصى سرعه/السرعه الحاليه/ادنى سرعه</listColumnRPM>
+		<listColumnControl>التحكم</listColumnControl>
+		<listColumnSensor>الحساس</listColumnSensor>
+		<listColumnSensorValue>القيمه</listColumnSensorValue>
+		<listSeparatorDrives>القرص الصلب:</listSeparatorDrives>
+		<popupMenuItemControl>تغيير طريقة التحكم</popupMenuItemControl>
+		<popupMenuItemReset>اعادة طريقة التحكم الى الطريقة الافتراضية</popupMenuItemReset>
+		<fanControlAutomatic>تلقائي</fanControlAutomatic>
+		<fanControlAutomaticInfo>تلقائي(بواسطة النظام)</fanControlAutomaticInfo>
+		<fanControlConstant>قيمة ثابته of %1</fanControlConstant>
+		<fanControlSensor>على أساس %1</fanControlSensor>
+		<fanControlUnknown>غير معروف!</fanControlUnknown>
+		<buttonFanControlCustom>مخصص…</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>حدد نمط خاص للتحكم</buttonFanControlCustomInfo>
+		<buttonMinimize>تصغير</buttonMinimize>
+		<buttonMinimizeMac>اخفاء الى شريط القائمة</buttonMinimizeMac>
+		<buttonPreferences>التفضيلات</buttonPreferences>
+		<buttonAbout>حول…</buttonAbout>
+		<statusMoreApps>%1 اصدار &amp; تطبيقات اخرى</statusMoreApps>
+		<messageNonAppleFSWarningMac>نمط القراءة فقط: تم اكتشاف ملف ليس من آبل (%1). حاول نقل التطبيق الى '/Applications'?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>للتحكم في البرنامج يجب ادخال كلمة السر لتثبيت مساعد البرنامج.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>التطبيق غير متاح</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>البرنامج غير قادر على الاتصال بالتطبيق المساعد لتمكينه بالشكل الصحيح للتحكم بالسرعات. \n\تأكد من ادخال كلمة سر المدير عند الطلب.\n\nلمزيد من المعلومات, اتصل بنا على \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>ضبط المروحة</title>
+		<radioConstant>مقدار ثابت لعدد دورات المروحة</radioConstant>
+		<radioSensor>حسب حساس درجة الحرارة</radioSensor>
+		<staticIncrease>درجة الحرارة التي منها تبدأ المروحة زيادة سرعتها:</staticIncrease>
+		<staticMax>درجة الحرارة القصوى:</staticMax>
+		<statusWarning>خطأ ما - دنيا/قصوى قيمة المروحة على حد سواء (%1).&lt;br/&gt; رجاءا تأكد من حذف اي برنامج آخر يتحكم بالمروحه او حاول ان تعمل reset SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>اظهار نافذة البرنامج</itemShow>
+		<itemMoreLinks>المزيد</itemMoreLinks>
+		<itemWebsite>الموقع الرسمي</itemWebsite>
+		<itemCheckForUpdates>التحقق من وجود تحديثات...</itemCheckForUpdates>
+		<itemRateApp>قيمنا على Macupdate</itemRateApp>
+		<itemFollowTwitter>تابعنا @crystalidea</itemFollowTwitter>
+		<itemExit>الخروج</itemExit>
+		<itemSensorBased>اساس تحكم المستشعر</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>التفضيلات</title>
+		<TabGeneral>عام</TabGeneral>
+		<tabTrayIcon>ايقونة شريط المهام</tabTrayIcon>
+		<tabTrayIconMac>عرض ايقونه في شريط القائمة</tabTrayIconMac>
+		<tabDiagnostics>التشخيص</tabDiagnostics>
+		<staticLanguage>اللغه:</staticLanguage>
+		<checkSystemStart>تشغيل تلقائي مع النظام (مستحسن)</checkSystemStart>
+		<checkFahrenheit>استخدام مقياس درجة حراره فهرنهايت</checkFahrenheit>
+		<checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
+		<staticSensor>الحساس:</staticSensor>
+		<staticFan>المروحه:</staticFan>
+		<staticIcon>الايقونه:</staticIcon>
+		<comboIconOptionShow>عرض ملون</comboIconOptionShow>
+		<comboIconOptionShowBW>عرض (اسود &amp; ابيض)</comboIconOptionShowBW>
+		<comboOptionNone>لا شيء</comboOptionNone>
+		<checkTwoLines>عرض قراءات المروحة/الحساس بشكل خطين لتوفير المساحة</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(مئوية فقط)</staticCelsiusOnlyOnWindows>
+		<checkLog>تمكين السجل (مطلوب اعادة التشغيل)</checkLog>
+		<browseLog>استعراض</browseLog>
+		<buttonCopyTechInfo>نسخ المعلومات التقنية</buttonCopyTechInfo>
+		<copyInfoMessage>تم نسخ المعلومات التقنية إلى الحافظة</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>حول البرنامج</title>
+		<staticTechnicalSupport>الدعم الفني على المنتدى</staticTechnicalSupport>
+		<staticOnlineHelp>المساعده على الويب</staticOnlineHelp>
+		<staticWarning>هذا البرنامج للمستخدمين المتقدمين الذين يعرفون كيفية استخدام تكنولوجيا المعلومات من دون الحاق الضرر بالماك . المؤلفون ليسو مسؤولين عن فقدان البيانات، والأضرار أو أية أنواع أخرى من خسائر متصلة مع استخدام أو سوء استخدام للبرنامج‫.‬تحيات معرب البرنامج سامر صباح‫-‬العراق</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - اصدار جديد متوفر حاليا</title>
+		<staticNewVersion>النسخة الجديدة من البرنامج متاح حاياً. يرجى زيارة موقعنا على &lt;a href='website'&gt;website&lt;/a&gt; من اجل احدث اصدار.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>قيم التطبيق على MacUpdate</message>
+		<informativeText>اذا كنت تستخدم %1, ممكن دقيقة من وقتك لتقييمه? لن تأخذ اكثر من دقيقة. شكراً لك على الدعم!</informativeText>
+		<buttonRate>قيم على MacUpdate</buttonRate>
+		<buttonNoThanks>لا ، شكراً</buttonNoThanks>
+		<checkDontShowAgain>لا تظهر هذه الرسالة مرة اخرى</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>اغلاق</buttonClose>
+		<buttonOK>موافق</buttonOK>
+		<buttonCancel>الغاء</buttonCancel>
+		<buttonContinue>استمرار</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>تم اصداره في %1</ReleasedOn>
+		<CheckForUpdates>البحث عن تحديثات…</CheckForUpdates>
+		<NewVersionAvailable>هناك اصدار جديد من %1 متاح!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 - اصدارك الآن هو %3. هل تريد تحديثه الآن?</NewVersionAvailableText>
+		<UpdateAlertTitle>تحديث البرنامج</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>ملاحظات الاصدار:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>ذكرني فيما بعد</UpdateAlertRemindLater>
+		<UpdateAlertSkip>تخطى هذا الاصدار</UpdateAlertSkip>
+		<UpdateAlertInstall>تثبيت التحديث</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>التدقيق بحثاً عن التحديثات تلقائياً</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>لديك بالفعل احدث اصدار!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 اصدارك حالياً.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>حدث خطأ في التحديث ‫..‬ حاول مرة اخرى فيما بعد.</MessageErrorConnect>
+		<MessageErrorParse>حدث خطأ أثناء تحليل التغذية العكسية للتحديث.</MessageErrorParse>
+		<UpdateProgressTitle>جاري التحديث %1</UpdateProgressTitle>
+		<UpdateProgressCancel>إلغاء</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>تثبيت وإعادة تشغيل التطبيق</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>جاري التحديث…</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>يتم فك الضغط…</UpdateProgressExtract>
+		<UpdateProgressStatusReady>جاهز للتثبيت</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+		<UpdateProgressB>بايت</UpdateProgressB>
+		<UpdateProgressKB>كيلو بايت</UpdateProgressKB>
+		<UpdateProgressMB>ميگابايت</UpdateProgressMB>
+		<UpdateProgressGB>گيگابايت</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>لا يمكن النقل الى مجلد التطبيقات</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>النقل اى مجلد التطبيقات</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Home لنقل الى مجلد التطبيقات في مجلد?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>هل تود %1 نقله الى مجلد التطبيقات?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>انقل الى مجلد التطبيقات</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>لا تنقل</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>لاحظ أن هذا سوف يتطلب كلمة مرور المسؤول.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>هذا سوف يبقي مجلد التحميل الخاص بك مرتب.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

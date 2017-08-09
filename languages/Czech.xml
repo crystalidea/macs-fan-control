@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.2.0" Author="jerry00">
+	<MainWindow>
+		<staticFanListHeader>Ventilátory:</staticFanListHeader>
+		<staticSensorsListHeader>Teplotní senzory:</staticSensorsListHeader>
+		<listColumnFan>Ventilátor</listColumnFan>
+		<listColumnRPM>Min/Aktuální/Max otáčky</listColumnRPM>
+		<listColumnControl>Ovládání</listColumnControl>
+		<listColumnSensor>Senzory</listColumnSensor>
+		<listColumnSensorValue>Hodnota</listColumnSensorValue>
+		<listSeparatorDrives>Disky:</listSeparatorDrives>
+		<popupMenuItemControl>Změnit ovládání...</popupMenuItemControl>
+		<popupMenuItemReset>Resetovat na automatiku</popupMenuItemReset>
+		<fanControlAutomatic>Automaticky</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automaticky (ovládané systémem)</fanControlAutomaticInfo>
+		<fanControlConstant>Konstantní hodnota %1</fanControlConstant>
+		<fanControlSensor>Senzor %1</fanControlSensor>
+		<fanControlUnknown>Neznámé!</fanControlUnknown>
+		<buttonFanControlCustom>Vlastní...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specifikuje vlastní režim ovládání</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimimalizovat</buttonMinimize>
+		<buttonMinimizeMac>Skrýt do horní lišty</buttonMinimizeMac>
+		<buttonPreferences>Nastavení...</buttonPreferences>
+		<buttonAbout>Informace o...</buttonAbout>
+		<statusMoreApps>Verze pro %1 &amp; další aplikace</statusMoreApps>
+		<messageNonAppleFSWarningMac>Režim Jen pro čtení: byl detekován jiný souborový systém, než Apple (%1). Přesunuli jste aplikaci do složky Aplikace ?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Způsob ovládání ventilátoru %1 ...</title>
+		<radioConstant>Konstantní otáčky</radioConstant>
+		<radioSensor>Hodnoty ovládá senzor</radioSensor>
+		<staticIncrease>Hodnota teploty, od které začne ventilátor pracovat:</staticIncrease>
+		<staticMax>Maximální teplota:</staticMax>
+		<statusWarning>Něco je špatně - Min./Max. hodnoty ventilátoru jsou shodné (%1).&lt;br/&gt; Zkontrolujte, zda jste odinstalovali všechny ostatní programy na ovládání ventilátorů a resetujte SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Zobrazit Macs Fan Control</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Webstránka</itemWebsite>
+		<itemCheckForUpdates>Aktualizovat...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Ukončit</itemExit>
+		<itemSensorBased>Ze senzoru</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Nastavení</title>
+		<TabGeneral>Obecné</TabGeneral>
+		<tabTrayIcon>Ikona v liště</tabTrayIcon>
+		<tabTrayIconMac>Zobrazit ikonu v horní liště</tabTrayIconMac>
+		<tabDiagnostics>Diagnostiky</tabDiagnostics>
+		<staticLanguage>Jazyk:</staticLanguage>
+		<checkSystemStart>Automaticky spustit při startu systému (doporučeno)</checkSystemStart>
+		<checkFahrenheit>Použít stupnici Fahrenheita</checkFahrenheit>
+		<checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
+		<staticSensor>Senzor:</staticSensor>
+		<staticFan>Ventilátor:</staticFan>
+		<staticIcon>Ikonu:</staticIcon>
+		<comboIconOptionShow>Zobrazit barevnou</comboIconOptionShow>
+		<comboIconOptionShowBW>Zobrazit (černobílou)</comboIconOptionShowBW>
+		<comboOptionNone>Nezobrazovat</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(pouze pro Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Povolit zprávy (vyžaduje restart)</checkLog>
+		<browseLog>Hledat</browseLog>
+		<buttonCopyTechInfo>Kopírovat technické informace</buttonCopyTechInfo>
+		<copyInfoMessage>Technické informace se zkopírují do schránky</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>O Macs Fan Control</title>
+		<staticTechnicalSupport>Technická podpora na našem diskuzním fóru</staticTechnicalSupport>
+		<staticOnlineHelp>Online pomoc</staticOnlineHelp>
+		<staticWarning>TENTO PROGRAM JE PRO ZKUŠENÉ UŽIVATELE, KTEŘÍ HO UMÍ POUŽÍT BEZ POŠKOZENÍ SVÉHO POČÍTAČE MAC. AUTOŘI PROGRAMU NENESOU ZODPOVĚDNOST ZA ZTRÁTU DAT, JAKÉKOLIV ŠKODY, ZTRÁTU ZISKU ANEBO JAKÝKOLIV JINÝ TYP ZTRÁTY, SPOJENÝ S POUŽÍVÁNÍM TOHOTO PROGRAMU!</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Je dostupná nová verze</title>
+		<staticNewVersion>Je dostupná nová verze programu. Navštivte prosím naše stránky &lt;a href='website'&gt;website&lt;/a&gt; kde získáte nejnovější verze.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Zavřít</buttonClose>
+		<buttonOK>Budiž</buttonOK>
+		<buttonCancel>Zrušit</buttonCancel>
+		<buttonContinue>Pokračovat</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>vydaná v %1</ReleasedOn>
+		<CheckForUpdates>Vyhledání aktualizací...</CheckForUpdates>
+		<NewVersionAvailable>Je dostupná nová verze %1!</NewVersionAvailable>
+		<NewVersionAvailableText>K dispozici je %1 %2 - máte %3. Chcete ji nyní stáhnout?</NewVersionAvailableText>
+		<UpdateAlertTitle>Aktualizace software</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Historie verzí:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Připomenout později</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Přeskočit tuto verzi</UpdateAlertSkip>
+		<UpdateAlertInstall>Nainstalovat</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Aktualizovat automaticky</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Máte aktualizováno!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 je nejnovější dostupná verze.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Při stahování došlo k chybě. Zkuste to později znovu.</MessageErrorConnect>
+		<MessageErrorParse>Došlo k chybě při analýze zdroje aktualizací.</MessageErrorParse>
+		<UpdateProgressTitle>Aktualizace %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Zrušit</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Instalovat a spustit</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Stahování aktualizace...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Rozbalovaní aktualizace...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Připraven instalovat</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 ze %2</UpdateProgressSize>
+		<UpdateProgressB>b</UpdateProgressB>
+		<UpdateProgressKB>Kb</UpdateProgressKB>
+		<UpdateProgressMB>Mb</UpdateProgressMB>
+		<UpdateProgressGB>Gb</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Nelze přesunout do složky Aplikace</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Přesunout do složky Aplikace?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Přesunout do složky Aplikace v domovské složce?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci do složky Aplikace.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Přesunout do složky Aplikace</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Nepřesouvat</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Poznámka: Tato akce vyžaduje oprávnění pro správu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní vám to mít složku Stahování/Downloads přehlednou.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.8" Author="nano88">
+	<MainWindow>
+		<staticFanListHeader>ファン:</staticFanListHeader>
+		<staticSensorsListHeader>温度センサー:</staticSensorsListHeader>
+		<listColumnFan>ファン</listColumnFan>
+		<listColumnRPM>最小回転数/現在の回転数/最大回転数(毎分)</listColumnRPM>
+		<listColumnControl>制御方法</listColumnControl>
+		<listColumnSensor>センサー</listColumnSensor>
+		<listColumnSensorValue>温度</listColumnSensorValue>
+		<listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+		<popupMenuItemControl>制御方法の変更...</popupMenuItemControl>
+		<popupMenuItemReset>自動制御に戻す</popupMenuItemReset>
+		<fanControlAutomatic>自動</fanControlAutomatic>
+		<fanControlAutomaticInfo>自動制御 (システムによる制御)</fanControlAutomaticInfo>
+		<fanControlConstant>回転数 %1</fanControlConstant>
+		<fanControlSensor>温度 %1</fanControlSensor>
+		<fanControlUnknown>Unknown!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>最小化</buttonMinimize>
+		<buttonMinimizeMac>メニューバーに隠す</buttonMinimizeMac>
+		<buttonPreferences>環境設定...</buttonPreferences>
+		<buttonAbout>Macs Fan Control について...</buttonAbout>
+		<statusMoreApps>%1 バージョン &amp; その他のアプリケーション</statusMoreApps>
+		<messageNonAppleFSWarningMac>リードオンリーモード: APPLEファイルシステムがありません (%1)</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>%1 ファンの制御方法</title>
+		<radioConstant>回転数を一定値</radioConstant>
+		<radioSensor>センサー温度による制御</radioSensor>
+		<staticIncrease>ファン速度が増加を始める温度:</staticIncrease>
+		<staticMax>最大温度:</staticMax>
+		<statusWarning>何かが間違っています - 最小/最大のファンの値が同じです。(%1).&lt;br/&gt; 他のファン制御ソフトウェアをアンインストールしてからSMCリセットして確認して下さい。</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Macs Fan Control を表示</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>ウェブサイトへ</itemWebsite>
+		<itemCheckForUpdates>アップデートの確認...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Macs Fan Control を終了</itemExit>
+		<itemSensorBased>温度制御</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>環境設定</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>トレイアイコン</tabTrayIcon>
+		<tabTrayIconMac>メニューバーアイコン表示</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>言語:</staticLanguage>
+		<checkSystemStart>システム開始時に最小化して起動 (推奨)</checkSystemStart>
+		<checkFahrenheit>温度単位に華氏を使用</checkFahrenheit>
+		<checkPrecise>可能な場合温度を正確に表示 (例 45.4)</checkPrecise>
+		<staticSensor>センサー:</staticSensor>
+		<staticFan>ファン:</staticFan>
+		<staticIcon>アイコン:</staticIcon>
+		<comboIconOptionShow>表示</comboIconOptionShow>
+		<comboIconOptionShowBW>表示 (モノクロ)</comboIconOptionShowBW>
+		<comboOptionNone>なし</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(摂氏のみ)</staticCelsiusOnlyOnWindows>
+		<checkLog>ログを有効 (再起動が必要)</checkLog>
+		<browseLog>参照</browseLog>
+		<buttonCopyTechInfo>技術的な情報をコピー</buttonCopyTechInfo>
+		<copyInfoMessage>技術的な情報をクリップボードにコピーしました。</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Macs Fan Control について</title>
+		<staticTechnicalSupport>テクニカルサポートフォーラム</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>このプログラムは自分のMacを損傷させずに使用する方法を知っている上級者向けの機能です。　作者は、データの損失、損害、利益損失またはプログラムの使用や誤用とその他のいかなるタイプの損失にも責任を負いません。 </staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - 新バージョンがあります</title>
+		<staticNewVersion>新バージョンのプログラムがあります。 最新のバージョンの為に私たちの&lt;a href='website'&gt;ウェブサイト&lt;/a&gt;を訪れて下さい。</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>閉じる</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>キャンセル</buttonCancel>
+		<buttonContinue>次へ</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>%1 日にリリース</ReleasedOn>
+		<CheckForUpdates>アップデートの確認...</CheckForUpdates>
+		<NewVersionAvailable>新しいバージョンの %1 が入手できます。</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 が入手できます（使用中のバージョンは %3 です）。今すぐダウンロードしますか?</NewVersionAvailableText>
+		<UpdateAlertTitle>ソフトウェア・アップデート</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>リリースノート:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>後で通知</UpdateAlertRemindLater>
+		<UpdateAlertSkip>このバージョンはスキップ</UpdateAlertSkip>
+		<UpdateAlertInstall>アップデートをインストール</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>アップデートを自動で確認させますか</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>最新版を使用しています！</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 は現在入手できる最新バージョンです。</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>アップデートをダウンロード中にエラーが発生しました。後でもう一度やり直してください。</MessageErrorConnect>
+		<MessageErrorParse>アップデートフィードを解析中にエラーが発生しました。</MessageErrorParse>
+		<UpdateProgressTitle>%1 をアップデート中</UpdateProgressTitle>
+		<UpdateProgressCancel>キャンセル</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>インストールして再起動</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>アップデートをダウンロードしています…</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>アップデートを展開しています…</UpdateProgressExtract>
+		<UpdateProgressStatusReady>インストールできます</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>アプリケーションフォルダに移動できませんでした</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>ホームフォルダ内の\"アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>アプリケーションフォルダに移動する</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>移動しない</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>この操作には管理者パスワードが必要です。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>これにより\"ダウンロード\"フォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.4.0" Author="CrystalIdea Software Team">
+	<MainWindow>
+		<staticFanListHeader>Mövcud sərinkeşlər:</staticFanListHeader>
+		<staticSensorsListHeader>Tempratur sensorları:</staticSensorsListHeader>
+		<listColumnFan>Sərinkeş</listColumnFan>
+		<listColumnRPM>Min/Hazırki/Max RPM</listColumnRPM>
+		<listColumnControl>İdarə</listColumnControl>
+		<listColumnSensor>Sensor</listColumnSensor>
+		<listColumnSensorValue>Dəyər</listColumnSensorValue>
+		<listSeparatorDrives>Disk Oxuyucuları:</listSeparatorDrives>
+		<popupMenuItemControl>İdarəni dəyiş...</popupMenuItemControl>
+		<popupMenuItemReset>Avtomatik idarəyə geri dön</popupMenuItemReset>
+		<fanControlAutomatic>Avtomatik</fanControlAutomatic>
+		<fanControlAutomaticInfo>Avtomatik (sistem tərəfindən idarə)</fanControlAutomaticInfo>
+		<fanControlConstant>%1-in daimi dəyəri</fanControlConstant>
+		<fanControlSensor>%1-ə əsasən</fanControlSensor>
+		<fanControlUnknown>Naməlum!</fanControlUnknown>
+		<buttonFanControlCustom>Xüsusi...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Xüsusi nəzarət sisteminə daxil ol</buttonFanControlCustomInfo>
+		<buttonMinimize>Gizlə</buttonMinimize>
+		<buttonMinimizeMac>Menyu çubuğuna gizlə</buttonMinimizeMac>
+		<buttonPreferences>Ayarlar...</buttonPreferences>
+		<buttonAbout>Haqqında...</buttonAbout>
+		<statusMoreApps>%1 versiya &amp; daha çox </statusMoreApps>
+		<messageNonAppleFSWarningMac>Yalnız oxuma rejimi: Qeyri-Apple fayl sistemi aşkar olundu(%1). Programı '/Applications' qovluğuna köcürülməsi yoxlanılsın?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>Sərinkeşləri nəzarət etmək üçün Macs Fan Control köməkçi alət üçün hüquqları təyin etməyiniz tələb olunur.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Sərinkeç idarəsi mövcud deyil</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control sərinkeşə nəzarət imkanı və sürətini tənzimləmək üçün köməkçiyə qoşula bilmədi. \n\nAdmistrator şifrəsini daxil etdiyinizdən əmin olun.\n\nƏtraflı məlumat üçün bizimlə əlaqə saxlayın \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>'%1' fan'üçün idarə</title>
+		<radioConstant>Sabit RPM dəyəri</radioConstant>
+		<radioSensor>Sensora əsaslanan dəyər</radioSensor>
+		<staticIncrease>Sərinkeşin sürətinin artma tempraturu:</staticIncrease>
+		<staticMax>Maksimum tempratur:</staticMax>
+		<statusWarning>Yalnış - min/maks sərinkeş dəyərləri eynidir (%1).&lt;br/&gt; Zəhmət olmasa digər sərinkeş nəzarət sistemlərini sildiyinizdən əmin olun və SMC-i yenidən başladın. </statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Macs Fan Control-u göstər</itemShow>
+		<itemMoreLinks>Ətraflı</itemMoreLinks>
+		<itemWebsite>Web-səhifə</itemWebsite>
+		<itemCheckForUpdates>Yeniləmələri yoxla...</itemCheckForUpdates>
+		<itemRateApp>Macupdate-da səs ver</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Tərk et</itemExit>
+		<itemSensorBased>Sensora əsaslanan</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Ayarlar</title>
+		<TabGeneral>Əsas</TabGeneral>
+		<tabTrayIcon>Çubuq düyməsi</tabTrayIcon>
+		<tabTrayIconMac>Menubar ekranı</tabTrayIconMac>
+		<tabDiagnostics>Diaqnostika</tabDiagnostics>
+		<staticLanguage>Dil:</staticLanguage>
+		<checkSystemStart>Sistemlə birlikdə gizli başlat (məsləhət olunan)</checkSystemStart>
+		<checkFahrenheit>Tempraturu Fahrenheyt-lə göstər </checkFahrenheit>
+		<checkPrecise>Mümkün hallarda tempraturu dəqiq göstər (məsələn 45.4)</checkPrecise>
+		<staticSensor>Sensor:</staticSensor>
+		<staticFan>Sərinkeş:</staticFan>
+		<staticIcon>Düymə:</staticIcon>
+		<comboIconOptionShow>Göstər</comboIconOptionShow>
+		<comboIconOptionShowBW>Göstər(qara &amp; ağ)</comboIconOptionShowBW>
+		<comboOptionNone>Heç nə</comboOptionNone>
+		<checkTwoLines>Qənaət üçün sərinkeç/sensor göstəricilərini iki xəttdə göstər</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(Ancaq Selsi)</staticCelsiusOnlyOnWindows>
+		<checkLog>Günlüyü aktıvləşdir (yenidən başlatmaq lazımdır)</checkLog>
+		<browseLog>Araşdır</browseLog>
+		<buttonCopyTechInfo>Texniki məlumatları kopyala</buttonCopyTechInfo>
+		<copyInfoMessage>Texniki məlumatlar kopyalandı</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Macs Fan Control haqqında</title>
+		<staticTechnicalSupport>Forumda texniki dstək</staticTechnicalSupport>
+		<staticOnlineHelp>Onlayn kömək</staticOnlineHelp>
+		<staticWarning>BU PROGRAM YALNIZ MAC-INA ZƏRƏR VERMƏDƏN DƏYİŞİKLİKLƏR ETMƏK İSTƏYƏN PROFESSİONALLAR ÜÇÜNDÜR. YAZIÇILAR MƏLUMAT İTKİSİNƏ, ZƏDƏLƏRƏ, QAZANC İTKİSİNƏ VƏ YA BAŞQA İTKİLƏRƏ GÖRƏ HEÇ BİR HALDA MƏSULİYYƏT DAŞIMIR!</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Təzə yeniləmə mövcuddur </title>
+		<staticNewVersion>Təzə yeniləmə mövcuddur. Endirmək üçün &lt;a href='website'&gt;website&lt;/a&gt; ziyarət edin.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>MacUpdate-də səs ver</message>
+		<informativeText>%1-dan razısınızsa, bir dəqiqənizi arıyıb səs verə bilərsinizmi? Bir dəqiqədən artıq çəkməyəcək. Dəstəyiniz üçün təşəkkürlər!</informativeText>
+		<buttonRate>MacUpdate-də səs ver</buttonRate>
+		<buttonNoThanks>Xeyr, təşəkkürlər</buttonNoThanks>
+		<checkDontShowAgain>Bu mesajı göstərmə</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Bağla</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>İmtina et</buttonCancel>
+		<buttonContinue>Davam et</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>%1da buraxılıb</ReleasedOn>
+		<CheckForUpdates>Yeniləmələri yoxla...</CheckForUpdates>
+		<NewVersionAvailable>%1yeniləməsi hazırdır!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 yeniləməsi hazırdır - sizdə isə %3dür. Endirmək istəyirsinizmi?</NewVersionAvailableText>
+		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Buraxılış qeydləri:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Sonra yadıma sal</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Yeniləməni atla</UpdateAlertSkip>
+		<UpdateAlertInstall>Yeniləməni quraşdır</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Yeniləmələri avtomatik yoxla</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 mövcüd ən sonuncu yeniləmə artıq quraşdırılıb.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Yeniləmənin endirilməsində xəta. Zəhmət olmasa yenidən yoxlayın</MessageErrorConnect>
+		<MessageErrorParse>Yeniləmənin tapılmasında xəta.</MessageErrorParse>
+		<UpdateProgressTitle>%1 Yenilənir</UpdateProgressTitle>
+		<UpdateProgressCancel>İmtina et</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Quraşdır və yenidən başlat</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Yeniləmə endirilir...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Yeniləmə çıxarılır...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Quraşdırmağa hazır</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 ın %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Applications qovluğuna köçürülə bilmir</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Applications qovluğuna köçür</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Ana qovluqdakı Applicaion qovluğuna köçürülsün?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>%1 özünü Applications qovluğuna köçürməsini istəyirsinizmi ?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Applications qovluğuna köçür</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Dəyişdirməyin</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Qeydə alın ki, bu adminstrator şifrəsi soruşacaq.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu sizin Yükləmə qovluğunuzu səliqəsiz edəcək.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

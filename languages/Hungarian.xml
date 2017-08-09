@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.12" Author="Gábor">
+	<MainWindow>
+		<staticFanListHeader>Ventillátorok:</staticFanListHeader>
+		<staticSensorsListHeader>Hőmérséklet szenzorok :</staticSensorsListHeader>
+		<listColumnFan>Ventillátor</listColumnFan>
+		<listColumnRPM>Min/Aktuális/Max RPM</listColumnRPM>
+		<listColumnControl>Vezérlés</listColumnControl>
+		<listColumnSensor>Szenzor</listColumnSensor>
+		<listColumnSensorValue>Érték</listColumnSensorValue>
+		<listSeparatorDrives>Meghajtók:</listSeparatorDrives>
+		<popupMenuItemControl>Irányítás megváltoztatása...</popupMenuItemControl>
+		<popupMenuItemReset>Visszaállítás alapértelmezettre</popupMenuItemReset>
+		<fanControlAutomatic>Automatikus (rendszer vezérelt)</fanControlAutomatic>
+		<fanControlAutomaticInfo>Automatikus (rendszer vezérelt)</fanControlAutomaticInfo>
+		<fanControlConstant>Állandó %1 érték</fanControlConstant>
+		<fanControlSensor>%1 alapján</fanControlSensor>
+		<fanControlUnknown>Ismeretlen!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Minimalizálás</buttonMinimize>
+		<buttonMinimizeMac>Tálcára helyezés</buttonMinimizeMac>
+		<buttonPreferences>Beállítások...</buttonPreferences>
+		<buttonAbout>Rólunk...</buttonAbout>
+		<statusMoreApps>%1 verzió &amp; más alkalmazások</statusMoreApps>
+		<messageNonAppleFSWarningMac>Csak olvasási mód: Nem Apple filerendszer (%1). Próbáld áthelyezni az appot: '/Applications'?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Következő beállítása: '%1' fan'</title>
+		<radioConstant>Állandó érték</radioConstant>
+		<radioSensor>Szenzor alapú:</radioSensor>
+		<staticIncrease>Kezdő hőméséklet:</staticIncrease>
+		<staticMax>Maximum hőmérséklet:</staticMax>
+		<statusWarning>Valami gond van - min/max értékek helytelenek (%1).&lt;br/&gt; Kérlek törölj minden más hasonló alkalmazást, és állítsd vissza az SMC-t.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Mutasd az alkalmazást</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Honlap</itemWebsite>
+		<itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Kilépés</itemExit>
+		<itemSensorBased>Szenzor alapú</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Beállítások</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Tray icon</tabTrayIcon>
+		<tabTrayIconMac>Menubar display</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Nyelv:</staticLanguage>
+		<checkSystemStart>Rendszerindításnál inul (javasolt)</checkSystemStart>
+		<checkFahrenheit>Használjon Fahrenheit skálát</checkFahrenheit>
+		<checkPrecise>Lehető legpontosabb kijelzés, ha lehetséges (pl: 45.4)</checkPrecise>
+		<staticSensor>Szenzor:</staticSensor>
+		<staticFan>Ventillátor:</staticFan>
+		<staticIcon>Ikon:</staticIcon>
+		<comboIconOptionShow>Mutasd</comboIconOptionShow>
+		<comboIconOptionShowBW>Mutasd (fekete &amp; fehér)</comboIconOptionShowBW>
+		<comboOptionNone>Nincs</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(Csak Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Log engedélyezése (újraindítás szükséges)</checkLog>
+		<browseLog>Tallózás...</browseLog>
+		<buttonCopyTechInfo>Technikai infó másolása</buttonCopyTechInfo>
+		<copyInfoMessage>Technikai infó a vágólapra másolva</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Az alkalmazásról</title>
+		<staticTechnicalSupport>Technikai támogatás a fórumon</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>Ez a program csak gyakorlott felhasználóknak ajánlott, akik pontosan tudják mit csinálnak. A fejlesztők nem vállalnak semmiféle felelősséget károkért, adatvesztésért, profit és bármilyen más típusú veszteség után amit a program okozhat.</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Új verzió elérhető</title>
+		<staticNewVersion>Új verzió elérhető, kérlek látogass el a &lt;a href='website'&gt;website&lt;/a&gt; for the newest version.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Kilépés</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Mégse</buttonCancel>
+		<buttonContinue>Folytatás</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
+		<CheckForUpdates>Frissítések keresése...</CheckForUpdates>
+		<NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
+		<NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
+		<UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
+		<UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
+		<MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
+		<UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
+		<UpdateProgressCancel>Mégse</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Frissítés letöltése...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Frissítés kibontása...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Telepítésre kész</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 - %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az Alkalmazások mappába</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Áthelyezés az Alkalmazások mappába?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Áthelyezés a Saját mappa Alkalmazások mappájába?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Ha szeretné, át tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Áthelyezés az Alkalmazások mappába</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Nincs áthelyezés</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Vegye figyelembe, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Így a Letöltések mappa rendezettebbé válik.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

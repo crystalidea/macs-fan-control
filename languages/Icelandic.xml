@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.2.0" Author="Þór Sigurðsson">
+	<MainWindow>
+		<staticFanListHeader>Aðgengilegar viftur:</staticFanListHeader>
+		<staticSensorsListHeader>Hitaskynjarar:</staticSensorsListHeader>
+		<listColumnFan>Vifta</listColumnFan>
+		<listColumnRPM>Lágmarks/Núverandi/Hámarks SNM</listColumnRPM>
+		<listColumnControl>Stýring</listColumnControl>
+		<listColumnSensor>Skynjari</listColumnSensor>
+		<listColumnSensorValue>Hitastig</listColumnSensorValue>
+		<listSeparatorDrives>Diska drif:</listSeparatorDrives>
+		<popupMenuItemControl>Breyta stýringu...</popupMenuItemControl>
+		<popupMenuItemReset>Endursetja á sjálfstýringu</popupMenuItemReset>
+		<fanControlAutomatic>Sjálfvirkt</fanControlAutomatic>
+		<fanControlAutomaticInfo>Sjálfvirkt (stjórnað af kerfi)</fanControlAutomaticInfo>
+		<fanControlConstant>Fast gildi af %1</fanControlConstant>
+		<fanControlSensor>Byggt á %1</fanControlSensor>
+		<fanControlUnknown>Óþekkt!</fanControlUnknown>
+		<buttonFanControlCustom>Sérsniðið...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Skilgreina sérsniðinn stjórnham</buttonFanControlCustomInfo>
+		<buttonMinimize>Minnka niður</buttonMinimize>
+		<buttonMinimizeMac>Fela í valmyndaslá</buttonMinimizeMac>
+		<buttonPreferences>Stillingar...</buttonPreferences>
+		<buttonAbout>Um...</buttonAbout>
+		<statusMoreApps>%1 útgáfa &amp; fleiri forrit</statusMoreApps>
+		<messageNonAppleFSWarningMac>Les-hamur: fann skráarkerfi sem er ekki frá Apple (%1). Prófaðu að færa forritið í '/Applications' möppuna.</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Viftustýring fyrir '%1' viftuna'</title>
+		<radioConstant>Stöðugt SNM gildi</radioConstant>
+		<radioSensor>Gildi frá skynjara</radioSensor>
+		<staticIncrease>Hitastig sem grundvallar aukinn viftuhraða:</staticIncrease>
+		<staticMax>Hámarks hitastig:</staticMax>
+		<statusWarning>Það er eitthvað að - lágm./hámarks viftugildi eru þau sömu (%1).&lt;br/&gt; Vinsamlegast fjarlægðu önnur viftustýringarforrit og endursettu SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Sýna Macs Fan Control</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Vefsíða</itemWebsite>
+		<itemCheckForUpdates>Leita að uppfærslum...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Hætta</itemExit>
+		<itemSensorBased>Grundvallað á skynjurum</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Stillingar</title>
+		<TabGeneral>Almennt</TabGeneral>
+		<tabTrayIcon>Táknmynd forrits</tabTrayIcon>
+		<tabTrayIconMac>Valmyndatáknmynd</tabTrayIconMac>
+		<tabDiagnostics>Villuleitun</tabDiagnostics>
+		<staticLanguage>Tungumál:</staticLanguage>
+		<checkSystemStart>Ræsa sjálfkrafa, smækkað, þegar kerfi ræsir (mælt með)</checkSystemStart>
+		<checkFahrenheit>Nota fahrenheit mælieiningu</checkFahrenheit>
+		<checkPrecise>Nákvæm birting hitastigs þegar mögulegt er (s.d. 45.4)</checkPrecise>
+		<staticSensor>Skynjari:</staticSensor>
+		<staticFan>Vifta:</staticFan>
+		<staticIcon>Táknmynd:</staticIcon>
+		<comboIconOptionShow>Sýna</comboIconOptionShow>
+		<comboIconOptionShowBW>Sýna (svart-hvítt)</comboIconOptionShowBW>
+		<comboOptionNone>Engin(n)</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(Aðeins celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Virkja annál (endurræsingar krafist)</checkLog>
+		<browseLog>Skoða</browseLog>
+		<buttonCopyTechInfo>Afrita tæknilegar upplýsingar</buttonCopyTechInfo>
+		<copyInfoMessage>Tæknilegar upplýsingar eru afritaðar á klippispjaldið</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>Um Macs Fan Control</title>
+		<staticTechnicalSupport>Tæknileg aðstoð á korkinum</staticTechnicalSupport>
+		<staticOnlineHelp>Aðstoð á netinu</staticOnlineHelp>
+		<staticWarning>FORRITIÐ ER FYRIR NOTENDUR SEM VITA HVERNIG ÞEIR GETA NOTAÐ ÞAÐ ÁN ÞESS AÐ SKEMMA MAKKANN SINN! HÖFUNDUR BER EKKI ÁBYRGÐ Á GAGNATAPI, SKEMMDUM, TEKJUTAPI EÐA NOKKRU ÖÐRU TAPI Í TENGSLUM VIÐ NOTKUN EÐA MISNOTKUN Á FORRITINU</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - Nýrri útgáfa er til</title>
+		<staticNewVersion>Nýrri útgáfa er til. Vinsamlegast sækið heim &lt;a href='vefsvæði'&gt;vefsvæði&lt;/a&gt; til að sækja nýjustu útgáfu.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Loka</buttonClose>
+		<buttonOK>Í lagi</buttonOK>
+		<buttonCancel>Hætta við</buttonCancel>
+		<buttonContinue>Halda áfram</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>gefið út þann %1</ReleasedOn>
+		<CheckForUpdates>Athuga með uppfærslur...</CheckForUpdates>
+		<NewVersionAvailable>Ný útgáfa af %1 er fáanleg!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 er nú fáanleg - Þú ert með %3. Myndirðu vilja sækja hana núna?</NewVersionAvailableText>
+		<UpdateAlertTitle>Hugbúnaðaruppfærsla</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Athugasemdir útgáfu:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Minntu mig á síðar</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Ekki innsetja þessa útgáfu</UpdateAlertSkip>
+		<UpdateAlertInstall>Innsetja uppfærslu</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Athuga með uppfærslur sjálfkrafa</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Þú ert með nýjustu útgáfu!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 er sem stendur nýjasta útgáfan.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Villa varð við að sækja nýja útgáfu. Vinsamlegast reyndu aftur síðar.</MessageErrorConnect>
+		<MessageErrorParse>Villa varð við að lesa uppfærsluupplýsingarnar.</MessageErrorParse>
+		<UpdateProgressTitle>Uppfæri %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Hætta við</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Innsetja og endurræsa</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Sæki uppfærslu...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Afþjappa uppfærslu...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Tilbúin til innsetningar</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 af %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

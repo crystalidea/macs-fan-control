@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.12" Author="Rosen Antov">
+	<MainWindow>
+		<staticFanListHeader>Достъпни вентилатори:</staticFanListHeader>
+		<staticSensorsListHeader>Tемпературни датчици:</staticSensorsListHeader>
+		<listColumnFan>Вентилатор</listColumnFan>
+		<listColumnRPM>Мин/Текущи/Макс обороти</listColumnRPM>
+		<listColumnControl>Управление</listColumnControl>
+		<listColumnSensor>Датчик</listColumnSensor>
+		<listColumnSensorValue>Температура</listColumnSensorValue>
+		<listSeparatorDrives>Дискове:</listSeparatorDrives>
+		<popupMenuItemControl>Променете начина на управление...</popupMenuItemControl>
+		<popupMenuItemReset>Възстановете автоматичното управление</popupMenuItemReset>
+		<fanControlAutomatic>Автоматично</fanControlAutomatic>
+		<fanControlAutomaticInfo>Автоматичен контрол на системата</fanControlAutomaticInfo>
+		<fanControlConstant>Постоянно значение %1</fanControlConstant>
+		<fanControlSensor>На основата на сензора %1</fanControlSensor>
+		<fanControlUnknown>Неизвестно!</fanControlUnknown>
+		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonMinimize>Скрий</buttonMinimize>
+		<buttonMinimizeMac>Скриване в лентата с менюта</buttonMinimizeMac>
+		<buttonPreferences>Настройки...</buttonPreferences>
+		<buttonAbout>За програмата...</buttonAbout>
+		<statusMoreApps>%1 версия и други интересни програми</statusMoreApps>
+		<messageNonAppleFSWarningMac>Не може да се промени режимът на вентиляторите:  открита е неизвестна файлова система (%1)</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>Управление на вентилятора '%1'</title>
+		<radioConstant>Постоянно значение на оборотите</radioConstant>
+		<radioSensor>Базирано на сензора</radioSensor>
+		<staticIncrease>Температура, при достигането на която оборотите се увеличават:</staticIncrease>
+		<staticMax>Максимална температура:</staticMax>
+		<statusWarning>Проблем – минималното и максималното значение на скоростта на вентилатора съвпадат (%1).&lt;br/&gt; Премахнете другото ПО, контролиращо работата на вентилаторите и нулирайте настройките на SMC.</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>Покажи Macs Fan Control</itemShow>
+		<itemMoreLinks>More</itemMoreLinks>
+		<itemWebsite>Уеб сайт</itemWebsite>
+		<itemCheckForUpdates>Проверка за обновяване...</itemCheckForUpdates>
+		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemExit>Изход</itemExit>
+		<itemSensorBased>Базирано на сензора</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>Настройки</title>
+		<TabGeneral>General</TabGeneral>
+		<tabTrayIcon>Иконка в лентата с програмите</tabTrayIcon>
+		<tabTrayIconMac>Показване в лентата с менютата</tabTrayIconMac>
+		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<staticLanguage>Език:</staticLanguage>
+		<checkSystemStart>Автостарт при включване на системата (препоръчва се)</checkSystemStart>
+		<checkFahrenheit>Да се използва скалата по Фаренхайт</checkFahrenheit>
+		<checkPrecise>По-точно показване на температурата (до десети от градуса)</checkPrecise>
+		<staticSensor>Сензор:</staticSensor>
+		<staticFan>Вентилатор:</staticFan>
+		<staticIcon>Иконка:</staticIcon>
+		<comboIconOptionShow>Показване</comboIconOptionShow>
+		<comboIconOptionShowBW>Показване (черно-бяла)</comboIconOptionShowBW>
+		<comboOptionNone>Не</comboOptionNone>
+		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(само по Целзий)</staticCelsiusOnlyOnWindows>
+		<checkLog>Позволяване на Log (необходимо е рестартиране на програмата)</checkLog>
+		<browseLog>Показване на Log</browseLog>
+		<buttonCopyTechInfo>Копирайте техническата информация</buttonCopyTechInfo>
+		<copyInfoMessage>Техническата информация е копирана в буфера за обмен</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>За програмата Macs Fan Control</title>
+		<staticTechnicalSupport>Техническа поддръжка на форума</staticTechnicalSupport>
+		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticWarning>ТАЗИ ПРОГРАМА Е ЗА НАПРЕДНАЛИ ПОТРЕБИТЕЛИ, КОИТО ЗНАЯТ КАК ДА Я ИЗПОЛЗВАТ БЕЗ ДА НАВРЕДЯТ НА СВОЯ MAC. АВТОРИТЕ НЕ НОСЯТ ОТГОВОРНОСТ ЗА ЗАГУБА НА ДАННИ, ПОВРЕДА НА ОБОРУДВАНЕТО И ВСЯКАКВИ ДРУГИ ЗАГУБИ, ПРОИЗТИЧАЩИ ОТ СОФТУЕРА</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control – достъпна е нова версия</title>
+		<staticNewVersion>Достъпна е нова версия на програмата. Посетете нашия Посетете нашия &lt;a href='website'&gt;уебсайт&lt;/a&gt; за сваляне.</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>Rate the app on MacUpdate</message>
+		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+		<buttonRate>Rate on MacUpdate</buttonRate>
+		<buttonNoThanks>No, thanks</buttonNoThanks>
+		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>Затвори</buttonClose>
+		<buttonOK>OK</buttonOK>
+		<buttonCancel>Отмяна</buttonCancel>
+		<buttonContinue>Продължи</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>пусната %1</ReleasedOn>
+		<CheckForUpdates>Проверка за обновяване...</CheckForUpdates>
+		<NewVersionAvailable>Достъпна е нова версия %1!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 е достъпна сега – вие разполагате с %3. Желаете ли да я свалите сега?</NewVersionAvailableText>
+		<UpdateAlertTitle>Обновяване на програмата</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Бележки за версията:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Напомнете ми по-късно</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Пропуснете тази версия</UpdateAlertSkip>
+		<UpdateAlertInstall>Инсталирайте обновяването</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Проверявай автоматично за обновявания</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Разполагате с последната версия.</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>При вас вече е инсталирана последната версия %1 %2.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>При получаване на информацията за обновяване възникна грешка. Опитайте по-късно.</MessageErrorConnect>
+		<MessageErrorParse>При обработката на информацията за обновяване възникна грешка.</MessageErrorParse>
+		<UpdateProgressTitle>Обновявам %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Отмени</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Инсталирай и рестартирай програмата</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Изтеглям обновяването...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Разопаковам обновяването...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Готов за инсталиране</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 от %2</UpdateProgressSize>
+		<UpdateProgressB>Б</UpdateProgressB>
+		<UpdateProgressKB>КБ</UpdateProgressKB>
+		<UpdateProgressMB>МБ</UpdateProgressMB>
+		<UpdateProgressGB>ГБ</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>

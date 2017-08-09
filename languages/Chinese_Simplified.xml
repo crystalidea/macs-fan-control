@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.4.2" Author="Samuel Lee [samuel_lee_1991@qq.com]">
+	<MainWindow>
+		<staticFanListHeader>风扇列表：</staticFanListHeader>
+		<staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
+		<listColumnFan>风扇</listColumnFan>
+		<listColumnRPM>最低/当前/最大旋转速度</listColumnRPM>
+		<listColumnControl>控制策略</listColumnControl>
+		<listColumnSensor>传感器</listColumnSensor>
+		<listColumnSensorValue>温度</listColumnSensorValue>
+		<listSeparatorDrives>磁盘驱动器：</listSeparatorDrives>
+		<popupMenuItemControl>修改控制策略...</popupMenuItemControl>
+		<popupMenuItemReset>重置为自动控制</popupMenuItemReset>
+		<fanControlAutomatic>自动</fanControlAutomatic>
+		<fanControlAutomaticInfo>自动（系统控制）</fanControlAutomaticInfo>
+		<fanControlConstant>固定转速为 %1</fanControlConstant>
+		<fanControlSensor>基于 %1</fanControlSensor>
+		<fanControlUnknown>不明！</fanControlUnknown>
+		<buttonFanControlCustom>自定...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>指定自定控制模式</buttonFanControlCustomInfo>
+		<buttonMinimize>最小化</buttonMinimize>
+		<buttonMinimizeMac>隐藏到菜单栏</buttonMinimizeMac>
+		<buttonPreferences>设置...</buttonPreferences>
+		<buttonAbout>关于...</buttonAbout>
+		<statusMoreApps>%1 版本 &amp; 更多应用程序</statusMoreApps>
+		<messageNonAppleFSWarningMac>只读模式： 检测到非Apple文件系统（%1）</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>为了控制风扇，Macs Fan Control 必须在其帮助工具下提升其权限。</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其旋转速度。\n\n请确定每当要求的时候，务必要输入管理员的密码。\n\n若要获取更多信息，请通过以下网站以便了解更多信息：\nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+	</MainWindow>
+	<FanControlDialog>
+		<title>修改 %1 风扇设置</title>
+		<radioConstant>固定转速</radioConstant>
+		<radioSensor>基于检测值</radioSensor>
+		<staticIncrease>高于此温度则提高风扇转速:</staticIncrease>
+		<staticMax>最高温度:</staticMax>
+		<statusWarning>错误 - 风扇的最大最小值相同（%1）。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
+	</FanControlDialog>
+	<TrayMenu>
+		<itemShow>显示主窗口</itemShow>
+		<itemMoreLinks>更多</itemMoreLinks>
+		<itemWebsite>主页</itemWebsite>
+		<itemCheckForUpdates>检查更新...</itemCheckForUpdates>
+		<itemRateApp>在 MacUpdate 评价</itemRateApp>
+		<itemFollowTwitter>关注 @crystalidea</itemFollowTwitter>
+		<itemExit>退出</itemExit>
+		<itemSensorBased>基于传感器检测值</itemSensorBased>
+	</TrayMenu>
+	<PreferencesWindow>
+		<title>设置</title>
+		<TabGeneral>通用</TabGeneral>
+		<tabTrayIcon>菜单栏图标</tabTrayIcon>
+		<tabTrayIconMac>菜单栏图标显示</tabTrayIconMac>
+		<tabDiagnostics>诊断</tabDiagnostics>
+		<staticLanguage>语言：</staticLanguage>
+		<checkSystemStart>随系统最小化自动启动（推荐）</checkSystemStart>
+		<checkFahrenheit>使用华氏单位显示</checkFahrenheit>
+		<checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
+		<staticSensor>传感器：</staticSensor>
+		<staticFan>风扇：</staticFan>
+		<staticIcon>图标：</staticIcon>
+		<comboIconOptionShow>显示彩色图标</comboIconOptionShow>
+		<comboIconOptionShowBW>显示黑白图标</comboIconOptionShowBW>
+		<comboOptionNone>不显示</comboOptionNone>
+		<checkTwoLines>使用两行显示风扇/传感器的信息以便节省一些空间</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>（只显示摄氏度）</staticCelsiusOnlyOnWindows>
+		<checkLog>开启日志（需要重启）</checkLog>
+		<browseLog>浏览</browseLog>
+		<buttonCopyTechInfo>拷贝技术信息</buttonCopyTechInfo>
+		<copyInfoMessage>技术信息已拷贝至剪贴板</copyInfoMessage>
+	</PreferencesWindow>
+	<AboutDialog>
+		<title>关于 Macs Fan Control</title>
+		<staticTechnicalSupport>技术支持</staticTechnicalSupport>
+		<staticOnlineHelp>在线帮助</staticOnlineHelp>
+		<staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的MAC的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
+	</AboutDialog>
+	<NewVersionDialog>
+		<title>Macs Fan Control - 发现新版本</title>
+		<staticNewVersion>有新版本了。请访问我们的 &lt;a href='website'&gt;网站&lt;/a&gt; 获得新版本。</staticNewVersion>
+	</NewVersionDialog>
+	<RateMeDialog>
+		<message>在 MacUpdate 评价应用</message>
+		<informativeText>如果您喜欢使用 %1，请问您是否会介意花点时间评价它？这个过程不会超过 1 分钟。感谢您的支持！</informativeText>
+		<buttonRate>在 MacUpdate 评价此程序</buttonRate>
+		<buttonNoThanks>不了，谢谢您</buttonNoThanks>
+		<checkDontShowAgain>请不要再显示此信息</checkDontShowAgain>
+	</RateMeDialog>
+	<Common>
+		<buttonClose>关闭</buttonClose>
+		<buttonOK>确定</buttonOK>
+		<buttonCancel>取消</buttonCancel>
+		<buttonContinue>继续</buttonContinue>
+	</Common>
+	<UpdateChecker>
+		<ReleasedOn>于 %1 发布</ReleasedOn>
+		<CheckForUpdates>检查更新...</CheckForUpdates>
+		<NewVersionAvailable>有新版本 %1 了！</NewVersionAvailable>
+		<NewVersionAvailableText>有新版本 %1 %2 - 您的版本为 %3。您希望下载新版本么？</NewVersionAvailableText>
+		<UpdateAlertTitle>软件更新</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>发布备注：</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>稍后提醒</UpdateAlertRemindLater>
+		<UpdateAlertSkip>忽略这个版本</UpdateAlertSkip>
+		<UpdateAlertInstall>安装更新</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>自动检查更新</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>您的版本已经是最新的！</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 是目前最新版本。</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>下载失败，请稍候重试。</MessageErrorConnect>
+		<MessageErrorParse>分析更新数据时发生错误。</MessageErrorParse>
+		<UpdateProgressTitle>更新 %1</UpdateProgressTitle>
+		<UpdateProgressCancel>放弃</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>安装并重启</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>下载更新数据...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>解压更新数据...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>准备安装</UpdateProgressStatusReady>
+		<UpdateProgressSize>%1 之 %2</UpdateProgressSize>
+		<UpdateProgressB>B</UpdateProgressB>
+		<UpdateProgressKB>KB</UpdateProgressKB>
+		<UpdateProgressMB>MB</UpdateProgressMB>
+		<UpdateProgressGB>GB</UpdateProgressGB>
+	</UpdateChecker>
+	<LetsMoveMac>
+		<kStrMoveApplicationCouldNotMove>无法移动到“应用程序”文件夹中</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>是否要把程序移动到“应用程序”文件夹中？</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>是否要把程序移动到你的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>移动到“应用程序”文件夹中</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>不移动</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要你输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>这样做能让你的“下载”文件夹保持整洁。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+	</LetsMoveMac>
+</LanguageStrings>
