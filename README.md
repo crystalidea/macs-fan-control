@@ -1,4 +1,3 @@
-This repository contains .xml files of [Macs Fan Control](https://www.crystalidea.com/macs-fan-control) translations.
-If you feel confortable with git, you can simply create a pull request to update your translation.
+Though [Macs Fan Control](https://www.crystalidea.com/macs-fan-control) is not open-source, we use this GitHub repository to track bugs, feature requests and get support on your problems. [See issues](https://github.com/crystalidea/macs-fan-control/issues)
 
-[Issues](https://github.com/crystalidea/macs-fan-control/issues) is the way to track bugs, feature requests and get support on your problems.
+The repository also contains Macs Fan Control translations as .xml files. If you feel confortable with git, you can simply create a pull request to update your translation.
