@@ -4,3 +4,5 @@ Before you post a question please include
 Creating screenshots on [macOS](http://www.wikihow.com/Take-a-Screenshot-in-Mac-OS-X), on [Windows](http://www.wikihow.com/Take-a-Screenshot-in-Microsoft-Windows).
 
 - Technical information from the Preferences/Diagnostics
+
+![GitHub Logo](create_issue_tech_info.png)
