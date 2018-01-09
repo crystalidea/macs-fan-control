@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.2.1" Author="OREKASEP - Thanh TRAN CONG">
+<LanguageStrings version="1.4.8.1" Author="OREKASEP - Thanh TRAN CONG">
 	<MainWindow>
 		<staticFanListHeader>Quạt:</staticFanListHeader>
 		<staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
@@ -24,10 +24,10 @@
 		<buttonAbout>Giới thiệu...</buttonAbout>
 		<statusMoreApps>phiên bản %1 &amp; Ứng dụng khác</statusMoreApps>
 		<messageNonAppleFSWarningMac>Chế độ Chỉ-Đọc: Không tìm thấy Hệ thống tệp tin Apple (%1). Hãy thử chuyển sang thư mục '/Applications'?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageFanControlMessage>Để điều kiển quạt, Macs Fan Control yêu cầu thiết lập các quyền cần thiết cho các công cụ hỗ trợ.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Không thể hỗ trợ điều khiển quạt</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control không thể kết nối tới công cụ hỗ trợ để bật chức năng điều khiển quạt cũng như chỉnh tốc độ. \n\nHãy điền mật khẩu administrator khi được hỏi.\n\nĐể biết thêm chi tiết, xin liên hệ tại \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>Không tìm thấy quạt của máy tính này</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>Điều khiển quạt cho %1</title>
@@ -39,10 +39,10 @@
 	</FanControlDialog>
 	<TrayMenu>
 		<itemShow>Hiện Macs Fan Control</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
+		<itemMoreLinks>Xem thêm</itemMoreLinks>
 		<itemWebsite>Website</itemWebsite>
 		<itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>
-		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemRateApp>Đánh giá trên Macupdate</itemRateApp>
 		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
 		<itemExit>Thoát</itemExit>
 		<itemSensorBased>Theo cảm biến</itemSensorBased>
@@ -74,18 +74,18 @@
 		<title>Giới thiệu Macs Fan Control</title>
 		<staticTechnicalSupport>Hỗ trợ kỹ thuật trên diễn đàn</staticTechnicalSupport>
 		<staticOnlineHelp>Trợ giúp trực tuyến</staticOnlineHelp>
-		<staticWarning>ỨNG DỤNG CHỈ NÊN SỬ DỤNG BỞI NHỮNG NGƯỜI BIẾT SỬ DỤNG SAO CHO KHÔNG LÀM ẢNH HƯỞNG TỚI MÁY MAC CỦA HỌ.\nTÁC GIẢ ỨNG DỤNG KHÔNG CHỊU TRÁCH NHIỆM TRƯỚC VIỆC MẤT MÁT DỮ LIỆU, HỎNG HÓC HAY BẤT CỨ LOẠI MẤT MÁT NÀO KHI SỬ DỤNG CHƯƠNG TRÌNH</staticWarning>
+		<staticWarning>ỨNG DỤNG CHỈ NÊN SỬ DỤNG BỞI NHỮNG NGƯỜI BIẾT SỬ DỤNG SAO CHO KHÔNG LÀM ẢNH HƯỞNG TỚI MÁY MAC CỦA MÌNH.\nTÁC GIẢ ỨNG DỤNG KHÔNG CHỊU TRÁCH NHIỆM TRƯỚC VIỆC MẤT MÁT DỮ LIỆU, HỎNG HÓC HAY BẤT CỨ LOẠI MẤT MÁT NÀO KHI SỬ DỤNG CHƯƠNG TRÌNH</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
 		<title>Macs Fan Control - Đã có phiên bản mới</title>
 		<staticNewVersion>Đã có phiên bản mới của ứng dụng. Hãy vào &lt;a href='website'&gt;website&lt;/a&gt; của chúng tôi để tải về phiên bản mới nhất.</staticNewVersion>
 	</NewVersionDialog>
 	<RateMeDialog>
-		<message>Rate the app on MacUpdate</message>
-		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-		<buttonRate>Rate on MacUpdate</buttonRate>
-		<buttonNoThanks>No, thanks</buttonNoThanks>
-		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+		<message>Đánh giá ứng dụng trên MacUpdate</message>
+		<informativeText>Nếu bạn hài lòng với %1, xin hãy dành một chút thời gian để đánh giá? Mất không đến một phút đâu. Cảm ơn bạn đã hỗ trợ!</informativeText>
+		<buttonRate>Đánh giá trên MacUpdate</buttonRate>
+		<buttonNoThanks>Không, cảm ơn</buttonNoThanks>
+		<checkDontShowAgain>Không hiện thông báo này nữa</checkDontShowAgain>
 	</RateMeDialog>
 	<Common>
 		<buttonClose>Đóng</buttonClose>
@@ -121,13 +121,13 @@
 		<UpdateProgressGB>GB</UpdateProgressGB>
 	</UpdateChecker>
 	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		<kStrMoveApplicationCouldNotMove>Không thể chuyển tới thư mục Applications</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Chuyển tới Applications</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Chuyển tới thư mục Applications trong thư mục Home của bạn?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 	</LetsMoveMac>
 </LanguageStrings>

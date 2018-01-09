@@ -23,11 +23,11 @@
 		<buttonPreferences>Einstellungen...</buttonPreferences>
 		<buttonAbout>Über...</buttonAbout>
 		<statusMoreApps>%1-Version &amp; weitere Apps</statusMoreApps>
-		<messageNonAppleFSWarningMac>Lesemodus: Nicht-Apple-Dateisystem entdeckt(%1)</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageNonAppleFSWarningMac>Lesemodus: Es wurde ein Dateisystem entdeckt, dass kein Apple-Dateisystem ist.(%1)</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>Um die Lüfter-Steuerung nutzen zu können, müssen Sie dem helper tool zusätzliche Rechte gewähren.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Die Lüfter-Steuerung ist nicht verfügbar.</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit der helper-App verbinden um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nFür weitere Informationen finden Sie unter: \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>Es wurden keine Lüfter gefunden.</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>Lüftersteuerung für %1-Lüfter</title>
@@ -39,10 +39,10 @@
 	</FanControlDialog>
 	<TrayMenu>
 		<itemShow>Macs Fan Control anzeigen</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
+		<itemMoreLinks>Mehr...</itemMoreLinks>
 		<itemWebsite>Website</itemWebsite>
 		<itemCheckForUpdates>Nach Aktualisierungen suchen</itemCheckForUpdates>
-		<itemRateApp>Rate on Macupdate</itemRateApp>
+		<itemRateApp>Auf Macupdate bewerten...</itemRateApp>
 		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
 		<itemExit>Beenden </itemExit>
 		<itemSensorBased>Sensorbasiert</itemSensorBased>
@@ -56,36 +56,36 @@
 		<staticLanguage>Sprache:</staticLanguage>
 		<checkSystemStart>Autostart minimiert mit Systemstart (empfohlen)</checkSystemStart>
 		<checkFahrenheit>Fahrenheit-Temperaturskala verwenden</checkFahrenheit>
-		<checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4)</checkPrecise>
+		<checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4°C/°F)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>
 		<staticFan>Lüfter:</staticFan>
 		<staticIcon>Symbol:</staticIcon>
 		<comboIconOptionShow>Anzeigen</comboIconOptionShow>
 		<comboIconOptionShowBW>Anzeigen (schwarz &amp; weiß)</comboIconOptionShowBW>
 		<comboOptionNone>Nicht anzeigen</comboOptionNone>
-		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(Nur Celsius)</staticCelsiusOnlyOnWindows>
-		<checkLog>Log aktivieren (Neustart notwendig)</checkLog>
+		<checkTwoLines>Lüfter/Sensoren-Werte übereinander anzeigen, um Platz zu sparen</checkTwoLines>
+		<staticCelsiusOnlyOnWindows>(Nur °C)</staticCelsiusOnlyOnWindows>
+		<checkLog>Ereignisprotokoll aktivieren (Neustart notwendig)</checkLog>
 		<browseLog>Öffnen…</browseLog>
-		<buttonCopyTechInfo>Technische Info kopieren</buttonCopyTechInfo>
+		<buttonCopyTechInfo>Technische Infos kopieren</buttonCopyTechInfo>
 		<copyInfoMessage>Technische Informationen wurden in die Zwischenablage kopiert</copyInfoMessage>
 	</PreferencesWindow>
 	<AboutDialog>
 		<title>Über Macs Fan Control</title>
 		<staticTechnicalSupport>Technische Unterstützung im Forum</staticTechnicalSupport>
 		<staticOnlineHelp>Online Hilfe</staticOnlineHelp>
-		<staticWarning>DAS PROGRAMM IST FÜR FORTGESCHRITTENE BENUTZER, DIE WISSEN, WIE ES ZU BENUTZEN IST, OHNE DADURCH IHREM MAC SCHADEN ZUZUFÜGEN. DIE AUTOREN SIND NICHT VERANTWORTLICH FÜR DATENVERLUST, BESCHÄDIGUNGEN, PROFITVERLUST ODER JEGLICHE ANDEREN VERLUSTE, DIE DURCH DIE BENUTZUNG ODER MISSBRÄUCHLICHE BENUTZUNG DIESES PROGRAMMES ENTSTEHEN KÖNNTEN.</staticWarning>
+		<staticWarning>DAS PROGRAMM IST FÜR FORTGESCHRITTENE BENUTZER VORGESEHEN, DIE SICH ÜBER DIE FUNKTIONEN UND GEFAHREN IM KLAREN SIND. DIE AUTOREN SIND NICHT VERANTWORTLICH FÜR DATENVERLUST, BESCHÄDIGUNGEN, PROFITVERLUST ODER JEGLICHE ANDEREN VERLUSTE, DIE DURCH DIE BENUTZUNG ODER MISSBRÄUCHLICHE BENUTZUNG DIESES PROGRAMMES ENTSTEHEN KÖNNTEN.</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
-		<title>Macs Fan Control - Neue Version erhältlich</title>
-		<staticNewVersion>Eine neue Version dieses Programmes ist verfügbar. Bitte besuchen Sie unsere &lt;a href=‚Website&gt;website&lt;/a&gt; für die neueste Version.</staticNewVersion>
+		<title>Macs Fan Control - Neue Version erhältlich!</title>
+		<staticNewVersion>Eine neue Version dieses Programms ist verfügbar. Bitte besuchen Sie unsere &lt;a href=‚Website&gt;website&lt;/a&gt; für die neueste Version.</staticNewVersion>
 	</NewVersionDialog>
 	<RateMeDialog>
-		<message>Rate the app on MacUpdate</message>
-		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-		<buttonRate>Rate on MacUpdate</buttonRate>
-		<buttonNoThanks>No, thanks</buttonNoThanks>
-		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+		<message>Bitte bewerten Sie uns bei MacUpdate.</message>
+		<informativeText>Gefällt Ihnen %1, dann würden wir uns sehr über eine Bewertung freuen. Es dauert weniger als eine Minute. Danke für Ihre Mithilfe!</informativeText>
+		<buttonRate>Bei MacUpdate bewerten.</buttonRate>
+		<buttonNoThanks>Nein, danke.</buttonNoThanks>
+		<checkDontShowAgain>Diesen Hinweis nicht wieder anzeigen.</checkDontShowAgain>
 	</RateMeDialog>
 	<Common>
 		<buttonClose>Schließen</buttonClose>
@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>Die Anwendung konnte nicht in den Programme-Ordner verschoben werden.</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>In den Programme-Ordner verschieben?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>In den Programme-Ordner in Ihrem Heimatverzeichnis verschieben?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ich kann mich selbst in den Programme-Ordner verschieben, wenn Sie möchten.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>Ich kann mich selbst (%1) in den Programme-Ordner verschieben, wenn Sie möchten.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>In den Programme-Ordner verschieben</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>Nicht verschieben</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bitte beachten Sie, dass für diesen Vorgang ein Administrator-Passwort benötigt wird.</kStrMoveApplicationQuestionInfoWillRequirePasswd>

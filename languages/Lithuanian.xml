@@ -49,7 +49,7 @@
 	</TrayMenu>
 	<PreferencesWindow>
 		<title>Nustatymai</title>
-		<TabGeneral>Pagriniai</TabGeneral>
+		<TabGeneral>Pagrindiniai</TabGeneral>
 		<tabTrayIcon>Piktograma</tabTrayIcon>
 		<tabTrayIconMac>Meniu juostos ikona</tabTrayIconMac>
 		<tabDiagnostics>Diagnostika</tabDiagnostics>

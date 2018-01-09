@@ -94,10 +94,10 @@
 		<buttonContinue>Continua</buttonContinue>
 	</Common>
 	<UpdateChecker>
-		<ReleasedOn>rRilasciato il %1</ReleasedOn>
-		<CheckForUpdates>Controllo gli aggiornamenti…</CheckForUpdates>
-		<NewVersionAvailable>Una nuova versione di %1 è disponibile!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 è disponibile, tu hai la %3. Vuoi scaricarla ora?</NewVersionAvailableText>
+		<ReleasedOn>Rilasciato il %1</ReleasedOn>
+		<CheckForUpdates>Controllo aggiornamenti…</CheckForUpdates>
+		<NewVersionAvailable>È disponibile una nuova versione di %1!</NewVersionAvailable>
+		<NewVersionAvailableText>È disponibile %1 v. %2. Installata v. %3. Vuoi scaricarla ora?</NewVersionAvailableText>
 		<UpdateAlertTitle>Aggiornamento software</UpdateAlertTitle>
 		<UpdateAlertReleaseNotes>Note di rilascio:</UpdateAlertReleaseNotes>
 		<UpdateAlertRemindLater>Ricordamelo più tardi</UpdateAlertRemindLater>
@@ -105,12 +105,12 @@
 		<UpdateAlertInstall>Installa l’aggiornamento</UpdateAlertInstall>
 		<UpdateAlertAutomaticUpdates>Controlla gli aggiornamenti in automatico</UpdateAlertAutomaticUpdates>
 		<MessageNoUpdateAvailable>Il programma è aggiornato!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 è la versione più recente disponibile.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Errore durante il download. Riprovare più tardi.</MessageErrorConnect>
+		<MessageNoUpdateAvailableDescription>%1 v. %2 è la versione più recente disponibile.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Errore durante il download. Riprova più tardi.</MessageErrorConnect>
 		<MessageErrorParse>Errore durante il controllo del file di aggiornamento.</MessageErrorParse>
-		<UpdateProgressTitle>Aggiornamento in corso %1</UpdateProgressTitle>
+		<UpdateProgressTitle>Aggiornamento di %1…</UpdateProgressTitle>
 		<UpdateProgressCancel>Annulla</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Installa e rilancia</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressInstallAndRelaunch>Installa e ri-esegui</UpdateProgressInstallAndRelaunch>
 		<UpdateProgressStatusDownloading>Download dell’aggiornamento…</UpdateProgressStatusDownloading>
 		<UpdateProgressExtract>Estrazione dell’aggiornamento……</UpdateProgressExtract>
 		<UpdateProgressStatusReady>Pronto per installare</UpdateProgressStatusReady>
@@ -121,13 +121,13 @@
 		<UpdateProgressGB>GB</UpdateProgressGB>
 	</UpdateChecker>
 	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Non posso spostarmi nella cartella Applicazioni</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Vuoi spostarmi nella cartella Applicazioni?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Vuoi spostarmi nella cartella Applicazioni del tuo utente?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Posso spostarmi nella cartella Applicazioni se vuoi.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Spostami nella cartella Applicazioni</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Non spostarmi</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Nota richiede la password di amministratore.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>In questo modo la cartella Download sarà pulita.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		<kStrMoveApplicationCouldNotMove>Impossibile spostare programma nella cartella Applicazioni</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Vuoi spostare il programam nella cartella Applicazioni?</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Vuoi spostare il programma nella cartella Applicazioni dell'utente?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>È possibile spostare il programma %1 nella cartella Applicazioni.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Sposta programma nella cartella Applicazioni</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Non spostare</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Nota: richiede la password di amministratore.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>In questo modo la cartella 'Download' sarà pulita.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 	</LetsMoveMac>
 </LanguageStrings>

@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>Nelze přesunout do složky Aplikace</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>Přesunout do složky Aplikace?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>Přesunout do složky Aplikace v domovské složce?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci do složky Aplikace.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci %1 do složky Aplikace.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>Přesunout do složky Aplikace</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>Nepřesouvat</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Poznámka: Tato akce vyžaduje oprávnění pro správu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>

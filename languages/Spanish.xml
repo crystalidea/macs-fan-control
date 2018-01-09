@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>No se ha podido trasladar a la carpeta Aplicaciones</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>¿Deseas trasladar la aplicación a la carpeta Aplicaciones?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>¿Deseas trasladar la aplicación a la carpeta Aplicaciones?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Esta aplicación puede trasladarse automáticamente a la carpeta Aplicaciones.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>Esta aplicación (%1) puede trasladarse automáticamente a la carpeta Aplicaciones.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>Trasladar a la carpeta Aplicaciones</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>No trasladar</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Se requiere contraseña de administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>

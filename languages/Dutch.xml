@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>Kon niet verplaatsen naar de Programma's map</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>Verplaatsen naar Programma's map?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>Verplaatsen naar Programma's map in uw persoonlijke map?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ik kan mezelf naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>Ik kan de app %1 naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>Verplaats naar Programma's map</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een wachtwoord van een beheerder.</kStrMoveApplicationQuestionInfoWillRequirePasswd>

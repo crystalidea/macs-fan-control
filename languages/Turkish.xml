@@ -96,38 +96,38 @@
 	<UpdateChecker>
 		<ReleasedOn>%1 tarihinde yayınlandı</ReleasedOn>
 		<CheckForUpdates>Güncellemeleri kontrol et...</CheckForUpdates>
-		<NewVersionAvailable>%1'un yeni sürümü mevcut!</NewVersionAvailable>
+		<NewVersionAvailable>%1' nun yeni sürümü mevcut!</NewVersionAvailable>
 		<NewVersionAvailableText>%1 %2 şu an mevcut - sizde mevcut olan %3. Şimdi indirmek ister misiniz?</NewVersionAvailableText>
 		<UpdateAlertTitle>Yazılım Güncelleme</UpdateAlertTitle>
 		<UpdateAlertReleaseNotes>Sürüm Notları:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Daha Sonra Hatırlat</UpdateAlertRemindLater>
+		<UpdateAlertRemindLater>Sonra Hatırlat</UpdateAlertRemindLater>
 		<UpdateAlertSkip>Bu Versiyonu Atla</UpdateAlertSkip>
 		<UpdateAlertInstall>Güncellemeyi Yükle</UpdateAlertInstall>
 		<UpdateAlertAutomaticUpdates>Güncellemeleri otomatik denetle</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Sürümünüz güncel!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 mevcut olan en yeni versiyon.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Güncellemeyi indirirken bir hata meydana geldi. Lütfen daha sonra tekrar deneyin.</MessageErrorConnect>
+		<MessageNoUpdateAvailable>Güncel Sürümdesiniz!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 mevcut olan en yeni sürümdür.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Güncellemeyi indirirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</MessageErrorConnect>
 		<MessageErrorParse>Güncelleştirme bilgisini alırken bir hata meydana geldi.</MessageErrorParse>
 		<UpdateProgressTitle>Güncelleniyor %1</UpdateProgressTitle>
 		<UpdateProgressCancel>İptal</UpdateProgressCancel>
 		<UpdateProgressInstallAndRelaunch>Yükleyin ve Yeniden Başlatın</UpdateProgressInstallAndRelaunch>
 		<UpdateProgressStatusDownloading>Güncelleme indiriliyor...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Güncelleme ayıklanıyor...</UpdateProgressExtract>
+		<UpdateProgressExtract>Güncelleme genişletiliyor...</UpdateProgressExtract>
 		<UpdateProgressStatusReady>Yüklemeye Hazır</UpdateProgressStatusReady>
-		<UpdateProgressSize>%2 de %1</UpdateProgressSize>
+		<UpdateProgressSize>%2 nin %1 i</UpdateProgressSize>
 		<UpdateProgressB>B</UpdateProgressB>
 		<UpdateProgressKB>KB</UpdateProgressKB>
 		<UpdateProgressMB>MB</UpdateProgressMB>
 		<UpdateProgressGB>GB</UpdateProgressGB>
 	</UpdateChecker>
 	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Applications klasörüne taşınamadı</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Application Klasörüne Taşınma</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Applications klasörü Kullanıcı klasörünüze taşınsın mı?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>İsterseniz uygulama Applications klasörüne taşınabilir.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Applications Klasörüne Taşınsın</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Taşınmasın</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu işlem için yönetici parolasının isteneceğeni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu işlem İndirmeler klasörünün dağılmasını engeller.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		<kStrMoveApplicationCouldNotMove>Uygulamalar klasörüne taşınamadı</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Uygulamalara Taşı</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Giriş klasörünüzdeki Uygulamalar klasörüne taşınsın mı?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>%1' nun kendini Uygulamalar klasörüne taşımasını ister misiniz?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Uygulamalar Klasörüne Taşı</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Taşıma</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu işlem için yönetici parolası istenecek.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu işlem İndirmeler klasörünü düzenli tutar.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 	</LetsMoveMac>
 </LanguageStrings>

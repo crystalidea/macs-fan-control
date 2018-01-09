@@ -115,19 +115,19 @@
 		<UpdateProgressExtract>업데이트 추출하는 중...</UpdateProgressExtract>
 		<UpdateProgressStatusReady>설치 준비</UpdateProgressStatusReady>
 		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
-		<UpdateProgressB>바이트</UpdateProgressB>
+		<UpdateProgressB>B</UpdateProgressB>
 		<UpdateProgressKB>KB</UpdateProgressKB>
 		<UpdateProgressMB>MB</UpdateProgressMB>
 		<UpdateProgressGB>GB</UpdateProgressGB>
 	</UpdateChecker>
 	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>애플리케이션 폴더로 이동할 수 없음</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>애플리케이션 폴더로 이동합니까?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>홈 폴더의 애플리케이션 폴더로 이동합니까?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>원하실 경우 애플리케이션 폴더로 이동할 수 있습니다.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>애플리케이션 폴더로 이동</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>이동하지 않음</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>이 작업은 관리자 비밀번호를 필요로 합니다.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>이 작업은 다운로드 폴더를 깔끔하게 해 줍니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		<kStrMoveApplicationCouldNotMove>Applications 폴더로 옮길 수 없습니다.</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Applications (으)로 옮기기</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Home 폴더내 Applications 폴더로 옮길까요?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>Applications 폴더로 자신을 옮기도록 %1 할 건가요?</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Applications 폴더로 옮기기</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>옮기지 않기</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>이건 관리자 비밀번호가 필요함을 알아두세요.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>이건 정리된 사용자의 다운로드 폴더를 유지합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 	</LetsMoveMac>
 </LanguageStrings>

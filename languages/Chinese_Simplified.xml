@@ -114,7 +114,7 @@
 		<UpdateProgressStatusDownloading>下载更新数据...</UpdateProgressStatusDownloading>
 		<UpdateProgressExtract>解压更新数据...</UpdateProgressExtract>
 		<UpdateProgressStatusReady>准备安装</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 之 %2</UpdateProgressSize>
+		<UpdateProgressSize>%1 ，共 %2</UpdateProgressSize>
 		<UpdateProgressB>B</UpdateProgressB>
 		<UpdateProgressKB>KB</UpdateProgressKB>
 		<UpdateProgressMB>MB</UpdateProgressMB>
@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>无法移动到“应用程序”文件夹中</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>是否要把程序移动到“应用程序”文件夹中？</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>是否要把程序移动到你的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>%1 我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>移动到“应用程序”文件夹中</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>不移动</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要你输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>

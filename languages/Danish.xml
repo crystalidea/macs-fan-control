@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>Kunne ikke flytte til mappen Programmer</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>Flyt til mappen Programmer?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>Flyt til mappen Programmer i din hjemmemappe?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Jeg kan flytte mig selv til mappen Programmer, hvis du ønsker det.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>%1 kan flytte mig selv til mappen Programmer, hvis du ønsker det.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>Flyt til mappen Programmer</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>Flyt ikke</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bemærk, at dette kræver en administrator-adgangskode.</kStrMoveApplicationQuestionInfoWillRequirePasswd>

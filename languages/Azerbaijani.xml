@@ -94,40 +94,40 @@
 		<buttonContinue>Davam et</buttonContinue>
 	</Common>
 	<UpdateChecker>
-		<ReleasedOn>%1da buraxılıb</ReleasedOn>
-		<CheckForUpdates>Yeniləmələri yoxla...</CheckForUpdates>
-		<NewVersionAvailable>%1yeniləməsi hazırdır!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 yeniləməsi hazırdır - sizdə isə %3dür. Endirmək istəyirsinizmi?</NewVersionAvailableText>
-		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Buraxılış qeydləri:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Sonra yadıma sal</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Yeniləməni atla</UpdateAlertSkip>
-		<UpdateAlertInstall>Yeniləməni quraşdır</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Yeniləmələri avtomatik yoxla</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 mövcüd ən sonuncu yeniləmə artıq quraşdırılıb.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Yeniləmənin endirilməsində xəta. Zəhmət olmasa yenidən yoxlayın</MessageErrorConnect>
-		<MessageErrorParse>Yeniləmənin tapılmasında xəta.</MessageErrorParse>
-		<UpdateProgressTitle>%1 Yenilənir</UpdateProgressTitle>
-		<UpdateProgressCancel>İmtina et</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Quraşdır və yenidən başlat</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Yeniləmə endirilir...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Yeniləmə çıxarılır...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Quraşdırmağa hazır</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 ın %2</UpdateProgressSize>
+		<ReleasedOn>%1 tarixində yayınlandı</ReleasedOn>
+		<CheckForUpdates>Yeniləmələrə nəzarət et...</CheckForUpdates>
+		<NewVersionAvailable>%1'un yeni distributivi mövcuddur!</NewVersionAvailable>
+		<NewVersionAvailableText>%1 %2 bu an mövcud - sizdə mövcud olan %3. İndi yükləmək istəyirsinizmi?</NewVersionAvailableText>
+		<UpdateAlertTitle>Proqram Yeniləmə</UpdateAlertTitle>
+		<UpdateAlertReleaseNotes>Distributiv Qeydləri:</UpdateAlertReleaseNotes>
+		<UpdateAlertRemindLater>Daha Sonra Xatırlat</UpdateAlertRemindLater>
+		<UpdateAlertSkip>Bu Versiyanı Keç</UpdateAlertSkip>
+		<UpdateAlertInstall>Yeniləməni Yüklə</UpdateAlertInstall>
+		<UpdateAlertAutomaticUpdates>Yeniləmələrə Avtomatik nəzarət et</UpdateAlertAutomaticUpdates>
+		<MessageNoUpdateAvailable>Distributiviniz yenidir!</MessageNoUpdateAvailable>
+		<MessageNoUpdateAvailableDescription>%1 %2 mövcud olan ən yeni versiya.</MessageNoUpdateAvailableDescription>
+		<MessageErrorConnect>Yeniləməni yükləyərkən bir xəta meydana gəldi. Zəhmət olmasa daha sonra təkrar yoxlayın.</MessageErrorConnect>
+		<MessageErrorParse>Yeniləmə məlumatlarını alarkən bir xəta meydana gəldi.</MessageErrorParse>
+		<UpdateProgressTitle>Yenilənir %1</UpdateProgressTitle>
+		<UpdateProgressCancel>Ləğv</UpdateProgressCancel>
+		<UpdateProgressInstallAndRelaunch>Yükləyin və Yenidən Başladın</UpdateProgressInstallAndRelaunch>
+		<UpdateProgressStatusDownloading>Yeniləmə yüklənir...</UpdateProgressStatusDownloading>
+		<UpdateProgressExtract>Yeniləmə ayırd edilir...</UpdateProgressExtract>
+		<UpdateProgressStatusReady>Yükləməyə Hazır</UpdateProgressStatusReady>
+		<UpdateProgressSize>%2 de %1</UpdateProgressSize>
 		<UpdateProgressB>B</UpdateProgressB>
 		<UpdateProgressKB>KB</UpdateProgressKB>
 		<UpdateProgressMB>MB</UpdateProgressMB>
 		<UpdateProgressGB>GB</UpdateProgressGB>
 	</UpdateChecker>
 	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Applications qovluğuna köçürülə bilmir</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Applications qovluğuna köçür</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Ana qovluqdakı Applicaion qovluğuna köçürülsün?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>%1 özünü Applications qovluğuna köçürməsini istəyirsinizmi ?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Applications qovluğuna köçür</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Dəyişdirməyin</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Qeydə alın ki, bu adminstrator şifrəsi soruşacaq.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu sizin Yükləmə qovluğunuzu səliqəsiz edəcək.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		<kStrMoveApplicationCouldNotMove>Applications qovluğuna daşına bilmədi</kStrMoveApplicationCouldNotMove>
+		<kStrMoveApplicationQuestionTitle>Application Qovluğuna Daşınma</kStrMoveApplicationQuestionTitle>
+		<kStrMoveApplicationQuestionTitleHome>Applications qovluğu İstifadəçi qovluğunuza daşınsınmı?</kStrMoveApplicationQuestionTitleHome>
+		<kStrMoveApplicationQuestionMessage>İstəsəniz tətbiq %1 Applications qovluğuna Daşınabilər.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationButtonMove>Applications Qovluğuna Daşınsın</kStrMoveApplicationButtonMove>
+		<kStrMoveApplicationButtonDoNotMove>Daşınmasın</kStrMoveApplicationButtonDoNotMove>
+		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu əməliyyat üçün idarəçi parolunun istənəcəyəni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu əməliyyat Yükləmələr qovluğunun dağılmasına mane olur.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 	</LetsMoveMac>
 </LanguageStrings>

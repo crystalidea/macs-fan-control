@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>アプリケーションフォルダに移動できませんでした</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>ホームフォルダ内の\"アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>%1 このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>アプリケーションフォルダに移動する</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>移動しない</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>この操作には管理者パスワードが必要です。</kStrMoveApplicationQuestionInfoWillRequirePasswd>

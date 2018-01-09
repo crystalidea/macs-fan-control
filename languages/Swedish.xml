@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>Kunde inte flytta till programmappen</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>Flytta till programmappen?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>Flytta till programmappen i din hemmamapp?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Jag kan flytta mig själv till programmappen om du vill.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>Jag kan flytta mig %1 själv till programmappen om du vill.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>Flytta till programmappen</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>Flytta inte</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Detta kräver ett administratörslösenord.</kStrMoveApplicationQuestionInfoWillRequirePasswd>

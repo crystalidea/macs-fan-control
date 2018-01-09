@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>無法移動到“應用程式”檔案夾中</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>是否要把程式移動到“應用程式”檔案夾中？</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>是否要把程式移動到你的個人檔案夾裡的“應用程式”檔案夾中？</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>我要自己把應用程式移動到“應用程式”檔案夾中。</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>%1 我要自己把應用程式移動到“應用程式”檔案夾中。</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>移動到“應用程式”檔案夾中</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>不要移動</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，這將會需要輸入管理者密碼。</kStrMoveApplicationQuestionInfoWillRequirePasswd>

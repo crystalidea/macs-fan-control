@@ -124,7 +124,7 @@
 		<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az Alkalmazások mappába</kStrMoveApplicationCouldNotMove>
 		<kStrMoveApplicationQuestionTitle>Áthelyezés az Alkalmazások mappába?</kStrMoveApplicationQuestionTitle>
 		<kStrMoveApplicationQuestionTitleHome>Áthelyezés a Saját mappa Alkalmazások mappájába?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ha szeretné, át tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
+		<kStrMoveApplicationQuestionMessage>Ha szeretné, %1 tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
 		<kStrMoveApplicationButtonMove>Áthelyezés az Alkalmazások mappába</kStrMoveApplicationButtonMove>
 		<kStrMoveApplicationButtonDoNotMove>Nincs áthelyezés</kStrMoveApplicationButtonDoNotMove>
 		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Vegye figyelembe, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
