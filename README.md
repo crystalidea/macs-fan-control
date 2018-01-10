@@ -1,4 +1,4 @@
-## Macs Fan Control
+### Macs Fan Control
 ###### Monitor and control fans on Apple computers
 
 - Real-time monitoring of fan speed and temperature sensors including 3rd party HDD/SSD (using S.M.A.R.T.)
