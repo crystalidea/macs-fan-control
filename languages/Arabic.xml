@@ -93,41 +93,59 @@
 		<buttonCancel>الغاء</buttonCancel>
 		<buttonContinue>استمرار</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>تم اصداره في %1</ReleasedOn>
-		<CheckForUpdates>البحث عن تحديثات…</CheckForUpdates>
-		<NewVersionAvailable>هناك اصدار جديد من %1 متاح!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 - اصدارك الآن هو %3. هل تريد تحديثه الآن?</NewVersionAvailableText>
-		<UpdateAlertTitle>تحديث البرنامج</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>ملاحظات الاصدار:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>ذكرني فيما بعد</UpdateAlertRemindLater>
-		<UpdateAlertSkip>تخطى هذا الاصدار</UpdateAlertSkip>
-		<UpdateAlertInstall>تثبيت التحديث</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>التدقيق بحثاً عن التحديثات تلقائياً</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>لديك بالفعل احدث اصدار!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 اصدارك حالياً.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>حدث خطأ في التحديث ‫..‬ حاول مرة اخرى فيما بعد.</MessageErrorConnect>
-		<MessageErrorParse>حدث خطأ أثناء تحليل التغذية العكسية للتحديث.</MessageErrorParse>
-		<UpdateProgressTitle>جاري التحديث %1</UpdateProgressTitle>
-		<UpdateProgressCancel>إلغاء</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>تثبيت وإعادة تشغيل التطبيق</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>جاري التحديث…</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>يتم فك الضغط…</UpdateProgressExtract>
-		<UpdateProgressStatusReady>جاهز للتثبيت</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
-		<UpdateProgressB>بايت</UpdateProgressB>
-		<UpdateProgressKB>كيلو بايت</UpdateProgressKB>
-		<UpdateProgressMB>ميگابايت</UpdateProgressMB>
-		<UpdateProgressGB>گيگابايت</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>لا يمكن النقل الى مجلد التطبيقات</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>النقل اى مجلد التطبيقات</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Home لنقل الى مجلد التطبيقات في مجلد?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>هل تود %1 نقله الى مجلد التطبيقات?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>انقل الى مجلد التطبيقات</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>لا تنقل</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>لاحظ أن هذا سوف يتطلب كلمة مرور المسؤول.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>هذا سوف يبقي مجلد التحميل الخاص بك مرتب.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>تم اصداره في %1</ReleasedOn>
+			<CheckForUpdates>البحث عن تحديثات…</CheckForUpdates>
+			<NewVersionAvailable>هناك اصدار جديد من %1 متاح!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 - اصدارك الآن هو %3. هل تريد تحديثه الآن?</NewVersionAvailableText>
+			<UpdateAlertTitle>تحديث البرنامج</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>ملاحظات الاصدار:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>ذكرني فيما بعد</UpdateAlertRemindLater>
+			<UpdateAlertSkip>تخطى هذا الاصدار</UpdateAlertSkip>
+			<UpdateAlertInstall>تثبيت التحديث</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>التدقيق بحثاً عن التحديثات تلقائياً</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>لديك بالفعل احدث اصدار!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 اصدارك حالياً.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>حدث خطأ في التحديث ‫..‬ حاول مرة اخرى فيما بعد.</MessageErrorConnect>
+			<MessageErrorParse>حدث خطأ أثناء تحليل التغذية العكسية للتحديث.</MessageErrorParse>
+			<UpdateProgressTitle>جاري التحديث %1</UpdateProgressTitle>
+			<UpdateProgressCancel>إلغاء</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>تثبيت وإعادة تشغيل التطبيق</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>جاري التحديث…</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>يتم فك الضغط…</UpdateProgressExtract>
+			<UpdateProgressStatusReady>جاهز للتثبيت</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+			<UpdateProgressB>بايت</UpdateProgressB>
+			<UpdateProgressKB>كيلو بايت</UpdateProgressKB>
+			<UpdateProgressMB>ميگابايت</UpdateProgressMB>
+			<UpdateProgressGB>گيگابايت</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>لا يمكن النقل الى مجلد التطبيقات</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>النقل اى مجلد التطبيقات</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Home لنقل الى مجلد التطبيقات في مجلد?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>هل تود %1 نقله الى مجلد التطبيقات?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>انقل الى مجلد التطبيقات</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>لا تنقل</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>لاحظ أن هذا سوف يتطلب كلمة مرور المسؤول.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>هذا سوف يبقي مجلد التحميل الخاص بك مرتب.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

@@ -93,41 +93,59 @@
 		<buttonCancel>Prekini</buttonCancel>
 		<buttonContinue>Nadaljuj</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>released on %1</ReleasedOn>
-		<CheckForUpdates>Check for updates...</CheckForUpdates>
-		<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
-		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
-		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
-		<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
-		<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Cancel</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 of %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>released on %1</ReleasedOn>
+			<CheckForUpdates>Check for updates...</CheckForUpdates>
+			<NewVersionAvailable>A new version of %1 is available!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 is now available - you have %3. Would you like to download it now?</NewVersionAvailableText>
+			<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Release Notes:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Remind Me Later</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Skip This Version</UpdateAlertSkip>
+			<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Check for updates automatically</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>You're up to date!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 is currently the newest version available.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>An error occurred while downloading the update. Please try again later.</MessageErrorConnect>
+			<MessageErrorParse>An error occurred while parsing the update feed.</MessageErrorParse>
+			<UpdateProgressTitle>Updating %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Cancel</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Install and Relaunch</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Downloading update...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Extracting update...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Ready to Install</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 of %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

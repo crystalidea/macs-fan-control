@@ -93,41 +93,59 @@
 		<buttonCancel>Отмена</buttonCancel>
 		<buttonContinue>Продолжить</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>выпущено %1</ReleasedOn>
-		<CheckForUpdates>Проверка обновлений...</CheckForUpdates>
-		<NewVersionAvailable>Имеется новая версия %1!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 теперь доступен – вы имеете %3. Хотите загрузить его сейчас?</NewVersionAvailableText>
-		<UpdateAlertTitle>Обновление программного обеспечения</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Заметки о выпуске:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Напоминать позже</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Пропустить эту версию</UpdateAlertSkip>
-		<UpdateAlertInstall>Установить обновление</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Проверять обновления автоматически</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>У вас установлена последняя версия.</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>У вас уже установлена последняя версия %1 %2.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>При получении информации об обновлении возникла ошибка. Попробуйте повторить попытку позже.</MessageErrorConnect>
-		<MessageErrorParse>При обработке информации об обновлении произошла ошибка.</MessageErrorParse>
-		<UpdateProgressTitle>Обновляю %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Отменить</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Установить и перезапустить</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Загружаю обновление...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Распаковываю обновление...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Готов к установке</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 из %2</UpdateProgressSize>
-		<UpdateProgressB>Б</UpdateProgressB>
-		<UpdateProgressKB>КБ</UpdateProgressKB>
-		<UpdateProgressMB>МБ</UpdateProgressMB>
-		<UpdateProgressGB>ГБ</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Не удалось переместить.</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Переместить в папку Программы</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Переместить в папку Программы, расположенную в домашней директории?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Вы хотите %1 переместить себя в папку Программы?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Переместить</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Не перемещать</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам понадобится пароль администратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Это поможет содержать папку с загрузками в чистоте.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>выпущено %1</ReleasedOn>
+			<CheckForUpdates>Проверка обновлений...</CheckForUpdates>
+			<NewVersionAvailable>Имеется новая версия %1!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 теперь доступен – вы имеете %3. Хотите загрузить его сейчас?</NewVersionAvailableText>
+			<UpdateAlertTitle>Обновление программного обеспечения</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Заметки о выпуске:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Напоминать позже</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Пропустить эту версию</UpdateAlertSkip>
+			<UpdateAlertInstall>Установить обновление</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Проверять обновления автоматически</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>У вас установлена последняя версия.</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>У вас уже установлена последняя версия %1 %2.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>При получении информации об обновлении возникла ошибка. Попробуйте повторить попытку позже.</MessageErrorConnect>
+			<MessageErrorParse>При обработке информации об обновлении произошла ошибка.</MessageErrorParse>
+			<UpdateProgressTitle>Обновляю %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Отменить</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Установить и перезапустить</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Загружаю обновление...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Распаковываю обновление...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Готов к установке</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 из %2</UpdateProgressSize>
+			<UpdateProgressB>Б</UpdateProgressB>
+			<UpdateProgressKB>КБ</UpdateProgressKB>
+			<UpdateProgressMB>МБ</UpdateProgressMB>
+			<UpdateProgressGB>ГБ</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Не удалось переместить.</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Переместить в папку Программы</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Переместить в папку Программы, расположенную в домашней директории?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Вы хотите %1 переместить себя в папку Программы?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Переместить</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Не перемещать</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам понадобится пароль администратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Это поможет содержать папку с загрузками в чистоте.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Отменить</actionUndo>
+			<actionRedo>Повторить</actionRedo>
+			<actionCut>Вырезать</actionCut>
+			<actionCopy>Копировать</actionCopy>
+			<actionPaste>Вставить</actionPaste>
+			<actionDelete>Удалить</actionDelete>
+			<actionSelectAll>Выделить все</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Отменить</buttonCancel>
+			<buttonClose>Закрыть</buttonClose>
+			<buttonYes>Да</buttonYes>
+			<buttonNo>Нет</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

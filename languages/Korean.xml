@@ -93,41 +93,59 @@
 		<buttonCancel>취소</buttonCancel>
 		<buttonContinue>계속</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>%1에 출시됨</ReleasedOn>
-		<CheckForUpdates>업데이트 확인...</CheckForUpdates>
-		<NewVersionAvailable>%1의 새 버전이 사용 가능합니다!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 (은)는 지금 사용 가능합니다. - 현재 버전은 %3 입니다. 지금 다운로드할까요?</NewVersionAvailableText>
-		<UpdateAlertTitle>소프트웨어 업데이트</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>출시 노트:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>나중에 알림</UpdateAlertRemindLater>
-		<UpdateAlertSkip>이 버전 건너뛰기</UpdateAlertSkip>
-		<UpdateAlertInstall>업데이트 설치</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>자동으로 업데이트 확인</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>최신 버전입니다!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 (은)는 현재 사용 가능한 최신 버전입니다.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>업데이트를 다운로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하세요.</MessageErrorConnect>
-		<MessageErrorParse>업데이트 피드를 구문 분석하는 동안 오류가 발생했습니다.</MessageErrorParse>
-		<UpdateProgressTitle>%1 업데이트</UpdateProgressTitle>
-		<UpdateProgressCancel>취소</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>설치 및 다시 실행</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>업데이트 다운로드 중...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>업데이트 추출하는 중...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>설치 준비</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Applications 폴더로 옮길 수 없습니다.</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Applications (으)로 옮기기</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Home 폴더내 Applications 폴더로 옮길까요?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Applications 폴더로 자신을 옮기도록 %1 할 건가요?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Applications 폴더로 옮기기</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>옮기지 않기</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>이건 관리자 비밀번호가 필요함을 알아두세요.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>이건 정리된 사용자의 다운로드 폴더를 유지합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>%1에 출시됨</ReleasedOn>
+			<CheckForUpdates>업데이트 확인...</CheckForUpdates>
+			<NewVersionAvailable>%1의 새 버전이 사용 가능합니다!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 (은)는 지금 사용 가능합니다. - 현재 버전은 %3 입니다. 지금 다운로드할까요?</NewVersionAvailableText>
+			<UpdateAlertTitle>소프트웨어 업데이트</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>출시 노트:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>나중에 알림</UpdateAlertRemindLater>
+			<UpdateAlertSkip>이 버전 건너뛰기</UpdateAlertSkip>
+			<UpdateAlertInstall>업데이트 설치</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>자동으로 업데이트 확인</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>최신 버전입니다!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 (은)는 현재 사용 가능한 최신 버전입니다.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>업데이트를 다운로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하세요.</MessageErrorConnect>
+			<MessageErrorParse>업데이트 피드를 구문 분석하는 동안 오류가 발생했습니다.</MessageErrorParse>
+			<UpdateProgressTitle>%1 업데이트</UpdateProgressTitle>
+			<UpdateProgressCancel>취소</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>설치 및 다시 실행</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>업데이트 다운로드 중...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>업데이트 추출하는 중...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>설치 준비</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Applications 폴더로 옮길 수 없습니다.</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Applications (으)로 옮기기</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Home 폴더내 Applications 폴더로 옮길까요?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Applications 폴더로 자신을 옮기도록 %1 할 건가요?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Applications 폴더로 옮기기</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>옮기지 않기</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>이건 관리자 비밀번호가 필요함을 알아두세요.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>이건 정리된 사용자의 다운로드 폴더를 유지합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

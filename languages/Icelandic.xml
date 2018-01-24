@@ -93,41 +93,59 @@
 		<buttonCancel>Hætta við</buttonCancel>
 		<buttonContinue>Halda áfram</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>gefið út þann %1</ReleasedOn>
-		<CheckForUpdates>Athuga með uppfærslur...</CheckForUpdates>
-		<NewVersionAvailable>Ný útgáfa af %1 er fáanleg!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 er nú fáanleg - Þú ert með %3. Myndirðu vilja sækja hana núna?</NewVersionAvailableText>
-		<UpdateAlertTitle>Hugbúnaðaruppfærsla</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Athugasemdir útgáfu:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Minntu mig á síðar</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Ekki innsetja þessa útgáfu</UpdateAlertSkip>
-		<UpdateAlertInstall>Innsetja uppfærslu</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Athuga með uppfærslur sjálfkrafa</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Þú ert með nýjustu útgáfu!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 er sem stendur nýjasta útgáfan.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Villa varð við að sækja nýja útgáfu. Vinsamlegast reyndu aftur síðar.</MessageErrorConnect>
-		<MessageErrorParse>Villa varð við að lesa uppfærsluupplýsingarnar.</MessageErrorParse>
-		<UpdateProgressTitle>Uppfæri %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Hætta við</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Innsetja og endurræsa</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Sæki uppfærslu...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Afþjappa uppfærslu...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Tilbúin til innsetningar</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 af %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>gefið út þann %1</ReleasedOn>
+			<CheckForUpdates>Athuga með uppfærslur...</CheckForUpdates>
+			<NewVersionAvailable>Ný útgáfa af %1 er fáanleg!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 er nú fáanleg - Þú ert með %3. Myndirðu vilja sækja hana núna?</NewVersionAvailableText>
+			<UpdateAlertTitle>Hugbúnaðaruppfærsla</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Athugasemdir útgáfu:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Minntu mig á síðar</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Ekki innsetja þessa útgáfu</UpdateAlertSkip>
+			<UpdateAlertInstall>Innsetja uppfærslu</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Athuga með uppfærslur sjálfkrafa</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Þú ert með nýjustu útgáfu!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 er sem stendur nýjasta útgáfan.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Villa varð við að sækja nýja útgáfu. Vinsamlegast reyndu aftur síðar.</MessageErrorConnect>
+			<MessageErrorParse>Villa varð við að lesa uppfærsluupplýsingarnar.</MessageErrorParse>
+			<UpdateProgressTitle>Uppfæri %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Hætta við</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Innsetja og endurræsa</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Sæki uppfærslu...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Afþjappa uppfærslu...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Tilbúin til innsetningar</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 af %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

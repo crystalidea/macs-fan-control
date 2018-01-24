@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.8" Author="Ismael Vilas Boas">
 	<MainWindow>
 		<staticFanListHeader>Ventoínhas:</staticFanListHeader>
@@ -24,7 +24,7 @@
 		<buttonAbout>Sobre...</buttonAbout>
 		<statusMoreApps>Versão %1 e mais aplicações</statusMoreApps>
 		<messageNonAppleFSWarningMac>Modo de leitura apenas: sistema de ficheiros não Apple detectado (%1). Moveu a aplicação para a pasta /Aplicações?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>De modo a controlar as ventoinhas,  Macs Fan Control requer privilégios elevado para esta ferramenta.</messageFanControlMessage>
+		<messageFanControlMessage>De modo a controlar as ventoinhas, Macs Fan Control requer privilégios elevado para esta ferramenta.</messageFanControlMessage>
 		<messageFanControlNotAvailableTitle>Fan control não disponível</messageFanControlNotAvailableTitle>
 		<messageFanControlNotAvailable>Macs Fan Control não se conseguiu ligar à helper app para activar o controlo de ventoinhas e ajustar as velocidades. \n\nInsira a password para Administrador quando pedido.\n\nPara mais informações, contacte-nos em \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
 		<messageNoFansDetected>Não foram detectadas ventoinhas neste computador</messageNoFansDetected>
@@ -93,41 +93,59 @@
 		<buttonCancel>Cancelar</buttonCancel>
 		<buttonContinue>Continuar</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>publicado em %1</ReleasedOn>
-		<CheckForUpdates>Procurar atualizações...</CheckForUpdates>
-		<NewVersionAvailable>Uma versão nova de %1 está disponível!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 está disponível - você tem a %3. Gostaria de a descarregar agora?</NewVersionAvailableText>
-		<UpdateAlertTitle>Atualização de Software</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Notas da Versão:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Lembrar depois</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Saltar esta Versão</UpdateAlertSkip>
-		<UpdateAlertInstall>Instalar Atualização</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Procurar atualizações automaticamente</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Encontra-se atualizado!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 é atualmente a ultima versão disponível.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Um erro ocorreu enquanto descarregava a atualização. Por favor tente mais tarde.</MessageErrorConnect>
-		<MessageErrorParse>Ocorreu um erro ao carregar a lista de versões.</MessageErrorParse>
-		<UpdateProgressTitle>Atualizando %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Cancelar</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Instalar e Reabrir</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>A descarregard a atualização...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>A extrair a atualização...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Pronto a instalar</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 de %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Não foi possível mover para a pasta Aplicações</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Mover para a pasta Aplicações</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Mover para a pasta Aplicações na sua pasta Pessoal?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Posso mover-me (%1) para a pasta Aplicações se desejar.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Mover para a pasta Aplicações</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Não mover</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Atenção que isto irá necessitar da palavra-passe de administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Isto irá manter a sua pasta Descargas organizada.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>publicado em %1</ReleasedOn>
+			<CheckForUpdates>Procurar atualizações...</CheckForUpdates>
+			<NewVersionAvailable>Uma versão nova de %1 está disponível!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 está disponível - você tem a %3. Gostaria de a descarregar agora?</NewVersionAvailableText>
+			<UpdateAlertTitle>Atualização de Software</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Notas da Versão:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Lembrar depois</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Saltar esta Versão</UpdateAlertSkip>
+			<UpdateAlertInstall>Instalar Atualização</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Procurar atualizações automaticamente</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Encontra-se atualizado!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 é atualmente a ultima versão disponível.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Um erro ocorreu enquanto descarregava a atualização. Por favor tente mais tarde.</MessageErrorConnect>
+			<MessageErrorParse>Ocorreu um erro ao carregar a lista de versões.</MessageErrorParse>
+			<UpdateProgressTitle>Atualizando %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Cancelar</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Instalar e Reabrir</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>A descarregard a atualização...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>A extrair a atualização...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Pronto a instalar</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 de %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Não foi possível mover para a pasta Aplicações</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Mover para a pasta Aplicações</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Mover para a pasta Aplicações na sua pasta Pessoal?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Posso mover-me (%1) para a pasta Aplicações se desejar.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Mover para a pasta Aplicações</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Não mover</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Atenção que isto irá necessitar da palavra-passe de administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Isto irá manter a sua pasta Descargas organizada.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

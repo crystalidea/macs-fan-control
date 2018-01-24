@@ -93,41 +93,59 @@
 		<buttonCancel>Hủy</buttonCancel>
 		<buttonContinue>Tiếp tục</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>Phát hành ngày %1</ReleasedOn>
-		<CheckForUpdates>Kiểm tra cập nhật...</CheckForUpdates>
-		<NewVersionAvailable>Đã có phiên bản mới %1 !</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 đã có - phiên bản hiện tại %3. Bạn có muốn tải ngay không?</NewVersionAvailableText>
-		<UpdateAlertTitle>Cập nhật Ứng dụng</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Ghi chú phát hành:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Nhắc nhở sau</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Bỏ qua phiên bản này</UpdateAlertSkip>
-		<UpdateAlertInstall>Install Update</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Kiểm tra cập nhật tự động</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Bạn đang sử dụng phiên bản mới nhất!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 là phiên bản mới nhất.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Có lỗi khi tải bản cập nhật. Hãy thử lại sau..</MessageErrorConnect>
-		<MessageErrorParse>Có lỗi khi tải thông tin cập nhật.</MessageErrorParse>
-		<UpdateProgressTitle>Đang cập nhật %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Hủy</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Cài đặt và khởi động lại</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Đang tải cập nhật...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Đang giải nén cập nhật...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Sẵn sàng để cài đặt</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Không thể chuyển tới thư mục Applications</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Chuyển tới Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Chuyển tới thư mục Applications trong thư mục Home của bạn?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>Phát hành ngày %1</ReleasedOn>
+			<CheckForUpdates>Kiểm tra cập nhật...</CheckForUpdates>
+			<NewVersionAvailable>Đã có phiên bản mới %1 !</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 đã có - phiên bản hiện tại %3. Bạn có muốn tải ngay không?</NewVersionAvailableText>
+			<UpdateAlertTitle>Cập nhật Ứng dụng</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Ghi chú phát hành:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Nhắc nhở sau</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Bỏ qua phiên bản này</UpdateAlertSkip>
+			<UpdateAlertInstall>Install Update</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Kiểm tra cập nhật tự động</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Bạn đang sử dụng phiên bản mới nhất!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 là phiên bản mới nhất.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Có lỗi khi tải bản cập nhật. Hãy thử lại sau..</MessageErrorConnect>
+			<MessageErrorParse>Có lỗi khi tải thông tin cập nhật.</MessageErrorParse>
+			<UpdateProgressTitle>Đang cập nhật %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Hủy</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Cài đặt và khởi động lại</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Đang tải cập nhật...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Đang giải nén cập nhật...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Sẵn sàng để cài đặt</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Không thể chuyển tới thư mục Applications</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Chuyển tới Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Chuyển tới thư mục Applications trong thư mục Home của bạn?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

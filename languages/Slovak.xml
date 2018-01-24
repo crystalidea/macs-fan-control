@@ -93,41 +93,59 @@
 		<buttonCancel>Zružiť</buttonCancel>
 		<buttonContinue>Pokračovať</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>Vydané dňa %1</ReleasedOn>
-		<CheckForUpdates>Skontrolovať dostupnosť aktualizácií...</CheckForUpdates>
-		<NewVersionAvailable>Nová verzia %1 je dostupná!</NewVersionAvailable>
-		<NewVersionAvailableText>Verzia %1 %2 je dostupná - Vy máte verziu %3. Chcete stiahnuť novú verziu teraz ?</NewVersionAvailableText>
-		<UpdateAlertTitle>Aktualizácia software-u</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Poznámky k vydaniu:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Pripomenúť neskôr</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Preskočiť túto verziu</UpdateAlertSkip>
-		<UpdateAlertInstall>Inštalovať aktualizáciu</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Vyhľadávať aktualizácie automaticky</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Máte nainštalovanú aktuálnu verziu!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 je momentálne najnovšia dostupná verzia.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Počas sťahovania aktualizácie sa vyskytla chyba. Prosím skúste to neskôr.</MessageErrorConnect>
-		<MessageErrorParse>Pri analyzovaní zdroja aktualizácie došlo k chybe.</MessageErrorParse>
-		<UpdateProgressTitle>Aktualizujem %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Zrušiť</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Inštalovať a znova spustiť</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Sťahovanie aktualizácie...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Rozbaľujem aktualizáciu...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Pripravené na inštaláciu</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 z %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Presun do priečinku Aplikácie nebol umožnený.</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Presunúť do priečinku Aplikácie?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Presunúť do priečinku Aplikácie v domovskom adresáry?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ak si želáte, presuniem sa do priečinku Aplikácie.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Presunúť do priečinku Aplikácie</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Nepresúvať</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Táto akcia vyžaduje heslo správcu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní Vám to udržať prečinok Stiahnuté usporiadaný.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>Vydané dňa %1</ReleasedOn>
+			<CheckForUpdates>Skontrolovať dostupnosť aktualizácií...</CheckForUpdates>
+			<NewVersionAvailable>Nová verzia %1 je dostupná!</NewVersionAvailable>
+			<NewVersionAvailableText>Verzia %1 %2 je dostupná - Vy máte verziu %3. Chcete stiahnuť novú verziu teraz ?</NewVersionAvailableText>
+			<UpdateAlertTitle>Aktualizácia software-u</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Poznámky k vydaniu:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Pripomenúť neskôr</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Preskočiť túto verziu</UpdateAlertSkip>
+			<UpdateAlertInstall>Inštalovať aktualizáciu</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Vyhľadávať aktualizácie automaticky</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Máte nainštalovanú aktuálnu verziu!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 je momentálne najnovšia dostupná verzia.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Počas sťahovania aktualizácie sa vyskytla chyba. Prosím skúste to neskôr.</MessageErrorConnect>
+			<MessageErrorParse>Pri analyzovaní zdroja aktualizácie došlo k chybe.</MessageErrorParse>
+			<UpdateProgressTitle>Aktualizujem %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Zrušiť</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Inštalovať a znova spustiť</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Sťahovanie aktualizácie...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Rozbaľujem aktualizáciu...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Pripravené na inštaláciu</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 z %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Presun do priečinku Aplikácie nebol umožnený.</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Presunúť do priečinku Aplikácie?</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Presunúť do priečinku Aplikácie v domovskom adresáry?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Ak si želáte, presuniem sa do priečinku Aplikácie.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Presunúť do priečinku Aplikácie</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Nepresúvať</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Táto akcia vyžaduje heslo správcu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní Vám to udržať prečinok Stiahnuté usporiadaný.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

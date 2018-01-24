@@ -93,41 +93,59 @@
 		<buttonCancel>لغو</buttonCancel>
 		<buttonContinue>ادامه</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>منتشر شده در %1</ReleasedOn>
-		<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
-		<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
-		<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
-		<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
-		<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
-		<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
-		<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
-		<UpdateProgressCancel>لغو</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
-		<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 از %2</UpdateProgressSize>
-		<UpdateProgressB>بایت</UpdateProgressB>
-		<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
-		<UpdateProgressMB>مگابایت</UpdateProgressMB>
-		<UpdateProgressGB>گیگابایت</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>منتشر شده در %1</ReleasedOn>
+			<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
+			<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
+			<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
+			<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
+			<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
+			<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
+			<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
+			<UpdateProgressCancel>لغو</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
+			<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 از %2</UpdateProgressSize>
+			<UpdateProgressB>بایت</UpdateProgressB>
+			<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
+			<UpdateProgressMB>مگابایت</UpdateProgressMB>
+			<UpdateProgressGB>گیگابایت</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

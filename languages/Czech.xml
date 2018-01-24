@@ -93,41 +93,59 @@
 		<buttonCancel>Zrušit</buttonCancel>
 		<buttonContinue>Pokračovat</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>vydaná v %1</ReleasedOn>
-		<CheckForUpdates>Vyhledání aktualizací...</CheckForUpdates>
-		<NewVersionAvailable>Je dostupná nová verze %1!</NewVersionAvailable>
-		<NewVersionAvailableText>K dispozici je %1 %2 - máte %3. Chcete ji nyní stáhnout?</NewVersionAvailableText>
-		<UpdateAlertTitle>Aktualizace software</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Historie verzí:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Připomenout později</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Přeskočit tuto verzi</UpdateAlertSkip>
-		<UpdateAlertInstall>Nainstalovat</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Aktualizovat automaticky</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Máte aktualizováno!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 je nejnovější dostupná verze.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Při stahování došlo k chybě. Zkuste to později znovu.</MessageErrorConnect>
-		<MessageErrorParse>Došlo k chybě při analýze zdroje aktualizací.</MessageErrorParse>
-		<UpdateProgressTitle>Aktualizace %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Zrušit</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Instalovat a spustit</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Stahování aktualizace...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Rozbalovaní aktualizace...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Připraven instalovat</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 ze %2</UpdateProgressSize>
-		<UpdateProgressB>b</UpdateProgressB>
-		<UpdateProgressKB>Kb</UpdateProgressKB>
-		<UpdateProgressMB>Mb</UpdateProgressMB>
-		<UpdateProgressGB>Gb</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Nelze přesunout do složky Aplikace</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Přesunout do složky Aplikace?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Přesunout do složky Aplikace v domovské složce?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci %1 do složky Aplikace.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Přesunout do složky Aplikace</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Nepřesouvat</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Poznámka: Tato akce vyžaduje oprávnění pro správu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní vám to mít složku Stahování/Downloads přehlednou.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>vydaná v %1</ReleasedOn>
+			<CheckForUpdates>Vyhledání aktualizací...</CheckForUpdates>
+			<NewVersionAvailable>Je dostupná nová verze %1!</NewVersionAvailable>
+			<NewVersionAvailableText>K dispozici je %1 %2 - máte %3. Chcete ji nyní stáhnout?</NewVersionAvailableText>
+			<UpdateAlertTitle>Aktualizace software</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Historie verzí:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Připomenout později</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Přeskočit tuto verzi</UpdateAlertSkip>
+			<UpdateAlertInstall>Nainstalovat</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Aktualizovat automaticky</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Máte aktualizováno!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 je nejnovější dostupná verze.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Při stahování došlo k chybě. Zkuste to později znovu.</MessageErrorConnect>
+			<MessageErrorParse>Došlo k chybě při analýze zdroje aktualizací.</MessageErrorParse>
+			<UpdateProgressTitle>Aktualizace %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Zrušit</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Instalovat a spustit</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Stahování aktualizace...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Rozbalovaní aktualizace...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Připraven instalovat</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 ze %2</UpdateProgressSize>
+			<UpdateProgressB>b</UpdateProgressB>
+			<UpdateProgressKB>Kb</UpdateProgressKB>
+			<UpdateProgressMB>Mb</UpdateProgressMB>
+			<UpdateProgressGB>Gb</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Nelze přesunout do složky Aplikace</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Přesunout do složky Aplikace?</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Přesunout do složky Aplikace v domovské složce?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Přejete-li si to, lze přesunout aplikaci %1 do složky Aplikace.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Přesunout do složky Aplikace</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Nepřesouvat</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Poznámka: Tato akce vyžaduje oprávnění pro správu systému.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní vám to mít složku Stahování/Downloads přehlednou.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

@@ -93,41 +93,59 @@
 		<buttonCancel>Atšaukti</buttonCancel>
 		<buttonContinue>Tęsti</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>išleista %1</ReleasedOn>
-		<CheckForUpdates>Ieškoti naujinimų…</CheckForUpdates>
-		<NewVersionAvailable>Nauja programos versija %1 yra pasiekiama!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 dabar pasiekiama - jūs turite %3. Ar norėtumėte atsisiųsti dabar?</NewVersionAvailableText>
-		<UpdateAlertTitle>Atnaujinimas</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Užrašai:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Priminti vėliau</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Praleisti šią versiją</UpdateAlertSkip>
-		<UpdateAlertInstall>Įrašyti naujinimą</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Ieškoti naujinimų dabar</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Jūs turite naujausią versiją!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 yra naujausia versiją.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Įvyko klaida siunčiantis atnaujinimą. Pameginkite vėiau.</MessageErrorConnect>
-		<MessageErrorParse>Įvyko klaida naujinant</MessageErrorParse>
-		<UpdateProgressTitle>Naujinama %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Atšaukti</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Įrašyti ir perkrauti</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Siunčiamas naujinimas…</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Atidaromas naujinimas…</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Paruošta naujinimui</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 iš %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>išleista %1</ReleasedOn>
+			<CheckForUpdates>Ieškoti naujinimų…</CheckForUpdates>
+			<NewVersionAvailable>Nauja programos versija %1 yra pasiekiama!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 dabar pasiekiama - jūs turite %3. Ar norėtumėte atsisiųsti dabar?</NewVersionAvailableText>
+			<UpdateAlertTitle>Atnaujinimas</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Užrašai:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Priminti vėliau</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Praleisti šią versiją</UpdateAlertSkip>
+			<UpdateAlertInstall>Įrašyti naujinimą</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Ieškoti naujinimų dabar</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Jūs turite naujausią versiją!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 yra naujausia versiją.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Įvyko klaida siunčiantis atnaujinimą. Pameginkite vėiau.</MessageErrorConnect>
+			<MessageErrorParse>Įvyko klaida naujinant</MessageErrorParse>
+			<UpdateProgressTitle>Naujinama %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Atšaukti</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Įrašyti ir perkrauti</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Siunčiamas naujinimas…</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Atidaromas naujinimas…</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Paruošta naujinimui</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 iš %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

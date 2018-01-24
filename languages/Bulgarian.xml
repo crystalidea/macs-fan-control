@@ -93,41 +93,59 @@
 		<buttonCancel>Отмяна</buttonCancel>
 		<buttonContinue>Продължи</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>пусната %1</ReleasedOn>
-		<CheckForUpdates>Проверка за обновяване...</CheckForUpdates>
-		<NewVersionAvailable>Достъпна е нова версия %1!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 е достъпна сега – вие разполагате с %3. Желаете ли да я свалите сега?</NewVersionAvailableText>
-		<UpdateAlertTitle>Обновяване на програмата</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Бележки за версията:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Напомнете ми по-късно</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Пропуснете тази версия</UpdateAlertSkip>
-		<UpdateAlertInstall>Инсталирайте обновяването</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Проверявай автоматично за обновявания</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Разполагате с последната версия.</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>При вас вече е инсталирана последната версия %1 %2.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>При получаване на информацията за обновяване възникна грешка. Опитайте по-късно.</MessageErrorConnect>
-		<MessageErrorParse>При обработката на информацията за обновяване възникна грешка.</MessageErrorParse>
-		<UpdateProgressTitle>Обновявам %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Отмени</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Инсталирай и рестартирай програмата</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Изтеглям обновяването...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Разопаковам обновяването...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Готов за инсталиране</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 от %2</UpdateProgressSize>
-		<UpdateProgressB>Б</UpdateProgressB>
-		<UpdateProgressKB>КБ</UpdateProgressKB>
-		<UpdateProgressMB>МБ</UpdateProgressMB>
-		<UpdateProgressGB>ГБ</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>пусната %1</ReleasedOn>
+			<CheckForUpdates>Проверка за обновяване...</CheckForUpdates>
+			<NewVersionAvailable>Достъпна е нова версия %1!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 е достъпна сега – вие разполагате с %3. Желаете ли да я свалите сега?</NewVersionAvailableText>
+			<UpdateAlertTitle>Обновяване на програмата</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Бележки за версията:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Напомнете ми по-късно</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Пропуснете тази версия</UpdateAlertSkip>
+			<UpdateAlertInstall>Инсталирайте обновяването</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Проверявай автоматично за обновявания</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Разполагате с последната версия.</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>При вас вече е инсталирана последната версия %1 %2.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>При получаване на информацията за обновяване възникна грешка. Опитайте по-късно.</MessageErrorConnect>
+			<MessageErrorParse>При обработката на информацията за обновяване възникна грешка.</MessageErrorParse>
+			<UpdateProgressTitle>Обновявам %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Отмени</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Инсталирай и рестартирай програмата</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Изтеглям обновяването...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Разопаковам обновяването...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Готов за инсталиране</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 от %2</UpdateProgressSize>
+			<UpdateProgressB>Б</UpdateProgressB>
+			<UpdateProgressKB>КБ</UpdateProgressKB>
+			<UpdateProgressMB>МБ</UpdateProgressMB>
+			<UpdateProgressGB>ГБ</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

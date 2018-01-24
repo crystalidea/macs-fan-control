@@ -93,41 +93,59 @@
 		<buttonCancel>Annuler</buttonCancel>
 		<buttonContinue>Continuer</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>publié le %1</ReleasedOn>
-		<CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
-		<NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
-		<UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Ignorer cette version</UpdateAlertSkip>
-		<UpdateAlertInstall>Installer</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Rechercher automatiquement les mises à jour</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Votre logiciel est à jour !</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Une erreur est survenue pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
-		<MessageErrorParse>Une erreur est survenue pendant l’analyse de la mise à jour.</MessageErrorParse>
-		<UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Annuler</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Installer et relancer</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Téléchargement de la mise à jour...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Extraction de la mise à jour...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Prêt pour l’installation</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 sur %2</UpdateProgressSize>
-		<UpdateProgressB>octets</UpdateProgressB>
-		<UpdateProgressKB>ko</UpdateProgressKB>
-		<UpdateProgressMB>Mo</UpdateProgressMB>
-		<UpdateProgressGB>Go</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Déplacement impossible vers le dossier Applications</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Déplacer vers les Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Application dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Souhaitez-vous que %1 se déplace dans le dossier Applications ?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Déplacer vers le dossier Applications</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Ne pas déplacer</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Notez que vous aurez besoin de votre mot de passe administrateur.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Ceci permet de ne pas encombrer votre dossier Téléchargements.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>publié le %1</ReleasedOn>
+			<CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
+			<NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
+			<UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Ignorer cette version</UpdateAlertSkip>
+			<UpdateAlertInstall>Installer</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Rechercher automatiquement les mises à jour</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Votre logiciel est à jour !</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Une erreur est survenue pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
+			<MessageErrorParse>Une erreur est survenue pendant l’analyse de la mise à jour.</MessageErrorParse>
+			<UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Annuler</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Installer et relancer</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Téléchargement de la mise à jour...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Extraction de la mise à jour...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Prêt pour l’installation</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 sur %2</UpdateProgressSize>
+			<UpdateProgressB>octets</UpdateProgressB>
+			<UpdateProgressKB>ko</UpdateProgressKB>
+			<UpdateProgressMB>Mo</UpdateProgressMB>
+			<UpdateProgressGB>Go</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Déplacement impossible vers le dossier Applications</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Déplacer vers les Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Application dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Souhaitez-vous que %1 se déplace dans le dossier Applications ?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Déplacer vers le dossier Applications</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Ne pas déplacer</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Notez que vous aurez besoin de votre mot de passe administrateur.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Ceci permet de ne pas encombrer votre dossier Téléchargements.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

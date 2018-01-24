@@ -93,41 +93,59 @@
 		<buttonCancel>Abbrechen</buttonCancel>
 		<buttonContinue>Fortsetzen</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>Freigabe auf %1</ReleasedOn>
-		<CheckForUpdates>Nach Aktualisierungen suchen...</CheckForUpdates>
-		<NewVersionAvailable>Eine neue Version von %1 ist verfügbar!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 ist verfügbar (Sie verwenden Version %3). Möchten Sie die neue Version jetzt herunterladen?</NewVersionAvailableText>
-		<UpdateAlertTitle>Software-Aktualisierung</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Versionshinweise:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Später erinnern</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Diese Version überspringen</UpdateAlertSkip>
-		<UpdateAlertInstall>Installieren</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Automatisch nach Aktualisierungen suchen</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Sie sind auf dem neuesten Stand!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 ist zur Zeit die neueste verfügbare Version.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Beim Herunterladen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.</MessageErrorConnect>
-		<MessageErrorParse>Beim Lesen der Aktualisierungsinformationen ist ein Fehler aufgetreten.</MessageErrorParse>
-		<UpdateProgressTitle>Aktualisierung von %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Abbrechen</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Installieren und erneut starten</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Aktualisierung wird heruntergeladen...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Aktualisierung entpacken...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Bereit zum Installieren</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 von %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Die Anwendung konnte nicht in den Programme-Ordner verschoben werden.</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>In den Programme-Ordner verschieben?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>In den Programme-Ordner in Ihrem Heimatverzeichnis verschieben?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ich kann mich selbst (%1) in den Programme-Ordner verschieben, wenn Sie möchten.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>In den Programme-Ordner verschieben</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Nicht verschieben</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bitte beachten Sie, dass für diesen Vorgang ein Administrator-Passwort benötigt wird.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Damit Ihr Downloads-Ordner aufgeräumt wird.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>Freigabe auf %1</ReleasedOn>
+			<CheckForUpdates>Nach Aktualisierungen suchen...</CheckForUpdates>
+			<NewVersionAvailable>Eine neue Version von %1 ist verfügbar!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 ist verfügbar (Sie verwenden Version %3). Möchten Sie die neue Version jetzt herunterladen?</NewVersionAvailableText>
+			<UpdateAlertTitle>Software-Aktualisierung</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Versionshinweise:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Später erinnern</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Diese Version überspringen</UpdateAlertSkip>
+			<UpdateAlertInstall>Installieren</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Automatisch nach Aktualisierungen suchen</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Sie sind auf dem neuesten Stand!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 ist zur Zeit die neueste verfügbare Version.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Beim Herunterladen ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.</MessageErrorConnect>
+			<MessageErrorParse>Beim Lesen der Aktualisierungsinformationen ist ein Fehler aufgetreten.</MessageErrorParse>
+			<UpdateProgressTitle>Aktualisierung von %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Abbrechen</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Installieren und erneut starten</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Aktualisierung wird heruntergeladen...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Aktualisierung entpacken...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Bereit zum Installieren</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 von %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Die Anwendung konnte nicht in den Programme-Ordner verschoben werden.</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>In den Programme-Ordner verschieben?</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>In den Programme-Ordner in Ihrem Heimatverzeichnis verschieben?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Ich kann mich selbst (%1) in den Programme-Ordner verschieben, wenn Sie möchten.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>In den Programme-Ordner verschieben</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Nicht verschieben</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bitte beachten Sie, dass für diesen Vorgang ein Administrator-Passwort benötigt wird.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Damit Ihr Downloads-Ordner aufgeräumt wird.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

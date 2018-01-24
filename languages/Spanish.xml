@@ -93,41 +93,59 @@
 		<buttonCancel>Cancelar</buttonCancel>
 		<buttonContinue>Continuar</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>Lanzada en %1</ReleasedOn>
-		<CheckForUpdates>Buscar actualizaciones…</CheckForUpdates>
-		<NewVersionAvailable>Una nueva versión de %1 está disponible</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 está disponible - tienes %3. ¿Quieres descargarlo ahora?</NewVersionAvailableText>
-		<UpdateAlertTitle>Actualización de Software</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Notas de la versión:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Recordar Luego</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Omitir esta versión</UpdateAlertSkip>
-		<UpdateAlertInstall>Instalar Actualización</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Buscar actualizaciónes automaticamente</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Su versión está actualizada</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 es la última versión disponible.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Error descargando actualización. Por favor, prueba más tarde.</MessageErrorConnect>
-		<MessageErrorParse>Ocurrió un error actualizando el feed de actualizaciones.</MessageErrorParse>
-		<UpdateProgressTitle>Actualizando %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Cancelar</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Instalar y Reiniciar</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Descargando actualización…</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Extrayendo actualización…</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Preparado para instalar</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 de %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>No se ha podido trasladar a la carpeta Aplicaciones</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>¿Deseas trasladar la aplicación a la carpeta Aplicaciones?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>¿Deseas trasladar la aplicación a la carpeta Aplicaciones?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Esta aplicación (%1) puede trasladarse automáticamente a la carpeta Aplicaciones.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Trasladar a la carpeta Aplicaciones</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>No trasladar</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Se requiere contraseña de administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>De este modo podrás ordenar mejor la carpeta Descargas.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>Lanzada en %1</ReleasedOn>
+			<CheckForUpdates>Buscar actualizaciones…</CheckForUpdates>
+			<NewVersionAvailable>Una nueva versión de %1 está disponible</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 está disponible - tienes %3. ¿Quieres descargarlo ahora?</NewVersionAvailableText>
+			<UpdateAlertTitle>Actualización de Software</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Notas de la versión:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Recordar Luego</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Omitir esta versión</UpdateAlertSkip>
+			<UpdateAlertInstall>Instalar Actualización</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Buscar actualizaciónes automaticamente</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Su versión está actualizada</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 es la última versión disponible.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Error descargando actualización. Por favor, prueba más tarde.</MessageErrorConnect>
+			<MessageErrorParse>Ocurrió un error actualizando el feed de actualizaciones.</MessageErrorParse>
+			<UpdateProgressTitle>Actualizando %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Cancelar</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Instalar y Reiniciar</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Descargando actualización…</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Extrayendo actualización…</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Preparado para instalar</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 de %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>No se ha podido trasladar a la carpeta Aplicaciones</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>¿Deseas trasladar la aplicación a la carpeta Aplicaciones?</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>¿Deseas trasladar la aplicación a la carpeta Aplicaciones?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Esta aplicación (%1) puede trasladarse automáticamente a la carpeta Aplicaciones.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Trasladar a la carpeta Aplicaciones</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>No trasladar</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Se requiere contraseña de administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>De este modo podrás ordenar mejor la carpeta Descargas.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

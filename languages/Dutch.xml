@@ -93,41 +93,59 @@
 		<buttonCancel>Annuleren</buttonCancel>
 		<buttonContinue>Doorgaan</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>uitgebracht op %1</ReleasedOn>
-		<CheckForUpdates>Controleren op updates...</CheckForUpdates>
-		<NewVersionAvailable>Een nieuwe versie: %1 is beschikbaar!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 is nu beschikbaar - u heeft %3. Wilt u deze nieuwe versie downloaden?</NewVersionAvailableText>
-		<UpdateAlertTitle>Software Update</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Versie informatie:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Herinner mij later</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Deze versie overslaan</UpdateAlertSkip>
-		<UpdateAlertInstall>Update installeren</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Automatisch controleren updates</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Deze versie up to date!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 is momenteel de meest recente versie.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Er is een fout opgetreden bij het downloaden van de update. Probeer het later nog eens.</MessageErrorConnect>
-		<MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
-		<UpdateProgressTitle>Bezig met bijwerken van versie %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Annuleren</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Update extraheren...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 van %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Kon niet verplaatsen naar de Programma's map</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Verplaatsen naar Programma's map?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Verplaatsen naar Programma's map in uw persoonlijke map?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ik kan de app %1 naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Verplaats naar Programma's map</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een wachtwoord van een beheerder.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map schoon.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>uitgebracht op %1</ReleasedOn>
+			<CheckForUpdates>Controleren op updates...</CheckForUpdates>
+			<NewVersionAvailable>Een nieuwe versie: %1 is beschikbaar!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 is nu beschikbaar - u heeft %3. Wilt u deze nieuwe versie downloaden?</NewVersionAvailableText>
+			<UpdateAlertTitle>Software Update</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Versie informatie:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Herinner mij later</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Deze versie overslaan</UpdateAlertSkip>
+			<UpdateAlertInstall>Update installeren</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Automatisch controleren updates</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Deze versie up to date!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 is momenteel de meest recente versie.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Er is een fout opgetreden bij het downloaden van de update. Probeer het later nog eens.</MessageErrorConnect>
+			<MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
+			<UpdateProgressTitle>Bezig met bijwerken van versie %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Annuleren</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Update extraheren...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 van %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Kon niet verplaatsen naar de Programma's map</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Verplaatsen naar Programma's map?</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Verplaatsen naar Programma's map in uw persoonlijke map?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Ik kan de app %1 naar de Programma's map verplaatsen als u dat wilt.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Verplaats naar Programma's map</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een wachtwoord van een beheerder.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map schoon.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

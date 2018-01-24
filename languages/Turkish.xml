@@ -93,41 +93,59 @@
 		<buttonCancel>İptal</buttonCancel>
 		<buttonContinue>Devam</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>%1 tarihinde yayınlandı</ReleasedOn>
-		<CheckForUpdates>Güncellemeleri kontrol et...</CheckForUpdates>
-		<NewVersionAvailable>%1' nun yeni sürümü mevcut!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 şu an mevcut - sizde mevcut olan %3. Şimdi indirmek ister misiniz?</NewVersionAvailableText>
-		<UpdateAlertTitle>Yazılım Güncelleme</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Sürüm Notları:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Sonra Hatırlat</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Bu Versiyonu Atla</UpdateAlertSkip>
-		<UpdateAlertInstall>Güncellemeyi Yükle</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Güncellemeleri otomatik denetle</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Güncel Sürümdesiniz!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 mevcut olan en yeni sürümdür.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Güncellemeyi indirirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</MessageErrorConnect>
-		<MessageErrorParse>Güncelleştirme bilgisini alırken bir hata meydana geldi.</MessageErrorParse>
-		<UpdateProgressTitle>Güncelleniyor %1</UpdateProgressTitle>
-		<UpdateProgressCancel>İptal</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Yükleyin ve Yeniden Başlatın</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Güncelleme indiriliyor...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Güncelleme genişletiliyor...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Yüklemeye Hazır</UpdateProgressStatusReady>
-		<UpdateProgressSize>%2 nin %1 i</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Uygulamalar klasörüne taşınamadı</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Uygulamalara Taşı</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Giriş klasörünüzdeki Uygulamalar klasörüne taşınsın mı?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>%1' nun kendini Uygulamalar klasörüne taşımasını ister misiniz?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Uygulamalar Klasörüne Taşı</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Taşıma</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu işlem için yönetici parolası istenecek.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu işlem İndirmeler klasörünü düzenli tutar.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>%1 tarihinde yayınlandı</ReleasedOn>
+			<CheckForUpdates>Güncellemeleri kontrol et...</CheckForUpdates>
+			<NewVersionAvailable>%1' nun yeni sürümü mevcut!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 şu an mevcut - sizde mevcut olan %3. Şimdi indirmek ister misiniz?</NewVersionAvailableText>
+			<UpdateAlertTitle>Yazılım Güncelleme</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Sürüm Notları:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Sonra Hatırlat</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Bu Versiyonu Atla</UpdateAlertSkip>
+			<UpdateAlertInstall>Güncellemeyi Yükle</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Güncellemeleri otomatik denetle</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Güncel Sürümdesiniz!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 mevcut olan en yeni sürümdür.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Güncellemeyi indirirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</MessageErrorConnect>
+			<MessageErrorParse>Güncelleştirme bilgisini alırken bir hata meydana geldi.</MessageErrorParse>
+			<UpdateProgressTitle>Güncelleniyor %1</UpdateProgressTitle>
+			<UpdateProgressCancel>İptal</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Yükleyin ve Yeniden Başlatın</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Güncelleme indiriliyor...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Güncelleme genişletiliyor...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Yüklemeye Hazır</UpdateProgressStatusReady>
+			<UpdateProgressSize>%2 nin %1 i</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Uygulamalar klasörüne taşınamadı</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Uygulamalara Taşı</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Giriş klasörünüzdeki Uygulamalar klasörüne taşınsın mı?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>%1' nun kendini Uygulamalar klasörüne taşımasını ister misiniz?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Uygulamalar Klasörüne Taşı</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Taşıma</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu işlem için yönetici parolası istenecek.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu işlem İndirmeler klasörünü düzenli tutar.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

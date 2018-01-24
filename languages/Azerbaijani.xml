@@ -93,41 +93,59 @@
 		<buttonCancel>İmtina et</buttonCancel>
 		<buttonContinue>Davam et</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>%1 tarixində yayınlandı</ReleasedOn>
-		<CheckForUpdates>Yeniləmələrə nəzarət et...</CheckForUpdates>
-		<NewVersionAvailable>%1'un yeni distributivi mövcuddur!</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 bu an mövcud - sizdə mövcud olan %3. İndi yükləmək istəyirsinizmi?</NewVersionAvailableText>
-		<UpdateAlertTitle>Proqram Yeniləmə</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Distributiv Qeydləri:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Daha Sonra Xatırlat</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Bu Versiyanı Keç</UpdateAlertSkip>
-		<UpdateAlertInstall>Yeniləməni Yüklə</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Yeniləmələrə Avtomatik nəzarət et</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Distributiviniz yenidir!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 mövcud olan ən yeni versiya.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Yeniləməni yükləyərkən bir xəta meydana gəldi. Zəhmət olmasa daha sonra təkrar yoxlayın.</MessageErrorConnect>
-		<MessageErrorParse>Yeniləmə məlumatlarını alarkən bir xəta meydana gəldi.</MessageErrorParse>
-		<UpdateProgressTitle>Yenilənir %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Ləğv</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Yükləyin və Yenidən Başladın</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Yeniləmə yüklənir...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Yeniləmə ayırd edilir...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Yükləməyə Hazır</UpdateProgressStatusReady>
-		<UpdateProgressSize>%2 de %1</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Applications qovluğuna daşına bilmədi</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Application Qovluğuna Daşınma</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Applications qovluğu İstifadəçi qovluğunuza daşınsınmı?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>İstəsəniz tətbiq %1 Applications qovluğuna Daşınabilər.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Applications Qovluğuna Daşınsın</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Daşınmasın</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu əməliyyat üçün idarəçi parolunun istənəcəyəni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu əməliyyat Yükləmələr qovluğunun dağılmasına mane olur.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>%1 tarixində yayınlandı</ReleasedOn>
+			<CheckForUpdates>Yeniləmələrə nəzarət et...</CheckForUpdates>
+			<NewVersionAvailable>%1'un yeni distributivi mövcuddur!</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 bu an mövcud - sizdə mövcud olan %3. İndi yükləmək istəyirsinizmi?</NewVersionAvailableText>
+			<UpdateAlertTitle>Proqram Yeniləmə</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Distributiv Qeydləri:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Daha Sonra Xatırlat</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Bu Versiyanı Keç</UpdateAlertSkip>
+			<UpdateAlertInstall>Yeniləməni Yüklə</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Yeniləmələrə Avtomatik nəzarət et</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Distributiviniz yenidir!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 mövcud olan ən yeni versiya.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Yeniləməni yükləyərkən bir xəta meydana gəldi. Zəhmət olmasa daha sonra təkrar yoxlayın.</MessageErrorConnect>
+			<MessageErrorParse>Yeniləmə məlumatlarını alarkən bir xəta meydana gəldi.</MessageErrorParse>
+			<UpdateProgressTitle>Yenilənir %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Ləğv</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Yükləyin və Yenidən Başladın</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Yeniləmə yüklənir...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Yeniləmə ayırd edilir...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Yükləməyə Hazır</UpdateProgressStatusReady>
+			<UpdateProgressSize>%2 de %1</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Applications qovluğuna daşına bilmədi</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Application Qovluğuna Daşınma</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Applications qovluğu İstifadəçi qovluğunuza daşınsınmı?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>İstəsəniz tətbiq %1 Applications qovluğuna Daşınabilər.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Applications Qovluğuna Daşınsın</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Daşınmasın</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Bu əməliyyat üçün idarəçi parolunun istənəcəyəni unutmayın.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Bu əməliyyat Yükləmələr qovluğunun dağılmasına mane olur.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

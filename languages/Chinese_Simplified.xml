@@ -93,41 +93,59 @@
 		<buttonCancel>取消</buttonCancel>
 		<buttonContinue>继续</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>于 %1 发布</ReleasedOn>
-		<CheckForUpdates>检查更新...</CheckForUpdates>
-		<NewVersionAvailable>有新版本 %1 了！</NewVersionAvailable>
-		<NewVersionAvailableText>有新版本 %1 %2 - 您的版本为 %3。您希望下载新版本么？</NewVersionAvailableText>
-		<UpdateAlertTitle>软件更新</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>发布备注：</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>稍后提醒</UpdateAlertRemindLater>
-		<UpdateAlertSkip>忽略这个版本</UpdateAlertSkip>
-		<UpdateAlertInstall>安装更新</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>自动检查更新</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>您的版本已经是最新的！</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 是目前最新版本。</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>下载失败，请稍候重试。</MessageErrorConnect>
-		<MessageErrorParse>分析更新数据时发生错误。</MessageErrorParse>
-		<UpdateProgressTitle>更新 %1</UpdateProgressTitle>
-		<UpdateProgressCancel>放弃</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>安装并重启</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>下载更新数据...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>解压更新数据...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>准备安装</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 ，共 %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>无法移动到“应用程序”文件夹中</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>是否要把程序移动到“应用程序”文件夹中？</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>是否要把程序移动到你的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>%1 我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>移动到“应用程序”文件夹中</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>不移动</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要你输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>这样做能让你的“下载”文件夹保持整洁。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>于 %1 发布</ReleasedOn>
+			<CheckForUpdates>检查更新...</CheckForUpdates>
+			<NewVersionAvailable>有新版本 %1 了！</NewVersionAvailable>
+			<NewVersionAvailableText>有新版本 %1 %2 - 您的版本为 %3。您希望下载新版本么？</NewVersionAvailableText>
+			<UpdateAlertTitle>软件更新</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>发布备注：</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>稍后提醒</UpdateAlertRemindLater>
+			<UpdateAlertSkip>忽略这个版本</UpdateAlertSkip>
+			<UpdateAlertInstall>安装更新</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>自动检查更新</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>您的版本已经是最新的！</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 是目前最新版本。</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>下载失败，请稍候重试。</MessageErrorConnect>
+			<MessageErrorParse>分析更新数据时发生错误。</MessageErrorParse>
+			<UpdateProgressTitle>更新 %1</UpdateProgressTitle>
+			<UpdateProgressCancel>放弃</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>安装并重启</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>下载更新数据...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>解压更新数据...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>准备安装</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 ，共 %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>无法移动到“应用程序”文件夹中</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>是否要把程序移动到“应用程序”文件夹中？</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>是否要把程序移动到你的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>%1 我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>移动到“应用程序”文件夹中</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>不移动</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要你输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>这样做能让你的“下载”文件夹保持整洁。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

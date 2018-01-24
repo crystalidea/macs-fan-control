@@ -93,41 +93,59 @@
 		<buttonCancel>Άκυρο</buttonCancel>
 		<buttonContinue>Συνέχεια</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>κυκλοφόρησε στις %1</ReleasedOn>
-		<CheckForUpdates>Έλεγχος για ενημερώσεις...</CheckForUpdates>
-		<NewVersionAvailable>Μια νεότερη έκδοση του %1 είναι διαθέσιμη!</NewVersionAvailable>
-		<NewVersionAvailableText>Το %1 %2 είναι τώρα διαθέσιμο - εσείς έχετε %3. Θέλετε να κάνετε ενημέρωση τώρα;</NewVersionAvailableText>
-		<UpdateAlertTitle>Ενημέρωση Λογισμικού</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Σημειώσεις Ενημέρωσης:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Υπενθύμιση Αργότερα</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Παράλειψη Ενημέρωσης</UpdateAlertSkip>
-		<UpdateAlertInstall>Εγκατάσταση Ενημέρωσης</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Αυτόματος έλεγχος ενημερώσεων</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Η εφαρμογή είναι ενημερωμένη!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 είναι προς το παρόν η νεότερη έκδοση που διατίθεται.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Παρουσιάστηκε σφάλμα κατά τη λήψη της ενημέρωσης. Παρακαλούμε δοκιμάστε ξανά αργότερα.</MessageErrorConnect>
-		<MessageErrorParse>Παρουσιάστηκε σφάλμα κατά την ανάλυση της ροής ενημέρωσης.</MessageErrorParse>
-		<UpdateProgressTitle>Ενημέρωση %1</UpdateProgressTitle>
-		<UpdateProgressCancel>Άκυρο</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Εγκατάσταση και Επανεκκίνηση</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Λήψη ενημέρωσης...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Αποσυμπίεση ενημέρωσης...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Έτοιμοι προς Εγκατάσταση</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 από %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Αδύνατη η μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Μετακίνηση στις «Εφαρμογές»</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Να μεταφερθεί στο φάκελο «Εφαρμογές» του κυρίως φακέλου χρήστη σας;</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Θα επιθυμούσατε το %1 να μεταφερθεί μόνο του στο φάκελο «Εφαρμογές»;</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Να μην μεταφερθεί</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Σημειωτέον ότι θα χρειαστεί ο κωδικός πρόσβασης διαχειριστή.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Αυτό θα διατηρήσει το φάκελο με τις «Λήψεις» σας πιο τακτοποιημένο.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>κυκλοφόρησε στις %1</ReleasedOn>
+			<CheckForUpdates>Έλεγχος για ενημερώσεις...</CheckForUpdates>
+			<NewVersionAvailable>Μια νεότερη έκδοση του %1 είναι διαθέσιμη!</NewVersionAvailable>
+			<NewVersionAvailableText>Το %1 %2 είναι τώρα διαθέσιμο - εσείς έχετε %3. Θέλετε να κάνετε ενημέρωση τώρα;</NewVersionAvailableText>
+			<UpdateAlertTitle>Ενημέρωση Λογισμικού</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Σημειώσεις Ενημέρωσης:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Υπενθύμιση Αργότερα</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Παράλειψη Ενημέρωσης</UpdateAlertSkip>
+			<UpdateAlertInstall>Εγκατάσταση Ενημέρωσης</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Αυτόματος έλεγχος ενημερώσεων</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Η εφαρμογή είναι ενημερωμένη!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 είναι προς το παρόν η νεότερη έκδοση που διατίθεται.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Παρουσιάστηκε σφάλμα κατά τη λήψη της ενημέρωσης. Παρακαλούμε δοκιμάστε ξανά αργότερα.</MessageErrorConnect>
+			<MessageErrorParse>Παρουσιάστηκε σφάλμα κατά την ανάλυση της ροής ενημέρωσης.</MessageErrorParse>
+			<UpdateProgressTitle>Ενημέρωση %1</UpdateProgressTitle>
+			<UpdateProgressCancel>Άκυρο</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Εγκατάσταση και Επανεκκίνηση</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Λήψη ενημέρωσης...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Αποσυμπίεση ενημέρωσης...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Έτοιμοι προς Εγκατάσταση</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 από %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Αδύνατη η μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Μετακίνηση στις «Εφαρμογές»</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Να μεταφερθεί στο φάκελο «Εφαρμογές» του κυρίως φακέλου χρήστη σας;</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Θα επιθυμούσατε το %1 να μεταφερθεί μόνο του στο φάκελο «Εφαρμογές»;</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Να μην μεταφερθεί</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Σημειωτέον ότι θα χρειαστεί ο κωδικός πρόσβασης διαχειριστή.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Αυτό θα διατηρήσει το φάκελο με τις «Λήψεις» σας πιο τακτοποιημένο.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

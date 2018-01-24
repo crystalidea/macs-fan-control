@@ -93,41 +93,59 @@
 		<buttonCancel>Mégse</buttonCancel>
 		<buttonContinue>Folytatás</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
-		<CheckForUpdates>Frissítések keresése...</CheckForUpdates>
-		<NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
-		<NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
-		<UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
-		<UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
-		<UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
-		<MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
-		<UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
-		<UpdateProgressCancel>Mégse</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>Frissítés letöltése...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>Frissítés kibontása...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>Telepítésre kész</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 - %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az Alkalmazások mappába</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Áthelyezés az Alkalmazások mappába?</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Áthelyezés a Saját mappa Alkalmazások mappájába?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Ha szeretné, %1 tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Áthelyezés az Alkalmazások mappába</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Nincs áthelyezés</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Vegye figyelembe, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>Így a Letöltések mappa rendezettebbé válik.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
+			<CheckForUpdates>Frissítések keresése...</CheckForUpdates>
+			<NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
+			<NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
+			<UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
+			<UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
+			<UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
+			<MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
+			<UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
+			<UpdateProgressCancel>Mégse</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>Frissítés letöltése...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>Frissítés kibontása...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>Telepítésre kész</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 - %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az Alkalmazások mappába</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Áthelyezés az Alkalmazások mappába?</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Áthelyezés a Saját mappa Alkalmazások mappájába?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Ha szeretné, %1 tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Áthelyezés az Alkalmazások mappába</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Nincs áthelyezés</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Vegye figyelembe, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Így a Letöltések mappa rendezettebbé válik.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

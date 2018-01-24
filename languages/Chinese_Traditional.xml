@@ -93,41 +93,59 @@
 		<buttonCancel>取消</buttonCancel>
 		<buttonContinue>繼續</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>於 %1 發布</ReleasedOn>
-		<CheckForUpdates>檢查更新...</CheckForUpdates>
-		<NewVersionAvailable>新版本的 %1 現已可用！</NewVersionAvailable>
-		<NewVersionAvailableText>有新版本 %1 %2 - 您的版本為 %3。您是否希望立即下載新版本？</NewVersionAvailableText>
-		<UpdateAlertTitle>軟體更新</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>發布信息：</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>稍後提醒我</UpdateAlertRemindLater>
-		<UpdateAlertSkip>跳過此版本</UpdateAlertSkip>
-		<UpdateAlertInstall>安裝更新</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>自動檢查更新</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>您的版本已經是最新版本！</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 是當前最新的版本！</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>下載更新時遇到錯誤。請稍後再次嘗試一次。</MessageErrorConnect>
-		<MessageErrorParse>分析更新資料時發生錯誤。</MessageErrorParse>
-		<UpdateProgressTitle>正在更新 %1</UpdateProgressTitle>
-		<UpdateProgressCancel>取消</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>安裝並重新啟動</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>正在下載更新...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>正在提取更新...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>準備更新</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 之 %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>無法移動到“應用程式”檔案夾中</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>是否要把程式移動到“應用程式”檔案夾中？</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>是否要把程式移動到你的個人檔案夾裡的“應用程式”檔案夾中？</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>%1 我要自己把應用程式移動到“應用程式”檔案夾中。</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>移動到“應用程式”檔案夾中</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>不要移動</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，這將會需要輸入管理者密碼。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>這樣做能讓你的“下載項目”檔案夾保持乾淨。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>於 %1 發布</ReleasedOn>
+			<CheckForUpdates>檢查更新...</CheckForUpdates>
+			<NewVersionAvailable>新版本的 %1 現已可用！</NewVersionAvailable>
+			<NewVersionAvailableText>有新版本 %1 %2 - 您的版本為 %3。您是否希望立即下載新版本？</NewVersionAvailableText>
+			<UpdateAlertTitle>軟體更新</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>發布信息：</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>稍後提醒我</UpdateAlertRemindLater>
+			<UpdateAlertSkip>跳過此版本</UpdateAlertSkip>
+			<UpdateAlertInstall>安裝更新</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>自動檢查更新</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>您的版本已經是最新版本！</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 是當前最新的版本！</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>下載更新時遇到錯誤。請稍後再次嘗試一次。</MessageErrorConnect>
+			<MessageErrorParse>分析更新資料時發生錯誤。</MessageErrorParse>
+			<UpdateProgressTitle>正在更新 %1</UpdateProgressTitle>
+			<UpdateProgressCancel>取消</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>安裝並重新啟動</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>正在下載更新...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>正在提取更新...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>準備更新</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 之 %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>無法移動到“應用程式”檔案夾中</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>是否要把程式移動到“應用程式”檔案夾中？</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>是否要把程式移動到你的個人檔案夾裡的“應用程式”檔案夾中？</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>%1 我要自己把應用程式移動到“應用程式”檔案夾中。</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>移動到“應用程式”檔案夾中</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>不要移動</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，這將會需要輸入管理者密碼。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>這樣做能讓你的“下載項目”檔案夾保持乾淨。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

@@ -93,41 +93,59 @@
 		<buttonCancel>キャンセル</buttonCancel>
 		<buttonContinue>次へ</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>%1 日にリリース</ReleasedOn>
-		<CheckForUpdates>アップデートの確認...</CheckForUpdates>
-		<NewVersionAvailable>新しいバージョンの %1 が入手できます。</NewVersionAvailable>
-		<NewVersionAvailableText>%1 %2 が入手できます（使用中のバージョンは %3 です）。今すぐダウンロードしますか?</NewVersionAvailableText>
-		<UpdateAlertTitle>ソフトウェア・アップデート</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>リリースノート:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>後で通知</UpdateAlertRemindLater>
-		<UpdateAlertSkip>このバージョンはスキップ</UpdateAlertSkip>
-		<UpdateAlertInstall>アップデートをインストール</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>アップデートを自動で確認させますか</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>最新版を使用しています！</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>%1 %2 は現在入手できる最新バージョンです。</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>アップデートをダウンロード中にエラーが発生しました。後でもう一度やり直してください。</MessageErrorConnect>
-		<MessageErrorParse>アップデートフィードを解析中にエラーが発生しました。</MessageErrorParse>
-		<UpdateProgressTitle>%1 をアップデート中</UpdateProgressTitle>
-		<UpdateProgressCancel>キャンセル</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>インストールして再起動</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>アップデートをダウンロードしています…</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>アップデートを展開しています…</UpdateProgressExtract>
-		<UpdateProgressStatusReady>インストールできます</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 / %2</UpdateProgressSize>
-		<UpdateProgressB>B</UpdateProgressB>
-		<UpdateProgressKB>KB</UpdateProgressKB>
-		<UpdateProgressMB>MB</UpdateProgressMB>
-		<UpdateProgressGB>GB</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>アプリケーションフォルダに移動できませんでした</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>ホームフォルダ内の\"アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>%1 このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>アプリケーションフォルダに移動する</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>移動しない</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>この操作には管理者パスワードが必要です。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>これにより\"ダウンロード\"フォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>%1 日にリリース</ReleasedOn>
+			<CheckForUpdates>アップデートの確認...</CheckForUpdates>
+			<NewVersionAvailable>新しいバージョンの %1 が入手できます。</NewVersionAvailable>
+			<NewVersionAvailableText>%1 %2 が入手できます（使用中のバージョンは %3 です）。今すぐダウンロードしますか?</NewVersionAvailableText>
+			<UpdateAlertTitle>ソフトウェア・アップデート</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>リリースノート:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>後で通知</UpdateAlertRemindLater>
+			<UpdateAlertSkip>このバージョンはスキップ</UpdateAlertSkip>
+			<UpdateAlertInstall>アップデートをインストール</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>アップデートを自動で確認させますか</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>最新版を使用しています！</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>%1 %2 は現在入手できる最新バージョンです。</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>アップデートをダウンロード中にエラーが発生しました。後でもう一度やり直してください。</MessageErrorConnect>
+			<MessageErrorParse>アップデートフィードを解析中にエラーが発生しました。</MessageErrorParse>
+			<UpdateProgressTitle>%1 をアップデート中</UpdateProgressTitle>
+			<UpdateProgressCancel>キャンセル</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>インストールして再起動</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>アップデートをダウンロードしています…</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>アップデートを展開しています…</UpdateProgressExtract>
+			<UpdateProgressStatusReady>インストールできます</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 / %2</UpdateProgressSize>
+			<UpdateProgressB>B</UpdateProgressB>
+			<UpdateProgressKB>KB</UpdateProgressKB>
+			<UpdateProgressMB>MB</UpdateProgressMB>
+			<UpdateProgressGB>GB</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>アプリケーションフォルダに移動できませんでした</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>ホームフォルダ内の\"アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>%1 このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>アプリケーションフォルダに移動する</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>移動しない</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>この操作には管理者パスワードが必要です。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>これにより\"ダウンロード\"フォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>

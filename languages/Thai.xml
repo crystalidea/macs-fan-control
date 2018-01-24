@@ -93,41 +93,59 @@
 		<buttonCancel>ยกเลิก</buttonCancel>
 		<buttonContinue>ทำต่อไป</buttonContinue>
 	</Common>
-	<UpdateChecker>
-		<ReleasedOn>ปล่อยให้ใช้เมื่อ %1</ReleasedOn>
-		<CheckForUpdates>อัพเดท...</CheckForUpdates>
-		<NewVersionAvailable>มีเวอร์ชั่นใหม่ของ %1</NewVersionAvailable>
-		<NewVersionAvailableText>ตอนนี้มี %1 %2 แล้ว - คุณมี %3 อยู่ คุณจะดาวน์โหลดเลยไหม</NewVersionAvailableText>
-		<UpdateAlertTitle>อัพเดทซอฟ์ทแวร์</UpdateAlertTitle>
-		<UpdateAlertReleaseNotes>มีอะไรใหม่:</UpdateAlertReleaseNotes>
-		<UpdateAlertRemindLater>เตือนอีกครั้งภายหลัง</UpdateAlertRemindLater>
-		<UpdateAlertSkip>ข้ามเวอร์ชั่นนี้</UpdateAlertSkip>
-		<UpdateAlertInstall>ติดตั้งอัพเดท</UpdateAlertInstall>
-		<UpdateAlertAutomaticUpdates>ตรวจสอบการอัพเดทโดยอัตโรมัติ</UpdateAlertAutomaticUpdates>
-		<MessageNoUpdateAvailable>เวอร์ชั่นนี้ล่าสุดแล้ว!</MessageNoUpdateAvailable>
-		<MessageNoUpdateAvailableDescription>เวอร์ชั่น %1 %2 เป็นเวอร์ชั่นล่าสุด</MessageNoUpdateAvailableDescription>
-		<MessageErrorConnect>เกิดข้อผิดพลาดขึ้นระหว่างดาวน์โหลดตัวอัพเดท. โปรดลองอีกครั้งภายหลัง.</MessageErrorConnect>
-		<MessageErrorParse>เกิดข้อผิดพลากขึ้นระหว่างการวิเคราะห์ตัวอัพเดท</MessageErrorParse>
-		<UpdateProgressTitle>กำลังอัพเดท %1</UpdateProgressTitle>
-		<UpdateProgressCancel>ยกเลิก</UpdateProgressCancel>
-		<UpdateProgressInstallAndRelaunch>ติดตั้งและเริ่มใหม่</UpdateProgressInstallAndRelaunch>
-		<UpdateProgressStatusDownloading>กำลังดาวน์โหลดตัวอัพเดท...</UpdateProgressStatusDownloading>
-		<UpdateProgressExtract>กำลังเตรีมการอัพเดท...</UpdateProgressExtract>
-		<UpdateProgressStatusReady>พร้อมติดตั้งแล้ว</UpdateProgressStatusReady>
-		<UpdateProgressSize>%1 จาก %2</UpdateProgressSize>
-		<UpdateProgressB>ไบร์ท</UpdateProgressB>
-		<UpdateProgressKB>กิโลไบร์ท</UpdateProgressKB>
-		<UpdateProgressMB>เมกาไบร์ท</UpdateProgressMB>
-		<UpdateProgressGB>กิกาไบร์ท</UpdateProgressGB>
-	</UpdateChecker>
-	<LetsMoveMac>
-		<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-		<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-		<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-		<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-		<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-		<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-		<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-		<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-	</LetsMoveMac>
+	<core>
+		<UpdateChecker>
+			<ReleasedOn>ปล่อยให้ใช้เมื่อ %1</ReleasedOn>
+			<CheckForUpdates>อัพเดท...</CheckForUpdates>
+			<NewVersionAvailable>มีเวอร์ชั่นใหม่ของ %1</NewVersionAvailable>
+			<NewVersionAvailableText>ตอนนี้มี %1 %2 แล้ว - คุณมี %3 อยู่ คุณจะดาวน์โหลดเลยไหม</NewVersionAvailableText>
+			<UpdateAlertTitle>อัพเดทซอฟ์ทแวร์</UpdateAlertTitle>
+			<UpdateAlertReleaseNotes>มีอะไรใหม่:</UpdateAlertReleaseNotes>
+			<UpdateAlertRemindLater>เตือนอีกครั้งภายหลัง</UpdateAlertRemindLater>
+			<UpdateAlertSkip>ข้ามเวอร์ชั่นนี้</UpdateAlertSkip>
+			<UpdateAlertInstall>ติดตั้งอัพเดท</UpdateAlertInstall>
+			<UpdateAlertAutomaticUpdates>ตรวจสอบการอัพเดทโดยอัตโรมัติ</UpdateAlertAutomaticUpdates>
+			<MessageNoUpdateAvailable>เวอร์ชั่นนี้ล่าสุดแล้ว!</MessageNoUpdateAvailable>
+			<MessageNoUpdateAvailableDescription>เวอร์ชั่น %1 %2 เป็นเวอร์ชั่นล่าสุด</MessageNoUpdateAvailableDescription>
+			<MessageErrorConnect>เกิดข้อผิดพลาดขึ้นระหว่างดาวน์โหลดตัวอัพเดท. โปรดลองอีกครั้งภายหลัง.</MessageErrorConnect>
+			<MessageErrorParse>เกิดข้อผิดพลากขึ้นระหว่างการวิเคราะห์ตัวอัพเดท</MessageErrorParse>
+			<UpdateProgressTitle>กำลังอัพเดท %1</UpdateProgressTitle>
+			<UpdateProgressCancel>ยกเลิก</UpdateProgressCancel>
+			<UpdateProgressInstallAndRelaunch>ติดตั้งและเริ่มใหม่</UpdateProgressInstallAndRelaunch>
+			<UpdateProgressStatusDownloading>กำลังดาวน์โหลดตัวอัพเดท...</UpdateProgressStatusDownloading>
+			<UpdateProgressExtract>กำลังเตรีมการอัพเดท...</UpdateProgressExtract>
+			<UpdateProgressStatusReady>พร้อมติดตั้งแล้ว</UpdateProgressStatusReady>
+			<UpdateProgressSize>%1 จาก %2</UpdateProgressSize>
+			<UpdateProgressB>ไบร์ท</UpdateProgressB>
+			<UpdateProgressKB>กิโลไบร์ท</UpdateProgressKB>
+			<UpdateProgressMB>เมกาไบร์ท</UpdateProgressMB>
+			<UpdateProgressGB>กิกาไบร์ท</UpdateProgressGB>
+		</UpdateChecker>
+		<LetsMoveMac>
+			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+		</LetsMoveMac>
+		<QLineEditEx>
+			<actionUndo>Undo</actionUndo>
+			<actionRedo>Redo</actionRedo>
+			<actionCut>Cut</actionCut>
+			<actionCopy>Copy</actionCopy>
+			<actionPaste>Paste</actionPaste>
+			<actionDelete>Delete</actionDelete>
+			<actionSelectAll>Select All</actionSelectAll>
+		</QLineEditEx>
+		<QMessageBoxEx>
+			<buttonOK>OK</buttonOK>
+			<buttonCancel>Cancel</buttonCancel>
+			<buttonClose>Close</buttonClose>
+			<buttonYes>Yes</buttonYes>
+			<buttonNo>No</buttonNo>
+		</QMessageBoxEx>
+	</core>
 </LanguageStrings>
