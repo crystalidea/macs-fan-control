@@ -12,22 +12,22 @@
 		<popupMenuItemControl>조정하기...</popupMenuItemControl>
 		<popupMenuItemReset>자동조정(기본값)</popupMenuItemReset>
 		<fanControlAutomatic>자동</fanControlAutomatic>
-		<fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
+		<fanControlAutomaticInfo>자동조정(시스템에 의해 조정됨)</fanControlAutomaticInfo>
 		<fanControlConstant>고정값 %1</fanControlConstant>
 		<fanControlSensor>%1에 따라</fanControlSensor>
 		<fanControlUnknown>알수없음!</fanControlUnknown>
-		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonFanControlCustom>사용자 지정...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>사용자 지정 컨트롤모드 지정</buttonFanControlCustomInfo>
 		<buttonMinimize>최소화</buttonMinimize>
 		<buttonMinimizeMac>메뉴바로 축소</buttonMinimizeMac>
 		<buttonPreferences>환경설정...</buttonPreferences>
 		<buttonAbout>이 프로그램에 대해...</buttonAbout>
 		<statusMoreApps>%1 버전 &amp; 다른 앱 더보기</statusMoreApps>
 		<messageNonAppleFSWarningMac>읽기전용: non-Apple file system이 감지되었습니다. (%1). 앱을 다음경로로 옮겨주세요 '/Applications'?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageFanControlMessage>Macs Fan Control이 팬을 컨트롤하기 위해선 helper tool에 대한 권한이 필요합니다</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Fan control을 사용할 수 없음</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control이 helper app에 연결하는데 실패 했습니다.\n\n앱이 관리자 비밀번호를 요구하면 입력 해주시기 바랍니다.\n\n더 많은 정보를 원하시다면 다음 링크로 접속해주세요.\nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>이 컴퓨터에서 팬을 찾지 못했습니다.</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>%1 팬 설정</title>
@@ -35,37 +35,37 @@
 		<radioSensor>센서에 따라 지정</radioSensor>
 		<staticIncrease>다음 온도가 되면 팬 속도를 증가시킵니다:</staticIncrease>
 		<staticMax>최대온도:</staticMax>
-		<statusWarning>문제를 발견했습니다- min/max fan values are equal (%1).&lt;br/&gt; 다른 팬 컨트롤 어플리케이션을 제거하고 SMC를 재설정해주세요.</statusWarning>
+		<statusWarning>문제를 발견했습니다- 최소/최대 팬 값이 동일합니다. (%1).&lt;br/&gt; 다른 팬 컨트롤 어플리케이션을 제거하고 SMC를 재설정해주세요.</statusWarning>
 	</FanControlDialog>
 	<TrayMenu>
 		<itemShow>Macs Fan Control 열기</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
+		<itemMoreLinks>더보기</itemMoreLinks>
 		<itemWebsite>웹사이트</itemWebsite>
-		<itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
-		<itemRateApp>Rate on Macupdate</itemRateApp>
-		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemCheckForUpdates>업데이트 확인...</itemCheckForUpdates>
+		<itemRateApp>MacUpdate에서 평가하기</itemRateApp>
+		<itemFollowTwitter>@crystalidea 팔로우</itemFollowTwitter>
 		<itemExit>종료</itemExit>
 		<itemSensorBased>온도기반</itemSensorBased>
 	</TrayMenu>
 	<PreferencesWindow>
 		<title>환경설정</title>
-		<TabGeneral>General</TabGeneral>
+		<TabGeneral>기본</TabGeneral>
 		<tabTrayIcon>트레이 아이콘</tabTrayIcon>
 		<tabTrayIconMac>메뉴바에 아이콘 표시</tabTrayIconMac>
-		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<tabDiagnostics>진단 정보</tabDiagnostics>
 		<staticLanguage>언어:</staticLanguage>
 		<checkSystemStart>시스템 시작 시 최소화로 자동시작 (권장)</checkSystemStart>
 		<checkFahrenheit>온도를 화씨로 표시</checkFahrenheit>
 		<checkPrecise>온도를 정확하게 표시 (예 45.4)</checkPrecise>
-		<staticSensor>Sensor:</staticSensor>
-		<staticFan>Fan:</staticFan>
-		<staticIcon>Icon:</staticIcon>
-		<comboIconOptionShow>Show</comboIconOptionShow>
-		<comboIconOptionShowBW>Show (black &amp; white)</comboIconOptionShowBW>
-		<comboOptionNone>None</comboOptionNone>
-		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<staticSensor>센서:</staticSensor>
+		<staticFan>팬:</staticFan>
+		<staticIcon>아이콘:</staticIcon>
+		<comboIconOptionShow>보이기</comboIconOptionShow>
+		<comboIconOptionShowBW>S보이기 (검은색 &amp; 흰색)</comboIconOptionShowBW>
+		<comboOptionNone>보이지 않기</comboOptionNone>
+		<checkTwoLines>팬/센서를 두 줄로 표시하여 공간확보</checkTwoLines>
 		<staticCelsiusOnlyOnWindows>(Celsius only)</staticCelsiusOnlyOnWindows>
-		<checkLog>Enable log (restart required)</checkLog>
+		<checkLog>로그 활성화 (재시작이 필요합니다)</checkLog>
 		<browseLog>Browse</browseLog>
 		<buttonCopyTechInfo>기술정보 복사</buttonCopyTechInfo>
 		<copyInfoMessage>기술정보를 복사했습니다.</copyInfoMessage>
@@ -73,7 +73,7 @@
 	<AboutDialog>
 		<title>Macs Fan Control에 대해</title>
 		<staticTechnicalSupport>기술지원 포럼</staticTechnicalSupport>
-		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticOnlineHelp>온라인 지원</staticOnlineHelp>
 		<staticWarning>Macs Fan Control은 맥을 잘 다룰 수 있는 고급사용자를 위한 프로그램입니다. 당사는 이 프로그램의 잘못된 사용으로 인해 발생할 수 있는 데이터의 손실, 기기의 손상 및 기타 발생할 수 있는 모든 문제들에 대한 법적책임을 지지 않습니다.</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
@@ -81,11 +81,11 @@
 		<staticNewVersion>새버전을 업데이트할 수 있습니다. 우리의 &lt;a href='website'&gt;웹사이트&lt;/a&gt;를 방문해주세요.</staticNewVersion>
 	</NewVersionDialog>
 	<RateMeDialog>
-		<message>Rate the app on MacUpdate</message>
-		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-		<buttonRate>Rate on MacUpdate</buttonRate>
-		<buttonNoThanks>No, thanks</buttonNoThanks>
-		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+		<message>MacUpdate에서 이 앱을 평가 해주세요</message>
+		<informativeText>만약 %1을 좋아하신다면, 조금 시간을 내어 평가해주시겠어요? 얼마 걸리지 않습니다.</informativeText>
+		<buttonRate>MacUpdate에서 평가하기</buttonRate>
+		<buttonNoThanks>괜찮습니다</buttonNoThanks>
+		<checkDontShowAgain>이 메시지 다시보지 않기</checkDontShowAgain>
 	</RateMeDialog>
 	<Common>
 		<buttonClose>닫기</buttonClose>
@@ -132,20 +132,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>이건 정리된 사용자의 다운로드 폴더를 유지합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>실행 취소</actionUndo>
+			<actionRedo>재실행</actionRedo>
+			<actionCut>잘라내기</actionCut>
+			<actionCopy>복사하기</actionCopy>
+			<actionPaste>붙여넣기</actionPaste>
+			<actionDelete>삭제</actionDelete>
+			<actionSelectAll>모두 선택</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonOK>확인</buttonOK>
+			<buttonCancel>취소</buttonCancel>
+			<buttonClose>닫기</buttonClose>
+			<buttonYes>예</buttonYes>
+			<buttonNo>아니오</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
