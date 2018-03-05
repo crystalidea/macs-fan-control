@@ -1,84 +1,84 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.8" Author="CrystalIdea Software Team">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.1.10" Author="abajo62">
 	<MainWindow>
-		<staticFanListHeader>Available fans:</staticFanListHeader>
-		<staticSensorsListHeader>Temperature sensors:</staticSensorsListHeader>
-		<listColumnFan>Fan</listColumnFan>
-		<listColumnRPM>Min/Current/Max RPM</listColumnRPM>
-		<listColumnControl>Control</listColumnControl>
-		<listColumnSensor>Sensor</listColumnSensor>
-		<listColumnSensorValue>Value</listColumnSensorValue>
-		<listSeparatorDrives>Disk Drives:</listSeparatorDrives>
-		<popupMenuItemControl>Change control...</popupMenuItemControl>
-		<popupMenuItemReset>Reset to automatic control</popupMenuItemReset>
+		<staticFanListHeader>Ventilatori:</staticFanListHeader>
+		<staticSensorsListHeader>Senzori temperature:</staticSensorsListHeader>
+		<listColumnFan>Ventilator</listColumnFan>
+		<listColumnRPM>Min/Trenutni/Maks RPM</listColumnRPM>
+		<listColumnControl>Kontrola</listColumnControl>
+		<listColumnSensor>Senzor</listColumnSensor>
+		<listColumnSensorValue>Vrednost</listColumnSensorValue>
+		<listSeparatorDrives>Hard diskovi:</listSeparatorDrives>
+		<popupMenuItemControl>Promena kontrole...</popupMenuItemControl>
+		<popupMenuItemReset>Vrati na automatsku kontrolu</popupMenuItemReset>
 		<fanControlAutomatic>Auto</fanControlAutomatic>
-		<fanControlAutomaticInfo>Automatic (controlled by system)</fanControlAutomaticInfo>
-		<fanControlConstant>Constant value of %1</fanControlConstant>
-		<fanControlSensor>Based on %1</fanControlSensor>
-		<fanControlUnknown>Unknown!</fanControlUnknown>
+		<fanControlAutomaticInfo>Automatski (kontrolom sustava)</fanControlAutomaticInfo>
+		<fanControlConstant>Konstantna vrednost od %1</fanControlConstant>
+		<fanControlSensor>Bazirano na %1</fanControlSensor>
+		<fanControlUnknown>Nepoznato!</fanControlUnknown>
 		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
 		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
-		<buttonMinimize>Minimize</buttonMinimize>
-		<buttonMinimizeMac>Hide to menu bar</buttonMinimizeMac>
-		<buttonPreferences>Preferences...</buttonPreferences>
-		<buttonAbout>About...</buttonAbout>
-		<statusMoreApps>%1 version &amp; more apps</statusMoreApps>
-		<messageNonAppleFSWarningMac>Read-only mode: non-Apple file system detected (%1). Please move the app to '/Applications'.</messageNonAppleFSWarningMac>
+		<buttonMinimize>Minimizuj</buttonMinimize>
+		<buttonMinimizeMac>Sakrij u menu bar</buttonMinimizeMac>
+		<buttonPreferences>Podešavanja...</buttonPreferences>
+		<buttonAbout>O...</buttonAbout>
+		<statusMoreApps>%1 verzija &amp; više aplikacija</statusMoreApps>
+		<messageNonAppleFSWarningMac>Način samo čitanje: Detektovan je ne-Apple fajl sistem (%1). Pokušajte da premestite aplikaciju u '/Applications'?</messageNonAppleFSWarningMac>
 		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
 		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
 		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
 		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
-		<title>Fan control for '%1' fan</title>
-		<radioConstant>Constant RPM value</radioConstant>
-		<radioSensor>Sensor-based value</radioSensor>
-		<staticIncrease>Temperature that fan speed will start to increase from:</staticIncrease>
-		<staticMax>Maximum temperature:</staticMax>
-		<statusWarning>Something is wrong - min/max fan values are equal (%1).&lt;br/&gt; Please make sure to uninstall any other fan controlling software and reset SMC.</statusWarning>
+		<title>Kontrola ventilatora za %1</title>
+		<radioConstant>Konstantna RPM vrednost</radioConstant>
+		<radioSensor>Vrednost bazirana na senzoru</radioSensor>
+		<staticIncrease>Temperatura je takva da će se brzina ventilatora početi povećavanje sa:</staticIncrease>
+		<staticMax>Maksimalma temperatura:</staticMax>
+		<statusWarning>Nešto je pogrešno - min/maks vrijednosti su jednake (%1).&lt;br/&gt; Molimo proverite da li ste deinstalirali ostali kontrolni softver i resetujte SMC.</statusWarning>
 	</FanControlDialog>
 	<TrayMenu>
-		<itemShow>Show Macs Fan Control</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
-		<itemWebsite>Website</itemWebsite>
-		<itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
-		<itemRateApp>Rate on MacUpdate</itemRateApp>
-		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
-		<itemExit>Exit</itemExit>
-		<itemSensorBased>Sensor-based</itemSensorBased>
+		<itemShow>Prikaži Macs Fan Control</itemShow>
+		<itemMoreLinks>Više o...</itemMoreLinks>
+		<itemWebsite>Web stranica</itemWebsite>
+		<itemCheckForUpdates>Proveri ažuriranja...</itemCheckForUpdates>
+		<itemRateApp>Daj nam ocenu na Macupdate</itemRateApp>
+		<itemFollowTwitter>Zaprati @crystalidea</itemFollowTwitter>
+		<itemExit>Izlaz</itemExit>
+		<itemSensorBased>Bazirano na senzoru</itemSensorBased>
 	</TrayMenu>
 	<PreferencesWindow>
-		<title>Preferences</title>
-		<TabGeneral>General</TabGeneral>
-		<tabTrayIcon>Tray icon</tabTrayIcon>
-		<tabTrayIconMac>Menubar display</tabTrayIconMac>
-		<tabDiagnostics>Diagnostics</tabDiagnostics>
-		<staticLanguage>Language:</staticLanguage>
-		<checkSystemStart>Autostart minimized with system (recommended)</checkSystemStart>
-		<checkFahrenheit>Use Fahrenheit temperature scale</checkFahrenheit>
-		<checkPrecise>Precise display of temperature when possible (e.g. 45.4)</checkPrecise>
-		<staticSensor>Sensor:</staticSensor>
-		<staticFan>Fan:</staticFan>
-		<staticIcon>Icon:</staticIcon>
-		<comboIconOptionShow>Show</comboIconOptionShow>
-		<comboIconOptionShowBW>Show (black &amp; white)</comboIconOptionShowBW>
-		<comboOptionNone>None</comboOptionNone>
+		<title>Postavke</title>
+		<TabGeneral>Opšte</TabGeneral>
+		<tabTrayIcon>Ikona u traci</tabTrayIcon>
+		<tabTrayIconMac>Prikaz ikone u menu baru</tabTrayIconMac>
+		<tabDiagnostics>Dijagnostika</tabDiagnostics>
+		<staticLanguage>Jezik:</staticLanguage>
+		<checkSystemStart>Automatsko pokretanje sa operativnim sistemom minimizovano (preporučeno)</checkSystemStart>
+		<checkFahrenheit>Upotrebi Fahrenheit temperaturnu skalu</checkFahrenheit>
+		<checkPrecise>Precizan prikaz temperature kada je to moguće (npr. 45.4)</checkPrecise>
+		<staticSensor>Senzor:</staticSensor>
+		<staticFan>Ventilator:</staticFan>
+		<staticIcon>Ikona:</staticIcon>
+		<comboIconOptionShow>Prikaži</comboIconOptionShow>
+		<comboIconOptionShowBW>Prikaži (crno &amp; bijelo)</comboIconOptionShowBW>
+		<comboOptionNone>Prazno</comboOptionNone>
 		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(Celsius only)</staticCelsiusOnlyOnWindows>
-		<checkLog>Enable log (restart required)</checkLog>
-		<browseLog>Browse</browseLog>
-		<buttonCopyTechInfo>Copy technical info</buttonCopyTechInfo>
-		<copyInfoMessage>Technical information is copied to the clipboard</copyInfoMessage>
+		<staticCelsiusOnlyOnWindows>(samo Celsius)</staticCelsiusOnlyOnWindows>
+		<checkLog>Omogući zapis (potreban je restart)</checkLog>
+		<browseLog>Traži</browseLog>
+		<buttonCopyTechInfo>Kopiraj tehničke informacije</buttonCopyTechInfo>
+		<copyInfoMessage>Tehničke informacije su kopirane u clipboard</copyInfoMessage>
 	</PreferencesWindow>
 	<AboutDialog>
-		<title>About Macs Fan Control</title>
-		<staticTechnicalSupport>Technical support on the forum</staticTechnicalSupport>
+		<title>O Macs Fan Control</title>
+		<staticTechnicalSupport>Tehnička podrška na forumu</staticTechnicalSupport>
 		<staticOnlineHelp>Online help</staticOnlineHelp>
-		<staticWarning>THE PROGRAM IS FOR ADVANCED USERS WHO KNOW HOW TO USE IT WITHOUT DOING HARM TO THEIR MAC. THE AUTHORS ARE NOT LIABLE FOR DATA LOSS, DAMAGES, PROFIT LOSS OR ANY OTHER TYPES OF LOSSES CONNECTED WITH THE USE OR MISUSE OF THE PROGRAM</staticWarning>
+		<staticWarning>PROGRAM JE ZA NAPREDNE KORISNIKE KOJI ZNAJU DA GA KORISTE A BEZ DA NAPRAVE ŠTETU NA MACU. AUTORI NISU ODGOVORNI ZA GUBITAK PODATAKA, ŠTETE, GUBITKA PROFITA I DRUGIH VRSTA GUBITAKA POVEZANIH SA UPOTREBOM ILI ZLOUPOTREBOM PROGRAMA</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
-		<title>Macs Fan Control - New version available</title>
-		<staticNewVersion>New version of the program is available. Please visit our &lt;a href='website'&gt;website&lt;/a&gt; for the newest version.</staticNewVersion>
+		<title>Macs Fan Control - Dostupna je nova verzija</title>
+		<staticNewVersion>Dostupna je nova verzija programa. Posetite našu &lt;a href='website'&gt;stranicu&lt;/a&gt; za najnoviju verziju.</staticNewVersion>
 	</NewVersionDialog>
 	<RateMeDialog>
 		<message>Rate the app on MacUpdate</message>
@@ -88,10 +88,10 @@
 		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
 	</RateMeDialog>
 	<Common>
-		<buttonClose>Close</buttonClose>
+		<buttonClose>Zatvori</buttonClose>
 		<buttonOK>OK</buttonOK>
-		<buttonCancel>Cancel</buttonCancel>
-		<buttonContinue>Continue</buttonContinue>
+		<buttonCancel>Odustani</buttonCancel>
+		<buttonContinue>Nastavi</buttonContinue>
 	</Common>
 	<core>
 		<UpdateChecker>
