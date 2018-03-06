@@ -132,20 +132,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Це допоможе утримувати папку з завантаженнями у чистоті.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>Відмінити</actionUndo>
+			<actionRedo>Повторити</actionRedo>
+			<actionCut>Вирізати</actionCut>
+			<actionCopy>Копіювати</actionCopy>
+			<actionPaste>Вставити</actionPaste>
+			<actionDelete>Видалити</actionDelete>
+			<actionSelectAll>Вибрати все</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
 			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonCancel>Скасувати</buttonCancel>
+			<buttonClose>Закрити</buttonClose>
+			<buttonYes>Так</buttonYes>
+			<buttonNo>Ні</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
