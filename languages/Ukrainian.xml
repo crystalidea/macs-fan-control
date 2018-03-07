@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.8" Author="Alexandr Loskutov">
+<LanguageStrings version="1.4.10" Author="Alexandr Loskutov">
 	<MainWindow>
 		<staticFanListHeader>Доступні вентилятори:</staticFanListHeader>
 		<staticSensorsListHeader>Температурні датчики:</staticSensorsListHeader>
