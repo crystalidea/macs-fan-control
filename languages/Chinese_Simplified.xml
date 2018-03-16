@@ -4,7 +4,7 @@
 		<staticFanListHeader>风扇列表：</staticFanListHeader>
 		<staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
 		<listColumnFan>风扇</listColumnFan>
-		<listColumnRPM>最低/当前/最大旋转速度</listColumnRPM>
+		<listColumnRPM>最低/当前/最大风扇速度</listColumnRPM>
 		<listColumnControl>控制策略</listColumnControl>
 		<listColumnSensor>传感器</listColumnSensor>
 		<listColumnSensorValue>温度</listColumnSensorValue>
@@ -13,7 +13,7 @@
 		<popupMenuItemReset>重置为自动控制</popupMenuItemReset>
 		<fanControlAutomatic>自动</fanControlAutomatic>
 		<fanControlAutomaticInfo>自动（系统控制）</fanControlAutomaticInfo>
-		<fanControlConstant>固定转速为 %1</fanControlConstant>
+		<fanControlConstant>固定转速: %1</fanControlConstant>
 		<fanControlSensor>基于 %1</fanControlSensor>
 		<fanControlUnknown>不明！</fanControlUnknown>
 		<buttonFanControlCustom>自定...</buttonFanControlCustom>
@@ -32,7 +32,7 @@
 	<FanControlDialog>
 		<title>修改 %1 风扇设置</title>
 		<radioConstant>固定转速</radioConstant>
-		<radioSensor>基于检测值</radioSensor>
+		<radioSensor>基于温度</radioSensor>
 		<staticIncrease>高于此温度则提高风扇转速:</staticIncrease>
 		<staticMax>最高温度:</staticMax>
 		<statusWarning>错误 - 风扇的最大最小值相同（%1）。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
