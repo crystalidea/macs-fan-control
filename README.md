@@ -1,4 +1,4 @@
-Though [Macs Fan Control](https://www.crystalidea.com/macs-fan-control) is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems (see [issues](issues)).
+Though [Macs Fan Control](https://www.crystalidea.com/macs-fan-control) is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems (see [issues](https://github.com/crystalidea/macs-fan-control/issues)).
 
 # Translating the app
 
@@ -6,4 +6,4 @@ The repository also contains Macs Fan Control [translations](/languages) as .xml
 
 # Release archive 
 
-[Release archive](releases) contains the list of binaries for every version of the app with release notes.
+[Release archive](https://github.com/crystalidea/macs-fan-control/releases) contains the list of binaries for every version of the app with release notes.
