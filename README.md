@@ -2,7 +2,7 @@ Though [Macs Fan Control](https://www.crystalidea.com/macs-fan-control) is not o
 
 # Translating the app
 
-The repository also contains Macs Fan Control [translations](/languages) as .xml files. Fork the repository, update existing translation (or create a new one) and simply create a pull request. Always leave %1 (%s), %2, etc in the string, it's a replacement pattern required by the program. For example the string "Package %1 opened" will be expanded to "Package firefox4pre opened" when opening Firefox browser package.
+The repository also contains Macs Fan Control [translations](/languages) as .xml files. Fork the repository, update existing translation (or create a new one) and simply create a pull request. Always leave %1 (%s), %2, etc in the string, it's a replacement pattern required by the program.
 
 # Release archive 
 
