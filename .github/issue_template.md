@@ -1,1 +1,1 @@
-<!-- ATTENTION: All Issue reports should please contain a screenshot and the system Diagnostics text, as described [here](https://github.com/crystalidea/macs-fan-control/blob/master/.github/CONTRIBUTING.md) -->
+ATTENTION: All Issue reports should please contain a screenshot and the system Diagnostics text, as described [here](https://github.com/crystalidea/macs-fan-control/blob/master/.github/CONTRIBUTING.md)
