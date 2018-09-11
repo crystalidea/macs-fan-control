@@ -1,12 +1,9 @@
-### [Macs Fan Control](https://www.crystalidea.com/macs-fan-control)
-###### Monitor and control fans on Apple computers
+Though [Macs Fan Control](https://www.crystalidea.com/macs-fan-control) is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems (see [issues](https://github.com/crystalidea/macs-fan-control/issues)).
 
-- Real-time monitoring of fan speed and temperature sensors including 3rd party HDD/SSD (using S.M.A.R.T.)
-- Set custom RPM value (revolution per minute) or control fan speed in relation to a temperature sensor (e.g. 3rd party HDD)
-- Also works on Windows 10/8/7/Vista/XP installed via Boot Camp sharing the same easy-to-use user interface.
+# Translating the app
 
-Though Macs Fan Control is not open-source, we use this GitHub repository to track bugs, feature requests and technical support problems. [See issues](https://github.com/crystalidea/macs-fan-control/issues)
+The repository also contains Macs Fan Control [translations](/languages) as .xml files. Fork the repository, update existing translation (or create a new one) and simply create a pull request. Always leave %1 (%s), %2, etc in the string, it's a replacement pattern required by the program.
 
-The repository also contains Macs Fan Control [translations](/languages) as .xml files. If you feel confortable with git, you can simply create a pull request to update your translation.
+# Release archive 
 
 [Release archive](https://github.com/crystalidea/macs-fan-control/releases) contains the list of binaries for every version of the app with release notes.

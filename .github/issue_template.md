@@ -1,1 +1,1 @@
-<!-- You you'd like to report a bug or on issue using the app, please include a screenshot and technical information from the Preferences dialog -->
+ATTENTION: All Issue reports should please contain a screenshot and the system Diagnostics text, as described [here](https://github.com/crystalidea/macs-fan-control/blob/master/.github/CONTRIBUTING.md)
