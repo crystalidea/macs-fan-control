@@ -24,10 +24,10 @@
 		<buttonAbout>درباره ‫...‬</buttonAbout>
 		<statusMoreApps>%1 نسخه و سایر برنامه ها</statusMoreApps>
 		<messageNonAppleFSWarningMac>حالت فقط خواندنی: فایل سیستمی اپل یافت نشد (%1). آیا برنامه را به مسیر ذیل منتقل نموده اید؟ /Applications ؟</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageFanControlMessage>بمنظور کنترل فن ها برنامه نیاز دارد سطح دسترسی بیشتری برای ابزار کمک کننده اش داشته باشد</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>کنترل فن در دسترس نیست</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>برنامه نمیتواند به ابزار کمکی که کنترل فن و تنظیم سرعت را فعال میکند متصل شود \n\nوقتی رمزعبور آدمین را خواست حتما آن را وارد کنید\n\nبرای اطلاع بیشتر، لطفا در این آدرس با ما تماس بگیرید \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>فنی در این رایانه تشخیص داده نشد</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>کنترل فن برای %1 فن</title>
@@ -39,11 +39,11 @@
 	</FanControlDialog>
 	<TrayMenu>
 		<itemShow>نمایش کنترل فن مکینتاش</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
+		<itemMoreLinks>بیشتر</itemMoreLinks>
 		<itemWebsite>وبسایت</itemWebsite>
 		<itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>
-		<itemRateApp>Rate on Macupdate</itemRateApp>
-		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+		<itemRateApp>MacUpdate امتیاز در</itemRateApp>
+		<itemFollowTwitter>دنبال کردن @crystalidea</itemFollowTwitter>
 		<itemExit>خروج</itemExit>
 		<itemSensorBased>مبتنی بر سنسور</itemSensorBased>
 	</TrayMenu>
@@ -63,7 +63,7 @@
 		<comboIconOptionShow>نمایش</comboIconOptionShow>
 		<comboIconOptionShowBW>نمایش (سیاه و سفید)</comboIconOptionShowBW>
 		<comboOptionNone>هیچکدام</comboOptionNone>
-		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<checkTwoLines>نمایش خواندن فن/سنسور در دو خط برای ذخیره بیشتر فضا</checkTwoLines>
 		<staticCelsiusOnlyOnWindows>(فقط سانتیگراد)</staticCelsiusOnlyOnWindows>
 		<checkLog>فعالسازی وقایع (ریستارت نیاز است)</checkLog>
 		<browseLog>جستجو..</browseLog>
@@ -81,11 +81,11 @@
 		<staticNewVersion>نسخه جدید برنامه موجود است‫.‬ لطفا از &lt;a href='وبسایت'&gt;website&lt;/a&gt; برای آخرین نسخه دیدن فرمایید‫.‬</staticNewVersion>
 	</NewVersionDialog>
 	<RateMeDialog>
-		<message>Rate the app on MacUpdate</message>
-		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-		<buttonRate>Rate on MacUpdate</buttonRate>
-		<buttonNoThanks>No, thanks</buttonNoThanks>
-		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+		<message>MacUpdate امتیاز به برنامه در</message>
+		<informativeText>اگر از استفاده از %1 لذت می برید، میتوانید یک لحظه وقت بگذارید و به آن امتیاز بدهید؟ بیشتر از یک دقیقه وقت نمی گیرد.بابت پشتیبانی شما ممنونیم</informativeText>
+		<buttonRate>MacUpdate امتیاز در</buttonRate>
+		<buttonNoThanks>خیر،ممنونم</buttonNoThanks>
+		<checkDontShowAgain>دوباره این پیام را نشان نده</checkDontShowAgain>
 	</RateMeDialog>
 	<Common>
 		<buttonClose>بستن</buttonClose>
@@ -122,30 +122,30 @@
 			<UpdateProgressGB>گیگابایت</UpdateProgressGB>
 		</UpdateChecker>
 		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+			<kStrMoveApplicationCouldNotMove>نمیتواند به پوشه برنامه ها منتقل کرد</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>انتقال به برنامه ها</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>انتقال به پوشه برنامه ها در پوشه خانگی شما؟</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>آیا میخواهید %1 تا خودش را به پوشه برنامه ها منتقل کند؟</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>انتقال به پوشه برنامه ها</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>منتقل نکن</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>توجه به رمزعبور آدمین نیاز دارد</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>آندو</actionUndo>
+			<actionRedo>ریدو</actionRedo>
+			<actionCut>کات</actionCut>
+			<actionCopy>کپی</actionCopy>
+			<actionPaste>چسباندن</actionPaste>
+			<actionDelete>حذف</actionDelete>
+			<actionSelectAll>انتخاب همه</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonOK>تأیید</buttonOK>
+			<buttonCancel>لغو</buttonCancel>
+			<buttonClose>بستن</buttonClose>
+			<buttonYes>بله</buttonYes>
+			<buttonNo>خیر</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>

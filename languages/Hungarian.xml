@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.1.12" Author="Gábor">
+<LanguageStrings version="1.1.12" Author="Gábor&amp;Patrik">
 	<MainWindow>
 		<staticFanListHeader>Ventillátorok:</staticFanListHeader>
-		<staticSensorsListHeader>Hőmérséklet szenzorok :</staticSensorsListHeader>
+		<staticSensorsListHeader>Hőmérséklet szenzorok:</staticSensorsListHeader>
 		<listColumnFan>Ventillátor</listColumnFan>
 		<listColumnRPM>Min/Aktuális/Max RPM</listColumnRPM>
 		<listColumnControl>Vezérlés</listColumnControl>
 		<listColumnSensor>Szenzor</listColumnSensor>
 		<listColumnSensorValue>Érték</listColumnSensorValue>
 		<listSeparatorDrives>Meghajtók:</listSeparatorDrives>
-		<popupMenuItemControl>Irányítás megváltoztatása...</popupMenuItemControl>
+		<popupMenuItemControl>Vezérlés megváltoztatása...</popupMenuItemControl>
 		<popupMenuItemReset>Visszaállítás alapértelmezettre</popupMenuItemReset>
 		<fanControlAutomatic>Automatikus (rendszer vezérelt)</fanControlAutomatic>
 		<fanControlAutomaticInfo>Automatikus (rendszer vezérelt)</fanControlAutomaticInfo>
 		<fanControlConstant>Állandó %1 érték</fanControlConstant>
 		<fanControlSensor>%1 alapján</fanControlSensor>
 		<fanControlUnknown>Ismeretlen!</fanControlUnknown>
-		<buttonFanControlCustom>Custom...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
+		<buttonFanControlCustom>Egyedi...</buttonFanControlCustom>
+		<buttonFanControlCustomInfo>Egyedi vezérlés beállítása</buttonFanControlCustomInfo>
 		<buttonMinimize>Minimalizálás</buttonMinimize>
 		<buttonMinimizeMac>Tálcára helyezés</buttonMinimizeMac>
 		<buttonPreferences>Beállítások...</buttonPreferences>
 		<buttonAbout>Rólunk...</buttonAbout>
-		<statusMoreApps>%1 verzió &amp; más alkalmazások</statusMoreApps>
-		<messageNonAppleFSWarningMac>Csak olvasási mód: Nem Apple filerendszer (%1). Próbáld áthelyezni az appot: '/Applications'?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<statusMoreApps>%1 verzió &amp; további alkalmazások</statusMoreApps>
+		<messageNonAppleFSWarningMac>Csak olvasási mód: Nem Apple fájlrendszer (%1). Próbáld áthelyezni az appot: '/Applications'?</messageNonAppleFSWarningMac>
+		<messageFanControlMessage>A ventillátor vezérlés engedélyezéséhez a Macs Fan Control hozzáférést kér a saját 'helper tool'-ja számára.</messageFanControlMessage>
+		<messageFanControlNotAvailableTitle>Ventillátor vezérlés nem elérhető</messageFanControlNotAvailableTitle>
+		<messageFanControlNotAvailable>Macs Fan Control nem tudott csatlakozni a 'helper app'-hoz, hogy vezérelje a ventillátort és annak a sebességét. \n\nGyőződj meg róla, hogy kérésekor megadtad az rendszergazdai jelszót.\n\nTovábbi információért lépj velünk kapcsolatba: \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
+		<messageNoFansDetected>Nem található ventillátor</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>Következő beállítása: '%1' fan'</title>
@@ -39,33 +39,33 @@
 	</FanControlDialog>
 	<TrayMenu>
 		<itemShow>Mutasd az alkalmazást</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
+		<itemMoreLinks>További</itemMoreLinks>
 		<itemWebsite>Honlap</itemWebsite>
 		<itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
-		<itemRateApp>Rate on Macupdate</itemRateApp>
-		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
-		<itemExit>Kilépés</itemExit>
-		<itemSensorBased>Szenzor alapú</itemSensorBased>
+		<itemRateApp>Értékelés a Macupdate oldalán</itemRateApp>
+		<itemFollowTwitter>Követés Twitteren: @crystalidea</itemFollowTwitter>
+		<itemExit>Kilépés</itemExit>º
+				<itemSensorBased>Szenzor alapú</itemSensorBased>
 	</TrayMenu>
 	<PreferencesWindow>
 		<title>Beállítások</title>
-		<TabGeneral>General</TabGeneral>
-		<tabTrayIcon>Tray icon</tabTrayIcon>
-		<tabTrayIconMac>Menubar display</tabTrayIconMac>
-		<tabDiagnostics>Diagnostics</tabDiagnostics>
+		<TabGeneral>Általános</TabGeneral>
+		<tabTrayIcon>Tálca ikon</tabTrayIcon>
+		<tabTrayIconMac>Menüsoros megjelenítés</tabTrayIconMac>
+		<tabDiagnostics>Diagnosztika</tabDiagnostics>
 		<staticLanguage>Nyelv:</staticLanguage>
-		<checkSystemStart>Rendszerindításnál inul (javasolt)</checkSystemStart>
-		<checkFahrenheit>Használjon Fahrenheit skálát</checkFahrenheit>
-		<checkPrecise>Lehető legpontosabb kijelzés, ha lehetséges (pl: 45.4)</checkPrecise>
+		<checkSystemStart>Indulás rendszerindításkor (javasolt)</checkSystemStart>
+		<checkFahrenheit>Fahrenheit (ºF) skála használata</checkFahrenheit>
+		<checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl.: 45.4)</checkPrecise>
 		<staticSensor>Szenzor:</staticSensor>
 		<staticFan>Ventillátor:</staticFan>
 		<staticIcon>Ikon:</staticIcon>
-		<comboIconOptionShow>Mutasd</comboIconOptionShow>
-		<comboIconOptionShowBW>Mutasd (fekete &amp; fehér)</comboIconOptionShowBW>
-		<comboOptionNone>Nincs</comboOptionNone>
-		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+		<comboIconOptionShow>Ikon mutatása</comboIconOptionShow>
+		<comboIconOptionShowBW>Ikon mutatása (fekete &amp; fehér)</comboIconOptionShowBW>
+		<comboOptionNone>Nincs ikon</comboOptionNone>
+		<checkTwoLines>A ventillátor/szenzor értékek sortöréssel (kevesebb hely esetén)</checkTwoLines>
 		<staticCelsiusOnlyOnWindows>(Csak Celsius)</staticCelsiusOnlyOnWindows>
-		<checkLog>Log engedélyezése (újraindítás szükséges)</checkLog>
+		<checkLog>Loggolás engedélyezése (újraindítás szükséges)</checkLog>
 		<browseLog>Tallózás...</browseLog>
 		<buttonCopyTechInfo>Technikai infó másolása</buttonCopyTechInfo>
 		<copyInfoMessage>Technikai infó a vágólapra másolva</copyInfoMessage>
@@ -73,7 +73,7 @@
 	<AboutDialog>
 		<title>Az alkalmazásról</title>
 		<staticTechnicalSupport>Technikai támogatás a fórumon</staticTechnicalSupport>
-		<staticOnlineHelp>Online help</staticOnlineHelp>
+		<staticOnlineHelp>Online segítség</staticOnlineHelp>
 		<staticWarning>Ez a program csak gyakorlott felhasználóknak ajánlott, akik pontosan tudják mit csinálnak. A fejlesztők nem vállalnak semmiféle felelősséget károkért, adatvesztésért, profit és bármilyen más típusú veszteség után amit a program okozhat.</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
@@ -81,11 +81,11 @@
 		<staticNewVersion>Új verzió elérhető, kérlek látogass el a &lt;a href='website'&gt;website&lt;/a&gt; for the newest version.</staticNewVersion>
 	</NewVersionDialog>
 	<RateMeDialog>
-		<message>Rate the app on MacUpdate</message>
-		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-		<buttonRate>Rate on MacUpdate</buttonRate>
-		<buttonNoThanks>No, thanks</buttonNoThanks>
-		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+		<message>Értékeld az appot a MacUpdate honlapon</message>
+		<informativeText>Ha élvezed a %1 használatát, szánnál rá egy kis pillanatot, hogy értékeld? Nem fog egy percnél tovább tartani. Köszönjük a támogatásodat!</informativeText>
+		<buttonRate>Értékeld az appot a MacUpdate-n</buttonRate>
+		<buttonNoThanks>Nem, köszönöm</buttonNoThanks>
+		<checkDontShowAgain>Ne mutassa ezt az üzenetet mégegyszer</checkDontShowAgain>
 	</RateMeDialog>
 	<Common>
 		<buttonClose>Kilépés</buttonClose>
@@ -122,30 +122,30 @@
 			<UpdateProgressGB>GB</UpdateProgressGB>
 		</UpdateChecker>
 		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az Alkalmazások mappába</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Áthelyezés az Alkalmazások mappába?</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Áthelyezés a Saját mappa Alkalmazások mappájába?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Ha szeretné, %1 tudom helyezni magamat az Alkalmazások mappába.</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Áthelyezés az Alkalmazások mappába</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Nincs áthelyezés</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Vegye figyelembe, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Így a Letöltések mappa rendezettebbé válik.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+			<kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az alkalmazások mappába</kStrMoveApplicationCouldNotMove>
+			<kStrMoveApplicationQuestionTitle>Áthelyezés az alkalmazásokba</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Áthelyezi az alkalmazások mappába a saját mappában?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionMessage>Szeretné, hogy a(z) %1 áthelyezze magát az alkalmazások mappába?</kStrMoveApplicationQuestionMessage>
+			<kStrMoveApplicationButtonMove>Áthelyezés az alkalmazások mappába</kStrMoveApplicationButtonMove>
+			<kStrMoveApplicationButtonDoNotMove>Ne helyezze át</kStrMoveApplicationButtonDoNotMove>
+			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Ne feledje, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Ez megőrzi a Letöltések mappa rendezettségét.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>Visszavonás</actionUndo>
+			<actionRedo>Végrehajtás megismétlése</actionRedo>
+			<actionCut>Kivágás</actionCut>
+			<actionCopy>Másolás</actionCopy>
+			<actionPaste>Beillesztés</actionPaste>
+			<actionDelete>Törlés</actionDelete>
+			<actionSelectAll>Összes kijelölése</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
 			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonCancel>Mégse</buttonCancel>
+			<buttonClose>Bezárás</buttonClose>
+			<buttonYes>Igen</buttonYes>
+			<buttonNo>Nem</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
