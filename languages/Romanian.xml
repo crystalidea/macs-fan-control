@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Limba:</staticLanguage>
 		<checkSystemStart>Autostart minimizat cu sistemul (recomandat)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Folositi scala de temperatura Fahrenheit</checkFahrenheit>
 		<checkPrecise>Afisare cu precise a temperature daca este posibil (ex. 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

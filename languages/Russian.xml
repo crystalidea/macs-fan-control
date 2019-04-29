@@ -55,6 +55,7 @@
 		<tabDiagnostics>Диагностика</tabDiagnostics>
 		<staticLanguage>Язык:</staticLanguage>
 		<checkSystemStart>Автостарт при запуске системы (рекомендуется)</checkSystemStart>
+		<checkUpdatesOnStartup>Проверять обновления при старте программы</checkUpdatesOnStartup>
 		<checkFahrenheit>Использовать шкалу Фарингейта</checkFahrenheit>
 		<checkPrecise>Более точное отображение температуры (до десятых долей)</checkPrecise>
 		<staticSensor>Сенсор:</staticSensor>

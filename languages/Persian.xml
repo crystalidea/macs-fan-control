@@ -55,6 +55,7 @@
 		<tabDiagnostics>تشخیصی</tabDiagnostics>
 		<staticLanguage>زبان:</staticLanguage>
 		<checkSystemStart>اجرای خودکار بطور کمینه در کنار ساعت ‫(‬پیشنهاد میشود‫)‬</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>استفاده از مقیاس درجه حرارتی فارنهایت</checkFahrenheit>
 		<checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
 		<staticSensor>سنسور:</staticSensor>

@@ -55,6 +55,7 @@
 		<tabDiagnostics>Διαγνωστικά</tabDiagnostics>
 		<staticLanguage>Γλώσσα:</staticLanguage>
 		<checkSystemStart>Αυτόματη εκκίνηση με το σύστημα (προτείνεται)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Χρήση κλίμακας θερμοκρασίας Fahrenheit</checkFahrenheit>
 		<checkPrecise>Ακριβής προβολή θερμοκρασίας όπου δυνατόν (π.χ. 45.4°)</checkPrecise>
 		<staticSensor>Αισθητήρας:</staticSensor>

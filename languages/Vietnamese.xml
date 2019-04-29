@@ -55,6 +55,7 @@
 		<tabDiagnostics>Phân tích</tabDiagnostics>
 		<staticLanguage>Ngôn ngữ:</staticLanguage>
 		<checkSystemStart>Tự động khởi động ẩn với hệ thống (khuyên dùng)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Sử dụng độ F</checkFahrenheit>
 		<checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
 		<staticSensor>Cảm biến:</staticSensor>

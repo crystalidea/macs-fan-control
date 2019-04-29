@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnose</tabDiagnostics>
 		<staticLanguage>Taal:</staticLanguage>
 		<checkSystemStart>Geminimaliseerd starten met systeem (aanbevolen)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Fahrenheit gebruiken voor temperatuur aanduiding</checkFahrenheit>
 		<checkPrecise>Als het mogelijk is de exact temperatuur weergeven (b.v. 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

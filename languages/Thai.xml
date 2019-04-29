@@ -55,6 +55,7 @@
 		<tabDiagnostics>วินิจฉัย</tabDiagnostics>
 		<staticLanguage>ภาษา:</staticLanguage>
 		<checkSystemStart>เริ่มโปรแกรมและย่อเก็บอัตโนมัติ (แนะนำให้ใช้)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>ใช้ค่าอุณหภูมิองศาฟาเรนไฮต์</checkFahrenheit>
 		<checkPrecise>แสดงค่าแบบแม่นยำ เมื่อสามารถทำได้ (เช่น 45.4)</checkPrecise>
 		<staticSensor>เซ็นเซอร์:</staticSensor>

@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Jezik:</staticLanguage>
 		<checkSystemStart>Samodejni zagon s sistemom minimaliziran (priporočeno)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Uporabi Fahrenheit temperaturno lestvico</checkFahrenheit>
 		<checkPrecise>Natančen prikaz temperature ko je to mogoče (npr. 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Språk:</staticLanguage>
 		<checkSystemStart>Autostart minimert ved systemstart (anbefalt)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Benytt Fahrenheit temperaturskala</checkFahrenheit>
 		<checkPrecise>Nøyaktig visning av temperatur, når det er mulig (f.eks. 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

@@ -44,8 +44,8 @@
 		<itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
 		<itemRateApp>Értékelés a Macupdate oldalán</itemRateApp>
 		<itemFollowTwitter>Követés Twitteren: @crystalidea</itemFollowTwitter>
-		<itemExit>Kilépés</itemExit>º
-				<itemSensorBased>Szenzor alapú</itemSensorBased>
+		<itemExit>Kilépés</itemExit>
+		<itemSensorBased>Szenzor alapú</itemSensorBased>
 	</TrayMenu>
 	<PreferencesWindow>
 		<title>Beállítások</title>
@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnosztika</tabDiagnostics>
 		<staticLanguage>Nyelv:</staticLanguage>
 		<checkSystemStart>Indulás rendszerindításkor (javasolt)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Fahrenheit (ºF) skála használata</checkFahrenheit>
 		<checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl.: 45.4)</checkPrecise>
 		<staticSensor>Szenzor:</staticSensor>

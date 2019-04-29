@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>言語:</staticLanguage>
 		<checkSystemStart>システム開始時に最小化して起動 (推奨)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>温度単位に華氏を使用</checkFahrenheit>
 		<checkPrecise>可能な場合温度を正確に表示 (例 45.4)</checkPrecise>
 		<staticSensor>センサー:</staticSensor>

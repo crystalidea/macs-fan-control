@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.0" Author="Samer AlRubaee-Iraq">
 	<MainWindow>
 		<staticFanListHeader>المراوح:</staticFanListHeader>
@@ -27,7 +27,7 @@
 		<messageFanControlMessage>للتحكم في البرنامج يجب ادخال كلمة السر لتثبيت مساعد البرنامج.</messageFanControlMessage>
 		<messageFanControlNotAvailableTitle>التطبيق غير متاح</messageFanControlNotAvailableTitle>
 		<messageFanControlNotAvailable>البرنامج غير قادر على الاتصال بالتطبيق المساعد لتمكينه بالشكل الصحيح للتحكم بالسرعات. \n\تأكد من ادخال كلمة سر المدير عند الطلب.\n\nلمزيد من المعلومات, اتصل بنا على \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageNoFansDetected>لم يتم اكتشاف أي مراوح على هذا الكمبيوتر</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>ضبط المروحة</title>
@@ -55,6 +55,7 @@
 		<tabDiagnostics>التشخيص</tabDiagnostics>
 		<staticLanguage>اللغه:</staticLanguage>
 		<checkSystemStart>تشغيل تلقائي مع النظام (مستحسن)</checkSystemStart>
+		<checkUpdatesOnStartup>تحقق من وجود تحديثات عند بدء تشغيل التطبيق</checkUpdatesOnStartup>
 		<checkFahrenheit>استخدام مقياس درجة حراره فهرنهايت</checkFahrenheit>
 		<checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
 		<staticSensor>الحساس:</staticSensor>
@@ -132,20 +133,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>هذا سوف يبقي مجلد التحميل الخاص بك مرتب.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>تراجع</actionUndo>
+			<actionRedo>تكرار</actionRedo>
+			<actionCut>قص</actionCut>
+			<actionCopy>نسخ</actionCopy>
+			<actionPaste>لصق</actionPaste>
+			<actionDelete>حـف</actionDelete>
+			<actionSelectAll>تحديد الكل</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonOK>موافق</buttonOK>
+			<buttonCancel>الغاء</buttonCancel>
+			<buttonClose>غلق</buttonClose>
+			<buttonYes>نعم</buttonYes>
+			<buttonNo>لا</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>

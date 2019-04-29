@@ -55,6 +55,7 @@
 		<tabDiagnostics>診斷</tabDiagnostics>
 		<staticLanguage>語言：</staticLanguage>
 		<checkSystemStart>隨系統開機後自動啟動（建議）</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>使用華氏溫標表示</checkFahrenheit>
 		<checkPrecise>可能時精確顯示溫度（比如 45.4）</checkPrecise>
 		<staticSensor>傳感器：</staticSensor>

@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostiky</tabDiagnostics>
 		<staticLanguage>Jazyk:</staticLanguage>
 		<checkSystemStart>Automaticky spustit při startu systému (doporučeno)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Použít stupnici Fahrenheita</checkFahrenheit>
 		<checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
 		<staticSensor>Senzor:</staticSensor>
@@ -132,20 +133,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Umožní vám to mít složku Stahování/Downloads přehlednou.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>Odvolat</actionUndo>
+			<actionRedo>Znovu</actionRedo>
+			<actionCut>Vyjmout</actionCut>
+			<actionCopy>Kopírovat</actionCopy>
+			<actionPaste>Vložit</actionPaste>
+			<actionDelete>Smazat</actionDelete>
+			<actionSelectAll>Vybrat vše</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonOK>Budiž</buttonOK>
+			<buttonCancel>Zrušit</buttonCancel>
+			<buttonClose>Zavřít</buttonClose>
+			<buttonYes>Ano</buttonYes>
+			<buttonNo>Ne</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
