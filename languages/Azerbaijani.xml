@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diaqnostika</tabDiagnostics>
 		<staticLanguage>Dil:</staticLanguage>
 		<checkSystemStart>Sistemlə birlikdə gizli başlat (məsləhət olunan)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Tempraturu Fahrenheyt-lə göstər </checkFahrenheit>
 		<checkPrecise>Mümkün hallarda tempraturu dəqiq göstər (məsələn 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

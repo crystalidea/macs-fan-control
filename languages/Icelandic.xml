@@ -55,6 +55,7 @@
 		<tabDiagnostics>Villuleitun</tabDiagnostics>
 		<staticLanguage>Tungumál:</staticLanguage>
 		<checkSystemStart>Ræsa sjálfkrafa, smækkað, þegar kerfi ræsir (mælt með)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Nota fahrenheit mælieiningu</checkFahrenheit>
 		<checkPrecise>Nákvæm birting hitastigs þegar mögulegt er (s.d. 45.4)</checkPrecise>
 		<staticSensor>Skynjari:</staticSensor>

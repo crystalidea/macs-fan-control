@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnose</tabDiagnostics>
 		<staticLanguage>Sprache:</staticLanguage>
 		<checkSystemStart>Autostart minimiert mit Systemstart (empfohlen)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Fahrenheit-Temperaturskala verwenden</checkFahrenheit>
 		<checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4°C/°F)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

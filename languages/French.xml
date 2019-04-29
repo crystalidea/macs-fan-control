@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostic</tabDiagnostics>
 		<staticLanguage>Langue :</staticLanguage>
 		<checkSystemStart>Démarrer réduit avec la session (recommandé)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
 		<checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
 		<staticSensor>Sonde :</staticSensor>

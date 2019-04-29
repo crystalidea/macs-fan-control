@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Език:</staticLanguage>
 		<checkSystemStart>Автостарт при включване на системата (препоръчва се)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Да се използва скалата по Фаренхайт</checkFahrenheit>
 		<checkPrecise>По-точно показване на температурата (до десети от градуса)</checkPrecise>
 		<staticSensor>Сензор:</staticSensor>

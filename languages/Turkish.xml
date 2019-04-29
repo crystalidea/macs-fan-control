@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Dil:</staticLanguage>
 		<checkSystemStart>Sistemle birlikte otomatik olarak başlat (önerilen)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Fahrenheit sıcaklık ölçeğini kullan</checkFahrenheit>
 		<checkPrecise>Mümkün olduğunda sıcaklığın hassas değerini göster (örn 45.4)</checkPrecise>
 		<staticSensor>Sensör:</staticSensor>

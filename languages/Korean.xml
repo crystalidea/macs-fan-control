@@ -55,6 +55,7 @@
 		<tabDiagnostics>진단 정보</tabDiagnostics>
 		<staticLanguage>언어:</staticLanguage>
 		<checkSystemStart>시스템 시작 시 최소화로 자동시작 (권장)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>온도를 화씨로 표시</checkFahrenheit>
 		<checkPrecise>온도를 정확하게 표시 (예 45.4)</checkPrecise>
 		<staticSensor>센서:</staticSensor>

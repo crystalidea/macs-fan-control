@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostika</tabDiagnostics>
 		<staticLanguage>Jazyk:</staticLanguage>
 		<checkSystemStart>Automaticky spustiť pri štarte systému (odporúčané)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Použiť teplotnú stupnicu Fahrenheit</checkFahrenheit>
 		<checkPrecise>Zobraziť detailnú teplotu, ak je to možné (napr. 45.4)</checkPrecise>
 		<staticSensor>Snímač:</staticSensor>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.10" Author="abajo62">
 	<MainWindow>
 		<staticFanListHeader>Ventilatori:</staticFanListHeader>
@@ -55,6 +55,7 @@
 		<tabDiagnostics>Dijagnostika</tabDiagnostics>
 		<staticLanguage>Jezik:</staticLanguage>
 		<checkSystemStart>Automatsko pokretanje sa operativnim sistemom minimizovano (preporučeno)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Upotrebi Fahrenheit temperaturnu skalu</checkFahrenheit>
 		<checkPrecise>Precizan prikaz temperature kada je to moguće (npr. 45.4)</checkPrecise>
 		<staticSensor>Senzor:</staticSensor>

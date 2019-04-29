@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Language:</staticLanguage>
 		<checkSystemStart>Autostart minimized with system (recommended)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Use Fahrenheit temperature scale</checkFahrenheit>
 		<checkPrecise>Precise display of temperature when possible (e.g. 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

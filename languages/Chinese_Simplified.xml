@@ -55,6 +55,7 @@
 		<tabDiagnostics>诊断</tabDiagnostics>
 		<staticLanguage>语言：</staticLanguage>
 		<checkSystemStart>随系统最小化自动启动（推荐）</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>使用华氏单位显示</checkFahrenheit>
 		<checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
 		<staticSensor>传感器：</staticSensor>

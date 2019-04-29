@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.8" Author="Liron Abergel">
 	<MainWindow>
 		<staticFanListHeader>מאווררים זמינים‫:‬</staticFanListHeader>
@@ -55,6 +55,7 @@
 		<tabDiagnostics>אבחון</tabDiagnostics>
 		<staticLanguage>שפה‫:‬</staticLanguage>
 		<checkSystemStart>הפעל עם הפעלת מערכת ההפעלה ‫(‬מומלץ‫)‬</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>השתמש במעלות מסוג פרנהייט</checkFahrenheit>
 		<checkPrecise>אבחון תצוגה מקדימה של הטמפרטורה במידת האפשר‫(‬דוגמא 45‫)‬</checkPrecise>
 		<staticSensor>חיישן‫:‬</staticSensor>
@@ -74,8 +75,7 @@
 		<title>About Macs Fan Control</title>
 		<staticTechnicalSupport>תמיכה תכנית בפורום</staticTechnicalSupport>
 		<staticOnlineHelp>עזרה מקוונת</staticOnlineHelp>
-		<staticWarning>
-התוכנית מיועדת למשתמשים מתקדמים שיודעים כיצד להשתמש בהם מבלי להזיק למחשב ה- MAC שלהם. המפתחים אינם אחראים למחיקת נתונים, לנזקים, לאובדן רווחים או לכל סוג אחר של הפסדים הקשורים לשימוש או בשלילה של התוכנית</staticWarning>
+		<staticWarning> התוכנית מיועדת למשתמשים מתקדמים שיודעים כיצד להשתמש בהם מבלי להזיק למחשב ה- MAC שלהם. המפתחים אינם אחראים למחיקת נתונים, לנזקים, לאובדן רווחים או לכל סוג אחר של הפסדים הקשורים לשימוש או בשלילה של התוכנית</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
 		<title>Macs Fan Control - New version available</title>

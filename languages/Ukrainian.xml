@@ -55,6 +55,7 @@
 		<tabDiagnostics>Діагностика</tabDiagnostics>
 		<staticLanguage>Мова:</staticLanguage>
 		<checkSystemStart>Автостарт під час запуску системи (рекомендується)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Використовувати шкалу Фаренгейта</checkFahrenheit>
 		<checkPrecise>Більш точне відображення температури (до десятих)</checkPrecise>
 		<staticSensor>Сенсор:</staticSensor>

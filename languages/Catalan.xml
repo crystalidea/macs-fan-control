@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostics</tabDiagnostics>
 		<staticLanguage>Idioma:</staticLanguage>
 		<checkSystemStart>Executar al inici del sistema (recomanat)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Usar escala en grau Farenheit</checkFahrenheit>
 		<checkPrecise>Visualització precisa de la temperatura quan sigui possible (p.ex. 45.4)</checkPrecise>
 		<staticSensor>Sensor:</staticSensor>

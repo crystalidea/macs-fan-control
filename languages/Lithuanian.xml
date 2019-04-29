@@ -55,6 +55,7 @@
 		<tabDiagnostics>Diagnostika</tabDiagnostics>
 		<staticLanguage>Kalba:</staticLanguage>
 		<checkSystemStart>Paleisti su sistema (rekomenduojama)</checkSystemStart>
+		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
 		<checkFahrenheit>Naudoti Farenheito temperatūros skalę</checkFahrenheit>
 		<checkPrecise>Patikslinti temperatūrą, kai galima (pvz.: 45.4)</checkPrecise>
 		<staticSensor>Jutiklisr:</staticSensor>
