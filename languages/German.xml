@@ -139,7 +139,7 @@
 			<actionCopy>Kopieren</actionCopy>
 			<actionPaste>Einfügen</actionPaste>
 			<actionDelete>Löschen</actionDelete>
-			<actionSelectAll>Alle auswählen</actionSelectAll>
+			<actionSelectAll>Alles auswählen</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
 			<buttonOK>OK</buttonOK>
