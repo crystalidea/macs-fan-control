@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.10" Author="Alexandr Loskutov">
 	<MainWindow>
 		<staticFanListHeader>Доступні вентилятори:</staticFanListHeader>
@@ -14,7 +14,7 @@
 		<fanControlAutomatic>Автоматично</fanControlAutomatic>
 		<fanControlAutomaticInfo>Автоматичний контроль системою</fanControlAutomaticInfo>
 		<fanControlConstant>Постійне значення %1</fanControlConstant>
-		<fanControlSensor>На основі сенсору %1</fanControlSensor>
+		<fanControlSensor>На основі датчику %1</fanControlSensor>
 		<fanControlUnknown>Невідомо!</fanControlUnknown>
 		<buttonFanControlCustom>Інше...</buttonFanControlCustom>
 		<buttonFanControlCustomInfo>Встановити користувацький режим</buttonFanControlCustomInfo>
@@ -55,7 +55,7 @@
 		<tabDiagnostics>Діагностика</tabDiagnostics>
 		<staticLanguage>Мова:</staticLanguage>
 		<checkSystemStart>Автостарт під час запуску системи (рекомендується)</checkSystemStart>
-		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+		<checkUpdatesOnStartup>Перевірити оновлення при запуску програми</checkUpdatesOnStartup>
 		<checkFahrenheit>Використовувати шкалу Фаренгейта</checkFahrenheit>
 		<checkPrecise>Більш точне відображення температури (до десятих)</checkPrecise>
 		<staticSensor>Сенсор:</staticSensor>
