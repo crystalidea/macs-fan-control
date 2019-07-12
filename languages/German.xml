@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.8" Author="Gerrit, update by Adrian Geiler">
 	<MainWindow>
-		<staticFanListHeader>Lüfter:</staticFanListHeader>
+		<staticFanListHeader>Verfügbare Lüfter:</staticFanListHeader>
 		<staticSensorsListHeader>Temperatursensoren:</staticSensorsListHeader>
 		<listColumnFan>Lüfter</listColumnFan>
 		<listColumnRPM>U/min min/momentan/max</listColumnRPM>
@@ -133,20 +133,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Damit Ihr Downloads-Ordner aufgeräumt wird.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>Rückgängig machen</actionUndo>
+			<actionRedo>Wiederherstellen</actionRedo>
+			<actionCut>Ausschneiden</actionCut>
+			<actionCopy>Kopieren</actionCopy>
+			<actionPaste>Einfügen</actionPaste>
+			<actionDelete>Löschen</actionDelete>
+			<actionSelectAll>Alles auswählen</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
 			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonCancel>Abbrechen</buttonCancel>
+			<buttonClose>Schließen</buttonClose>
+			<buttonYes>Ja</buttonYes>
+			<buttonNo>Nein</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
