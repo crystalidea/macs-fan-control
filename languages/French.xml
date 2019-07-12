@@ -35,15 +35,15 @@
 		<radioSensor>Valeur basée sur la sonde</radioSensor>
 		<staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
 		<staticMax>Température maxi :</staticMax>
-		<statusWarning>Il y a un problème : les vitesses mini et maxi sont identiques (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
+		<statusWarning>Il y a un problème : les vitesses mini et maxi sont les mêmes (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
 	</FanControlDialog>
 	<TrayMenu>
 		<itemShow>Afficher Macs Fan Control</itemShow>
 		<itemMoreLinks>Plus</itemMoreLinks>
 		<itemWebsite>Site web</itemWebsite>
 		<itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
-		<itemRateApp>Noter sur Macupdate</itemRateApp>
-		<itemFollowTwitter>Suivre @crystalidea</itemFollowTwitter>
+		<itemRateApp>Noter sur MacUpdate</itemRateApp>
+		<itemFollowTwitter>Suivre @crystalidea sur Twitter</itemFollowTwitter>
 		<itemExit>Quitter</itemExit>
 		<itemSensorBased>Basé sur la sonde</itemSensorBased>
 	</TrayMenu>
@@ -75,7 +75,7 @@
 		<title>À propos de Macs Fan Control</title>
 		<staticTechnicalSupport>Assistance technique via notre forum</staticTechnicalSupport>
 		<staticOnlineHelp>Aide en ligne</staticOnlineHelp>
-		<staticWarning>CE PROGRAMME EST DESTINÉ AUX UTILISATEURS EXPÉRIMENTÉS SACHANT L'UTILISER SANS RISQUE POUR LEUR MAC. LES AUTEURS NE SONT PAS RESPONSABLES DES PERTES DE DONNÉES, DOMMAGES, MANQUES À GAGNER OU TOUTES AUTRES CONSÉQUENCES DE LA BONNE OU MAUVAISE UTILISATION DE CE PROGRAMME</staticWarning>
+		<staticWarning>CETTE PROGRAMME EST DESTINÉ AUX UTILISATEURS EXPÉRIMENTÉS SACHANT L'UTILISER SANS RISQUE POUR LEUR MAC. LES AUTEURS NE SONT PAS RESPONSABLES DES PERTES DE DONNÉES, LES DÉGÂTS, PERTE DE PROFIT OU TOUTES AUTRES CONSÉQUENCES DE LA MAUVAISE UTILISATION DE CETTE PROGRAMME</staticWarning>
 	</AboutDialog>
 	<NewVersionDialog>
 		<title>Macs Fan Control - Nouvelle version disponible</title>
@@ -108,14 +108,14 @@
 			<UpdateAlertAutomaticUpdates>Rechercher automatiquement les mises à jour</UpdateAlertAutomaticUpdates>
 			<MessageNoUpdateAvailable>Votre logiciel est à jour !</MessageNoUpdateAvailable>
 			<MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Une erreur est survenue pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
+			<MessageErrorConnect>Une erreur s'est produite pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
 			<MessageErrorParse>Une erreur est survenue pendant l’analyse de la mise à jour.</MessageErrorParse>
 			<UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
 			<UpdateProgressCancel>Annuler</UpdateProgressCancel>
 			<UpdateProgressInstallAndRelaunch>Installer et relancer</UpdateProgressInstallAndRelaunch>
 			<UpdateProgressStatusDownloading>Téléchargement de la mise à jour...</UpdateProgressStatusDownloading>
 			<UpdateProgressExtract>Extraction de la mise à jour...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Prêt pour l’installation</UpdateProgressStatusReady>
+			<UpdateProgressStatusReady>Prêt pour l’installation !</UpdateProgressStatusReady>
 			<UpdateProgressSize>%1 sur %2</UpdateProgressSize>
 			<UpdateProgressB>octets</UpdateProgressB>
 			<UpdateProgressKB>ko</UpdateProgressKB>
@@ -124,8 +124,8 @@
 		</UpdateChecker>
 		<LetsMoveMac>
 			<kStrMoveApplicationCouldNotMove>Déplacement impossible vers le dossier Applications</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Déplacer vers les Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Application dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
+			<kStrMoveApplicationQuestionTitle>Déplacer vers le dossier Applications</kStrMoveApplicationQuestionTitle>
+			<kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Applications dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
 			<kStrMoveApplicationQuestionMessage>Souhaitez-vous que %1 se déplace dans le dossier Applications ?</kStrMoveApplicationQuestionMessage>
 			<kStrMoveApplicationButtonMove>Déplacer vers le dossier Applications</kStrMoveApplicationButtonMove>
 			<kStrMoveApplicationButtonDoNotMove>Ne pas déplacer</kStrMoveApplicationButtonDoNotMove>
@@ -133,20 +133,20 @@
 			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Ceci permet de ne pas encombrer votre dossier Téléchargements.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
 		</LetsMoveMac>
 		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
+			<actionUndo>Défaire</actionUndo>
+			<actionRedo>Refaire</actionRedo>
+			<actionCut>Coupe</actionCut>
+			<actionCopy>Copie</actionCopy>
+			<actionPaste>Colle</actionPaste>
+			<actionDelete>Supprimer</actionDelete>
+			<actionSelectAll>Sélectionnez tous</actionSelectAll>
 		</QLineEditEx>
 		<QMessageBoxEx>
 			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
+			<buttonCancel>Annuler</buttonCancel>
+			<buttonClose>Fermer</buttonClose>
+			<buttonYes>Oui</buttonYes>
+			<buttonNo>Non</buttonNo>
 		</QMessageBoxEx>
 	</core>
 </LanguageStrings>
