@@ -1,5 +1,5 @@
-﻿<?xml version="1.1.1" encoding="UTF-8"?>
-<LanguageStrings version="1.4.12" Author="Harold Liu">
+﻿<?xml version="1.1.2" encoding="UTF-8"?>
+<LanguageStrings version="1.4.12" Author="Harold Liu, Samuel Lee">
 	<MainWindow>
 		<staticFanListHeader>风扇列表：</staticFanListHeader>
 		<staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
@@ -24,7 +24,7 @@
 		<buttonAbout>关于...</buttonAbout>
 		<statusMoreApps>%1 版本号 &amp; 更多应用程序</statusMoreApps>
 		<messageNonAppleFSWarningMac>只读模式： 检测到非Apple文件系统（%1）</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>为了控制风扇，Macs Fan Control 需要为帮助工具提升权限。</messageFanControlMessage>
+		<messageFanControlMessage>Macs Fan Control 需要为帮助工具提升权限以控制风扇。</messageFanControlMessage>
 		<messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
 		<messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其旋转速度。\n\n请在提示时输入管理员密码。\n\n请通过以下网站以获取更多信息：\nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
 		<messageNoFansDetected>没有在此电脑上检测到风扇</messageNoFansDetected>
