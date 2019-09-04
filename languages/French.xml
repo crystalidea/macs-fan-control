@@ -27,7 +27,7 @@
 		<messageFanControlMessage>Pour contrôler les ventilateurs Macs Fan Control nécessite des droits privilégiés pour son outil auxiliaire.</messageFanControlMessage>
 		<messageFanControlNotAvailableTitle>Contrôle de ventilateur non disponible</messageFanControlNotAvailableTitle>
 		<messageFanControlNotAvailable>Macs Fan Control n'a pas pu se connecter à l'application auxiliaire pour activer le contrôle de ventilateur et ajuster les vitesses. \n\nAssurez-vous de saisir un mot de passe administrateur lors de la demande.\n\nPour plus d'informations, veuillez nous contacter sur \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
+		<messageNoFansDetected>Macs Fan Control ne peut pas détecter les ventaliteurs</messageNoFansDetected>
 	</MainWindow>
 	<FanControlDialog>
 		<title>Contrôle du ventilateur « %1 »</title>
