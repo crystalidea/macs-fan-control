@@ -1,152 +1,192 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
-	<MainWindow>
-		<staticFanListHeader>Ventilateurs :</staticFanListHeader>
-		<staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
-		<listColumnFan>Ventilateur</listColumnFan>
-		<listColumnRPM>Vitesse mini/actuelle/maxi</listColumnRPM>
-		<listColumnControl>Contrôle</listColumnControl>
-		<listColumnSensor>Sonde</listColumnSensor>
-		<listColumnSensorValue>Valeur</listColumnSensorValue>
-		<listSeparatorDrives>Disques durs :</listSeparatorDrives>
-		<popupMenuItemControl>Changer de contrôle...</popupMenuItemControl>
-		<popupMenuItemReset>Retour au contrôle automatique</popupMenuItemReset>
-		<fanControlAutomatic>Automatique</fanControlAutomatic>
-		<fanControlAutomaticInfo>Automatique (contrôlé par le système)</fanControlAutomaticInfo>
-		<fanControlConstant>Valeur constante à %1</fanControlConstant>
-		<fanControlSensor>Basé sur %1</fanControlSensor>
-		<fanControlUnknown>Inconnu !</fanControlUnknown>
-		<buttonFanControlCustom>Personnalisé...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>Spécifier un mode de contrôle personnalisé</buttonFanControlCustomInfo>
-		<buttonMinimize>Placer dans le Dock</buttonMinimize>
-		<buttonMinimizeMac>Masquer vers la barre des menus</buttonMinimizeMac>
-		<buttonPreferences>Préférences...</buttonPreferences>
-		<buttonAbout>À propos...</buttonAbout>
-		<statusMoreApps>Version %1 &amp; plus d'applis</statusMoreApps>
-		<messageNonAppleFSWarningMac>Mode lecture seule : système de fichiers non Apple (%1). Essayez de déplacer l'appli vers « /Applications » ?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>Pour contrôler les ventilateurs Macs Fan Control nécessite des droits privilégiés pour son outil auxiliaire.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Contrôle de ventilateur non disponible</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control n'a pas pu se connecter à l'application auxiliaire pour activer le contrôle de ventilateur et ajuster les vitesses. \n\nAssurez-vous de saisir un mot de passe administrateur lors de la demande.\n\nPour plus d'informations, veuillez nous contacter sur \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
-	</MainWindow>
-	<FanControlDialog>
-		<title>Contrôle du ventilateur « %1 »</title>
-		<radioConstant>Valeur constante (t/min)</radioConstant>
-		<radioSensor>Valeur basée sur la sonde</radioSensor>
-		<staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
-		<staticMax>Température maxi :</staticMax>
-		<statusWarning>Il y a un problème : les vitesses mini et maxi sont les mêmes (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
-	</FanControlDialog>
-	<TrayMenu>
-		<itemShow>Afficher Macs Fan Control</itemShow>
-		<itemMoreLinks>Plus</itemMoreLinks>
-		<itemWebsite>Site web</itemWebsite>
-		<itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
-		<itemRateApp>Noter sur MacUpdate</itemRateApp>
-		<itemFollowTwitter>Suivre @crystalidea sur Twitter</itemFollowTwitter>
-		<itemExit>Quitter</itemExit>
-		<itemSensorBased>Basé sur la sonde</itemSensorBased>
-	</TrayMenu>
-	<PreferencesWindow>
-		<title>Préférences</title>
-		<TabGeneral>Général</TabGeneral>
-		<tabTrayIcon>Icône de la barre des tâches</tabTrayIcon>
-		<tabTrayIconMac>Affichage dans la barre des menus</tabTrayIconMac>
-		<tabDiagnostics>Diagnostic</tabDiagnostics>
-		<staticLanguage>Langue :</staticLanguage>
-		<checkSystemStart>Démarrer réduit avec la session (recommandé)</checkSystemStart>
-		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
-		<checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
-		<checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
-		<staticSensor>Sonde :</staticSensor>
-		<staticFan>Ventilateur :</staticFan>
-		<staticIcon>Icône :</staticIcon>
-		<comboIconOptionShow>En couleurs</comboIconOptionShow>
-		<comboIconOptionShowBW>En noir &amp; blanc</comboIconOptionShowBW>
-		<comboOptionNone>Non</comboOptionNone>
-		<checkTwoLines>Condenser les indications sur 2 lignes pour gagner de la place</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(°C uniquement)</staticCelsiusOnlyOnWindows>
-		<checkLog>Activer l'historique (après redémarrage)</checkLog>
-		<browseLog>Parcourir</browseLog>
-		<buttonCopyTechInfo>Copier les infos techniques</buttonCopyTechInfo>
-		<copyInfoMessage>Informations techniques copiées dans le presse-papiers</copyInfoMessage>
-	</PreferencesWindow>
-	<AboutDialog>
-		<title>À propos de Macs Fan Control</title>
-		<staticTechnicalSupport>Assistance technique via notre forum</staticTechnicalSupport>
-		<staticOnlineHelp>Aide en ligne</staticOnlineHelp>
-		<staticWarning>CETTE PROGRAMME EST DESTINÉ AUX UTILISATEURS EXPÉRIMENTÉS SACHANT L'UTILISER SANS RISQUE POUR LEUR MAC. LES AUTEURS NE SONT PAS RESPONSABLES DES PERTES DE DONNÉES, LES DÉGÂTS, PERTE DE PROFIT OU TOUTES AUTRES CONSÉQUENCES DE LA MAUVAISE UTILISATION DE CETTE PROGRAMME</staticWarning>
-	</AboutDialog>
-	<NewVersionDialog>
-		<title>Macs Fan Control - Nouvelle version disponible</title>
-		<staticNewVersion>Une nouvelle version du programme est disponible. Rendez-vous sur notre &lt;a href='website'&gt;site web&lt;/a&gt; pour obtenir la nouvelle version.</staticNewVersion>
-	</NewVersionDialog>
-	<RateMeDialog>
-		<message>Noter l'appli sur MacUpdate</message>
-		<informativeText>Si vous appréciez %1, pourriez-vous prendre un moment pour le noter ? Cela ne prendra pas plus d'une minute. Merci de votre soutien !</informativeText>
-		<buttonRate>Noter sur MacUpdate</buttonRate>
-		<buttonNoThanks>Non merci</buttonNoThanks>
-		<checkDontShowAgain>Ne plus affficher ce message</checkDontShowAgain>
-	</RateMeDialog>
-	<Common>
-		<buttonClose>Fermer</buttonClose>
-		<buttonOK>OK</buttonOK>
-		<buttonCancel>Annuler</buttonCancel>
-		<buttonContinue>Continuer</buttonContinue>
-	</Common>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>publié le %1</ReleasedOn>
-			<CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
-			<NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
-			<UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Ignorer cette version</UpdateAlertSkip>
-			<UpdateAlertInstall>Installer</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Rechercher automatiquement les mises à jour</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Votre logiciel est à jour !</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Une erreur s'est produite pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
-			<MessageErrorParse>Une erreur est survenue pendant l’analyse de la mise à jour.</MessageErrorParse>
-			<UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Annuler</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Installer et relancer</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Téléchargement de la mise à jour...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Extraction de la mise à jour...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Prêt pour l’installation !</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 sur %2</UpdateProgressSize>
-			<UpdateProgressB>octets</UpdateProgressB>
-			<UpdateProgressKB>ko</UpdateProgressKB>
-			<UpdateProgressMB>Mo</UpdateProgressMB>
-			<UpdateProgressGB>Go</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Déplacement impossible vers le dossier Applications</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Déplacer vers le dossier Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Applications dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Souhaitez-vous que %1 se déplace dans le dossier Applications ?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Déplacer vers le dossier Applications</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Ne pas déplacer</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Notez que vous aurez besoin de votre mot de passe administrateur.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Ceci permet de ne pas encombrer votre dossier Téléchargements.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Défaire</actionUndo>
-			<actionRedo>Refaire</actionRedo>
-			<actionCut>Coupe</actionCut>
-			<actionCopy>Copie</actionCopy>
-			<actionPaste>Colle</actionPaste>
-			<actionDelete>Supprimer</actionDelete>
-			<actionSelectAll>Sélectionnez tous</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Annuler</buttonCancel>
-			<buttonClose>Fermer</buttonClose>
-			<buttonYes>Oui</buttonYes>
-			<buttonNo>Non</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <staticFanListHeader>Ventilateurs :</staticFanListHeader>
+        <staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
+        <listColumnFan>Ventilateur</listColumnFan>
+        <listColumnRPM>Vitesse mini/actuelle/maxi</listColumnRPM>
+        <listColumnControl>Contrôle</listColumnControl>
+        <listColumnSensor>Sonde</listColumnSensor>
+        <listColumnSensorValue>Valeur</listColumnSensorValue>
+        <listSeparatorDrives>Disques durs :</listSeparatorDrives>
+        <popupMenuItemControl>Changer de contrôle...</popupMenuItemControl>
+        <popupMenuItemReset>Retour au contrôle automatique</popupMenuItemReset>
+        <fanControlAutomatic>Automatique</fanControlAutomatic>
+        <fanControlAutomaticInfo>Automatique (contrôlé par le système)</fanControlAutomaticInfo>
+        <fanControlConstant>Valeur constante à %1</fanControlConstant>
+        <fanControlSensor>Basé sur %1</fanControlSensor>
+        <fanControlUnknown>Inconnu !</fanControlUnknown>
+        <buttonFanControlCustom>Personnalisé...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Spécifier un mode de contrôle personnalisé</buttonFanControlCustomInfo>
+        <buttonMinimize>Placer dans le Dock</buttonMinimize>
+        <buttonMinimizeMac>Masquer vers la barre des menus</buttonMinimizeMac>
+        <buttonPreferences>Préférences...</buttonPreferences>
+        <buttonAbout>À propos...</buttonAbout>
+        <statusMoreApps>Version %1 &amp; plus d'applis</statusMoreApps>
+        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Contrôle de ventilateur non disponible</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control n'a pas pu se connecter à l'application auxiliaire pour activer le contrôle de ventilateur et ajuster les vitesses. \n\nAssurez-vous de saisir un mot de passe administrateur lors de la demande.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/fr-fr/HT201295)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Contrôle du ventilateur « %1 »</title>
+        <radioConstant>Valeur constante (t/min)</radioConstant>
+        <radioSensor>Valeur basée sur la sonde</radioSensor>
+        <staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
+        <staticMax>Température maxi :</staticMax>
+        <statusWarning>Il y a un problème : les vitesses mini et maxi sont identiques (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Active preset:</activePresetLabel>
+        <presetAutomatic>Automatic</presetAutomatic>
+        <presetFullBlast>Full blast</presetFullBlast>
+        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
+        <presetMenuSave>Save...</presetMenuSave>
+        <presetMenuRename>Rename</presetMenuRename>
+        <presetMenuDelete>Delete</presetMenuDelete>
+        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
+        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>Preset name:</labelPresetName>
+        <savePresetTitle>Save custom preset</savePresetTitle>
+        <editPresetTitle>Edit preset name</editPresetTitle>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Upgrade to Macs Fan Control Pro</title>
+        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
+        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
+        <buttonPurchase>Purchase</buttonPurchase>
+        <buttonEnterLicense>Enter License</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Unlock Pro version</title>
+        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
+        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+        <email>Email Address</email>
+        <licenseKey>License Key</licenseKey>
+        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
+        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Afficher Macs Fan Control</itemShow>
+        <itemMoreLinks>Plus</itemMoreLinks>
+        <itemWebsite>Site web</itemWebsite>
+        <itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
+        <itemRateApp>Noter sur Macupdate</itemRateApp>
+        <itemFollowTwitter>Suivre @crystalidea</itemFollowTwitter>
+        <itemExit>Quitter</itemExit>
+        <itemExitMac>Quitter Macs Fan Control</itemExitMac>
+        <itemSensorBased>Basé sur la sonde</itemSensorBased>
+        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>Préférences</title>
+        <TabGeneral>Général</TabGeneral>
+        <tabTrayIcon>Icône de la barre des tâches</tabTrayIcon>
+        <tabTrayIconMac>Affichage dans la barre des menus</tabTrayIconMac>
+        <tabDiagnostics>Diagnostic</tabDiagnostics>
+        <staticLanguage>Langue :</staticLanguage>
+        <checkSystemStart>Démarrer réduit avec la session (recommandé)</checkSystemStart>
+        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
+        <checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
+        <displayDrives>Display connected drives temperatures</displayDrives>
+        <staticSensor>Sonde :</staticSensor>
+        <staticFan>Ventilateur :</staticFan>
+        <staticIcon>Icône :</staticIcon>
+        <comboIconOptionShow>En couleurs</comboIconOptionShow>
+        <comboIconOptionShowBW>En noir &amp; blanc</comboIconOptionShowBW>
+        <comboOptionNone>Non</comboOptionNone>
+        <checkTwoLines>Condenser les indications sur 2 lignes pour gagner de la place</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(°C uniquement)</staticCelsiusOnlyOnWindows>
+        <checkLog>Activer l'historique (après redémarrage)</checkLog>
+        <browseLog>Parcourir</browseLog>
+        <buttonCopyTechInfo>Copier les infos techniques</buttonCopyTechInfo>
+        <copyInfoMessage>Informations techniques copiées dans le presse-papiers</copyInfoMessage>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>À propos de Macs Fan Control</title>
+        <staticTechnicalSupport>Assistance technique via notre forum</staticTechnicalSupport>
+        <staticOnlineHelp>Aide en ligne</staticOnlineHelp>
+        <staticWarning>CE PROGRAMME EST DESTINÉ AUX UTILISATEURS EXPÉRIMENTÉS SACHANT L'UTILISER SANS RISQUE POUR LEUR MAC. LES AUTEURS NE SONT PAS RESPONSABLES DES PERTES DE DONNÉES, DOMMAGES, MANQUES À GAGNER OU TOUTES AUTRES CONSÉQUENCES DE LA BONNE OU MAUVAISE UTILISATION DE CE PROGRAMME</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Noter l'appli sur MacUpdate</message>
+        <informativeText>Si vous appréciez %1, pourriez-vous prendre un moment pour le noter ? Cela ne prendra pas plus d'une minute. Merci de votre soutien !</informativeText>
+        <buttonRate>Noter sur MacUpdate</buttonRate>
+        <buttonNoThanks>Non merci</buttonNoThanks>
+        <checkDontShowAgain>Ne plus affficher ce message</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>Fermer</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Annuler</buttonCancel>
+        <buttonContinue>Continuer</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>publié le %1</ReleasedOn>
+            <CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
+            <NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
+            <UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Ignorer cette version</UpdateAlertSkip>
+            <UpdateAlertInstall>Installer</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Rechercher automatiquement les mises à jour</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Votre logiciel est à jour !</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Une erreur est survenue pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
+            <MessageErrorParse>Une erreur est survenue pendant l’analyse de la mise à jour.</MessageErrorParse>
+            <UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Annuler</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Installer et relancer</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Téléchargement de la mise à jour...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Extraction de la mise à jour...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Prêt pour l’installation</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 sur %2</UpdateProgressSize>
+            <UpdateProgressB>octets</UpdateProgressB>
+            <UpdateProgressKB>ko</UpdateProgressKB>
+            <UpdateProgressMB>Mo</UpdateProgressMB>
+            <UpdateProgressGB>Go</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Déplacement impossible vers le dossier Applications</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Déplacer vers les Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Application dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Souhaitez-vous que %1 se déplace dans le dossier Applications ?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Déplacer vers le dossier Applications</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Ne pas déplacer</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Notez que vous aurez besoin de votre mot de passe administrateur.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ceci permet de ne pas encombrer votre dossier Téléchargements.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Annuler</actionUndo>
+            <actionRedo>Refaire</actionRedo>
+            <actionCut>Couper</actionCut>
+            <actionCopy>Copier</actionCopy>
+            <actionPaste>Coller</actionPaste>
+            <actionDelete>Supprimer</actionDelete>
+            <actionSelectAll>Sélectionner tout</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Annuler</buttonCancel>
+            <buttonClose>Fermer</buttonClose>
+            <buttonYes>Oui</buttonYes>
+            <buttonNo>Non</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

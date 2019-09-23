@@ -1,152 +1,192 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.8.1" Author="OREKASEP - Thanh TRAN CONG">
-	<MainWindow>
-		<staticFanListHeader>Quạt:</staticFanListHeader>
-		<staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
-		<listColumnFan>Quạt</listColumnFan>
-		<listColumnRPM>Nhỏ nhất/Hiện tại/Lớn nhất</listColumnRPM>
-		<listColumnControl>Điều khiển</listColumnControl>
-		<listColumnSensor>Cảm biến</listColumnSensor>
-		<listColumnSensorValue>Giá trị</listColumnSensorValue>
-		<listSeparatorDrives>Ổ đĩa:</listSeparatorDrives>
-		<popupMenuItemControl>Thay đổi điều khiển...</popupMenuItemControl>
-		<popupMenuItemReset>Chuyển chế độ tự điều khiển</popupMenuItemReset>
-		<fanControlAutomatic>Tự động</fanControlAutomatic>
-		<fanControlAutomaticInfo>Tự động (điều khiển bởi hệ thống)</fanControlAutomaticInfo>
-		<fanControlConstant>Cố định giá trị %1</fanControlConstant>
-		<fanControlSensor>Dựa theo %1</fanControlSensor>
-		<fanControlUnknown>Không rõ!</fanControlUnknown>
-		<buttonFanControlCustom>Tùy chỉnh...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>Tùy chỉnh chế độ điều khiển</buttonFanControlCustomInfo>
-		<buttonMinimize>Thu nhỏ</buttonMinimize>
-		<buttonMinimizeMac>Ẩn trên thanh công cụ</buttonMinimizeMac>
-		<buttonPreferences>Tùy chọn...</buttonPreferences>
-		<buttonAbout>Giới thiệu...</buttonAbout>
-		<statusMoreApps>phiên bản %1 &amp; Ứng dụng khác</statusMoreApps>
-		<messageNonAppleFSWarningMac>Chế độ Chỉ-Đọc: Không tìm thấy Hệ thống tệp tin Apple (%1). Hãy thử chuyển sang thư mục '/Applications'?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>Để điều kiển quạt, Macs Fan Control yêu cầu thiết lập các quyền cần thiết cho các công cụ hỗ trợ.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Không thể hỗ trợ điều khiển quạt</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control không thể kết nối tới công cụ hỗ trợ để bật chức năng điều khiển quạt cũng như chỉnh tốc độ. \n\nHãy điền mật khẩu administrator khi được hỏi.\n\nĐể biết thêm chi tiết, xin liên hệ tại \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>Không tìm thấy quạt của máy tính này</messageNoFansDetected>
-	</MainWindow>
-	<FanControlDialog>
-		<title>Điều khiển quạt cho %1</title>
-		<radioConstant>Giá trị cố định Vòng/Phút</radioConstant>
-		<radioSensor>Giá trị theo cảm biến</radioSensor>
-		<staticIncrease>Nhiệt độ quạt bắt đầu tăng từ:</staticIncrease>
-		<staticMax>Nhiệt độ lớn nhất:</staticMax>
-		<statusWarning>Có sai sót - giá trị quạt lớn nhất/nhỏ nhất bằng nhau (%1).&lt;br/&gt; Hãy đảm bảo xóa những ứng dụng điều khiển quạt khác và khởi động lại ứng dụng.</statusWarning>
-	</FanControlDialog>
-	<TrayMenu>
-		<itemShow>Hiện Macs Fan Control</itemShow>
-		<itemMoreLinks>Xem thêm</itemMoreLinks>
-		<itemWebsite>Website</itemWebsite>
-		<itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>
-		<itemRateApp>Đánh giá trên Macupdate</itemRateApp>
-		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
-		<itemExit>Thoát</itemExit>
-		<itemSensorBased>Theo cảm biến</itemSensorBased>
-	</TrayMenu>
-	<PreferencesWindow>
-		<title>Tùy chọn</title>
-		<TabGeneral>Tổng quát</TabGeneral>
-		<tabTrayIcon>Hiện trên Tray</tabTrayIcon>
-		<tabTrayIconMac>Hiện trên Menubar</tabTrayIconMac>
-		<tabDiagnostics>Phân tích</tabDiagnostics>
-		<staticLanguage>Ngôn ngữ:</staticLanguage>
-		<checkSystemStart>Tự động khởi động ẩn với hệ thống (khuyên dùng)</checkSystemStart>
-		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
-		<checkFahrenheit>Sử dụng độ F</checkFahrenheit>
-		<checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
-		<staticSensor>Cảm biến:</staticSensor>
-		<staticFan>Quạt:</staticFan>
-		<staticIcon>Biểu tượng:</staticIcon>
-		<comboIconOptionShow>Hiển thị (màu)</comboIconOptionShow>
-		<comboIconOptionShowBW>Hiển thị (đen &amp; trắng)</comboIconOptionShowBW>
-		<comboOptionNone>Không</comboOptionNone>
-		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(Chỉ Độ C)</staticCelsiusOnlyOnWindows>
-		<checkLog>Bật ghi chú (yêu cầu khởi động lại)</checkLog>
-		<browseLog>Duyệt..</browseLog>
-		<buttonCopyTechInfo>Sao chép thông tin kỹ thuật</buttonCopyTechInfo>
-		<copyInfoMessage>Thông tin kỹ thuật đã được sao chép vào clipboard</copyInfoMessage>
-	</PreferencesWindow>
-	<AboutDialog>
-		<title>Giới thiệu Macs Fan Control</title>
-		<staticTechnicalSupport>Hỗ trợ kỹ thuật trên diễn đàn</staticTechnicalSupport>
-		<staticOnlineHelp>Trợ giúp trực tuyến</staticOnlineHelp>
-		<staticWarning>ỨNG DỤNG CHỈ NÊN SỬ DỤNG BỞI NHỮNG NGƯỜI BIẾT SỬ DỤNG SAO CHO KHÔNG LÀM ẢNH HƯỞNG TỚI MÁY MAC CỦA MÌNH.\nTÁC GIẢ ỨNG DỤNG KHÔNG CHỊU TRÁCH NHIỆM TRƯỚC VIỆC MẤT MÁT DỮ LIỆU, HỎNG HÓC HAY BẤT CỨ LOẠI MẤT MÁT NÀO KHI SỬ DỤNG CHƯƠNG TRÌNH</staticWarning>
-	</AboutDialog>
-	<NewVersionDialog>
-		<title>Macs Fan Control - Đã có phiên bản mới</title>
-		<staticNewVersion>Đã có phiên bản mới của ứng dụng. Hãy vào &lt;a href='website'&gt;website&lt;/a&gt; của chúng tôi để tải về phiên bản mới nhất.</staticNewVersion>
-	</NewVersionDialog>
-	<RateMeDialog>
-		<message>Đánh giá ứng dụng trên MacUpdate</message>
-		<informativeText>Nếu bạn hài lòng với %1, xin hãy dành một chút thời gian để đánh giá? Mất không đến một phút đâu. Cảm ơn bạn đã hỗ trợ!</informativeText>
-		<buttonRate>Đánh giá trên MacUpdate</buttonRate>
-		<buttonNoThanks>Không, cảm ơn</buttonNoThanks>
-		<checkDontShowAgain>Không hiện thông báo này nữa</checkDontShowAgain>
-	</RateMeDialog>
-	<Common>
-		<buttonClose>Đóng</buttonClose>
-		<buttonOK>OK</buttonOK>
-		<buttonCancel>Hủy</buttonCancel>
-		<buttonContinue>Tiếp tục</buttonContinue>
-	</Common>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>Phát hành ngày %1</ReleasedOn>
-			<CheckForUpdates>Kiểm tra cập nhật...</CheckForUpdates>
-			<NewVersionAvailable>Đã có phiên bản mới %1 !</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 đã có - phiên bản hiện tại %3. Bạn có muốn tải ngay không?</NewVersionAvailableText>
-			<UpdateAlertTitle>Cập nhật Ứng dụng</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Ghi chú phát hành:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Nhắc nhở sau</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Bỏ qua phiên bản này</UpdateAlertSkip>
-			<UpdateAlertInstall>Install Update</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Kiểm tra cập nhật tự động</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Bạn đang sử dụng phiên bản mới nhất!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 là phiên bản mới nhất.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Có lỗi khi tải bản cập nhật. Hãy thử lại sau..</MessageErrorConnect>
-			<MessageErrorParse>Có lỗi khi tải thông tin cập nhật.</MessageErrorParse>
-			<UpdateProgressTitle>Đang cập nhật %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Hủy</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Cài đặt và khởi động lại</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Đang tải cập nhật...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Đang giải nén cập nhật...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Sẵn sàng để cài đặt</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 / %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Không thể chuyển tới thư mục Applications</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Chuyển tới Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Chuyển tới thư mục Applications trong thư mục Home của bạn?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <staticFanListHeader>Quạt:</staticFanListHeader>
+        <staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
+        <listColumnFan>Quạt</listColumnFan>
+        <listColumnRPM>Nhỏ nhất/Hiện tại/Lớn nhất</listColumnRPM>
+        <listColumnControl>Điều khiển</listColumnControl>
+        <listColumnSensor>Cảm biến</listColumnSensor>
+        <listColumnSensorValue>Giá trị</listColumnSensorValue>
+        <listSeparatorDrives>Ổ đĩa:</listSeparatorDrives>
+        <popupMenuItemControl>Thay đổi điều khiển...</popupMenuItemControl>
+        <popupMenuItemReset>Chuyển chế độ tự điều khiển</popupMenuItemReset>
+        <fanControlAutomatic>Tự động</fanControlAutomatic>
+        <fanControlAutomaticInfo>Tự động (điều khiển bởi hệ thống)</fanControlAutomaticInfo>
+        <fanControlConstant>Cố định giá trị %1</fanControlConstant>
+        <fanControlSensor>Dựa theo %1</fanControlSensor>
+        <fanControlUnknown>Không rõ!</fanControlUnknown>
+        <buttonFanControlCustom>Tùy chỉnh...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Tùy chỉnh chế độ điều khiển</buttonFanControlCustomInfo>
+        <buttonMinimize>Thu nhỏ</buttonMinimize>
+        <buttonMinimizeMac>Ẩn trên thanh công cụ</buttonMinimizeMac>
+        <buttonPreferences>Tùy chọn...</buttonPreferences>
+        <buttonAbout>Giới thiệu...</buttonAbout>
+        <statusMoreApps>phiên bản %1 &amp; Ứng dụng khác</statusMoreApps>
+        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Không thể hỗ trợ điều khiển quạt</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control không thể kết nối tới công cụ hỗ trợ để bật chức năng điều khiển quạt cũng như chỉnh tốc độ. \n\nHãy điền mật khẩu administrator khi được hỏi.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Điều khiển quạt cho %1</title>
+        <radioConstant>Giá trị cố định Vòng/Phút</radioConstant>
+        <radioSensor>Giá trị theo cảm biến</radioSensor>
+        <staticIncrease>Nhiệt độ quạt bắt đầu tăng từ:</staticIncrease>
+        <staticMax>Nhiệt độ lớn nhất:</staticMax>
+        <statusWarning>Có sai sót - giá trị quạt lớn nhất/nhỏ nhất bằng nhau (%1).&lt;br/&gt; Hãy đảm bảo xóa những ứng dụng điều khiển quạt khác và khởi động lại ứng dụng.</statusWarning>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Active preset:</activePresetLabel>
+        <presetAutomatic>Automatic</presetAutomatic>
+        <presetFullBlast>Full blast</presetFullBlast>
+        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
+        <presetMenuSave>Save...</presetMenuSave>
+        <presetMenuRename>Rename</presetMenuRename>
+        <presetMenuDelete>Delete</presetMenuDelete>
+        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
+        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>Preset name:</labelPresetName>
+        <savePresetTitle>Save custom preset</savePresetTitle>
+        <editPresetTitle>Edit preset name</editPresetTitle>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Upgrade to Macs Fan Control Pro</title>
+        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
+        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
+        <buttonPurchase>Purchase</buttonPurchase>
+        <buttonEnterLicense>Enter License</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Unlock Pro version</title>
+        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
+        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+        <email>Email Address</email>
+        <licenseKey>License Key</licenseKey>
+        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
+        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Hiện Macs Fan Control</itemShow>
+        <itemMoreLinks>Xem thêm</itemMoreLinks>
+        <itemWebsite>Website</itemWebsite>
+        <itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>
+        <itemRateApp>Đánh giá trên Macupdate</itemRateApp>
+        <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+        <itemExit>Thoát</itemExit>
+        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemSensorBased>Theo cảm biến</itemSensorBased>
+        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>Tùy chọn</title>
+        <TabGeneral>Tổng quát</TabGeneral>
+        <tabTrayIcon>Hiện trên Tray</tabTrayIcon>
+        <tabTrayIconMac>Hiện trên Menubar</tabTrayIconMac>
+        <tabDiagnostics>Phân tích</tabDiagnostics>
+        <staticLanguage>Ngôn ngữ:</staticLanguage>
+        <checkSystemStart>Tự động khởi động ẩn với hệ thống (khuyên dùng)</checkSystemStart>
+        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkFahrenheit>Sử dụng độ F</checkFahrenheit>
+        <checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
+        <displayDrives>Display connected drives temperatures</displayDrives>
+        <staticSensor>Cảm biến:</staticSensor>
+        <staticFan>Quạt:</staticFan>
+        <staticIcon>Biểu tượng:</staticIcon>
+        <comboIconOptionShow>Hiển thị (màu)</comboIconOptionShow>
+        <comboIconOptionShowBW>Hiển thị (đen &amp; trắng)</comboIconOptionShowBW>
+        <comboOptionNone>Không</comboOptionNone>
+        <checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Chỉ Độ C)</staticCelsiusOnlyOnWindows>
+        <checkLog>Bật ghi chú (yêu cầu khởi động lại)</checkLog>
+        <browseLog>Duyệt..</browseLog>
+        <buttonCopyTechInfo>Sao chép thông tin kỹ thuật</buttonCopyTechInfo>
+        <copyInfoMessage>Thông tin kỹ thuật đã được sao chép vào clipboard</copyInfoMessage>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Giới thiệu Macs Fan Control</title>
+        <staticTechnicalSupport>Hỗ trợ kỹ thuật trên diễn đàn</staticTechnicalSupport>
+        <staticOnlineHelp>Trợ giúp trực tuyến</staticOnlineHelp>
+        <staticWarning>ỨNG DỤNG CHỈ NÊN SỬ DỤNG BỞI NHỮNG NGƯỜI BIẾT SỬ DỤNG SAO CHO KHÔNG LÀM ẢNH HƯỞNG TỚI MÁY MAC CỦA MÌNH.\nTÁC GIẢ ỨNG DỤNG KHÔNG CHỊU TRÁCH NHIỆM TRƯỚC VIỆC MẤT MÁT DỮ LIỆU, HỎNG HÓC HAY BẤT CỨ LOẠI MẤT MÁT NÀO KHI SỬ DỤNG CHƯƠNG TRÌNH</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Đánh giá ứng dụng trên MacUpdate</message>
+        <informativeText>Nếu bạn hài lòng với %1, xin hãy dành một chút thời gian để đánh giá? Mất không đến một phút đâu. Cảm ơn bạn đã hỗ trợ!</informativeText>
+        <buttonRate>Đánh giá trên MacUpdate</buttonRate>
+        <buttonNoThanks>Không, cảm ơn</buttonNoThanks>
+        <checkDontShowAgain>Không hiện thông báo này nữa</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>Đóng</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Hủy</buttonCancel>
+        <buttonContinue>Tiếp tục</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>Phát hành ngày %1</ReleasedOn>
+            <CheckForUpdates>Kiểm tra cập nhật...</CheckForUpdates>
+            <NewVersionAvailable>Đã có phiên bản mới %1 !</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 đã có - phiên bản hiện tại %3. Bạn có muốn tải ngay không?</NewVersionAvailableText>
+            <UpdateAlertTitle>Cập nhật Ứng dụng</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Ghi chú phát hành:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Nhắc nhở sau</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Bỏ qua phiên bản này</UpdateAlertSkip>
+            <UpdateAlertInstall>Install Update</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Kiểm tra cập nhật tự động</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Bạn đang sử dụng phiên bản mới nhất!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 là phiên bản mới nhất.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Có lỗi khi tải bản cập nhật. Hãy thử lại sau..</MessageErrorConnect>
+            <MessageErrorParse>Có lỗi khi tải thông tin cập nhật.</MessageErrorParse>
+            <UpdateProgressTitle>Đang cập nhật %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Hủy</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Cài đặt và khởi động lại</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Đang tải cập nhật...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Đang giải nén cập nhật...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Sẵn sàng để cài đặt</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 / %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Không thể chuyển tới thư mục Applications</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Chuyển tới Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Chuyển tới thư mục Applications trong thư mục Home của bạn?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Bạn có muốn %1 chuyển tới thư mục Applications?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Chuyển tới thư mục Applications</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Không chuyển</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Hãy chú ý rằng việc này yêu cầu mật khẩu administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Việc này sẽ giúp thư mục Downloads không phân mảnh.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

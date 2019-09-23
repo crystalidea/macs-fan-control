@@ -1,152 +1,192 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.0" Author="Konstantinos">
-	<MainWindow>
-		<staticFanListHeader>Ανεμιστήρες:</staticFanListHeader>
-		<staticSensorsListHeader>Αισθητήρες θερμοκρασίας:</staticSensorsListHeader>
-		<listColumnFan>Ανεμιστήρας</listColumnFan>
-		<listColumnRPM>Ελάχιστο/Τρέχον/Μέγιστο RPM</listColumnRPM>
-		<listColumnControl>Έλεγχος</listColumnControl>
-		<listColumnSensor>Αισθητήρας</listColumnSensor>
-		<listColumnSensorValue>Τιμή</listColumnSensorValue>
-		<listSeparatorDrives>Σκληροί Δίσκοι:</listSeparatorDrives>
-		<popupMenuItemControl>Αλλαγή ελέγχου...</popupMenuItemControl>
-		<popupMenuItemReset>Επαναφορά σε αυτόματο έλεγχο</popupMenuItemReset>
-		<fanControlAutomatic>Αυτόματα</fanControlAutomatic>
-		<fanControlAutomaticInfo>Αυτόματα (ελεγχόμενος από το σύστημα)</fanControlAutomaticInfo>
-		<fanControlConstant>Σταθερή τιμή στις %1</fanControlConstant>
-		<fanControlSensor>Βάσει %1</fanControlSensor>
-		<fanControlUnknown>Άγνωστο!</fanControlUnknown>
-		<buttonFanControlCustom>Προσαρμογή...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>Ορισμός προσαρμοσμένης μεθόδου ελέγχου</buttonFanControlCustomInfo>
-		<buttonMinimize>Ελαχιστοποίηση</buttonMinimize>
-		<buttonMinimizeMac>Απόκρυψη στη μπάρα μενού</buttonMinimizeMac>
-		<buttonPreferences>Προτιμήσεις...</buttonPreferences>
-		<buttonAbout>Σχετικά...</buttonAbout>
-		<statusMoreApps>Έκδοση %1 &amp; περισσότερα εργαλεία</statusMoreApps>
-		<messageNonAppleFSWarningMac>Κατάσταση read-only: Εντοπίστηκε σύστημα αρχείων (%1) διαφορετικό από αυτό της Apple. Μήπως να μετακινούσατε το πρόγραμμα στο φάκελο «Εφαρμογές» καλύτερα;</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>Για να μπορεί να ελέγχει τους ανεμιστήρες, το Macs Fan Control απαιτεί υψηλότερα δικαιώματα για τη βοηθητική του εφαρμογή.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Μη διαθέσιμος έλεγχος ανεμιστήρων</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Το Macs Fan Control αδυνατεί να συνδεθεί με τη βοηθητική εφαρμογή ώστε να μπορεί να ελέγχει τους ανεμιστήρες αλλά και την ταχύτητά τους.\n\nΒεβαιωθείτε πως έχετε εισαγάγει τον κωδικό πρόσβασης διαχειριστή όταν αυτός σας ζητήθηκε.\n\nΓια περισσότερες πληροφορίες, παρακαλώ επικοινωνήστε μαζί μας στο \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
-	</MainWindow>
-	<FanControlDialog>
-		<title>Έλεγχος Λειτουργίας Ανεμιστήρα %1</title>
-		<radioConstant>Σταθερή τιμή RPM</radioConstant>
-		<radioSensor>Τιμή βάσει αισθητήρα</radioSensor>
-		<staticIncrease>Θερμοκρασία από την οποία ο ανεμιστήρας θα αυξάνει στροφές:</staticIncrease>
-		<staticMax>Μέγιστη επιτρεπτή θερμοκρασία:</staticMax>
-		<statusWarning>Εντοπίστηκε σφάλμα: Οι ελάχιστες και μέγιστες τιμές ανεμιστήρα (%1) είναι ίδιες.&lt;br/&gt;Παρακαλούμε βεβαιωθείτε πως έχετε απεγκαταστήσει άλλα εργαλεία ελέγχου ανεμιστήρων και πως έχετε κάνει επαναφορά στο SMC.</statusWarning>
-	</FanControlDialog>
-	<TrayMenu>
-		<itemShow>Προβολή Macs Fan Control</itemShow>
-		<itemMoreLinks>Περισσότερα</itemMoreLinks>
-		<itemWebsite>Ιστοσελίδα</itemWebsite>
-		<itemCheckForUpdates>Έλεγχος για ενημερώσεις...</itemCheckForUpdates>
-		<itemRateApp>Βαθμολογήστε στο Macupdate</itemRateApp>
-		<itemFollowTwitter>Ακολουθήστε μας στο @crystalidea</itemFollowTwitter>
-		<itemExit>Έξοδος</itemExit>
-		<itemSensorBased>Βάσει αισθητήρα</itemSensorBased>
-	</TrayMenu>
-	<PreferencesWindow>
-		<title>Προτιμήσεις</title>
-		<TabGeneral>Γενικά</TabGeneral>
-		<tabTrayIcon>Εικονίδιο περιοχής ειδοποιήσεων</tabTrayIcon>
-		<tabTrayIconMac>Εμφάνιση Μπάρας Μενού</tabTrayIconMac>
-		<tabDiagnostics>Διαγνωστικά</tabDiagnostics>
-		<staticLanguage>Γλώσσα:</staticLanguage>
-		<checkSystemStart>Αυτόματη εκκίνηση με το σύστημα (προτείνεται)</checkSystemStart>
-		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
-		<checkFahrenheit>Χρήση κλίμακας θερμοκρασίας Fahrenheit</checkFahrenheit>
-		<checkPrecise>Ακριβής προβολή θερμοκρασίας όπου δυνατόν (π.χ. 45.4°)</checkPrecise>
-		<staticSensor>Αισθητήρας:</staticSensor>
-		<staticFan>Ανεμιστήρας:</staticFan>
-		<staticIcon>Εικονίδιο:</staticIcon>
-		<comboIconOptionShow>Προβολή</comboIconOptionShow>
-		<comboIconOptionShowBW>Προβολή (μονόχρωμο)</comboIconOptionShowBW>
-		<comboOptionNone>Κανένα</comboOptionNone>
-		<checkTwoLines>Προβολή τιμών ανεμιστήρα/αισθητήρα σε δύο γραμμές για εξοικονόμηση χώρου</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(μόνο Celsius)</staticCelsiusOnlyOnWindows>
-		<checkLog>Ενεργοποίηση καταγραφής (μέσω επανεκκίνησης)</checkLog>
-		<browseLog>Περιήγηση</browseLog>
-		<buttonCopyTechInfo>Αντιγραφή τεχνικών πληροφοριών</buttonCopyTechInfo>
-		<copyInfoMessage>Οι τεχνικές πληροφορίες αντιγράφηκαν στο Πρόχειρο επιτυχώς.</copyInfoMessage>
-	</PreferencesWindow>
-	<AboutDialog>
-		<title>Σχετικά με το Macs Fan Control</title>
-		<staticTechnicalSupport>Τεχνική υποστήριξη στο forum</staticTechnicalSupport>
-		<staticOnlineHelp>Βοήθεια On-Line</staticOnlineHelp>
-		<staticWarning>ΤΟ ΠΡΟΓΡΑΜΜΑ ΑΠΕΥΘΥΝΕΤΑΙ ΣΕ ΠΡΟΧΩΡΗΜΕΝΟΥΣ ΧΡΗΣΤΕΣ ΠΟΥ ΓΝΩΡΙΖΟΥΝ ΠΩΣ ΝΑ ΤΟ ΧΡΗΣΙΜΟΠΟΙΗΣΟΥΝ ΧΩΡΙΣ ΝΑ ΚΑΝΟΥΝ ΖΗΜΙΑ ΣΤΟ MAC ΤΟΥΣ. ΣΥΝΕΠΩΣ, ΟΙ ΔΗΜΙΟΥΡΓΟΙ ΔΕΝ ΕΙΝΑΙ ΥΠΕΥΘΥΝΟΙ ΓΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΑΠΩΛΕΙΑ ΔΕΔΟΜΕΝΩΝ, ΖΗΜΙΕΣ, ΑΠΩΛΕΙΑ ΚΕΡΔΟΥΣ Η ΑΛΛΟΥ ΕΙΔΟΥΣ ΖΗΜΙΕΣ ΠΟΥ ΣΧΕΤΙΖΟΝΤΑΙ ΜΕ ΤΗ ΣΩΣΤΗ Η ΕΣΦΑΛΜΕΝΗ ΧΡΗΣΗ ΤΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΑΥΤΟΥ.</staticWarning>
-	</AboutDialog>
-	<NewVersionDialog>
-		<title>Macs Fan Control - Νεότερη έκδοση διαθέσιμη</title>
-		<staticNewVersion>Μια νεότερη έκδοση του προγράμματος είναι διαθέσιμη. Παρακαλούμε επισκεφτείτε την &lt;a href='website'&gt;ιστοσελίδα&lt;/a&gt; μας για τη νεότερη έκδοση.</staticNewVersion>
-	</NewVersionDialog>
-	<RateMeDialog>
-		<message>Βαθμολογήστε την εφαρμογή στο MacUpdate</message>
-		<informativeText>Εφόσον είστε ικανοποιημένοι με το %1, θα σας προτείναμε να βαθμολογήσετε την εφαρμογή μας. Δεν θα σας πάρει πάνω από ένα λεπτό. Ευχαριστούμε για την υποστήριξη!</informativeText>
-		<buttonRate>Βαθμολογήστε μας στο MacUpdate</buttonRate>
-		<buttonNoThanks>Όχι, ευχαριστώ</buttonNoThanks>
-		<checkDontShowAgain>Να μην ερωτηθώ ξανά</checkDontShowAgain>
-	</RateMeDialog>
-	<Common>
-		<buttonClose>Κλείσιμο</buttonClose>
-		<buttonOK>OK</buttonOK>
-		<buttonCancel>Άκυρο</buttonCancel>
-		<buttonContinue>Συνέχεια</buttonContinue>
-	</Common>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>κυκλοφόρησε στις %1</ReleasedOn>
-			<CheckForUpdates>Έλεγχος για ενημερώσεις...</CheckForUpdates>
-			<NewVersionAvailable>Μια νεότερη έκδοση του %1 είναι διαθέσιμη!</NewVersionAvailable>
-			<NewVersionAvailableText>Το %1 %2 είναι τώρα διαθέσιμο - εσείς έχετε %3. Θέλετε να κάνετε ενημέρωση τώρα;</NewVersionAvailableText>
-			<UpdateAlertTitle>Ενημέρωση Λογισμικού</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>Σημειώσεις Ενημέρωσης:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>Υπενθύμιση Αργότερα</UpdateAlertRemindLater>
-			<UpdateAlertSkip>Παράλειψη Ενημέρωσης</UpdateAlertSkip>
-			<UpdateAlertInstall>Εγκατάσταση Ενημέρωσης</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>Αυτόματος έλεγχος ενημερώσεων</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>Η εφαρμογή είναι ενημερωμένη!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 είναι προς το παρόν η νεότερη έκδοση που διατίθεται.</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>Παρουσιάστηκε σφάλμα κατά τη λήψη της ενημέρωσης. Παρακαλούμε δοκιμάστε ξανά αργότερα.</MessageErrorConnect>
-			<MessageErrorParse>Παρουσιάστηκε σφάλμα κατά την ανάλυση της ροής ενημέρωσης.</MessageErrorParse>
-			<UpdateProgressTitle>Ενημέρωση %1</UpdateProgressTitle>
-			<UpdateProgressCancel>Άκυρο</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>Εγκατάσταση και Επανεκκίνηση</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>Λήψη ενημέρωσης...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>Αποσυμπίεση ενημέρωσης...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>Έτοιμοι προς Εγκατάσταση</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 από %2</UpdateProgressSize>
-			<UpdateProgressB>B</UpdateProgressB>
-			<UpdateProgressKB>KB</UpdateProgressKB>
-			<UpdateProgressMB>MB</UpdateProgressMB>
-			<UpdateProgressGB>GB</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Αδύνατη η μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Μετακίνηση στις «Εφαρμογές»</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Να μεταφερθεί στο φάκελο «Εφαρμογές» του κυρίως φακέλου χρήστη σας;</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Θα επιθυμούσατε το %1 να μεταφερθεί μόνο του στο φάκελο «Εφαρμογές»;</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Να μην μεταφερθεί</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Σημειωτέον ότι θα χρειαστεί ο κωδικός πρόσβασης διαχειριστή.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>Αυτό θα διατηρήσει το φάκελο με τις «Λήψεις» σας πιο τακτοποιημένο.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <staticFanListHeader>Ανεμιστήρες:</staticFanListHeader>
+        <staticSensorsListHeader>Αισθητήρες θερμοκρασίας:</staticSensorsListHeader>
+        <listColumnFan>Ανεμιστήρας</listColumnFan>
+        <listColumnRPM>Ελάχιστο/Τρέχον/Μέγιστο RPM</listColumnRPM>
+        <listColumnControl>Έλεγχος</listColumnControl>
+        <listColumnSensor>Αισθητήρας</listColumnSensor>
+        <listColumnSensorValue>Τιμή</listColumnSensorValue>
+        <listSeparatorDrives>Σκληροί Δίσκοι:</listSeparatorDrives>
+        <popupMenuItemControl>Αλλαγή ελέγχου...</popupMenuItemControl>
+        <popupMenuItemReset>Επαναφορά σε αυτόματο έλεγχο</popupMenuItemReset>
+        <fanControlAutomatic>Αυτόματα</fanControlAutomatic>
+        <fanControlAutomaticInfo>Αυτόματα (ελεγχόμενος από το σύστημα)</fanControlAutomaticInfo>
+        <fanControlConstant>Σταθερή τιμή στις %1</fanControlConstant>
+        <fanControlSensor>Βάσει %1</fanControlSensor>
+        <fanControlUnknown>Άγνωστο!</fanControlUnknown>
+        <buttonFanControlCustom>Προσαρμογή...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Ορισμός προσαρμοσμένης μεθόδου ελέγχου</buttonFanControlCustomInfo>
+        <buttonMinimize>Ελαχιστοποίηση</buttonMinimize>
+        <buttonMinimizeMac>Απόκρυψη στη μπάρα μενού</buttonMinimizeMac>
+        <buttonPreferences>Προτιμήσεις...</buttonPreferences>
+        <buttonAbout>Σχετικά...</buttonAbout>
+        <statusMoreApps>Έκδοση %1 &amp; περισσότερα εργαλεία</statusMoreApps>
+        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Μη διαθέσιμος έλεγχος ανεμιστήρων</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Το Macs Fan Control αδυνατεί να συνδεθεί με τη βοηθητική εφαρμογή ώστε να μπορεί να ελέγχει τους ανεμιστήρες αλλά και την ταχύτητά τους.\n\nΒεβαιωθείτε πως έχετε εισαγάγει τον κωδικό πρόσβασης διαχειριστή όταν αυτός σας ζητήθηκε.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Έλεγχος Λειτουργίας Ανεμιστήρα %1</title>
+        <radioConstant>Σταθερή τιμή RPM</radioConstant>
+        <radioSensor>Τιμή βάσει αισθητήρα</radioSensor>
+        <staticIncrease>Θερμοκρασία από την οποία ο ανεμιστήρας θα αυξάνει στροφές:</staticIncrease>
+        <staticMax>Μέγιστη επιτρεπτή θερμοκρασία:</staticMax>
+        <statusWarning>Εντοπίστηκε σφάλμα: Οι ελάχιστες και μέγιστες τιμές ανεμιστήρα (%1) είναι ίδιες.&lt;br/&gt;Παρακαλούμε βεβαιωθείτε πως έχετε απεγκαταστήσει άλλα εργαλεία ελέγχου ανεμιστήρων και πως έχετε κάνει επαναφορά στο SMC.</statusWarning>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Active preset:</activePresetLabel>
+        <presetAutomatic>Automatic</presetAutomatic>
+        <presetFullBlast>Full blast</presetFullBlast>
+        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
+        <presetMenuSave>Save...</presetMenuSave>
+        <presetMenuRename>Rename</presetMenuRename>
+        <presetMenuDelete>Delete</presetMenuDelete>
+        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
+        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>Preset name:</labelPresetName>
+        <savePresetTitle>Save custom preset</savePresetTitle>
+        <editPresetTitle>Edit preset name</editPresetTitle>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Upgrade to Macs Fan Control Pro</title>
+        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
+        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
+        <buttonPurchase>Purchase</buttonPurchase>
+        <buttonEnterLicense>Enter License</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Unlock Pro version</title>
+        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
+        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+        <email>Email Address</email>
+        <licenseKey>License Key</licenseKey>
+        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
+        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Προβολή Macs Fan Control</itemShow>
+        <itemMoreLinks>Περισσότερα</itemMoreLinks>
+        <itemWebsite>Ιστοσελίδα</itemWebsite>
+        <itemCheckForUpdates>Έλεγχος για ενημερώσεις...</itemCheckForUpdates>
+        <itemRateApp>Βαθμολογήστε στο Macupdate</itemRateApp>
+        <itemFollowTwitter>Ακολουθήστε μας στο @crystalidea</itemFollowTwitter>
+        <itemExit>Έξοδος</itemExit>
+        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemSensorBased>Βάσει αισθητήρα</itemSensorBased>
+        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>Προτιμήσεις</title>
+        <TabGeneral>Γενικά</TabGeneral>
+        <tabTrayIcon>Εικονίδιο περιοχής ειδοποιήσεων</tabTrayIcon>
+        <tabTrayIconMac>Εμφάνιση Μπάρας Μενού</tabTrayIconMac>
+        <tabDiagnostics>Διαγνωστικά</tabDiagnostics>
+        <staticLanguage>Γλώσσα:</staticLanguage>
+        <checkSystemStart>Αυτόματη εκκίνηση με το σύστημα (προτείνεται)</checkSystemStart>
+        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkFahrenheit>Χρήση κλίμακας θερμοκρασίας Fahrenheit</checkFahrenheit>
+        <checkPrecise>Ακριβής προβολή θερμοκρασίας όπου δυνατόν (π.χ. 45.4°)</checkPrecise>
+        <displayDrives>Display connected drives temperatures</displayDrives>
+        <staticSensor>Αισθητήρας:</staticSensor>
+        <staticFan>Ανεμιστήρας:</staticFan>
+        <staticIcon>Εικονίδιο:</staticIcon>
+        <comboIconOptionShow>Προβολή</comboIconOptionShow>
+        <comboIconOptionShowBW>Προβολή (μονόχρωμο)</comboIconOptionShowBW>
+        <comboOptionNone>Κανένα</comboOptionNone>
+        <checkTwoLines>Προβολή τιμών ανεμιστήρα/αισθητήρα σε δύο γραμμές για εξοικονόμηση χώρου</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(μόνο Celsius)</staticCelsiusOnlyOnWindows>
+        <checkLog>Ενεργοποίηση καταγραφής (μέσω επανεκκίνησης)</checkLog>
+        <browseLog>Περιήγηση</browseLog>
+        <buttonCopyTechInfo>Αντιγραφή τεχνικών πληροφοριών</buttonCopyTechInfo>
+        <copyInfoMessage>Οι τεχνικές πληροφορίες αντιγράφηκαν στο Πρόχειρο επιτυχώς.</copyInfoMessage>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Σχετικά με το Macs Fan Control</title>
+        <staticTechnicalSupport>Τεχνική υποστήριξη στο forum</staticTechnicalSupport>
+        <staticOnlineHelp>Βοήθεια On-Line</staticOnlineHelp>
+        <staticWarning>ΤΟ ΠΡΟΓΡΑΜΜΑ ΑΠΕΥΘΥΝΕΤΑΙ ΣΕ ΠΡΟΧΩΡΗΜΕΝΟΥΣ ΧΡΗΣΤΕΣ ΠΟΥ ΓΝΩΡΙΖΟΥΝ ΠΩΣ ΝΑ ΤΟ ΧΡΗΣΙΜΟΠΟΙΗΣΟΥΝ ΧΩΡΙΣ ΝΑ ΚΑΝΟΥΝ ΖΗΜΙΑ ΣΤΟ MAC ΤΟΥΣ. ΣΥΝΕΠΩΣ, ΟΙ ΔΗΜΙΟΥΡΓΟΙ ΔΕΝ ΕΙΝΑΙ ΥΠΕΥΘΥΝΟΙ ΓΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΑΠΩΛΕΙΑ ΔΕΔΟΜΕΝΩΝ, ΖΗΜΙΕΣ, ΑΠΩΛΕΙΑ ΚΕΡΔΟΥΣ Η ΑΛΛΟΥ ΕΙΔΟΥΣ ΖΗΜΙΕΣ ΠΟΥ ΣΧΕΤΙΖΟΝΤΑΙ ΜΕ ΤΗ ΣΩΣΤΗ Η ΕΣΦΑΛΜΕΝΗ ΧΡΗΣΗ ΤΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΑΥΤΟΥ.</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Βαθμολογήστε την εφαρμογή στο MacUpdate</message>
+        <informativeText>Εφόσον είστε ικανοποιημένοι με το %1, θα σας προτείναμε να βαθμολογήσετε την εφαρμογή μας. Δεν θα σας πάρει πάνω από ένα λεπτό. Ευχαριστούμε για την υποστήριξη!</informativeText>
+        <buttonRate>Βαθμολογήστε μας στο MacUpdate</buttonRate>
+        <buttonNoThanks>Όχι, ευχαριστώ</buttonNoThanks>
+        <checkDontShowAgain>Να μην ερωτηθώ ξανά</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>Κλείσιμο</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Άκυρο</buttonCancel>
+        <buttonContinue>Συνέχεια</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>κυκλοφόρησε στις %1</ReleasedOn>
+            <CheckForUpdates>Έλεγχος για ενημερώσεις...</CheckForUpdates>
+            <NewVersionAvailable>Μια νεότερη έκδοση του %1 είναι διαθέσιμη!</NewVersionAvailable>
+            <NewVersionAvailableText>Το %1 %2 είναι τώρα διαθέσιμο - εσείς έχετε %3. Θέλετε να κάνετε ενημέρωση τώρα;</NewVersionAvailableText>
+            <UpdateAlertTitle>Ενημέρωση Λογισμικού</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Σημειώσεις Ενημέρωσης:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Υπενθύμιση Αργότερα</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Παράλειψη Ενημέρωσης</UpdateAlertSkip>
+            <UpdateAlertInstall>Εγκατάσταση Ενημέρωσης</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Αυτόματος έλεγχος ενημερώσεων</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Η εφαρμογή είναι ενημερωμένη!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 είναι προς το παρόν η νεότερη έκδοση που διατίθεται.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Παρουσιάστηκε σφάλμα κατά τη λήψη της ενημέρωσης. Παρακαλούμε δοκιμάστε ξανά αργότερα.</MessageErrorConnect>
+            <MessageErrorParse>Παρουσιάστηκε σφάλμα κατά την ανάλυση της ροής ενημέρωσης.</MessageErrorParse>
+            <UpdateProgressTitle>Ενημέρωση %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Άκυρο</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Εγκατάσταση και Επανεκκίνηση</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Λήψη ενημέρωσης...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Αποσυμπίεση ενημέρωσης...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Έτοιμοι προς Εγκατάσταση</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 από %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Αδύνατη η μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Μετακίνηση στις «Εφαρμογές»</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Να μεταφερθεί στο φάκελο «Εφαρμογές» του κυρίως φακέλου χρήστη σας;</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Θα επιθυμούσατε το %1 να μεταφερθεί μόνο του στο φάκελο «Εφαρμογές»;</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Μετακίνηση στο φάκελο «Εφαρμογές»</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Να μην μεταφερθεί</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Σημειωτέον ότι θα χρειαστεί ο κωδικός πρόσβασης διαχειριστή.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Αυτό θα διατηρήσει το φάκελο με τις «Λήψεις» σας πιο τακτοποιημένο.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

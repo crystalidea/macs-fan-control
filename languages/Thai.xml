@@ -1,152 +1,192 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.2.0" Author="CrystalIdea Software Team">
-	<MainWindow>
-		<staticFanListHeader>พัดลมที่มี</staticFanListHeader>
-		<staticSensorsListHeader>เซ็นเซอร์วัดอุณหภูมิ</staticSensorsListHeader>
-		<listColumnFan>พัดลม</listColumnFan>
-		<listColumnRPM>รอบต่ำสุด/รอบปัจจุบัน/รอบมากสุด ต่อนาที</listColumnRPM>
-		<listColumnControl>ควบคุม</listColumnControl>
-		<listColumnSensor>เซ็นเซอร์</listColumnSensor>
-		<listColumnSensorValue>ค่า</listColumnSensorValue>
-		<listSeparatorDrives>ไดร์ฟ:</listSeparatorDrives>
-		<popupMenuItemControl>เปลี่นการควบคุม</popupMenuItemControl>
-		<popupMenuItemReset>รีเซ็ตเป็นระบบอัตโนมัติ</popupMenuItemReset>
-		<fanControlAutomatic>อัตโนมัติ</fanControlAutomatic>
-		<fanControlAutomaticInfo>อัตโนมัติ (ควบคุมเองโดยระบบ)</fanControlAutomaticInfo>
-		<fanControlConstant>ค่าคงที่ที่ %1</fanControlConstant>
-		<fanControlSensor>ใช้ %1 เป็นตัวกำหนด</fanControlSensor>
-		<fanControlUnknown>ไม่ทราบ!</fanControlUnknown>
-		<buttonFanControlCustom>กำหนดเอง...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>ควบคุมโดยกำหนดเอง</buttonFanControlCustomInfo>
-		<buttonMinimize>ย่อหน้าต่าง</buttonMinimize>
-		<buttonMinimizeMac>ซ่อนไปที่แถบเมนู</buttonMinimizeMac>
-		<buttonPreferences>การตั้งค่า...</buttonPreferences>
-		<buttonAbout>เกี่ยวกับ...</buttonAbout>
-		<statusMoreApps>%1 เวอร์ชั่น &amp; แอพเพิ่มเติม</statusMoreApps>
-		<messageNonAppleFSWarningMac>โหมดอ่านเท่านั้น: ตรวจพบไฟล์ที่ไม่ใช่ไฟล์ระบบของ Apple (%1). ลองย้ายแอพไปที่ '/Applications'?</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>In order to control fans Macs Fan Control requires to set elevated rights for its helper tool.</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nFor more information, please contact us at \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>No fans detected on this computer</messageNoFansDetected>
-	</MainWindow>
-	<FanControlDialog>
-		<title>ควบคุมสำหรับพัดลม '%1''</title>
-		<radioConstant>ใช้ค่าความเร็ว RPM แบบคงที่</radioConstant>
-		<radioSensor>ใช้ค่าจากตัวเซ็นเซอร์</radioSensor>
-		<staticIncrease>ตั้งอุณหภูมิที่จะให้พัดลมเริ่มหมุนเร็วขึ้น:</staticIncrease>
-		<staticMax>อุณหภูมิสูงสุด:</staticMax>
-		<statusWarning>มีบางอย่างผิดปรกติ - ค่าต่ำ/ค่าสูงสุด ของพัดลมนั้นเหมือนกัน (%1).&lt;br/&gt; โปรดลบโปรแกรมควบคุมพัดลมอื่นๆ แล้วรีเซ็ต SMC</statusWarning>
-	</FanControlDialog>
-	<TrayMenu>
-		<itemShow>เปิดโปรแกรมควบคุมพัดลมแมค</itemShow>
-		<itemMoreLinks>More</itemMoreLinks>
-		<itemWebsite>เว็บไซต์</itemWebsite>
-		<itemCheckForUpdates>อัพเดท...</itemCheckForUpdates>
-		<itemRateApp>Rate on Macupdate</itemRateApp>
-		<itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
-		<itemExit>ปิดโปรแกรม</itemExit>
-		<itemSensorBased>เซ็นเซอร์เป็นตัวกำหนด</itemSensorBased>
-	</TrayMenu>
-	<PreferencesWindow>
-		<title>การตั้งค่า</title>
-		<TabGeneral>ทั่วไป</TabGeneral>
-		<tabTrayIcon>ไอคอนบนแถบงาน</tabTrayIcon>
-		<tabTrayIconMac>แถบเมนู</tabTrayIconMac>
-		<tabDiagnostics>วินิจฉัย</tabDiagnostics>
-		<staticLanguage>ภาษา:</staticLanguage>
-		<checkSystemStart>เริ่มโปรแกรมและย่อเก็บอัตโนมัติ (แนะนำให้ใช้)</checkSystemStart>
-		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
-		<checkFahrenheit>ใช้ค่าอุณหภูมิองศาฟาเรนไฮต์</checkFahrenheit>
-		<checkPrecise>แสดงค่าแบบแม่นยำ เมื่อสามารถทำได้ (เช่น 45.4)</checkPrecise>
-		<staticSensor>เซ็นเซอร์:</staticSensor>
-		<staticFan>พัดลม:</staticFan>
-		<staticIcon>ไอคอน:</staticIcon>
-		<comboIconOptionShow>แสดง</comboIconOptionShow>
-		<comboIconOptionShowBW>แสดง (สีดำ &amp; สีขาว)</comboIconOptionShowBW>
-		<comboOptionNone>ไม่เลย</comboOptionNone>
-		<checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(องศาเซลเซียสเท่านั้น)</staticCelsiusOnlyOnWindows>
-		<checkLog>เปิดการเก็บข้อมูล (ต้องรีสตาร์ท)</checkLog>
-		<browseLog>ค้นหา</browseLog>
-		<buttonCopyTechInfo>คัดลอกข้อมูลทางเทคนิค</buttonCopyTechInfo>
-		<copyInfoMessage>ข้อมูลทางเทคนิคถูกคัดลอกแล้ว</copyInfoMessage>
-	</PreferencesWindow>
-	<AboutDialog>
-		<title>เกี่ยวกับโปรแกรมควบคุมพัดลมแมค</title>
-		<staticTechnicalSupport>กระทู้ช่วยเหลือทางเทคนิค</staticTechnicalSupport>
-		<staticOnlineHelp>ช่วยเหลือทางอินเตอร์เน็ต</staticOnlineHelp>
-		<staticWarning>โปรแกรมนี้สร้างขึ้นสำหรับผู้ใช้ที่รู้การใช้โปรแกรมนี้อย่างถูกต้อง. ผู้สร้างโปรแกรมไม่ขอรับผิดชอบหากเกิดเหตุการ เช่น ข้อมูลสูญหาย, การเสียของอุปกรณ์, การทำให้สูญกำไร หรือเหตุการใดๆ ที่เกิดจากการใช้โปรแกรมนี้อย่างไม่ถูกต้อง</staticWarning>
-	</AboutDialog>
-	<NewVersionDialog>
-		<title>โปรแกรมควบคุมพัดลมแมค - มีเวอร์ชั่นใหม่</title>
-		<staticNewVersion>โปรแกรมมีเวอร์ชั่นใหม่แล้ว. เข้าไปที่ &lt;a href='website'&gt;website&lt;/a&gt; สำหรับเวอร์ชั่นล่าสุด.</staticNewVersion>
-	</NewVersionDialog>
-	<RateMeDialog>
-		<message>Rate the app on MacUpdate</message>
-		<informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-		<buttonRate>Rate on MacUpdate</buttonRate>
-		<buttonNoThanks>No, thanks</buttonNoThanks>
-		<checkDontShowAgain>Do not show this message again</checkDontShowAgain>
-	</RateMeDialog>
-	<Common>
-		<buttonClose>ปิด</buttonClose>
-		<buttonOK>โอเค</buttonOK>
-		<buttonCancel>ยกเลิก</buttonCancel>
-		<buttonContinue>ทำต่อไป</buttonContinue>
-	</Common>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>ปล่อยให้ใช้เมื่อ %1</ReleasedOn>
-			<CheckForUpdates>อัพเดท...</CheckForUpdates>
-			<NewVersionAvailable>มีเวอร์ชั่นใหม่ของ %1</NewVersionAvailable>
-			<NewVersionAvailableText>ตอนนี้มี %1 %2 แล้ว - คุณมี %3 อยู่ คุณจะดาวน์โหลดเลยไหม</NewVersionAvailableText>
-			<UpdateAlertTitle>อัพเดทซอฟ์ทแวร์</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>มีอะไรใหม่:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>เตือนอีกครั้งภายหลัง</UpdateAlertRemindLater>
-			<UpdateAlertSkip>ข้ามเวอร์ชั่นนี้</UpdateAlertSkip>
-			<UpdateAlertInstall>ติดตั้งอัพเดท</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>ตรวจสอบการอัพเดทโดยอัตโรมัติ</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>เวอร์ชั่นนี้ล่าสุดแล้ว!</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>เวอร์ชั่น %1 %2 เป็นเวอร์ชั่นล่าสุด</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>เกิดข้อผิดพลาดขึ้นระหว่างดาวน์โหลดตัวอัพเดท. โปรดลองอีกครั้งภายหลัง.</MessageErrorConnect>
-			<MessageErrorParse>เกิดข้อผิดพลากขึ้นระหว่างการวิเคราะห์ตัวอัพเดท</MessageErrorParse>
-			<UpdateProgressTitle>กำลังอัพเดท %1</UpdateProgressTitle>
-			<UpdateProgressCancel>ยกเลิก</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>ติดตั้งและเริ่มใหม่</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>กำลังดาวน์โหลดตัวอัพเดท...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>กำลังเตรีมการอัพเดท...</UpdateProgressExtract>
-			<UpdateProgressStatusReady>พร้อมติดตั้งแล้ว</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 จาก %2</UpdateProgressSize>
-			<UpdateProgressB>ไบร์ท</UpdateProgressB>
-			<UpdateProgressKB>กิโลไบร์ท</UpdateProgressKB>
-			<UpdateProgressMB>เมกาไบร์ท</UpdateProgressMB>
-			<UpdateProgressGB>กิกาไบร์ท</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>Undo</actionUndo>
-			<actionRedo>Redo</actionRedo>
-			<actionCut>Cut</actionCut>
-			<actionCopy>Copy</actionCopy>
-			<actionPaste>Paste</actionPaste>
-			<actionDelete>Delete</actionDelete>
-			<actionSelectAll>Select All</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>OK</buttonOK>
-			<buttonCancel>Cancel</buttonCancel>
-			<buttonClose>Close</buttonClose>
-			<buttonYes>Yes</buttonYes>
-			<buttonNo>No</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <staticFanListHeader>พัดลมที่มี</staticFanListHeader>
+        <staticSensorsListHeader>เซ็นเซอร์วัดอุณหภูมิ</staticSensorsListHeader>
+        <listColumnFan>พัดลม</listColumnFan>
+        <listColumnRPM>รอบต่ำสุด/รอบปัจจุบัน/รอบมากสุด ต่อนาที</listColumnRPM>
+        <listColumnControl>ควบคุม</listColumnControl>
+        <listColumnSensor>เซ็นเซอร์</listColumnSensor>
+        <listColumnSensorValue>ค่า</listColumnSensorValue>
+        <listSeparatorDrives>ไดร์ฟ:</listSeparatorDrives>
+        <popupMenuItemControl>เปลี่นการควบคุม</popupMenuItemControl>
+        <popupMenuItemReset>รีเซ็ตเป็นระบบอัตโนมัติ</popupMenuItemReset>
+        <fanControlAutomatic>อัตโนมัติ</fanControlAutomatic>
+        <fanControlAutomaticInfo>อัตโนมัติ (ควบคุมเองโดยระบบ)</fanControlAutomaticInfo>
+        <fanControlConstant>ค่าคงที่ที่ %1</fanControlConstant>
+        <fanControlSensor>ใช้ %1 เป็นตัวกำหนด</fanControlSensor>
+        <fanControlUnknown>ไม่ทราบ!</fanControlUnknown>
+        <buttonFanControlCustom>กำหนดเอง...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>ควบคุมโดยกำหนดเอง</buttonFanControlCustomInfo>
+        <buttonMinimize>ย่อหน้าต่าง</buttonMinimize>
+        <buttonMinimizeMac>ซ่อนไปที่แถบเมนู</buttonMinimizeMac>
+        <buttonPreferences>การตั้งค่า...</buttonPreferences>
+        <buttonAbout>เกี่ยวกับ...</buttonAbout>
+        <statusMoreApps>%1 เวอร์ชั่น &amp; แอพเพิ่มเติม</statusMoreApps>
+        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>ควบคุมสำหรับพัดลม '%1''</title>
+        <radioConstant>ใช้ค่าความเร็ว RPM แบบคงที่</radioConstant>
+        <radioSensor>ใช้ค่าจากตัวเซ็นเซอร์</radioSensor>
+        <staticIncrease>ตั้งอุณหภูมิที่จะให้พัดลมเริ่มหมุนเร็วขึ้น:</staticIncrease>
+        <staticMax>อุณหภูมิสูงสุด:</staticMax>
+        <statusWarning>มีบางอย่างผิดปรกติ - ค่าต่ำ/ค่าสูงสุด ของพัดลมนั้นเหมือนกัน (%1).&lt;br/&gt; โปรดลบโปรแกรมควบคุมพัดลมอื่นๆ แล้วรีเซ็ต SMC</statusWarning>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Active preset:</activePresetLabel>
+        <presetAutomatic>Automatic</presetAutomatic>
+        <presetFullBlast>Full blast</presetFullBlast>
+        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
+        <presetMenuSave>Save...</presetMenuSave>
+        <presetMenuRename>Rename</presetMenuRename>
+        <presetMenuDelete>Delete</presetMenuDelete>
+        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
+        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>Preset name:</labelPresetName>
+        <savePresetTitle>Save custom preset</savePresetTitle>
+        <editPresetTitle>Edit preset name</editPresetTitle>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Upgrade to Macs Fan Control Pro</title>
+        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
+        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
+        <buttonPurchase>Purchase</buttonPurchase>
+        <buttonEnterLicense>Enter License</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Unlock Pro version</title>
+        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
+        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+        <email>Email Address</email>
+        <licenseKey>License Key</licenseKey>
+        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
+        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>เปิดโปรแกรมควบคุมพัดลมแมค</itemShow>
+        <itemMoreLinks>More</itemMoreLinks>
+        <itemWebsite>เว็บไซต์</itemWebsite>
+        <itemCheckForUpdates>อัพเดท...</itemCheckForUpdates>
+        <itemRateApp>Rate on Macupdate</itemRateApp>
+        <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+        <itemExit>ปิดโปรแกรม</itemExit>
+        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemSensorBased>เซ็นเซอร์เป็นตัวกำหนด</itemSensorBased>
+        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>การตั้งค่า</title>
+        <TabGeneral>ทั่วไป</TabGeneral>
+        <tabTrayIcon>ไอคอนบนแถบงาน</tabTrayIcon>
+        <tabTrayIconMac>แถบเมนู</tabTrayIconMac>
+        <tabDiagnostics>วินิจฉัย</tabDiagnostics>
+        <staticLanguage>ภาษา:</staticLanguage>
+        <checkSystemStart>เริ่มโปรแกรมและย่อเก็บอัตโนมัติ (แนะนำให้ใช้)</checkSystemStart>
+        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkFahrenheit>ใช้ค่าอุณหภูมิองศาฟาเรนไฮต์</checkFahrenheit>
+        <checkPrecise>แสดงค่าแบบแม่นยำ เมื่อสามารถทำได้ (เช่น 45.4)</checkPrecise>
+        <displayDrives>Display connected drives temperatures</displayDrives>
+        <staticSensor>เซ็นเซอร์:</staticSensor>
+        <staticFan>พัดลม:</staticFan>
+        <staticIcon>ไอคอน:</staticIcon>
+        <comboIconOptionShow>แสดง</comboIconOptionShow>
+        <comboIconOptionShowBW>แสดง (สีดำ &amp; สีขาว)</comboIconOptionShowBW>
+        <comboOptionNone>ไม่เลย</comboOptionNone>
+        <checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(องศาเซลเซียสเท่านั้น)</staticCelsiusOnlyOnWindows>
+        <checkLog>เปิดการเก็บข้อมูล (ต้องรีสตาร์ท)</checkLog>
+        <browseLog>ค้นหา</browseLog>
+        <buttonCopyTechInfo>คัดลอกข้อมูลทางเทคนิค</buttonCopyTechInfo>
+        <copyInfoMessage>ข้อมูลทางเทคนิคถูกคัดลอกแล้ว</copyInfoMessage>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>เกี่ยวกับโปรแกรมควบคุมพัดลมแมค</title>
+        <staticTechnicalSupport>กระทู้ช่วยเหลือทางเทคนิค</staticTechnicalSupport>
+        <staticOnlineHelp>ช่วยเหลือทางอินเตอร์เน็ต</staticOnlineHelp>
+        <staticWarning>โปรแกรมนี้สร้างขึ้นสำหรับผู้ใช้ที่รู้การใช้โปรแกรมนี้อย่างถูกต้อง. ผู้สร้างโปรแกรมไม่ขอรับผิดชอบหากเกิดเหตุการ เช่น ข้อมูลสูญหาย, การเสียของอุปกรณ์, การทำให้สูญกำไร หรือเหตุการใดๆ ที่เกิดจากการใช้โปรแกรมนี้อย่างไม่ถูกต้อง</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Rate the app on MacUpdate</message>
+        <informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+        <buttonRate>Rate on MacUpdate</buttonRate>
+        <buttonNoThanks>No, thanks</buttonNoThanks>
+        <checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>ปิด</buttonClose>
+        <buttonOK>โอเค</buttonOK>
+        <buttonCancel>ยกเลิก</buttonCancel>
+        <buttonContinue>ทำต่อไป</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>ปล่อยให้ใช้เมื่อ %1</ReleasedOn>
+            <CheckForUpdates>อัพเดท...</CheckForUpdates>
+            <NewVersionAvailable>มีเวอร์ชั่นใหม่ของ %1</NewVersionAvailable>
+            <NewVersionAvailableText>ตอนนี้มี %1 %2 แล้ว - คุณมี %3 อยู่ คุณจะดาวน์โหลดเลยไหม</NewVersionAvailableText>
+            <UpdateAlertTitle>อัพเดทซอฟ์ทแวร์</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>มีอะไรใหม่:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>เตือนอีกครั้งภายหลัง</UpdateAlertRemindLater>
+            <UpdateAlertSkip>ข้ามเวอร์ชั่นนี้</UpdateAlertSkip>
+            <UpdateAlertInstall>ติดตั้งอัพเดท</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>ตรวจสอบการอัพเดทโดยอัตโรมัติ</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>เวอร์ชั่นนี้ล่าสุดแล้ว!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>เวอร์ชั่น %1 %2 เป็นเวอร์ชั่นล่าสุด</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>เกิดข้อผิดพลาดขึ้นระหว่างดาวน์โหลดตัวอัพเดท. โปรดลองอีกครั้งภายหลัง.</MessageErrorConnect>
+            <MessageErrorParse>เกิดข้อผิดพลากขึ้นระหว่างการวิเคราะห์ตัวอัพเดท</MessageErrorParse>
+            <UpdateProgressTitle>กำลังอัพเดท %1</UpdateProgressTitle>
+            <UpdateProgressCancel>ยกเลิก</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>ติดตั้งและเริ่มใหม่</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>กำลังดาวน์โหลดตัวอัพเดท...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>กำลังเตรีมการอัพเดท...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>พร้อมติดตั้งแล้ว</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 จาก %2</UpdateProgressSize>
+            <UpdateProgressB>ไบร์ท</UpdateProgressB>
+            <UpdateProgressKB>กิโลไบร์ท</UpdateProgressKB>
+            <UpdateProgressMB>เมกาไบร์ท</UpdateProgressMB>
+            <UpdateProgressGB>กิกาไบร์ท</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Undo</actionUndo>
+            <actionRedo>Redo</actionRedo>
+            <actionCut>Cut</actionCut>
+            <actionCopy>Copy</actionCopy>
+            <actionPaste>Paste</actionPaste>
+            <actionDelete>Delete</actionDelete>
+            <actionSelectAll>Select All</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Cancel</buttonCancel>
+            <buttonClose>Close</buttonClose>
+            <buttonYes>Yes</buttonYes>
+            <buttonNo>No</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>

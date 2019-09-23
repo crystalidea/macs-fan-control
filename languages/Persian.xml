@@ -1,152 +1,192 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.2.0" Author="Hessam Mohamadi">
-	<MainWindow>
-		<staticFanListHeader>فن ها:</staticFanListHeader>
-		<staticSensorsListHeader>سنسورهای دما:</staticSensorsListHeader>
-		<listColumnFan>فن</listColumnFan>
-		<listColumnRPM>حداقل/فعلی/حداکثر دور برثانیه</listColumnRPM>
-		<listColumnControl>کنترل</listColumnControl>
-		<listColumnSensor>سنسور</listColumnSensor>
-		<listColumnSensorValue>مقدار</listColumnSensorValue>
-		<listSeparatorDrives>دیسک درایوها:</listSeparatorDrives>
-		<popupMenuItemControl>تغییر کنترل‫...‬</popupMenuItemControl>
-		<popupMenuItemReset>ریست به کنترل خودکار</popupMenuItemReset>
-		<fanControlAutomatic>خودکار</fanControlAutomatic>
-		<fanControlAutomaticInfo>خودکار (توسط سیستم کنترل میشود)</fanControlAutomaticInfo>
-		<fanControlConstant>مقدار ثابت %1</fanControlConstant>
-		<fanControlSensor>بر اساس %1</fanControlSensor>
-		<fanControlUnknown>ناشناخته!</fanControlUnknown>
-		<buttonFanControlCustom>دستی...</buttonFanControlCustom>
-		<buttonFanControlCustomInfo>تعیین یک حالت کنترل دستی</buttonFanControlCustomInfo>
-		<buttonMinimize>کمینه کن</buttonMinimize>
-		<buttonMinimizeMac>عدم نمایش نوار منو</buttonMinimizeMac>
-		<buttonPreferences>مزیت ها...</buttonPreferences>
-		<buttonAbout>درباره ‫...‬</buttonAbout>
-		<statusMoreApps>%1 نسخه و سایر برنامه ها</statusMoreApps>
-		<messageNonAppleFSWarningMac>حالت فقط خواندنی: فایل سیستمی اپل یافت نشد (%1). آیا برنامه را به مسیر ذیل منتقل نموده اید؟ /Applications ؟</messageNonAppleFSWarningMac>
-		<messageFanControlMessage>بمنظور کنترل فن ها برنامه نیاز دارد سطح دسترسی بیشتری برای ابزار کمک کننده اش داشته باشد</messageFanControlMessage>
-		<messageFanControlNotAvailableTitle>کنترل فن در دسترس نیست</messageFanControlNotAvailableTitle>
-		<messageFanControlNotAvailable>برنامه نمیتواند به ابزار کمکی که کنترل فن و تنظیم سرعت را فعال میکند متصل شود \n\nوقتی رمزعبور آدمین را خواست حتما آن را وارد کنید\n\nبرای اطلاع بیشتر، لطفا در این آدرس با ما تماس بگیرید \nhttps://www.crystalidea.com/contact</messageFanControlNotAvailable>
-		<messageNoFansDetected>فنی در این رایانه تشخیص داده نشد</messageNoFansDetected>
-	</MainWindow>
-	<FanControlDialog>
-		<title>کنترل فن برای %1 فن</title>
-		<radioConstant>مقدار گردش ثابت در دقیقه</radioConstant>
-		<radioSensor>مقدار مبتنی بر سنسور</radioSensor>
-		<staticIncrease>دمایی که بالاتر از آن فن ها شروع به گردش سریعتر میکنند‫:‬</staticIncrease>
-		<staticMax>حد اکثر دما‫:‬</staticMax>
-		<statusWarning>خطایی وجود دارد - مقادیر حدافل و حداکثر به صورت مساوی انتخاب شده اند (%1).&lt;br/&gt; لطفا از حذف نمودن نرم افزارهای مشابه برای کنترل سرعت فن مطمین شوید و سپس سیستم را ریستارت نمایید.</statusWarning>
-	</FanControlDialog>
-	<TrayMenu>
-		<itemShow>نمایش کنترل فن مکینتاش</itemShow>
-		<itemMoreLinks>بیشتر</itemMoreLinks>
-		<itemWebsite>وبسایت</itemWebsite>
-		<itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>
-		<itemRateApp>MacUpdate امتیاز در</itemRateApp>
-		<itemFollowTwitter>دنبال کردن @crystalidea</itemFollowTwitter>
-		<itemExit>خروج</itemExit>
-		<itemSensorBased>مبتنی بر سنسور</itemSensorBased>
-	</TrayMenu>
-	<PreferencesWindow>
-		<title>مزیت ها</title>
-		<TabGeneral>عمومی</TabGeneral>
-		<tabTrayIcon>آیکون کنار ساعت</tabTrayIcon>
-		<tabTrayIconMac>نمایش نوار منو</tabTrayIconMac>
-		<tabDiagnostics>تشخیصی</tabDiagnostics>
-		<staticLanguage>زبان:</staticLanguage>
-		<checkSystemStart>اجرای خودکار بطور کمینه در کنار ساعت ‫(‬پیشنهاد میشود‫)‬</checkSystemStart>
-		<checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
-		<checkFahrenheit>استفاده از مقیاس درجه حرارتی فارنهایت</checkFahrenheit>
-		<checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
-		<staticSensor>سنسور:</staticSensor>
-		<staticFan>فن:</staticFan>
-		<staticIcon>آیکون:</staticIcon>
-		<comboIconOptionShow>نمایش</comboIconOptionShow>
-		<comboIconOptionShowBW>نمایش (سیاه و سفید)</comboIconOptionShowBW>
-		<comboOptionNone>هیچکدام</comboOptionNone>
-		<checkTwoLines>نمایش خواندن فن/سنسور در دو خط برای ذخیره بیشتر فضا</checkTwoLines>
-		<staticCelsiusOnlyOnWindows>(فقط سانتیگراد)</staticCelsiusOnlyOnWindows>
-		<checkLog>فعالسازی وقایع (ریستارت نیاز است)</checkLog>
-		<browseLog>جستجو..</browseLog>
-		<buttonCopyTechInfo>کپی اطلاعات فنی</buttonCopyTechInfo>
-		<copyInfoMessage>اطلاعات فنی به کلیپ برد کپی شد</copyInfoMessage>
-	</PreferencesWindow>
-	<AboutDialog>
-		<title>درباره برنامه</title>
-		<staticTechnicalSupport>پشتیبانی فنی در انجمن</staticTechnicalSupport>
-		<staticOnlineHelp>راهنمای آنلاین</staticOnlineHelp>
-		<staticWarning>این برنامه برای کاربران حرفه ای است که نحوه ی استفاده از آن را بدون آسیب رساندن به سیستم خود میدانند‫.‬ سازنده هیچ مسیولیتی در خصوص از دست دادن اطلاعات سیستم یا هرگونه ضرر و زیان احتمالی و یا هر گونه خسارتی به هر دلیلی به عهده نخواهد داشت‫.‬</staticWarning>
-	</AboutDialog>
-	<NewVersionDialog>
-		<title>نرم افزار کنترل فن ‫-‬ نسخه جدید موجود است</title>
-		<staticNewVersion>نسخه جدید برنامه موجود است‫.‬ لطفا از &lt;a href='وبسایت'&gt;website&lt;/a&gt; برای آخرین نسخه دیدن فرمایید‫.‬</staticNewVersion>
-	</NewVersionDialog>
-	<RateMeDialog>
-		<message>MacUpdate امتیاز به برنامه در</message>
-		<informativeText>اگر از استفاده از %1 لذت می برید، میتوانید یک لحظه وقت بگذارید و به آن امتیاز بدهید؟ بیشتر از یک دقیقه وقت نمی گیرد.بابت پشتیبانی شما ممنونیم</informativeText>
-		<buttonRate>MacUpdate امتیاز در</buttonRate>
-		<buttonNoThanks>خیر،ممنونم</buttonNoThanks>
-		<checkDontShowAgain>دوباره این پیام را نشان نده</checkDontShowAgain>
-	</RateMeDialog>
-	<Common>
-		<buttonClose>بستن</buttonClose>
-		<buttonOK>تایید</buttonOK>
-		<buttonCancel>لغو</buttonCancel>
-		<buttonContinue>ادامه</buttonContinue>
-	</Common>
-	<core>
-		<UpdateChecker>
-			<ReleasedOn>منتشر شده در %1</ReleasedOn>
-			<CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
-			<NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
-			<NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
-			<UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
-			<UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
-			<UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
-			<UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
-			<UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
-			<UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
-			<MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
-			<MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
-			<MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
-			<MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
-			<UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
-			<UpdateProgressCancel>لغو</UpdateProgressCancel>
-			<UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
-			<UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
-			<UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
-			<UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
-			<UpdateProgressSize>%1 از %2</UpdateProgressSize>
-			<UpdateProgressB>بایت</UpdateProgressB>
-			<UpdateProgressKB>کیلوبایت</UpdateProgressKB>
-			<UpdateProgressMB>مگابایت</UpdateProgressMB>
-			<UpdateProgressGB>گیگابایت</UpdateProgressGB>
-		</UpdateChecker>
-		<LetsMoveMac>
-			<kStrMoveApplicationCouldNotMove>نمیتواند به پوشه برنامه ها منتقل کرد</kStrMoveApplicationCouldNotMove>
-			<kStrMoveApplicationQuestionTitle>انتقال به برنامه ها</kStrMoveApplicationQuestionTitle>
-			<kStrMoveApplicationQuestionTitleHome>انتقال به پوشه برنامه ها در پوشه خانگی شما؟</kStrMoveApplicationQuestionTitleHome>
-			<kStrMoveApplicationQuestionMessage>آیا میخواهید %1 تا خودش را به پوشه برنامه ها منتقل کند؟</kStrMoveApplicationQuestionMessage>
-			<kStrMoveApplicationButtonMove>انتقال به پوشه برنامه ها</kStrMoveApplicationButtonMove>
-			<kStrMoveApplicationButtonDoNotMove>منتقل نکن</kStrMoveApplicationButtonDoNotMove>
-			<kStrMoveApplicationQuestionInfoWillRequirePasswd>توجه به رمزعبور آدمین نیاز دارد</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-			<kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
-		</LetsMoveMac>
-		<QLineEditEx>
-			<actionUndo>آندو</actionUndo>
-			<actionRedo>ریدو</actionRedo>
-			<actionCut>کات</actionCut>
-			<actionCopy>کپی</actionCopy>
-			<actionPaste>چسباندن</actionPaste>
-			<actionDelete>حذف</actionDelete>
-			<actionSelectAll>انتخاب همه</actionSelectAll>
-		</QLineEditEx>
-		<QMessageBoxEx>
-			<buttonOK>تأیید</buttonOK>
-			<buttonCancel>لغو</buttonCancel>
-			<buttonClose>بستن</buttonClose>
-			<buttonYes>بله</buttonYes>
-			<buttonNo>خیر</buttonNo>
-		</QMessageBoxEx>
-	</core>
+    <MainWindow>
+        <staticFanListHeader>فن ها:</staticFanListHeader>
+        <staticSensorsListHeader>سنسورهای دما:</staticSensorsListHeader>
+        <listColumnFan>فن</listColumnFan>
+        <listColumnRPM>حداقل/فعلی/حداکثر دور برثانیه</listColumnRPM>
+        <listColumnControl>کنترل</listColumnControl>
+        <listColumnSensor>سنسور</listColumnSensor>
+        <listColumnSensorValue>مقدار</listColumnSensorValue>
+        <listSeparatorDrives>دیسک درایوها:</listSeparatorDrives>
+        <popupMenuItemControl>تغییر کنترل‫...‬</popupMenuItemControl>
+        <popupMenuItemReset>ریست به کنترل خودکار</popupMenuItemReset>
+        <fanControlAutomatic>خودکار</fanControlAutomatic>
+        <fanControlAutomaticInfo>خودکار (توسط سیستم کنترل میشود)</fanControlAutomaticInfo>
+        <fanControlConstant>مقدار ثابت %1</fanControlConstant>
+        <fanControlSensor>بر اساس %1</fanControlSensor>
+        <fanControlUnknown>ناشناخته!</fanControlUnknown>
+        <buttonFanControlCustom>دستی...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>تعیین یک حالت کنترل دستی</buttonFanControlCustomInfo>
+        <buttonMinimize>کمینه کن</buttonMinimize>
+        <buttonMinimizeMac>عدم نمایش نوار منو</buttonMinimizeMac>
+        <buttonPreferences>مزیت ها...</buttonPreferences>
+        <buttonAbout>درباره ‫...‬</buttonAbout>
+        <statusMoreApps>%1 نسخه و سایر برنامه ها</statusMoreApps>
+        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>کنترل فن در دسترس نیست</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>برنامه نمیتواند به ابزار کمکی که کنترل فن و تنظیم سرعت را فعال میکند متصل شود \n\nوقتی رمزعبور آدمین را خواست حتما آن را وارد کنید\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>کنترل فن برای %1 فن</title>
+        <radioConstant>مقدار گردش ثابت در دقیقه</radioConstant>
+        <radioSensor>مقدار مبتنی بر سنسور</radioSensor>
+        <staticIncrease>دمایی که بالاتر از آن فن ها شروع به گردش سریعتر میکنند‫:‬</staticIncrease>
+        <staticMax>حد اکثر دما‫:‬</staticMax>
+        <statusWarning>خطایی وجود دارد - مقادیر حدافل و حداکثر به صورت مساوی انتخاب شده اند (%1).&lt;br/&gt; لطفا از حذف نمودن نرم افزارهای مشابه برای کنترل سرعت فن مطمین شوید و سپس سیستم را ریستارت نمایید.</statusWarning>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Active preset:</activePresetLabel>
+        <presetAutomatic>Automatic</presetAutomatic>
+        <presetFullBlast>Full blast</presetFullBlast>
+        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
+        <presetMenuSave>Save...</presetMenuSave>
+        <presetMenuRename>Rename</presetMenuRename>
+        <presetMenuDelete>Delete</presetMenuDelete>
+        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
+        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>Preset name:</labelPresetName>
+        <savePresetTitle>Save custom preset</savePresetTitle>
+        <editPresetTitle>Edit preset name</editPresetTitle>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Upgrade to Macs Fan Control Pro</title>
+        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
+        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
+        <buttonPurchase>Purchase</buttonPurchase>
+        <buttonEnterLicense>Enter License</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Unlock Pro version</title>
+        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
+        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+        <email>Email Address</email>
+        <licenseKey>License Key</licenseKey>
+        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
+        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>نمایش کنترل فن مکینتاش</itemShow>
+        <itemMoreLinks>بیشتر</itemMoreLinks>
+        <itemWebsite>وبسایت</itemWebsite>
+        <itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>
+        <itemRateApp>MacUpdate امتیاز در</itemRateApp>
+        <itemFollowTwitter>دنبال کردن @crystalidea</itemFollowTwitter>
+        <itemExit>خروج</itemExit>
+        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemSensorBased>مبتنی بر سنسور</itemSensorBased>
+        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>مزیت ها</title>
+        <TabGeneral>عمومی</TabGeneral>
+        <tabTrayIcon>آیکون کنار ساعت</tabTrayIcon>
+        <tabTrayIconMac>نمایش نوار منو</tabTrayIconMac>
+        <tabDiagnostics>تشخیصی</tabDiagnostics>
+        <staticLanguage>زبان:</staticLanguage>
+        <checkSystemStart>اجرای خودکار بطور کمینه در کنار ساعت ‫(‬پیشنهاد میشود‫)‬</checkSystemStart>
+        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkFahrenheit>استفاده از مقیاس درجه حرارتی فارنهایت</checkFahrenheit>
+        <checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
+        <displayDrives>Display connected drives temperatures</displayDrives>
+        <staticSensor>سنسور:</staticSensor>
+        <staticFan>فن:</staticFan>
+        <staticIcon>آیکون:</staticIcon>
+        <comboIconOptionShow>نمایش</comboIconOptionShow>
+        <comboIconOptionShowBW>نمایش (سیاه و سفید)</comboIconOptionShowBW>
+        <comboOptionNone>هیچکدام</comboOptionNone>
+        <checkTwoLines>نمایش خواندن فن/سنسور در دو خط برای ذخیره بیشتر فضا</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(فقط سانتیگراد)</staticCelsiusOnlyOnWindows>
+        <checkLog>فعالسازی وقایع (ریستارت نیاز است)</checkLog>
+        <browseLog>جستجو..</browseLog>
+        <buttonCopyTechInfo>کپی اطلاعات فنی</buttonCopyTechInfo>
+        <copyInfoMessage>اطلاعات فنی به کلیپ برد کپی شد</copyInfoMessage>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>درباره برنامه</title>
+        <staticTechnicalSupport>پشتیبانی فنی در انجمن</staticTechnicalSupport>
+        <staticOnlineHelp>راهنمای آنلاین</staticOnlineHelp>
+        <staticWarning>این برنامه برای کاربران حرفه ای است که نحوه ی استفاده از آن را بدون آسیب رساندن به سیستم خود میدانند‫.‬ سازنده هیچ مسیولیتی در خصوص از دست دادن اطلاعات سیستم یا هرگونه ضرر و زیان احتمالی و یا هر گونه خسارتی به هر دلیلی به عهده نخواهد داشت‫.‬</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>MacUpdate امتیاز به برنامه در</message>
+        <informativeText>اگر از استفاده از %1 لذت می برید، میتوانید یک لحظه وقت بگذارید و به آن امتیاز بدهید؟ بیشتر از یک دقیقه وقت نمی گیرد.بابت پشتیبانی شما ممنونیم</informativeText>
+        <buttonRate>MacUpdate امتیاز در</buttonRate>
+        <buttonNoThanks>خیر،ممنونم</buttonNoThanks>
+        <checkDontShowAgain>دوباره این پیام را نشان نده</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>بستن</buttonClose>
+        <buttonOK>تایید</buttonOK>
+        <buttonCancel>لغو</buttonCancel>
+        <buttonContinue>ادامه</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>منتشر شده در %1</ReleasedOn>
+            <CheckForUpdates>بررسی برای بروزرسانی...</CheckForUpdates>
+            <NewVersionAvailable>نسخه جدید %1 موجود است</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 حالا موجود است - شما %3 را دارید.حالا دانلود می کنید؟</NewVersionAvailableText>
+            <UpdateAlertTitle>بروزرسانی نرم افزار</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>جزئیات انتشار:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>بعدا یادآوری کن</UpdateAlertRemindLater>
+            <UpdateAlertSkip>رد این نسخه</UpdateAlertSkip>
+            <UpdateAlertInstall>نصب بروزرسانی</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>بررسی خودکار برای بروزرسانی</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>نسخه شما بروز است</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 اکنون جدیدترین نسخه موجود است</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>یک خطا حین دانلود بروزرسانی رخ داد. لطفا بعدا دوباره سعی کنید</MessageErrorConnect>
+            <MessageErrorParse>یک خطا حین تحلیل فید بروزرسانی رخ داد</MessageErrorParse>
+            <UpdateProgressTitle>بروزرسانی %1</UpdateProgressTitle>
+            <UpdateProgressCancel>لغو</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>نصب و اِجرای مجدد</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>دانلود بروزرسانی...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>استخراج بروزرسانی..</UpdateProgressExtract>
+            <UpdateProgressStatusReady>آماده نصب</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 از %2</UpdateProgressSize>
+            <UpdateProgressB>بایت</UpdateProgressB>
+            <UpdateProgressKB>کیلوبایت</UpdateProgressKB>
+            <UpdateProgressMB>مگابایت</UpdateProgressMB>
+            <UpdateProgressGB>گیگابایت</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>نمیتواند به پوشه برنامه ها منتقل کرد</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>انتقال به برنامه ها</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>انتقال به پوشه برنامه ها در پوشه خانگی شما؟</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>آیا میخواهید %1 تا خودش را به پوشه برنامه ها منتقل کند؟</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>انتقال به پوشه برنامه ها</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>منتقل نکن</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>توجه به رمزعبور آدمین نیاز دارد</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>آندو</actionUndo>
+            <actionRedo>ریدو</actionRedo>
+            <actionCut>کات</actionCut>
+            <actionCopy>کپی</actionCopy>
+            <actionPaste>چسباندن</actionPaste>
+            <actionDelete>حذف</actionDelete>
+            <actionSelectAll>انتخاب همه</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>تأیید</buttonOK>
+            <buttonCancel>لغو</buttonCancel>
+            <buttonClose>بستن</buttonClose>
+            <buttonYes>بله</buttonYes>
+            <buttonNo>خیر</buttonNo>
+        </QMessageBoxEx>
+    </core>
 </LanguageStrings>
