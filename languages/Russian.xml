@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.0" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.0" Author="Denis Mikhailov">
     <MainWindow>
         <staticFanListHeader>Доступные вентиляторы:</staticFanListHeader>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>

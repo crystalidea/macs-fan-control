@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.0" Author="Samer AlRubaee-Iraq">
+<LanguageStrings version="1.5.0" Author="Samer AlRubaee-Iraq">
     <MainWindow>
         <staticFanListHeader>المراوح:</staticFanListHeader>
         <staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
@@ -23,8 +23,8 @@
         <buttonPreferences>التفضيلات</buttonPreferences>
         <buttonAbout>حول…</buttonAbout>
         <statusMoreApps>%1 اصدار &amp; تطبيقات اخرى</statusMoreApps>
-        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageHelperToolInstall>التطبيق يحتاج تثبيت اداة مساعدة للتحكم في المروحة. يمكنك تخطي هذا إذا كنت ترغب في مراقبة المراوح &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>يحتاج البرنامج إلى تثبيت إصدار محدث من أداة المساعدة المستخدمة للتحكم في المروحة.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>التطبيق غير متاح</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>البرنامج غير قادر على الاتصال بالتطبيق المساعد لتمكينه بالشكل الصحيح للتحكم بالسرعات. \n\تأكد من ادخال كلمة سر المدير عند الطلب.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
@@ -37,46 +37,46 @@
         <staticIncrease>درجة الحرارة التي منها تبدأ المروحة زيادة سرعتها:</staticIncrease>
         <staticMax>درجة الحرارة القصوى:</staticMax>
         <statusWarning>خطأ ما - دنيا/قصوى قيمة المروحة على حد سواء (%1).&lt;br/&gt; رجاءا تأكد من حذف اي برنامج آخر يتحكم بالمروحه او حاول ان تعمل reset SMC.</statusWarning>
-        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+        <saveToCurrentPreset>حفظ الى الاعداد الحالي ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>Active preset:</activePresetLabel>
-        <presetAutomatic>Automatic</presetAutomatic>
-        <presetFullBlast>Full blast</presetFullBlast>
-        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
-        <presetMenuSave>Save...</presetMenuSave>
-        <presetMenuRename>Rename</presetMenuRename>
-        <presetMenuDelete>Delete</presetMenuDelete>
-        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
-        <presetMenuCustom>Custom presets:</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
-        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
-        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
-        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
-        <labelPresetName>Preset name:</labelPresetName>
-        <savePresetTitle>Save custom preset</savePresetTitle>
-        <editPresetTitle>Edit preset name</editPresetTitle>
+        <activePresetLabel>الاصدار الفعال:</activePresetLabel>
+        <presetAutomatic>تلقائي</presetAutomatic>
+        <presetFullBlast>السرعه القصوى</presetFullBlast>
+        <presetCurrentUnsaved>مخصص*</presetCurrentUnsaved>
+        <presetMenuSave>حفظ...</presetMenuSave>
+        <presetMenuRename>إعادة تسمية</presetMenuRename>
+        <presetMenuDelete>حذف</presetMenuDelete>
+        <presetMenuPredefined>الاعدادات المسبقة:</presetMenuPredefined>
+        <presetMenuCustom>اعدادات مخصصة:</presetMenuCustom>
+        <presetMenuApply>تطبيق</presetMenuApply>
+        <presetMenuProVersion>متاح في الاصدار البرو</presetMenuProVersion>
+        <presetMenuCurrent>حالي - %1</presetMenuCurrent>
+        <presetMenuDiscard>إلغاء (reset all fans to auto)</presetMenuDiscard>
+        <labelPresetName>الاسم الحالي:</labelPresetName>
+        <savePresetTitle>حفظ الاعداد الحالي</savePresetTitle>
+        <editPresetTitle>تعديل اسم الاعداد</editPresetTitle>
     </Presets>
     <UpgradeToProDialog>
-        <title>Upgrade to Macs Fan Control Pro</title>
-        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
-        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
-        <buttonPurchase>Purchase</buttonPurchase>
-        <buttonEnterLicense>Enter License</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <title>الترقية الى الاصدار الاحترافي</title>
+        <proInfo1>إصدار المحترفين قادر على إنشاء وحفظ الإعدادات المسبقة للمروحة المخصصة بحيث يمكنك التبديل بينها بسرعة حسب نشاطك.</proInfo1>
+        <proInfo2>إذا كنت قد اشتريت التطبيق بالفعل ، فالرجاء الضغط على الزر "إدخال ترخيص" أدناه.</proInfo2>
+        <buttonPurchase>شراء</buttonPurchase>
+        <buttonEnterLicense>إدخال الترخيص</buttonEnterLicense>
+        <buttonLater>فيما بعد</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+        <title>فتح نسخة برو</title>
+        <infoText>إذا كنت قد قمت بالفعل بشراء Macs Fan Control ، فأدخل عنوان البريد الإلكتروني ومفتاح الترخيص من إيصال البريد الإلكتروني الخاص بك في المربعات أدناه. سيؤدي هذا إلى إلغاء قفل ميزات Pro للتحكم في أجهزة Mac.</infoText>
+        <licenseVerifyInfo>المعلومات التي تدخلها عبر الإنترنت ربما يتم التحقق منها عبر الانترنت.</licenseVerifyInfo>
+        <email>البريد الالكتروني</email>
+        <licenseKey>مفتاح الترخيص</licenseKey>
+        <buttonUnlock>فتح</buttonUnlock>
+        <buttonRestoreLicense>استعادة الرخصة</buttonRestoreLicense>
+        <invalidLicenseTitle>رخصة خاطئة!</invalidLicenseTitle>
+        <invalidLicenseText>تأكد من إدخال جميع الحروف والأرقام والشرطات بالترتيب الصحيح. إذا كنت تكتب الرقم باليد ، فحاول نسخها ولصقها من إيصال البريد الإلكتروني بدلاً من ذلك.</invalidLicenseText>
+        <thanksTitle>شكراً لشرائك البرنامج</thanksTitle>
+        <thanksInfo>تمت إزالة جميع القيود المفروضة على الإصدار المجاني ، نأمل أن تستمتع باستخدام التطبيق!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>اظهار نافذة البرنامج</itemShow>
@@ -86,9 +86,9 @@
         <itemRateApp>قيمنا على Macupdate</itemRateApp>
         <itemFollowTwitter>تابعنا @crystalidea</itemFollowTwitter>
         <itemExit>الخروج</itemExit>
-        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemExitMac>الخروج من البرنامج</itemExitMac>
         <itemSensorBased>اساس تحكم المستشعر</itemSensorBased>
-        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+        <itemUpgradeToPro>الترقية الى اصدار المحترفين</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
         <title>التفضيلات</title>
@@ -98,10 +98,10 @@
         <tabDiagnostics>التشخيص</tabDiagnostics>
         <staticLanguage>اللغه:</staticLanguage>
         <checkSystemStart>تشغيل تلقائي مع النظام (مستحسن)</checkSystemStart>
-        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkUpdatesOnStartup>تحقق من وجود تحديثات عند بدء تشغيل التطبيق</checkUpdatesOnStartup>
         <checkFahrenheit>استخدام مقياس درجة حراره فهرنهايت</checkFahrenheit>
         <checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <displayDrives>عرض درجات حرارة محركات الأقراص المتصلة</displayDrives>
         <staticSensor>الحساس:</staticSensor>
         <staticFan>المروحه:</staticFan>
         <staticIcon>الايقونه:</staticIcon>
