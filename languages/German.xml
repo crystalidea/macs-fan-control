@@ -23,12 +23,12 @@
         <buttonPreferences>Einstellungen...</buttonPreferences>
         <buttonAbout>Über...</buttonAbout>
         <statusMoreApps>%1-Version &amp; weitere Apps</statusMoreApps>
-        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageHelperToolInstall>Macs Fan Control erfordert die Installation eines Hilfswerkzeugs zur Lüftersteuerung. Sie können dies überspringen, wenn Sie nur Lüfter &amp; Temperatursensoren überwachen möchten.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control muss eine aktualisierte Version des Hilfswerkzeugs für die Lüftersteuerung installieren.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Die Lüfter-Steuerung ist nicht verfügbar.</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit der helper-App verbinden um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/de-de/HT201295)</messageNoFansDetected>
+        <messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit der helper-App verbinden um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nSie können die App weiterhin im reinen Monitoringmodus verwenden.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Nur Überwachung</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Keine Lüfter erkannt, bitte versuchen Sie es mit [SMC zurücksetzen].(https://support.apple.com/de-de/HT201295)</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
         <title>Steuerung des Lüfters %1</title>
@@ -37,46 +37,46 @@
         <staticIncrease>Temperatur, ab der die Drehzahl steigen soll:</staticIncrease>
         <staticMax>Maximale Temperatur:</staticMax>
         <statusWarning>Etwas ist schiefgelaufen - die minimalen und maximalen Lüfterwerte sind gleich (%1).&lt;br/&gt; Deinstallieren Sie alle anderen Lüftungssteuerungsprogramme und setzen Sie den SMC zurück.</statusWarning>
-        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+        <saveToCurrentPreset>Speichern in der aktuellen Voreinstellung ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>Active preset:</activePresetLabel>
-        <presetAutomatic>Automatic</presetAutomatic>
-        <presetFullBlast>Full blast</presetFullBlast>
-        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
-        <presetMenuSave>Save...</presetMenuSave>
-        <presetMenuRename>Rename</presetMenuRename>
-        <presetMenuDelete>Delete</presetMenuDelete>
-        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
-        <presetMenuCustom>Custom presets:</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
-        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
-        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
-        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
-        <labelPresetName>Preset name:</labelPresetName>
-        <savePresetTitle>Save custom preset</savePresetTitle>
-        <editPresetTitle>Edit preset name</editPresetTitle>
+        <activePresetLabel>Aktive Voreinstellung:</activePresetLabel>
+        <presetAutomatic>Automatisch</presetAutomatic>
+        <presetFullBlast>Volle Leistung</presetFullBlast>
+        <presetCurrentUnsaved>Benutzerdefiniert*</presetCurrentUnsaved>
+        <presetMenuSave>Speichern...</presetMenuSave>
+        <presetMenuRename>Umbenennen</presetMenuRename>
+        <presetMenuDelete>Löschen</presetMenuDelete>
+        <presetMenuPredefined>Vordefinierte Voreinstellungen:</presetMenuPredefined>
+        <presetMenuCustom>Benutzerdefinierte Voreinstellungen:</presetMenuCustom>
+        <presetMenuApply>Anwenden</presetMenuApply>
+        <presetMenuProVersion>Erhältlich in der PRO-Version</presetMenuProVersion>
+        <presetMenuCurrent>Voreinstellung - %1</presetMenuCurrent>
+        <presetMenuDiscard>Verwerfen (alle Lüfter auf Auto zurücksetzen)</presetMenuDiscard>
+        <labelPresetName>Voreingestellter Name:</labelPresetName>
+        <savePresetTitle>Benutzerdefinierte Voreinstellungen speichern</savePresetTitle>
+        <editPresetTitle>Benutzerdefinierte Voreinstellungen bearbeiten</editPresetTitle>
     </Presets>
     <UpgradeToProDialog>
-        <title>Upgrade to Macs Fan Control Pro</title>
-        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
-        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
-        <buttonPurchase>Purchase</buttonPurchase>
-        <buttonEnterLicense>Enter License</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <title>Upgrade auf Macs Fan Control Pro</title>
+        <proInfo1>Die Pro-Version ist in der Lage, benutzerdefinierte Lüftervoreinstellungen zu erstellen und zu speichern, so dass Sie je nach Aktivität schnell zwischen ihnen wechseln können.</proInfo1>
+        <proInfo2>Wenn Sie die App bereits gekauft haben, klicken Sie bitte auf die Schaltfläche "Lizenz eingeben" unten.</proInfo2>
+        <buttonPurchase>Kaufen</buttonPurchase>
+        <buttonEnterLicense>Lizenz eingeben</buttonEnterLicense>
+        <buttonLater>Später</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+        <title>Pro-Version freischalten</title>
+        <infoText>Wenn Sie bereits Macs Fan Control gekauft haben, geben Sie Ihre E-Mail-Adresse und Ihren Lizenzschlüssel aus Ihrem E-Mail-Empfang in die folgenden Felder ein. Dadurch werden die Pro-Funktionen der Macs Fan Control vollständig freigeschaltet.</infoText>
+        <licenseVerifyInfo>Die von Ihnen eingegebenen Informationen können über das Internet überprüft werden.</licenseVerifyInfo>
+        <email>E-Mail Adresse</email>
+        <licenseKey>Lizenzschlüssel</licenseKey>
+        <buttonUnlock>Freischalten</buttonUnlock>
+        <buttonRestoreLicense>Lizenz wiederherstellen</buttonRestoreLicense>
+        <invalidLicenseTitle>Ungültige Lizenz!</invalidLicenseTitle>
+        <invalidLicenseText>Achten Sie darauf, dass alle Buchstaben, Zahlen und Striche in der richtigen Reihenfolge eingegeben werden. Wenn Sie die Nummer von Hand eingeben, versuchen Sie stattdessen, sie aus Ihrem E-Mail-Empfang zu kopieren und einzufügen.</invalidLicenseText>
+        <thanksTitle>Vielen Dank, dass Sie sich für den Kauf von Macs Fan Control Pro entschieden haben.</thanksTitle>
+        <thanksInfo>Alle Einschränkungen der kostenlosen Version wurden aufgehoben. Wir wünschen Ihnen viel Spaß bei der Nutzung der App!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Macs Fan Control anzeigen</itemShow>
