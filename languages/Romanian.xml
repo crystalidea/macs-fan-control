@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Ascunde in bara de menu</buttonMinimizeMac>
         <buttonPreferences>Preferinte…</buttonPreferences>
         <buttonAbout>Despre...</buttonAbout>
-        <statusMoreApps>Versiunea de %1 &amp; mai multe aplicatii</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Despre Macs Fan Control</title>
         <staticTechnicalSupport>Suport tehnic pe forum</staticTechnicalSupport>
         <staticOnlineHelp>Online help</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>ACEST PROGRAM ESTE PENTRU UTILIZATORII AVANSATI CARE STIU SA-L FOLOSEASCA FARA A-SI STRICA MAC-UL. AUTORII NU POT FI RASPUNZATORI PENTRU PIERDEREA DATELOR, DEFECTIUNI, PIERDERI DE BANI SAU ALTE TIPURI DE PIERDERI RAPORTATE LA FOLOSIREA SAU NEFOLOSIREA ACESTUI PROGRAM.</staticWarning>
     </AboutDialog>
     <RateMeDialog>

@@ -22,7 +22,6 @@
         <buttonMinimizeMac>عدم نمایش نوار منو</buttonMinimizeMac>
         <buttonPreferences>مزیت ها...</buttonPreferences>
         <buttonAbout>درباره ‫...‬</buttonAbout>
-        <statusMoreApps>%1 نسخه و سایر برنامه ها</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>کنترل فن در دسترس نیست</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>درباره برنامه</title>
         <staticTechnicalSupport>پشتیبانی فنی در انجمن</staticTechnicalSupport>
         <staticOnlineHelp>راهنمای آنلاین</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>این برنامه برای کاربران حرفه ای است که نحوه ی استفاده از آن را بدون آسیب رساندن به سیستم خود میدانند‫.‬ سازنده هیچ مسیولیتی در خصوص از دست دادن اطلاعات سیستم یا هرگونه ضرر و زیان احتمالی و یا هر گونه خسارتی به هر دلیلی به عهده نخواهد داشت‫.‬</staticWarning>
     </AboutDialog>
     <RateMeDialog>

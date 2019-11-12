@@ -22,7 +22,6 @@
         <buttonMinimizeMac>メニューバーに隠す</buttonMinimizeMac>
         <buttonPreferences>環境設定...</buttonPreferences>
         <buttonAbout>Macs Fan Control について...</buttonAbout>
-        <statusMoreApps>%1 バージョン &amp; その他のアプリケーション</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Macs Fan Control について</title>
         <staticTechnicalSupport>テクニカルサポートフォーラム</staticTechnicalSupport>
         <staticOnlineHelp>Online help</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>このプログラムは自分のMacを損傷させずに使用する方法を知っている上級者向けの機能です。　作者は、データの損失、損害、利益損失またはプログラムの使用や誤用とその他のいかなるタイプの損失にも責任を負いません。 </staticWarning>
     </AboutDialog>
     <RateMeDialog>

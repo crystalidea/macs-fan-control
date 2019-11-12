@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Minimizar para Barra de Menu</buttonMinimizeMac>
         <buttonPreferences>Preferências...</buttonPreferences>
         <buttonAbout>Sobre...</buttonAbout>
-        <statusMoreApps>Versão %1 &amp; mais aplicativos</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Controle da Ventoinha não disponível</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Sobre Macs Fan Control</title>
         <staticTechnicalSupport>Suporte técnico no fórum</staticTechnicalSupport>
         <staticOnlineHelp>Ajuda Online</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>ESTE PROGRAMA É PARA USUÁRIOS AVANÇADOS QUE SABEM USÁ-LO SEM DANIFICAR SEUS MACS. O AUTOR NÃO É RESPONSÁVEL POR PERDA DE DADOS, DANOS, PERDA DE LUCRO OU QUAISQUER OUTROS TIPOS DE PERDAS RELACIONADAS COM O USO OU MAU USO DO PROGRAMA</staticWarning>
     </AboutDialog>
     <RateMeDialog>

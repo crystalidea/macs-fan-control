@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.0" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.1" Author="Denis Mikhailov">
     <MainWindow>
         <staticFanListHeader>Доступные вентиляторы:</staticFanListHeader>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Спрятать в строке меню</buttonMinimizeMac>
         <buttonPreferences>Настройки...</buttonPreferences>
         <buttonAbout>О программе...</buttonAbout>
-        <statusMoreApps>%1 версия и другие интересные программы</statusMoreApps>
         <messageHelperToolInstall>Для управления вентиляторами программе необходима установка вспомогательной утилиты. Вы можете её не устанавливать, но в этом случае Вы сможете только наблюдать за скоростями вентиляторов и значениями температурных датчиков.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Для управления вентиляторами программе необходимо обновить уже установленную вспомогательную утилиту предыдущей версии.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Управление вентиляторами не доступно</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>О программе Macs Fan Control</title>
         <staticTechnicalSupport>Техническая поддержка на форуме</staticTechnicalSupport>
         <staticOnlineHelp>Справка онлайн</staticOnlineHelp>
+        <staticFreeVersion>Бесплатная версия</staticFreeVersion>
+        <staticProVersion>Pro версия, лицензия на %1 компьютер</staticProVersion>
         <staticWarning>ЭТА ПРОГРАММА ДЛЯ ПРОДВИНУТЫХ ПОЛЬЗОВАТЕЛЕЙ, КОТОРЫЕ ПОНИМАЮТ, КАК ЕЁ ИСПОЛЬЗОВАТЬ НЕ ПРИЧИНЯЯ ВРЕДА ИХ MAC. АВТОРЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ЗА ПОТЕРЮ ДАННЫХ, ПОРЧУ ОБОРУДОВАНИЯ ИЛИ ЛЮБЫЕ ДРУГИЕ ПОТЕРИ СВЯЗАННЫЕ С ИСПОЛЬЗОВАНИЕМ ПРОГРАММЫ</staticWarning>
     </AboutDialog>
     <RateMeDialog>

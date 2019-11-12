@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Schovať do toolbar lišty</buttonMinimizeMac>
         <buttonPreferences>Nastavenia...</buttonPreferences>
         <buttonAbout>Informácie o...</buttonAbout>
-        <statusMoreApps>%1 verzia &amp; viac aplikácií</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Ovládanie ventilátorov nie je dostupné</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>O Macs Fan Control</title>
         <staticTechnicalSupport>Technická podpora na našom diskusnom fóre</staticTechnicalSupport>
         <staticOnlineHelp>Online pomoc</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>TENTO PROGRAM JE PRE SKÚSENÝCH POUŽÍVATEĽOV, KTORÍ HO VEDIA POUŽIŤ BEZ POŠKODENIA SVOJHO POČÍTAČA MAC. AUTORI PROGRAMU NIE SU ZODPOVEDNÍ ZA STRATU DÁT, ŠKODY,STRATU ZISKU ALEBO AKÝKOĽVEK INÝ TYP STRATY SPOJENEJ S POUŽÍVANÍM TOHOTO PROGRAMU!</staticWarning>
     </AboutDialog>
     <RateMeDialog>

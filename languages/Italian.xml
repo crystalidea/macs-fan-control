@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Riduci nella barra menu </buttonMinimizeMac>
         <buttonPreferences>Preferenze...</buttonPreferences>
         <buttonAbout>Info...</buttonAbout>
-        <statusMoreApps>Versione %1 e altri programmi</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control richiede un helper tool per poter controllare le ventole. Puoi saltare questo passo se vuoi solo monitorare le ventole &amp; i sensori di temperatura.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control deve installare una versione aggiornata dell'helper tool.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Controllo ventola non disponibile</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>informazioni su Macs Fan Control</title>
         <staticTechnicalSupport>Supporto tecnico nel forum</staticTechnicalSupport>
         <staticOnlineHelp>Aiuto online</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>IL PROGRAMMA È PER UTENTI ESPERTI CHE SANNO COME USARLO SENZA DANNEGGIARE IL LORO MAC! L'AUTORE NON È RESPONSABILE PER PERDITE DI DATI, DANNI, PERDITE DI GUADAGNI O ALTRI TIPI DI PERDITE CONNESSE ALL'USO O ALL'USO IMPROPRIO DEL PROGRAMMA</staticWarning>
     </AboutDialog>
     <RateMeDialog>
@@ -164,7 +165,7 @@
         </UpdateChecker>
         <LetsMoveMac>
             <kStrMoveApplicationCouldNotMove>Impossibile spostare programma nella cartella Applicazioni</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Vuoi spostare il programam nella cartella Applicazioni?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitle>Vuoi spostare il programma nella cartella Applicazioni?</kStrMoveApplicationQuestionTitle>
             <kStrMoveApplicationQuestionTitleHome>Vuoi spostare il programma nella cartella Applicazioni dell'utente?</kStrMoveApplicationQuestionTitleHome>
             <kStrMoveApplicationQuestionMessage>È possibile spostare il programma %1 nella cartella Applicazioni.</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Sposta programma nella cartella Applicazioni</kStrMoveApplicationButtonMove>

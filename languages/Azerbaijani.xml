@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Menyu çubuğuna gizlə</buttonMinimizeMac>
         <buttonPreferences>Ayarlar...</buttonPreferences>
         <buttonAbout>Haqqında...</buttonAbout>
-        <statusMoreApps>%1 versiya &amp; daha çox </statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Sərinkeç idarəsi mövcud deyil</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Macs Fan Control haqqında</title>
         <staticTechnicalSupport>Forumda texniki dstək</staticTechnicalSupport>
         <staticOnlineHelp>Onlayn kömək</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>BU PROGRAM YALNIZ MAC-INA ZƏRƏR VERMƏDƏN DƏYİŞİKLİKLƏR ETMƏK İSTƏYƏN PROFESSİONALLAR ÜÇÜNDÜR. YAZIÇILAR MƏLUMAT İTKİSİNƏ, ZƏDƏLƏRƏ, QAZANC İTKİSİNƏ VƏ YA BAŞQA İTKİLƏRƏ GÖRƏ HEÇ BİR HALDA MƏSULİYYƏT DAŞIMIR!</staticWarning>
     </AboutDialog>
     <RateMeDialog>

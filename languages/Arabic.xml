@@ -22,7 +22,6 @@
         <buttonMinimizeMac>اخفاء الى شريط القائمة</buttonMinimizeMac>
         <buttonPreferences>التفضيلات</buttonPreferences>
         <buttonAbout>حول…</buttonAbout>
-        <statusMoreApps>%1 اصدار &amp; تطبيقات اخرى</statusMoreApps>
         <messageHelperToolInstall>التطبيق يحتاج تثبيت اداة مساعدة للتحكم في المروحة. يمكنك تخطي هذا إذا كنت ترغب في مراقبة المراوح &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>يحتاج البرنامج إلى تثبيت إصدار محدث من أداة المساعدة المستخدمة للتحكم في المروحة.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>التطبيق غير متاح</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>حول البرنامج</title>
         <staticTechnicalSupport>الدعم الفني على المنتدى</staticTechnicalSupport>
         <staticOnlineHelp>المساعده على الويب</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>هذا البرنامج للمستخدمين المتقدمين الذين يعرفون كيفية استخدام تكنولوجيا المعلومات من دون الحاق الضرر بالماك . المؤلفون ليسو مسؤولين عن فقدان البيانات، والأضرار أو أية أنواع أخرى من خسائر متصلة مع استخدام أو سوء استخدام للبرنامج‫.‬تحيات معرب البرنامج سامر صباح‫-‬العراق</staticWarning>
     </AboutDialog>
     <RateMeDialog>

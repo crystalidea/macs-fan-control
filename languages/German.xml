@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Fenster ausblenden</buttonMinimizeMac>
         <buttonPreferences>Einstellungen...</buttonPreferences>
         <buttonAbout>Über...</buttonAbout>
-        <statusMoreApps>%1-Version &amp; weitere Apps</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control erfordert die Installation eines Hilfswerkzeugs zur Lüftersteuerung. Sie können dies überspringen, wenn Sie nur Lüfter &amp; Temperatursensoren überwachen möchten.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control muss eine aktualisierte Version des Hilfswerkzeugs für die Lüftersteuerung installieren.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Die Lüfter-Steuerung ist nicht verfügbar.</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Über Macs Fan Control</title>
         <staticTechnicalSupport>Technische Unterstützung im Forum</staticTechnicalSupport>
         <staticOnlineHelp>Online Hilfe</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>DAS PROGRAMM IST FÜR FORTGESCHRITTENE BENUTZER VORGESEHEN, DIE SICH ÜBER DIE FUNKTIONEN UND GEFAHREN IM KLAREN SIND. DIE AUTOREN SIND NICHT VERANTWORTLICH FÜR DATENVERLUST, BESCHÄDIGUNGEN, PROFITVERLUST ODER JEGLICHE ANDEREN VERLUSTE, DIE DURCH DIE BENUTZUNG ODER MISSBRÄUCHLICHE BENUTZUNG DIESES PROGRAMMES ENTSTEHEN KÖNNTEN.</staticWarning>
     </AboutDialog>
     <RateMeDialog>

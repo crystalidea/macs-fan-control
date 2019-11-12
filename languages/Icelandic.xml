@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Fela í valmyndaslá</buttonMinimizeMac>
         <buttonPreferences>Stillingar...</buttonPreferences>
         <buttonAbout>Um...</buttonAbout>
-        <statusMoreApps>%1 útgáfa &amp; fleiri forrit</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Um Macs Fan Control</title>
         <staticTechnicalSupport>Tæknileg aðstoð á korkinum</staticTechnicalSupport>
         <staticOnlineHelp>Aðstoð á netinu</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>FORRITIÐ ER FYRIR NOTENDUR SEM VITA HVERNIG ÞEIR GETA NOTAÐ ÞAÐ ÁN ÞESS AÐ SKEMMA MAKKANN SINN! HÖFUNDUR BER EKKI ÁBYRGÐ Á GAGNATAPI, SKEMMDUM, TEKJUTAPI EÐA NOKKRU ÖÐRU TAPI Í TENGSLUM VIÐ NOTKUN EÐA MISNOTKUN Á FORRITINU</staticWarning>
     </AboutDialog>
     <RateMeDialog>

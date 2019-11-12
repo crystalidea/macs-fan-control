@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Απόκρυψη στη μπάρα μενού</buttonMinimizeMac>
         <buttonPreferences>Προτιμήσεις...</buttonPreferences>
         <buttonAbout>Σχετικά...</buttonAbout>
-        <statusMoreApps>Έκδοση %1 &amp; περισσότερα εργαλεία</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Μη διαθέσιμος έλεγχος ανεμιστήρων</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Σχετικά με το Macs Fan Control</title>
         <staticTechnicalSupport>Τεχνική υποστήριξη στο forum</staticTechnicalSupport>
         <staticOnlineHelp>Βοήθεια On-Line</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>ΤΟ ΠΡΟΓΡΑΜΜΑ ΑΠΕΥΘΥΝΕΤΑΙ ΣΕ ΠΡΟΧΩΡΗΜΕΝΟΥΣ ΧΡΗΣΤΕΣ ΠΟΥ ΓΝΩΡΙΖΟΥΝ ΠΩΣ ΝΑ ΤΟ ΧΡΗΣΙΜΟΠΟΙΗΣΟΥΝ ΧΩΡΙΣ ΝΑ ΚΑΝΟΥΝ ΖΗΜΙΑ ΣΤΟ MAC ΤΟΥΣ. ΣΥΝΕΠΩΣ, ΟΙ ΔΗΜΙΟΥΡΓΟΙ ΔΕΝ ΕΙΝΑΙ ΥΠΕΥΘΥΝΟΙ ΓΙΑ ΟΠΟΙΑΔΗΠΟΤΕ ΑΠΩΛΕΙΑ ΔΕΔΟΜΕΝΩΝ, ΖΗΜΙΕΣ, ΑΠΩΛΕΙΑ ΚΕΡΔΟΥΣ Η ΑΛΛΟΥ ΕΙΔΟΥΣ ΖΗΜΙΕΣ ΠΟΥ ΣΧΕΤΙΖΟΝΤΑΙ ΜΕ ΤΗ ΣΩΣΤΗ Η ΕΣΦΑΛΜΕΝΗ ΧΡΗΣΗ ΤΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ ΑΥΤΟΥ.</staticWarning>
     </AboutDialog>
     <RateMeDialog>

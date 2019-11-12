@@ -22,7 +22,6 @@
         <buttonMinimizeMac>隐藏到菜单栏</buttonMinimizeMac>
         <buttonPreferences>设置...</buttonPreferences>
         <buttonAbout>关于...</buttonAbout>
-        <statusMoreApps>%1 版本 &amp; 更多应用程序</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>关于 Macs Fan Control</title>
         <staticTechnicalSupport>技术支持</staticTechnicalSupport>
         <staticOnlineHelp>在线帮助</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的MAC的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
     </AboutDialog>
     <RateMeDialog>

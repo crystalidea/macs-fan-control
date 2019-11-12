@@ -22,7 +22,6 @@
         <buttonMinimizeMac>ซ่อนไปที่แถบเมนู</buttonMinimizeMac>
         <buttonPreferences>การตั้งค่า...</buttonPreferences>
         <buttonAbout>เกี่ยวกับ...</buttonAbout>
-        <statusMoreApps>%1 เวอร์ชั่น &amp; แอพเพิ่มเติม</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>เกี่ยวกับโปรแกรมควบคุมพัดลมแมค</title>
         <staticTechnicalSupport>กระทู้ช่วยเหลือทางเทคนิค</staticTechnicalSupport>
         <staticOnlineHelp>ช่วยเหลือทางอินเตอร์เน็ต</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>โปรแกรมนี้สร้างขึ้นสำหรับผู้ใช้ที่รู้การใช้โปรแกรมนี้อย่างถูกต้อง. ผู้สร้างโปรแกรมไม่ขอรับผิดชอบหากเกิดเหตุการ เช่น ข้อมูลสูญหาย, การเสียของอุปกรณ์, การทำให้สูญกำไร หรือเหตุการใดๆ ที่เกิดจากการใช้โปรแกรมนี้อย่างไม่ถูกต้อง</staticWarning>
     </AboutDialog>
     <RateMeDialog>

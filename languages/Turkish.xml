@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Menü çubuğuna gizle</buttonMinimizeMac>
         <buttonPreferences>Tercihler...</buttonPreferences>
         <buttonAbout>Hakkında...</buttonAbout>
-        <statusMoreApps>%1 versiyonu &amp; daha fazla uygulama</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Macs Fan Control Hakkında</title>
         <staticTechnicalSupport>Forum aracılığıyla teknik destek</staticTechnicalSupport>
         <staticOnlineHelp>Online help</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>BU PROGRAM MACLERİNE ZARAR VERMEDEN KULLANABİLEN İLERİ SEVİYE KULLANICILAR İÇİNDİR. PROGRAMIN YAZARLARI KULLANICI TARAFINDAN VEYA PROGRAMIN YANLIŞ KULLANIMI SONUCU OLUŞAN HERHANGİ BİR DATA KAYBI, ZARAR, KAR KAYBI YA DA HERHANGİ BİR TÜRDEN KAYIPLAR İÇİN SORUMLU DEĞİLDİR.</staticWarning>
     </AboutDialog>
     <RateMeDialog>

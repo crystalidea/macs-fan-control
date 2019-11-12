@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Скриване в лентата с менюта</buttonMinimizeMac>
         <buttonPreferences>Настройки...</buttonPreferences>
         <buttonAbout>За програмата...</buttonAbout>
-        <statusMoreApps>%1 версия и други интересни програми</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>За програмата Macs Fan Control</title>
         <staticTechnicalSupport>Техническа поддръжка на форума</staticTechnicalSupport>
         <staticOnlineHelp>Online help</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>ТАЗИ ПРОГРАМА Е ЗА НАПРЕДНАЛИ ПОТРЕБИТЕЛИ, КОИТО ЗНАЯТ КАК ДА Я ИЗПОЛЗВАТ БЕЗ ДА НАВРЕДЯТ НА СВОЯ MAC. АВТОРИТЕ НЕ НОСЯТ ОТГОВОРНОСТ ЗА ЗАГУБА НА ДАННИ, ПОВРЕДА НА ОБОРУДВАНЕТО И ВСЯКАКВИ ДРУГИ ЗАГУБИ, ПРОИЗТИЧАЩИ ОТ СОФТУЕРА</staticWarning>
     </AboutDialog>
     <RateMeDialog>

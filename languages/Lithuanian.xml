@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Paslėpti į meniu juostą</buttonMinimizeMac>
         <buttonPreferences>Nustatymai…</buttonPreferences>
         <buttonAbout>Apie…</buttonAbout>
-        <statusMoreApps>%1 versija &amp; daugiau programų</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Apie Macs Fan Conrol programą</title>
         <staticTechnicalSupport>Techninė pagalba forumuose</staticTechnicalSupport>
         <staticOnlineHelp>Gyva pagalva</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>Programa skirta pažengusiems vartotojams, kurie žino, kaip nepakenkti kompiuteriui. Autoriai neatsakyngi už informacijos praradimą ar kitą žalą, kuri susieta su programos tinkamu ar netinkamu naudojimu</staticWarning>
     </AboutDialog>
     <RateMeDialog>

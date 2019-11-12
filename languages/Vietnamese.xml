@@ -22,7 +22,6 @@
         <buttonMinimizeMac>Ẩn trên thanh công cụ</buttonMinimizeMac>
         <buttonPreferences>Tùy chọn...</buttonPreferences>
         <buttonAbout>Giới thiệu...</buttonAbout>
-        <statusMoreApps>phiên bản %1 &amp; Ứng dụng khác</statusMoreApps>
         <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Không thể hỗ trợ điều khiển quạt</messageFanControlNotAvailableTitle>
@@ -119,6 +118,8 @@
         <title>Giới thiệu Macs Fan Control</title>
         <staticTechnicalSupport>Hỗ trợ kỹ thuật trên diễn đàn</staticTechnicalSupport>
         <staticOnlineHelp>Trợ giúp trực tuyến</staticOnlineHelp>
+        <staticFreeVersion>Free version</staticFreeVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>ỨNG DỤNG CHỈ NÊN SỬ DỤNG BỞI NHỮNG NGƯỜI BIẾT SỬ DỤNG SAO CHO KHÔNG LÀM ẢNH HƯỞNG TỚI MÁY MAC CỦA MÌNH.\nTÁC GIẢ ỨNG DỤNG KHÔNG CHỊU TRÁCH NHIỆM TRƯỚC VIỆC MẤT MÁT DỮ LIỆU, HỎNG HÓC HAY BẤT CỨ LOẠI MẤT MÁT NÀO KHI SỬ DỤNG CHƯƠNG TRÌNH</staticWarning>
     </AboutDialog>
     <RateMeDialog>
