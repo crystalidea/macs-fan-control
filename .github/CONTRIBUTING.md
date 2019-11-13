@@ -6,6 +6,4 @@ Info on creating screenshots on [macOS](http://www.wikihow.com/Take-a-Screenshot
 
 ![screen_example](create_issue_screen.png)
 
-- Technical information from the Preferences/Diagnostics
-
-![tech_info](create_issue_tech_info.png)
+- Technical information from the menu More/Copy Technical Info
