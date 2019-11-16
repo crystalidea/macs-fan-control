@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.8" Author="Benjamin Segura Hernández - Ugo R. Sanchez - Darío Hereñú">
+<LanguageStrings version="1.5.1" Author="Benjamin Segura Hernández - Ugo R. Sanchez - Darío Hereñú">
     <MainWindow>
         <staticFanListHeader>Ventiladores disponibles:</staticFanListHeader>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
