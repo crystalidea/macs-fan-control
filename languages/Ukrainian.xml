@@ -164,10 +164,10 @@
             <UpdateProgressGB>ГБ</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Не вдалося перемістити</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Перемістити до папки «Програми»</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Перемістити до папки «Програми», що розташована у домашній директорії?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Ви хочете %1 перемістити себе у папку «Програми»?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationCouldNotMove>Не вдалося перемістити.</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Перемістити до папки Програми</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Перемістити до папки Програми, що розташована у домашній директорії?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Ви хочете %1 перемістити себе у папку Програми?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Перемістити</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Не переміщувати</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам знадобиться пароль адміністратора.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
