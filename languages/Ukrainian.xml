@@ -147,7 +147,7 @@
             <UpdateAlertSkip>Пропустити цю версію</UpdateAlertSkip>
             <UpdateAlertInstall>Встановити оновлення</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>Перевіряти оновлення автоматично</UpdateAlertAutomaticUpdates>
-            <MessageNoUpdateAvailable>В вас встановлено останню версію</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailable>В вас встановлено останню версію.</MessageNoUpdateAvailable>
             <MessageNoUpdateAvailableDescription>В вас вже встановлено останню версію %1 %2.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>При отриманні інформації про оновлення виникла помилка. Спробуйте пізніше.</MessageErrorConnect>
             <MessageErrorParse>При обробці інформації про оновлення сталася помилка.</MessageErrorParse>
