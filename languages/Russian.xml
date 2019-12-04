@@ -98,7 +98,7 @@
         <staticLanguage>Язык:</staticLanguage>
         <checkSystemStart>Автостарт при запуске системы (рекомендуется)</checkSystemStart>
         <checkUpdatesOnStartup>Проверять обновления при старте программы</checkUpdatesOnStartup>
-        <checkFahrenheit>Использовать шкалу Фарингейта</checkFahrenheit>
+        <checkFahrenheit>Использовать шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Более точное отображение температуры (до десятых долей)</checkPrecise>
         <displayDrives>Показывать температуру подключенных дисков</displayDrives>
         <staticSensor>Сенсор:</staticSensor>
