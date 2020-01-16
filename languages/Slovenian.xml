@@ -97,7 +97,7 @@
         <tabDiagnostics>Diagnoza</tabDiagnostics>
         <staticLanguage>Jezik:</staticLanguage>
         <checkSystemStart>Samodejno odpri minimizirano aplikacijo po zagonu sistema (priporočeno)</checkSystemStart>
-        <checkUpdatesOnStartup>Samodejno preveri, če so na voljo posodobitve</checkUpdatesOnStartup>
+        <checkUpdatesOnStartup>Samodejno preveri, ali so na voljo posodobitve</checkUpdatesOnStartup>
         <checkFahrenheit>Uporabi Fahrenheitovo temperaturno lestvico</checkFahrenheit>
         <checkPrecise>Natančen prikaz temperature, ko je to mogoče (npr. 45,4)</checkPrecise>
         <displayDrives>Prikaži temperaturo priključenih diskov</displayDrives>
