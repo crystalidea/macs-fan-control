@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.2" Author="Samuel Lee [samuel_lee_1991@qq.com] & Runkai Zhang [me@runkaizhang.xyz]">
+<LanguageStrings version="1.5.4" Author="Samuel Lee [samuel_lee_1991@qq.com] & Runkai Zhang [me@runkaizhang.xyz]">
     <MainWindow>
         <staticFanListHeader>风扇列表：</staticFanListHeader>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
