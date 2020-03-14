@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.2" Author="Samuel Lee [samuel_lee_1991@qq.com] &amp; Runkai Zhang [me@runkaizhang.xyz]">
+<LanguageStrings version="1.5.3" Author="Samuel Lee [samuel_lee_1991@qq.com]">
     <MainWindow>
         <staticFanListHeader>风扇列表：</staticFanListHeader>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
@@ -22,12 +22,12 @@
         <buttonMinimizeMac>隐藏到菜单栏</buttonMinimizeMac>
         <buttonPreferences>设置...</buttonPreferences>
         <buttonAbout>关于...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
+        <messageHelperToolInstall>Macs Fan Control 需要安装用于风扇控制的辅助工具。 如果您只想查看风扇温度传感器，则可以跳过此步骤。</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control 需要安装用于风扇控制的辅助工具的更新版本。</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其旋转速度。\n\n请确定每当要求的时候，务必要输入管理员的密码。\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>没有检测到风扇, 请尝试[重制 SMC](https://support.apple.com/zh-cn/HT201295)</messageNoFansDetected>
+        <messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其旋转速度。\n\n请确定当出现此要求的时候，务必要输入管理员的密码。\n\n你仍然可以在只读模式使用此应用。</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>只读模式</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>没有检测到风扇，请尝试[重置SMC](https://support.apple.com/zh-cn/HT201295)</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
         <title>修改 %1 风扇设置</title>
@@ -36,46 +36,47 @@
         <staticIncrease>高于此温度则提高风扇转速:</staticIncrease>
         <staticMax>最高温度:</staticMax>
         <statusWarning>错误 - 风扇的最大最小值相同（%1）。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
-        <saveToCurrentPreset>保存到当前预置 ('%1')</saveToCurrentPreset>
+        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>Active preset:</activePresetLabel>
+        <activePresetLabel>当前预设:</activePresetLabel>
         <presetAutomatic>自动</presetAutomatic>
-        <presetFullBlast>Full blast</presetFullBlast>
-        <presetCurrentUnsaved>预置*</presetCurrentUnsaved>
+        <presetFullBlast>全速</presetFullBlast>
+        <presetCurrentUnsaved>自定义*</presetCurrentUnsaved>
         <presetMenuSave>保存...</presetMenuSave>
         <presetMenuRename>重命名</presetMenuRename>
         <presetMenuDelete>删除</presetMenuDelete>
-        <presetMenuPredefined>内置预置:</presetMenuPredefined>
-        <presetMenuCustom>自定义预置:</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
-        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
-        <presetMenuCurrent>预置 - %1</presetMenuCurrent>
-        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
-        <labelPresetName>预置名称:</labelPresetName>
-        <savePresetTitle>保存自定义预置</savePresetTitle>
-        <editPresetTitle>修改预置名称</editPresetTitle>
+        <presetMenuPredefined>预定义预设:</presetMenuPredefined>
+        <presetMenuCustom>自定义预设:</presetMenuCustom>
+        <presetMenuApply>应用</presetMenuApply>
+        <presetMenuProVersion>PRO版本中可用</presetMenuProVersion>
+        <presetMenuCurrent>预设 - %1</presetMenuCurrent>
+        <presetMenuDiscard>丢弃 (将所有风扇设为自动)</presetMenuDiscard>
+        <labelPresetName>设置组名称:</labelPresetName>
+        <savePresetTitle>保存预设</savePresetTitle>
+        <editPresetTitle>编辑预设名称</editPresetTitle>
     </Presets>
     <UpgradeToProDialog>
-        <title>升级到 Macs Fan Control Pro</title>
-        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
-        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
-        <buttonPurchase>Purchase</buttonPurchase>
-        <buttonEnterLicense>Enter License</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <title>升级到 Macs Fan Control Pro版本</title>
+        <proInfo1>专业版能够创建和保存自定义风扇预设，因此您可以根据自己的活动在它们之间快速切换。</proInfo1>
+        <proInfo2>如果你已经购买了本应用，请点击下方的输入序列号按钮</proInfo2>
+        <buttonPurchase>购买</buttonPurchase>
+        <buttonEnterLicense>输入许可证序列号</buttonEnterLicense>
+        <buttonLater>以后再说</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>邮箱地址</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>所有免费版的限制已被移除, 我们希望你享用 Macs Fan Control!</thanksInfo>
+        <title>解锁Pro版本</title>
+        <infoText>如果您已经购买了Macs Fan Control，请在以下框中输入电子邮件收据中的电子邮件地址和许可证序列号。 这将完全解锁Macs Fan Control的Pro功能。</infoText>
+        <licenseVerifyInfo>您输入的信息可能会通过互联网进行验证。</licenseVerifyInfo>
+        <email>电子邮箱</email>
+        <licenseKey>许可序列号</licenseKey>
+        <buttonUnlock>解锁</buttonUnlock>
+        <buttonRestoreLicense>恢复许可</buttonRestoreLicense>
+        <invalidLicenseTitle>无效许可!</invalidLicenseTitle>
+        <invalidLicenseText>确保以正确的顺序输入所有字母，数字和破折号。 如果您手动输入该号码，请尝试从您的电子邮件收据中复制并粘贴该号码。</invalidLicenseText>
+        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <thanksTitle>感谢您购买Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>免费版的所有限制已被解除，我们希望您喜欢使用本应用！</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>显示主窗口</itemShow>
@@ -85,9 +86,9 @@
         <itemRateApp>在 MacUpdate 评价</itemRateApp>
         <itemFollowTwitter>关注 @crystalidea</itemFollowTwitter>
         <itemExit>退出</itemExit>
-        <itemExitMac>退出 Macs Fan Control</itemExitMac>
+        <itemExitMac>Quit Macs Fan Control</itemExitMac>
         <itemSensorBased>基于传感器检测值</itemSensorBased>
-        <itemUpgradeToPro>升级到 Pro 版本</itemUpgradeToPro>
+        <itemUpgradeToPro>升级到Pro版本</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
         <title>设置</title>
@@ -97,10 +98,10 @@
         <tabDiagnostics>诊断</tabDiagnostics>
         <staticLanguage>语言：</staticLanguage>
         <checkSystemStart>随系统最小化自动启动（推荐）</checkSystemStart>
-        <checkUpdatesOnStartup>软件开启时检测更新</checkUpdatesOnStartup>
+        <checkUpdatesOnStartup>当应用启动时检查更新</checkUpdatesOnStartup>
         <checkFahrenheit>使用华氏单位显示</checkFahrenheit>
         <checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <displayDrives>显示已连接外置硬盘温度</displayDrives>
         <staticSensor>传感器：</staticSensor>
         <staticFan>风扇：</staticFan>
         <staticIcon>图标：</staticIcon>
@@ -119,7 +120,7 @@
         <staticTechnicalSupport>技术支持</staticTechnicalSupport>
         <staticOnlineHelp>在线帮助</staticOnlineHelp>
         <staticFreeVersion>免费版本</staticFreeVersion>
-        <staticProVersion>Pro 版本, %1 computer(s) license</staticProVersion>
+        <staticProVersion>Pro 版本, %1 台电脑 授权</staticProVersion>
         <staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的MAC的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
     </AboutDialog>
     <RateMeDialog>

@@ -74,6 +74,7 @@
         <buttonRestoreLicense>استعادة الرخصة</buttonRestoreLicense>
         <invalidLicenseTitle>رخصة خاطئة!</invalidLicenseTitle>
         <invalidLicenseText>تأكد من إدخال جميع الحروف والأرقام والشرطات بالترتيب الصحيح. إذا كنت تكتب الرقم باليد ، فحاول نسخها ولصقها من إيصال البريد الإلكتروني بدلاً من ذلك.</invalidLicenseText>
+        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
         <thanksTitle>شكراً لشرائك البرنامج</thanksTitle>
         <thanksInfo>تمت إزالة جميع القيود المفروضة على الإصدار المجاني ، نأمل أن تستمتع باستخدام التطبيق!</thanksInfo>
     </EnterLicenseDialog>

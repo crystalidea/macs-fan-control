@@ -74,6 +74,7 @@
         <buttonRestoreLicense>Ripristina licenza</buttonRestoreLicense>
         <invalidLicenseTitle>Licenza non valida!</invalidLicenseTitle>
         <invalidLicenseText>Assicurati che tutte le lettere, i numeri e i segni siano immessi nell'ordine corretto. Piuttosto che inserirli a mano, meglio fare copia-incolla dalla email ricevuta.</invalidLicenseText>
+        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
         <thanksTitle>Grazie per aver acquistato Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Tutte le limitazioni della versione gratuita sono state rimosse, speriamo che apprezzerete l'uso della nostra app!</thanksInfo>
     </EnterLicenseDialog>
