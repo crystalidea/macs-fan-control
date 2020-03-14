@@ -113,7 +113,6 @@
         <checkLog>Ενεργοποίηση καταγραφής (μέσω επανεκκίνησης)</checkLog>
         <browseLog>Περιήγηση</browseLog>
         <buttonCopyTechInfo>Αντιγραφή τεχνικών πληροφοριών</buttonCopyTechInfo>
-        <copyInfoMessage>Οι τεχνικές πληροφορίες αντιγράφηκαν στο Πρόχειρο επιτυχώς.</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Σχετικά με το Macs Fan Control</title>

@@ -113,7 +113,6 @@
         <checkLog>啟用日誌（需要重啟）</checkLog>
         <browseLog>瀏覽</browseLog>
         <buttonCopyTechInfo>複製技術資訊</buttonCopyTechInfo>
-        <copyInfoMessage>技術資訊已經復制到剪貼板</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>關於 Macs Fan Control</title>

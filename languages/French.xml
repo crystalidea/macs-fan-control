@@ -113,7 +113,6 @@
         <checkLog>Activer l'historique (après redémarrage)</checkLog>
         <browseLog>Parcourir</browseLog>
         <buttonCopyTechInfo>Copier les infos techniques</buttonCopyTechInfo>
-        <copyInfoMessage>Informations techniques copiées dans le presse-papiers</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>À propos de Macs Fan Control</title>

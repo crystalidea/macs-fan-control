@@ -113,7 +113,6 @@
         <checkLog>Umožniť vytvorenie logovacieho záznamu (vyžadovaný reštart)</checkLog>
         <browseLog>Prehliadať</browseLog>
         <buttonCopyTechInfo>Skopírovať technické informácie</buttonCopyTechInfo>
-        <copyInfoMessage>Technické informácie sú skopírované do schránky</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>O Macs Fan Control</title>

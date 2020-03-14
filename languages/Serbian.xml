@@ -113,7 +113,6 @@
         <checkLog>Omogući zapis (potreban je restart)</checkLog>
         <browseLog>Traži</browseLog>
         <buttonCopyTechInfo>Kopiraj tehničke informacije</buttonCopyTechInfo>
-        <copyInfoMessage>Tehničke informacije su kopirane u clipboard</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>O Macs Fan Control</title>

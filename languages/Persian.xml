@@ -113,7 +113,6 @@
         <checkLog>فعالسازی وقایع (ریستارت نیاز است)</checkLog>
         <browseLog>جستجو..</browseLog>
         <buttonCopyTechInfo>کپی اطلاعات فنی</buttonCopyTechInfo>
-        <copyInfoMessage>اطلاعات فنی به کلیپ برد کپی شد</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>درباره برنامه</title>

@@ -113,7 +113,6 @@
         <checkLog>تمكين السجل (مطلوب اعادة التشغيل)</checkLog>
         <browseLog>استعراض</browseLog>
         <buttonCopyTechInfo>نسخ المعلومات التقنية</buttonCopyTechInfo>
-        <copyInfoMessage>تم نسخ المعلومات التقنية إلى الحافظة</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>حول البرنامج</title>

@@ -113,7 +113,6 @@
         <checkLog>Позволяване на Log (необходимо е рестартиране на програмата)</checkLog>
         <browseLog>Показване на Log</browseLog>
         <buttonCopyTechInfo>Копирайте техническата информация</buttonCopyTechInfo>
-        <copyInfoMessage>Техническата информация е копирана в буфера за обмен</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>За програмата Macs Fan Control</title>

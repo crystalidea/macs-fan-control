@@ -113,7 +113,6 @@
         <checkLog>Rejestr zdarzeń (wymagany restart)</checkLog>
         <browseLog>Przeglądaj</browseLog>
         <buttonCopyTechInfo>Skopiuj informacje techniczne</buttonCopyTechInfo>
-        <copyInfoMessage>Dane techniczne zostały skopiowane do schowka</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>O Macs Fan Control</title>

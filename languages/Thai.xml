@@ -113,7 +113,6 @@
         <checkLog>เปิดการเก็บข้อมูล (ต้องรีสตาร์ท)</checkLog>
         <browseLog>ค้นหา</browseLog>
         <buttonCopyTechInfo>คัดลอกข้อมูลทางเทคนิค</buttonCopyTechInfo>
-        <copyInfoMessage>ข้อมูลทางเทคนิคถูกคัดลอกแล้ว</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>เกี่ยวกับโปรแกรมควบคุมพัดลมแมค</title>

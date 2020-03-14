@@ -113,7 +113,6 @@
         <checkLog>Activar registro (requiere reinicio)</checkLog>
         <browseLog>Buscar...</browseLog>
         <buttonCopyTechInfo>Copiar información técnica</buttonCopyTechInfo>
-        <copyInfoMessage>La información técnica se ha copiado en el portapapeles.</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Acerca de Macs Fan Control</title>

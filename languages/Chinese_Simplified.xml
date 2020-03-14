@@ -113,7 +113,6 @@
         <checkLog>开启日志（需要重启）</checkLog>
         <browseLog>浏览</browseLog>
         <buttonCopyTechInfo>拷贝技术信息</buttonCopyTechInfo>
-        <copyInfoMessage>技术信息已拷贝至剪贴板</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>关于 Macs Fan Control</title>

@@ -113,7 +113,6 @@
         <checkLog>로그 활성화 (재시작이 필요합니다)</checkLog>
         <browseLog>Browse</browseLog>
         <buttonCopyTechInfo>기술정보 복사</buttonCopyTechInfo>
-        <copyInfoMessage>기술정보를 복사했습니다.</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Macs Fan Control에 대해</title>

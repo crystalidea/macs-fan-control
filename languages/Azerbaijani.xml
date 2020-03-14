@@ -113,7 +113,6 @@
         <checkLog>Günlüyü aktıvləşdir (yenidən başlatmaq lazımdır)</checkLog>
         <browseLog>Araşdır</browseLog>
         <buttonCopyTechInfo>Texniki məlumatları kopyala</buttonCopyTechInfo>
-        <copyInfoMessage>Texniki məlumatlar kopyalandı</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Macs Fan Control haqqında</title>

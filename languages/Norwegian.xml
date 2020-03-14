@@ -113,7 +113,6 @@
         <checkLog>Slå på log (restart required)</checkLog>
         <browseLog>Bla…</browseLog>
         <buttonCopyTechInfo>Kopier teknisk informasjon</buttonCopyTechInfo>
-        <copyInfoMessage>Teknisk informasjon er blitt kopiert til utklippstavlen</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Om Macs Fan Control</title>

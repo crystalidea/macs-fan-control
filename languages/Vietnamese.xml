@@ -113,7 +113,6 @@
         <checkLog>Bật ghi chú (yêu cầu khởi động lại)</checkLog>
         <browseLog>Duyệt..</browseLog>
         <buttonCopyTechInfo>Sao chép thông tin kỹ thuật</buttonCopyTechInfo>
-        <copyInfoMessage>Thông tin kỹ thuật đã được sao chép vào clipboard</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Giới thiệu Macs Fan Control</title>

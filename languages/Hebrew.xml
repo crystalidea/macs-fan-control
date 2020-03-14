@@ -113,7 +113,6 @@
         <checkLog>אפשר יומן רישום ‫(‬דורש הפעלה מחדש‫)‬</checkLog>
         <browseLog>פתח</browseLog>
         <buttonCopyTechInfo>העתק מידע טכני</buttonCopyTechInfo>
-        <copyInfoMessage>מידע טכני הועתק ללוח</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>About Macs Fan Control</title>

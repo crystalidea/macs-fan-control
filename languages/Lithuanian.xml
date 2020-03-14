@@ -113,7 +113,6 @@
         <checkLog>Įjungti registravima (reikia perkrovimo)</checkLog>
         <browseLog>Naršyti</browseLog>
         <buttonCopyTechInfo>Kopijuoti technine informaciją</buttonCopyTechInfo>
-        <copyInfoMessage>Techninė informacija nukopijjuota</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Apie Macs Fan Conrol programą</title>

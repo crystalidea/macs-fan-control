@@ -113,7 +113,6 @@
         <checkLog>ログを有効 (再起動が必要)</checkLog>
         <browseLog>参照</browseLog>
         <buttonCopyTechInfo>技術的な情報をコピー</buttonCopyTechInfo>
-        <copyInfoMessage>技術的な情報をクリップボードにコピーしました。</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Macs Fan Control について</title>

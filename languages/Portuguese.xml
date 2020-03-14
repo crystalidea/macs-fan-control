@@ -113,7 +113,6 @@
         <checkLog>Activar depuração (necessário reiniciar)</checkLog>
         <browseLog>Procurar</browseLog>
         <buttonCopyTechInfo>Copiar informação técnica</buttonCopyTechInfo>
-        <copyInfoMessage>A informação técnica foi copiada para a área de transferência</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Sobre Macs Fan Control</title>

@@ -113,7 +113,6 @@
         <checkLog>Loggolás engedélyezése (újraindítás szükséges)</checkLog>
         <browseLog>Tallózás...</browseLog>
         <buttonCopyTechInfo>Technikai infó másolása</buttonCopyTechInfo>
-        <copyInfoMessage>Technikai infó a vágólapra másolva</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Az alkalmazásról</title>

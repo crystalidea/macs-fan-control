@@ -113,7 +113,6 @@
         <checkLog>Virkja annál (endurræsingar krafist)</checkLog>
         <browseLog>Skoða</browseLog>
         <buttonCopyTechInfo>Afrita tæknilegar upplýsingar</buttonCopyTechInfo>
-        <copyInfoMessage>Tæknilegar upplýsingar eru afritaðar á klippispjaldið</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Um Macs Fan Control</title>

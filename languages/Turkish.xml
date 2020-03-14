@@ -113,7 +113,6 @@
         <checkLog>Günlüğü etkinleştirin (yeniden başlatmak gerekmekte)</checkLog>
         <browseLog>Gözat...</browseLog>
         <buttonCopyTechInfo>Copy technical info</buttonCopyTechInfo>
-        <copyInfoMessage>Technical information is copied to the clipboard</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Macs Fan Control Hakkında</title>

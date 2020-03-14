@@ -113,7 +113,6 @@
         <checkLog>Habilitar log (necessário reiniciar o aplicativo)</checkLog>
         <browseLog>Procurar</browseLog>
         <buttonCopyTechInfo>Copiar informação técnica</buttonCopyTechInfo>
-        <copyInfoMessage>Informação Técnica foi copiada à Área de Transferência</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Sobre Macs Fan Control</title>

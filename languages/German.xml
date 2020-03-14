@@ -113,7 +113,6 @@
         <checkLog>Ereignisprotokoll aktivieren (Neustart notwendig)</checkLog>
         <browseLog>Öffnen…</browseLog>
         <buttonCopyTechInfo>Technische Infos kopieren</buttonCopyTechInfo>
-        <copyInfoMessage>Die technischen Informationen wurden in die Zwischenablage kopiert.</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Über Macs Fan Control</title>

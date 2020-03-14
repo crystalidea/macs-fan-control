@@ -113,7 +113,6 @@
         <checkLog>Activeaza log-ul (este necesar repornire)</checkLog>
         <browseLog>Naviga…</browseLog>
         <buttonCopyTechInfo>Copiati informatiile tehnice</buttonCopyTechInfo>
-        <copyInfoMessage>Informatiile tehnice sunt copiate in clipboard</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Despre Macs Fan Control</title>

@@ -113,7 +113,6 @@
         <checkLog>Логирование (необходим перезапуск)</checkLog>
         <browseLog>Показать лог</browseLog>
         <buttonCopyTechInfo>Копировать техническую информацию</buttonCopyTechInfo>
-        <copyInfoMessage>Техническая информация скопирована в буфер обмена</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>О программе Macs Fan Control</title>

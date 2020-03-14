@@ -113,7 +113,6 @@
         <checkLog>Aktivera loggning (omstart krävs)</checkLog>
         <browseLog>Bläddra</browseLog>
         <buttonCopyTechInfo>Kopiera teknisk info</buttonCopyTechInfo>
-        <copyInfoMessage>Teknisk information kopieras till klippbordet</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Om Macs Fan Control</title>

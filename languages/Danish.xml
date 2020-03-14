@@ -113,7 +113,6 @@
         <checkLog>Enable log (restart required)</checkLog>
         <browseLog>Browse</browseLog>
         <buttonCopyTechInfo>Kopier teknisk information</buttonCopyTechInfo>
-        <copyInfoMessage>Teknisk information er blevet kopieret til udklipsholderen</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Om Macs Fan Control</title>

@@ -113,7 +113,6 @@
         <checkLog>Habilita log (requereix reiniciar)</checkLog>
         <browseLog>Revisar Log</browseLog>
         <buttonCopyTechInfo>Copiar informació tècnica</buttonCopyTechInfo>
-        <copyInfoMessage>Informació tècnica copiada al porta-papers</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Sobre Macs Fan Control</title>

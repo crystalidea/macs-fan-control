@@ -113,7 +113,6 @@
         <checkLog>Aktivoi lokitus (restart required)</checkLog>
         <browseLog>Browse</browseLog>
         <buttonCopyTechInfo>Kopioi tekninen info</buttonCopyTechInfo>
-        <copyInfoMessage>Tekninen info on kopioituna leikepöydällä.</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Tietoja Macs Fan Controlista</title>

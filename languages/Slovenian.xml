@@ -74,6 +74,7 @@
         <buttonRestoreLicense>Obnovi licenco</buttonRestoreLicense>
         <invalidLicenseTitle>Napačen licenčni ključ!</invalidLicenseTitle>
         <invalidLicenseText>Prepričajte se, da so vse črke, številke in pomišljaji vnešeni v pravilnem zaporedju. Če ključ pretipkavate, ga poskusite kopirati z računa, ki ste ga prejeli na elektronsko pošto, in prilepiti.</invalidLicenseText>
+        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
         <thanksTitle>Zahvaljujemo se Vam za nakup Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Vse omejitve brezplačne različice so bile odstranjene. Upamo, da boste uživali ob uporabi!</thanksInfo>
     </EnterLicenseDialog>
@@ -112,7 +113,6 @@
         <checkLog>Omogoči log (potreben ponovni zagon)</checkLog>
         <browseLog>Išči</browseLog>
         <buttonCopyTechInfo>Kopiraj tehnične informacije</buttonCopyTechInfo>
-        <copyInfoMessage>Tehnične informacije so kopirane v odložišče</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>O Macs Fan Control</title>

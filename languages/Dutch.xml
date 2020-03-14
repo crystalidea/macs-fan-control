@@ -113,7 +113,6 @@
         <checkLog>Log gebruiken (herstart noodzakelijk)</checkLog>
         <browseLog>Zoeken</browseLog>
         <buttonCopyTechInfo>Technische informatie kopiëren</buttonCopyTechInfo>
-        <copyInfoMessage>Technische informatie is naar het klembord gekopieerd</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Over Macs Fan Control</title>

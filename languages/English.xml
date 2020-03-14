@@ -113,7 +113,6 @@
         <checkLog>Enable log (restart required)</checkLog>
         <browseLog>Browse</browseLog>
         <buttonCopyTechInfo>Copy technical info</buttonCopyTechInfo>
-        <copyInfoMessage>Technical information is copied to the clipboard</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>About Macs Fan Control</title>

@@ -113,7 +113,6 @@
         <checkLog>Журналювання (необхідне перезавантаження)</checkLog>
         <browseLog>Показати журнал</browseLog>
         <buttonCopyTechInfo>Копіювати технічну інформацію</buttonCopyTechInfo>
-        <copyInfoMessage>Технічна інформація скопійована до буферу обміну</copyInfoMessage>
     </PreferencesWindow>
     <AboutDialog>
         <title>Про застосунок Macs Fan Control</title>
