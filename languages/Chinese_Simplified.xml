@@ -74,7 +74,7 @@
         <buttonRestoreLicense>恢复许可</buttonRestoreLicense>
         <invalidLicenseTitle>无效许可!</invalidLicenseTitle>
         <invalidLicenseText>确保以正确的顺序输入所有字母，数字和破折号。 如果您手动输入该号码，请尝试从您的电子邮件收据中复制并粘贴该号码。</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <invalidLicenseMismatchOS>您提供的序列号是有效的，但无法激活%1版本的 Macs Fan Control.</invalidLicenseMismatchOS>
         <thanksTitle>感谢您购买Macs Fan Control Pro</thanksTitle>
         <thanksInfo>免费版的所有限制已被解除，我们希望您喜欢使用本应用！</thanksInfo>
     </EnterLicenseDialog>
