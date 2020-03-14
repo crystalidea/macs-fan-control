@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.1" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.4" Author="Denis Mikhailov">
     <MainWindow>
         <staticFanListHeader>Доступные вентиляторы:</staticFanListHeader>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
@@ -74,6 +74,7 @@
         <buttonRestoreLicense>Восстановить лицензию</buttonRestoreLicense>
         <invalidLicenseTitle>Неверная лицензия!</invalidLicenseTitle>
         <invalidLicenseText>Убедитесь, что все введенные буквы, цифры и тире в верном порядке. Если Вы вводите ключ вручную, попробуйте вместо этого скопировать его из регистрационного email и вставить.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Этот лицензионный ключ верный, но он не предназначен для использования в среде %1.</invalidLicenseMismatchOS>
         <thanksTitle>Спасибо за покупку Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Все ограничения бесплатной версии убраны. Мы надеемся, что Вам понравится пользоваться программой!</thanksInfo>
     </EnterLicenseDialog>

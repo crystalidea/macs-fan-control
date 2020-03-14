@@ -74,6 +74,7 @@
         <buttonRestoreLicense>Відновити ліцензію</buttonRestoreLicense>
         <invalidLicenseTitle>Невірна ліцензія!</invalidLicenseTitle>
         <invalidLicenseText>Переконайтеся, що всі букви, цифри і тире введено в правильній послідовності. Замість того, щоб вводити ключ вручну, попробуйте скопіювати його з реєстраційного email і вставити.</invalidLicenseText>
+        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
         <thanksTitle>Дякуємо за покупку Macs Fan Control</thanksTitle>
         <thanksInfo>Всі обмеження безкоштовної версії знято. Ми сподіваємося, що Вам сподобається користуватися застосунком!</thanksInfo>
     </EnterLicenseDialog>

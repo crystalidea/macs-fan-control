@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.1" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
     <MainWindow>
         <staticFanListHeader>Ventilateurs :</staticFanListHeader>
@@ -74,6 +74,7 @@
         <buttonRestoreLicense>Restaurer la licence</buttonRestoreLicense>
         <invalidLicenseTitle>Licence invalide !</invalidLicenseTitle>
         <invalidLicenseText>Assurez-vous que toutes les lettres, chiffres et tirets sont entrés dans le bon ordre. Si vous tapez le numéro à la main, essayez plutôt de le copier-coller depuis le reçu de votre courriel.</invalidLicenseText>
+        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
         <thanksTitle>Merci d’avoir acheté Mac Control Fan Control Pro</thanksTitle>
         <thanksInfo>Toutes les limitations de la version gratuite ont été supprimées, nous espérons que vous apprécierez l'utilisation de l'application !</thanksInfo>
     </EnterLicenseDialog>
