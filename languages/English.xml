@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.4" Author="CrystalIdea Team">
+<LanguageStrings version="1.5.7" Author="CrystalIdea Team">
     <MainWindow>
         <staticFanListHeader>Available fans:</staticFanListHeader>
         <staticSensorsListHeader>Temperature sensors:</staticSensorsListHeader>
@@ -55,6 +55,10 @@
         <labelPresetName>Preset name:</labelPresetName>
         <savePresetTitle>Save custom preset</savePresetTitle>
         <editPresetTitle>Edit preset name</editPresetTitle>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Upgrade to Macs Fan Control Pro</title>

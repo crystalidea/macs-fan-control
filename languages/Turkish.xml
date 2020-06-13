@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.1.12" Author="A. Mesut Konuklar">
+<LanguageStrings version="1.5.6" Author="A. Mesut Konuklar">
     <MainWindow>
         <staticFanListHeader>Fanlar (kontrol etmek için çift tıklayın):</staticFanListHeader>
         <staticSensorsListHeader>Sıcaklık sensörleri:</staticSensorsListHeader>
@@ -55,6 +55,10 @@
         <labelPresetName>Ayar adı:</labelPresetName>
         <savePresetTitle>Özel ayarı kaydet</savePresetTitle>
         <editPresetTitle>Ayar adını düzenle</editPresetTitle>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Macs Fan Control Pro'ya yükselt</title>

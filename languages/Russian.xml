@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.4" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.7" Author="Denis Mikhailov">
     <MainWindow>
         <staticFanListHeader>Доступные вентиляторы:</staticFanListHeader>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
@@ -55,6 +55,10 @@
         <labelPresetName>Имя профиля:</labelPresetName>
         <savePresetTitle>Сохранить пользовательский профиль</savePresetTitle>
         <editPresetTitle>Редактировать имя профиля</editPresetTitle>
+        <presetCreateNew>Новый...</presetCreateNew>
+        <presetCreateNewTitle>Создать новый профиль</presetCreateNewTitle>
+        <presetCreateNewMessage>Все ваши вентиляторы на данный момент контролируются системой. \n\nИзмените управление хотя бы одного из них на пользовательское, чтобы иметь возможность создать новый профиль.</presetCreateNewMessage>
+        <presetCreateNewButton>Изменить настройки вентилятора '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Обновить до Macs Fan Control Pro</title>

@@ -55,6 +55,10 @@
         <labelPresetName>Ime prednastavitve:</labelPresetName>
         <savePresetTitle>Shrani prednastavitev po meri</savePresetTitle>
         <editPresetTitle>Uredi ime prednastavitve</editPresetTitle>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Nadgradite na Macs Fan Control Pro</title>

@@ -55,6 +55,10 @@
         <labelPresetName>Nom du préréglage :</labelPresetName>
         <savePresetTitle>Enregistrer le préréglage personnalisé</savePresetTitle>
         <editPresetTitle>Editer le nom du préréglage</editPresetTitle>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Mise à niveau vers Mac Fan Control Pro</title>

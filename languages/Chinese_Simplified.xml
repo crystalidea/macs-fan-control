@@ -55,6 +55,10 @@
         <labelPresetName>设置组名称:</labelPresetName>
         <savePresetTitle>保存预设</savePresetTitle>
         <editPresetTitle>编辑预设名称</editPresetTitle>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>升级到 Macs Fan Control Pro版本</title>
