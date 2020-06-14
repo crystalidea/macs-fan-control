@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.4" Author="Peter von Kartschowin, updated based on v1.1 by blazzavrsnik.com">
+<LanguageStrings version="1.5.7" Author="Peter von Kartschowin, updated based on v1.1 by blazzavrsnik.com">
     <MainWindow>
         <staticFanListHeader>Ventilatorji:</staticFanListHeader>
         <staticSensorsListHeader>Senzorji temperature:</staticSensorsListHeader>
@@ -27,7 +27,7 @@
         <messageFanControlNotAvailableTitle>Upravljanje ventilatorjev ni na voljo</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control se ni mogel povezati s pomočniškim orodjem, ki bi omogočilo upravljanje ventilatorjev in nastavljanje hitrosti. \n\nVnesite administratorjevo geslo, ko ste vprašani po njem.\n\nAplikacijo še vedno lahko uporabljate v načinu opazovanja.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Način opazovanja</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Ventilatorji niso bili zaznani; poskusite ponastaviti SMC (https://support.apple.com/en-euro/HT201295).</messageNoFansDetected>
+        <messageNoFansDetected>Ventilatorji niso bili zaznani; poskusite [ponastaviti SMC](https://support.apple.com/en-euro/HT201295).</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
         <title>Upravljanje ventilatorja „%1“</title>
