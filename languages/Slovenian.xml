@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.4" Author="blazzavrsnik.com">
+<LanguageStrings version="1.5.4" Author="Peter von Kartschowin, updated based on v1.1 by blazzavrsnik.com">
     <MainWindow>
         <staticFanListHeader>Ventilatorji:</staticFanListHeader>
         <staticSensorsListHeader>Senzorji temperature:</staticSensorsListHeader>
@@ -27,7 +27,7 @@
         <messageFanControlNotAvailableTitle>Upravljanje ventilatorjev ni na voljo</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control se ni mogel povezati s pomočniškim orodjem, ki bi omogočilo upravljanje ventilatorjev in nastavljanje hitrosti. \n\nVnesite administratorjevo geslo, ko ste vprašani po njem.\n\nAplikacijo še vedno lahko uporabljate v načinu opazovanja.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Način opazovanja</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Ventilatorji niso bili zaznani; poskusite [ponastaviti SMC](https://support.apple.com/en-euro/HT201295).</messageNoFansDetected>
+        <messageNoFansDetected>Ventilatorji niso bili zaznani; poskusite ponastaviti SMC (https://support.apple.com/en-euro/HT201295).</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
         <title>Upravljanje ventilatorja „%1“</title>
@@ -55,10 +55,10 @@
         <labelPresetName>Ime prednastavitve:</labelPresetName>
         <savePresetTitle>Shrani prednastavitev po meri</savePresetTitle>
         <editPresetTitle>Uredi ime prednastavitve</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Novo …</presetCreateNew>
+        <presetCreateNewTitle>Ustvari novo prednastavitev</presetCreateNewTitle>
+        <presetCreateNewMessage>Trenutno so vsi ventilatorji upravljani s strani sistema. \n\nČe želite ustvariti novo prednastavitev, spremenite na upravljanje po meri za vsaj en ventilator.</presetCreateNewMessage>
+        <presetCreateNewButton>Upravljanje po meri za ventilator „%1“</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Nadgradite na Macs Fan Control Pro</title>
@@ -78,7 +78,7 @@
         <buttonRestoreLicense>Obnovi licenco</buttonRestoreLicense>
         <invalidLicenseTitle>Napačen licenčni ključ!</invalidLicenseTitle>
         <invalidLicenseText>Prepričajte se, da so vse črke, številke in pomišljaji vnešeni v pravilnem zaporedju. Če ključ pretipkavate, ga poskusite kopirati z računa, ki ste ga prejeli na elektronsko pošto, in prilepiti.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <invalidLicenseMismatchOS>Licenčni ključ je veljaven, a ni namenjen za uporabo v okviru %1.</invalidLicenseMismatchOS>
         <thanksTitle>Zahvaljujemo se Vam za nakup Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Vse omejitve brezplačne različice so bile odstranjene. Upamo, da boste uživali ob uporabi!</thanksInfo>
     </EnterLicenseDialog>
@@ -128,7 +128,7 @@
     </AboutDialog>
     <RateMeDialog>
         <message>Oceni aplikacijo na MacUpdate</message>
-        <informativeText>Če ste zadovoljni z uporabo %1, bi vzeli trenutek, da would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
+        <informativeText>Če ste zadovoljni z uporabo %1, bi vzeli trenutek, da ga ocenite? Ne bo Vam vzelo več kot minute. Hvala za podporo!</informativeText>
         <buttonRate>Oceni on MacUpdate</buttonRate>
         <buttonNoThanks>Ne, hvala</buttonNoThanks>
         <checkDontShowAgain>Ne prikazuj več tega sporočila</checkDontShowAgain>
