@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.7" Author="Mikita Isakau">
+    <MainWindow>
+        <staticFanListHeader>Даступныя вентылятары:</staticFanListHeader>
+        <staticSensorsListHeader>Тэмпературныя датчыкі:</staticSensorsListHeader>
+        <listColumnFan>Вентылятар</listColumnFan>
+        <listColumnRPM>Мiн/Сучасныя/Макс абароты</listColumnRPM>
+        <listColumnControl>Кіраванне</listColumnControl>
+        <listColumnSensor>Датчык</listColumnSensor>
+        <listColumnSensorValue>Значэнне</listColumnSensorValue>
+        <listSeparatorDrives>Дыскі:</listSeparatorDrives>
+        <popupMenuItemControl>Змяніць спосаб кіравання...</popupMenuItemControl>
+        <popupMenuItemReset>Вярнуць аўтаматычнае кіраванне</popupMenuItemReset>
+        <fanControlAutomatic>Аўтаматычна</fanControlAutomatic>
+        <fanControlAutomaticInfo>Аўтаматычны кантроль сістэмай</fanControlAutomaticInfo>
+        <fanControlConstant>Пастаяннае значэнне %1</fanControlConstant>
+        <fanControlSensor>На аснове сэнсара %1</fanControlSensor>
+        <fanControlUnknown>Невядома!</fanControlUnknown>
+        <buttonFanControlCustom>Іншае...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Ўсталяваць карыстацкі інтэрфейс</buttonFanControlCustomInfo>
+        <buttonMinimize>Згарнуць</buttonMinimize>
+        <buttonMinimizeMac>Схаваць у радку меню</buttonMinimizeMac>
+        <buttonPreferences>Настройкі...</buttonPreferences>
+        <buttonAbout>Аб праграме...</buttonAbout>
+        <messageHelperToolInstall>Для кіравання вентылятарамі праграме патрэбна ўсталёўка дапаможнай утыліты. Вы можаце яе не ўсталёўваць, але ў гэтым выпадку вы зможаце толькі назіраць за хуткасцямі вентылятараў і значэннямі тэмпературных датчыкаў.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Для кіравання вентылятарамі праграме патрэбна абнавіць ужо ўсталяваную дапаможную ўтыліту папярэдняй версіі.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Кіраванне вентылятарамі немагчыма</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control не можа атрымаць доступ да сваёй дапаможнай утыліце, патрэбнай для кіравання вентылятарамі. \n\nПераканайцеся ў тым, што Вы правільна ўводзіце пароль адміністратару.\n\nВы можаце выкарыстоўваць праграму ў рэжыме маніторынгу.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Толькі маніторынг</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Вентылятараў не выяўлена, паспрабуйце [скінуць SMC](https://support.apple.com/ru-ru/HT201295) (толькі на рускай мове)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Кіраванне вентылятарам '%1'</title>
+        <radioConstant>Пастаяннае значэнне абаротаў</radioConstant>
+        <radioSensor>Заснаванае на сэнсары</radioSensor>
+        <staticIncrease>Тэмпература, пры дасягненні якой \nабароты павялічваюцца:</staticIncrease>
+        <staticMax>Максімальная тэмпература:</staticMax>
+        <statusWarning>Праблема - мінімальная і максімальная значэнні для хуткасці вентылятара супадаюць (%1).&lt;br/&gt; Выдаліце іншае ПЗ, кантралюючае працу вентылятараў і скіньце налады SMC.</statusWarning>
+        <saveToCurrentPreset>Захаваць у сучасны профіль ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Актыўны профіль:</activePresetLabel>
+        <presetAutomatic>Аўтаматычна</presetAutomatic>
+        <presetFullBlast>Максімальныя абароты</presetFullBlast>
+        <presetCurrentUnsaved>Карыстацкі*</presetCurrentUnsaved>
+        <presetMenuSave>Захаваць...</presetMenuSave>
+        <presetMenuRename>Пераназваць</presetMenuRename>
+        <presetMenuDelete>Выдаліць</presetMenuDelete>
+        <presetMenuPredefined>Сістэмны профіль:</presetMenuPredefined>
+        <presetMenuCustom>Карыстацкі профіль:</presetMenuCustom>
+        <presetMenuApply>Скарыстаць</presetMenuApply>
+        <presetMenuProVersion>Працуе толькі ў Pro версіі</presetMenuProVersion>
+        <presetMenuCurrent>Профілі - %1</presetMenuCurrent>
+        <presetMenuDiscard>Скінуць (усе вентылятары вярнуць на аўто)</presetMenuDiscard>
+        <labelPresetName>Імя профілю:</labelPresetName>
+        <savePresetTitle>Захаваць карыстацкі профіль</savePresetTitle>
+        <editPresetTitle>Рэгадаваць імя профілю</editPresetTitle>
+        <presetCreateNew>Новы...</presetCreateNew>
+        <presetCreateNewTitle>Стварыць новы профіль</presetCreateNewTitle>
+        <presetCreateNewMessage>Усе вашыя вентылятары на дадзены момант кантралююцца сістэмай. \n\nЗмяніце кіраванне хоць бы аднаго з іх на карыстацкае, каб мець магчымасць стварыць новы профіль.</presetCreateNewMessage>
+        <presetCreateNewButton>Змяніць налады вентылятара '%1'</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Абнавіць да Macs Fan Control Pro</title>
+        <proInfo1>Pro версія можа ствараць і захоўваць карыстацкія профілі кіравання вентылятарамі, каб Вы маглі хутка пераключацца паміж імі ў залежнасці ад таго, што вы робіце за кампутарам.</proInfo1>
+        <proInfo2>Калi вы ўжо куплялі праграму раней, націсніце, калі ласка, кнопку 'Увод ліцэнзіі' ніжэй.</proInfo2>
+        <buttonPurchase>Надбаць</buttonPurchase>
+        <buttonEnterLicense>Увод ліцэнзіі</buttonEnterLicense>
+        <buttonLater>Пазней</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Разблакаваць Pro версію</title>
+        <infoText>Калi вы ўжо надбалі Macs Fan Control, увядзіце ніжэй ваш email адрас і ліцэнзійны ключ з ліста пакупкі. Гэта цалкам разблакуе ўсе функцыі Pro версіі Macs Fan Control.</infoText>
+        <licenseVerifyInfo>Уведзеная інфармацыя можа быць праверана праз Інтэрнэт.</licenseVerifyInfo>
+        <email>Email адрес</email>
+        <licenseKey>Ліцэнзійны ключ</licenseKey>
+        <buttonUnlock>Разблакаваць</buttonUnlock>
+        <buttonRestoreLicense>Ўзнавіць ліцэнзію</buttonRestoreLicense>
+        <invalidLicenseTitle>Некарэктная ліцэнзія!</invalidLicenseTitle>
+        <invalidLicenseText>Пераканайцеся, што ўсе ўведзеныя літары, лічбы і працяжнік ў дакладным парадку. Калі Вы ўводзіце ключ самастойна, паспрабуйце замест гэтага скапіяваць яго з рэгістрацыйнага email адрасу і ўставіць.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Гэты ліцэнзійны ключ правільны, але ён не прызначаны для выкарыстання ў асяроддзі %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Дзякуй за надбанне Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>Усе абмежаванні бясплатнай версіі прыбраны. Мы спадзяемся, што Вам спадабаецца карыстацца праграмай!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Паказаць Macs Fan Control</itemShow>
+        <itemMoreLinks>Больш</itemMoreLinks>
+        <itemWebsite>Вэб-старонка</itemWebsite>
+        <itemCheckForUpdates>Праверка абнаўленняў...</itemCheckForUpdates>
+        <itemRateApp>Ацаніць на Macupdate</itemRateApp>
+        <itemFollowTwitter>Падпісацца на твітэр-старонку @crystalidea</itemFollowTwitter>
+        <itemExit>Выхад</itemExit>
+        <itemExitMac>Супыніць Macs Fan Control</itemExitMac>
+        <itemSensorBased>Заснавана на сэнсары</itemSensorBased>
+        <itemUpgradeToPro>Апгрэйд да Pro версіі</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>Настройкі</title>
+        <TabGeneral>Асноўныя</TabGeneral>
+        <tabTrayIcon>Вобраз ў трэі</tabTrayIcon>
+        <tabTrayIconMac>Радок меню</tabTrayIconMac>
+        <tabDiagnostics>Дыягностыка</tabDiagnostics>
+        <staticLanguage>Мова:</staticLanguage>
+        <checkSystemStart>Аўтастарт пры запуску сістэмы (рэкамендуецца)</checkSystemStart>
+        <checkUpdatesOnStartup>Спраўджваць абнаўлення пры старце праграмы</checkUpdatesOnStartup>
+        <checkFahrenheit>Выкарыстоўваць шкалу Фарэнгейта</checkFahrenheit>
+        <checkPrecise>Больш дакладнае адлюстраванне тэмпературы (да дзесятых доляй)</checkPrecise>
+        <displayDrives>Паказваць тэмпературу падлучаных дыскаў</displayDrives>
+        <staticSensor>Сэнсар:</staticSensor>
+        <staticFan>Вентылятар:</staticFan>
+        <staticIcon>Вобраз:</staticIcon>
+        <comboIconOptionShow>Адлюстроўваць</comboIconOptionShow>
+        <comboIconOptionShowBW>Адлюстроўваць (чорна-белая)</comboIconOptionShowBW>
+        <comboOptionNone>Не</comboOptionNone>
+        <checkTwoLines>Дзве дробныя радкі для тэмпературы/вентылятару</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(толькі ў Цельсіях)</staticCelsiusOnlyOnWindows>
+        <checkLog>Лагіраванне (Патрэбны перазапуск)</checkLog>
+        <browseLog>Паказаць лог дадзеных</browseLog>
+        <buttonCopyTechInfo>Капіяваць тэхнічную інфармацыю</buttonCopyTechInfo>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Аб праграме Macs Fan Control</title>
+        <staticTechnicalSupport>Тэхнічная падтрымка на форуме</staticTechnicalSupport>
+        <staticOnlineHelp>Даведка анлайн</staticOnlineHelp>
+        <staticFreeVersion>Бясплатная версія</staticFreeVersion>
+        <staticProVersion>Pro версія, ліцэнзія на %1 кампутар</staticProVersion>
+        <staticWarning>ГЭТА ПРАГРАМА ДЛЯ ПРАСУНУТЫХ КАРЫСТАЛЬНІКАЎ, ЯКІЯ РАЗУМЕЮЦЬ, ЯК ЯЕ ВЫКАРЫСТОЎВАЦЬ НЕ ПРЫЧЫНЯЮЧЫ ШКОДЫ НА ІХ MAC. АЎТАРЫ НЕ НЯСУЦЬ АДКАЗНАСЦІ ЗА СТРАТЫ ДАДЗЕНЫХ, ПСУТЫ АБСТАЛЯВАННЯ АБО ЛЮБЫЯ ІНШЫЯ СТРАТЫ ЗВЯЗАНЫЯ З ВЫКАРЫСТАННЕМ ПРАГРАМЫ</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Ацаніць на MacUpdate</message>
+        <informativeText>Калі Вам падабаецца %1, не маглі б Вы ўдзяліць хвілінку і ацаніць праграму? Дзякуй за падтрымку!</informativeText>
+        <buttonRate>Ацаніць на MacUpdate</buttonRate>
+        <buttonNoThanks>Не, дзякую</buttonNoThanks>
+        <checkDontShowAgain>Не паказваць гэта паведамленне зноў</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>Зачыніць</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Адмена</buttonCancel>
+        <buttonContinue>Працягнуць</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>выпушчана %1</ReleasedOn>
+            <CheckForUpdates>Праверка абнаўленняў...</CheckForUpdates>
+            <NewVersionAvailable>Даступная новая версія %1!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 нават даступны – вы маеце %3. Хочаце загрузіць яго зараз?</NewVersionAvailableText>
+            <UpdateAlertTitle>Абнаўленне праграмнага забеспячэння</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Нататкі аб выпуску:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Нагадваць пазней</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Прапусціць гэтую версію</UpdateAlertSkip>
+            <UpdateAlertInstall>Ўсталяваць абнаўленне</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Спраўджваць абнаўленні аўтаматычна</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>У вас ўсталявана апошняя версія.</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>У вас ужо ўсталявана апошняя версія %1 %2.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Пры атрыманні інфармацыі аб абнаўленні здарылася памылка. Паспрабуйце паўтарыць спробу пазней.</MessageErrorConnect>
+            <MessageErrorParse>Пры апрацоўцы інфармацыі аб абнаўленні адбылася памылка.</MessageErrorParse>
+            <UpdateProgressTitle>Абнаўляю %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Адмяніць</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Ўсталяваць і перазапусціць</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Загружаю абнаўленне...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Распакоўваю абнаўленне...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Гатовы да ўстаноўцы</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 з %2</UpdateProgressSize>
+            <UpdateProgressB>Б</UpdateProgressB>
+            <UpdateProgressKB>КБ</UpdateProgressKB>
+            <UpdateProgressMB>МБ</UpdateProgressMB>
+            <UpdateProgressGB>ГБ</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Не атрымалася перанесьці.</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Перамясціць у папку Праграмы</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Перамясціць у папку Праграмы, якая размешчана ў хатняй дырэкторыі?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Вы хочаце %1 перамясціць сябе у папку Праграмы?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Перамясціць</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Не перасоўваць</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Вам спатрэбіцца пароль адміністратару.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Гэта дапаможа ўтрымліваць папку з загрузкамі ў чысціні.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Адмяніць</actionUndo>
+            <actionRedo>Паўтарыць</actionRedo>
+            <actionCut>Выразаць</actionCut>
+            <actionCopy>Капіяваць</actionCopy>
+            <actionPaste>Уставіць</actionPaste>
+            <actionDelete>Выдаліць</actionDelete>
+            <actionSelectAll>Вылучыць ўсе</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>Адмяніць</buttonCancel>
+            <buttonClose>Зачыніць</buttonClose>
+            <buttonYes>Так</buttonYes>
+            <buttonNo>Не</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
