@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.7" Author="Ismael Vilas Boas">
+<LanguageStrings version="1.5.8" Author="Ismael Vilas Boas">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventoinha</listColumnFan>
