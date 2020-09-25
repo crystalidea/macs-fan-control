@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.0" Author="Konstantinos">
     <MainWindow>
-        <staticFanListHeader>Ανεμιστήρες:</staticFanListHeader>
         <staticSensorsListHeader>Αισθητήρες θερμοκρασίας:</staticSensorsListHeader>
         <listColumnFan>Ανεμιστήρας</listColumnFan>
         <listColumnRPM>Ελάχιστο/Τρέχον/Μέγιστο RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Προβολή Macs Fan Control</itemShow>
+        <itemAvailableFans>Ανεμιστήρες:</itemAvailableFans>
         <itemMoreLinks>Περισσότερα</itemMoreLinks>
         <itemWebsite>Ιστοσελίδα</itemWebsite>
         <itemCheckForUpdates>Έλεγχος για ενημερώσεις...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Προτιμήσεις</title>
         <TabGeneral>Γενικά</TabGeneral>
         <tabTrayIcon>Εικονίδιο περιοχής ειδοποιήσεων</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Εμφάνιση Μπάρας Μενού</tabTrayIconMac>
         <tabDiagnostics>Διαγνωστικά</tabDiagnostics>
         <staticLanguage>Γλώσσα:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Χρήση κλίμακας θερμοκρασίας Fahrenheit</checkFahrenheit>
         <checkPrecise>Ακριβής προβολή θερμοκρασίας όπου δυνατόν (π.χ. 45.4°)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Αισθητήρας:</staticSensor>
         <staticFan>Ανεμιστήρας:</staticFan>
         <staticIcon>Εικονίδιο:</staticIcon>

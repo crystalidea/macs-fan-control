@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.5" Author="jerry00 &amp; jarda drevo">
     <MainWindow>
-        <staticFanListHeader>Ventilátory:</staticFanListHeader>
         <staticSensorsListHeader>Teplotní senzory:</staticSensorsListHeader>
         <listColumnFan>Ventilátor</listColumnFan>
         <listColumnRPM>Min/Aktuální/Max otáčky</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Zobrazit Macs Fan Control</itemShow>
+        <itemAvailableFans>Ventilátory:</itemAvailableFans>
         <itemMoreLinks>Více</itemMoreLinks>
         <itemWebsite>Webstránka</itemWebsite>
         <itemCheckForUpdates>Aktualizovat...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Nastavení</title>
         <TabGeneral>Obecné</TabGeneral>
         <tabTrayIcon>Ikona v liště</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Zobrazit ikonu v horní liště</tabTrayIconMac>
         <tabDiagnostics>Diagnostiky</tabDiagnostics>
         <staticLanguage>Jazyk:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Aktualizovat při startu aplikace</checkUpdatesOnStartup>
         <checkFahrenheit>Použít stupnici Fahrenheita</checkFahrenheit>
         <checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
-        <displayDrives>Zobrazit teploty připojených disků</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilátor:</staticFan>
         <staticIcon>Ikonu:</staticIcon>

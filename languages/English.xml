@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.7" Author="CrystalIdea Team">
+<LanguageStrings version="1.5.8" Author="CrystalIdea Team">
     <MainWindow>
-        <staticFanListHeader>Available fans:</staticFanListHeader>
         <staticSensorsListHeader>Temperature sensors:</staticSensorsListHeader>
         <listColumnFan>Fan</listColumnFan>
         <listColumnRPM>Min/Current/Max RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Show Macs Fan Control</itemShow>
+        <itemAvailableFans>Available fans:</itemAvailableFans>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Preferences</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Tray icon</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Menubar display</tabTrayIconMac>
         <tabDiagnostics>Diagnostics</tabDiagnostics>
         <staticLanguage>Language:</staticLanguage>
@@ -105,12 +106,16 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Use Fahrenheit temperature scale</checkFahrenheit>
         <checkPrecise>Precise display of temperature when possible (e.g. 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Fan:</staticFan>
         <staticIcon>Icon:</staticIcon>
-        <comboIconOptionShow>Show</comboIconOptionShow>
-        <comboIconOptionShowBW>Show (black &amp; white)</comboIconOptionShowBW>
+        <comboIconOptionShow>Colored</comboIconOptionShow>
+        <comboIconOptionShowBW>Monochrome</comboIconOptionShowBW>
         <comboOptionNone>None</comboOptionNone>
         <checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(Celsius only)</staticCelsiusOnlyOnWindows>

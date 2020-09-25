@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.0" Author="Riccardo Rossi &amp; Federico Barutto">
     <MainWindow>
-        <staticFanListHeader>Ventole:</staticFanListHeader>
         <staticSensorsListHeader>Sensori temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventola</listColumnFan>
         <listColumnRPM>RPM: Min — Attuale — Max</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mostra Macs Fan Control</itemShow>
+        <itemAvailableFans>Ventole:</itemAvailableFans>
         <itemMoreLinks>Altro</itemMoreLinks>
         <itemWebsite>Sito web</itemWebsite>
         <itemCheckForUpdates>Controlla aggiornamenti...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Preferenze</title>
         <TabGeneral>Generale</TabGeneral>
         <tabTrayIcon>Icone del menu</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Icone nella barra menu</tabTrayIconMac>
         <tabDiagnostics>Diagnostica</tabDiagnostics>
         <staticLanguage>Lingue:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Controlla gli aggiornamenti all'avvio</checkUpdatesOnStartup>
         <checkFahrenheit>Usa scala temperatura in Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostra temperatura precisa quando possibile (es. 45.4)</checkPrecise>
-        <displayDrives>Mostra le temperature dei dischi connessi</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensore:</staticSensor>
         <staticFan>Ventola:</staticFan>
         <staticIcon>Icona:</staticIcon>

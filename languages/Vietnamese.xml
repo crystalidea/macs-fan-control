@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.8.1" Author="OREKASEP - Thanh TRAN CONG">
     <MainWindow>
-        <staticFanListHeader>Quạt:</staticFanListHeader>
         <staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
         <listColumnFan>Quạt</listColumnFan>
         <listColumnRPM>Nhỏ nhất/Hiện tại/Lớn nhất</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Hiện Macs Fan Control</itemShow>
+        <itemAvailableFans>Quạt:</itemAvailableFans>
         <itemMoreLinks>Xem thêm</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Tùy chọn</title>
         <TabGeneral>Tổng quát</TabGeneral>
         <tabTrayIcon>Hiện trên Tray</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Hiện trên Menubar</tabTrayIconMac>
         <tabDiagnostics>Phân tích</tabDiagnostics>
         <staticLanguage>Ngôn ngữ:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Sử dụng độ F</checkFahrenheit>
         <checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Cảm biến:</staticSensor>
         <staticFan>Quạt:</staticFan>
         <staticIcon>Biểu tượng:</staticIcon>

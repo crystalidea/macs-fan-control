@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.7" Author="Peter von Kartschowin, updated based on v1.1 by blazzavrsnik.com">
     <MainWindow>
-        <staticFanListHeader>Ventilatorji:</staticFanListHeader>
         <staticSensorsListHeader>Senzorji temperature:</staticSensorsListHeader>
         <listColumnFan>Ventilator</listColumnFan>
         <listColumnRPM>Min./Trenutni/Maks. vrtljaji</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Prikaži Macs Fan Control</itemShow>
+        <itemAvailableFans>Ventilatorji:</itemAvailableFans>
         <itemMoreLinks>Več</itemMoreLinks>
         <itemWebsite>Spletna stran</itemWebsite>
         <itemCheckForUpdates>Preveri posodobitve …</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Nastavitve</title>
         <TabGeneral>Splošno</TabGeneral>
         <tabTrayIcon>Ikona v opravilni vrstici</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Ikona v menijski vrstici</tabTrayIconMac>
         <tabDiagnostics>Diagnoza</tabDiagnostics>
         <staticLanguage>Jezik:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Samodejno preveri, ali so na voljo posodobitve</checkUpdatesOnStartup>
         <checkFahrenheit>Uporabi Fahrenheitovo temperaturno lestvico</checkFahrenheit>
         <checkPrecise>Natančen prikaz temperature, ko je to mogoče (npr. 45,4)</checkPrecise>
-        <displayDrives>Prikaži temperaturo priključenih diskov</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilator:</staticFan>
         <staticIcon>Ikona:</staticIcon>

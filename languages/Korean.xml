@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.8" Author="soleaf(soleaf@gmail.com/www.mintcode.org) &amp; HK Chung">
     <MainWindow>
-        <staticFanListHeader>팬:</staticFanListHeader>
         <staticSensorsListHeader>온도센서:</staticSensorsListHeader>
         <listColumnFan>팬</listColumnFan>
         <listColumnRPM>최소/현재/최대 RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Macs Fan Control 열기</itemShow>
+        <itemAvailableFans>팬:</itemAvailableFans>
         <itemMoreLinks>더보기</itemMoreLinks>
         <itemWebsite>웹사이트</itemWebsite>
         <itemCheckForUpdates>업데이트 확인...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>환경설정</title>
         <TabGeneral>기본</TabGeneral>
         <tabTrayIcon>트레이 아이콘</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>메뉴바에 아이콘 표시</tabTrayIconMac>
         <tabDiagnostics>진단 정보</tabDiagnostics>
         <staticLanguage>언어:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>온도를 화씨로 표시</checkFahrenheit>
         <checkPrecise>온도를 정확하게 표시 (예 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>센서:</staticSensor>
         <staticFan>팬:</staticFan>
         <staticIcon>아이콘:</staticIcon>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.8" Author="nano88">
     <MainWindow>
-        <staticFanListHeader>ファン:</staticFanListHeader>
         <staticSensorsListHeader>温度センサー:</staticSensorsListHeader>
         <listColumnFan>ファン</listColumnFan>
         <listColumnRPM>最小回転数/現在の回転数/最大回転数(毎分)</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Macs Fan Control を表示</itemShow>
+        <itemAvailableFans>ファン:</itemAvailableFans>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>ウェブサイトへ</itemWebsite>
         <itemCheckForUpdates>アップデートの確認...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>環境設定</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>トレイアイコン</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>メニューバーアイコン表示</tabTrayIconMac>
         <tabDiagnostics>Diagnostics</tabDiagnostics>
         <staticLanguage>言語:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>温度単位に華氏を使用</checkFahrenheit>
         <checkPrecise>可能な場合温度を正確に表示 (例 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>センサー:</staticSensor>
         <staticFan>ファン:</staticFan>
         <staticIcon>アイコン:</staticIcon>

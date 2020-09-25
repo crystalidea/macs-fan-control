@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1" Author="Nuutti Johansson">
     <MainWindow>
-        <staticFanListHeader>Tuulettimet:</staticFanListHeader>
         <staticSensorsListHeader>Lämpötilasensorit:</staticSensorsListHeader>
         <listColumnFan>Tuuletin</listColumnFan>
         <listColumnRPM>Pienin/Nykyinen/Suurin kierroslkm</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Näytä Macs Fan Control</itemShow>
+        <itemAvailableFans>Tuulettimet:</itemAvailableFans>
         <itemMoreLinks>Lisää</itemMoreLinks>
         <itemWebsite>Kotisivu</itemWebsite>
         <itemCheckForUpdates>Tarkasta päivitykset...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Asetukset</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Laatikkokuvake</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Menupalkin kuvakkeen näkyminen</tabTrayIconMac>
         <tabDiagnostics>Diagnostics</tabDiagnostics>
         <staticLanguage>Kieli:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Käytä Fahrenheit-asteikkoa</checkFahrenheit>
         <checkPrecise>Näytä lämpötila, mikäli mahdollista (e.g. 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensori:</staticSensor>
         <staticFan>Tuuletin:</staticFan>
         <staticIcon>Icon:</staticIcon>

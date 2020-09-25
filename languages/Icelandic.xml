@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.2.0" Author="Þór Sigurðsson">
     <MainWindow>
-        <staticFanListHeader>Aðgengilegar viftur:</staticFanListHeader>
         <staticSensorsListHeader>Hitaskynjarar:</staticSensorsListHeader>
         <listColumnFan>Vifta</listColumnFan>
         <listColumnRPM>Lágmarks/Núverandi/Hámarks SNM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Sýna Macs Fan Control</itemShow>
+        <itemAvailableFans>Aðgengilegar viftur:</itemAvailableFans>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Vefsíða</itemWebsite>
         <itemCheckForUpdates>Leita að uppfærslum...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Stillingar</title>
         <TabGeneral>Almennt</TabGeneral>
         <tabTrayIcon>Táknmynd forrits</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Valmyndatáknmynd</tabTrayIconMac>
         <tabDiagnostics>Villuleitun</tabDiagnostics>
         <staticLanguage>Tungumál:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Nota fahrenheit mælieiningu</checkFahrenheit>
         <checkPrecise>Nákvæm birting hitastigs þegar mögulegt er (s.d. 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Skynjari:</staticSensor>
         <staticFan>Vifta:</staticFan>
         <staticIcon>Táknmynd:</staticIcon>

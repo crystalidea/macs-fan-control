@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.12" Author="Rosen Antov">
     <MainWindow>
-        <staticFanListHeader>Достъпни вентилатори:</staticFanListHeader>
         <staticSensorsListHeader>Tемпературни датчици:</staticSensorsListHeader>
         <listColumnFan>Вентилатор</listColumnFan>
         <listColumnRPM>Мин/Текущи/Макс обороти</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Покажи Macs Fan Control</itemShow>
+        <itemAvailableFans>Достъпни вентилатори:</itemAvailableFans>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Уеб сайт</itemWebsite>
         <itemCheckForUpdates>Проверка за обновяване...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Настройки</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Иконка в лентата с програмите</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Показване в лентата с менютата</tabTrayIconMac>
         <tabDiagnostics>Diagnostics</tabDiagnostics>
         <staticLanguage>Език:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Да се използва скалата по Фаренхайт</checkFahrenheit>
         <checkPrecise>По-точно показване на температурата (до десети от градуса)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Сензор:</staticSensor>
         <staticFan>Вентилатор:</staticFan>
         <staticIcon>Иконка:</staticIcon>

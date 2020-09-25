@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.2" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez">
     <MainWindow>
-        <staticFanListHeader>Ventiladores disponibles:</staticFanListHeader>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
         <listColumnRPM>RPM Mín / Actual / Máx</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mostrar Macs Fan Control</itemShow>
+        <itemAvailableFans>Ventiladores disponibles:</itemAvailableFans>
         <itemMoreLinks>Más</itemMoreLinks>
         <itemWebsite>Sitio Web</itemWebsite>
         <itemCheckForUpdates>Buscar actualizaciones...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Preferencias</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Icono de bandeja</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Barra de menús</tabTrayIconMac>
         <tabDiagnostics>Diagnósticos</tabDiagnostics>
         <staticLanguage>Idioma:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Buscar actualizaciones cuando se inicie la aplicación</checkUpdatesOnStartup>
         <checkFahrenheit>Usar escala en grados Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostrar temperatura con precisión cuando sea posible (ej. 45.4)</checkPrecise>
-        <displayDrives>Mostrar temperatura de discos conectados</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilador:</staticFan>
         <staticIcon>Icono:</staticIcon>

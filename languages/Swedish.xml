@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.5" Author="Rabota IT">
     <MainWindow>
-        <staticFanListHeader>Fläktar:</staticFanListHeader>
         <staticSensorsListHeader>Temperatursensorer:</staticSensorsListHeader>
         <listColumnFan>Fläkt</listColumnFan>
         <listColumnRPM>Min/Nuvarande/Max RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Öppna Macs Fan Control</itemShow>
+        <itemAvailableFans>Fläktar:</itemAvailableFans>
         <itemMoreLinks>Mer</itemMoreLinks>
         <itemWebsite>Webbsida</itemWebsite>
         <itemCheckForUpdates>Leta efter uppdateringar...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Inställningar</title>
         <TabGeneral>Generella</TabGeneral>
         <tabTrayIcon>Meddelandefältsikon</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Menyradsikon</tabTrayIconMac>
         <tabDiagnostics>Diagnostik</tabDiagnostics>
         <staticLanguage>Språk:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Leta efter uppdateringar när programmet startar</checkUpdatesOnStartup>
         <checkFahrenheit>Visa temperatur i Fahrenheit</checkFahrenheit>
         <checkPrecise>Exakt visning av temperatur om möjligt (ex 45,4)</checkPrecise>
-        <displayDrives>Visa temperaturen på inkopplade diskar</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Fläkt:</staticFan>
         <staticIcon>Ikon:</staticIcon>

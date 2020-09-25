@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.0" Author="Gytis Kvedaravičius">
     <MainWindow>
-        <staticFanListHeader>Galimi ventiliatoriai:</staticFanListHeader>
         <staticSensorsListHeader>Temperatūros jutikliai:</staticSensorsListHeader>
         <listColumnFan>Ventiliatorius</listColumnFan>
         <listColumnRPM>Min/Dabartinis/Max RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Atidaryti programą</itemShow>
+        <itemAvailableFans>Galimi ventiliatoriai:</itemAvailableFans>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Tinklapis</itemWebsite>
         <itemCheckForUpdates>Ieškoti atnaujinimų…</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Nustatymai</title>
         <TabGeneral>Pagrindiniai</TabGeneral>
         <tabTrayIcon>Piktograma</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Meniu juostos ikona</tabTrayIconMac>
         <tabDiagnostics>Diagnostika</tabDiagnostics>
         <staticLanguage>Kalba:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Naudoti Farenheito temperatūros skalę</checkFahrenheit>
         <checkPrecise>Patikslinti temperatūrą, kai galima (pvz.: 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Jutiklisr:</staticSensor>
         <staticFan>Ventiliatorius:</staticFan>
         <staticIcon>Ikona:</staticIcon>

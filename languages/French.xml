@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.1" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
     <MainWindow>
-        <staticFanListHeader>Ventilateurs :</staticFanListHeader>
         <staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
         <listColumnFan>Ventilateur</listColumnFan>
         <listColumnRPM>Vitesse mini/actuelle/maxi</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Afficher Macs Fan Control</itemShow>
+        <itemAvailableFans>Ventilateurs :</itemAvailableFans>
         <itemMoreLinks>Plus</itemMoreLinks>
         <itemWebsite>Site web</itemWebsite>
         <itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Préférences</title>
         <TabGeneral>Général</TabGeneral>
         <tabTrayIcon>Icône de la barre des tâches</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Affichage dans la barre des menus</tabTrayIconMac>
         <tabDiagnostics>Diagnostique</tabDiagnostics>
         <staticLanguage>Langue :</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Vérifier les mises à jour au démarrage de l'application</checkUpdatesOnStartup>
         <checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
         <checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
-        <displayDrives>Afficher les températures des entraînements connectés</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sonde :</staticSensor>
         <staticFan>Ventilateur :</staticFan>
         <staticIcon>Icône :</staticIcon>

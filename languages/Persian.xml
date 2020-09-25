@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.2.0" Author="Hessam Mohamadi">
     <MainWindow>
-        <staticFanListHeader>فن ها:</staticFanListHeader>
         <staticSensorsListHeader>سنسورهای دما:</staticSensorsListHeader>
         <listColumnFan>فن</listColumnFan>
         <listColumnRPM>حداقل/فعلی/حداکثر دور برثانیه</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>نمایش کنترل فن مکینتاش</itemShow>
+        <itemAvailableFans>فن ها:</itemAvailableFans>
         <itemMoreLinks>بیشتر</itemMoreLinks>
         <itemWebsite>وبسایت</itemWebsite>
         <itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>مزیت ها</title>
         <TabGeneral>عمومی</TabGeneral>
         <tabTrayIcon>آیکون کنار ساعت</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>نمایش نوار منو</tabTrayIconMac>
         <tabDiagnostics>تشخیصی</tabDiagnostics>
         <staticLanguage>زبان:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>استفاده از مقیاس درجه حرارتی فارنهایت</checkFahrenheit>
         <checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>سنسور:</staticSensor>
         <staticFan>فن:</staticFan>
         <staticIcon>آیکون:</staticIcon>

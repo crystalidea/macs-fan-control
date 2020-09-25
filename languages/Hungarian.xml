@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.12" Author="Gábor&amp;Patrik">
     <MainWindow>
-        <staticFanListHeader>Ventillátorok:</staticFanListHeader>
         <staticSensorsListHeader>Hőmérséklet szenzorok:</staticSensorsListHeader>
         <listColumnFan>Ventillátor</listColumnFan>
         <listColumnRPM>Min/Aktuális/Max RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mutasd az alkalmazást</itemShow>
+        <itemAvailableFans>Ventillátorok:</itemAvailableFans>
         <itemMoreLinks>További</itemMoreLinks>
         <itemWebsite>Honlap</itemWebsite>
         <itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Beállítások</title>
         <TabGeneral>Általános</TabGeneral>
         <tabTrayIcon>Tálca ikon</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Menüsoros megjelenítés</tabTrayIconMac>
         <tabDiagnostics>Diagnosztika</tabDiagnostics>
         <staticLanguage>Nyelv:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>Fahrenheit (ºF) skála használata</checkFahrenheit>
         <checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl.: 45.4)</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Szenzor:</staticSensor>
         <staticFan>Ventillátor:</staticFan>
         <staticIcon>Ikon:</staticIcon>

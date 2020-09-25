@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.4.8" Author="Liron Abergel">
     <MainWindow>
-        <staticFanListHeader>מאווררים זמינים‫:‬</staticFanListHeader>
         <staticSensorsListHeader>חיישני טמפרטורה‫:‬</staticSensorsListHeader>
         <listColumnFan>מאוורר</listColumnFan>
         <listColumnRPM>מינימום/נוכחי/מקסימום סל‫"‬ד</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Show Macs Fan Control</itemShow>
+        <itemAvailableFans>מאווררים זמינים‫:‬</itemAvailableFans>
         <itemMoreLinks>עוד</itemMoreLinks>
         <itemWebsite>אתר אינטרנט</itemWebsite>
         <itemCheckForUpdates>בדוק לעדכונים‫...‬</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>אפשרויות</title>
         <TabGeneral>כללי</TabGeneral>
         <tabTrayIcon>מזער לשורת משימות</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>הצגת תפריטים</tabTrayIconMac>
         <tabDiagnostics>אבחון</tabDiagnostics>
         <staticLanguage>שפה‫:‬</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkFahrenheit>השתמש במעלות מסוג פרנהייט</checkFahrenheit>
         <checkPrecise>אבחון תצוגה מקדימה של הטמפרטורה במידת האפשר‫(‬דוגמא 45‫)‬</checkPrecise>
-        <displayDrives>Display connected drives temperatures</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>חיישן‫:‬</staticSensor>
         <staticFan>מאוורר‫:‬</staticFan>
         <staticIcon>סמל‫:‬</staticIcon>

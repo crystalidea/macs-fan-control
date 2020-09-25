@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.3" Author="Samuel Lee [samuel_lee_1991@qq.com]">
     <MainWindow>
-        <staticFanListHeader>风扇列表：</staticFanListHeader>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
         <listColumnFan>风扇</listColumnFan>
         <listColumnRPM>最低/当前/最大风扇速度</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>显示主窗口</itemShow>
+        <itemAvailableFans>风扇列表：</itemAvailableFans>
         <itemMoreLinks>更多</itemMoreLinks>
         <itemWebsite>主页</itemWebsite>
         <itemCheckForUpdates>检查更新...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>设置</title>
         <TabGeneral>通用</TabGeneral>
         <tabTrayIcon>菜单栏图标</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>菜单栏图标显示</tabTrayIconMac>
         <tabDiagnostics>诊断</tabDiagnostics>
         <staticLanguage>语言：</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>当应用启动时检查更新</checkUpdatesOnStartup>
         <checkFahrenheit>使用华氏单位显示</checkFahrenheit>
         <checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
-        <displayDrives>显示已连接外置硬盘温度</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>传感器：</staticSensor>
         <staticFan>风扇：</staticFan>
         <staticIcon>图标：</staticIcon>

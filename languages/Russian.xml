@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.7" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.8" Author="Denis Mikhailov">
     <MainWindow>
-        <staticFanListHeader>Доступные вентиляторы:</staticFanListHeader>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
         <listColumnFan>Вентилятор</listColumnFan>
         <listColumnRPM>Мин/Текущие/Макс обороты</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Показать Macs Fan Control</itemShow>
+        <itemAvailableFans>Доступные вентиляторы:</itemAvailableFans>
         <itemMoreLinks>Еще</itemMoreLinks>
         <itemWebsite>Веб сайт</itemWebsite>
         <itemCheckForUpdates>Проверка обновлений...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Настройки</title>
         <TabGeneral>Основные</TabGeneral>
         <tabTrayIcon>Иконка в трее</tabTrayIcon>
+        <tabSensors>Датчики</tabSensors>
         <tabTrayIconMac>Строка меню</tabTrayIconMac>
         <tabDiagnostics>Диагностика</tabDiagnostics>
         <staticLanguage>Язык:</staticLanguage>
@@ -105,12 +106,16 @@
         <checkUpdatesOnStartup>Проверять обновления при старте программы</checkUpdatesOnStartup>
         <checkFahrenheit>Использовать шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Более точное отображение температуры (до десятых долей)</checkPrecise>
-        <displayDrives>Показывать температуру подключенных дисков</displayDrives>
+        <labelSensors>Отображать температуру</labelSensors>
+        <checkDiscreteGPU>Дискретных видеокарт</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Включая внешние видеокарты, подключенные по Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Подключенных SATA дисков</checkSATADrives>
+        <checkNVMeDrives>Подключенных NVMe дисков</checkNVMeDrives>
         <staticSensor>Сенсор:</staticSensor>
         <staticFan>Вентилятор:</staticFan>
         <staticIcon>Иконка:</staticIcon>
-        <comboIconOptionShow>Отображать</comboIconOptionShow>
-        <comboIconOptionShowBW>Отображать (чёрно-белая)</comboIconOptionShowBW>
+        <comboIconOptionShow>Цветная</comboIconOptionShow>
+        <comboIconOptionShowBW>Одноцветная</comboIconOptionShowBW>
         <comboOptionNone>Нет</comboOptionNone>
         <checkTwoLines>Две мелкие строки для температуры/вентилятора</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(только в Цельсиях)</staticCelsiusOnlyOnWindows>

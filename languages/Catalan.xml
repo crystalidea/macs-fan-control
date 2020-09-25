@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.5" Author="Oriol Tous">
     <MainWindow>
-        <staticFanListHeader>Ventiladors:</staticFanListHeader>
         <staticSensorsListHeader>Sensors de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
         <listColumnRPM>Min/Actual/Max RPM</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mostrar Macs Fan Control</itemShow>
+        <itemAvailableFans>Ventiladors:</itemAvailableFans>
         <itemMoreLinks>Més</itemMoreLinks>
         <itemWebsite>Lloc Web</itemWebsite>
         <itemCheckForUpdates>Comprovar actualitzacions...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Preferències</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Icona en safata</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Mostrar icona en barra de menú</tabTrayIconMac>
         <tabDiagnostics>Diagnostics</tabDiagnostics>
         <staticLanguage>Idioma:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Comprovar Actualitzacions quan s'iniciï l'aplicació</checkUpdatesOnStartup>
         <checkFahrenheit>Usar escala en grau Farenheit</checkFahrenheit>
         <checkPrecise>Visualització precisa de la temperatura quan sigui possible (p.ex. 45.4)</checkPrecise>
-        <displayDrives>Mostrar la temperatura de les unitats d’emmagatzematge connectades</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilador:</staticFan>
         <staticIcon>Icona:</staticIcon>

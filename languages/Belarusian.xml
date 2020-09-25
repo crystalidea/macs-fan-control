@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.7" Author="Mikita Isakau">
     <MainWindow>
-        <staticFanListHeader>Даступныя вентылятары:</staticFanListHeader>
         <staticSensorsListHeader>Тэмпературныя датчыкі:</staticSensorsListHeader>
         <listColumnFan>Вентылятар</listColumnFan>
         <listColumnRPM>Мiн/Сучасныя/Макс абароты</listColumnRPM>
@@ -84,6 +83,7 @@
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Паказаць Macs Fan Control</itemShow>
+        <itemAvailableFans>Даступныя вентылятары:</itemAvailableFans>
         <itemMoreLinks>Больш</itemMoreLinks>
         <itemWebsite>Вэб-старонка</itemWebsite>
         <itemCheckForUpdates>Праверка абнаўленняў...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>Настройкі</title>
         <TabGeneral>Асноўныя</TabGeneral>
         <tabTrayIcon>Вобраз ў трэі</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>Радок меню</tabTrayIconMac>
         <tabDiagnostics>Дыягностыка</tabDiagnostics>
         <staticLanguage>Мова:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>Спраўджваць абнаўлення пры старце праграмы</checkUpdatesOnStartup>
         <checkFahrenheit>Выкарыстоўваць шкалу Фарэнгейта</checkFahrenheit>
         <checkPrecise>Больш дакладнае адлюстраванне тэмпературы (да дзесятых доляй)</checkPrecise>
-        <displayDrives>Паказваць тэмпературу падлучаных дыскаў</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Сэнсар:</staticSensor>
         <staticFan>Вентылятар:</staticFan>
         <staticIcon>Вобраз:</staticIcon>

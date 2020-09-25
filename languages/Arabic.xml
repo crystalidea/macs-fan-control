@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.0" Author="Samer AlRubaee-Iraq">
     <MainWindow>
-        <staticFanListHeader>المراوح:</staticFanListHeader>
         <staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
         <listColumnFan>المروحه</listColumnFan>
         <listColumnRPM>اقصى سرعه/السرعه الحاليه/ادنى سرعه</listColumnRPM>
@@ -51,7 +50,7 @@
         <presetMenuApply>تطبيق</presetMenuApply>
         <presetMenuProVersion>متاح في الاصدار البرو</presetMenuProVersion>
         <presetMenuCurrent>حالي - %1</presetMenuCurrent>
-        <presetMenuDiscard>إلغاء (reset all fans to auto)</presetMenuDiscard>
+        <presetMenuDiscard>إلغاء (إعادة تعيين سرع المراوح الى السرعة التلقائية)</presetMenuDiscard>
         <labelPresetName>الاسم الحالي:</labelPresetName>
         <savePresetTitle>حفظ الاعداد الحالي</savePresetTitle>
         <editPresetTitle>تعديل اسم الاعداد</editPresetTitle>
@@ -78,12 +77,13 @@
         <buttonRestoreLicense>استعادة الرخصة</buttonRestoreLicense>
         <invalidLicenseTitle>رخصة خاطئة!</invalidLicenseTitle>
         <invalidLicenseText>تأكد من إدخال جميع الحروف والأرقام والشرطات بالترتيب الصحيح. إذا كنت تكتب الرقم باليد ، فحاول نسخها ولصقها من إيصال البريد الإلكتروني بدلاً من ذلك.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <invalidLicenseMismatchOS>مفتاح الترخيص هذا صالح ولكنه غير مخصص للاستخدام عليه %1.</invalidLicenseMismatchOS>
         <thanksTitle>شكراً لشرائك البرنامج</thanksTitle>
         <thanksInfo>تمت إزالة جميع القيود المفروضة على الإصدار المجاني ، نأمل أن تستمتع باستخدام التطبيق!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>اظهار نافذة البرنامج</itemShow>
+        <itemAvailableFans>المراوح:</itemAvailableFans>
         <itemMoreLinks>المزيد</itemMoreLinks>
         <itemWebsite>الموقع الرسمي</itemWebsite>
         <itemCheckForUpdates>التحقق من وجود تحديثات...</itemCheckForUpdates>
@@ -98,6 +98,7 @@
         <title>التفضيلات</title>
         <TabGeneral>عام</TabGeneral>
         <tabTrayIcon>ايقونة شريط المهام</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
         <tabTrayIconMac>عرض ايقونه في شريط القائمة</tabTrayIconMac>
         <tabDiagnostics>التشخيص</tabDiagnostics>
         <staticLanguage>اللغه:</staticLanguage>
@@ -105,7 +106,11 @@
         <checkUpdatesOnStartup>تحقق من وجود تحديثات عند بدء تشغيل التطبيق</checkUpdatesOnStartup>
         <checkFahrenheit>استخدام مقياس درجة حراره فهرنهايت</checkFahrenheit>
         <checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
-        <displayDrives>عرض درجات حرارة محركات الأقراص المتصلة</displayDrives>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>الحساس:</staticSensor>
         <staticFan>المروحه:</staticFan>
         <staticIcon>الايقونه:</staticIcon>

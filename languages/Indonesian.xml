@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.7" Author="Gavin Wibisana [contact@gavinwibisana.me]">
+    <MainWindow>
+        <staticSensorsListHeader>Sensor Temperatur:</staticSensorsListHeader>
+        <listColumnFan>Kipas</listColumnFan>
+        <listColumnRPM>Terendah/Sekarang/Tertinggi RPM</listColumnRPM>
+        <listColumnControl>Kontrol</listColumnControl>
+        <listColumnSensor>Sensor</listColumnSensor>
+        <listColumnSensorValue>Nilai</listColumnSensorValue>
+        <listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+        <popupMenuItemControl>Ubah Kontrol...</popupMenuItemControl>
+        <popupMenuItemReset>Reset ke Kontrol Otomatis</popupMenuItemReset>
+        <fanControlAutomatic>Otomatis</fanControlAutomatic>
+        <fanControlAutomaticInfo>Otomatis (Dikontrol oleh Sistem)</fanControlAutomaticInfo>
+        <fanControlConstant>Kecepatan tetap: %1</fanControlConstant>
+        <fanControlSensor>Berdasarkan %1</fanControlSensor>
+        <fanControlUnknown>Tidak Diketahui!</fanControlUnknown>
+        <buttonFanControlCustom>Kustom...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Tentukan Mode Kustom</buttonFanControlCustomInfo>
+        <buttonMinimize>Perkecil</buttonMinimize>
+        <buttonMinimizeMac>Sembunyikan ke Menubar</buttonMinimizeMac>
+        <buttonPreferences>Prefrensi...</buttonPreferences>
+        <buttonAbout>Mengenai Kami...</buttonAbout>
+        <messageHelperToolInstall>Macs Fan control membutuhkan alat bantu untuk mengontrol kipas. Anda dapat melewati ini jika Anda hanya ingin memantau kipas &amp; sensor temperatur.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan control harus menginstal versi terbaru dari alat bantu yang digunakan untuk kontrol kipas.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Kontrol Kipas tidak tersedia.</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan control tidak dapat terhubung ke aplikasi alat bantu. Untuk mengaktifkan kontrol kipas serta menyesuaikan kecepatan, pastikan anda memasukkan kata sandi administrator ketika ditanya.\n\nAnda masih dapat menggunakan aplikasi ini dalam mode pemantauan saja.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Pemantuan saja</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Tidak ada kipas yang terdeteksi, Silahkan coba untuk [Atur ulang SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Ubah kontrol kipas untuk '%1' fan</title>
+        <radioConstant>Nilai RPM konstant:</radioConstant>
+        <radioSensor>Nilai berbasis sensor:</radioSensor>
+        <staticIncrease>Suhu kecepatan kipas akan mulai meningkat dari:</staticIncrease>
+        <staticMax>Temperatur tertinggi:</staticMax>
+        <statusWarning>Sepertinya ada yang salah - Nilai kipas yang terendah/tertinggi sama (%1).&lt;br/&gt; Pastikan untuk menghapus instalan perangkat lunak pengendali kipas lainnya dan setel ulang SMC.</statusWarning>
+        <saveToCurrentPreset>Simpan ke preset saat ini ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Preset Aktif:</activePresetLabel>
+        <presetAutomatic>Otomatis</presetAutomatic>
+        <presetFullBlast>Kecepatan penuh</presetFullBlast>
+        <presetCurrentUnsaved>Kustom*</presetCurrentUnsaved>
+        <presetMenuSave>Simpan...</presetMenuSave>
+        <presetMenuRename>Ganti nama</presetMenuRename>
+        <presetMenuDelete>Hapus</presetMenuDelete>
+        <presetMenuPredefined>Preset standar:</presetMenuPredefined>
+        <presetMenuCustom>Preset kustom:</presetMenuCustom>
+        <presetMenuApply>Terapkan</presetMenuApply>
+        <presetMenuProVersion>Tersedia dalam versi PRO</presetMenuProVersion>
+        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuDiscard>Singkirkan (Atur semua kipas menjadi otomatis)</presetMenuDiscard>
+        <labelPresetName>Nama preset:</labelPresetName>
+        <savePresetTitle>Simpan preset kustom</savePresetTitle>
+        <editPresetTitle>Ubah nama preset</editPresetTitle>
+        <presetCreateNew>Buat baru...</presetCreateNew>
+        <presetCreateNewTitle>Buat preset baru</presetCreateNewTitle>
+        <presetCreateNewMessage>Saat ini semua kipas dikontrol oleh sistem. \n\nUbah kontrol ke Kustom setidaknya satu kipas untuk dapat membuat preset baru.</presetCreateNewMessage>
+        <presetCreateNewButton>Ubah kontrol untuk kipas '%1'</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Tingkatkan Kipas Macs Fan control ke Pro</title>
+        <proInfo1>Versi Pro dapat membuat dan menyimpan preset kipas kustom sehingga Anda dapat cepat beralih di antaranya tergantung pada aktivitas Anda.</proInfo1>
+        <proInfo2>Jika anda sudah pernah membeli aplikasi, Silahkan tekan 'Masukan lisensi' pada tombol di bawah.</proInfo2>
+        <buttonPurchase>Beli</buttonPurchase>
+        <buttonEnterLicense>Masukan lisensi</buttonEnterLicense>
+        <buttonLater>Nanti</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Buka versi Pro</title>
+        <infoText>Jika anda pernah membeli Macs Fan Control, Masukan email anda dan kode lisensi dari tanda terima yang dikirim melalui email ke kolom dibawah. ini sepenuhnya akan membuka fitur Pro dari Macs Fan Control.</infoText>
+        <licenseVerifyInfo>Informasi yang anda masukan akan diverifikasi melalui Internet.</licenseVerifyInfo>
+        <email>Alamat email</email>
+        <licenseKey>Kode lisensi</licenseKey>
+        <buttonUnlock>Buka kunci</buttonUnlock>
+        <buttonRestoreLicense>Kembalikan Lisensi</buttonRestoreLicense>
+        <invalidLicenseTitle>Lisensi tidak valid!</invalidLicenseTitle>
+        <invalidLicenseText>Pastikan semua huruf, angka, dan strip dimasukan dalam urutan yang benar. Jika anda mengetik angka menggunakan tangan, Silahkan coba untuk salin dan tempel dari tanda terima yang di kirim melalui email.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Kode lisensi ini valid akan tetapi kode lisensi ini tidak dimaksudkan untuk digunakan pada %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Terima Kasih sudah membeli Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>Semua batasan versi Gratis telah dihapus, kami harap Anda menikmati menggunakan aplikasi ini!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Tunjukan Macs Fan Control</itemShow>
+        <itemAvailableFans>Kipas yang tersedia:</itemAvailableFans>
+        <itemMoreLinks>Tunjukan lebih</itemMoreLinks>
+        <itemWebsite>Situs Web</itemWebsite>
+        <itemCheckForUpdates>Memeriksa pembaruan...</itemCheckForUpdates>
+        <itemRateApp>Review kami di MacUpdate</itemRateApp>
+        <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+        <itemExit>Keluar</itemExit>
+        <itemExitMac>Tutup Macs Fan Control</itemExitMac>
+        <itemSensorBased>Berdasarkan Sensor</itemSensorBased>
+        <itemUpgradeToPro>Tingkatkan ke versi Pro</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>Preferensi</title>
+        <TabGeneral>Umum</TabGeneral>
+        <tabTrayIcon>Ikon Taskbar</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
+        <tabTrayIconMac>Tampilan menu bar</tabTrayIconMac>
+        <tabDiagnostics>Diagnostik</tabDiagnostics>
+        <staticLanguage>Bahasa:</staticLanguage>
+        <checkSystemStart>Otomatis memulai mengecil aplikasi dengan sistem (disarankan)</checkSystemStart>
+        <checkUpdatesOnStartup>Memeriksa pembaruan setelah aplikasi mulai</checkUpdatesOnStartup>
+        <checkFahrenheit>Pakai skala temperatur Fahrenheit</checkFahrenheit>
+        <checkPrecise>Tampilan suhu yang tepat bila memungkinkan (contoh: 45.4)</checkPrecise>
+        <labelSensors>Read temperatures of</labelSensors>
+        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Connected SATA drives</checkSATADrives>
+        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <staticSensor>Sensor:</staticSensor>
+        <staticFan>Kipas:</staticFan>
+        <staticIcon>Ikon:</staticIcon>
+        <comboIconOptionShow>Tunjukan</comboIconOptionShow>
+        <comboIconOptionShowBW>Tunjukan (Hitam &amp; Putih)</comboIconOptionShowBW>
+        <comboOptionNone>Tidak ada</comboOptionNone>
+        <checkTwoLines>Tampilkan bacaan kipas / sensor dalam dua baris untuk menghemat ruang</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Celsius saja)</staticCelsiusOnlyOnWindows>
+        <checkLog>Aktifkan log (Diperlukan Restart)</checkLog>
+        <browseLog>menelusuri</browseLog>
+        <buttonCopyTechInfo>Salin info teknis</buttonCopyTechInfo>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Mengenai Macs Fan Control</title>
+        <staticTechnicalSupport>Dukungan teknis di forum</staticTechnicalSupport>
+        <staticOnlineHelp>Bantuan Online</staticOnlineHelp>
+        <staticFreeVersion>Versi Gratis</staticFreeVersion>
+        <staticProVersion>Versi Pro, %1 lisensi komputer(s)</staticProVersion>
+        <staticWarning>PROGRAM INI UNTUK PENGGUNA MAHIR YANG TAHU BAGAIMANA CARA MENGGUNAKANNYA TANPA MELAKUKAN KERUSAKAN KE MAC. PENCIPTA TIDAK BERTANGGUNG JAWAB ATAS KEHILANGAN DATA, KERUSAKAN, KERUGIAN KEUNTUNGAN ATAU JENIS-JENIS KERUGIAN LAINNYA YANG MENGHUBUNGKAN DENGAN PENGGUNAAN ATAU SALAH PENGGUNAKAN DARI PROGRAM</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Review aplikasi di MacUpdate</message>
+        <informativeText>Jika anda menikmati menggunakan %1, maukah Anda meluangkan waktu untuk review? Tidak akan lebih dari satu menit. Terima kasih atas dukungan anda!</informativeText>
+        <buttonRate>Review kami di MacUpdate</buttonRate>
+        <buttonNoThanks>Tidak, Terima Kasih</buttonNoThanks>
+        <checkDontShowAgain>Jangan tunjukan lagi</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>Tutup</buttonClose>
+        <buttonOK>Oke</buttonOK>
+        <buttonCancel>Batalkan</buttonCancel>
+        <buttonContinue>Lanjutkan</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>dirilis pada %1</ReleasedOn>
+            <CheckForUpdates>Memeriksa pembaruan...</CheckForUpdates>
+            <NewVersionAvailable>Versi terbaru %1 telah tersedia!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 telah tersedia - anda punya %3. Apakah Anda ingin mengunduhnya sekarang?</NewVersionAvailableText>
+            <UpdateAlertTitle>Pembaruan perangkat lunak</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Catatan Rilis:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Ingatkan saya nanti</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Lewati versi ini</UpdateAlertSkip>
+            <UpdateAlertInstall>instal pembaruan</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Memeriksa pembaruan secara otomatis</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Versi terbaru telah di instal!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 saat ini versi terbaru tersedia.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Terjadi kesalahan saat mengunduh pembaruan. Silakan coba lagi nanti.</MessageErrorConnect>
+            <MessageErrorParse>Terjadi kesalahan saat menguraikan feed pembaruan.</MessageErrorParse>
+            <UpdateProgressTitle>Memperbarui %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Batalkan</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Instal dan luncurkan kembali</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Mengunduh pembaruan...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>mengekstrak pembaruan...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Siap di instal</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 of %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Tidak dapat dipindahkan ke folder Aplikasi</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Pindahkan ke folder aplikasi</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Pindah ke folder Aplikasi di folder Beranda Anda?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Apakah anda ingin %1 pindah sendiri ke folder aplikasi?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Pindahkan ke folder aplikasi</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Jangan dipindahkan</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>catatan bahwa ini akan memerlukan kata sandi administrator.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ini akan membuat folder Unduhan Anda tidak berantakan.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Batalkan</actionUndo>
+            <actionRedo>Jadi lagi</actionRedo>
+            <actionCut>Potong</actionCut>
+            <actionCopy>Salin</actionCopy>
+            <actionPaste>tempel</actionPaste>
+            <actionDelete>Hapus</actionDelete>
+            <actionSelectAll>Pilih Semua</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>Oke</buttonOK>
+            <buttonCancel>Batalkan</buttonCancel>
+            <buttonClose>Tutup</buttonClose>
+            <buttonYes>Iya</buttonYes>
+            <buttonNo>Tidak</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
