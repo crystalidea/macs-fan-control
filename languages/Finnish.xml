@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Näytä Macs Fan Control</itemShow>
         <itemAvailableFans>Tuulettimet:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Lisää</itemMoreLinks>
         <itemWebsite>Kotisivu</itemWebsite>
         <itemCheckForUpdates>Tarkasta päivitykset...</itemCheckForUpdates>

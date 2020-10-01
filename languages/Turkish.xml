@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Macs Fan Control'ü göster</itemShow>
         <itemAvailableFans>Fanlar (kontrol etmek için çift tıklayın):</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Daha fazla</itemMoreLinks>
         <itemWebsite>Web Sitesi</itemWebsite>
         <itemCheckForUpdates>Güncellemeleri kontrol et...</itemCheckForUpdates>

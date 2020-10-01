@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>显示主窗口</itemShow>
         <itemAvailableFans>风扇列表：</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>更多</itemMoreLinks>
         <itemWebsite>主页</itemWebsite>
         <itemCheckForUpdates>检查更新...</itemCheckForUpdates>

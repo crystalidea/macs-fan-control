@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Abrir Macs Fan Control</itemShow>
         <itemAvailableFans>Ventoinhas disponíveis:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Mais</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Verificar Atualizações...</itemCheckForUpdates>

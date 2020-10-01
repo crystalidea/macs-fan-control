@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>نمایش کنترل فن مکینتاش</itemShow>
         <itemAvailableFans>فن ها:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>بیشتر</itemMoreLinks>
         <itemWebsite>وبسایت</itemWebsite>
         <itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>

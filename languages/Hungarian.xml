@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Mutasd az alkalmazást</itemShow>
         <itemAvailableFans>Ventillátorok:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>További</itemMoreLinks>
         <itemWebsite>Honlap</itemWebsite>
         <itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>

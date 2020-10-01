@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Show Macs Fan Control</itemShow>
         <itemAvailableFans>מאווררים זמינים‫:‬</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>עוד</itemMoreLinks>
         <itemWebsite>אתר אינטרנט</itemWebsite>
         <itemCheckForUpdates>בדוק לעדכונים‫...‬</itemCheckForUpdates>

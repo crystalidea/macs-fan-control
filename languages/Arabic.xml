@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>اظهار نافذة البرنامج</itemShow>
         <itemAvailableFans>المراوح:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>المزيد</itemMoreLinks>
         <itemWebsite>الموقع الرسمي</itemWebsite>
         <itemCheckForUpdates>التحقق من وجود تحديثات...</itemCheckForUpdates>

@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Mostra Macs Fan Control</itemShow>
         <itemAvailableFans>Ventole:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Altro</itemMoreLinks>
         <itemWebsite>Sito web</itemWebsite>
         <itemCheckForUpdates>Controlla aggiornamenti...</itemCheckForUpdates>

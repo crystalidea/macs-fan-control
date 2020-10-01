@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Toon Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilatoren:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Meer</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Controleren op updates...</itemCheckForUpdates>

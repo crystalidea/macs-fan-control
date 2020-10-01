@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Macs Fan Control 열기</itemShow>
         <itemAvailableFans>팬:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>더보기</itemMoreLinks>
         <itemWebsite>웹사이트</itemWebsite>
         <itemCheckForUpdates>업데이트 확인...</itemCheckForUpdates>

@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Tunjukan Macs Fan Control</itemShow>
         <itemAvailableFans>Kipas yang tersedia:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Tunjukan lebih</itemMoreLinks>
         <itemWebsite>Situs Web</itemWebsite>
         <itemCheckForUpdates>Memeriksa pembaruan...</itemCheckForUpdates>

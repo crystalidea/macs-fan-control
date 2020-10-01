@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Mostrar Macs Fan Control</itemShow>
         <itemAvailableFans>Ventiladors:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Més</itemMoreLinks>
         <itemWebsite>Lloc Web</itemWebsite>
         <itemCheckForUpdates>Comprovar actualitzacions...</itemCheckForUpdates>

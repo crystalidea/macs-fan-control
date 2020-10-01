@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Atidaryti programą</itemShow>
         <itemAvailableFans>Galimi ventiliatoriai:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Tinklapis</itemWebsite>
         <itemCheckForUpdates>Ieškoti atnaujinimų…</itemCheckForUpdates>

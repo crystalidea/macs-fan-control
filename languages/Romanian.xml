@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Arata Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilatoare:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Site-ul web</itemWebsite>
         <itemCheckForUpdates>Verifica ultima versiune…</itemCheckForUpdates>

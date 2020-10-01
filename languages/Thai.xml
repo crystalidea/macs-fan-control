@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>เปิดโปรแกรมควบคุมพัดลมแมค</itemShow>
         <itemAvailableFans>พัดลมที่มี</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>เว็บไซต์</itemWebsite>
         <itemCheckForUpdates>อัพเดท...</itemCheckForUpdates>

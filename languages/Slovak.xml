@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Zobraziť Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilátory:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Viac</itemMoreLinks>
         <itemWebsite>Webstránka</itemWebsite>
         <itemCheckForUpdates>Skontrolovať dostupné aktualizácie...</itemCheckForUpdates>

@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Προβολή Macs Fan Control</itemShow>
         <itemAvailableFans>Ανεμιστήρες:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Περισσότερα</itemMoreLinks>
         <itemWebsite>Ιστοσελίδα</itemWebsite>
         <itemCheckForUpdates>Έλεγχος για ενημερώσεις...</itemCheckForUpdates>

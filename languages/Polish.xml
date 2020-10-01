@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Pokaż Macs Fan Control</itemShow>
         <itemAvailableFans>Wentylatory:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Więcej</itemMoreLinks>
         <itemWebsite>Witryna Crystalidea</itemWebsite>
         <itemCheckForUpdates>Sprawdź aktualizacje...</itemCheckForUpdates>

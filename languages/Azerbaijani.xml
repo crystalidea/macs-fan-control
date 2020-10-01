@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Macs Fan Control-u göstər</itemShow>
         <itemAvailableFans>Mövcud sərinkeşlər:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Ətraflı</itemMoreLinks>
         <itemWebsite>Web-səhifə</itemWebsite>
         <itemCheckForUpdates>Yeniləmələri yoxla...</itemCheckForUpdates>

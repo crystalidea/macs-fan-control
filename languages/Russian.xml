@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Показать Macs Fan Control</itemShow>
         <itemAvailableFans>Доступные вентиляторы:</itemAvailableFans>
+        <itemFanPresets>Профили:</itemFanPresets>
         <itemMoreLinks>Еще</itemMoreLinks>
         <itemWebsite>Веб сайт</itemWebsite>
         <itemCheckForUpdates>Проверка обновлений...</itemCheckForUpdates>

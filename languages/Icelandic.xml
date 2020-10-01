@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Sýna Macs Fan Control</itemShow>
         <itemAvailableFans>Aðgengilegar viftur:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Vefsíða</itemWebsite>
         <itemCheckForUpdates>Leita að uppfærslum...</itemCheckForUpdates>

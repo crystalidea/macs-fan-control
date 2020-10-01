@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Vis Macs Fan Control</itemShow>
         <itemAvailableFans>Blæsere:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Webside</itemWebsite>
         <itemCheckForUpdates>Check for updates...</itemCheckForUpdates>

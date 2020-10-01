@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Macs Fan Control を表示</itemShow>
         <itemAvailableFans>ファン:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>ウェブサイトへ</itemWebsite>
         <itemCheckForUpdates>アップデートの確認...</itemCheckForUpdates>

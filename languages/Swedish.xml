@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Öppna Macs Fan Control</itemShow>
         <itemAvailableFans>Fläktar:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Mer</itemMoreLinks>
         <itemWebsite>Webbsida</itemWebsite>
         <itemCheckForUpdates>Leta efter uppdateringar...</itemCheckForUpdates>

@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Prikaži Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilatori:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Više o...</itemMoreLinks>
         <itemWebsite>Web stranica</itemWebsite>
         <itemCheckForUpdates>Proveri ažuriranja...</itemCheckForUpdates>

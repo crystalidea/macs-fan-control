@@ -84,6 +84,7 @@
     <TrayMenu>
         <itemShow>Hiện Macs Fan Control</itemShow>
         <itemAvailableFans>Quạt:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Xem thêm</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>

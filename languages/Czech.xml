@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.5" Author="jerry00 &amp; jarda drevo">
+<LanguageStrings version="1.5.8" Author="jerry00 &amp; jarda drevo">
     <MainWindow>
         <staticSensorsListHeader>Teplotní senzory:</staticSensorsListHeader>
         <listColumnFan>Ventilátor</listColumnFan>
@@ -25,7 +25,7 @@
         <messageHelperToolUpgrade>Macs Fan Control vyžaduje nainstalovanou aktuální verzi pomocného nástroje.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control není k dispozici</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control nenalezl pomocný nástroj a nelze tedy správně ovládat ventilátory. \n\nPo dotazu zadejte heslo administrátora.\n\nJinak aplikace běží v režimu monitorování.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Pouze monitoring</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Žádné ventilátory, zkuste [reset SMC](https://support.apple.com/cs-cz/HT201295)</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
@@ -51,32 +51,32 @@
         <presetMenuProVersion>Dostupné puze ve verzi PRO</presetMenuProVersion>
         <presetMenuCurrent>Předvolba - %1</presetMenuCurrent>
         <presetMenuDiscard>Zrušit (reset všeho na auto)</presetMenuDiscard>
-        <labelPresetName>Název přeedvolby:</labelPresetName>
+        <labelPresetName>Název předvolby:</labelPresetName>
         <savePresetTitle>Uložit vlastní předvolbu</savePresetTitle>
         <editPresetTitle>Upravit název předvolby</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Nová...</presetCreateNew>
+        <presetCreateNewTitle>Vytvořit novou předvolbu</presetCreateNewTitle>
+        <presetCreateNewMessage>Všechny ventilátory jsou nyní ovládány systémem \n\nZměňte ovládání na Vlastní abyste mohli vytvořit vlastní přednastavení.</presetCreateNewMessage>
+        <presetCreateNewButton>Vlastní ovládání ventilátoru '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Upgrade na Macs Fan Control Pro</title>
         <proInfo1>Verze PRO umožňuje vytvoření a uložení své vlastní předvolby nastavení, mezi nimiž pak můžete podle potřeby rychle přepínat .</proInfo1>
-        <proInfo2>Máte-li již licenci zakoupenu, stiskněte níže tlačítko'Vložit licenci'.</proInfo2>
+        <proInfo2>Máte-li již licenci zakoupenu, stiskněte níže tlačítko 'Vložit licenci'.</proInfo2>
         <buttonPurchase>Zakoupit</buttonPurchase>
         <buttonEnterLicense>Vložit licenci</buttonEnterLicense>
         <buttonLater>Později</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Aktivovat Pro version</title>
+        <title>Aktivovat verzi Pro</title>
         <infoText>Pokud jste již Macs Fan Control zakoupili , zadejte email a licenční klíč dodané Vám v emailu. Tak odemknete další možnosti aplikace Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Zadané inforace budou ověřeny přes internet.</licenseVerifyInfo>
+        <licenseVerifyInfo>Zadané informace budou ověřeny přes internet.</licenseVerifyInfo>
         <email>Email</email>
         <licenseKey>Licenční klíč</licenseKey>
         <buttonUnlock>Aktivovat</buttonUnlock>
         <buttonRestoreLicense>Obnovit licenci</buttonRestoreLicense>
         <invalidLicenseTitle>Neplatná licence!</invalidLicenseTitle>
-        <invalidLicenseText>Zkontrolujte správnost zadaných údajů, velikost písmen, číslice, správné pořadí , pomlčky. Pokud jste údaje zadávali ručně, zkuste zadat údaje pomocí Kopírovat-Vložiz přímo z emailu.</invalidLicenseText>
+        <invalidLicenseText>Zkontrolujte správnost zadaných údajů, velikost písmen, číslice, správné pořadí , pomlčky. Pokud jste údaje zadávali ručně, zkuste zadat údaje pomocí Kopírovat-Vložit přímo z emailu.</invalidLicenseText>
         <invalidLicenseMismatchOS>Tento klíč je platný, ale neodpovídá verzi %1.</invalidLicenseMismatchOS>
         <thanksTitle>Děkujeme za zakoupení Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Všechna omezení Free verze budou odstraněna, užijte si naší aplikaci!</thanksInfo>
@@ -84,8 +84,9 @@
     <TrayMenu>
         <itemShow>Zobrazit Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilátory:</itemAvailableFans>
+        <itemFanPresets>Fan presets:</itemFanPresets>
         <itemMoreLinks>Více</itemMoreLinks>
-        <itemWebsite>Webstránka</itemWebsite>
+        <itemWebsite>Web stránka</itemWebsite>
         <itemCheckForUpdates>Aktualizovat...</itemCheckForUpdates>
         <itemRateApp>Ohodnotit na Macupdate</itemRateApp>
         <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
@@ -98,7 +99,7 @@
         <title>Nastavení</title>
         <TabGeneral>Obecné</TabGeneral>
         <tabTrayIcon>Ikona v liště</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Senzory</tabSensors>
         <tabTrayIconMac>Zobrazit ikonu v horní liště</tabTrayIconMac>
         <tabDiagnostics>Diagnostiky</tabDiagnostics>
         <staticLanguage>Jazyk:</staticLanguage>
@@ -106,16 +107,16 @@
         <checkUpdatesOnStartup>Aktualizovat při startu aplikace</checkUpdatesOnStartup>
         <checkFahrenheit>Použít stupnici Fahrenheita</checkFahrenheit>
         <checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>Načíst teploty z</labelSensors>
+        <checkDiscreteGPU>Grafiky v CPU</checkDiscreteGPU>
+        <checkIncludingExteralGPU>Zahrnout eGPU připojené přes Thunderbolt</checkIncludingExteralGPU>
+        <checkSATADrives>Připojených sata disků</checkSATADrives>
+        <checkNVMeDrives>Připojených NVMe disků</checkNVMeDrives>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilátor:</staticFan>
         <staticIcon>Ikonu:</staticIcon>
         <comboIconOptionShow>Zobrazit barevnou</comboIconOptionShow>
-        <comboIconOptionShowBW>Zobrazit (černobílou)</comboIconOptionShowBW>
+        <comboIconOptionShowBW>Zobrazit černobílou</comboIconOptionShowBW>
         <comboOptionNone>Nezobrazovat</comboOptionNone>
         <checkTwoLines>Zobrazit hodnoty v liště ve dvou řádcích</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(pouze pro Celsius)</staticCelsiusOnlyOnWindows>
