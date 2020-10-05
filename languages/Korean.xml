@@ -108,8 +108,7 @@
         <checkFahrenheit>온도를 화씨로 표시</checkFahrenheit>
         <checkPrecise>온도를 정확하게 표시 (예 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Connected SATA drives</checkSATADrives>
         <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>센서:</staticSensor>

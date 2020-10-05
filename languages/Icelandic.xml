@@ -108,8 +108,7 @@
         <checkFahrenheit>Nota fahrenheit mælieiningu</checkFahrenheit>
         <checkPrecise>Nákvæm birting hitastigs þegar mögulegt er (s.d. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Connected SATA drives</checkSATADrives>
         <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Skynjari:</staticSensor>

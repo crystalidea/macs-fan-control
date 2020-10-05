@@ -108,8 +108,7 @@
         <checkFahrenheit>Использовать шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Более точное отображение температуры (до десятых долей)</checkPrecise>
         <labelSensors>Отображать температуру</labelSensors>
-        <checkDiscreteGPU>Дискретных видеокарт</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Включая внешние видеокарты, подключенные по Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>Внешних видеокарт, подключенных по Thunderbolt</checkExternalGPU>
         <checkSATADrives>Подключенных SATA дисков</checkSATADrives>
         <checkNVMeDrives>Подключенных NVMe дисков</checkNVMeDrives>
         <staticSensor>Сенсор:</staticSensor>

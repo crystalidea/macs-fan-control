@@ -108,8 +108,7 @@
         <checkFahrenheit>Використовувати шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Точніше відображення температури (до десятих)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Connected SATA drives</checkSATADrives>
         <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Датчик:</staticSensor>

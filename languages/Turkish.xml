@@ -108,8 +108,7 @@
         <checkFahrenheit>Fahrenheit sıcaklık ölçeğini kullan</checkFahrenheit>
         <checkPrecise>Mümkün olduğunda sıcaklığın hassas değerini göster (örn 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Connected SATA drives</checkSATADrives>
         <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Sensör:</staticSensor>

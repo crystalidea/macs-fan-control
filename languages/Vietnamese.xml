@@ -108,8 +108,7 @@
         <checkFahrenheit>Sử dụng độ F</checkFahrenheit>
         <checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkDiscreteGPU>Discrete GPUs</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Including eGPUs connected via Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Connected SATA drives</checkSATADrives>
         <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
         <staticSensor>Cảm biến:</staticSensor>

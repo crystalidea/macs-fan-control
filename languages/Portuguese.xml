@@ -108,8 +108,7 @@
         <checkFahrenheit>Usar unidade de temperatura Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostrar valores de temperatura mais exactos quando possível</checkPrecise>
         <labelSensors>Ler temperaturas de</labelSensors>
-        <checkDiscreteGPU>GPUs discretas</checkDiscreteGPU>
-        <checkIncludingExteralGPU>Incluindo eGPUs ligadas por Thunderbolt</checkIncludingExteralGPU>
+        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Drives SATA ligadas</checkSATADrives>
         <checkNVMeDrives>Drives NVMe ligadas</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
