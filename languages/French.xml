@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.1" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
+<LanguageStrings version="1.5.8" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
     <MainWindow>
         <staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
         <listColumnFan>Ventilateur</listColumnFan>
@@ -41,23 +41,23 @@
         <activePresetLabel>Présélection active :</activePresetLabel>
         <presetAutomatic>Automatique</presetAutomatic>
         <presetFullBlast>Plein régime</presetFullBlast>
-        <presetCurrentUnsaved>Editer*</presetCurrentUnsaved>
+        <presetCurrentUnsaved>Éditer*</presetCurrentUnsaved>
         <presetMenuSave>Sauvegarder...</presetMenuSave>
         <presetMenuRename>Renomer</presetMenuRename>
         <presetMenuDelete>Supprimer</presetMenuDelete>
         <presetMenuPredefined>Préréglages prédéfini :</presetMenuPredefined>
-        <presetMenuCustom>Custom presets:</presetMenuCustom>
+        <presetMenuCustom>Préréglages personnalisés :</presetMenuCustom>
         <presetMenuApply>Apply</presetMenuApply>
         <presetMenuProVersion>Disponible en version PRO</presetMenuProVersion>
         <presetMenuCurrent>Préréglage - %1</presetMenuCurrent>
         <presetMenuDiscard>Annuler les modifications (réinitialiser tous les ventilateurs sur auto)</presetMenuDiscard>
         <labelPresetName>Nom du préréglage :</labelPresetName>
         <savePresetTitle>Enregistrer le préréglage personnalisé</savePresetTitle>
-        <editPresetTitle>Editer le nom du préréglage</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <editPresetTitle>Éditer le nom du préréglage</editPresetTitle>
+        <presetCreateNew>Nouveau...</presetCreateNew>
+        <presetCreateNewTitle>Créer un nouveau préréglage</presetCreateNewTitle>
+        <presetCreateNewMessage>Tous vos ventilateurs sont actuellement contrôlés par le système. \n\nVeuillez changer le contrôle à "Personnaliser" pour qu'au moins un de vos ventilateurs puisse créer un nouveau préréglage.</presetCreateNewMessage>
+        <presetCreateNewButton>Contrôle personnalisé pour le ventilateur '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Mise à niveau vers Mac Fan Control Pro</title>
@@ -73,7 +73,7 @@
         <licenseVerifyInfo>Les informations que vous avez entrées peuvent être vérifiées sur Internet.</licenseVerifyInfo>
         <email>Adresse e-mail</email>
         <licenseKey>Clé de licence</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
+        <buttonUnlock>Déverrouiller</buttonUnlock>
         <buttonRestoreLicense>Restaurer la licence</buttonRestoreLicense>
         <invalidLicenseTitle>Licence invalide !</invalidLicenseTitle>
         <invalidLicenseText>Assurez-vous que toutes les lettres, chiffres et tirets sont entrés dans le bon ordre. Si vous tapez le numéro à la main, essayez plutôt de le copier-coller depuis le reçu de votre courriel.</invalidLicenseText>
@@ -84,7 +84,7 @@
     <TrayMenu>
         <itemShow>Afficher Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilateurs :</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Préréglages du ventilateur :</itemFanPresets>
         <itemMoreLinks>Plus</itemMoreLinks>
         <itemWebsite>Site web</itemWebsite>
         <itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
@@ -99,7 +99,7 @@
         <title>Préférences</title>
         <TabGeneral>Général</TabGeneral>
         <tabTrayIcon>Icône de la barre des tâches</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Capteurs</tabSensors>
         <tabTrayIconMac>Affichage dans la barre des menus</tabTrayIconMac>
         <tabDiagnostics>Diagnostique</tabDiagnostics>
         <staticLanguage>Langue :</staticLanguage>
@@ -107,10 +107,10 @@
         <checkUpdatesOnStartup>Vérifier les mises à jour au démarrage de l'application</checkUpdatesOnStartup>
         <checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
         <checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>Lire les températures de</labelSensors>
+        <checkExternalGPU>eGPU connectés par Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Disques SATA connectés</checkSATADrives>
+        <checkNVMeDrives>Lecteurs NVMe connectés/checkNVMeDrives>
         <staticSensor>Sonde :</staticSensor>
         <staticFan>Ventilateur :</staticFan>
         <staticIcon>Icône :</staticIcon>
@@ -146,10 +146,10 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>publié le %1</ReleasedOn>
+            <ReleasedOn>Publié le %1</ReleasedOn>
             <CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
             <NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
+            <NewVersionAvailableText>%1 %2 est disponible : vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
             <UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>
