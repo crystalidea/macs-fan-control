@@ -110,7 +110,7 @@
         <labelSensors>Lire les températures de</labelSensors>
         <checkExternalGPU>eGPU connectés par Thunderbolt</checkExternalGPU>
         <checkSATADrives>Disques SATA connectés</checkSATADrives>
-        <checkNVMeDrives>Lecteurs NVMe connectés/checkNVMeDrives>
+        <checkNVMeDrives>Lecteurs NVMe connectés</checkNVMeDrives>
         <staticSensor>Sonde :</staticSensor>
         <staticFan>Ventilateur :</staticFan>
         <staticIcon>Icône :</staticIcon>
