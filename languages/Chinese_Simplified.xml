@@ -54,10 +54,10 @@
         <labelPresetName>设置组名称:</labelPresetName>
         <savePresetTitle>保存预设</savePresetTitle>
         <editPresetTitle>编辑预设名称</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>新建...</presetCreateNew>
+        <presetCreateNewTitle>创建新预设</presetCreateNewTitle>
+        <presetCreateNewMessage>您当前的所有风扇的控制策略都是自动。 \n\n请自定至少一个风扇的控制策略以创建一个新的预设。</presetCreateNewMessage>
+        <presetCreateNewButton>自定 '%1' 风扇</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>升级到 Macs Fan Control Pro版本</title>
@@ -107,10 +107,10 @@
         <checkUpdatesOnStartup>当应用启动时检查更新</checkUpdatesOnStartup>
         <checkFahrenheit>使用华氏单位显示</checkFahrenheit>
         <checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>读取以下温度</labelSensors>
+        <checkExternalGPU>通过雷霆连接的外置显卡</checkExternalGPU>
+        <checkSATADrives>通过SATA连接的设备</checkSATADrives>
+        <checkNVMeDrives>通过NVMe连接的设备</checkNVMeDrives>
         <staticSensor>传感器：</staticSensor>
         <staticFan>风扇：</staticFan>
         <staticIcon>图标：</staticIcon>
