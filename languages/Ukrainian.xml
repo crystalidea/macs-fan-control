@@ -26,7 +26,7 @@
         <messageFanControlNotAvailableTitle>Керування вентиляторами не доступне</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control не може отримати доступ до своєї допоміжної утиліти, необхідної для керування вентиляторами.\n\nПереконайтеся в тому, що Ви вводите пароль адміністратора.\n\nВи все ще можете використовувати застосунок, але лише в режимі моніторингу.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Лише моніторинг</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Вентиляторів не знайдено, будь ласка, попробуйте [скинути SMC](https://support.apple.com/ru-ru/HT201295)</messageNoFansDetected>
+        <messageNoFansDetected>Вентиляторів не знайдено, будь ласка, спробуйте [скинути SMC](https://support.apple.com/ru-ru/HT201295)</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
         <title>Керування вентилятором '%1'</title>
@@ -54,10 +54,10 @@
         <labelPresetName>Ім'я профілю:</labelPresetName>
         <savePresetTitle>Зберегти користувацький профіль</savePresetTitle>
         <editPresetTitle>Редагувати ім'я профілю</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Новий...</presetCreateNew>
+        <presetCreateNewTitle>Створити новий пресет</presetCreateNewTitle>
+        <presetCreateNewMessage>В даний час усі ваші вентилятори контролюються системою. \n\nБудь ласка, змініть контроль на Користувацький, щоб принаймні один із ваших вентиляторів міг створити новий пресет.</presetCreateNewMessage>
+        <presetCreateNewButton>Користувацький контроль для '%1' вентилятора</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Оновити до Pro версії Macs Fan Control</title>
@@ -77,16 +77,16 @@
         <buttonRestoreLicense>Відновити ліцензію</buttonRestoreLicense>
         <invalidLicenseTitle>Невірна ліцензія!</invalidLicenseTitle>
         <invalidLicenseText>Переконайтеся, що всі букви, цифри і тире введено в правильній послідовності. Замість того, щоб вводити ключ вручну, попробуйте скопіювати його з реєстраційного email і вставити.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <invalidLicenseMismatchOS>Цей ліцензійний ключ є дійсним, але не призначений для використання на %1.</invalidLicenseMismatchOS>
         <thanksTitle>Дякуємо за покупку Macs Fan Control</thanksTitle>
         <thanksInfo>Всі обмеження безкоштовної версії знято. Ми сподіваємося, що Вам сподобається користуватися застосунком!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Показати Macs Fan Control</itemShow>
         <itemAvailableFans>Доступні вентилятори:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Пресети вентиляторів:</itemFanPresets>
         <itemMoreLinks>Ще</itemMoreLinks>
-        <itemWebsite>Веб сайт</itemWebsite>
+        <itemWebsite>Вебсайт</itemWebsite>
         <itemCheckForUpdates>Перевірка оновлень...</itemCheckForUpdates>
         <itemRateApp>Оцінити на MacUpdate</itemRateApp>
         <itemFollowTwitter>Читати в Twitter: @crystalidea</itemFollowTwitter>
@@ -99,7 +99,7 @@
         <title>Налаштування</title>
         <TabGeneral>Основні</TabGeneral>
         <tabTrayIcon>Іконка в рядку меню</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Сенсори</tabSensors>
         <tabTrayIconMac>Рядок меню</tabTrayIconMac>
         <tabDiagnostics>Діагностика</tabDiagnostics>
         <staticLanguage>Мова:</staticLanguage>
@@ -108,9 +108,9 @@
         <checkFahrenheit>Використовувати шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Точніше відображення температури (до десятих)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkExternalGPU>eGPU підключені через Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Підключені диски SATA</checkSATADrives>
+        <checkNVMeDrives>Підключені диски NVMe</checkNVMeDrives>
         <staticSensor>Датчик:</staticSensor>
         <staticFan>Вентилятор:</staticFan>
         <staticIcon>Іконка:</staticIcon>
