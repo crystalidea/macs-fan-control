@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.2" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez">
+<LanguageStrings version="1.5.8" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
@@ -29,7 +29,7 @@
         <messageNoFansDetected>No se han detectado ventiladores. Por favor, intente [restablecer el Controlador de Gestión del Sistema (SMC)](https://support.apple.com/es-es/HT201295)</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
-        <title>Cambiar control del ventilador '%1'</title>
+        <title>Cambiar control para ventilador '%1'</title>
         <radioConstant>Valor de RPM constante</radioConstant>
         <radioSensor>Valor basado en sensor</radioSensor>
         <staticIncrease>Temperatura a la que la velocidad del ventilador aumentará:</staticIncrease>
@@ -54,10 +54,10 @@
         <labelPresetName>Nombre de configuración:</labelPresetName>
         <savePresetTitle>Guardar configuración personalizada</savePresetTitle>
         <editPresetTitle>Editar nombre de configuración</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Nueva...</presetCreateNew>
+        <presetCreateNewTitle>Crear nueva configuración</presetCreateNewTitle>
+        <presetCreateNewMessage>Actualmente, todos los ventiladores son controlados por el sistema. \n\nPor favor, cambie control a Personalizar para al menos uno de los ventiladores para poder crear una nueva configuración.</presetCreateNewMessage>
+        <presetCreateNewButton>Personalizar control para ventilador '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Actualizar a Macs Fan Control Pro</title>
@@ -107,10 +107,10 @@
         <checkUpdatesOnStartup>Buscar actualizaciones cuando se inicie la aplicación</checkUpdatesOnStartup>
         <checkFahrenheit>Usar escala en grados Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostrar temperatura con precisión cuando sea posible (ej. 45.4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>Leer temperaturas de</labelSensors>
+        <checkExternalGPU>eGPUs conectados via Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Discos SATA conectados</checkSATADrives>
+        <checkNVMeDrives>Discos NVMe conectados</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilador:</staticFan>
         <staticIcon>Icono:</staticIcon>
