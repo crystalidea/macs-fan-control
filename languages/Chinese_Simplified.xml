@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.3" Author="Samuel Lee [samuel_lee_1991@qq.com]">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.8" Author="Samuel Lee [samuel_lee_1991@qq.com]">
     <MainWindow>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
         <listColumnFan>风扇</listColumnFan>
@@ -35,7 +35,7 @@
         <staticIncrease>高于此温度则提高风扇转速:</staticIncrease>
         <staticMax>最高温度:</staticMax>
         <statusWarning>错误 - 风扇的最大最小值相同（%1）。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
-        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+        <saveToCurrentPreset>保存到现有的预设策略 ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>当前预设:</activePresetLabel>
@@ -54,13 +54,13 @@
         <labelPresetName>设置组名称:</labelPresetName>
         <savePresetTitle>保存预设</savePresetTitle>
         <editPresetTitle>编辑预设名称</editPresetTitle>
-        <presetCreateNew>新建...</presetCreateNew>
-        <presetCreateNewTitle>创建新预设</presetCreateNewTitle>
-        <presetCreateNewMessage>您当前的所有风扇的控制策略都是自动。 \n\n请自定至少一个风扇的控制策略以创建一个新的预设。</presetCreateNewMessage>
-        <presetCreateNewButton>自定 '%1' 风扇</presetCreateNewButton>
+        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNewTitle>创建新的预设策略</presetCreateNewTitle>
+        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>升级到 Macs Fan Control Pro版本</title>
+        <title>升级到 Macs Fan Control 专业版本</title>
         <proInfo1>专业版能够创建和保存自定义风扇预设，因此您可以根据自己的活动在它们之间快速切换。</proInfo1>
         <proInfo2>如果你已经购买了本应用，请点击下方的输入序列号按钮</proInfo2>
         <buttonPurchase>购买</buttonPurchase>
@@ -84,14 +84,14 @@
     <TrayMenu>
         <itemShow>显示主窗口</itemShow>
         <itemAvailableFans>风扇列表：</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>预设策略:</itemFanPresets>
         <itemMoreLinks>更多</itemMoreLinks>
         <itemWebsite>主页</itemWebsite>
         <itemCheckForUpdates>检查更新...</itemCheckForUpdates>
         <itemRateApp>在 MacUpdate 评价</itemRateApp>
         <itemFollowTwitter>关注 @crystalidea</itemFollowTwitter>
         <itemExit>退出</itemExit>
-        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemExitMac>退出Macs Fan Control</itemExitMac>
         <itemSensorBased>基于传感器检测值</itemSensorBased>
         <itemUpgradeToPro>升级到Pro版本</itemUpgradeToPro>
     </TrayMenu>
@@ -107,10 +107,10 @@
         <checkUpdatesOnStartup>当应用启动时检查更新</checkUpdatesOnStartup>
         <checkFahrenheit>使用华氏单位显示</checkFahrenheit>
         <checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
-        <labelSensors>读取以下温度</labelSensors>
-        <checkExternalGPU>通过雷霆连接的外置显卡</checkExternalGPU>
-        <checkSATADrives>通过SATA连接的设备</checkSATADrives>
-        <checkNVMeDrives>通过NVMe连接的设备</checkNVMeDrives>
+        <labelSensors>读取选项温度</labelSensors>
+        <checkExternalGPU>通过雷雳接口连接的外置显示卡</checkExternalGPU>
+        <checkSATADrives>已连接的SATA驱动器</checkSATADrives>
+        <checkNVMeDrives>已连接的NVMe驱动器</checkNVMeDrives>
         <staticSensor>传感器：</staticSensor>
         <staticFan>风扇：</staticFan>
         <staticIcon>图标：</staticIcon>
