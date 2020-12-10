@@ -26,7 +26,7 @@
         <messageFanControlNotAvailableTitle>Fan kontrolü kullanılamaz</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control fan kontrolünü açmak ve fan hızlarını ayarlamak için gerekli yardımcı uygulamaya bağlanamıyor. \n\nSorulduğunda yönetici hesap şifresini girdiğinize emin olun..\n\nUygulamayı sadece izleme modunda kullanmaya devam edebilirsiniz.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Sadece İzleme Modu</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Fan tespit edilemedi, lütfen [SMC'yi sıfırlamayı](https://support.apple.com/en-us/HT201295) deneyin</messageNoFansDetected>
+        <messageNoFansDetected>Fan tespit edilemedi, lütfen [SMC'yi sıfırlamayı](https://support.apple.com/tr-tr/HT201295) deneyin</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
         <title>%1 için Fan kontrolünü değiştir</title>
@@ -54,37 +54,37 @@
         <labelPresetName>Ayar adı:</labelPresetName>
         <savePresetTitle>Özel ayarı kaydet</savePresetTitle>
         <editPresetTitle>Ayar adını düzenle</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Yeni...</presetCreateNew>
+        <presetCreateNewTitle>Yeni bir ön ayar oluştur</presetCreateNewTitle>
+        <presetCreateNewMessage>Şu anda tüm fanlarınız sistem tarafından kontrol ediliyor. \n\nFanlarınızdan en az birinin ayarını özelleştirebilmek için lütfen kontrolü 'Özel' olarak değiştirin.</presetCreateNewMessage>
+        <presetCreateNewButton>'%1' fanı için özel ayar</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Macs Fan Control Pro'ya yükselt</title>
-        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
-        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
-        <buttonPurchase>Purchase</buttonPurchase>
-        <buttonEnterLicense>Enter License</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <proInfo1>Pro sürümü, özel fan ön ayarları oluşturabilir ve kaydedebilir, böylece etkinliğinize bağlı olarak bunlar arasında hızla geçiş yapabilirsiniz.</proInfo1>
+        <proInfo2>Uygulamayı zaten satın aldıysanız, lütfen aşağıdaki 'Lisansı Girin' düğmesine basın.</proInfo2>
+        <buttonPurchase>Satın Al</buttonPurchase>
+        <buttonEnterLicense>Lisansı Girin</buttonEnterLicense>
+        <buttonLater>Sonra</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
+        <title>Pro versiyonun kilidini aç</title>
+        <infoText>Macs Fan Control'ü zaten satın aldıysanız, e-posta makbuzunuzdan e-posta adresinizi ve lisans anahtarınızı aşağıdaki kutulara girin. Bu, Mac Fan Control'ün Pro özelliklerinin kilidini tamamen açacaktır.</infoText>
+        <licenseVerifyInfo>Girdiğiniz bilgiler İnternet üzerinden doğrulanabilir.</licenseVerifyInfo>
+        <email>Email adresi</email>
         <licenseKey>Lisans anahtarı</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+        <buttonUnlock>Kilidi aç</buttonUnlock>
+        <buttonRestoreLicense>Lisansı kurtar</buttonRestoreLicense>
         <invalidLicenseTitle>Geçersiz lisans!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+        <invalidLicenseText>Tüm harflerin, sayıların ve tirelerin doğru sırada girildiğinden emin olun. Numarayı elle yazıyorsanız, bunun yerine e-posta makbuzunuzdan kopyalayıp yapıştırmayı deneyin.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Bu lisans anahtarı geçerlidir, ancak %1 üzerinde kullanılması amaçlanmamıştır.</invalidLicenseMismatchOS>
+        <thanksTitle>Macs Fan Control Pro'yu satın aldığınız için teşekkürler!</thanksTitle>
+        <thanksInfo>Ücretsiz sürümün tüm sınırlamaları kaldırıldı, uygulamayı kullanmaktan keyif alacağınızı umuyoruz!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Macs Fan Control'ü göster</itemShow>
         <itemAvailableFans>Fanlar (kontrol etmek için çift tıklayın):</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Fan ön ayarları:</itemFanPresets>
         <itemMoreLinks>Daha fazla</itemMoreLinks>
         <itemWebsite>Web Sitesi</itemWebsite>
         <itemCheckForUpdates>Güncellemeleri kontrol et...</itemCheckForUpdates>
@@ -92,14 +92,14 @@
         <itemFollowTwitter>Takip et @crystalidea</itemFollowTwitter>
         <itemExit>Çıkış</itemExit>
         <itemExitMac>Macs Fan Control'ü kapat</itemExitMac>
-        <itemSensorBased>Sensor-tabanlı</itemSensorBased>
+        <itemSensorBased>Sensör tabanlı</itemSensorBased>
         <itemUpgradeToPro>Pro sürüme yükselt</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
         <title>Tercihler</title>
         <TabGeneral>Genel</TabGeneral>
         <tabTrayIcon>Tepsi ikonu</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Sensörler</tabSensors>
         <tabTrayIconMac>Menü Çubuğu gösterimi</tabTrayIconMac>
         <tabDiagnostics>Tanılama</tabDiagnostics>
         <staticLanguage>Dil:</staticLanguage>
@@ -107,10 +107,10 @@
         <checkUpdatesOnStartup>Uygulama başladığında güncellemeleri kontrol et</checkUpdatesOnStartup>
         <checkFahrenheit>Fahrenheit sıcaklık ölçeğini kullan</checkFahrenheit>
         <checkPrecise>Mümkün olduğunda sıcaklığın hassas değerini göster (örn 45.4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>Sıcaklıklarını oku</labelSensors>
+        <checkExternalGPU>Thunderbolt ile bağlı eGPU</checkExternalGPU>
+        <checkSATADrives>Bağlı SATA sürücüleri</checkSATADrives>
+        <checkNVMeDrives>Bağlı NVMe sürücüleri</checkNVMeDrives>
         <staticSensor>Sensör:</staticSensor>
         <staticFan>Fan:</staticFan>
         <staticIcon>İkon:</staticIcon>
@@ -140,7 +140,7 @@
     </RateMeDialog>
     <Common>
         <buttonClose>Kapat</buttonClose>
-        <buttonOK>OK</buttonOK>
+        <buttonOK>Tamam</buttonOK>
         <buttonCancel>İptal</buttonCancel>
         <buttonContinue>Devam</buttonContinue>
     </Common>
@@ -192,7 +192,7 @@
             <actionSelectAll>Hepsini Seç</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
-            <buttonOK>OK</buttonOK>
+            <buttonOK>Tamam</buttonOK>
             <buttonCancel>İptal</buttonCancel>
             <buttonClose>Kapat</buttonClose>
             <buttonYes>Evet</buttonYes>
