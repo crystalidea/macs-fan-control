@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.5" Author="Oriol Tous">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.8.1" Author="Oriol Tous and usern132">
     <MainWindow>
         <staticSensorsListHeader>Sensors de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
-        <listColumnRPM>Min/Actual/Max RPM</listColumnRPM>
+        <listColumnRPM>Mín/Actual/Màx RPM</listColumnRPM>
         <listColumnControl>Control</listColumnControl>
         <listColumnSensor>Sensor</listColumnSensor>
         <listColumnSensorValue>Valor</listColumnSensorValue>
@@ -14,85 +14,85 @@
         <fanControlAutomaticInfo>Automàtic (controlat pel sistema)</fanControlAutomaticInfo>
         <fanControlConstant>Valor constant a %1</fanControlConstant>
         <fanControlSensor>Basat en %1</fanControlSensor>
-        <fanControlUnknown>No Reconegut!</fanControlUnknown>
-        <buttonFanControlCustom>Personalització...</buttonFanControlCustom>
+        <fanControlUnknown>No reconegut!</fanControlUnknown>
+        <buttonFanControlCustom>Personalitzat...</buttonFanControlCustom>
         <buttonFanControlCustomInfo>Especifica un mode de control de ventiladors personalitzat</buttonFanControlCustomInfo>
         <buttonMinimize>Minimitzar</buttonMinimize>
         <buttonMinimizeMac>Posar en barra de menú</buttonMinimizeMac>
         <buttonPreferences>Preferències...</buttonPreferences>
         <buttonAbout>Sobre Fan Control...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control necessita un auxiliar per poder controlar els ventiladors que no és necessari si només vols monitoritzar-los &amp; temperatura sensors.</messageHelperToolInstall>
+        <messageHelperToolInstall>Macs Fan Control necessita instal·lar un auxiliar per poder controlar els ventiladors. Pots no instal·lar-lo si només vols monitoritzar els sensors dels ventiladors i de temperatura.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control necessita instal·lar una actualització de l’auxiliar emprat per al control de ventiladors.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Fan control no disponible</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control no pot connectar a l’auxiliar per activar el control dels controlador així com ajustar-ne la velocitat. \n\nAssegura-te’n d’eintroduir la contrasenya d’administrador quan se us demani.\n\nLa aplicació es pot emprar encara a fi i efecte de monitorització.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoritzant només</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>No es detecten ventiladors, si us plau feu un reset del SMCc(https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageFanControlNotAvailable>Macs Fan Control no s'ha pogut connectar a l’auxiliar per activar el control dels ventiladors així com ajustar-ne la velocitat. Assegureu-vos d’introduir la contrasenya d’administrador quan se us demani.\n\nEncara podeu utilitzar l'aplicació en mode de monitorització.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Només monitoritzant</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>No s'han detectat ventiladors. Si us plau [restabliu el SMC](https://support.apple.com/ca-es/HT201295).</messageNoFansDetected>
     </MainWindow>
     <FanControlDialog>
-        <title>Control del ventilador %1</title>
+        <title>Canviar el control del ventilador '%1'</title>
         <radioConstant>Valor de RPM constant</radioConstant>
         <radioSensor>Valor basat en sensor</radioSensor>
-        <staticIncrease>Temperatura a la que el ventilador augmentarà:</staticIncrease>
+        <staticIncrease>Temperatura a la qual la velocitat del ventilador començarà a augmentar:</staticIncrease>
         <staticMax>Temperatura màxima:</staticMax>
-        <statusWarning>Alguna cosa no esta be - els valors min/max son iguals (%1).&lt;br/&gt; Assegurat de no utilitzar cap altre aplicació de control de ventiladors y reinicia la SMC.</statusWarning>
+        <statusWarning>Alguna cosa no va bé - els valors mín/màx són iguals (%1).&lt;br/&gt; Assegura't de no utilitzar cap altre aplicació de control de ventiladors i restableix el SMC.</statusWarning>
         <saveToCurrentPreset>Desar a la configuració actual ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Configuració activa:</activePresetLabel>
-        <presetAutomatic>Automatic</presetAutomatic>
-        <presetFullBlast>Al Màxim</presetFullBlast>
+        <presetAutomatic>Automàtic</presetAutomatic>
+        <presetFullBlast>Al màxim</presetFullBlast>
         <presetCurrentUnsaved>Personalitzat*</presetCurrentUnsaved>
         <presetMenuSave>Desar...</presetMenuSave>
-        <presetMenuRename>Renombrar</presetMenuRename>
+        <presetMenuRename>Reanomenar</presetMenuRename>
         <presetMenuDelete>Esborrar</presetMenuDelete>
-        <presetMenuPredefined>Valors per defecte:</presetMenuPredefined>
-        <presetMenuCustom>Valors personalitzats:</presetMenuCustom>
+        <presetMenuPredefined>Configuracions predefinides:</presetMenuPredefined>
+        <presetMenuCustom>Configuracions personalitzades:</presetMenuCustom>
         <presetMenuApply>Aplicar</presetMenuApply>
         <presetMenuProVersion>Disponible a la versió PRO</presetMenuProVersion>
         <presetMenuCurrent>Configuració - %1</presetMenuCurrent>
-        <presetMenuDiscard>Desactivar (Posar tots els ventiladors en automàtic)</presetMenuDiscard>
-        <labelPresetName>Nom de la personalització:</labelPresetName>
-        <savePresetTitle>Desar valors personalitzats</savePresetTitle>
-        <editPresetTitle>Editar nom de la personalització</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetMenuDiscard>Descartar (posar tots els ventiladors en automàtic)</presetMenuDiscard>
+        <labelPresetName>Nom de la configuració:</labelPresetName>
+        <savePresetTitle>Desar configuració personalitzada</savePresetTitle>
+        <editPresetTitle>Editar nom de la configuració personalitzada</editPresetTitle>
+        <presetCreateNew>Nova...</presetCreateNew>
+        <presetCreateNewTitle>Crear nova configuració</presetCreateNewTitle>
+        <presetCreateNewMessage>Tots els ventiladors són controlats pel teu sistema actualment.\n\nCanvia el control d'almenys un ventilador a Personalitzat per poder crear una nova configuració personalitzada.</presetCreateNewMessage>
+        <presetCreateNewButton>Control personalitzat pel ventilador '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Actualitzar a Macs Fan Control Pro</title>
-        <proInfo1>La versió Pro permet crear i desar valors personalitzats dels ventiladors per tal de seleccionar un o altre depenent de l’activitat que estiguis desenvolupant.</proInfo1>
-        <proInfo2>Si ja has adquirit previament la aplicació, prem el botó “Entrar Llicència".</proInfo2>
-        <buttonPurchase>Adquiriri</buttonPurchase>
-        <buttonEnterLicense>Entrar Llicència</buttonEnterLicense>
+        <proInfo1>La versió Pro permet crear i desar configuracions personalitzades dels ventiladors per tal de poder canviar entre elles ràpidament segons l'activitat que realitzis.</proInfo1>
+        <proInfo2>Si ja has comprat l'aplicació, prem "Introduir Llicència".</proInfo2>
+        <buttonPurchase>Comprar</buttonPurchase>
+        <buttonEnterLicense>Introduir Llicència</buttonEnterLicense>
         <buttonLater>Després</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>Desbloquejar la versió Pro</title>
-        <infoText>Si ja has adquirit previament la aplicació, introdueix el teu correu electrònic i la clau de llicencia que venia amb el la factura enviada al mail als espais d‘aquí sota. Això desbloquejarà completament la versió PRO de Macs Fan Control.</infoText>
-        <licenseVerifyInfo>La informació que introdueixis serà verificada a través d'internet.</licenseVerifyInfo>
-        <email>Adreça de correu electronic</email>
-        <licenseKey>Clau de licència</licenseKey>
+        <infoText>Si ja has comprat Macs Fan Control, introdueix el teu correu electrònic i la clau de llicència inclosa a la factura enviada al seu correu electrònic als espais de sota. Això desbloquejarà completament la versió PRO de Macs Fan Control.</infoText>
+        <licenseVerifyInfo>La informació que introdueixis pot ser verificada a través d'Internet.</licenseVerifyInfo>
+        <email>Adreça de correu electrònic</email>
+        <licenseKey>Clau de llicència</licenseKey>
         <buttonUnlock>Desbloquejar</buttonUnlock>
         <buttonRestoreLicense>Restaurar Licència</buttonRestoreLicense>
-        <invalidLicenseTitle>Licència Invàlida!</invalidLicenseTitle>
-        <invalidLicenseText>Assegura-te’n que totes les lletres, nombres i guions estan introduits en l‘ordre correcte. Si estss introduint el nombre a mà, intenta copiar i enganxar directament des de la factura rebuda per correu electrònic.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Aquesta llicència és valida pero no per fer-se servir en %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Gràcies per adquiriri Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Totes les limitacions de la versió gratuita s’han suprimit. Esperem que frueixis de l‘aplicació!</thanksInfo>
+        <invalidLicenseTitle>Llicència invàlida!</invalidLicenseTitle>
+        <invalidLicenseText>Assegura't de que totes les lletres, números i guions estan escrits en l‘ordre correcte. Si ho estàs introduint manualment, intenta copiar-ho des de la factura enviada per correu electrònic i enganxar-ho aquí.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Aquesta llicència és valida pero no és per ser utilitzada a %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Gràcies per comprar Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>Totes les limitacions de la versió gratuita s’han suprimit. Esperem que frueixis utilitzant l‘aplicació!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mostrar Macs Fan Control</itemShow>
         <itemAvailableFans>Ventiladors:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Configuracions personalitzades:</itemFanPresets>
         <itemMoreLinks>Més</itemMoreLinks>
-        <itemWebsite>Lloc Web</itemWebsite>
+        <itemWebsite>Pàgina web</itemWebsite>
         <itemCheckForUpdates>Comprovar actualitzacions...</itemCheckForUpdates>
-        <itemRateApp>Valora la aplicació a Macupdate</itemRateApp>
-        <itemFollowTwitter>Segueix @crystalidea</itemFollowTwitter>
+        <itemRateApp>Valorar l'aplicació a MacUpdate</itemRateApp>
+        <itemFollowTwitter>Seguir @crystalidea</itemFollowTwitter>
         <itemExit>Sortir</itemExit>
         <itemExitMac>Sortir de Macs Fan Control</itemExitMac>
-        <itemSensorBased>Basat en Sensor</itemSensorBased>
+        <itemSensorBased>Basat en sensor</itemSensorBased>
         <itemUpgradeToPro>Actualitzar a la versió Pro</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
@@ -100,40 +100,40 @@
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Icona en safata</tabTrayIcon>
         <tabSensors>Sensors</tabSensors>
-        <tabTrayIconMac>Mostrar icona en barra de menú</tabTrayIconMac>
-        <tabDiagnostics>Diagnostics</tabDiagnostics>
+        <tabTrayIconMac>Mostrar icona a la barra de menú</tabTrayIconMac>
+        <tabDiagnostics>Diagnòstics</tabDiagnostics>
         <staticLanguage>Idioma:</staticLanguage>
-        <checkSystemStart>Executar a l'inici del sistema (recomanat)</checkSystemStart>
-        <checkUpdatesOnStartup>Comprovar Actualitzacions quan s'iniciï l'aplicació</checkUpdatesOnStartup>
-        <checkFahrenheit>Usar escala en grau Farenheit</checkFahrenheit>
-        <checkPrecise>Visualització precisa de la temperatura quan sigui possible (p.ex. 45.4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkSystemStart>Executar minimitzat a l'inici del sistema (recomanat)</checkSystemStart>
+        <checkUpdatesOnStartup>Comprovar actualitzacions quan s'iniciï l'aplicació</checkUpdatesOnStartup>
+        <checkFahrenheit>Usar escala en graus Farenheit</checkFahrenheit>
+        <checkPrecise>Visualització precisa de la temperatura quan sigui possible (per ex. 45.4)</checkPrecise>
+        <labelSensors>Llegir temperatures de</labelSensors>
+        <checkExternalGPU>eGPUs connectades a través de Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Discos SATA connectats</checkSATADrives>
+        <checkNVMeDrives>Discos NVMe connectats</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilador:</staticFan>
         <staticIcon>Icona:</staticIcon>
-        <comboIconOptionShow>Mostra</comboIconOptionShow>
-        <comboIconOptionShowBW>Mostra (Negre &amp; Blanc)</comboIconOptionShowBW>
+        <comboIconOptionShow>Acolorit</comboIconOptionShow>
+        <comboIconOptionShowBW>Blanc i negre</comboIconOptionShowBW>
         <comboOptionNone>Cap</comboOptionNone>
         <checkTwoLines>Mostrar els valors de ventilador/sensor en dues linies per estalviar espai</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(només Celsius)</staticCelsiusOnlyOnWindows>
-        <checkLog>Habilita log (requereix reiniciar)</checkLog>
-        <browseLog>Revisar Log</browseLog>
+        <checkLog>Activa el registre (cal reiniciar)</checkLog>
+        <browseLog>Explorar</browseLog>
         <buttonCopyTechInfo>Copiar informació tècnica</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Sobre Macs Fan Control</title>
-        <staticTechnicalSupport>Suport tècnic en el forum</staticTechnicalSupport>
-        <staticOnlineHelp>Online help</staticOnlineHelp>
-        <staticFreeVersion>Versió Lliure</staticFreeVersion>
-        <staticProVersion>Llicencia d’orinador Versió Pro, %1</staticProVersion>
-        <staticWarning>AQUST PROGRAMA ES PER USUARIS QUE SABEN FER-NE US SENSE FER MALBÉ EL SEU MAC. ELS AUTORS NO ES FAN RESPONSABLES DE LA PERDUA DE DADES, DANYS, PERDUA DE BENEFICIS O QUALSEVOL ALTRE TIPUS DE PERDUES DERIVADES DE L'US O MAL US DEL PROGRAMA</staticWarning>
+        <staticTechnicalSupport>Suport tècnic al fòrum</staticTechnicalSupport>
+        <staticOnlineHelp>Ajuda en línia</staticOnlineHelp>
+        <staticFreeVersion>Versió gratuïta</staticFreeVersion>
+        <staticProVersion>Versió Pro, llicència de %1 ordinador(s)</staticProVersion>
+        <staticWarning>AQUEST PROGRAMA ÉS PER USUARIS AVANÇATS QUE SABEN FER-NE ÚS SENSE FER MALBÉ EL SEU MAC. ELS AUTORS NO ES FAN RESPONSABLES DE LA PÈRDUA DE DADES, DANYS, PÈRDUA DE BENEFICIS O QUALSEVOL ALTRE TIPUS DE PÈRDUES DERIVADES DE L'ÚS O MAL ÚS DEL PROGRAMA.</staticWarning>
     </AboutDialog>
     <RateMeDialog>
-        <message>Valora la aplicació a MacUpdate</message>
-        <informativeText>Si t'agrada %1, podries destinar un moment a valorar-la? No t’agafaràmés d’un minut. Gràcies pel suport!</informativeText>
+        <message>Valora l'aplicació a MacUpdate</message>
+        <informativeText>Si t'agrada %1, podries destinar un moment a valorar l'aplicació? No tardaràs més d’un minut. Gràcies pel teu suport!</informativeText>
         <buttonRate>Valora a MacUpdate</buttonRate>
         <buttonNoThanks>No, gràcies</buttonNoThanks>
         <checkDontShowAgain>No tornis a mostrar aquest missatge de nou</checkDontShowAgain>
@@ -146,25 +146,25 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>Alliberat el %1</ReleasedOn>
+            <ReleasedOn>Publicat el %1</ReleasedOn>
             <CheckForUpdates>Comprova actualitzacions...</CheckForUpdates>
-            <NewVersionAvailable>Hi ha una nova versió de %1 !</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 està disponible - tens %3. Vols descarregar-les ara?</NewVersionAvailableText>
-            <UpdateAlertTitle>Actualització del programa</UpdateAlertTitle>
+            <NewVersionAvailable>Hi ha una nova versió de %1!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 ja és disponible - tens %3. Vols descarregar-lo ara?</NewVersionAvailableText>
+            <UpdateAlertTitle>Actualització del software</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Notes de la versió:</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Recorda-m’ho més tard</UpdateAlertRemindLater>
             <UpdateAlertSkip>Saltar aquesta versió</UpdateAlertSkip>
             <UpdateAlertInstall>Instal·la actualització</UpdateAlertInstall>
-            <UpdateAlertAutomaticUpdates>Comprovar per actualitzacions automàticament</UpdateAlertAutomaticUpdates>
-            <MessageNoUpdateAvailable>La aplicació està actualitzada!</MessageNoUpdateAvailable>
+            <UpdateAlertAutomaticUpdates>Comprovar actualitzacions automàticament</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>L'aplicació està actualitzada!</MessageNoUpdateAvailable>
             <MessageNoUpdateAvailableDescription>%1 %2 és actualment la versió més nova disponible.</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>Ha ocorregut un error nentre es descarregava la actualització. Torna-ho a provar més tard.</MessageErrorConnect>
-            <MessageErrorParse>Ha ocorregut un error de comprovació mentre es comprovava la font.</MessageErrorParse>
+            <MessageErrorConnect>Hi ha hagut un error al descarregar l'actualització. Torna-ho a provar més tard.</MessageErrorConnect>
+            <MessageErrorParse>Hi ha hagut un error al processar la font d'actualitzacions.</MessageErrorParse>
             <UpdateProgressTitle>Actualitzant %1</UpdateProgressTitle>
             <UpdateProgressCancel>Cancel·la</UpdateProgressCancel>
-            <UpdateProgressInstallAndRelaunch>IInstal·la i reinicia</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressInstallAndRelaunch>Instal·la i reinicia</UpdateProgressInstallAndRelaunch>
             <UpdateProgressStatusDownloading>Descarregant actualització...</UpdateProgressStatusDownloading>
-            <UpdateProgressExtract>Descomprimint actualització...</UpdateProgressExtract>
+            <UpdateProgressExtract>Extraient actualització...</UpdateProgressExtract>
             <UpdateProgressStatusReady>A punt per instal·lar</UpdateProgressStatusReady>
             <UpdateProgressSize>%1 de %2</UpdateProgressSize>
             <UpdateProgressB>B</UpdateProgressB>
@@ -174,9 +174,9 @@
         </UpdateChecker>
         <LetsMoveMac>
             <kStrMoveApplicationCouldNotMove>No s'ha pogut traslladar a la carpeta d'Aplicacions</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>¿Desitja moure l'aplicació a la carpeta d'Aplicacions?</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>¿Desitja moure l'aplicació a la seva carpeta d'Aplicacions personal?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Aquesta aplicació pot traslladar-se automàticament a la carpeta d'Aplicacions.</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationQuestionTitle>Desitja moure l'aplicació a la carpeta d'Aplicacions?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Desitja moure l'aplicació a la carpeta d'Aplicacions dins la carpeta del seu usuari?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Desitja que %1 es traslladi automàticament a la carpeta d'Aplicacions?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Traslladar a la carpeta d'Aplicacions</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>No traslladar</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>Aquesta operació requereix un compte d'administrador.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
@@ -195,7 +195,7 @@
             <buttonOK>OK</buttonOK>
             <buttonCancel>Cancel·la</buttonCancel>
             <buttonClose>Tanca</buttonClose>
-            <buttonYes>Si</buttonYes>
+            <buttonYes>Sí</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
     </core>
