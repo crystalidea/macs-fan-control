@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.0" Author="Riccardo Rossi &amp; Federico Barutto">
+<LanguageStrings version="1.5.8" Author="Riccardo Rossi &amp; Federico Barutto">
     <MainWindow>
         <staticSensorsListHeader>Sensori temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventola</listColumnFan>
@@ -54,10 +54,10 @@
         <labelPresetName>Nome del preset:</labelPresetName>
         <savePresetTitle>Registra preset</savePresetTitle>
         <editPresetTitle>Modifica il nome del preset</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Nuovo...</presetCreateNew>
+        <presetCreateNewTitle>Crea un nuovo preset</presetCreateNewTitle>
+        <presetCreateNewMessage>Tutte le tue ventole sono attualmente controllate dal sistema. \n\nPerfavore cambia il controllo a Personalizzato di almeno una delle tue ventole per essere in grado di creare un nuovo preset.</presetCreateNewMessage>
+        <presetCreateNewButton>Controllo personalizzato per la ventola '%1' </presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Passa a Macs Fan Control Pro</title>
@@ -77,14 +77,14 @@
         <buttonRestoreLicense>Ripristina licenza</buttonRestoreLicense>
         <invalidLicenseTitle>Licenza non valida!</invalidLicenseTitle>
         <invalidLicenseText>Assicurati che tutte le lettere, i numeri e i segni siano immessi nell'ordine corretto. Piuttosto che inserirli a mano, meglio fare copia-incolla dalla email ricevuta.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+        <invalidLicenseMismatchOS>Questa licenza è valida ma non può essere usata su %1.</invalidLicenseMismatchOS>
         <thanksTitle>Grazie per aver acquistato Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Tutte le limitazioni della versione gratuita sono state rimosse, speriamo che apprezzerete l'uso della nostra app!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mostra Macs Fan Control</itemShow>
         <itemAvailableFans>Ventole:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Presets ventole:</itemFanPresets>
         <itemMoreLinks>Altro</itemMoreLinks>
         <itemWebsite>Sito web</itemWebsite>
         <itemCheckForUpdates>Controlla aggiornamenti...</itemCheckForUpdates>
@@ -99,7 +99,7 @@
         <title>Preferenze</title>
         <TabGeneral>Generale</TabGeneral>
         <tabTrayIcon>Icone del menu</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Sensori</tabSensors>
         <tabTrayIconMac>Icone nella barra menu</tabTrayIconMac>
         <tabDiagnostics>Diagnostica</tabDiagnostics>
         <staticLanguage>Lingue:</staticLanguage>
@@ -108,9 +108,9 @@
         <checkFahrenheit>Usa scala temperatura in Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostra temperatura precisa quando possibile (es. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkExternalGPU>eGPUs connesse via Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Dischi SATA connessi</checkSATADrives>
+        <checkNVMeDrives>Dischi NVMe connessi</checkNVMeDrives>
         <staticSensor>Sensore:</staticSensor>
         <staticFan>Ventola:</staticFan>
         <staticIcon>Icona:</staticIcon>
@@ -127,8 +127,8 @@
         <title>informazioni su Macs Fan Control</title>
         <staticTechnicalSupport>Supporto tecnico nel forum</staticTechnicalSupport>
         <staticOnlineHelp>Aiuto online</staticOnlineHelp>
-        <staticFreeVersion>Free version</staticFreeVersion>
-        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
+        <staticFreeVersion>Versione gratuita</staticFreeVersion>
+        <staticProVersion>Versione Pro, licenza per %1 computer(s)</staticProVersion>
         <staticWarning>IL PROGRAMMA È PER UTENTI ESPERTI CHE SANNO COME USARLO SENZA DANNEGGIARE IL LORO MAC! L'AUTORE NON È RESPONSABILE PER PERDITE DI DATI, DANNI, PERDITE DI GUADAGNI O ALTRI TIPI DI PERDITE CONNESSE ALL'USO O ALL'USO IMPROPRIO DEL PROGRAMMA</staticWarning>
     </AboutDialog>
     <RateMeDialog>
