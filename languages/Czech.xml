@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control nenalezl pomocný nástroj a nelze tedy správně ovládat ventilátory. \n\nPo dotazu zadejte heslo administrátora.\n\nJinak aplikace běží v režimu monitorování.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Pouze monitoring</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Žádné ventilátory, zkuste [reset SMC](https://support.apple.com/cs-cz/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Způsob ovládání ventilátoru %1 ...</title>

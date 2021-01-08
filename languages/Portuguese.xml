@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>O Macs Fan Control não se conseguiu ligar à ferramenta auxiliar para activar o controlo de ventoinhas e ajustar as velocidades. \n\nInsira a palavra-passe para Administrador quando pedido.\n\nPoderá ainda assim utilizá-lo no modo de visualização apenas.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Visualização apenas</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Não foram detetadas ventoinhas, por favor tente [restaurar o SMC](https://support.apple.com/pt-pt/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Controlo para ventoinha %1</title>

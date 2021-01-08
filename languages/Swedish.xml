@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control kan inte ansluta till hjälpprogrammet som möjliggör styrning av fläktarna. \n\nSe till att ange ett administratörslösenord när du ombeds.\n\nDu kan fortfarande använda programmet enbart för övervakning.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Endast övervakning</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Inga fläktar detekterades, gör en [återställning av SMC](https://support.apple.com/sv-se/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Ändra styrningen av fläkten: '%1'</title>

@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>โปรแกรมควบคุมพัดลมแมคไม่สามารถเชื่อมต่อกับแอพช่วยเหลือเพื่อเปิดใช้งานการควบคุมพัดลม และความเร็วรอบหมุน \n\nโปรดทำให้มั่นใจว่าได้กรอกรหัสผ่านผู้ดูแลระบบเมื่อถูกถามแล้ว\n\nคุณยังสามารถใช้แอพนี้ในโหมดติดตามอุณหภูมิได้อย่างเดียว</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>ติดตามอุณหภูมิได้อย่างเดียว</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>ตรวจไม่พบพัดลม, โปรดลอง[รีเซต SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>ควบคุมสำหรับพัดลม '%1''</title>

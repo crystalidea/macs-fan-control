@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Το Macs Fan Control αδυνατεί να συνδεθεί με τη βοηθητική εφαρμογή ώστε να μπορεί να ελέγχει τους ανεμιστήρες αλλά και την ταχύτητά τους.\n\nΒεβαιωθείτε πως έχετε εισαγάγει τον κωδικό πρόσβασης διαχειριστή όταν αυτός σας ζητήθηκε.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Έλεγχος Λειτουργίας Ανεμιστήρα %1</title>

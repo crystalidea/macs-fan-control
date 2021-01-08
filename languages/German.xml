@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit der helper-App verbinden um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nSie können die App weiterhin im reinen Monitoringmodus verwenden.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Nur Überwachung</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Keine Lüfter erkannt, bitte versuchen Sie es mit [SMC zurücksetzen].(https://support.apple.com/de-de/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Steuerung des Lüfters %1</title>

@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control se ni mogel povezati s pomočniškim orodjem, ki bi omogočilo upravljanje ventilatorjev in nastavljanje hitrosti. \n\nVnesite administratorjevo geslo, ko ste vprašani po njem.\n\nAplikacijo še vedno lahko uporabljate v načinu opazovanja.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Način opazovanja</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Ventilatorji niso bili zaznani; poskusite [ponastaviti SMC](https://support.apple.com/en-euro/HT201295).</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Upravljanje ventilatorja „%1“</title>

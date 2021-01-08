@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.8" Author="Samuel Lee [samuel_lee_1991@qq.com]">
     <MainWindow>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其旋转速度。\n\n请确定当出现此要求的时候，务必要输入管理员的密码。\n\n你仍然可以在只读模式使用此应用。</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>只读模式</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>没有检测到风扇，请尝试[重置SMC](https://support.apple.com/zh-cn/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>修改 %1 风扇设置</title>

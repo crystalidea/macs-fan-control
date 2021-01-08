@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control non ha potuto connettersi con l'applicazione per abilitare il controllo delle ventole né regolare la velocità. \n\nInserire la password di amministratore quando richiesto.\n\nPuoi ancora usare l'app per solo monitoraggio.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Solo monitoraggio</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Nessuna ventola trovata, prova a fare un [reset SMC](https://support.apple.com/it-it/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Controllo ventola %1 fan</title>

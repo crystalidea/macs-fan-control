@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control не може отримати доступ до своєї допоміжної утиліти, необхідної для керування вентиляторами.\n\nПереконайтеся в тому, що Ви вводите пароль адміністратора.\n\nВи все ще можете використовувати застосунок, але лише в режимі моніторингу.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Лише моніторинг</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Вентиляторів не знайдено, будь ласка, спробуйте [скинути SMC](https://support.apple.com/ru-ru/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Керування вентилятором '%1'</title>

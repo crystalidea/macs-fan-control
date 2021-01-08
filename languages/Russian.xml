@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.9" Author="Denis Mikhailov">
     <MainWindow>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
         <listColumnFan>Вентилятор</listColumnFan>
@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control не может получить доступ к своей вспомогательной утилите, необходимой для управления вентиляторами. \n\nУбедитесь в том, что Вы корректно вводите пароль администратора.\n\nВы можете использовать программу в режиме мониторинга.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Только мониторинг</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Вентиляторов не обнаружено, попробуйте [сбросить SMC](https://support.apple.com/ru-ru/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>У этого компьютера нет вентиляторов, он охлаждается пассивно</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Управление вентилятором '%1'</title>

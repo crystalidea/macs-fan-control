@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control n'a pas pu se connecter à l'application auxiliaire pour activer le contrôle de ventilateur et ajuster les vitesses. \n\nAssurez-vous de saisir un mot de passe administrateur lors de la demande.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Surveillance seulement</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Aucun ventilateur détecté, veuillez essayer de [réinitialiser SMC](https://support.apple.com/fr-fr/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Contrôle du ventilateur « %1 »</title>
@@ -35,7 +36,7 @@
         <staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
         <staticMax>Température maxi :</staticMax>
         <statusWarning>Il y a un problème : les vitesses mini et maxi sont identiques (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
-        <saveToCurrentPreset>Enregistrer dans le préréglage actuel ('% 1')</saveToCurrentPreset>
+        <saveToCurrentPreset>Enregistrer dans le préréglage actuel ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Présélection active :</activePresetLabel>
@@ -146,10 +147,10 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>Publié le %1</ReleasedOn>
+            <ReleasedOn>publié le %1</ReleasedOn>
             <CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
             <NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 est disponible : vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
+            <NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
             <UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>

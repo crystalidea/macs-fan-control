@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan control tidak dapat terhubung ke aplikasi alat bantu. Untuk mengaktifkan kontrol kipas serta menyesuaikan kecepatan, pastikan anda memasukkan kata sandi administrator ketika ditanya.\n\nAnda masih dapat menggunakan aplikasi ini dalam mode pemantauan saja.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Pemantuan saja</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Tidak ada kipas yang terdeteksi, Silahkan coba untuk [Atur ulang SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Ubah kontrol kipas untuk '%1' fan</title>

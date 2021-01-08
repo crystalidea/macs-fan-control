@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control 無法連接至輔助程序以便開啟風扇控制並且調整其運轉速度。\n\n請確認每當要求的時候，務必要輸入管理員的密碼。\n\nb你仍然可以在監視模式下使用此應用程式.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>監測模式</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>檢測不到風扇,請嘗試 [重置 SMC](https://support.apple.com/zh-tw/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>修改 %1 風扇設定</title>

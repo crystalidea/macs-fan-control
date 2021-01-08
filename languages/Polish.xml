@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control nie mógł połączyć się z aplikacją pomocniczą, w celu umożliwienia kontroli wentylatora jak również dostosowania prędkości.\n\nUpewnij się, aby wprowadzić hasło administratora, kiedy jesteś o nie pytany.\n\nWciąż możesz używać tej aplikacji tylko w trybie monitorowania.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Tryb monitorowania</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Nie wykryto wiatraków. Spróbuj użyć komendy [reset SMC](https://support.apple.com/pl-pl/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Regulacja wentylatora %1</title>

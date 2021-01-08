@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.8.1" Author="Oriol Tous and usern132">
     <MainWindow>
         <staticSensorsListHeader>Sensors de Temperatura:</staticSensorsListHeader>
@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control no s'ha pogut connectar a l’auxiliar per activar el control dels ventiladors així com ajustar-ne la velocitat. Assegureu-vos d’introduir la contrasenya d’administrador quan se us demani.\n\nEncara podeu utilitzar l'aplicació en mode de monitorització.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Només monitoritzant</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>No s'han detectat ventiladors. Si us plau [restabliu el SMC](https://support.apple.com/ca-es/HT201295).</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Canviar el control del ventilador '%1'</title>

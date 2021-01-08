@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>O Macs Fan Controle não conseguiu se conectar ao app assistente para habilitar o controle e os ajustes de velocidade. Tenha certeza que digitou a senha de administrador quando perguntado.\n\nVocê ainda pode usar o app em modo de monitoramento.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Modo de Monitoramento</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Nenhum fan detectado, por favor tente [resetar o SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Mude o controle do fan para '%1'</title>

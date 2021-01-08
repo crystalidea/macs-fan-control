@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control kon geen verbinding maken met het hulpprogramma om de ventilatorregeling in te schakelen en de snelheden aan te passen. \n\nZorg ervoor dat u een beheerderswachtwoord invoert wanneer daarom gevraagd wordt.\n\nU kunt het programma momenteel nog wel gebruiken om de ventilatorsnelheden en temperaturen af te lezen.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Alleen bewaken</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Geen ventilatoren gedetecteerd, probeer alstublieft [reset SMC](https://support.apple.com/nl-nl/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Ventilatorbeheer voor ventilator %1</title>
@@ -173,12 +174,12 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Kon niet naar de map Programma’s verplaatsen </kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Verplaatsen naar map Programma’s?</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar map Programma’s in uw Thuismap?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Wilt u dat %1 zichzelf verplaatst naar de map Programma’s?</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Verplaats naar map Programma’s</kStrMoveApplicationButtonMove>
-            <kStrMoveApplicationButtonDoNotMove>Verplaats niet</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationCouldNotMove>Kon niet naar de map Programma's verplaatsen </kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Verplaatsen naar map Programma's?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar map Programma's in uw Thuismap?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Wilt u dat %1 zichzelf verplaatst naar de map Programma's?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Verplaats naar map Programma's</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een beheerderswachtwoord.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloadsmap opgeruimd.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>

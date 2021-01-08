@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control fan kontrolünü açmak ve fan hızlarını ayarlamak için gerekli yardımcı uygulamaya bağlanamıyor. \n\nSorulduğunda yönetici hesap şifresini girdiğinize emin olun..\n\nUygulamayı sadece izleme modunda kullanmaya devam edebilirsiniz.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Sadece İzleme Modu</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Fan tespit edilemedi, lütfen [SMC'yi sıfırlamayı](https://support.apple.com/tr-tr/HT201295) deneyin</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>%1 için Fan kontrolünü değiştir</title>
@@ -192,7 +193,7 @@
             <actionSelectAll>Hepsini Seç</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
-            <buttonOK>Tamam</buttonOK>
+            <buttonOK>OK</buttonOK>
             <buttonCancel>İptal</buttonCancel>
             <buttonClose>Kapat</buttonClose>
             <buttonYes>Evet</buttonYes>

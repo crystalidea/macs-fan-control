@@ -1,142 +1,143 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.1.12" Author="Rosen Antov">
+<LanguageStrings version="1.5.8" Author="Mladen Nikolov">
     <MainWindow>
-        <staticSensorsListHeader>Tемпературни датчици:</staticSensorsListHeader>
+        <staticSensorsListHeader>Tемпературни сензори:</staticSensorsListHeader>
         <listColumnFan>Вентилатор</listColumnFan>
         <listColumnRPM>Мин/Текущи/Макс обороти</listColumnRPM>
         <listColumnControl>Управление</listColumnControl>
-        <listColumnSensor>Датчик</listColumnSensor>
+        <listColumnSensor>Сензор</listColumnSensor>
         <listColumnSensorValue>Температура</listColumnSensorValue>
         <listSeparatorDrives>Дискове:</listSeparatorDrives>
         <popupMenuItemControl>Променете начина на управление...</popupMenuItemControl>
         <popupMenuItemReset>Възстановете автоматичното управление</popupMenuItemReset>
         <fanControlAutomatic>Автоматично</fanControlAutomatic>
-        <fanControlAutomaticInfo>Автоматичен контрол на системата</fanControlAutomaticInfo>
-        <fanControlConstant>Постоянно значение %1</fanControlConstant>
-        <fanControlSensor>На основата на сензора %1</fanControlSensor>
+        <fanControlAutomaticInfo>Автоматичен контрол от системата</fanControlAutomaticInfo>
+        <fanControlConstant>Постоянна стойност от %1</fanControlConstant>
+        <fanControlSensor>Базирано на %1</fanControlSensor>
         <fanControlUnknown>Неизвестно!</fanControlUnknown>
-        <buttonFanControlCustom>Custom...</buttonFanControlCustom>
-        <buttonFanControlCustomInfo>Specify a custom controlling mode</buttonFanControlCustomInfo>
-        <buttonMinimize>Скрий</buttonMinimize>
+        <buttonFanControlCustom>Персонализиран...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Посочете персонализиран режим на управление</buttonFanControlCustomInfo>
+        <buttonMinimize>Минимизирай</buttonMinimize>
         <buttonMinimizeMac>Скриване в лентата с менюта</buttonMinimizeMac>
         <buttonPreferences>Настройки...</buttonPreferences>
         <buttonAbout>За програмата...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
-        <messageFanControlNotAvailableTitle>Fan control not available</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control could not connect to the helper app to enable fan control as well as adjust the speeds. \n\nMake sure to enter an administrator password when asked.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageHelperToolInstall>Macs Fan Control се нуждае от системен помощник за да контролира вентилаторите. Може да пропуснете, ако искате само да следите скорости и температури.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control се нуждае от актуализация на системния помощник за контрол на вентилаторите.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Контрол на вентилаторите не е наличен</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control не можа да се свърже със системния помощник за да позволи контрол на вентилаторите и скоростите. Уверете се че въвеждате администраторската парола когато се изисква.\n\nВсе още можете да използвате приложението в режим само за наблюдение.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Само за наблюдение</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Не са открити вентилатори, моля опитайте да [нулирате КУС(SMC)](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>Управление на вентилятора '%1'</title>
-        <radioConstant>Постоянно значение на оборотите</radioConstant>
-        <radioSensor>Базирано на сензора</radioSensor>
+        <title>Управление на '%1' вентилатор</title>
+        <radioConstant>Постоянна стойност на оборотите</radioConstant>
+        <radioSensor>Стойност базирана на сензора</radioSensor>
         <staticIncrease>Температура, при достигането на която оборотите се увеличават:</staticIncrease>
         <staticMax>Максимална температура:</staticMax>
-        <statusWarning>Проблем – минималното и максималното значение на скоростта на вентилатора съвпадат (%1).&lt;br/&gt; Премахнете другото ПО, контролиращо работата на вентилаторите и нулирайте настройките на SMC.</statusWarning>
-        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+        <statusWarning>Проблем – минималното и максималното значение на скоростта на вентилатора съвпадат (%1).&lt;br/&gt; Премахнете другото приложение, контролиращо работата на вентилаторите и нулирайте КУС (SMC).</statusWarning>
+        <saveToCurrentPreset>Запази текущата конфигурация ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>Active preset:</activePresetLabel>
-        <presetAutomatic>Automatic</presetAutomatic>
-        <presetFullBlast>Full blast</presetFullBlast>
-        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
-        <presetMenuSave>Save...</presetMenuSave>
-        <presetMenuRename>Rename</presetMenuRename>
-        <presetMenuDelete>Delete</presetMenuDelete>
-        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
-        <presetMenuCustom>Custom presets:</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
-        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
-        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
-        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
-        <labelPresetName>Preset name:</labelPresetName>
-        <savePresetTitle>Save custom preset</savePresetTitle>
-        <editPresetTitle>Edit preset name</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <activePresetLabel>Активна конфигурация:</activePresetLabel>
+        <presetAutomatic>Автоматично</presetAutomatic>
+        <presetFullBlast>Пълна скорост</presetFullBlast>
+        <presetCurrentUnsaved>Персонализиран*</presetCurrentUnsaved>
+        <presetMenuSave>Запази...</presetMenuSave>
+        <presetMenuRename>Преименувай</presetMenuRename>
+        <presetMenuDelete>Изтрий</presetMenuDelete>
+        <presetMenuPredefined>Предварително зададени конфигурации:</presetMenuPredefined>
+        <presetMenuCustom>Персонализирани конфигурации:</presetMenuCustom>
+        <presetMenuApply>Приложи</presetMenuApply>
+        <presetMenuProVersion>Налично в ПРО версията</presetMenuProVersion>
+        <presetMenuCurrent>Конфигурация - %1</presetMenuCurrent>
+        <presetMenuDiscard>Откажи (върни всички вентилатори до автоматично)</presetMenuDiscard>
+        <labelPresetName>Име на конфигурацията:</labelPresetName>
+        <savePresetTitle>Запази персонализирана конфигурация</savePresetTitle>
+        <editPresetTitle>Редактиране на името на конфигурацията</editPresetTitle>
+        <presetCreateNew>Ново...</presetCreateNew>
+        <presetCreateNewTitle>Създай нова конфигурация</presetCreateNewTitle>
+        <presetCreateNewMessage>В момента всичките Ви вентилатори се контролират от системата. \n\nМоля сменете контрола на персонализиран за поне един от вентилаторите Ви за да създадете нова конфигурация.</presetCreateNewMessage>
+        <presetCreateNewButton>Персонализиран контрол за '%1' вентилатор</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>Upgrade to Macs Fan Control Pro</title>
-        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
-        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
-        <buttonPurchase>Purchase</buttonPurchase>
-        <buttonEnterLicense>Enter License</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <title>Надградете до Macs Fan Control Pro</title>
+        <proInfo1>Про версията ви позволява да създавате и запазвате конфигурации на вентилаторите, за да можете бързо да превключвате между тях в зависимост от активността Ви.</proInfo1>
+        <proInfo2>Ако вече сте закупили приложението моля натиснете бутона 'Въведи линецз' по долу.</proInfo2>
+        <buttonPurchase>Купи</buttonPurchase>
+        <buttonEnterLicense>Въведи линецз</buttonEnterLicense>
+        <buttonLater>По-късно</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+        <title>Отключи Про версията</title>
+        <infoText>Ако вече сте закупили Macs Fan Control, въведете вашия имейл адрес и продуктов ключ от имейл бележката в полетата по долу. Така напълно ще отключите функциите на Macs Fan Control Pro.</infoText>
+        <licenseVerifyInfo>Информацията която въвеждате може да се верифицира през Интернет.</licenseVerifyInfo>
+        <email>Имейл адрес</email>
+        <licenseKey>Продуктов ключ</licenseKey>
+        <buttonUnlock>Активирай</buttonUnlock>
+        <buttonRestoreLicense>Възстанови Линецз</buttonRestoreLicense>
+        <invalidLicenseTitle>Невалиден лиценз!</invalidLicenseTitle>
+        <invalidLicenseText>Уверете се че всички букви, цифри и тирета са въведени в правилния ред. Ако пишете номера на ръка, опитайте да го копирате и поставите от имейл бележката.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Този продуктов ключ е валиден, но не е предназначен за използване в %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Благодарим Ви за закупуването на Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>Всички лимити на безплатната версия бяха премахнати, надяваме се да ви хареса употребата на приложението!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Покажи Macs Fan Control</itemShow>
         <itemAvailableFans>Достъпни вентилатори:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
-        <itemMoreLinks>More</itemMoreLinks>
-        <itemWebsite>Уеб сайт</itemWebsite>
-        <itemCheckForUpdates>Проверка за обновяване...</itemCheckForUpdates>
-        <itemRateApp>Rate on Macupdate</itemRateApp>
-        <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
+        <itemFanPresets>Конфигурации на вентилаторите:</itemFanPresets>
+        <itemMoreLinks>Още</itemMoreLinks>
+        <itemWebsite>Уебсайт</itemWebsite>
+        <itemCheckForUpdates>Проверка за актуализации...</itemCheckForUpdates>
+        <itemRateApp>Оцени в Macupdate</itemRateApp>
+        <itemFollowTwitter>Последвай @crystalidea</itemFollowTwitter>
         <itemExit>Изход</itemExit>
-        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemExitMac>Спри Macs Fan Control</itemExitMac>
         <itemSensorBased>Базирано на сензора</itemSensorBased>
-        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+        <itemUpgradeToPro>Надградете до Про версията</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
         <title>Настройки</title>
-        <TabGeneral>General</TabGeneral>
+        <TabGeneral>Общи</TabGeneral>
         <tabTrayIcon>Иконка в лентата с програмите</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Сензори</tabSensors>
         <tabTrayIconMac>Показване в лентата с менютата</tabTrayIconMac>
-        <tabDiagnostics>Diagnostics</tabDiagnostics>
+        <tabDiagnostics>Диагностика</tabDiagnostics>
         <staticLanguage>Език:</staticLanguage>
         <checkSystemStart>Автостарт при включване на системата (препоръчва се)</checkSystemStart>
-        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkUpdatesOnStartup>Проверка за актуализации при стартиране на приложението</checkUpdatesOnStartup>
         <checkFahrenheit>Да се използва скалата по Фаренхайт</checkFahrenheit>
-        <checkPrecise>По-точно показване на температурата (до десети от градуса)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkPrecise>По-точно показване на температурата до десети от градуса (например 45.4)</checkPrecise>
+        <labelSensors>Отчети температурите от</labelSensors>
+        <checkExternalGPU>eGPU-та свързани чрез Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Свързани SATA устройства</checkSATADrives>
+        <checkNVMeDrives>Свързани NVMe устройства</checkNVMeDrives>
         <staticSensor>Сензор:</staticSensor>
         <staticFan>Вентилатор:</staticFan>
         <staticIcon>Иконка:</staticIcon>
-        <comboIconOptionShow>Показване</comboIconOptionShow>
-        <comboIconOptionShowBW>Показване (черно-бяла)</comboIconOptionShowBW>
+        <comboIconOptionShow>Цветна</comboIconOptionShow>
+        <comboIconOptionShowBW>Черно-бяла</comboIconOptionShowBW>
         <comboOptionNone>Не</comboOptionNone>
-        <checkTwoLines>Display fan/sensor readings in two lines to save some space</checkTwoLines>
+        <checkTwoLines>Показване на данни за вентилатор/сензор в две линии за спестяване на място</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(само по Целзий)</staticCelsiusOnlyOnWindows>
-        <checkLog>Позволяване на Log (необходимо е рестартиране на програмата)</checkLog>
+        <checkLog>Позволяване на Log (необходимо е рестартиране на приложението)</checkLog>
         <browseLog>Показване на Log</browseLog>
         <buttonCopyTechInfo>Копирайте техническата информация</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>За програмата Macs Fan Control</title>
         <staticTechnicalSupport>Техническа поддръжка на форума</staticTechnicalSupport>
-        <staticOnlineHelp>Online help</staticOnlineHelp>
-        <staticFreeVersion>Free version</staticFreeVersion>
-        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
+        <staticOnlineHelp>Онлайн помощ</staticOnlineHelp>
+        <staticFreeVersion>Безплатна версия</staticFreeVersion>
+        <staticProVersion>Про версия, лиценз за %1 компютър(ри)</staticProVersion>
         <staticWarning>ТАЗИ ПРОГРАМА Е ЗА НАПРЕДНАЛИ ПОТРЕБИТЕЛИ, КОИТО ЗНАЯТ КАК ДА Я ИЗПОЛЗВАТ БЕЗ ДА НАВРЕДЯТ НА СВОЯ MAC. АВТОРИТЕ НЕ НОСЯТ ОТГОВОРНОСТ ЗА ЗАГУБА НА ДАННИ, ПОВРЕДА НА ОБОРУДВАНЕТО И ВСЯКАКВИ ДРУГИ ЗАГУБИ, ПРОИЗТИЧАЩИ ОТ СОФТУЕРА</staticWarning>
     </AboutDialog>
     <RateMeDialog>
-        <message>Rate the app on MacUpdate</message>
-        <informativeText>If you enjoy using %1, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!</informativeText>
-        <buttonRate>Rate on MacUpdate</buttonRate>
-        <buttonNoThanks>No, thanks</buttonNoThanks>
-        <checkDontShowAgain>Do not show this message again</checkDontShowAgain>
+        <message>Оценете приложението в MacUpdate</message>
+        <informativeText>Ако използвате %1, бихте ли ни оценили? Няма да отнеме повече от минута. Благодарим за подкрепата!</informativeText>
+        <buttonRate>Оценете в MacUpdate</buttonRate>
+        <buttonNoThanks>Не, благодаря</buttonNoThanks>
+        <checkDontShowAgain>Не показвай това съобщение отново</checkDontShowAgain>
     </RateMeDialog>
     <Common>
         <buttonClose>Затвори</buttonClose>
@@ -173,30 +174,30 @@
             <UpdateProgressGB>ГБ</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Could not move to Applications folder</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Move to Applications</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Move to Applications folder in your Home folder?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Would you like %1 to move itself to the Applications folder?</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Move to Applications Folder</kStrMoveApplicationButtonMove>
-            <kStrMoveApplicationButtonDoNotMove>Do Not Move</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Note that this will require an administrator password.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>This will keep your Downloads folder uncluttered.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationCouldNotMove>Неуспешно преместване в папката за приложения</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Премести в папката за приложения</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Премести в папката за приложения във папката на потребителя Ви?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Бихте ли искали %1 да премести себе си в папката за приложения?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Премести в папката за приложения</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Не премествай</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Това ще изиска адмистраторската ви парола.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Това ще предпази папката ви с изтегляния от затрупване.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Отмени</actionUndo>
+            <actionRedo>Отмени отмяната</actionRedo>
+            <actionCut>Изрежи</actionCut>
+            <actionCopy>Копирай</actionCopy>
+            <actionPaste>Постави</actionPaste>
+            <actionDelete>Изтрий</actionDelete>
+            <actionSelectAll>Избери всички</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
-            <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonOK>ОК</buttonOK>
+            <buttonCancel>Отмени</buttonCancel>
+            <buttonClose>Затвори</buttonClose>
+            <buttonYes>Да</buttonYes>
+            <buttonNo>Не</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>

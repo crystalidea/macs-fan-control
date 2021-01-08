@@ -27,6 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control no pudo iniciarse con permisos administrativos para activar el control del ventilador, así como para ajustar las velocidades. \n\nAsegúrese de ingresar una contraseña de administrador cuando se le solicite.\n\nPuede utilizar la aplicación solo para monitorear.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Solo Monitoreo</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>No se han detectado ventiladores. Por favor, intente [restablecer el Controlador de Gestión del Sistema (SMC)](https://support.apple.com/es-es/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Cambiar control para ventilador '%1'</title>
