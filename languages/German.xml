@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5" Author="Gerrit, update by Adrian Geiler">
+<LanguageStrings version="1.5.8.1" Author="Gerrit, update by ifeelhorst, Horst Brueckner">
     <MainWindow>
         <staticSensorsListHeader>Temperatursensoren:</staticSensorsListHeader>
         <listColumnFan>Lüfter</listColumnFan>
@@ -100,7 +100,7 @@
         <title>Einstellungen</title>
         <TabGeneral>Allgemein</TabGeneral>
         <tabTrayIcon>Ablagesymbol</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Sensoren</tabSensors>
         <tabTrayIconMac>Menüleistendarstellung</tabTrayIconMac>
         <tabDiagnostics>Diagnose</tabDiagnostics>
         <staticLanguage>Sprache:</staticLanguage>
@@ -108,7 +108,7 @@
         <checkUpdatesOnStartup>Beim Starten der App nach Aktualisierungen suchen</checkUpdatesOnStartup>
         <checkFahrenheit>Fahrenheit-Temperaturskala verwenden</checkFahrenheit>
         <checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4°C/°F)</checkPrecise>
-        <labelSensors>Lesen Temperaturen von</labelSensors>
+        <labelSensors>Ausgelesene Temperaturen von</labelSensors>
         <checkExternalGPU>Über Thunderbolt angeschlossene eGPUs</checkExternalGPU>
         <checkSATADrives>Angeschlossene SATA-Laufwerke</checkSATADrives>
         <checkNVMeDrives>Angeschlossene NVMe Laufwerke</checkNVMeDrives>
