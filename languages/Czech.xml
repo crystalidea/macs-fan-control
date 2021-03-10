@@ -58,6 +58,7 @@
         <presetCreateNew>Nová...</presetCreateNew>
         <presetCreateNewTitle>Vytvořit novou předvolbu</presetCreateNewTitle>
         <presetCreateNewMessage>Všechny ventilátory jsou nyní ovládány systémem \n\nZměňte ovládání na Vlastní abyste mohli vytvořit vlastní přednastavení.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Vlastní ovládání ventilátoru '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

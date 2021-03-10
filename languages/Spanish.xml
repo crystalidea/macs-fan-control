@@ -58,6 +58,7 @@
         <presetCreateNew>Nueva...</presetCreateNew>
         <presetCreateNewTitle>Crear nueva configuración</presetCreateNewTitle>
         <presetCreateNewMessage>Actualmente, todos los ventiladores son controlados por el sistema. \n\nPor favor, cambie control a Personalizar para al menos uno de los ventiladores para poder crear una nueva configuración.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Personalizar control para ventilador '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

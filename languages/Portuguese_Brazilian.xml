@@ -58,6 +58,7 @@
         <presetCreateNew>Novo...</presetCreateNew>
         <presetCreateNewTitle>Criar novo Preset</presetCreateNewTitle>
         <presetCreateNewMessage>Todos os seus fans estão sendo controlados pelo sistema \n\nPor favor mude o controle para customizado para pelo menos um dos seus fans para poder mudar o preset.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Controle customizado para '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

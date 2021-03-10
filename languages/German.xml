@@ -58,6 +58,7 @@
         <presetCreateNew>Neu...</presetCreateNew>
         <presetCreateNewTitle>Neue Voreinstellung erstellen</presetCreateNewTitle>
         <presetCreateNewMessage>Alle Ihre Lüfter werden derzeit durch das System gesteuert. \n\nBitte stellen Sie die Steuerung für mindestens einen Lüfter auf Benutzerdefiniert um, damit mindestens ein Lüfter, eine neue Voreinstellung erhalten kann.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Benutzerdefinierte Steuerung für den '%1'-Lüfter</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

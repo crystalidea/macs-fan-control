@@ -58,6 +58,7 @@
         <presetCreateNew>신규...</presetCreateNew>
         <presetCreateNewTitle>신규 사전설정 생성</presetCreateNewTitle>
         <presetCreateNewMessage>모든 팬이 현재 시스템에 의해 조절됩니다. \n\n새로운 사전설정을 생성하기 위해 적어도 하나의 팬을 사용자 조절로 변경해 주세요.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>'%1' 팬에 대한 사용자 조절</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

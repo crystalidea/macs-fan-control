@@ -58,6 +58,7 @@
         <presetCreateNew>Novo...</presetCreateNew>
         <presetCreateNewTitle>Criar nova predefinição</presetCreateNewTitle>
         <presetCreateNewMessage>Todas as suas ventoinhas são actualmente controladas pelo sistema.\n\nPor favor altere o controlo para Personalizado para pelo menos uma ventoinha para que seja possível criar uma nova predefinição.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Controlo personalizado para a ventoinha '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

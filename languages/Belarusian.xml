@@ -58,6 +58,7 @@
         <presetCreateNew>Новы...</presetCreateNew>
         <presetCreateNewTitle>Стварыць новы профіль</presetCreateNewTitle>
         <presetCreateNewMessage>Усе вашыя вентылятары на дадзены момант кантралююцца сістэмай. \n\nЗмяніце кіраванне хоць бы аднаго з іх на карыстацкае, каб мець магчымасць стварыць новы профіль.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Змяніць налады вентылятара '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

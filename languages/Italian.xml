@@ -58,6 +58,7 @@
         <presetCreateNew>Nuovo...</presetCreateNew>
         <presetCreateNewTitle>Crea un nuovo preset</presetCreateNewTitle>
         <presetCreateNewMessage>Tutte le tue ventole sono attualmente controllate dal sistema. \n\nPerfavore cambia il controllo a Personalizzato di almeno una delle tue ventole per essere in grado di creare un nuovo preset.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Controllo personalizzato per la ventola '%1' </presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

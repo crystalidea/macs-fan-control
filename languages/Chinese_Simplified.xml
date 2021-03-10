@@ -58,6 +58,7 @@
         <presetCreateNew>New...</presetCreateNew>
         <presetCreateNewTitle>创建新的预设策略</presetCreateNewTitle>
         <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

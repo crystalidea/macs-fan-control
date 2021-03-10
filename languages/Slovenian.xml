@@ -58,6 +58,7 @@
         <presetCreateNew>Novo …</presetCreateNew>
         <presetCreateNewTitle>Ustvari novo prednastavitev</presetCreateNewTitle>
         <presetCreateNewMessage>Trenutno so vsi ventilatorji upravljani s strani sistema. \n\nČe želite ustvariti novo prednastavitev, spremenite na upravljanje po meri za vsaj en ventilator.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Upravljanje po meri za ventilator „%1“</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

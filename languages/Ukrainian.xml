@@ -58,6 +58,7 @@
         <presetCreateNew>Новий...</presetCreateNew>
         <presetCreateNewTitle>Створити новий пресет</presetCreateNewTitle>
         <presetCreateNewMessage>В даний час усі ваші вентилятори контролюються системою. \n\nБудь ласка, змініть контроль на Користувацький, щоб принаймні один із ваших вентиляторів міг створити новий пресет.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Користувацький контроль для '%1' вентилятора</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

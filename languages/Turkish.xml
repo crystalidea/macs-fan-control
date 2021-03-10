@@ -58,6 +58,7 @@
         <presetCreateNew>Yeni...</presetCreateNew>
         <presetCreateNewTitle>Yeni bir ön ayar oluştur</presetCreateNewTitle>
         <presetCreateNewMessage>Şu anda tüm fanlarınız sistem tarafından kontrol ediliyor. \n\nFanlarınızdan en az birinin ayarını özelleştirebilmek için lütfen kontrolü 'Özel' olarak değiştirin.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>'%1' fanı için özel ayar</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

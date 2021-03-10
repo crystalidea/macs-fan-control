@@ -58,6 +58,7 @@
         <presetCreateNew>Новый...</presetCreateNew>
         <presetCreateNewTitle>Создать новый профиль</presetCreateNewTitle>
         <presetCreateNewMessage>Все ваши вентиляторы на данный момент контролируются системой. \n\nИзмените управление хотя бы одного из них на пользовательское, чтобы иметь возможность создать новый профиль.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Измените управление как минимум для одного из ваших вентиляторов, поскольку сейчас они на максимальных оборотах, что уже соответствует имеющемуся профилю '%1'.</presetCreateNewMessage2>
         <presetCreateNewButton>Изменить настройки вентилятора '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

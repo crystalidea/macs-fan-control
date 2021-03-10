@@ -58,6 +58,7 @@
         <presetCreateNew>Nieuw...</presetCreateNew>
         <presetCreateNewTitle>Creëer een nieuwe voorinstelling</presetCreateNewTitle>
         <presetCreateNewMessage>Al uw ventilatoren worden momenteel bestuurd door het systeem. \n\nWijzig de instelling van tenminste één van uw ventilatoren in Aangepast om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Aangepast beheer voor de '%1' ventilator</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>

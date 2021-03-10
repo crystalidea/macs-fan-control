@@ -58,6 +58,7 @@
         <presetCreateNew>Buat baru...</presetCreateNew>
         <presetCreateNewTitle>Buat preset baru</presetCreateNewTitle>
         <presetCreateNewMessage>Saat ini semua kipas dikontrol oleh sistem. \n\nUbah kontrol ke Kustom setidaknya satu kipas untuk dapat membuat preset baru.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Ubah kontrol untuk kipas '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
