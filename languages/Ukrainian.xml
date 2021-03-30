@@ -27,7 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control не може отримати доступ до своєї допоміжної утиліти, необхідної для керування вентиляторами.\n\nПереконайтеся в тому, що Ви вводите пароль адміністратора.\n\nВи все ще можете використовувати застосунок, але лише в режимі моніторингу.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Лише моніторинг</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Вентиляторів не знайдено, будь ласка, спробуйте [скинути SMC](https://support.apple.com/ru-ru/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Цей комп'ютер не має вентиляторів і він охолоджується пасивно</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Керування вентилятором '%1'</title>
@@ -58,7 +58,7 @@
         <presetCreateNew>Новий...</presetCreateNew>
         <presetCreateNewTitle>Створити новий пресет</presetCreateNewTitle>
         <presetCreateNewMessage>В даний час усі ваші вентилятори контролюються системою. \n\nБудь ласка, змініть контроль на Користувацький, щоб принаймні один із ваших вентиляторів міг створити новий пресет.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
+        <presetCreateNewMessage2>Будь ласка, змініть контроль принаймні для одного з ваших вентиляторів, оскільки в даний час усі вони обертаються на повній потужності, відповідаючи існуючому пресету '%1'.</presetCreateNewMessage2>
         <presetCreateNewButton>Користувацький контроль для '%1' вентилятора</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
