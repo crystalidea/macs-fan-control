@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.8" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
     <MainWindow>
         <staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
@@ -24,9 +24,9 @@
         <messageHelperToolInstall>Macs Fan Control nécessite l'installation d'un outil d'aide au contrôle du ventilateur. Vous pouvez ignorer cette option si vous souhaitez uniquement surveiller les ventilateurs et les capteurs de température.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control doit installer une version mise à jour de l'outil d'aide utilisé pour le contrôle des ventilateurs.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Contrôle de ventilateur non disponible</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control n'a pas pu se connecter à l'application auxiliaire pour activer le contrôle de ventilateur et ajuster les vitesses. \n\nAssurez-vous de saisir un mot de passe administrateur lors de la demande.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control n'a pas pu se connecter à l'application auxiliaire pour activer le contrôle de ventilateur et ajuster les vitesses. \n\nAssurez-vous de saisir un mot de passe administrateur lors de la demande.\n\nVous pouvez toujours utiliser l'application en mode Surveillance seulement.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Surveillance seulement</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Aucun ventilateur détecté, veuillez essayer de [réinitialiser SMC](https://support.apple.com/fr-fr/HT201295)</messageNoFansDetected>
+        <messageNoFansDetected>Aucun ventilateur détecté, veuillez essayer de [réinitialiser le SMC](https://support.apple.com/fr-fr/HT201295)</messageNoFansDetected>
         <messageNoFansAvailable>Cet ordinateur n'a pas de ventilateurs et se refroidit passivement</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
@@ -36,7 +36,7 @@
         <staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
         <staticMax>Température maxi :</staticMax>
         <statusWarning>Il y a un problème : les vitesses mini et maxi sont identiques (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
-        <saveToCurrentPreset>Enregistrer dans le réglage actuel ('%1')</saveToCurrentPreset>
+        <saveToCurrentPreset>Enregistrer dans le réglage actuel (« %1 »)</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Présélection active :</activePresetLabel>
@@ -57,14 +57,14 @@
         <editPresetTitle>Éditer le nom du réglage</editPresetTitle>
         <presetCreateNew>Nouveau...</presetCreateNew>
         <presetCreateNewTitle>Créer un nouveau réglage</presetCreateNewTitle>
-        <presetCreateNewMessage>Tous vos ventilateurs sont actuellement contrôlés par le système. \n\nVeuillez changer le contrôle à "Personnaliser" pour qu'au moins un de vos ventilateurs puisse créer un nouveau réglage.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Contrôle personnalisé pour le ventilateur '%1'</presetCreateNewButton>
+        <presetCreateNewMessage>Tous vos ventilateurs sont actuellement contrôlés par le système. \n\nVeuillez changer le contrôle à « Personnaliser » pour qu'au moins un de vos ventilateurs puisse créer un nouveau réglage.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Veuillez modifier le contrôle d'au moins un de vos ventilateurs, car tous tournent actuellement à plein régime, correspondant au réglage existant « %1 ».</presetCreateNewMessage2>
+        <presetCreateNewButton>Contrôle personnalisé pour le ventilateur « %1 »</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Mise à niveau vers Mac Fan Control Pro</title>
         <proInfo1>La version Pro est capable de créer et de sauvegarder des réglages de ventilateurs personnalisés afin que vous puissiez basculer rapidement entre eux en fonction de votre activité.</proInfo1>
-        <proInfo2>Si vous avez déjà acheté l'application, appuyez sur le bouton "Entrer une licence" ci-dessous.</proInfo2>
+        <proInfo2>Si vous avez déjà acheté l'application, appuyez sur le bouton « Entrer une licence » ci-dessous.</proInfo2>
         <buttonPurchase>Acheter</buttonPurchase>
         <buttonEnterLicense>Entrer une licence</buttonEnterLicense>
         <buttonLater>Plus tard</buttonLater>
@@ -130,7 +130,7 @@
         <staticTechnicalSupport>Assistance technique via notre forum</staticTechnicalSupport>
         <staticOnlineHelp>Aide en ligne</staticOnlineHelp>
         <staticFreeVersion>Version gratuite</staticFreeVersion>
-        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
+        <staticProVersion>Version Pro, %1 licence(s) d'ordinateur</staticProVersion>
         <staticWarning>CE PROGRAMME EST DESTINÉ AUX UTILISATEURS EXPÉRIMENTÉS SACHANT L'UTILISER SANS RISQUE POUR LEUR MAC. LES AUTEURS NE SONT PAS RESPONSABLES DES PERTES DE DONNÉES, DOMMAGES, MANQUES À GAGNER OU TOUTES AUTRES CONSÉQUENCES DE LA BONNE OU MAUVAISE UTILISATION DE CE PROGRAMME</staticWarning>
     </AboutDialog>
     <RateMeDialog>
@@ -176,7 +176,7 @@
         </UpdateChecker>
         <LetsMoveMac>
             <kStrMoveApplicationCouldNotMove>Déplacement impossible vers le dossier Applications</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Déplacer vers les Applications</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitle>Déplacer vers le dossier Applications</kStrMoveApplicationQuestionTitle>
             <kStrMoveApplicationQuestionTitleHome>Déplacer vers le dossier Application dans votre dossier utilisateur ?</kStrMoveApplicationQuestionTitleHome>
             <kStrMoveApplicationQuestionMessage>Souhaitez-vous que %1 se déplace dans le dossier Applications ?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Déplacer vers le dossier Applications</kStrMoveApplicationButtonMove>
