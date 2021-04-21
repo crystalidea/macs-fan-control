@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8.1" Author="Samer Sabah-Iraq">
+<LanguageStrings version="1.5.9" Author="Samer Sabah-Iraq">
     <MainWindow>
         <staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
         <listColumnFan>المروحه</listColumnFan>
@@ -21,13 +21,13 @@
         <buttonMinimizeMac>اخفاء الى شريط القائمة</buttonMinimizeMac>
         <buttonPreferences>التفضيلات</buttonPreferences>
         <buttonAbout>حول…</buttonAbout>
-        <messageHelperToolInstall>التطبيق يحتاج تثبيت اداة مساعدة للتحكم في المروحة. يمكنك تخطي هذا إذا كنت ترغب في مراقبة المراوح &amp; temperature sensors.</messageHelperToolInstall>
+        <messageHelperToolInstall>التطبيق يحتاج تثبيت اداة مساعدة للتحكم في المروحة. يمكنك تخطي هذا إذا كنت ترغب في مراقبة المراوح &amp; حساسات درجة الحرارة.</messageHelperToolInstall>
         <messageHelperToolUpgrade>يحتاج البرنامج إلى تثبيت إصدار محدث من أداة المساعدة المستخدمة للتحكم في المروحة.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>التطبيق غير متاح</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>البرنامج غير قادر على الاتصال بالتطبيق المساعد لتمكينه بالشكل الصحيح للتحكم بالسرعات. \n\تأكد من ادخال كلمة سر المدير عند الطلب.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageFanControlNotAvailable>البرنامج غير قادر على الاتصال بالتطبيق المساعد لتمكينه بالشكل الصحيح للتحكم بالسرعات. \n\تأكد من ادخال كلمة سر المدير عند الطلب.\n\nلا يزال بإمكانك استخدام التطبيق في وضع المراقبة فقط.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>وضع المراقبة فقط</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>لا مراوح مكتشفة, رجاءاً  قم بعمل [reset SMC](https://support.apple.com/ar-ae/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>لا يحتوي هذا الكمبيوتر على أي مراوح ويتم تبريده بشكل طبيعي</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>ضبط المروحة</title>
@@ -58,7 +58,7 @@
         <presetCreateNew>جديد</presetCreateNew>
         <presetCreateNewTitle>قم بإنشاء إعداد مسبق جديد</presetCreateNewTitle>
         <presetCreateNewMessage>يتحكم النظام حاليًا في جميع المراوح. \n\nالرجاء تغيير التحكم إلى مخصص على الأقل لواحدة من المراوح ليتمكن من إنشاء إعداد مسبق جديد.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
+        <presetCreateNewMessage2>الرجاء تغيير التحكم لواحد على الأقل من المراوح لديك ، لأنهم جميعًا يقومون حاليًا بتدوير كامل يطابق الإعداد المسبق الموجود '٪ 1'.</presetCreateNewMessage2>
         <presetCreateNewButton>اعداد مخصص ل '%1' مروحة</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
