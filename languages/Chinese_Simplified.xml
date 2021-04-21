@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="Samuel Lee [samuel_lee_1991@qq.com]">
+<LanguageStrings version="1.5.9" Author="Samuel Lee [samuel_lee_1991@qq.com]">
     <MainWindow>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
         <listColumnFan>风扇</listColumnFan>
