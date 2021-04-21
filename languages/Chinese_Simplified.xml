@@ -21,13 +21,13 @@
         <buttonMinimizeMac>隐藏到菜单栏</buttonMinimizeMac>
         <buttonPreferences>设置...</buttonPreferences>
         <buttonAbout>关于...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control 需要安装用于风扇控制的辅助工具。 如果您只想查看风扇温度传感器，则可以跳过此步骤。</messageHelperToolInstall>
+        <messageHelperToolInstall>Macs Fan Control 需要安装用于风扇控制的辅助工具。如果您只想查看风扇温度传感器，则可以跳过此步骤。</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control 需要安装用于风扇控制的辅助工具的更新版本。</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其旋转速度。\n\n请确定当出现此要求的时候，务必要输入管理员的密码。\n\n你仍然可以在只读模式使用此应用。</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其转速。\n\n请务必在出现此要求时，输入管理员密码。\n\n您仍然可以在只读模式使用此应用。</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>只读模式</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>没有检测到风扇，请尝试[重置SMC](https://support.apple.com/zh-cn/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>此电脑是被动散热的，所以没有可供调节的风扇。</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>修改 %1 风扇设置</title>
@@ -49,36 +49,36 @@
         <presetMenuPredefined>预定义预设:</presetMenuPredefined>
         <presetMenuCustom>自定义预设:</presetMenuCustom>
         <presetMenuApply>应用</presetMenuApply>
-        <presetMenuProVersion>PRO版本中可用</presetMenuProVersion>
+        <presetMenuProVersion>Pro版本中可用</presetMenuProVersion>
         <presetMenuCurrent>预设 - %1</presetMenuCurrent>
         <presetMenuDiscard>丢弃 (将所有风扇设为自动)</presetMenuDiscard>
         <labelPresetName>设置组名称:</labelPresetName>
         <savePresetTitle>保存预设</savePresetTitle>
         <editPresetTitle>编辑预设名称</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
+        <presetCreateNew>新建预设...</presetCreateNew>
         <presetCreateNewTitle>创建新的预设策略</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNewMessage>您的所有风扇目前都由系统控制。\n\n请至少将一个风扇调整到“自定义预设”模式再创建预设。</presetCreateNewMessage>
+        <presetCreateNewMessage2>请至少更改一个风扇的控制策略，因为目前所有风扇都在 '%1' 预设下以最高速度运转。</presetCreateNewMessage2>
+        <presetCreateNewButton>为 '%1' 风扇自定义预设</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>升级到 Macs Fan Control 专业版本</title>
         <proInfo1>专业版能够创建和保存自定义风扇预设，因此您可以根据自己的活动在它们之间快速切换。</proInfo1>
-        <proInfo2>如果你已经购买了本应用，请点击下方的输入序列号按钮</proInfo2>
+        <proInfo2>如果您已经购买了本应用，请点击下方的输入序列号按钮</proInfo2>
         <buttonPurchase>购买</buttonPurchase>
         <buttonEnterLicense>输入许可证序列号</buttonEnterLicense>
         <buttonLater>以后再说</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>解锁Pro版本</title>
-        <infoText>如果您已经购买了Macs Fan Control，请在以下框中输入电子邮件收据中的电子邮件地址和许可证序列号。 这将完全解锁Macs Fan Control的Pro功能。</infoText>
+        <infoText>如果您已经购买了Macs Fan Control，请在以下框中输入电子邮件收据中的电子邮件地址和许可证序列号。这将完全解锁Macs Fan Control的Pro功能。</infoText>
         <licenseVerifyInfo>您输入的信息可能会通过互联网进行验证。</licenseVerifyInfo>
         <email>电子邮箱</email>
         <licenseKey>许可序列号</licenseKey>
         <buttonUnlock>解锁</buttonUnlock>
         <buttonRestoreLicense>恢复许可</buttonRestoreLicense>
         <invalidLicenseTitle>无效许可!</invalidLicenseTitle>
-        <invalidLicenseText>确保以正确的顺序输入所有字母，数字和破折号。 如果您手动输入该号码，请尝试从您的电子邮件收据中复制并粘贴该号码。</invalidLicenseText>
+        <invalidLicenseText>确保以正确的顺序输入所有字母，数字和破折号。如果您手动输入该号码，请尝试从您的电子邮件收据中复制并粘贴该号码。</invalidLicenseText>
         <invalidLicenseMismatchOS>您提供的序列号是有效的，但无法激活%1版本的 Macs Fan Control.</invalidLicenseMismatchOS>
         <thanksTitle>感谢您购买Macs Fan Control Pro</thanksTitle>
         <thanksInfo>免费版的所有限制已被解除，我们希望您喜欢使用本应用！</thanksInfo>
@@ -101,7 +101,7 @@
         <title>设置</title>
         <TabGeneral>通用</TabGeneral>
         <tabTrayIcon>菜单栏图标</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>传感器</tabSensors>
         <tabTrayIconMac>菜单栏图标显示</tabTrayIconMac>
         <tabDiagnostics>诊断</tabDiagnostics>
         <staticLanguage>语言：</staticLanguage>
@@ -130,8 +130,8 @@
         <staticTechnicalSupport>技术支持</staticTechnicalSupport>
         <staticOnlineHelp>在线帮助</staticOnlineHelp>
         <staticFreeVersion>免费版本</staticFreeVersion>
-        <staticProVersion>Pro 版本, %1 台电脑 授权</staticProVersion>
-        <staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的MAC的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
+        <staticProVersion>Pro 版本, %1 台电脑授权</staticProVersion>
+        <staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的Mac的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>在 MacUpdate 评价应用</message>
@@ -177,12 +177,12 @@
         <LetsMoveMac>
             <kStrMoveApplicationCouldNotMove>无法移动到“应用程序”文件夹中</kStrMoveApplicationCouldNotMove>
             <kStrMoveApplicationQuestionTitle>是否要把程序移动到“应用程序”文件夹中？</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>是否要把程序移动到你的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionTitleHome>是否要把程序移动到您的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
             <kStrMoveApplicationQuestionMessage>%1 我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>移动到“应用程序”文件夹中</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>不移动</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要你输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>这样做能让你的“下载”文件夹保持整洁。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要您输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>这样做能让您的“下载”文件夹保持整洁。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>撤销</actionUndo>
