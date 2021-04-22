@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.9" Author="CrystalIdea Team">
+    <MainWindow>
+        <staticSensorsListHeader>Температурын мэдрэгчүүд:</staticSensorsListHeader>
+        <listColumnFan>Сэнс</listColumnFan>
+        <listColumnRPM>Доод/Одоогийн/Дээд RPM</listColumnRPM>
+        <listColumnControl>Удирдлага</listColumnControl>
+        <listColumnSensor>Мэдрэгч</listColumnSensor>
+        <listColumnSensorValue>Утга</listColumnSensorValue>
+        <listSeparatorDrives>Дискнүүд:</listSeparatorDrives>
+        <popupMenuItemControl>Удирдлагыг өөрчлөх...</popupMenuItemControl>
+        <popupMenuItemReset>Автомат удирдлага руу дахин тогтоох</popupMenuItemReset>
+        <fanControlAutomatic>Авто</fanControlAutomatic>
+        <fanControlAutomaticInfo>Автомат (системээр удирдуулсан)</fanControlAutomaticInfo>
+        <fanControlConstant>%1-н тогтмол утга</fanControlConstant>
+        <fanControlSensor>%1 дээр суурилсан</fanControlSensor>
+        <fanControlUnknown>Тогтоогдоогүй!</fanControlUnknown>
+        <buttonFanControlCustom>Тусгайлах...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Тусгайлсан удирдлагын горимыг заана уу</buttonFanControlCustomInfo>
+        <buttonMinimize>Жижгэрүүлэх</buttonMinimize>
+        <buttonMinimizeMac>Менюний тавцан руу нуух</buttonMinimizeMac>
+        <buttonPreferences>Тохиргоо...</buttonPreferences>
+        <buttonAbout>Тухай...</buttonAbout>
+        <messageHelperToolInstall>Macs Fan Control нь сэнс удирдахын тулд туслах багаж суулгах
+шаардлагатай. Хэрэв та сэнс, температурын мэдрэгчүүдээ зөвхөн хянах бол энэ үйлдлийг алгасч болно.
+        </messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control нь сэнс удирдахын тулд туслах багажийн 
+        шинэчилсэн хувилбарыг суулгах шаардлагатай байна.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Сэнс удирдах боломжгүй байна</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control сэнс удирдах, тэдгээрийн хурдыг өөрчлөх
+        туслах багаж руу холбогдож чадсангүй. Администраторын нууц үгийг асуухад
+        оруулсан эсэхээ шалгана уу. Та аппыг зөвхөн хянах горимоор хэрэглэж болно.
+        </messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Зөвхөн хянах</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Ямар ч сэнс илэрсэнгүй, SMC-г дахин тогтоож үзнэ үү (https://support.apple.com/en-us/HT201295)
+        </messageNoFansDetected>
+        <messageNoFansAvailable>Энэ компьютер ямар ч сэнсгүй ба пассив аргаар хөргөгдөж байна</messageNoFansAvailable>
+    </MainWindow>
+    <FanControlDialog>
+        <title>'%1' сэнсний удирдлагыг өөрчлөх</title>
+        <radioConstant>Тогтмол RPM утга</radioConstant>
+        <radioSensor>Мэдрэгчид суурилсан утга</radioSensor>
+        <staticIncrease>Сэнсний хурд нэмэгдэж эхлэх температур:</staticIncrease>
+        <staticMax>Дээд температур:</staticMax>
+        <statusWarning>Амжилтгүй болов - доод/дээд утга тэнцүү(%1) байна.&lt;br/&gt; 
+        Өөр бусад сэнс удирдах програм хангамжуудыг устгасан эсэхээ шалгана уу мөн SMC-г дахин тогтооно уу.
+        </statusWarning>
+        <saveToCurrentPreset>Одоогийн ('%1') пресет руу хадгалах</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Идэвхтэй пресет:</activePresetLabel>
+        <presetAutomatic>Автоматаар</presetAutomatic>
+        <presetFullBlast>Тултал үлээлгэх</presetFullBlast>
+        <presetCurrentUnsaved>Тусгайлсан*</presetCurrentUnsaved>
+        <presetMenuSave>Хадгалах...</presetMenuSave>
+        <presetMenuRename>Шинээр нэрлэх</presetMenuRename>
+        <presetMenuDelete>Устгах</presetMenuDelete>
+        <presetMenuPredefined>Урьдчилан зарласан пресетүүд:</presetMenuPredefined>
+        <presetMenuCustom>Тусгайлсан пресетүүд:</presetMenuCustom>
+        <presetMenuApply>Хэрэгжүүлэх</presetMenuApply>
+        <presetMenuProVersion>ПРО хувилбарт боломжтой</presetMenuProVersion>
+        <presetMenuCurrent>Пресет - %1</presetMenuCurrent>
+        <presetMenuDiscard>Болих (бүх сэнсийг автомат руу дахин тогтоох)</presetMenuDiscard>
+        <labelPresetName>Пресетийн нэр:</labelPresetName>
+        <savePresetTitle>Тусгайлсан пресетийг хадгалах</savePresetTitle>
+        <editPresetTitle>Пресетийн нэрийг өөрчлөх</editPresetTitle>
+        <presetCreateNew>Шинэ...</presetCreateNew>
+        <presetCreateNewTitle>Шинэ пресет үүсгэх</presetCreateNewTitle>
+        <presetCreateNewMessage>Одоогоор таны бүх сэнснүүд системээс удирдагдаж байна.
+\n\nШинэ пресет үүсгэхийн тулд ядаж нэг сэнсний удирдлагыг Тусгайлсан удирдлага руу шилжүүлнэ үү.
+        </presetCreateNewMessage>
+        <presetCreateNewMessage2>
+        Ядаж нэг сэнсний удирдлагыг өөрчилнө үү, учир нь таны бүх сэнснүүд одоогоор 
+        '%1' пресеттэй ижил тултал үлээж байна.</presetCreateNewMessage2>
+        <presetCreateNewButton>'%1' сэнсэнд зориулсан тусгайлсан удирдлага</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Macs Fan Control Pro руу ахиулах</title>
+        <proInfo1>Про хувилбар нь сэнсний тусгайлсан пресетүүд үүсгэж хадгалах боломжийг нээх ба
+        та өөрийн үйл ажиллагаанаас шалтгаалж тэдгээрийг хооронд нь түргэн шуурхай сольж ажиллах боломжтой болох юм.
+        </proInfo1>
+        <proInfo2>Хэрэв та өмнө нь аппыг худалдаж авсан бол доор байрлах 'Лиценз оруулах' товчийг дарна уу.</proInfo2>
+        <buttonPurchase>Худалдаж авах</buttonPurchase>
+        <buttonEnterLicense>Лиценз оруулах</buttonEnterLicense>
+        <buttonLater>Дараа болъё</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Про хувилбарыг нээх</title>
+        <infoText>Хэрэв та өмнө нь Macs Fan Control-г худалдаж авсан бол доорх талбаруудад
+        танд очсон эмэйл баримт дээрх эмэйл хаяг мөн лицензийн түлхүүрийг оруулна уу. Энэ нь Macs Fan Control-ын
+        Про онцлогуудыг бүрэн нээх болно.</infoText>
+        <licenseVerifyInfo>Таны оруулсан мэдээллийг интернет ашиглан баталгаажуулж магадгүй.</licenseVerifyInfo>
+        <email>Эмэйл хаяг</email>
+        <licenseKey>Лицензийн түлхүүр</licenseKey>
+        <buttonUnlock>Нээх</buttonUnlock>
+        <buttonRestoreLicense>Лиценз сэргээх</buttonRestoreLicense>
+        <invalidLicenseTitle>Хүчингүй лиценз!</invalidLicenseTitle>
+        <invalidLicenseText>Үсэг, тоо мөн зураас бүрийг зөв дарааллаар оруулсан эсэхийг шалгана уу.
+        Хэрэв та гараар оруулсан бол оронд нь эмэйл баримтаасаа шууд хуулж тавихыг оролдоно уу.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Энэ лицензийн түлхүүр нь хүчинтэй боловч %1 дээр ашиглах
+         зориулалтгүй байна.</invalidLicenseMismatchOS>
+        <thanksTitle>Macs Fan Control Pro-г худалдаж авсанд баярлалаа.</thanksTitle>
+        <thanksInfo>Үнэгүй хувилбарын бүх хязгаарлалтуудыг хасав, 
+        аппыг хэрэглэх танд таалагдана гэдэгт бид итгэлтэй байна.</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Macs Fan Control-г харуулах</itemShow>
+        <itemAvailableFans>Боломжит сэнснүүд:</itemAvailableFans>
+        <itemFanPresets>Сэнсний пресетүүд:</itemFanPresets>
+        <itemMoreLinks>Илүү</itemMoreLinks>
+        <itemWebsite>Веб сайт</itemWebsite>
+        <itemCheckForUpdates>Шинэчлэл хайх...</itemCheckForUpdates>
+        <itemRateApp>MacUpdate дээр үнэлгээ өгөх</itemRateApp>
+        <itemFollowTwitter>@crystalidea-г дагах</itemFollowTwitter>
+        <itemExit>Гарах</itemExit>
+        <itemExitMac>Macs Fan Control-с гарах</itemExitMac>
+        <itemSensorBased>Мэдрэгчид суурилсан</itemSensorBased>
+        <itemUpgradeToPro>Про хувилбар руу ахиулах</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>Тохиргоо</title>
+        <TabGeneral>Ерөнхий</TabGeneral>
+        <tabTrayIcon>Тавиурын тэмдэг</tabTrayIcon>
+        <tabSensors>Мэдрэгчүүд</tabSensors>
+        <tabTrayIconMac>Менюний тавцны харагдац</tabTrayIconMac>
+        <tabDiagnostics>Оношилгоо</tabDiagnostics>
+        <staticLanguage>Хэлнүүд:</staticLanguage>
+        <checkSystemStart>Системтэй цуг автоматаар эхлэх(зөвлөж байна)</checkSystemStart>
+        <checkUpdatesOnStartup>Апп эхлэхэд шинэчлэл шалгах</checkUpdatesOnStartup>
+        <checkFahrenheit>Фаренгейтийн температурын хуваарь хэрэглэх</checkFahrenheit>
+        <checkPrecise>Боломжтой үед температурын утгыг нарийвчлалтай харуулах(ж нь. 45.4)</checkPrecise>
+        <labelSensors>Температурын утгыг авах төхөөрөмжүүд</labelSensors>
+        <checkExternalGPU>Thunderbolt-р холбогдсон eGPU-нүүд</checkExternalGPU>
+        <checkSATADrives>Холбогдсон SATA дискнүүд</checkSATADrives>
+        <checkNVMeDrives>Холбогдсон NVMe дискнүүд</checkNVMeDrives>
+        <staticSensor>Мэдрэгч:</staticSensor>
+        <staticFan>Сэнс:</staticFan>
+        <staticIcon>Тэмдэг:</staticIcon>
+        <comboIconOptionShow>Өнгөтэй</comboIconOptionShow>
+        <comboIconOptionShowBW>Моно хром</comboIconOptionShowBW>
+        <comboOptionNone>Юу ч үгүй</comboOptionNone>
+        <checkTwoLines>Сэнс/мэдрэгчийн утгыг 2 мөрөөр харуулж зай хэмнэх</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Зөвхөн Цельсээр)</staticCelsiusOnlyOnWindows>
+        <checkLog>Лог идэвхжүүлэх (дахин эхлүүлэх шаардлагатай)</checkLog>
+        <browseLog>Гүйлгэн үзэх</browseLog>
+        <buttonCopyTechInfo>Техникийн мэдээллийг хуулах</buttonCopyTechInfo>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Macs Fan Control-н тухай</title>
+        <staticTechnicalSupport>Форум дээрх Техникийн тусламж</staticTechnicalSupport>
+        <staticOnlineHelp>Онлайн тусламж</staticOnlineHelp>
+        <staticFreeVersion>Үнэгүй хувилбар</staticFreeVersion>
+        <staticProVersion>Про хувилбар, %1 компьютерын лиценз</staticProVersion>
+        <staticWarning>
+        ЭНЭХҮҮ ПРОГРАМ НЬ ӨӨРИЙН МАК КОМПЬЮТЕРДАА ЯМАР НЭГ ГЭМТЭЛ УЧРУУЛАХГҮЙГЭЭР ХЭРХЭН ХЭРЭГЛЭХЭЭ МЭДДЭГ АХИСАН ТӨВШНИЙ ХЭРЭГЛЭГЧДЭД 
+        ЗОРИУЛАГДСАН ЮМ. ПРОГРАМЫН БУРУУ ЗӨВ ХЭРЭГЛЭЭНЭЭС ҮҮДЭХ ЯМАР НЭГ ДАТАНЫ АЛДАГДАЛ, ГЭМТЭЛ, АШГИЙН АЛДАГДАЛ БОЛОН ӨӨР ЯМАР Ч ТӨРЛИЙН
+        АЛДАГДАЛД ЗОХИОГЧИД ХАРИУЦЛАГА ХҮЛЭЭХГҮЙ БОЛНО. </staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>MacUpdate дээр энэ аппд үнэлгээ өгөх</message>
+        <informativeText>Хэрэв та %1-г хэрэглэхдээ сэтгэл ханамжтай байвал хэдхэн хормыг үнэлгээ өгөхөд зарцуулах уу? Үүнд ганцхан хором л хангалттай. Дэмжлэг үзүүлсэнд баярлалаа!</informativeText>
+        <buttonRate>MacUpdate дээр үнэлгээ өгөх</buttonRate>
+        <buttonNoThanks>Үгүй, баярлалаа</buttonNoThanks>
+        <checkDontShowAgain>Энэ зурвасыг дахин бүү харуул</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>Хаах</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Цуцлах</buttonCancel>
+        <buttonContinue>Үргэлжлүүлэх</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>%1-нд гарсан</ReleasedOn>
+            <CheckForUpdates>Шинэчлэл шалгах...</CheckForUpdates>
+            <NewVersionAvailable>%1 шинэ хувилбар гарсан байна!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 гарсан байна - танд суусан байгаа нь %3. Та шинэчлэлийг одоо татмаар байна уу?</NewVersionAvailableText>
+            <UpdateAlertTitle>Програм хангамжийн шинэчлэл</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Хэвлэлтийн тэмдэглэлүүд:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Дараа нь сануул</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Энэ хувилбарыг алгасах</UpdateAlertSkip>
+            <UpdateAlertInstall>Шинэчлэл суулгах</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Шинэчлэлийг автоматаар шалгах</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Шинэчлэгдсэн байна!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 нь одоогоор хамгийн сүүлийн боломжит хувилбар байна.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Шинэчлэлийг татаж авахад алдаа гарлаа. Дараа дахин оролдоно уу.</MessageErrorConnect>
+            <MessageErrorParse>Шинэчлэлийн мэдээллийг задлан ялгал хийхэд алдаа гарлаа.</MessageErrorParse>
+            <UpdateProgressTitle>%1-г шинэчилж байна</UpdateProgressTitle>
+            <UpdateProgressCancel>Цуцлах</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Суулгаад дахин эхлүүлэх</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Шинэчлэлийг татаж байна...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Шинэчлэлийг задалж байна...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Суулгахад бэлэн</UpdateProgressStatusReady>
+            <UpdateProgressSize>%2-с %1</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Applications хавтас руу нүүлгэж чадсангүй</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Applications руу нүүлгэх</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Таны Home хавтас дахь Applications хавтас руу нүүлгэх үү?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>%1-г өөрөөр нь Applications хавтас руу нүүлгүүлэх үү?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Applications хавтас руу нүүлгэх</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Битгий нүүлгэ</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Энэ нь администраторын нууц үг шаардахыг анхаарна уу.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Энэ нь таны Downloads хавтсыг цэгцтэй байлгана.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Буцаах</actionUndo>
+            <actionRedo>Дахин хийх</actionRedo>
+            <actionCut>Таслах</actionCut>
+            <actionCopy>Хуулах</actionCopy>
+            <actionPaste>Наах</actionPaste>
+            <actionDelete>Устгах</actionDelete>
+            <actionSelectAll>Бүгдийг сонгох</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>ОК</buttonOK>
+            <buttonCancel>Цуцлах</buttonCancel>
+            <buttonClose>Хаах</buttonClose>
+            <buttonYes>Тийм</buttonYes>
+            <buttonNo>Үгүй</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
