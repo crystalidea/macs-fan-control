@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.9" Author="Tim Sarkisiani">
+    <MainWindow>
+        <staticSensorsListHeader>ტემპერატურული სენსორები:</staticSensorsListHeader>
+        <listColumnFan>ვენტილატორი</listColumnFan>
+        <listColumnRPM>მინიმალური/მიმდინარე/მაქსიმალური ბრუნები</listColumnRPM>
+        <listColumnControl>მართვა</listColumnControl>
+        <listColumnSensor>სენსორი</listColumnSensor>
+        <listColumnSensorValue>მნიშვნელობა</listColumnSensorValue>
+        <listSeparatorDrives>დისკები:</listSeparatorDrives>
+        <popupMenuItemControl>მართვის ხერხის შეცვლა...</popupMenuItemControl>
+        <popupMenuItemReset>ავტომატური მართვის დაბრუნება</popupMenuItemReset>
+        <fanControlAutomatic>ავტომატურად</fanControlAutomatic>
+        <fanControlAutomaticInfo>ავტომატური მართვა სისტემით</fanControlAutomaticInfo>
+        <fanControlConstant>მუდმივი მნიშვნელობა %1</fanControlConstant>
+        <fanControlSensor>სენსორზე დაყრდნობით %1</fanControlSensor>
+        <fanControlUnknown>უცნობია!</fanControlUnknown>
+        <buttonFanControlCustom>სხვა...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>მომხმარებლის რეჟიმის დაყენება</buttonFanControlCustomInfo>
+        <buttonMinimize>ჩაკეცვა</buttonMinimize>
+        <buttonMinimizeMac>მენიუს ხაზში შენახვა</buttonMinimizeMac>
+        <buttonPreferences>პარამეტრები...</buttonPreferences>
+        <buttonAbout>პროგრამის შესახებ...</buttonAbout>
+        <messageHelperToolInstall>ბრუნების გასაკონტროლებლად პროგრამას ესაჭიროება  დამხმარე უტილიტების დაყენება. წინააღმდეგ შემთხვევაში შეგეძლებათ მხოლოდ ვენტილატორის სიჩქარისა და ტემპერატურის სენსორის მნიშვნელობების მონიტორინგი.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>ვენტილატორების გასაკონტროლებლად პროგრამას ესაჭიროება არსებული დამხმარე უტილიტას განახლება.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>ვენტილატორების მართვა შეუძლებელია</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control-ს არ აქვს წვდომა თავის დამხმარე უტილიტასთან, რომელიც აუცილებელია ვენტილატორების გასაკონტროლებლად. \n\nდარწმუნდით იმაში, რომ მომხმარებლის პაროლი სწორად შეიყვანეთ.\n\nთქვენ შეგიძლიათ პროგრამის გამოყენება მონიტორინგის რეჟიმში.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>მხოლოდ მონიტორინგი</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>ვენტილატორები არ მოიძებნა [SMC-ს დარესეტება](https://support.apple.com/en-ge/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>ამ კომპიუტერს არ აქვს ვენტილატორი, ის პასიურად გრილდება</messageNoFansAvailable>
+    </MainWindow>
+    <FanControlDialog>
+        <title>ვენტილატორის მართვა '%1'</title>
+        <radioConstant>ბრუნების მუდმივი მნიშვნელობა</radioConstant>
+        <radioSensor>სენსორზე დაყრდნობით</radioSensor>
+        <staticIncrease>ტემპერატურა, რომლის მიღწევისას \nბრუნები იზრდება:</staticIncrease>
+        <staticMax>მაქსიმალური ტემპერატურა:</staticMax>
+        <statusWarning>პრობლემა - ვენტილატორების სიჩქარის მინიმალური და მაქსიმალური მაჩვენებლები ემთხვევა (%1).&lt;br/&gt; წაშალეთ სხვა პროგრამა, რომელიც აკონტროლებს ვენტილატორებს და დაარესეტეთ SMC.</statusWarning>
+        <saveToCurrentPreset>არსებულ პროფილში შენახვა ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>აქტიური პროფილი:</activePresetLabel>
+        <presetAutomatic>ავტომატურად</presetAutomatic>
+        <presetFullBlast>მაქსიმალური ბრუნები</presetFullBlast>
+        <presetCurrentUnsaved>მომხმარებლის*</presetCurrentUnsaved>
+        <presetMenuSave>შენახვა...</presetMenuSave>
+        <presetMenuRename>გადარქმევა</presetMenuRename>
+        <presetMenuDelete>წაშლა</presetMenuDelete>
+        <presetMenuPredefined>სისტემური პროფილები:</presetMenuPredefined>
+        <presetMenuCustom>მომხმარებლის პროფილები:</presetMenuCustom>
+        <presetMenuApply>შენახვა</presetMenuApply>
+        <presetMenuProVersion>ხელმისაწვდომია Pro ვერსიაში</presetMenuProVersion>
+        <presetMenuCurrent>პროფილი - %1</presetMenuCurrent>
+        <presetMenuDiscard>დარესეტება (ყველა ვენტილატორის დაბრუნება ავტომატურ მართვაზე)</presetMenuDiscard>
+        <labelPresetName>პროფილის დასახელება:</labelPresetName>
+        <savePresetTitle>მომხმარებლის პროფილის შენახვა</savePresetTitle>
+        <editPresetTitle>პროფილის გადარქმევა</editPresetTitle>
+        <presetCreateNew>ახალი...</presetCreateNew>
+        <presetCreateNewTitle>ახალი პროფილის შექმნა</presetCreateNewTitle>
+        <presetCreateNewMessage>ამ მომენტისთვის ყველა ვენტილატორს აკონტროლებს სისტემა. \n\nგადაიყვანეთ ერთი ვენტილატორი მაინც მომხმარებლის კონტროლზე, რათა შეძლოთ ახალი პროფილის შექმნა.</presetCreateNewMessage>
+        <presetCreateNewMessage2>გადაიყვანეთ ერთი ვენტილატორი მაინც მომხმარებლის კონტროლზე, რადგან ახლაც მაქსიმალურ ბრუნებზეა, რაც უკვე შეესაბამება აღნიშნულ პროფილს '%1'.</presetCreateNewMessage2>
+        <presetCreateNewButton>ვენტილატორის პარამეტრების შეცვლა '%1'</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>განაახლეთ Macs Fan Control Pro ვერსიაზე</title>
+        <proInfo1>Pro ვერსიას შეუძლია მართვის სამომხმარებლო პროფილების შექმნა და შენახვა, რათა შეგეძლოთ სწრაფი გადართვა მათ შორის, იქიდან გამომდინარე, თუ რას აკეთებთ კომპიუტერზე.</proInfo1>
+        <proInfo2>თუ თქვენ იყიდეთ პროგრამა ადრე, გთხოვთ, დააჭირეთ დაბლითა 'ლიცენზიის შეყვანის' ღილაკს.</proInfo2>
+        <buttonPurchase>ყიდვა</buttonPurchase>
+        <buttonEnterLicense>ლიცენზიის შეყვანა</buttonEnterLicense>
+        <buttonLater>მოგვიანებით</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Pro ვერსიის განბლოკვა</title>
+        <infoText>თუ თქვენ უკვე იყიდეთ Macs Fan Control, შეიყვანეთ თქვენი email მისამართი და ლიცენზიის კოდი ყიდვის დამადასტურებელი წერილიდან. ეს განბლოკავს  Macs Fan Control Pro ვერსიის ყველა ფუნქციას.</infoText>
+        <licenseVerifyInfo>შეყვანილი ინფორმაცია შეიძლება გადამოწმდეს ინტერნეტის დახმარებით.</licenseVerifyInfo>
+        <email>Email მისამართი</email>
+        <licenseKey>ლიცენზიის კოდი</licenseKey>
+        <buttonUnlock>განბლოკვა</buttonUnlock>
+        <buttonRestoreLicense>ლიცენზიის აღდგენა</buttonRestoreLicense>
+        <invalidLicenseTitle>არასწორი ლიცენზია!</invalidLicenseTitle>
+        <invalidLicenseText>დარწმუნდით, რომ შეყვანილი ყველა ასო, რიცხვი და ტირე სწორ თანმიმდევრობაშია. თუ ლიცენზიის კოდი თქვენით შეგყავთ, სცადეთ დამადასტურებელი email-იდან დააკოპიროთ და ჩასვათ.</invalidLicenseText>
+        <invalidLicenseMismatchOS>ლიცენზიის ეს კოდი სწორია, მაგრამ არ განკუთვნილია ამ სივრცეში გამოსაყენებლად. %1.</invalidLicenseMismatchOS>
+        <thanksTitle>გმადლობთ Macs Fan Control Pro-ს ყიდვისთვის</thanksTitle>
+        <thanksInfo>უფასო ვერსიის ყველა შეზღუდვა გაუქმებულია. იმედი გვაქვს, რომ პროგრამის გამოყენება მოგეწონებათ!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Macs Fan Control-ის ჩვენება</itemShow>
+        <itemAvailableFans>ხელმისაწვდომი ვენტილატორები:</itemAvailableFans>
+        <itemFanPresets>პროფილები:</itemFanPresets>
+        <itemMoreLinks>დამატებითი</itemMoreLinks>
+        <itemWebsite>ვებ-გვერდი</itemWebsite>
+        <itemCheckForUpdates>განახლების შემოწმება...</itemCheckForUpdates>
+        <itemRateApp>Macupdate-ზე შეფასება</itemRateApp>
+        <itemFollowTwitter>გამოგვყევით თვითერზე @crystalidea</itemFollowTwitter>
+        <itemExit>გამოსვლა</itemExit>
+        <itemExitMac>Macs Fan Control-ის დასრულება</itemExitMac>
+        <itemSensorBased>სენსორზე დაყრდნობით</itemSensorBased>
+        <itemUpgradeToPro>განახლება Pro ვერსიამდე</itemUpgradeToPro>
+    </TrayMenu>
+    <PreferencesWindow>
+        <title>პარამეტრები</title>
+        <TabGeneral>ძირითადი</TabGeneral>
+        <tabTrayIcon>ხატულება თრეიში</tabTrayIcon>
+        <tabSensors>სენსორები</tabSensors>
+        <tabTrayIconMac>მენიუს ხაზი</tabTrayIconMac>
+        <tabDiagnostics>დიაგნოსტიკა</tabDiagnostics>
+        <staticLanguage>ენა:</staticLanguage>
+        <checkSystemStart>ავტოსტარტი სისტემასთან ერთად (რეკომენდებულია)</checkSystemStart>
+        <checkUpdatesOnStartup>განახლების შემოწმება პროგრამის გაშვებისას</checkUpdatesOnStartup>
+        <checkFahrenheit>ფარენჰეიტის სკალას გამოყენება</checkFahrenheit>
+        <checkPrecise>ტემპერატურის უფრო ზუსტი ჩვენება (მეათედებამდე)</checkPrecise>
+        <labelSensors>ტემპერატურის ჩვენება</labelSensors>
+        <checkExternalGPU>დაკავშირებული გარე ვიდეო დაფების</checkExternalGPU>
+        <checkSATADrives>დაკავშირებული SATA დისკების</checkSATADrives>
+        <checkNVMeDrives>დაკავშირებული NVMe დისკების</checkNVMeDrives>
+        <staticSensor>სენსორი:</staticSensor>
+        <staticFan>ვენტილატორი:</staticFan>
+        <staticIcon>ხატულება:</staticIcon>
+        <comboIconOptionShow>ფერადი</comboIconOptionShow>
+        <comboIconOptionShowBW>მონოქრომატული</comboIconOptionShowBW>
+        <comboOptionNone>არა</comboOptionNone>
+        <checkTwoLines>ტემპერატურისა და ვენტილატორის ორი პატარა ხაზი</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(მხოლოდ ცელსიუსებში)</staticCelsiusOnlyOnWindows>
+        <checkLog>ლოგირება (აუცილებელია რესტარტი)</checkLog>
+        <browseLog>ლოგის ჩვენება</browseLog>
+        <buttonCopyTechInfo>ტექნიკური ინფორმაციის დაკოპირება</buttonCopyTechInfo>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Macs Fan Control პროგრამის შესახებ</title>
+        <staticTechnicalSupport>ტექნიკური მხარდაჭერა ფორუმზე</staticTechnicalSupport>
+        <staticOnlineHelp>ონლაინ დახმარება</staticOnlineHelp>
+        <staticFreeVersion>უფასო ვერსია</staticFreeVersion>
+        <staticProVersion>Pro ვერსია, ლიცენზია %1 კომპიუტერზე</staticProVersion>
+        <staticWarning>ეს პროგრამა მოწინავე მომხმარებლებისთვისაა,  ვისაც ესმის,  თუ როგორ გამოიყენონ ისე,  რომ არ დააზიანონ Mac-ი.  ავტორები არ არიან პასუხისმგებლები მონაცემების დაკარგვაზე,  ტექნიკის დაზიანებასა,  თუ ნებისმიერ სხვა დანაკარგზე,  რომელიც გამოწვეულია პროგრამის არასწორი გამოყენებით. </staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>შეფასება MacUpdate-ზე</message>
+        <informativeText>თუ მოგეწინათ %1, შეგიძლიათ დაგვითმოთ ერთი წუთი და შეგვაფასოთ? მადლობა გვერდში დგომისთვის!</informativeText>
+        <buttonRate>შეფასება MacUpdate-ზე</buttonRate>
+        <buttonNoThanks>არა, მადლობა</buttonNoThanks>
+        <checkDontShowAgain>არღარ მაჩვენო ეს შეტყობინება</checkDontShowAgain>
+    </RateMeDialog>
+    <Common>
+        <buttonClose>დახურვა</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>გაუქმება</buttonCancel>
+        <buttonContinue>გაგრძელება</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>გამოშვებულია %1</ReleasedOn>
+            <CheckForUpdates>განახლების შემოწმება...</CheckForUpdates>
+            <NewVersionAvailable>ხელმისაწვდომია ახალი ვერსია %1!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 უკვე ხელმისაწვდომია – თქვენ გიყენიათ %3. გინდა გადმოწერო ახლა?</NewVersionAvailableText>
+            <UpdateAlertTitle>პროგრამული უზრუნველყოფის განახლება</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>მინიშნებები გამოშვებაზე:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>შემახსენე მოგვიანებით</UpdateAlertRemindLater>
+            <UpdateAlertSkip>ამ ვერსიის გამოტოვება</UpdateAlertSkip>
+            <UpdateAlertInstall>განახლების დაყენება</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>განახლებების ავტომატური შემოწმება</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>თქვენ გიყენიათ ბოლო ვერსია.</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>თქვენ უკვე გიყენიათ ბოლო ვერსია %1 %2.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>განახლებაზე ინფორმაციის მიღებისას დაფიქსირდა შეცდომა. სცადეთ მოგვიანებით.</MessageErrorConnect>
+            <MessageErrorParse>განახლებაზე ინფორმაციის დამუშავებისას დაფიქსირდა შეცდომა.</MessageErrorParse>
+            <UpdateProgressTitle>განვაახლებ %1</UpdateProgressTitle>
+            <UpdateProgressCancel>გაუქმება</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>დაყენება და რესტარტი</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>ვიწერ განახლებას...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>ვამზადებ განახლებას...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>მზადაა დაყენებისთვის</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 %2-დან</UpdateProgressSize>
+            <UpdateProgressB>ბ</UpdateProgressB>
+            <UpdateProgressKB>კბ</UpdateProgressKB>
+            <UpdateProgressMB>მბ</UpdateProgressMB>
+            <UpdateProgressGB>გბ</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>გადატანა ვერ მოხერხდა.</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>პროგრამების საქაღალდეში გადატანა</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>გადავიტანო პროგრამების საქაღალდეში?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>გინდათ გადაიტანოთ %1 პროგრამების საქაღალდეში?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>გადატანა</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>არ გადაიტანო</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>საჭიროა ადმინისტრატორის პაროლი.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>ეს დაგეხმარებათ გადმოწერილების საქაღალდის სისუფთავეში.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>გაუქმება</actionUndo>
+            <actionRedo>გამეორება</actionRedo>
+            <actionCut>ამოჭრა</actionCut>
+            <actionCopy>დაკოპირება</actionCopy>
+            <actionPaste>ჩასმა</actionPaste>
+            <actionDelete>წაშლა</actionDelete>
+            <actionSelectAll>ყველაფრის არჩევა</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>OK</buttonOK>
+            <buttonCancel>გაუქმება</buttonCancel>
+            <buttonClose>დახურვა</buttonClose>
+            <buttonYes>კი</buttonYes>
+            <buttonNo>არა</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
