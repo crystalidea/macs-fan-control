@@ -3,7 +3,7 @@
     <MainWindow>
         <staticSensorsListHeader>溫度感測器清單：</staticSensorsListHeader>
         <listColumnFan>風扇</listColumnFan>
-        <listColumnRPM>最低/目前/最大轉速</listColumnRPM>
+        <listColumnRPM>最小/目前/最大轉速</listColumnRPM>
         <listColumnControl>控制模式</listColumnControl>
         <listColumnSensor>感測器</listColumnSensor>
         <listColumnSensorValue>溫度讀數</listColumnSensorValue>
