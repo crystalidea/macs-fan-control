@@ -130,7 +130,7 @@
         <staticTechnicalSupport>討論區技術支援</staticTechnicalSupport>
         <staticOnlineHelp>線上說明</staticOnlineHelp>
         <staticFreeVersion>免費版本</staticFreeVersion>
-        <staticProVersion>Pro 版本，授權給 %1 台計算機</staticProVersion>
+        <staticProVersion>Pro 版本，授權給 %1 台電腦</staticProVersion>
         <staticWarning>本程式客群為明瞭如何使用，不會做出傷害 Mac 電腦行徑的進階使用者使用。作者不會對因不當使用或使用此程式而導致的資料遺失、硬體損傷，及其他相關損失負責</staticWarning>
     </AboutDialog>
     <RateMeDialog>
