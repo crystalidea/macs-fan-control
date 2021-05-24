@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.5" Author="Yi-Jyun Pan, Tenjin">
+<LanguageStrings version="1.5.9" Author="Yi-Jyun Pan, Tenjin">
     <MainWindow>
         <staticSensorsListHeader>溫度感測器清單：</staticSensorsListHeader>
         <listColumnFan>風扇</listColumnFan>
