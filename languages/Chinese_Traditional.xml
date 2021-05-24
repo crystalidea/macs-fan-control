@@ -110,7 +110,7 @@
         <checkFahrenheit>使用華氏溫標表示法</checkFahrenheit>
         <checkPrecise>盡量顯示精確溫度（比如 45.4）</checkPrecise>
         <labelSensors>溫度讀取來源</labelSensors>
-        <checkExternalGPU>透過 Thunderbolt 連接的 eGPUs</checkExternalGPU>
+        <checkExternalGPU>透過 Thunderbolt 連接的 eGPU</checkExternalGPU>
         <checkSATADrives>連接的 SATA 磁碟</checkSATADrives>
         <checkNVMeDrives>連接的 NVMe 磁碟</checkNVMeDrives>
         <staticSensor>感測器：</staticSensor>
