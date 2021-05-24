@@ -24,7 +24,7 @@
         <messageHelperToolInstall>Macs Fan Control 需要安裝輔助程式才能控制風扇。如果您只想監測風扇與溫度感測器，則沒必要安裝。</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control 需要安裝新版輔助程式才能控制風扇。</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>無法控制風扇</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control 無法連接至輔助程式，以致無法控制風扇及調整轉速。請求管理者密碼的時候，請務必輸入。\n\n您仍然可以在「監控模式」下使用此應用程式。</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control 無法連接至輔助程式，以致無法控制風扇及調整轉速。請求管理者密碼的時候，請務必輸入。\n\n您仍然可以在「監控模式」下使用此應用程式。</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>監控模式</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>未偵測到風扇。請試試[重設 SMC](https://support.apple.com/zh-tw/HT201295)</messageNoFansDetected>
         <messageNoFansAvailable>這台電腦沒有風扇，屬被動降溫</messageNoFansAvailable>
