@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez">
+<LanguageStrings version="1.5.9" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
@@ -8,29 +8,29 @@
         <listColumnSensor>Sensor</listColumnSensor>
         <listColumnSensorValue>Valor</listColumnSensorValue>
         <listSeparatorDrives>Unidades de Disco:</listSeparatorDrives>
-        <popupMenuItemControl>Cambiar control...</popupMenuItemControl>
+        <popupMenuItemControl>Cambiar configuración...</popupMenuItemControl>
         <popupMenuItemReset>Restablecer configuración automática</popupMenuItemReset>
         <fanControlAutomatic>Automática</fanControlAutomatic>
         <fanControlAutomaticInfo>Automática (controlado por el sistema)</fanControlAutomaticInfo>
         <fanControlConstant>(%1 RPM)</fanControlConstant>
         <fanControlSensor>Basado en %1</fanControlSensor>
-        <fanControlUnknown>Desconocido!</fanControlUnknown>
+        <fanControlUnknown>¡Desconocido!</fanControlUnknown>
         <buttonFanControlCustom>Personalizar...</buttonFanControlCustom>
-        <buttonFanControlCustomInfo>Especificar un modo de control personalizado</buttonFanControlCustomInfo>
+        <buttonFanControlCustomInfo>Especificar una configuración personalizada</buttonFanControlCustomInfo>
         <buttonMinimize>Minimizar</buttonMinimize>
         <buttonMinimizeMac>Ocultar en barra de menús</buttonMinimizeMac>
         <buttonPreferences>Preferencias...</buttonPreferences>
         <buttonAbout>Acerca de...</buttonAbout>
         <messageHelperToolInstall>Macs Fan Control requiere la instalación de una herramienta de ayuda para controlar los ventiladores. Puede saltar este paso si solo desea monitorear los ventiladores y la temperatura de los sensores.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control necesita instalar una versión actualizada de la herramienta de ayuda para controlar los ventiladores.</messageHelperToolUpgrade>
-        <messageFanControlNotAvailableTitle>Control de ventiladores no disponible</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailableTitle>Configuración de ventiladores no disponible</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control no pudo iniciarse con permisos administrativos para activar el control del ventilador, así como para ajustar las velocidades. \n\nAsegúrese de ingresar una contraseña de administrador cuando se le solicite.\n\nPuede utilizar la aplicación solo para monitorear.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Solo Monitoreo</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>No se han detectado ventiladores. Por favor, intente [restablecer el Controlador de Gestión del Sistema (SMC)](https://support.apple.com/es-es/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Este ordenador no tiene ventiladores y se refrigera de forma pasiva.</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>Cambiar control para ventilador '%1'</title>
+        <title>Cambiar configuración para ventilador '%1'</title>
         <radioConstant>Valor de RPM constante</radioConstant>
         <radioSensor>Valor basado en sensor</radioSensor>
         <staticIncrease>Temperatura a la que la velocidad del ventilador aumentará:</staticIncrease>
@@ -57,13 +57,13 @@
         <editPresetTitle>Editar nombre de configuración</editPresetTitle>
         <presetCreateNew>Nueva...</presetCreateNew>
         <presetCreateNewTitle>Crear nueva configuración</presetCreateNewTitle>
-        <presetCreateNewMessage>Actualmente, todos los ventiladores son controlados por el sistema. \n\nPor favor, cambie control a Personalizar para al menos uno de los ventiladores para poder crear una nueva configuración.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Personalizar control para ventilador '%1'</presetCreateNewButton>
+        <presetCreateNewMessage>Actualmente, todos los ventiladores son controlados por el sistema. \n\nPor favor, cambie la configuración a Personalizada de al menos uno de los ventiladores para poder crear una nueva configuración.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Por favor, cambie la configuración de al menos uno de los ventiladores. Actualmente todos estan funcionando a máxima potencia basado en la configuración '%1'.</presetCreateNewMessage2>
+        <presetCreateNewButton>Personalizar configuración para ventilador '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Actualizar a Macs Fan Control Pro</title>
-        <proInfo1>Macs Fan Control Pro permite crear y guardar configuraciones de ventilador personalizadas para que pueda cambiar rápidamente entre ellos según su actividad.</proInfo1>
+        <proInfo1>Macs Fan Control Pro permite crear y guardar configuraciones de ventilador personalizadas para que pueda cambiar rápidamente entre ellos según su uso.</proInfo1>
         <proInfo2>Si ya compró la aplicación, presione el botón 'Ingresar licencia' a continuación.</proInfo2>
         <buttonPurchase>Comprar</buttonPurchase>
         <buttonEnterLicense>Ingresar licencia</buttonEnterLicense>
@@ -71,26 +71,26 @@
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>Desbloquear versión Pro</title>
-        <infoText>Si ya compró Macs Fan Control, ingrese su email y la clave de licencia localizada en el recibo de correo electrónico en los cuadros a continuación. Esto desbloqueará completamente las funciones Pro de Macs Fan Control.</infoText>
-        <licenseVerifyInfo>La información que ingrese puede ser verificada por Internet.</licenseVerifyInfo>
-        <email>Email</email>
+        <infoText>Si ya compró Macs Fan Control, introduzca su email y la clave de licencia localizada en el recibo del correo electrónico en los cuadros a continuación. Esto desbloqueará completamente las funciones Pro de Macs Fan Control.</infoText>
+        <licenseVerifyInfo>La información que introduzca puede ser verificada por Internet.</licenseVerifyInfo>
+        <email>Dirección de correo electrónico</email>
         <licenseKey>Clave de licencia</licenseKey>
         <buttonUnlock>Desbloquear</buttonUnlock>
         <buttonRestoreLicense>Restablecer licencia</buttonRestoreLicense>
-        <invalidLicenseTitle>Licencia inválida!</invalidLicenseTitle>
-        <invalidLicenseText>Asegúrese de ingresar todas las letras, números y guiones en el orden correcto. Si está escribiendo la clave a mano, intente copiarlo y pegarlo desde su recibo de correo electrónico.</invalidLicenseText>
+        <invalidLicenseTitle>¡Licencia inválida!</invalidLicenseTitle>
+        <invalidLicenseText>Asegúrese de ingresar todas las letras, números y guiones en el orden correcto. Si está escribiendo la clave a mano, intente copiarla y pegarla desde su recibo del correo electrónico.</invalidLicenseText>
         <invalidLicenseMismatchOS>Esta clave de licencia es válida pero no está destinada a ser utilizada en %1.</invalidLicenseMismatchOS>
         <thanksTitle>Gracias por comprar Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Se han eliminado todas las limitaciones de la versión gratuita. Esperamos que disfrute usando la aplicación!</thanksInfo>
+        <thanksInfo>Se han eliminado todas las limitaciones de la versión gratuita. ¡Esperamos que disfrute usando la aplicación!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Mostrar Macs Fan Control</itemShow>
         <itemAvailableFans>Ventiladores disponibles:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Configuraciones de los ventiladores:</itemFanPresets>
         <itemMoreLinks>Más</itemMoreLinks>
         <itemWebsite>Sitio Web</itemWebsite>
         <itemCheckForUpdates>Buscar actualizaciones...</itemCheckForUpdates>
-        <itemRateApp>Calificar en Macupdate</itemRateApp>
+        <itemRateApp>Calificar en MacUpdate</itemRateApp>
         <itemFollowTwitter>Seguir a @crystalidea</itemFollowTwitter>
         <itemExit>Salir</itemExit>
         <itemExitMac>Salir de Macs Fan Control</itemExitMac>
@@ -101,7 +101,7 @@
         <title>Preferencias</title>
         <TabGeneral>General</TabGeneral>
         <tabTrayIcon>Icono de bandeja</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Sensores</tabSensors>
         <tabTrayIconMac>Barra de menús</tabTrayIconMac>
         <tabDiagnostics>Diagnósticos</tabDiagnostics>
         <staticLanguage>Idioma:</staticLanguage>
@@ -135,8 +135,8 @@
     </AboutDialog>
     <RateMeDialog>
         <message>Calificar la aplicación en MacUpdate</message>
-        <informativeText>Si le gusta usar %1, ¿Se tomaría un momento para calificarla? No le tomará más de un minuto. ¡Gracias por su apoyo!</informativeText>
-        <buttonRate>Calificar on MacUpdate</buttonRate>
+        <informativeText>Si le gusta usar %1, ¿Podría tomarse un momento para calificarla? No le tomará más de un minuto. ¡Gracias por su apoyo!</informativeText>
+        <buttonRate>Calificar en MacUpdate</buttonRate>
         <buttonNoThanks>No, gracias</buttonNoThanks>
         <checkDontShowAgain>No mostrar este mensaje otra vez</checkDontShowAgain>
     </RateMeDialog>
@@ -160,8 +160,8 @@
             <UpdateAlertAutomaticUpdates>Buscar actualizaciónes automaticamente</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>Su versión está actualizada</MessageNoUpdateAvailable>
             <MessageNoUpdateAvailableDescription>%1 %2 es la última versión disponible.</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>Error al descargar actualización. Por favor, intente más tarde.</MessageErrorConnect>
-            <MessageErrorParse>Ocurrió un error actualizando el feed de actualizaciones.</MessageErrorParse>
+            <MessageErrorConnect>Error al descargar la actualización. Por favor, inténtelo más tarde.</MessageErrorConnect>
+            <MessageErrorParse>Ocurrió un error actualizando el historial de actualizaciones.</MessageErrorParse>
             <UpdateProgressTitle>Actualizando %1</UpdateProgressTitle>
             <UpdateProgressCancel>Cancelar</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>Instalar y Reiniciar</UpdateProgressInstallAndRelaunch>
@@ -194,10 +194,10 @@
             <actionSelectAll>Seleccionar todo</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
-            <buttonOK>OK</buttonOK>
+            <buttonOK>Aceptar</buttonOK>
             <buttonCancel>Cancelar</buttonCancel>
             <buttonClose>Cerrar</buttonClose>
-            <buttonYes>Si</buttonYes>
+            <buttonYes>Sí</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
     </core>
