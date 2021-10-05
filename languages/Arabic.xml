@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.9" Author="Samer Sabah-Iraq">
     <MainWindow>
         <staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
@@ -26,7 +26,7 @@
         <messageFanControlNotAvailableTitle>التطبيق غير متاح</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>البرنامج غير قادر على الاتصال بالتطبيق المساعد لتمكينه بالشكل الصحيح للتحكم بالسرعات. \n\تأكد من ادخال كلمة سر المدير عند الطلب.\n\nلا يزال بإمكانك استخدام التطبيق في وضع المراقبة فقط.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>وضع المراقبة فقط</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>لا مراوح مكتشفة, رجاءاً  قم بعمل [reset SMC](https://support.apple.com/ar-ae/HT201295)</messageNoFansDetected>
+        <messageNoFansDetected>لا مراوح مكتشفة, رجاءاً قم بعمل [reset SMC](https://support.apple.com/ar-ae/HT201295)</messageNoFansDetected>
         <messageNoFansAvailable>لا يحتوي هذا الكمبيوتر على أي مراوح ويتم تبريده بشكل طبيعي</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
@@ -92,6 +92,7 @@
         <itemCheckForUpdates>التحقق من وجود تحديثات...</itemCheckForUpdates>
         <itemRateApp>قيمنا على Macupdate</itemRateApp>
         <itemFollowTwitter>تابعنا @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
         <itemExit>الخروج</itemExit>
         <itemExitMac>الخروج من البرنامج</itemExitMac>
         <itemSensorBased>اساس تحكم المستشعر</itemSensorBased>
@@ -140,6 +141,12 @@
         <buttonNoThanks>لا ، شكراً</buttonNoThanks>
         <checkDontShowAgain>لا تظهر هذه الرسالة مرة اخرى</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>اغلاق</buttonClose>
         <buttonOK>موافق</buttonOK>

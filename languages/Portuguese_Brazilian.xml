@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.8" Author="Frederico Raylander">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
@@ -92,6 +92,7 @@
         <itemCheckForUpdates>Procurar atualizações...</itemCheckForUpdates>
         <itemRateApp>Avaliar em MacUpdate</itemRateApp>
         <itemFollowTwitter>Seguir @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
         <itemExit>Sair</itemExit>
         <itemExitMac>Sair do Macs Fan Control</itemExitMac>
         <itemSensorBased>Baseado no Sensor</itemSensorBased>
@@ -140,6 +141,12 @@
         <buttonNoThanks>Não, obrigado</buttonNoThanks>
         <checkDontShowAgain>Não mostrar essa mensagem novamente</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>Fechar</buttonClose>
         <buttonOK>OK</buttonOK>

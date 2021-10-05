@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.1.12" Author="Gábor&amp;Patrik">
     <MainWindow>
         <staticSensorsListHeader>Hőmérséklet szenzorok:</staticSensorsListHeader>
@@ -92,6 +92,7 @@
         <itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
         <itemRateApp>Értékelés a Macupdate oldalán</itemRateApp>
         <itemFollowTwitter>Követés Twitteren: @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
         <itemExit>Kilépés</itemExit>
         <itemExitMac>Quit Macs Fan Control</itemExitMac>
         <itemSensorBased>Szenzor alapú</itemSensorBased>
@@ -140,6 +141,12 @@
         <buttonNoThanks>Nem, köszönöm</buttonNoThanks>
         <checkDontShowAgain>Ne mutassa ezt az üzenetet mégegyszer</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>Kilépés</buttonClose>
         <buttonOK>OK</buttonOK>

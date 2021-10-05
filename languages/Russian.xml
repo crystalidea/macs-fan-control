@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.9" Author="Denis Mikhailov">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.10" Author="Denis Mikhailov">
     <MainWindow>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
         <listColumnFan>Вентилятор</listColumnFan>
@@ -92,6 +92,7 @@
         <itemCheckForUpdates>Проверка обновлений...</itemCheckForUpdates>
         <itemRateApp>Оценить на Macupdate</itemRateApp>
         <itemFollowTwitter>Подписаться на твиттер @crystalidea</itemFollowTwitter>
+        <itemUninstall>Деинсталляция...</itemUninstall>
         <itemExit>Выход</itemExit>
         <itemExitMac>Завершить Macs Fan Control</itemExitMac>
         <itemSensorBased>Основано на сенсоре</itemSensorBased>
@@ -140,6 +141,12 @@
         <buttonNoThanks>Нет, спасибо</buttonNoThanks>
         <checkDontShowAgain>Не показывать это сообщение снова</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Удаление Macs Fan Control?</title>
+        <message>Данное действие полностью удалит программу с Вашего mac включая ее настройки, вспомогательную утилиту управления вентиляторами, а также лицензионную информацию Pro версии. Все изменения, внесенные Macs Fan Control по изменению работы вентиляторов будут отменены, а вентиляторы будут возвращены к автоматическому управлению системой. \n\nВам будет предложено ввести пароль администратора для удаления программы.</message>
+        <authorizeText>Пожалуйста, разрешите программе удалить ее вспомогательную утилиту управления вентиляторами.</authorizeText>
+        <buttonUninstall>Удалить</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>Закрыть</buttonClose>
         <buttonOK>OK</buttonOK>

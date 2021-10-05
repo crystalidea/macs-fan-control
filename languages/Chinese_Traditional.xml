@@ -92,6 +92,7 @@
         <itemCheckForUpdates>檢查更新⋯</itemCheckForUpdates>
         <itemRateApp>在 MacUpdate 評價</itemRateApp>
         <itemFollowTwitter>追蹤 @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
         <itemExit>離開</itemExit>
         <itemExitMac>結束 Macs Fan Control</itemExitMac>
         <itemSensorBased>基於感測器數值</itemSensorBased>
@@ -140,6 +141,12 @@
         <buttonNoThanks>抱歉，不願意</buttonNoThanks>
         <checkDontShowAgain>不再顯示本訊息</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>關閉</buttonClose>
         <buttonOK>好</buttonOK>
@@ -148,7 +155,6 @@
     </Common>
     <core>
         <UpdateChecker>
-            <!-- ex. 5 天前發布，2021/5/24發布 -->
             <ReleasedOn>%1發布</ReleasedOn>
             <CheckForUpdates>檢查更新⋯</CheckForUpdates>
             <NewVersionAvailable>已經可以使用新版 %1！</NewVersionAvailable>

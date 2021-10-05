@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.9" Author="Tim Sarkisiani">
     <MainWindow>
         <staticSensorsListHeader>ტემპერატურული სენსორები:</staticSensorsListHeader>
@@ -21,7 +21,7 @@
         <buttonMinimizeMac>მენიუს ხაზში შენახვა</buttonMinimizeMac>
         <buttonPreferences>პარამეტრები...</buttonPreferences>
         <buttonAbout>პროგრამის შესახებ...</buttonAbout>
-        <messageHelperToolInstall>ბრუნების გასაკონტროლებლად პროგრამას ესაჭიროება  დამხმარე უტილიტების დაყენება. წინააღმდეგ შემთხვევაში შეგეძლებათ მხოლოდ ვენტილატორის სიჩქარისა და ტემპერატურის სენსორის მნიშვნელობების მონიტორინგი.</messageHelperToolInstall>
+        <messageHelperToolInstall>ბრუნების გასაკონტროლებლად პროგრამას ესაჭიროება დამხმარე უტილიტების დაყენება. წინააღმდეგ შემთხვევაში შეგეძლებათ მხოლოდ ვენტილატორის სიჩქარისა და ტემპერატურის სენსორის მნიშვნელობების მონიტორინგი.</messageHelperToolInstall>
         <messageHelperToolUpgrade>ვენტილატორების გასაკონტროლებლად პროგრამას ესაჭიროება არსებული დამხმარე უტილიტას განახლება.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>ვენტილატორების მართვა შეუძლებელია</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control-ს არ აქვს წვდომა თავის დამხმარე უტილიტასთან, რომელიც აუცილებელია ვენტილატორების გასაკონტროლებლად. \n\nდარწმუნდით იმაში, რომ მომხმარებლის პაროლი სწორად შეიყვანეთ.\n\nთქვენ შეგიძლიათ პროგრამის გამოყენება მონიტორინგის რეჟიმში.</messageFanControlNotAvailable>
@@ -71,7 +71,7 @@
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>Pro ვერსიის განბლოკვა</title>
-        <infoText>თუ თქვენ უკვე იყიდეთ Macs Fan Control, შეიყვანეთ თქვენი email მისამართი და ლიცენზიის კოდი ყიდვის დამადასტურებელი წერილიდან. ეს განბლოკავს  Macs Fan Control Pro ვერსიის ყველა ფუნქციას.</infoText>
+        <infoText>თუ თქვენ უკვე იყიდეთ Macs Fan Control, შეიყვანეთ თქვენი email მისამართი და ლიცენზიის კოდი ყიდვის დამადასტურებელი წერილიდან. ეს განბლოკავს Macs Fan Control Pro ვერსიის ყველა ფუნქციას.</infoText>
         <licenseVerifyInfo>შეყვანილი ინფორმაცია შეიძლება გადამოწმდეს ინტერნეტის დახმარებით.</licenseVerifyInfo>
         <email>Email მისამართი</email>
         <licenseKey>ლიცენზიის კოდი</licenseKey>
@@ -92,6 +92,7 @@
         <itemCheckForUpdates>განახლების შემოწმება...</itemCheckForUpdates>
         <itemRateApp>Macupdate-ზე შეფასება</itemRateApp>
         <itemFollowTwitter>გამოგვყევით თვითერზე @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
         <itemExit>გამოსვლა</itemExit>
         <itemExitMac>Macs Fan Control-ის დასრულება</itemExitMac>
         <itemSensorBased>სენსორზე დაყრდნობით</itemSensorBased>
@@ -131,7 +132,7 @@
         <staticOnlineHelp>ონლაინ დახმარება</staticOnlineHelp>
         <staticFreeVersion>უფასო ვერსია</staticFreeVersion>
         <staticProVersion>Pro ვერსია, ლიცენზია %1 კომპიუტერზე</staticProVersion>
-        <staticWarning>ეს პროგრამა მოწინავე მომხმარებლებისთვისაა,  ვისაც ესმის,  თუ როგორ გამოიყენონ ისე,  რომ არ დააზიანონ Mac-ი.  ავტორები არ არიან პასუხისმგებლები მონაცემების დაკარგვაზე,  ტექნიკის დაზიანებასა,  თუ ნებისმიერ სხვა დანაკარგზე,  რომელიც გამოწვეულია პროგრამის არასწორი გამოყენებით. </staticWarning>
+        <staticWarning>ეს პროგრამა მოწინავე მომხმარებლებისთვისაა, ვისაც ესმის, თუ როგორ გამოიყენონ ისე, რომ არ დააზიანონ Mac-ი. ავტორები არ არიან პასუხისმგებლები მონაცემების დაკარგვაზე, ტექნიკის დაზიანებასა, თუ ნებისმიერ სხვა დანაკარგზე, რომელიც გამოწვეულია პროგრამის არასწორი გამოყენებით. </staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>შეფასება MacUpdate-ზე</message>
@@ -140,6 +141,12 @@
         <buttonNoThanks>არა, მადლობა</buttonNoThanks>
         <checkDontShowAgain>არღარ მაჩვენო ეს შეტყობინება</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>დახურვა</buttonClose>
         <buttonOK>OK</buttonOK>

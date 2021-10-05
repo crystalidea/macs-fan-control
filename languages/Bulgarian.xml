@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.8" Author="Mladen Nikolov">
     <MainWindow>
         <staticSensorsListHeader>Tемпературни сензори:</staticSensorsListHeader>
@@ -92,6 +92,7 @@
         <itemCheckForUpdates>Проверка за актуализации...</itemCheckForUpdates>
         <itemRateApp>Оцени в Macupdate</itemRateApp>
         <itemFollowTwitter>Последвай @crystalidea</itemFollowTwitter>
+        <itemUninstall>Uninstall...</itemUninstall>
         <itemExit>Изход</itemExit>
         <itemExitMac>Спри Macs Fan Control</itemExitMac>
         <itemSensorBased>Базирано на сензора</itemSensorBased>
@@ -140,6 +141,12 @@
         <buttonNoThanks>Не, благодаря</buttonNoThanks>
         <checkDontShowAgain>Не показвай това съобщение отново</checkDontShowAgain>
     </RateMeDialog>
+    <UninstallDialog>
+        <title>Uninstall Macs Fan Control?</title>
+        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
+        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
+        <buttonUninstall>Uninstall</buttonUninstall>
+    </UninstallDialog>
     <Common>
         <buttonClose>Затвори</buttonClose>
         <buttonOK>OK</buttonOK>
