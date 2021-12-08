@@ -142,10 +142,10 @@
         <checkDontShowAgain>请不要再显示此信息</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>卸载Macs Fan Control?</title>
+        <message>您即将从Mac上完全卸载该应用程序，包括其首选项、风扇助手工具和专业版的许可数据。对默认风扇控制的所有修改都将恢复，并且风扇将由系统自动控制。\n\n系统可能会提示您授权应用程序自行卸载。</message>
+        <authorizeText>请授权应用程序以卸载风扇助手工具。</authorizeText>
+        <buttonUninstall>卸载</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>关闭</buttonClose>
