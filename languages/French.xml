@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.9" Author="Frederic Kagan, Brooksi, Yann Ricquebourg">
+<LanguageStrings version="1.5.10" Author="Frederic Kagan, Brooksi, Yann Ricquebourg, Maxime Leroy">
     <MainWindow>
-        <staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
+        <staticSensorsListHeader>Sondes de température :</staticSensorsListHeader>
         <listColumnFan>Ventilateur</listColumnFan>
         <listColumnRPM>Vitesse mini/actuelle/maxi</listColumnRPM>
         <listColumnControl>Contrôle</listColumnControl>
         <listColumnSensor>Sonde</listColumnSensor>
         <listColumnSensorValue>Valeur</listColumnSensorValue>
-        <listSeparatorDrives>Disques durs :</listSeparatorDrives>
+        <listSeparatorDrives>Disques durs :</listSeparatorDrives>
         <popupMenuItemControl>Changer de contrôle...</popupMenuItemControl>
         <popupMenuItemReset>Retour au contrôle automatique</popupMenuItemReset>
         <fanControlAutomatic>Automatique</fanControlAutomatic>
@@ -31,10 +31,10 @@
     </MainWindow>
     <FanControlDialog>
         <title>Contrôle du ventilateur « %1 »</title>
-        <radioConstant>Valeur constante (t/min)</radioConstant>
+        <radioConstant>Valeur constante (tr/min)</radioConstant>
         <radioSensor>Valeur basée sur la sonde</radioSensor>
-        <staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
-        <staticMax>Température maxi :</staticMax>
+        <staticIncrease>Température à partir de laquelle la vitesse augmente :</staticIncrease>
+        <staticMax>Température maxi :</staticMax>
         <statusWarning>Il y a un problème : les vitesses mini et maxi sont identiques (%1).&lt;br/&gt; Assurez-vous de n'utiliser qu'un seul logiciel contrôleur de vitesse de ventilateur et réinitialisez le SMC.</statusWarning>
         <saveToCurrentPreset>Enregistrer dans le réglage actuel (« %1 »)</saveToCurrentPreset>
     </FanControlDialog>
@@ -44,20 +44,20 @@
         <presetFullBlast>Plein régime</presetFullBlast>
         <presetCurrentUnsaved>Éditer*</presetCurrentUnsaved>
         <presetMenuSave>Sauvegarder...</presetMenuSave>
-        <presetMenuRename>Renomer</presetMenuRename>
+        <presetMenuRename>Renommer</presetMenuRename>
         <presetMenuDelete>Supprimer</presetMenuDelete>
-        <presetMenuPredefined>Réglages prédéfini :</presetMenuPredefined>
+        <presetMenuPredefined>Réglages prédéfinis :</presetMenuPredefined>
         <presetMenuCustom>Réglages personnalisés :</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
+        <presetMenuApply>Appliquer</presetMenuApply>
         <presetMenuProVersion>Disponible en version PRO</presetMenuProVersion>
         <presetMenuCurrent>Réglage - %1</presetMenuCurrent>
-        <presetMenuDiscard>Annuler les modifications (réinitialiser tous les ventilateurs sur auto)</presetMenuDiscard>
+        <presetMenuDiscard>Annuler les modifications (réinitialiser tous les ventilateurs en auto)</presetMenuDiscard>
         <labelPresetName>Nom du réglage :</labelPresetName>
         <savePresetTitle>Enregistrer le réglage personnalisé</savePresetTitle>
         <editPresetTitle>Éditer le nom du réglage</editPresetTitle>
         <presetCreateNew>Nouveau...</presetCreateNew>
         <presetCreateNewTitle>Créer un nouveau réglage</presetCreateNewTitle>
-        <presetCreateNewMessage>Tous vos ventilateurs sont actuellement contrôlés par le système. \n\nVeuillez changer le contrôle à « Personnaliser » pour qu'au moins un de vos ventilateurs puisse créer un nouveau réglage.</presetCreateNewMessage>
+        <presetCreateNewMessage>Tous vos ventilateurs sont actuellement contrôlés par le système.\n\nVeuillez changer le contrôle à « Personnaliser » pour qu'au moins un de vos ventilateurs puisse créer un nouveau réglage.</presetCreateNewMessage>
         <presetCreateNewMessage2>Veuillez modifier le contrôle d'au moins un de vos ventilateurs, car tous tournent actuellement à plein régime, correspondant au réglage existant « %1 ».</presetCreateNewMessage2>
         <presetCreateNewButton>Contrôle personnalisé pour le ventilateur « %1 »</presetCreateNewButton>
     </Presets>
@@ -77,22 +77,22 @@
         <licenseKey>Clé de licence</licenseKey>
         <buttonUnlock>Déverrouiller</buttonUnlock>
         <buttonRestoreLicense>Restaurer la licence</buttonRestoreLicense>
-        <invalidLicenseTitle>Licence invalide !</invalidLicenseTitle>
+        <invalidLicenseTitle>Licence invalide !</invalidLicenseTitle>
         <invalidLicenseText>Assurez-vous que toutes les lettres, chiffres et tirets sont entrés dans le bon ordre. Si vous tapez le numéro à la main, essayez plutôt de le copier-coller depuis le reçu de votre courriel.</invalidLicenseText>
         <invalidLicenseMismatchOS>Cette clé de licence est valide mais n'est pas destinée à être utilisée sur %1.</invalidLicenseMismatchOS>
         <thanksTitle>Merci d’avoir acheté Mac Control Fan Control Pro</thanksTitle>
-        <thanksInfo>Toutes les limitations de la version gratuite ont été supprimées, nous espérons que vous apprécierez l'utilisation de l'application !</thanksInfo>
+        <thanksInfo>Toutes les limitations de la version gratuite ont été supprimées, nous espérons que vous apprécierez l'utilisation de l'application !</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Afficher Macs Fan Control</itemShow>
-        <itemAvailableFans>Ventilateurs :</itemAvailableFans>
+        <itemAvailableFans>Ventilateurs :</itemAvailableFans>
         <itemFanPresets>Réglages du ventilateur :</itemFanPresets>
         <itemMoreLinks>Plus</itemMoreLinks>
         <itemWebsite>Site web</itemWebsite>
         <itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
         <itemRateApp>Noter sur Macupdate</itemRateApp>
         <itemFollowTwitter>Suivre @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Désinstaller...</itemUninstall>
         <itemExit>Quitter</itemExit>
         <itemExitMac>Quitter Macs Fan Control</itemExitMac>
         <itemSensorBased>Basé sur la sonde</itemSensorBased>
@@ -105,7 +105,7 @@
         <tabSensors>Capteurs</tabSensors>
         <tabTrayIconMac>Affichage dans la barre des menus</tabTrayIconMac>
         <tabDiagnostics>Diagnostique</tabDiagnostics>
-        <staticLanguage>Langue :</staticLanguage>
+        <staticLanguage>Langue :</staticLanguage>
         <checkSystemStart>Démarrer réduit avec la session (recommandé)</checkSystemStart>
         <checkUpdatesOnStartup>Vérifier les mises à jour au démarrage de l'application</checkUpdatesOnStartup>
         <checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
@@ -114,12 +114,12 @@
         <checkExternalGPU>eGPU connectés par Thunderbolt</checkExternalGPU>
         <checkSATADrives>Disques SATA connectés</checkSATADrives>
         <checkNVMeDrives>Lecteurs NVMe connectés</checkNVMeDrives>
-        <staticSensor>Sonde :</staticSensor>
-        <staticFan>Ventilateur :</staticFan>
-        <staticIcon>Icône :</staticIcon>
+        <staticSensor>Sonde :</staticSensor>
+        <staticFan>Ventilateur :</staticFan>
+        <staticIcon>Icône :</staticIcon>
         <comboIconOptionShow>En couleurs</comboIconOptionShow>
         <comboIconOptionShowBW>En noir et blanc</comboIconOptionShowBW>
-        <comboOptionNone>Non</comboOptionNone>
+        <comboOptionNone>Aucune</comboOptionNone>
         <checkTwoLines>Condenser les indications sur 2 lignes pour gagner de la place</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(°C uniquement)</staticCelsiusOnlyOnWindows>
         <checkLog>Activer l'historique (après redémarrage)</checkLog>
@@ -139,13 +139,13 @@
         <informativeText>Si vous appréciez %1, pourriez-vous prendre un moment pour le noter ? Cela ne prendra pas plus d'une minute. Merci de votre soutien !</informativeText>
         <buttonRate>Noter sur MacUpdate</buttonRate>
         <buttonNoThanks>Non merci</buttonNoThanks>
-        <checkDontShowAgain>Ne plus affficher ce message</checkDontShowAgain>
+        <checkDontShowAgain>Ne plus afficher ce message</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Désinstaller Macs Fan Control?</title>
+        <message>Vous êtes sur le point de complètement désinstallé le programme de votre Mac, ainsi que ces préférences, l'utilitaire de gestion du ventilateur et licence de la version Pro. Toutes les modifications concernant le contrôle du ventilateur seront rétablies à la valeur par défaut les ventilateur(s) seront à nouveau contrôlés automatiquement par le système.\n\nIl peut vous êtes demandé d'autoriser le programme à se désinstaller lui-même.</message>
+        <authorizeText>Veuillez autoriser le programme pour qu'il désinstalle l'utilitaire de gestion du ventilateur.</authorizeText>
+        <buttonUninstall>Désinstaller</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Fermer</buttonClose>
@@ -158,7 +158,7 @@
             <ReleasedOn>publié le %1</ReleasedOn>
             <CheckForUpdates>Rechercher des mises à jour...</CheckForUpdates>
             <NewVersionAvailable>Une nouvelle version de %1 est disponible !</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
+            <NewVersionAvailableText>%1 %2 est disponible ; vous utilisez la version %3. Voulez-vous le télécharger maintenant ?</NewVersionAvailableText>
             <UpdateAlertTitle>Mise à jour du logiciel</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Notes de version :</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Pas maintenant</UpdateAlertRemindLater>
@@ -166,16 +166,16 @@
             <UpdateAlertInstall>Installer</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>Rechercher automatiquement les mises à jour</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>Votre logiciel est à jour !</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
+            <MessageNoUpdateAvailableDescription>%1 %2 est la version la plus récente disponible.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>Une erreur est survenue pendant le téléchargement de la mise à jour. Veuillez réessayer plus tard.</MessageErrorConnect>
             <MessageErrorParse>Une erreur est survenue pendant l’analyse de la mise à jour.</MessageErrorParse>
-            <UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
+            <UpdateProgressTitle>Mise à jour de %1</UpdateProgressTitle>
             <UpdateProgressCancel>Annuler</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>Installer et relancer</UpdateProgressInstallAndRelaunch>
             <UpdateProgressStatusDownloading>Téléchargement de la mise à jour...</UpdateProgressStatusDownloading>
             <UpdateProgressExtract>Extraction de la mise à jour...</UpdateProgressExtract>
             <UpdateProgressStatusReady>Prêt pour l’installation</UpdateProgressStatusReady>
-            <UpdateProgressSize>%1 sur %2</UpdateProgressSize>
+            <UpdateProgressSize>%1 sur %2</UpdateProgressSize>
             <UpdateProgressB>octets</UpdateProgressB>
             <UpdateProgressKB>ko</UpdateProgressKB>
             <UpdateProgressMB>Mo</UpdateProgressMB>
@@ -198,7 +198,7 @@
             <actionCopy>Copier</actionCopy>
             <actionPaste>Coller</actionPaste>
             <actionDelete>Supprimer</actionDelete>
-            <actionSelectAll>Sélectionner tout</actionSelectAll>
+            <actionSelectAll>Tout sélectionner</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
