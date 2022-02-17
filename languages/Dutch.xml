@@ -171,7 +171,7 @@
             <MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
             <UpdateProgressTitle>Bezig met bijwerken naar versie %1</UpdateProgressTitle>
             <UpdateProgressCancel>Annuleer</UpdateProgressCancel>
-            <UpdateProgressInstallAndRelaunch>Installeren en Macs Fan Control opnieuw starten</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
             <UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
             <UpdateProgressExtract>Update uitpakken...</UpdateProgressExtract>
             <UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
