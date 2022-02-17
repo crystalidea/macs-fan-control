@@ -3,16 +3,16 @@
     <MainWindow>
         <staticSensorsListHeader>Temperatuursensoren:</staticSensorsListHeader>
         <listColumnFan>Ventilator</listColumnFan>
-        <listColumnRPM>Min/huidige/max RPM</listColumnRPM>
+        <listColumnRPM>RPM (min./huidig/max.)</listColumnRPM>
         <listColumnControl>Beheer</listColumnControl>
         <listColumnSensor>Sensor</listColumnSensor>
-        <listColumnSensorValue>Waarde</listColumnSensorValue>
+        <listColumnSensorValue>Temperatuur in</listColumnSensorValue>
         <listSeparatorDrives>Schijven:</listSeparatorDrives>
-        <popupMenuItemControl>Wijzig beheer...</popupMenuItemControl>
+        <popupMenuItemControl>Wijzig ventilatorinstelling...</popupMenuItemControl>
         <popupMenuItemReset>Herstel naar automatisch beheer</popupMenuItemReset>
         <fanControlAutomatic>Automatisch</fanControlAutomatic>
         <fanControlAutomaticInfo>Automatisch (beheerd door systeem)</fanControlAutomaticInfo>
-        <fanControlConstant>Constante waarde van %1</fanControlConstant>
+        <fanControlConstant>Constante snelheid van %1 RPM</fanControlConstant>
         <fanControlSensor>Gebaseerd op %1</fanControlSensor>
         <fanControlUnknown>Onbekend!</fanControlUnknown>
         <buttonFanControlCustom>Aangepast...</buttonFanControlCustom>
@@ -20,54 +20,54 @@
         <buttonMinimize>Minimaliseer</buttonMinimize>
         <buttonMinimizeMac>Verberg naar menubalk</buttonMinimizeMac>
         <buttonPreferences>Voorkeuren...</buttonPreferences>
-        <buttonAbout>Over...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control vereist dat een hulpprogramma wordt geïnstalleerd voor de ventilatorregeling. U kunt dit overslaan als u de ventilatoren &amp; temperatursensoren alleen wilt bewaken.</messageHelperToolInstall>
+        <buttonAbout>Over Macs Fan Control...</buttonAbout>
+        <messageHelperToolInstall>Macs Fan Control vereist dat een hulpprogramma wordt geïnstalleerd voor de ventilatorregeling. U kunt dit overslaan als u de ventilatorsnelheid &amp; temperatursensoren enkel wilt aflezen.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control moet een bijgewerkte versie van het hulpprogramma installeren dat wordt gebruikt voor ventilatorregeling.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Ventilatorregeling niet beschikbaar</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control kon geen verbinding maken met het hulpprogramma om de ventilatorregeling in te schakelen en de snelheden aan te passen. \n\nZorg ervoor dat u een beheerderswachtwoord invoert wanneer daarom gevraagd wordt.\n\nU kunt het programma momenteel nog wel gebruiken om de ventilatorsnelheden en temperaturen af te lezen.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Alleen bewaken</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Geen ventilatoren gedetecteerd, probeer alstublieft [reset SMC](https://support.apple.com/nl-nl/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Installer niet (alleen aflezen)</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Geen ventilatoren gedetecteerd. U kunt proberen [de SMC opnieuw in te stellen](https://support.apple.com/nl-nl/HT201295).</messageNoFansDetected>
+        <messageNoFansAvailable>Deze computer wordt passief gekoeld en heeft dus geen ventilatoren.</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>Ventilatorbeheer voor ventilator %1</title>
-        <radioConstant>Constante RPM-waarde</radioConstant>
-        <radioSensor>Sensorgerelateerde waarde</radioSensor>
-        <staticIncrease>Temperatuur waarop de ventilatorsnelheid zal toenemen:</staticIncrease>
-        <staticMax>Maximumtemperatuur:</staticMax>
-        <statusWarning>Er is iets fout gegaan - min/max-waarden van de ventilator zijn gelijk (%1).&lt;br/&gt; Zorg er voor dat er geen ander ventilatorprogramma geïnstalleerd is en herstel de SMC.</statusWarning>
-        <saveToCurrentPreset>Bewaar de huidige voorinstelling ('%1')</saveToCurrentPreset>
+        <title>Snelheidsregeling voor ventilator %1</title>
+        <radioConstant>Vaste RPM-waarde</radioConstant>
+        <radioSensor>Temperatuurafhankelijke waarde</radioSensor>
+        <staticIncrease>Temperatuur waarop de ventilatorsnelheid moet toenemen:</staticIncrease>
+        <staticMax>Maximaal toegestane temperatuur:</staticMax>
+        <statusWarning>Er is iets fout gegaan: min/max-waarden van de ventilator zijn gelijk (%1).&lt;br/&gt; Controleer of er geen ander ventilatorprogramma geïnstalleerd is. Als het probleem zich blijft voordoen, kunt u proberen [de SMC opnieuw in te stellen](https://support.apple.com/nl-nl/HT201295).</statusWarning>
+        <saveToCurrentPreset>Werk de huidige voorinstelling (&lsquo;%1&rsquo;) bij met deze instellingen</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Actieve voorinstelling:</activePresetLabel>
         <presetAutomatic>Automatisch</presetAutomatic>
-        <presetFullBlast>Volle kracht</presetFullBlast>
+        <presetFullBlast>Maximale snelheid</presetFullBlast>
         <presetCurrentUnsaved>Aangepast*</presetCurrentUnsaved>
-        <presetMenuSave>Bewaar voorinstelling...</presetMenuSave>
-        <presetMenuRename>Hernoem</presetMenuRename>
+        <presetMenuSave>Bewaar huidige configuratie als voorinstelling...</presetMenuSave>
+        <presetMenuRename>Wijzig naam</presetMenuRename>
         <presetMenuDelete>Verwijder</presetMenuDelete>
         <presetMenuPredefined>Standaard voorinstellingen:</presetMenuPredefined>
-        <presetMenuCustom>Aangepaste voorinstellingen:</presetMenuCustom>
-        <presetMenuApply>Pas toe</presetMenuApply>
-        <presetMenuProVersion>Beschikbaar in PRO-versie</presetMenuProVersion>
+        <presetMenuCustom>Bewaarde voorinstellingen:</presetMenuCustom>
+        <presetMenuApply>Activeer</presetMenuApply>
+        <presetMenuProVersion>Beschikbaar in Pro-versie</presetMenuProVersion>
         <presetMenuCurrent>Voorinstelling - %1</presetMenuCurrent>
-        <presetMenuDiscard>Wis voorinstelling (herstelt alle ventilatoren naar automatisch beheer)</presetMenuDiscard>
+        <presetMenuDiscard>Wis alle aanpassingen</presetMenuDiscard>
         <labelPresetName>Naam voorinstelling:</labelPresetName>
-        <savePresetTitle>Bewaar aangepaste voorinstelling</savePresetTitle>
-        <editPresetTitle>Wijzig naam voorinstelling</editPresetTitle>
+        <savePresetTitle>Bewaar aangepaste configuratie</savePresetTitle>
+        <editPresetTitle>Naam wijzigen</editPresetTitle>
         <presetCreateNew>Nieuw...</presetCreateNew>
-        <presetCreateNewTitle>Creëer een nieuwe voorinstelling</presetCreateNewTitle>
-        <presetCreateNewMessage>Al uw ventilatoren worden momenteel bestuurd door het systeem. \n\nWijzig de instelling van tenminste één van uw ventilatoren in Aangepast om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Aangepast beheer voor de '%1' ventilator</presetCreateNewButton>
+        <presetCreateNewTitle>Een nieuwe voorinstelling maken</presetCreateNewTitle>
+        <presetCreateNewMessage>Al uw ventilatoren worden momenteel bestuurd door het systeem. \n\nWijzig het beheer van ten minste één van de ventilatoren om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Al uw ventilatoren draaien momenteel op volle kracht volgens de voorinstelling &lsquo;%1&rsquo;. \n\nWijzig het beheer van ten minste één van de ventilatoren om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage2>
+        <presetCreateNewButton>Aangepast beheer voor de &lsquo;%1&rsquo;-ventilator</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Upgrade naar Macs Fan Control Pro</title>
         <proInfo1>Met de Pro-versie kunt u aangepaste voorinstellingen voor ventilatoren maken en opslaan, zodat u er snel tussen kunt schakelen, afhankelijk van uw activiteit.</proInfo1>
-        <proInfo2>Als u het programma al heeft aangeschaft, klik dan hieronder op de knop 'Voer licentie in'.</proInfo2>
-        <buttonPurchase>Schaf aan</buttonPurchase>
+        <proInfo2>Als u het programma al heeft aangeschaft, klikt u hieronder op de knop &lsquo;Voer licentie in&rsquo;.</proInfo2>
+        <buttonPurchase>Schaf Pro aan</buttonPurchase>
         <buttonEnterLicense>Voer licentie in</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <buttonLater>Niet nu</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>Ontgrendel Pro-versie</title>
@@ -77,7 +77,7 @@
         <licenseKey>Licentiesleutel</licenseKey>
         <buttonUnlock>Ontgrendel</buttonUnlock>
         <buttonRestoreLicense>Herstel licentie</buttonRestoreLicense>
-        <invalidLicenseTitle>Ongeldige licentie!</invalidLicenseTitle>
+        <invalidLicenseTitle>Ongeldige licentie</invalidLicenseTitle>
         <invalidLicenseText>Zorg ervoor dat alle letters, cijfers en streepjes in de juiste volgorde zijn ingevoerd. Als u het nummer met de hand typt, probeert u het dan te kopiëren en plakken vanuit de e-mailbevestiging.</invalidLicenseText>
         <invalidLicenseMismatchOS>Deze licentiesleutel is geldig, maar niet bedoeld voor gebruik op %1.</invalidLicenseMismatchOS>
         <thanksTitle>Bedankt voor uw aankoop van Macs Fan Control Pro</thanksTitle>
@@ -88,30 +88,30 @@
         <itemAvailableFans>Ventilatoren:</itemAvailableFans>
         <itemFanPresets>Voorinstellingen:</itemFanPresets>
         <itemMoreLinks>Meer</itemMoreLinks>
-        <itemWebsite>Website</itemWebsite>
+        <itemWebsite>Bezoek website</itemWebsite>
         <itemCheckForUpdates>Controleer op updates...</itemCheckForUpdates>
         <itemRateApp>Beoordeel op MacUpdate</itemRateApp>
-        <itemFollowTwitter>Volg @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemFollowTwitter>Volg @crystalidea op Twitter</itemFollowTwitter>
+        <itemUninstall>Verwijder Macs Fan Control...</itemUninstall>
         <itemExit>Afsluiten</itemExit>
         <itemExitMac>Stop Macs Fan Control</itemExitMac>
-        <itemSensorBased>Sensor-gebaseerd</itemSensorBased>
+        <itemSensorBased>Temperatuurafhankelijk</itemSensorBased>
         <itemUpgradeToPro>Breid uit naar Pro-versie</itemUpgradeToPro>
     </TrayMenu>
     <PreferencesWindow>
         <title>Voorkeuren</title>
         <TabGeneral>Algemeen</TabGeneral>
-        <tabTrayIcon>Menubalksymbool</tabTrayIcon>
+        <tabTrayIcon>Taakbalksymbool</tabTrayIcon>
         <tabSensors>Sensoren</tabSensors>
-        <tabTrayIconMac>Toon menubalksymbool</tabTrayIconMac>
+        <tabTrayIconMac>Menubalksymbool</tabTrayIconMac>
         <tabDiagnostics>Diagnose</tabDiagnostics>
         <staticLanguage>Taal:</staticLanguage>
-        <checkSystemStart>Start automatisch wanneer het systeem start (aanbevolen)</checkSystemStart>
+        <checkSystemStart>Start automatisch na inloggen (aanbevolen)</checkSystemStart>
         <checkUpdatesOnStartup>Controleer op updates wanneer het programma start</checkUpdatesOnStartup>
         <checkFahrenheit>Gebruik Fahrenheit voor temperatuuraanduiding</checkFahrenheit>
         <checkPrecise>Geef temperatuur op één decimaal nauwkeurig (bijv. 45,4) weer (indien mogelijk)</checkPrecise>
         <labelSensors>Toon temperatuur van</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
+        <checkExternalGPU>Via Thunderbolt verbonden GPU&rsquo;s</checkExternalGPU>
         <checkSATADrives>Verbonden SATA-schijven</checkSATADrives>
         <checkNVMeDrives>Verbonden NVMe-schijven</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
@@ -120,7 +120,7 @@
         <comboIconOptionShow>Toon</comboIconOptionShow>
         <comboIconOptionShowBW>Toon (zwart-wit)</comboIconOptionShowBW>
         <comboOptionNone>Toon niet</comboOptionNone>
-        <checkTwoLines>Toon ventilator- en sensorwaarden in twee regels om ruimte te besparen</checkTwoLines>
+        <checkTwoLines>Toon ventilator- en sensorwaarden onder elkaar om ruimte te besparen</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(alleen Celsius)</staticCelsiusOnlyOnWindows>
         <checkLog>Gebruik Log (herstart noodzakelijk)</checkLog>
         <browseLog>Zoek</browseLog>
@@ -129,23 +129,23 @@
     <AboutDialog>
         <title>Over Macs Fan Control</title>
         <staticTechnicalSupport>Technische ondersteuning op het forum</staticTechnicalSupport>
-        <staticOnlineHelp>Online hulp</staticOnlineHelp>
+        <staticOnlineHelp>Online ondersteuning</staticOnlineHelp>
         <staticFreeVersion>Gratis versie</staticFreeVersion>
         <staticProVersion>Pro-versie, %1 computerlicentie</staticProVersion>
-        <staticWarning>DIT PROGRAMMA IS VOOR GEAVANCEERDE GEBRUIKERS DIE WETEN HOE HET PROGRAMMA TE GEBRUIKEN ZONDER HUN MAC SCHADE TOE TE BRENGEN. DE AUTEURS ZIJN NIET VERANTWOORDELIJK VOOR DATAVERLIES, BESCHADIGINGEN, WINSTDERVING OF ENIGE ANDERE VORM VAN VERLIEZEN DIE HET GEVOLG ZIJN VAN HET GEBRUIK OF MISBRUIK VAN HET PROGRAMMA.</staticWarning>
+        <staticWarning>DIT PROGRAMMA IS VOOR GEVORDERDE GEBRUIKERS DIE WETEN HOE HET PROGRAMMA TE GEBRUIKEN ZONDER HUN MAC SCHADE TOE TE BRENGEN. DE AUTEURS ZIJN NIET VERANTWOORDELIJK VOOR DATAVERLIES, BESCHADIGINGEN, WINSTDERVING OF ENIGE ANDERE VORM VAN VERLIEZEN DIE HET GEVOLG ZIJN VAN HET GEBRUIK OF MISBRUIK VAN HET PROGRAMMA.</staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>Beoordeel het programma op MacUpdate</message>
-        <informativeText>Als u %1 graag gebruikt, zou u dan even de tijd willen nemen om het te beoordelen? Het duurt niet langer dan een minuut. Hartelijk dank voor uw steun!</informativeText>
+        <informativeText>Als u %1 graag gebruikt, zou u dan een minuut de tijd willen nemen om het te beoordelen? Hartelijk dank voor uw steun!</informativeText>
         <buttonRate>Beoordeel op MacUpdate</buttonRate>
         <buttonNoThanks>Nee, bedankt</buttonNoThanks>
-        <checkDontShowAgain>Toon dit bericht niet meer</checkDontShowAgain>
+        <checkDontShowAgain>Toon dit bericht niet opnieuw</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Wilt u Macs Fan Control verwijderen?</title>
+        <message>U staat op het punt de app te verwijderen, inclusief opgeslagen voorkeuren, het hulpprogramma voor de ventilatorregeling en eventuele licentiegegevens voor de Pro-versie. Alle aanpassingen aan de ventilatorsnelheden zullen worden opgeheven en de ventilatoren zullen weer automatisch worden beheerd door het systeem. \n\nU moet mogelijk uw wachtwoord invoeren om het verwijderen te voltooien.</message>
+        <authorizeText>Macs Fan Control heeft uw wachtwoord nodig om het hulpprogramma voor de ventilatorregeling te verwijderen.</authorizeText>
+        <buttonUninstall>Verwijder</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Sluit</buttonClose>
@@ -157,11 +157,11 @@
         <UpdateChecker>
             <ReleasedOn>Uitgebracht op %1</ReleasedOn>
             <CheckForUpdates>Controleren op updates...</CheckForUpdates>
-            <NewVersionAvailable>Een nieuwe versie: %1 is beschikbaar!</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 is nu beschikbaar - u heeft %3. Wilt u deze nieuwe versie downloaden?</NewVersionAvailableText>
+            <NewVersionAvailable>Nieuwe versie (%1) beschikbaar!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 is nu beschikbaar. U heeft momenteel versie %3. Wilt u deze update installeren?</NewVersionAvailableText>
             <UpdateAlertTitle>Software-update</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Versie-informatie:</UpdateAlertReleaseNotes>
-            <UpdateAlertRemindLater>Herinner mij later</UpdateAlertRemindLater>
+            <UpdateAlertRemindLater>Niet nu</UpdateAlertRemindLater>
             <UpdateAlertSkip>Sla deze versie over</UpdateAlertSkip>
             <UpdateAlertInstall>Installeer update</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>Controleer automatisch op updates</UpdateAlertAutomaticUpdates>
@@ -169,9 +169,9 @@
             <MessageNoUpdateAvailableDescription>%1 %2 is momenteel de meest recente versie.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>Er is een fout opgetreden bij het downloaden van de update. Probeer het later nogmaals.</MessageErrorConnect>
             <MessageErrorParse>Er is een fout opgetreden bij het installeren van de update.</MessageErrorParse>
-            <UpdateProgressTitle>Bezig met bijwerken van versie %1</UpdateProgressTitle>
-            <UpdateProgressCancel>Annuleren</UpdateProgressCancel>
-            <UpdateProgressInstallAndRelaunch>Installeren en herstarten</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressTitle>Bezig met bijwerken naar versie %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Annuleer</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Installeren en Macs Fan Control opnieuw starten</UpdateProgressInstallAndRelaunch>
             <UpdateProgressStatusDownloading>Update downloaden...</UpdateProgressStatusDownloading>
             <UpdateProgressExtract>Update uitpakken...</UpdateProgressExtract>
             <UpdateProgressStatusReady>Klaar om te installeren</UpdateProgressStatusReady>
@@ -182,14 +182,14 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Kon niet naar de map Programma's verplaatsen </kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Verplaatsen naar map Programma's?</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar map Programma's in uw Thuismap?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Wilt u dat %1 zichzelf verplaatst naar de map Programma's?</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Verplaats naar map Programma's</kStrMoveApplicationButtonMove>
-            <kStrMoveApplicationButtonDoNotMove>Niet verplaatsen</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Let op: dit vereist een beheerderswachtwoord.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloadsmap opgeruimd.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationCouldNotMove>Kon niet naar de map Programma&rsquo;s verplaatsen </kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Verplaatsen naar map Programma&rsquo;s?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar map Programma&rsquo;s in uw thuismap?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Wilt u dat %1 zichzelf verplaatst naar de map Programma&rsquo;s?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Verplaats naar map Programma&rsquo;s</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Verplaats niet</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>U moet hiervoor een beheerderswachtwoord invoeren.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map opgeruimd.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>Herstel</actionUndo>
@@ -198,12 +198,12 @@
             <actionCopy>Kopieer</actionCopy>
             <actionPaste>Plak</actionPaste>
             <actionDelete>Wis</actionDelete>
-            <actionSelectAll>Alles selecteren</actionSelectAll>
+            <actionSelectAll>Selecteer alles</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Annuleren</buttonCancel>
-            <buttonClose>Sluiten</buttonClose>
+            <buttonCancel>Annuleer</buttonCancel>
+            <buttonClose>Sluit</buttonClose>
             <buttonYes>Ja</buttonYes>
             <buttonNo>Nee</buttonNo>
         </QMessageBoxEx>
