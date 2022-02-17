@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="Rene Jongma, Yoram Ish-Hurwitz, R. Zaalberg">
+<LanguageStrings version="1.5.11" Author="Rene Jongma, Yoram Ish-Hurwitz, R. Zaalberg">
     <MainWindow>
         <staticSensorsListHeader>Temperatuursensoren:</staticSensorsListHeader>
         <listColumnFan>Ventilator</listColumnFan>
