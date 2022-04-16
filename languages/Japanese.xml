@@ -62,7 +62,7 @@
         <presetCreateNewButton>「%1」ファン用のカスタム・コントロール</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>Mac Fan Control プロへのアップグレード</title>
+        <title>Macs Fan Control プロへのアップグレード</title>
         <proInfo1>プロバージョンでは、ファンのカスタムプリセットを作成・保存できるため、アクティビティに応じて素早く切り替えることができます。</proInfo1>
         <proInfo2>すでにご購入いただいている方は、下の「ライセンスを入力」をクリックしてください。</proInfo2>
         <buttonPurchase>購入</buttonPurchase>
