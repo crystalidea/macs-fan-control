@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="jerry00 &amp; jarda drevo">
+<LanguageStrings version="1.5.12" Author="jerry00 &amp; jarda drevo">
     <MainWindow>
         <staticSensorsListHeader>Teplotní senzory:</staticSensorsListHeader>
         <listColumnFan>Ventilátor</listColumnFan>
@@ -81,18 +81,18 @@
         <invalidLicenseText>Zkontrolujte správnost zadaných údajů, velikost písmen, číslice, správné pořadí , pomlčky. Pokud jste údaje zadávali ručně, zkuste zadat údaje pomocí Kopírovat-Vložit přímo z emailu.</invalidLicenseText>
         <invalidLicenseMismatchOS>Tento klíč je platný, ale neodpovídá verzi %1.</invalidLicenseMismatchOS>
         <thanksTitle>Děkujeme za zakoupení Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Všechna omezení Free verze budou odstraněna, užijte si naší aplikaci!</thanksInfo>
+        <thanksInfo>Všechna omezení Free verze budou odstraněna, užijte si naši aplikaci!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Zobrazit Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilátory:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Přednastavení:</itemFanPresets>
         <itemMoreLinks>Více</itemMoreLinks>
         <itemWebsite>Web stránka</itemWebsite>
         <itemCheckForUpdates>Aktualizovat...</itemCheckForUpdates>
         <itemRateApp>Ohodnotit na Macupdate</itemRateApp>
-        <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemFollowTwitter>Twitter @crystalidea</itemFollowTwitter>
+        <itemUninstall>Odinstalovat...</itemUninstall>
         <itemExit>Ukončit</itemExit>
         <itemExitMac>Zavřít Macs Fan Control</itemExitMac>
         <itemSensorBased>Ze senzoru</itemSensorBased>
@@ -111,7 +111,7 @@
         <checkFahrenheit>Použít stupnici Fahrenheita</checkFahrenheit>
         <checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
         <labelSensors>Načíst teploty z</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
+        <checkExternalGPU>eGPU připojené přes Thunderbolt</checkExternalGPU>
         <checkSATADrives>Připojených sata disků</checkSATADrives>
         <checkNVMeDrives>Připojených NVMe disků</checkNVMeDrives>
         <staticSensor>Senzor:</staticSensor>
@@ -143,9 +143,9 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <message>Chystáte se kompletně odinstalovat aplikaci ze svého macu včetně jeho preferencí, nástroje fan helper a licenčních dat pro verzi Pro. Všechny úpravy výchozího ovládání ventilátoru budou vráceny zpět a chlazení bude ovládáno automaticky systémem. \n\nMůže se stát, že budete vyzváni k autorizaci aplikace, aby se mohla sama odinstalovat.</message>
+        <authorizeText>Prosím autorizujte aplikaci, aby mohl být odinstalován nástroj Fan helper.</authorizeText>
+        <buttonUninstall>Odinstalovat</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Zavřít</buttonClose>
