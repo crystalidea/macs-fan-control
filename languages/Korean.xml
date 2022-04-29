@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="soleaf(soleaf@gmail.com/www.mintcode.org) &amp; HK Chung, Seungbin Oh (sboh1214@gmail.com)">
+<LanguageStrings version="1.5.12" Author="soleaf(soleaf@gmail.com/www.mintcode.org) &amp; HK Chung, Seungbin Oh (sboh1214@gmail.com)">
     <MainWindow>
         <staticSensorsListHeader>온도센서:</staticSensorsListHeader>
         <listColumnFan>팬</listColumnFan>
