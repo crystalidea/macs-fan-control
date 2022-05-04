@@ -1,3 +1,5 @@
+## How to post tech info and screenshot of Macs Fan Control
+
 When the app is running, please click on its icon in the menu bar and select **More** -> **Copy technical info**:
 ![image](https://user-images.githubusercontent.com/2600624/94975673-af16f680-0512-11eb-82ba-7991806d27ff.png)
 
