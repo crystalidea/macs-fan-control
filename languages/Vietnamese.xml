@@ -90,6 +90,7 @@
         <itemMoreLinks>Xem thêm</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Kiểm tra cập nhật...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Đánh giá trên Macupdate</itemRateApp>
         <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Theo cảm biến</itemSensorBased>
         <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Tùy chọn</title>
         <TabGeneral>Tổng quát</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Ngôn ngữ:</staticLanguage>
         <checkSystemStart>Tự động khởi động ẩn với hệ thống (khuyên dùng)</checkSystemStart>
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Sử dụng độ F</checkFahrenheit>
         <checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (v.d. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(Chỉ Độ C)</staticCelsiusOnlyOnWindows>
         <checkLog>Bật ghi chú (yêu cầu khởi động lại)</checkLog>
         <browseLog>Duyệt..</browseLog>
-        <buttonCopyTechInfo>Sao chép thông tin kỹ thuật</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Giới thiệu Macs Fan Control</title>

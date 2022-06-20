@@ -90,6 +90,7 @@
         <itemMoreLinks>เพิ่มเติม</itemMoreLinks>
         <itemWebsite>เว็บไซต์</itemWebsite>
         <itemCheckForUpdates>อัพเดท...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>ให้คะแนนบน Macupdate</itemRateApp>
         <itemFollowTwitter>ติดตาม @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>เซ็นเซอร์เป็นตัวกำหนด</itemSensorBased>
         <itemUpgradeToPro>อัพเกรดเป็นรุ่นโปร</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>การตั้งค่า</title>
         <TabGeneral>ทั่วไป</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>ภาษา:</staticLanguage>
         <checkSystemStart>เริ่มโปรแกรมและย่อเก็บอัตโนมัติ (แนะนำให้ใช้)</checkSystemStart>
         <checkUpdatesOnStartup>ตรวจหาอัพเดททุกครั้งเมื่อแอปถูกเปิด</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>ใช้ค่าอุณหภูมิองศาฟาเรนไฮต์</checkFahrenheit>
         <checkPrecise>แสดงค่าแบบแม่นยำ เมื่อสามารถทำได้ (เช่น 45.4)</checkPrecise>
         <labelSensors>อ่างค่าอุณหภูมิของ</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(องศาเซลเซียสเท่านั้น)</staticCelsiusOnlyOnWindows>
         <checkLog>เปิดการเก็บข้อมูล (ต้องรีสตาร์ท)</checkLog>
         <browseLog>ค้นหา</browseLog>
-        <buttonCopyTechInfo>คัดลอกข้อมูลทางเทคนิค</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>เกี่ยวกับโปรแกรมควบคุมพัดลมแมค</title>

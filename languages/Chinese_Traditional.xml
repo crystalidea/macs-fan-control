@@ -90,6 +90,7 @@
         <itemMoreLinks>更多</itemMoreLinks>
         <itemWebsite>網站</itemWebsite>
         <itemCheckForUpdates>檢查更新⋯</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>在 MacUpdate 評價</itemRateApp>
         <itemFollowTwitter>追蹤 @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>基於感測器數值</itemSensorBased>
         <itemUpgradeToPro>升級到 Pro 版本</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>偏好設定</title>
         <TabGeneral>一般</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>語言：</staticLanguage>
         <checkSystemStart>隨系統開機自動啟動（建議）</checkSystemStart>
         <checkUpdatesOnStartup>App 啟動時檢查更新</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>使用華氏溫標表示法</checkFahrenheit>
         <checkPrecise>盡量顯示精確溫度（比如 45.4）</checkPrecise>
         <labelSensors>溫度讀取來源</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>（只顯示攝氏溫度）</staticCelsiusOnlyOnWindows>
         <checkLog>啟用日誌（需要重新啟動）</checkLog>
         <browseLog>瀏覽</browseLog>
-        <buttonCopyTechInfo>複製技術資訊</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>關於 Macs Fan Control</title>

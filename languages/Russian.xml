@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.10" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.13" Author="Denis Mikhailov">
     <MainWindow>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
         <listColumnFan>Вентилятор</listColumnFan>
@@ -90,6 +90,7 @@
         <itemMoreLinks>Еще</itemMoreLinks>
         <itemWebsite>Веб сайт</itemWebsite>
         <itemCheckForUpdates>Проверка обновлений...</itemCheckForUpdates>
+        <itemTechInfoZip>Создать zip для поддержки...</itemTechInfoZip>
         <itemRateApp>Оценить на Macupdate</itemRateApp>
         <itemFollowTwitter>Подписаться на твиттер @crystalidea</itemFollowTwitter>
         <itemUninstall>Деинсталляция...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Основано на сенсоре</itemSensorBased>
         <itemUpgradeToPro>Апгрейд до Pro версии</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>На вашем рабочем столе был создан файл '%1', содержащий анонимную техноческую информацию и скриншот главного окна программы.\n\nПришлите этот файл на support@crystalidea.com или приложите к багу в нашем GitHub.</message>
+        <browseButton>Показать zip файл</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Настройки</title>
         <TabGeneral>Основные</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Язык:</staticLanguage>
         <checkSystemStart>Автостарт при запуске системы (рекомендуется)</checkSystemStart>
         <checkUpdatesOnStartup>Проверять обновления при старте программы</checkUpdatesOnStartup>
+        <checkDockIcon>Отображать значок программы в Dock</checkDockIcon>
         <checkFahrenheit>Использовать шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Более точное отображение температуры (до десятых долей)</checkPrecise>
         <labelSensors>Отображать температуру</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(только в Цельсиях)</staticCelsiusOnlyOnWindows>
         <checkLog>Логирование (необходим перезапуск)</checkLog>
         <browseLog>Показать лог</browseLog>
-        <buttonCopyTechInfo>Копировать техническую информацию</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>О программе Macs Fan Control</title>

@@ -36,7 +36,7 @@
         <staticIncrease>Temperatuur waarop de ventilatorsnelheid moet toenemen:</staticIncrease>
         <staticMax>Maximaal toegestane temperatuur:</staticMax>
         <statusWarning>Er is iets fout gegaan: min/max-waarden van de ventilator zijn gelijk (%1).&lt;br/&gt; Controleer of er geen ander ventilatorprogramma geïnstalleerd is. Als het probleem zich blijft voordoen, kunt u proberen [de SMC opnieuw in te stellen](https://support.apple.com/nl-nl/HT201295).</statusWarning>
-        <saveToCurrentPreset>Werk de huidige voorinstelling (&lsquo;%1&rsquo;) bij met deze instellingen</saveToCurrentPreset>
+        <saveToCurrentPreset>Werk de huidige voorinstelling (&amp;lsquo;%1&amp;rsquo;) bij met deze instellingen</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Actieve voorinstelling:</activePresetLabel>
@@ -58,13 +58,13 @@
         <presetCreateNew>Nieuw...</presetCreateNew>
         <presetCreateNewTitle>Een nieuwe voorinstelling maken</presetCreateNewTitle>
         <presetCreateNewMessage>Al uw ventilatoren worden momenteel bestuurd door het systeem. \n\nWijzig het beheer van ten minste één van de ventilatoren om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Al uw ventilatoren draaien momenteel op volle kracht volgens de voorinstelling &lsquo;%1&rsquo;. \n\nWijzig het beheer van ten minste één van de ventilatoren om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage2>
-        <presetCreateNewButton>Aangepast beheer voor de &lsquo;%1&rsquo;-ventilator</presetCreateNewButton>
+        <presetCreateNewMessage2>Al uw ventilatoren draaien momenteel op volle kracht volgens de voorinstelling &amp;lsquo;%1&amp;rsquo;. \n\nWijzig het beheer van ten minste één van de ventilatoren om een nieuwe voorinstelling te kunnen maken.</presetCreateNewMessage2>
+        <presetCreateNewButton>Aangepast beheer voor de &amp;lsquo;%1&amp;rsquo;-ventilator</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Upgrade naar Macs Fan Control Pro</title>
         <proInfo1>Met de Pro-versie kunt u aangepaste voorinstellingen voor ventilatoren maken en opslaan, zodat u er snel tussen kunt schakelen, afhankelijk van uw activiteit.</proInfo1>
-        <proInfo2>Als u het programma al heeft aangeschaft, klikt u hieronder op de knop &lsquo;Voer licentie in&rsquo;.</proInfo2>
+        <proInfo2>Als u het programma al heeft aangeschaft, klikt u hieronder op de knop &amp;lsquo;Voer licentie in&amp;rsquo;.</proInfo2>
         <buttonPurchase>Schaf Pro aan</buttonPurchase>
         <buttonEnterLicense>Voer licentie in</buttonEnterLicense>
         <buttonLater>Niet nu</buttonLater>
@@ -90,6 +90,7 @@
         <itemMoreLinks>Meer</itemMoreLinks>
         <itemWebsite>Bezoek website</itemWebsite>
         <itemCheckForUpdates>Controleer op updates...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Beoordeel op MacUpdate</itemRateApp>
         <itemFollowTwitter>Volg @crystalidea op Twitter</itemFollowTwitter>
         <itemUninstall>Verwijder Macs Fan Control...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Temperatuurafhankelijk</itemSensorBased>
         <itemUpgradeToPro>Breid uit naar Pro-versie</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Voorkeuren</title>
         <TabGeneral>Algemeen</TabGeneral>
@@ -108,10 +113,11 @@
         <staticLanguage>Taal:</staticLanguage>
         <checkSystemStart>Start automatisch na inloggen (aanbevolen)</checkSystemStart>
         <checkUpdatesOnStartup>Controleer op updates wanneer het programma start</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Gebruik Fahrenheit voor temperatuuraanduiding</checkFahrenheit>
         <checkPrecise>Geef temperatuur op één decimaal nauwkeurig (bijv. 45,4) weer (indien mogelijk)</checkPrecise>
         <labelSensors>Toon temperatuur van</labelSensors>
-        <checkExternalGPU>Via Thunderbolt verbonden GPU&rsquo;s</checkExternalGPU>
+        <checkExternalGPU>Via Thunderbolt verbonden GPU&amp;rsquo;s</checkExternalGPU>
         <checkSATADrives>Verbonden SATA-schijven</checkSATADrives>
         <checkNVMeDrives>Verbonden NVMe-schijven</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(alleen Celsius)</staticCelsiusOnlyOnWindows>
         <checkLog>Gebruik Log (herstart noodzakelijk)</checkLog>
         <browseLog>Zoek</browseLog>
-        <buttonCopyTechInfo>Kopieer technische informatie</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Over Macs Fan Control</title>
@@ -182,11 +187,11 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Kon niet naar de map Programma&rsquo;s verplaatsen </kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Verplaatsen naar map Programma&rsquo;s?</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar map Programma&rsquo;s in uw thuismap?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Wilt u dat %1 zichzelf verplaatst naar de map Programma&rsquo;s?</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Verplaats naar map Programma&rsquo;s</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationCouldNotMove>Kon niet naar de map Programma&amp;rsquo;s verplaatsen </kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Verplaatsen naar map Programma&amp;rsquo;s?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Verplaatsen naar map Programma&amp;rsquo;s in uw thuismap?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Wilt u dat %1 zichzelf verplaatst naar de map Programma&amp;rsquo;s?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Verplaats naar map Programma&amp;rsquo;s</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Verplaats niet</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>U moet hiervoor een beheerderswachtwoord invoeren.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>Op deze manier blijft uw Downloads-map opgeruimd.</kStrMoveApplicationQuestionInfoInDownloadsFolder>

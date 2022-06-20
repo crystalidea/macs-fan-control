@@ -90,6 +90,7 @@
         <itemMoreLinks>بیشتر</itemMoreLinks>
         <itemWebsite>وبسایت</itemWebsite>
         <itemCheckForUpdates>بررسی برای بروزرسانی..</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>MacUpdate امتیاز در</itemRateApp>
         <itemFollowTwitter>دنبال کردن @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>مبتنی بر سنسور</itemSensorBased>
         <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>مزیت ها</title>
         <TabGeneral>عمومی</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>زبان:</staticLanguage>
         <checkSystemStart>اجرای خودکار بطور کمینه در کنار ساعت ‫(‬پیشنهاد میشود‫)‬</checkSystemStart>
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>استفاده از مقیاس درجه حرارتی فارنهایت</checkFahrenheit>
         <checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(فقط سانتیگراد)</staticCelsiusOnlyOnWindows>
         <checkLog>فعالسازی وقایع (ریستارت نیاز است)</checkLog>
         <browseLog>جستجو..</browseLog>
-        <buttonCopyTechInfo>کپی اطلاعات فنی</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>درباره برنامه</title>

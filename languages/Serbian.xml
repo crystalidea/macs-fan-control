@@ -90,6 +90,7 @@
         <itemMoreLinks>Više o...</itemMoreLinks>
         <itemWebsite>Web stranica</itemWebsite>
         <itemCheckForUpdates>Proveri ažuriranja...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Daj nam ocenu na Macupdate</itemRateApp>
         <itemFollowTwitter>Zaprati @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Bazirano na senzoru</itemSensorBased>
         <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Postavke</title>
         <TabGeneral>Opšte</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Jezik:</staticLanguage>
         <checkSystemStart>Automatsko pokretanje sa operativnim sistemom minimizovano (preporučeno)</checkSystemStart>
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Upotrebi Fahrenheit temperaturnu skalu</checkFahrenheit>
         <checkPrecise>Precizan prikaz temperature kada je to moguće (npr. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(samo Celsius)</staticCelsiusOnlyOnWindows>
         <checkLog>Omogući zapis (potreban je restart)</checkLog>
         <browseLog>Traži</browseLog>
-        <buttonCopyTechInfo>Kopiraj tehničke informacije</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>O Macs Fan Control</title>

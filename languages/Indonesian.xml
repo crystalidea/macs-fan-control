@@ -90,6 +90,7 @@
         <itemMoreLinks>Tunjukan lebih</itemMoreLinks>
         <itemWebsite>Situs Web</itemWebsite>
         <itemCheckForUpdates>Memeriksa pembaruan...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Review kami di MacUpdate</itemRateApp>
         <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Berdasarkan Sensor</itemSensorBased>
         <itemUpgradeToPro>Tingkatkan ke versi Pro</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Preferensi</title>
         <TabGeneral>Umum</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Bahasa:</staticLanguage>
         <checkSystemStart>Otomatis memulai mengecil aplikasi dengan sistem (disarankan)</checkSystemStart>
         <checkUpdatesOnStartup>Memeriksa pembaruan setelah aplikasi mulai</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Pakai skala temperatur Fahrenheit</checkFahrenheit>
         <checkPrecise>Tampilan suhu yang tepat bila memungkinkan (contoh: 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(Celsius saja)</staticCelsiusOnlyOnWindows>
         <checkLog>Aktifkan log (Diperlukan Restart)</checkLog>
         <browseLog>menelusuri</browseLog>
-        <buttonCopyTechInfo>Salin info teknis</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Mengenai Macs Fan Control</title>

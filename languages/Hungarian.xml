@@ -90,6 +90,7 @@
         <itemMoreLinks>További</itemMoreLinks>
         <itemWebsite>Honlap</itemWebsite>
         <itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Értékelés a Macupdate oldalán</itemRateApp>
         <itemFollowTwitter>Követés Twitteren: @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Szenzor alapú</itemSensorBased>
         <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Beállítások</title>
         <TabGeneral>Általános</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Nyelv:</staticLanguage>
         <checkSystemStart>Indulás rendszerindításkor (javasolt)</checkSystemStart>
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Fahrenheit (ºF) skála használata</checkFahrenheit>
         <checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl.: 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(Csak Celsius)</staticCelsiusOnlyOnWindows>
         <checkLog>Loggolás engedélyezése (újraindítás szükséges)</checkLog>
         <browseLog>Tallózás...</browseLog>
-        <buttonCopyTechInfo>Technikai infó másolása</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Az alkalmazásról</title>

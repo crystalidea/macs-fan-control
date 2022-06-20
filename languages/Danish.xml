@@ -90,6 +90,7 @@
         <itemMoreLinks>More</itemMoreLinks>
         <itemWebsite>Webside</itemWebsite>
         <itemCheckForUpdates>Check for updates...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Rate on Macupdate</itemRateApp>
         <itemFollowTwitter>Follow @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Måler-baseret</itemSensorBased>
         <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Præferencer</title>
         <TabGeneral>General</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Sprog:</staticLanguage>
         <checkSystemStart>Autostart minimeret ved systemstart (anbefalet)</checkSystemStart>
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Benyt Fahrenheit temperaturskala</checkFahrenheit>
         <checkPrecise>Nøjagtig visning af temperatur, når det er muligt (f.eks. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(Kun Celsius)</staticCelsiusOnlyOnWindows>
         <checkLog>Enable log (restart required)</checkLog>
         <browseLog>Browse</browseLog>
-        <buttonCopyTechInfo>Kopier teknisk information</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Om Macs Fan Control</title>

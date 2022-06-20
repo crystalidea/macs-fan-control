@@ -90,6 +90,7 @@
         <itemMoreLinks>დამატებითი</itemMoreLinks>
         <itemWebsite>ვებ-გვერდი</itemWebsite>
         <itemCheckForUpdates>განახლების შემოწმება...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Macupdate-ზე შეფასება</itemRateApp>
         <itemFollowTwitter>გამოგვყევით თვითერზე @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>სენსორზე დაყრდნობით</itemSensorBased>
         <itemUpgradeToPro>განახლება Pro ვერსიამდე</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>პარამეტრები</title>
         <TabGeneral>ძირითადი</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>ენა:</staticLanguage>
         <checkSystemStart>ავტოსტარტი სისტემასთან ერთად (რეკომენდებულია)</checkSystemStart>
         <checkUpdatesOnStartup>განახლების შემოწმება პროგრამის გაშვებისას</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>ფარენჰეიტის სკალას გამოყენება</checkFahrenheit>
         <checkPrecise>ტემპერატურის უფრო ზუსტი ჩვენება (მეათედებამდე)</checkPrecise>
         <labelSensors>ტემპერატურის ჩვენება</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(მხოლოდ ცელსიუსებში)</staticCelsiusOnlyOnWindows>
         <checkLog>ლოგირება (აუცილებელია რესტარტი)</checkLog>
         <browseLog>ლოგის ჩვენება</browseLog>
-        <buttonCopyTechInfo>ტექნიკური ინფორმაციის დაკოპირება</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Macs Fan Control პროგრამის შესახებ</title>

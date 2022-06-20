@@ -26,7 +26,7 @@
         <messageFanControlNotAvailableTitle>Die Lüfter-Steuerung ist nicht verfügbar.</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit der helper-App verbinden um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nSie können die App weiterhin im reinen Monitoringmodus verwenden.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Nur Überwachung</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Keine Lüfter erkannt, bitte versuchen Sie es mit [SMC zurücksetzen].(https://support.apple.com/de-de/HT201295)</messageNoFansDetected>
+        <messageNoFansDetected>Keine Lüfter erkannt, bitte versuchen Sie es mit [SMC zurücksetzen](https://support.apple.com/de-de/HT201295)</messageNoFansDetected>
         <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
@@ -90,6 +90,7 @@
         <itemMoreLinks>Mehr...</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Nach Aktualisierungen suchen</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Auf Macupdate bewerten...</itemRateApp>
         <itemFollowTwitter>@crystalidea folgen</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Sensorbasiert</itemSensorBased>
         <itemUpgradeToPro>Upgrade zur Pro-Version</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Einstellungen</title>
         <TabGeneral>Allgemein</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Sprache:</staticLanguage>
         <checkSystemStart>Beim Systemstart automatisch minimiert starten (empfohlen)</checkSystemStart>
         <checkUpdatesOnStartup>Beim Starten der App nach Aktualisierungen suchen</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Fahrenheit-Temperaturskala verwenden</checkFahrenheit>
         <checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4°C/°F)</checkPrecise>
         <labelSensors>Ausgelesene Temperaturen von</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(Nur °C)</staticCelsiusOnlyOnWindows>
         <checkLog>Ereignisprotokoll aktivieren (Neustart notwendig)</checkLog>
         <browseLog>Öffnen…</browseLog>
-        <buttonCopyTechInfo>Technische Infos kopieren</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Über Macs Fan Control</title>

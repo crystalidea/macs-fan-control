@@ -90,6 +90,7 @@
         <itemMoreLinks>Ще</itemMoreLinks>
         <itemWebsite>Вебсайт</itemWebsite>
         <itemCheckForUpdates>Перевірка оновлень...</itemCheckForUpdates>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Оцінити на MacUpdate</itemRateApp>
         <itemFollowTwitter>Читати в Twitter: @crystalidea</itemFollowTwitter>
         <itemUninstall>Uninstall...</itemUninstall>
@@ -98,6 +99,10 @@
         <itemSensorBased>Базується на датчику</itemSensorBased>
         <itemUpgradeToPro>Оновити до Pro версії</itemUpgradeToPro>
     </TrayMenu>
+    <techInfoZipMessage>
+        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton>Show zip file</browseButton>
+    </techInfoZipMessage>
     <PreferencesWindow>
         <title>Налаштування</title>
         <TabGeneral>Основні</TabGeneral>
@@ -108,6 +113,7 @@
         <staticLanguage>Мова:</staticLanguage>
         <checkSystemStart>Автостарт під час запуску системи (рекомендується)</checkSystemStart>
         <checkUpdatesOnStartup>Перевіряти оновлення під час запуску</checkUpdatesOnStartup>
+        <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Використовувати шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Точніше відображення температури (до десятих)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
@@ -124,7 +130,6 @@
         <staticCelsiusOnlyOnWindows>(тільки у Цельсіях)</staticCelsiusOnlyOnWindows>
         <checkLog>Журналювання (необхідне перезавантаження)</checkLog>
         <browseLog>Показати журнал</browseLog>
-        <buttonCopyTechInfo>Копіювати технічну інформацію</buttonCopyTechInfo>
     </PreferencesWindow>
     <AboutDialog>
         <title>Про застосунок Macs Fan Control</title>
