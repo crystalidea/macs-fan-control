@@ -111,7 +111,7 @@
         <tabTrayIconMac>Menu bar display</tabTrayIconMac>
         <tabDiagnostics>Diagnostics</tabDiagnostics>
         <staticLanguage>Language:</staticLanguage>
-        <checkSystemStart>Autostart minimized with system (recommended)</checkSystemStart>
+        <checkSystemStart>Autostart minimized when you log in (recommended)</checkSystemStart>
         <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
         <checkDockIcon>Show icon in dock</checkDockIcon>
         <checkFahrenheit>Use Fahrenheit temperature scale</checkFahrenheit>
