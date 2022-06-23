@@ -111,7 +111,7 @@
         <tabTrayIconMac>Строка меню</tabTrayIconMac>
         <tabDiagnostics>Диагностика</tabDiagnostics>
         <staticLanguage>Язык:</staticLanguage>
-        <checkSystemStart>Автостарт при запуске системы (рекомендуется)</checkSystemStart>
+        <checkSystemStart>Автозапуск при входе в систему (рекомендуется)</checkSystemStart>
         <checkUpdatesOnStartup>Проверять обновления при старте программы</checkUpdatesOnStartup>
         <checkDockIcon>Отображать значок программы в Dock</checkDockIcon>
         <checkFahrenheit>Использовать шкалу Фаренгейта</checkFahrenheit>
