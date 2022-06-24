@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.12" Author="Lúcio Alves">
+<LanguageStrings version="1.5.13" Author="Lúcio Alves">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventoinha</listColumnFan>
@@ -18,7 +18,7 @@
         <buttonFanControlCustom>Personalizado...</buttonFanControlCustom>
         <buttonFanControlCustomInfo>Especifique um modo de controlo personalizado</buttonFanControlCustomInfo>
         <buttonMinimize>Minimizar</buttonMinimize>
-        <buttonMinimizeMac>Ocultar para a barra</buttonMinimizeMac>
+        <buttonMinimizeMac>Ocultar para a barra de menus</buttonMinimizeMac>
         <buttonPreferences>Definições...</buttonPreferences>
         <buttonAbout>Sobre...</buttonAbout>
         <messageHelperToolInstall>O Macs Fan Control necessita de uma ferramenta auxiliar para controlar as ventoinhas. Pode saltar este passo se desejar apenas visualizar a velocidade das ventoinhas e o valor dos sensores.</messageHelperToolInstall>
@@ -33,9 +33,9 @@
         <title>Controlo da ventoinha %1</title>
         <radioConstant>RPM com valor constante</radioConstant>
         <radioSensor>Valor baseado no Sensor</radioSensor>
-        <staticIncrease>Temperatura em que a\nvelocidade da ventoinha\ncomeça a aumentar:</staticIncrease>
+        <staticIncrease>Temperatura a que a\nvelocidade da ventoinha\ncomeça a aumentar:</staticIncrease>
         <staticMax>Temperatura máxima:</staticMax>
-        <statusWarning>Algo está errado - os valores min e máx da ventoinha são iguais (%1).&lt;br/&gt; Por favor, certifique-se que desinstala outros softwares de controlo das ventoinhas e que repõe o SMC.</statusWarning>
+        <statusWarning>Algo está errado - os valores min e máx da ventoinha são iguais (%1).&lt;br/&gt; Por favor, certifique-se de que desinstala outros softwares de controlo das ventoinhas e de que repõe o SMC.</statusWarning>
         <saveToCurrentPreset>Guardar a predefinição atual ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
@@ -90,7 +90,7 @@
         <itemMoreLinks>Mais</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Procurar atualizações...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>Criar ficheiro de suporte...</itemTechInfoZip>
         <itemRateApp>Classificar no MacUpdate</itemRateApp>
         <itemFollowTwitter>Seguir @crystalidea</itemFollowTwitter>
         <itemUninstall>Desinstalar...</itemUninstall>
@@ -100,20 +100,20 @@
         <itemUpgradeToPro>Atualize para a versão Pro</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>O ficheiro de suporte '%1', que consiste em informação técnica anónima e numa captura da janela principal, foi criado no seu ambiente de trabalho.\n\nPor favor, envie este ficheiro para support@crystalidea.com ou publique-o no Issue Tracker do nosso GitHub.</message>
+        <browseButton>Mostrar ficheiro zip</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Definições</title>
         <TabGeneral>Geral</TabGeneral>
-        <tabTrayIcon>Ícone na barra</tabTrayIcon>
+        <tabTrayIcon>Barra de tarefas</tabTrayIcon>
         <tabSensors>Sensores</tabSensors>
-        <tabTrayIconMac>Ícone na barra</tabTrayIconMac>
+        <tabTrayIconMac>Barra de menus</tabTrayIconMac>
         <tabDiagnostics>Diagnósticos</tabDiagnostics>
         <staticLanguage>Idioma:</staticLanguage>
         <checkSystemStart>Abrir minimizado ao iniciar o sistema (recomendado)</checkSystemStart>
         <checkUpdatesOnStartup>Procurar atualizações quando a aplicação inicia</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Mostrar ícone na dock</checkDockIcon>
         <checkFahrenheit>Usar unidade de temperatura Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostrar valores de temperatura mais exatos (quando possível)</checkPrecise>
         <labelSensors>Ler temperaturas de:</labelSensors>
@@ -123,8 +123,8 @@
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventoinha:</staticFan>
         <staticIcon>Ícone:</staticIcon>
-        <comboIconOptionShow>Mostrar (a cores)</comboIconOptionShow>
-        <comboIconOptionShowBW>Mostrar (a preto e branco)</comboIconOptionShowBW>
+        <comboIconOptionShow>A cores</comboIconOptionShow>
+        <comboIconOptionShowBW>A preto e branco</comboIconOptionShowBW>
         <comboOptionNone>Nenhum</comboOptionNone>
         <checkTwoLines>Mostrar ventoinha/sensor em duas linhas para poupar espaço</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(apenas Celsius)</staticCelsiusOnlyOnWindows>
@@ -148,7 +148,7 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Desinstalar Macs Fan Control?</title>
-        <message>Está prestes a desinstalar completamente a aplicação do seu mac, incluindo as suas preferências, a ferramenta auxiliar e a licença da versão Pro. Todas as modificações ao controlo predefinido das ventoinhas será revertido e a(s) ventoinha(s) serão controladas automaticamente pelo sistema. \n\nPoder-lhe-á ser pedida autorização para a desinstalação da aplicação.</message>
+        <message>Está prestes a desinstalar completamente a aplicação do seu Mac, incluindo as suas preferências, a ferramenta auxiliar e a licença da versão Pro. Todas as modificações ao controlo predefinido das ventoinhas serão revertidas e a(s) ventoinha(s) será(ão) controladas automaticamente pelo sistema. \n\nPoder-lhe-á ser pedida autorização para a desinstalação da aplicação.</message>
         <authorizeText>Por favor, autorize a aplicação a desinstalar a ferramenta auxiliar.</authorizeText>
         <buttonUninstall>Desinstalar</buttonUninstall>
     </UninstallDialog>
@@ -165,7 +165,7 @@
             <NewVersionAvailable>Uma versão nova de %1 está disponível!</NewVersionAvailable>
             <NewVersionAvailableText>%1 %2 está disponível - você tem a %3. Gostaria de a descarregar agora?</NewVersionAvailableText>
             <UpdateAlertTitle>Atualização de software</UpdateAlertTitle>
-            <UpdateAlertReleaseNotes>Notas da Versão:</UpdateAlertReleaseNotes>
+            <UpdateAlertReleaseNotes>Notas da versão:</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Lembrar depois</UpdateAlertRemindLater>
             <UpdateAlertSkip>Saltar esta versão</UpdateAlertSkip>
             <UpdateAlertInstall>Instalar atualização</UpdateAlertInstall>
@@ -200,7 +200,7 @@
             <actionUndo>Anular</actionUndo>
             <actionRedo>Refazer</actionRedo>
             <actionCut>Cortar</actionCut>
-            <actionCopy>Copias</actionCopy>
+            <actionCopy>Copiar</actionCopy>
             <actionPaste>Colar</actionPaste>
             <actionDelete>Apagar</actionDelete>
             <actionSelectAll>Selecionar Tudo</actionSelectAll>
