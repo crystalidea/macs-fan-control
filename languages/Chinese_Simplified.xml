@@ -1,153 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageStrings version="1.5.9" Author="Samuel Lee [samuel_lee_1991@qq.com]">
     <MainWindow>
-        <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
+        <staticSensorsListHeader>温度传感器：</staticSensorsListHeader>
         <listColumnFan>风扇</listColumnFan>
-        <listColumnRPM>最低/当前/最大风扇速度</listColumnRPM>
+        <listColumnRPM>最低／当前／最高每分钟转速</listColumnRPM>
         <listColumnControl>控制策略</listColumnControl>
         <listColumnSensor>传感器</listColumnSensor>
         <listColumnSensorValue>温度</listColumnSensorValue>
         <listSeparatorDrives>磁盘驱动器：</listSeparatorDrives>
-        <popupMenuItemControl>修改控制策略...</popupMenuItemControl>
+        <popupMenuItemControl>修改控制策略…</popupMenuItemControl>
         <popupMenuItemReset>重置为自动控制</popupMenuItemReset>
         <fanControlAutomatic>自动</fanControlAutomatic>
         <fanControlAutomaticInfo>自动（系统控制）</fanControlAutomaticInfo>
-        <fanControlConstant>固定转速: %1</fanControlConstant>
-        <fanControlSensor>基于 %1</fanControlSensor>
+        <fanControlConstant>%1的固定转速</fanControlConstant>
+        <fanControlSensor>基于%1</fanControlSensor>
         <fanControlUnknown>不明！</fanControlUnknown>
-        <buttonFanControlCustom>自定...</buttonFanControlCustom>
-        <buttonFanControlCustomInfo>指定自定控制模式</buttonFanControlCustomInfo>
+        <buttonFanControlCustom>自定…</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>指定一个自定控制模式</buttonFanControlCustomInfo>
         <buttonMinimize>最小化</buttonMinimize>
         <buttonMinimizeMac>隐藏到菜单栏</buttonMinimizeMac>
-        <buttonPreferences>设置...</buttonPreferences>
-        <buttonAbout>关于...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control 需要安装用于风扇控制的辅助工具。如果您只想查看风扇温度传感器，则可以跳过此步骤。</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Control 需要安装用于风扇控制的辅助工具的更新版本。</messageHelperToolUpgrade>
+        <buttonPreferences>设置…</buttonPreferences>
+        <buttonAbout>关于…</buttonAbout>
+        <messageHelperToolInstall>Macs Fan Control需要安装用于控制风扇的辅助工具。如果您只想监测风扇和温度传感器，则可以跳过此步骤。</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control需要更新用于控制风扇的辅助工具。</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control 无法连接至帮助程序以便启用风扇控制并且调整其转速。\n\n请务必在出现此要求时，输入管理员密码。\n\n您仍然可以在只读模式使用此应用。</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>只读模式</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>没有检测到风扇，请尝试[重置SMC](https://support.apple.com/zh-cn/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>此电脑是被动散热的，所以没有可供调节的风扇。</messageNoFansAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control无法连接至辅助程序以控制风扇并调节其转速。\n\n请务必按照要求输入管理员密码。\n\n您仍然能够以监测模式使用此应用。</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>监测模式</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>没有检测到风扇，请尝试【重置SMC】（https://support.apple.com/zh-cn/HT201295）</messageNoFansDetected>
+        <messageNoFansAvailable>本机没有风扇，采用被动散热。</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>修改 %1 风扇设置</title>
-        <radioConstant>固定转速</radioConstant>
-        <radioSensor>基于温度</radioSensor>
-        <staticIncrease>高于此温度则提高风扇转速:</staticIncrease>
-        <staticMax>最高温度:</staticMax>
-        <statusWarning>错误 - 风扇的最大最小值相同（%1）。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
-        <saveToCurrentPreset>保存到现有的预设策略 ('%1')</saveToCurrentPreset>
+        <title>修改'%1'风扇控制策略</title>
+        <radioConstant>每分钟固定转速</radioConstant>
+        <radioSensor>转速基于温度传感器</radioSensor>
+        <staticIncrease>高于此温度则提高风扇转速：</staticIncrease>
+        <staticMax>最高温度：</staticMax>
+        <statusWarning>出错了——%1风扇的最大值与最小值相同。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
+        <saveToCurrentPreset>保存到当前预设策略（“%1”）</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>当前预设:</activePresetLabel>
+        <activePresetLabel>当前采用的预设策略：</activePresetLabel>
         <presetAutomatic>自动</presetAutomatic>
         <presetFullBlast>全速</presetFullBlast>
         <presetCurrentUnsaved>自定义*</presetCurrentUnsaved>
-        <presetMenuSave>保存...</presetMenuSave>
-        <presetMenuRename>重命名</presetMenuRename>
+        <presetMenuSave>存储…</presetMenuSave>
+        <presetMenuRename>重新命名</presetMenuRename>
         <presetMenuDelete>删除</presetMenuDelete>
-        <presetMenuPredefined>预定义预设:</presetMenuPredefined>
-        <presetMenuCustom>自定义预设:</presetMenuCustom>
+        <presetMenuPredefined>内置预设策略：</presetMenuPredefined>
+        <presetMenuCustom>自定义预设策略：</presetMenuCustom>
         <presetMenuApply>应用</presetMenuApply>
         <presetMenuProVersion>Pro版本中可用</presetMenuProVersion>
-        <presetMenuCurrent>预设 - %1</presetMenuCurrent>
-        <presetMenuDiscard>丢弃 (将所有风扇设为自动)</presetMenuDiscard>
-        <labelPresetName>设置组名称:</labelPresetName>
-        <savePresetTitle>保存预设</savePresetTitle>
-        <editPresetTitle>编辑预设名称</editPresetTitle>
-        <presetCreateNew>新建预设...</presetCreateNew>
+        <presetMenuCurrent>预设——%1</presetMenuCurrent>
+        <presetMenuDiscard>丢弃（将所有风扇重置为自动）</presetMenuDiscard>
+        <labelPresetName>预设策略名称：</labelPresetName>
+        <savePresetTitle>保存自定义预设策略</savePresetTitle>
+        <editPresetTitle>编辑预设策略名称</editPresetTitle>
+        <presetCreateNew>新建…</presetCreateNew>
         <presetCreateNewTitle>创建新的预设策略</presetCreateNewTitle>
-        <presetCreateNewMessage>您的所有风扇目前都由系统控制。\n\n请至少将一个风扇调整到“自定义预设”模式再创建预设。</presetCreateNewMessage>
-        <presetCreateNewMessage2>请至少更改一个风扇的控制策略，因为目前所有风扇都在 '%1' 预设下以最高速度运转。</presetCreateNewMessage2>
-        <presetCreateNewButton>为 '%1' 风扇自定义预设</presetCreateNewButton>
+        <presetCreateNewMessage>您的所有风扇目前都由系统控制。\n\n请将至少一个风扇的控制策略调整为“自定义”以创建新的预设策略。</presetCreateNewMessage>
+        <presetCreateNewMessage2>请更改至少一个风扇的控制策略，因为目前所有风扇都遵从“%1”的预设策略全速运转。</presetCreateNewMessage2>
+        <presetCreateNewButton>“%1”风扇的自定义预设策略</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>升级到 Macs Fan Control 专业版本</title>
-        <proInfo1>专业版能够创建和保存自定义风扇预设，因此您可以根据自己的活动在它们之间快速切换。</proInfo1>
-        <proInfo2>如果您已经购买了本应用，请点击下方的输入序列号按钮</proInfo2>
+        <title>升级到Macs Fan Control专业版本</title>
+        <proInfo1>专业版能够创建和保存自定义风扇预设策略，因此您可以根据自己的活动在它们之间快速切换。</proInfo1>
+        <proInfo2>如果您已经购买了本应用，请点击下方的“输入许可证号”按钮</proInfo2>
         <buttonPurchase>购买</buttonPurchase>
-        <buttonEnterLicense>输入许可证序列号</buttonEnterLicense>
+        <buttonEnterLicense>输入许可证号</buttonEnterLicense>
         <buttonLater>以后再说</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>解锁Pro版本</title>
-        <infoText>如果您已经购买了Macs Fan Control，请在以下框中输入电子邮件收据中的电子邮件地址和许可证序列号。这将完全解锁Macs Fan Control的Pro功能。</infoText>
+        <infoText>如果您已经购买了Macs Fan Control，请在以下框中输入您的电子邮件收据上的邮箱地址和许可证号。这将完全解锁Macs Fan Control的Pro功能。</infoText>
         <licenseVerifyInfo>您输入的信息可能会通过互联网进行验证。</licenseVerifyInfo>
-        <email>电子邮箱</email>
-        <licenseKey>许可序列号</licenseKey>
+        <email>邮箱地址</email>
+        <licenseKey>许可证号</licenseKey>
         <buttonUnlock>解锁</buttonUnlock>
-        <buttonRestoreLicense>恢复许可</buttonRestoreLicense>
-        <invalidLicenseTitle>无效许可!</invalidLicenseTitle>
-        <invalidLicenseText>确保以正确的顺序输入所有字母，数字和破折号。如果您手动输入该号码，请尝试从您的电子邮件收据中复制并粘贴该号码。</invalidLicenseText>
-        <invalidLicenseMismatchOS>您提供的序列号是有效的，但无法激活%1版本的 Macs Fan Control.</invalidLicenseMismatchOS>
+        <buttonRestoreLicense>恢复许可证</buttonRestoreLicense>
+        <invalidLicenseTitle>许可证无效！</invalidLicenseTitle>
+        <invalidLicenseText>请确保按正确的顺序输入所有字母、数字和连接号。如果您在手动输入这些字符，不妨尝试从您的电子邮件收据中复制并粘贴。</invalidLicenseText>
+        <invalidLicenseMismatchOS>您提供的许可证号是有效的，但不能用于%1。</invalidLicenseMismatchOS>
         <thanksTitle>感谢您购买Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>免费版的所有限制已被解除，我们希望您喜欢使用本应用！</thanksInfo>
+        <thanksInfo>免费版的所有限制已被解除，我们希望您喜欢本应用！</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
-        <itemShow>显示主窗口</itemShow>
-        <itemAvailableFans>风扇列表：</itemAvailableFans>
-        <itemFanPresets>预设策略:</itemFanPresets>
+        <itemShow>显示Macs Fan Control</itemShow>
+        <itemAvailableFans>可用风扇：</itemAvailableFans>
+        <itemFanPresets>风扇预设策略：</itemFanPresets>
         <itemMoreLinks>更多</itemMoreLinks>
-        <itemWebsite>主页</itemWebsite>
-        <itemCheckForUpdates>检查更新...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
-        <itemRateApp>在 MacUpdate 评价</itemRateApp>
-        <itemFollowTwitter>关注 @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemWebsite>网站</itemWebsite>
+        <itemCheckForUpdates>检查更新…</itemCheckForUpdates>
+        <itemTechInfoZip>生成技术zip文件…</itemTechInfoZip>
+        <itemRateApp>在MacUpdate上评价</itemRateApp>
+        <itemFollowTwitter>关注@crystalidea</itemFollowTwitter>
+        <itemUninstall>卸载…</itemUninstall>
         <itemExit>退出</itemExit>
         <itemExitMac>退出Macs Fan Control</itemExitMac>
-        <itemSensorBased>基于传感器检测值</itemSensorBased>
+        <itemSensorBased>基于传感器</itemSensorBased>
         <itemUpgradeToPro>升级到Pro版本</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>在您的桌面上创建了一个包含匿名技术数据和主窗口屏幕截图的支持包“%1”。\n\n请将此文件发送至support@crystalidea.com或在我们的GitHub问题跟踪器上发布。</message>
+        <browseButton>显示zip文件</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>设置</title>
         <TabGeneral>通用</TabGeneral>
         <tabTrayIcon>菜单栏图标</tabTrayIcon>
         <tabSensors>传感器</tabSensors>
-        <tabTrayIconMac>菜单栏图标显示</tabTrayIconMac>
+        <tabTrayIconMac>菜单栏显示</tabTrayIconMac>
         <tabDiagnostics>诊断</tabDiagnostics>
         <staticLanguage>语言：</staticLanguage>
         <checkSystemStart>随系统最小化自动启动（推荐）</checkSystemStart>
         <checkUpdatesOnStartup>当应用启动时检查更新</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
-        <checkFahrenheit>使用华氏单位显示</checkFahrenheit>
-        <checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
-        <labelSensors>读取选项温度</labelSensors>
+        <checkDockIcon>在程序坞中显示图标</checkDockIcon>
+        <checkFahrenheit>使用华氏温标</checkFahrenheit>
+        <checkPrecise>如有可能精确显示温度（比如45.4）</checkPrecise>
+        <labelSensors>读取下列设备的温度</labelSensors>
         <checkExternalGPU>通过雷雳接口连接的外置显示卡</checkExternalGPU>
         <checkSATADrives>已连接的SATA驱动器</checkSATADrives>
         <checkNVMeDrives>已连接的NVMe驱动器</checkNVMeDrives>
         <staticSensor>传感器：</staticSensor>
         <staticFan>风扇：</staticFan>
         <staticIcon>图标：</staticIcon>
-        <comboIconOptionShow>显示彩色图标</comboIconOptionShow>
-        <comboIconOptionShowBW>显示黑白图标</comboIconOptionShowBW>
+        <comboIconOptionShow>彩色</comboIconOptionShow>
+        <comboIconOptionShowBW>黑白</comboIconOptionShowBW>
         <comboOptionNone>不显示</comboOptionNone>
-        <checkTwoLines>使用两行显示风扇/传感器的信息以便节省一些空间</checkTwoLines>
+        <checkTwoLines>风扇／传感器读数分两行显示以节省空间</checkTwoLines>
         <staticCelsiusOnlyOnWindows>（只显示摄氏度）</staticCelsiusOnlyOnWindows>
         <checkLog>开启日志（需要重启）</checkLog>
         <browseLog>浏览</browseLog>
     </PreferencesWindow>
     <AboutDialog>
-        <title>关于 Macs Fan Control</title>
+        <title>关于Macs Fan Control</title>
         <staticTechnicalSupport>技术支持</staticTechnicalSupport>
         <staticOnlineHelp>在线帮助</staticOnlineHelp>
         <staticFreeVersion>免费版本</staticFreeVersion>
-        <staticProVersion>Pro 版本, %1 台电脑授权</staticProVersion>
-        <staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的Mac的高级用户使用的。作者不为因为不当使用或由于使用此程序造成数据丢失，硬件损伤，或其他相关损失负责</staticWarning>
+        <staticProVersion>Pro版本，%1台电脑授权</staticProVersion>
+        <staticWarning>此应用程序是提供给那些知道如何使用并且不会损害他们的Mac的高级用户使用的。作者不对因使用或误用本程序而导致的数据丢失、损坏、利润损失或任何其他类型的损失负责。</staticWarning>
     </AboutDialog>
     <RateMeDialog>
-        <message>在 MacUpdate 评价应用</message>
-        <informativeText>如果您喜欢使用 %1，请问您是否会介意花点时间评价它？这个过程不会超过 1 分钟。感谢您的支持！</informativeText>
-        <buttonRate>在 MacUpdate 评价此程序</buttonRate>
-        <buttonNoThanks>不了，谢谢您</buttonNoThanks>
+        <message>在MacUpdate上评价应用</message>
+        <informativeText>如果您喜欢%1，能否拨冗给予评价？这个过程不会超过1 分钟。感谢您的支持！</informativeText>
+        <buttonRate>在MacUpdate上评价此程序</buttonRate>
+        <buttonNoThanks>不了，谢谢</buttonNoThanks>
         <checkDontShowAgain>请不要再显示此信息</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>卸载Macs Fan Control?</title>
+        <title>卸载Macs Fan Control？</title>
         <message>您即将从Mac上完全卸载该应用程序，包括其首选项、风扇助手工具和专业版的许可数据。对默认风扇控制的所有修改都将恢复，并且风扇将由系统自动控制。\n\n系统可能会提示您授权应用程序自行卸载。</message>
         <authorizeText>请授权应用程序以卸载风扇助手工具。</authorizeText>
         <buttonUninstall>卸载</buttonUninstall>
@@ -160,10 +160,10 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>于 %1 发布</ReleasedOn>
-            <CheckForUpdates>检查更新...</CheckForUpdates>
-            <NewVersionAvailable>有新版本 %1 了！</NewVersionAvailable>
-            <NewVersionAvailableText>有新版本 %1 %2 - 您的版本为 %3。您希望下载新版本么？</NewVersionAvailableText>
+            <ReleasedOn>于%1发布</ReleasedOn>
+            <CheckForUpdates>检查更新…</CheckForUpdates>
+            <NewVersionAvailable>%1有新版本了！</NewVersionAvailable>
+            <NewVersionAvailableText>%1有新版本%2——您的版本为%3。您希望下载新版本么？</NewVersionAvailableText>
             <UpdateAlertTitle>软件更新</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>发布备注：</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>稍后提醒</UpdateAlertRemindLater>
@@ -171,16 +171,16 @@
             <UpdateAlertInstall>安装更新</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>自动检查更新</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>您的版本已经是最新的！</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>%1 %2 是目前最新版本。</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>下载失败，请稍候重试。</MessageErrorConnect>
+            <MessageNoUpdateAvailableDescription>%2是目前%1最新版本。</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>下载更新时发生错误，请稍后重试。</MessageErrorConnect>
             <MessageErrorParse>分析更新数据时发生错误。</MessageErrorParse>
-            <UpdateProgressTitle>更新 %1</UpdateProgressTitle>
+            <UpdateProgressTitle>更新%1</UpdateProgressTitle>
             <UpdateProgressCancel>放弃</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>安装并重启</UpdateProgressInstallAndRelaunch>
-            <UpdateProgressStatusDownloading>下载更新数据...</UpdateProgressStatusDownloading>
-            <UpdateProgressExtract>解压更新数据...</UpdateProgressExtract>
+            <UpdateProgressStatusDownloading>下载更新…</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>解压更新…</UpdateProgressExtract>
             <UpdateProgressStatusReady>准备安装</UpdateProgressStatusReady>
-            <UpdateProgressSize>%1 ，共 %2</UpdateProgressSize>
+            <UpdateProgressSize>%1，共%2</UpdateProgressSize>
             <UpdateProgressB>B</UpdateProgressB>
             <UpdateProgressKB>KB</UpdateProgressKB>
             <UpdateProgressMB>MB</UpdateProgressMB>
@@ -188,11 +188,11 @@
         </UpdateChecker>
         <LetsMoveMac>
             <kStrMoveApplicationCouldNotMove>无法移动到“应用程序”文件夹中</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>是否要把程序移动到“应用程序”文件夹中？</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitle>移动到“应用程序”文件夹中</kStrMoveApplicationQuestionTitle>
             <kStrMoveApplicationQuestionTitleHome>是否要把程序移动到您的个人文件夹里的“应用程序”文件夹中？</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>%1 我要自己把程序移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationQuestionMessage>是否让%1把自己移动到“应用程序”文件夹中。</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>移动到“应用程序”文件夹中</kStrMoveApplicationButtonMove>
-            <kStrMoveApplicationButtonDoNotMove>不移动</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationButtonDoNotMove>不要移动</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>注意，本操作需要您输入管理员密码。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>这样做能让您的“下载”文件夹保持整洁。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
