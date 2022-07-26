@@ -12,7 +12,7 @@
         <popupMenuItemReset>重置为自动控制</popupMenuItemReset>
         <fanControlAutomatic>自动</fanControlAutomatic>
         <fanControlAutomaticInfo>自动（系统控制）</fanControlAutomaticInfo>
-        <fanControlConstant>%1的固定转速</fanControlConstant>
+        <fanControlConstant>固定每分钟%1转</fanControlConstant>
         <fanControlSensor>基于%1</fanControlSensor>
         <fanControlUnknown>不明！</fanControlUnknown>
         <buttonFanControlCustom>自定…</buttonFanControlCustom>
@@ -24,18 +24,18 @@
         <messageHelperToolInstall>Macs Fan Control需要安装用于控制风扇的辅助工具。如果您只想监测风扇和温度传感器，则可以跳过此步骤。</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control需要更新用于控制风扇的辅助工具。</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>风扇控制不可用</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control无法连接至辅助程序以控制风扇并调节其转速。\n\n请务必按照要求输入管理员密码。\n\n您仍然能够以监测模式使用此应用。</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control无法连接至辅助程序，以致无法控制风扇并调节其转速。\n\n当系统请求管理员密码时，请务必按要求输入。\n\n您仍然能够以“监测模式”使用此应用。</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>监测模式</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>没有检测到风扇，请尝试【重置SMC】（https://support.apple.com/zh-cn/HT201295）</messageNoFansDetected>
         <messageNoFansAvailable>本机没有风扇，采用被动散热。</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>修改'%1'风扇控制策略</title>
+        <title>修改“%1”风扇控制策略</title>
         <radioConstant>每分钟固定转速</radioConstant>
         <radioSensor>转速基于温度传感器</radioSensor>
         <staticIncrease>高于此温度则提高风扇转速：</staticIncrease>
         <staticMax>最高温度：</staticMax>
-        <statusWarning>出错了——%1风扇的最大值与最小值相同。&lt;br/&gt; 请删除其他风扇控制程序，并重启SMC。</statusWarning>
+        <statusWarning>出错了——风扇的最高转速与最低转速相同（%1）。&lt;br/&gt; 请删除其他风扇控制程序，并重置SMC。</statusWarning>
         <saveToCurrentPreset>保存到当前预设策略（“%1”）</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
@@ -49,21 +49,21 @@
         <presetMenuPredefined>内置预设策略：</presetMenuPredefined>
         <presetMenuCustom>自定义预设策略：</presetMenuCustom>
         <presetMenuApply>应用</presetMenuApply>
-        <presetMenuProVersion>Pro版本中可用</presetMenuProVersion>
-        <presetMenuCurrent>预设——%1</presetMenuCurrent>
-        <presetMenuDiscard>丢弃（将所有风扇重置为自动）</presetMenuDiscard>
+        <presetMenuProVersion>在Pro版本中提供</presetMenuProVersion>
+        <presetMenuCurrent>预设 - %1</presetMenuCurrent>
+        <presetMenuDiscard>丢弃（将所有风扇重置为自动控制）</presetMenuDiscard>
         <labelPresetName>预设策略名称：</labelPresetName>
         <savePresetTitle>保存自定义预设策略</savePresetTitle>
         <editPresetTitle>编辑预设策略名称</editPresetTitle>
         <presetCreateNew>新建…</presetCreateNew>
         <presetCreateNewTitle>创建新的预设策略</presetCreateNewTitle>
-        <presetCreateNewMessage>您的所有风扇目前都由系统控制。\n\n请将至少一个风扇的控制策略调整为“自定义”以创建新的预设策略。</presetCreateNewMessage>
-        <presetCreateNewMessage2>请更改至少一个风扇的控制策略，因为目前所有风扇都遵从“%1”的预设策略全速运转。</presetCreateNewMessage2>
+        <presetCreateNewMessage>您的所有风扇目前都由系统控制。\n\n若要创建新的预设策略，请将至少一个风扇的控制策略调整为“自定义”。</presetCreateNewMessage>
+        <presetCreateNewMessage2>请更改至少一个风扇的控制策略，因为目前所有风扇都在依照“%1”预设策略全速运转。</presetCreateNewMessage2>
         <presetCreateNewButton>“%1”风扇的自定义预设策略</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>升级到Macs Fan Control专业版本</title>
-        <proInfo1>专业版能够创建和保存自定义风扇预设策略，因此您可以根据自己的活动在它们之间快速切换。</proInfo1>
+        <title>升级到Macs Fan Control Pro</title>
+        <proInfo1>Pro版能够创建和保存自定义风扇预设策略，因此您可以根据自己的使用情形快速切换预设策略。</proInfo1>
         <proInfo2>如果您已经购买了本应用，请点击下方的“输入许可证号”按钮</proInfo2>
         <buttonPurchase>购买</buttonPurchase>
         <buttonEnterLicense>输入许可证号</buttonEnterLicense>
@@ -71,7 +71,7 @@
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>解锁Pro版本</title>
-        <infoText>如果您已经购买了Macs Fan Control，请在以下框中输入您的电子邮件收据上的邮箱地址和许可证号。这将完全解锁Macs Fan Control的Pro功能。</infoText>
+        <infoText>如果您已经购买了Macs Fan Control，请将您电子邮件收据上的邮箱地址和许可证号填入下框中，即可完全解锁Macs Fan Control的Pro功能。</infoText>
         <licenseVerifyInfo>您输入的信息可能会通过互联网进行验证。</licenseVerifyInfo>
         <email>邮箱地址</email>
         <licenseKey>许可证号</licenseKey>
@@ -90,7 +90,7 @@
         <itemMoreLinks>更多</itemMoreLinks>
         <itemWebsite>网站</itemWebsite>
         <itemCheckForUpdates>检查更新…</itemCheckForUpdates>
-        <itemTechInfoZip>生成技术zip文件…</itemTechInfoZip>
+        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>在MacUpdate上评价</itemRateApp>
         <itemFollowTwitter>关注@crystalidea</itemFollowTwitter>
         <itemUninstall>卸载…</itemUninstall>
@@ -100,7 +100,7 @@
         <itemUpgradeToPro>升级到Pro版本</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>在您的桌面上创建了一个包含匿名技术数据和主窗口屏幕截图的支持包“%1”。\n\n请将此文件发送至support@crystalidea.com或在我们的GitHub问题跟踪器上发布。</message>
+        <message>在您的桌面上创建了一个包含匿名技术数据和主窗口屏幕截图的支持包“%1”。\n\n请将此文件发送至support@crystalidea.com或者发布在我们的GitHub问题跟踪器上。</message>
         <browseButton>显示zip文件</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
@@ -147,9 +147,9 @@
         <checkDontShowAgain>请不要再显示此信息</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>卸载Macs Fan Control？</title>
-        <message>您即将从Mac上完全卸载该应用程序，包括其首选项、风扇助手工具和专业版的许可数据。对默认风扇控制的所有修改都将恢复，并且风扇将由系统自动控制。\n\n系统可能会提示您授权应用程序自行卸载。</message>
-        <authorizeText>请授权应用程序以卸载风扇助手工具。</authorizeText>
+        <title>确定要卸载Macs Fan Control？</title>
+        <message>您即将从Mac上完全卸载该应用程序，包括其偏好设置、风扇辅助工具和Pro版的许可数据。对默认风扇控制的所有修改都将恢复，并且风扇将由系统自动控制。\n\n系统可能会提示您授权应用程序自行卸载。</message>
+        <authorizeText>请授权应用程序卸载风扇助手工具。</authorizeText>
         <buttonUninstall>卸载</buttonUninstall>
     </UninstallDialog>
     <Common>
