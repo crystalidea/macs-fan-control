@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.4.8.1" Author="OREKASEP - Thanh TRAN CONG, sorae_42 (skyventuree)">
+<LanguageStrings version="1.5.13" Author="OREKASEP - Thanh TRAN CONG, sorae_42 (skyventuree)">
     <MainWindow>
         <staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
         <listColumnFan>Quạt</listColumnFan>
