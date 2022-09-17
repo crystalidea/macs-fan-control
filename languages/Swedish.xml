@@ -16,7 +16,7 @@
         <fanControlSensor>Baserat på %1</fanControlSensor>
         <fanControlUnknown>Okänd!</fanControlUnknown>
         <buttonFanControlCustom>Anpassad...</buttonFanControlCustom>
-        <buttonFanControlCustomInfo>Specifiera anpassad styrning</buttonFanControlCustomInfo>
+        <buttonFanControlCustomInfo>Specificera anpassad styrning</buttonFanControlCustomInfo>
         <buttonMinimize>Minimera</buttonMinimize>
         <buttonMinimizeMac>Göm till menyraden</buttonMinimizeMac>
         <buttonPreferences>Inställningar...</buttonPreferences>
@@ -27,7 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control kan inte ansluta till hjälpprogrammet som möjliggör styrning av fläktarna. \n\nSe till att ange ett administratörslösenord när du ombeds.\n\nDu kan fortfarande använda programmet enbart för övervakning.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Endast övervakning</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Inga fläktar detekterades, gör en [återställning av SMC](https://support.apple.com/sv-se/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Denna dator har inga fläktar och kyls passivt</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Ändra styrningen av fläkten: '%1'</title>
@@ -55,11 +55,11 @@
         <labelPresetName>Förinställningens namn:</labelPresetName>
         <savePresetTitle>Spara anpassad förinställning</savePresetTitle>
         <editPresetTitle>Redigera förinställningens namn</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <presetCreateNew>Ny...</presetCreateNew>
+        <presetCreateNewTitle>Skapa en ny förinställning</presetCreateNewTitle>
+        <presetCreateNewMessage>Alla dina fläktar styrs för närvarande av systemet. \n\nVar god ändra till Anpassad kontroll för åtminstone en av dina fläktar för att kunna skapa en ny förinställning.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Var god ändra kontroll för åtminstone en av dina fläktar, då alla för närvarande snurrar på fullt blås, som matchar existerande förinställning '%1'.</presetCreateNewMessage2>
+        <presetCreateNewButton>Anpassad kontroll för fläkten '%1'</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Uppgradera till Macs Fan Control Pro</title>
@@ -86,40 +86,40 @@
     <TrayMenu>
         <itemShow>Öppna Macs Fan Control</itemShow>
         <itemAvailableFans>Fläktar:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
+        <itemFanPresets>Förinställningar för fläktar:</itemFanPresets>
         <itemMoreLinks>Mer</itemMoreLinks>
         <itemWebsite>Webbsida</itemWebsite>
         <itemCheckForUpdates>Leta efter uppdateringar...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>Skapa zip fil för support...</itemTechInfoZip>
         <itemRateApp>Betygsätt på MacUpdate</itemRateApp>
         <itemFollowTwitter>Följ @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Avinstallera...</itemUninstall>
         <itemExit>Stäng</itemExit>
         <itemExitMac>Avsluta Macs Fan Control</itemExitMac>
         <itemSensorBased>Sensorbaserad</itemSensorBased>
         <itemUpgradeToPro>Uppgradera till Pro-versionen</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>Ett supportpaket '%1' bestående av anonym teknisk data och en skärmavbild av huvudfönstret skapas på ditt skrivbord.\n\nVar god skicka denna fil till support@crystalidea.com eller posta den i vår ärendehanterare på GitHub.</message>
+        <browseButton>Visa zip fil</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Inställningar</title>
         <TabGeneral>Generella</TabGeneral>
         <tabTrayIcon>Meddelandefältsikon</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
+        <tabSensors>Sensorer</tabSensors>
         <tabTrayIconMac>Menyradsikon</tabTrayIconMac>
         <tabDiagnostics>Diagnostik</tabDiagnostics>
         <staticLanguage>Språk:</staticLanguage>
         <checkSystemStart>Autostarta minimerat med systemet (rekommenderat)</checkSystemStart>
         <checkUpdatesOnStartup>Leta efter uppdateringar när programmet startar</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Visa ikon i dock</checkDockIcon>
         <checkFahrenheit>Visa temperatur i Fahrenheit</checkFahrenheit>
         <checkPrecise>Exakt visning av temperatur om möjligt (ex 45,4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <labelSensors>Läs temperaturer från</labelSensors>
+        <checkExternalGPU>eGPU:er anslutna via Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Anslutna SATA enheter</checkSATADrives>
+        <checkNVMeDrives>Anslutna NVMe enheter</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Fläkt:</staticFan>
         <staticIcon>Ikon:</staticIcon>
@@ -147,10 +147,10 @@
         <checkDontShowAgain>Visa inte detta meddelande igen</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Avinstallera Macs Fan Control?</title>
+        <message>Du håller på att totalt avinstallera appen från din mac, inklusive dess inställningar, hjälpprogrammet för fläktstyrningen och licensdata för Pro versionen. Alla ändringar av standardfläktstyrningen kommer att återställas och fläkt(en|arna) kommer att kontrolleras automatiskt av systemet. \n\nDu kan bli ombedd att auktorisera appen för att kunna avinstallera sig själv.</message>
+        <authorizeText>Vänligen auktorisera appen för att kunna avinstallera hjälpprogrammet för fläktstyrningen.</authorizeText>
+        <buttonUninstall>Avinstallera</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Stäng</buttonClose>
