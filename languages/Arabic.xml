@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.9" Author="Samer Sabah-Iraq">
+<LanguageStrings version="1.5.13" Author="Samer Sabah-Iraq">
     <MainWindow>
         <staticSensorsListHeader>مستشعرات درجة الحرارة:</staticSensorsListHeader>
         <listColumnFan>المروحه</listColumnFan>
@@ -90,18 +90,18 @@
         <itemMoreLinks>المزيد</itemMoreLinks>
         <itemWebsite>الموقع الرسمي</itemWebsite>
         <itemCheckForUpdates>التحقق من وجود تحديثات...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>إنشاء ملف تقني مضغوط</itemTechInfoZip>
         <itemRateApp>قيمنا على Macupdate</itemRateApp>
         <itemFollowTwitter>تابعنا @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>الغاء التثبيت</itemUninstall>
         <itemExit>الخروج</itemExit>
         <itemExitMac>الخروج من البرنامج</itemExitMac>
         <itemSensorBased>اساس تحكم المستشعر</itemSensorBased>
         <itemUpgradeToPro>الترقية الى اصدار المحترفين</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>تم إنشاء حزمة دعم تتكون من بيانات فنية مجهولة ولقطة شاشة للإطار الرئيسي على سطح المكتب. الرجاء إرسال هذا الملف إلى support@crystalidea.com أو النشر على GitHub Issue Tracker.</message>
+        <browseButton>عرض الملف المضغوط</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>التفضيلات</title>
@@ -113,7 +113,7 @@
         <staticLanguage>اللغه:</staticLanguage>
         <checkSystemStart>تشغيل تلقائي مع النظام (مستحسن)</checkSystemStart>
         <checkUpdatesOnStartup>تحقق من وجود تحديثات عند بدء تشغيل التطبيق</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>اظهار الايقونة في الشريط</checkDockIcon>
         <checkFahrenheit>استخدام مقياس درجة حراره فهرنهايت</checkFahrenheit>
         <checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
         <labelSensors>اقرأ درجات حرارة</labelSensors>
@@ -137,7 +137,7 @@
         <staticOnlineHelp>المساعده على الويب</staticOnlineHelp>
         <staticFreeVersion>نسخة مجانية</staticFreeVersion>
         <staticProVersion>اصدار برو, %1 كومبيوتر(s) رخصة</staticProVersion>
-        <staticWarning>هذا البرنامج للمستخدمين المتقدمين الذين يعرفون كيفية استخدام تكنولوجيا المعلومات من دون الحاق الضرر بالماك . المؤلفون ليسو مسؤولين عن فقدان البيانات، والأضرار أو أية أنواع أخرى من خسائر متصلة مع استخدام أو سوء استخدام للبرنامج‫.‬تحيات معرب البرنامج سامر صباح‫-‬العراق</staticWarning>
+        <staticWarning>هذا البرنامج للمستخدمين المتقدمين الذين يعلمون كيفية استخدام هكذا تطبيقات من دون الحاق الضرر بالماك. مصنعو البرنامج ليسو مسؤولين عن فقدان البيانات، والأضرار أو أية أنواع أخرى من خسائر متصلة مع استخدام أو سوء استخدام للبرنامج‫.‬تحيات معرب البرنامج سامر صباح‫-‬العراق</staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>قيم التطبيق على MacUpdate</message>
@@ -147,10 +147,10 @@
         <checkDontShowAgain>لا تظهر هذه الرسالة مرة اخرى</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>هل تريد إلغاء تثبيت Fan Control على أجهزة Mac؟</title>
+        <message>أنت على وشك إلغاء تثبيت التطبيق بالكامل من جهاز Mac الخاص بك بما في ذلك تفضيلاته وأداة مساعد المعجبين وبيانات الترخيص لإصدار Pro. سيتم إرجاع جميع التعديلات التي تم إجراؤها على التحكم الافتراضي في المروحة وسيتم التحكم في المروحة (المراوح) تلقائيًا بواسطة النظام. \ n \ n قد يُطلب منك تخويل التطبيق ليتمكن من إزالة تثبيت نفسه.</message>
+        <authorizeText>يرجى السماح للتطبيق ليتمكن من إلغاء تثبيت أداة مساعد المعجبين.</authorizeText>
+        <buttonUninstall>الغاء تثبيت</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>اغلاق</buttonClose>
