@@ -39,30 +39,30 @@
         <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>Active preset:</activePresetLabel>
-        <presetAutomatic>Automatic</presetAutomatic>
-        <presetFullBlast>Full blast</presetFullBlast>
-        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
-        <presetMenuSave>Save...</presetMenuSave>
-        <presetMenuRename>Rename</presetMenuRename>
-        <presetMenuDelete>Delete</presetMenuDelete>
+        <activePresetLabel>پروفایل فعال :</activePresetLabel>
+        <presetAutomatic>خودکار</presetAutomatic>
+        <presetFullBlast>حداکثر توان</presetFullBlast>
+        <presetCurrentUnsaved>شخصی*</presetCurrentUnsaved>
+        <presetMenuSave>ذخیره</presetMenuSave>
+        <presetMenuRename>تغییر نام</presetMenuRename>
+        <presetMenuDelete>حذف</presetMenuDelete>
         <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
-        <presetMenuCustom>Custom presets:</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
-        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
+        <presetMenuCustom>پروفایل شخصی</presetMenuCustom>
+        <presetMenuApply>تایید</presetMenuApply>
+        <presetMenuProVersion>این امکان در نسخه پیشرفته فعال است</presetMenuProVersion>
         <presetMenuCurrent>Preset - %1</presetMenuCurrent>
-        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
-        <labelPresetName>Preset name:</labelPresetName>
-        <savePresetTitle>Save custom preset</savePresetTitle>
-        <editPresetTitle>Edit preset name</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
+        <presetMenuDiscard>تنظیم همه فن ها به حالت خودکار</presetMenuDiscard>
+        <labelPresetName>نام پروفایل</labelPresetName>
+        <savePresetTitle>ذخیره پروفایل</savePresetTitle>
+        <editPresetTitle>ویرایش نام پروفایل</editPresetTitle>
+        <presetCreateNew>جدید پروفایل</presetCreateNew>
         <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
+        <presetCreateNewMessage>تمامی فن های توسط سیستم کنترل میشود. \n\nلطفا حداقل یک فن را در حالت دستی قرار دهید.</presetCreateNewMessage>
         <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>Upgrade to Macs Fan Control Pro</title>
+        <title>ارتقا به نسخه پیشرفته</title>
         <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
         <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
         <buttonPurchase>Purchase</buttonPurchase>
@@ -147,10 +147,10 @@
         <checkDontShowAgain>دوباره این پیام را نشان نده</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
+        <title>حذف برنامه کنترل فن مکبوک ؟</title>
         <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
         <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <buttonUninstall>حذف نصب</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>بستن</buttonClose>
@@ -197,9 +197,9 @@
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>این پوشه شما را دست نخورده باقی می گذارد</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>آندو</actionUndo>
-            <actionRedo>ریدو</actionRedo>
-            <actionCut>کات</actionCut>
+            <actionUndo>بازگشت</actionUndo>
+            <actionRedo>حرکت به جلو</actionRedo>
+            <actionCut>برش</actionCut>
             <actionCopy>کپی</actionCopy>
             <actionPaste>چسباندن</actionPaste>
             <actionDelete>حذف</actionDelete>
