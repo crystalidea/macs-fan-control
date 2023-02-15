@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="Mladen Nikolov">
+<LanguageStrings version="1.5.14" Author="Mladen Nikolov">
     <MainWindow>
         <staticSensorsListHeader>Tемпературни сензори:</staticSensorsListHeader>
         <listColumnFan>Вентилатор</listColumnFan>
@@ -27,7 +27,7 @@
         <messageFanControlNotAvailable>Macs Fan Control не можа да се свърже със системния помощник за да позволи контрол на вентилаторите и скоростите. Уверете се че въвеждате администраторската парола когато се изисква.\n\nВсе още можете да използвате приложението в режим само за наблюдение.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Само за наблюдение</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Не са открити вентилатори, моля опитайте да [нулирате КУС(SMC)](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Този компютър няма вентилатори и е охлаждан пасивно</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Управление на '%1' вентилатор</title>
@@ -93,15 +93,15 @@
         <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Оцени в Macupdate</itemRateApp>
         <itemFollowTwitter>Последвай @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Дейнсталирай...</itemUninstall>
         <itemExit>Изход</itemExit>
         <itemExitMac>Спри Macs Fan Control</itemExitMac>
         <itemSensorBased>Базирано на сензора</itemSensorBased>
         <itemUpgradeToPro>Надградете до Про версията</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>Пакет за поддръжка '%1' съдържащ анонимни технически данни и екранна снимка на главния прозорец е създаден на вашия десктоп.\n\nМоля изпратете този файл на support@crystalidea.com или го публикувайте на нашия GitHub Issue Tracker.</message>
+        <browseButton>Покажи ZIP файл</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Настройки</title>
@@ -113,7 +113,7 @@
         <staticLanguage>Език:</staticLanguage>
         <checkSystemStart>Автостарт при включване на системата (препоръчва се)</checkSystemStart>
         <checkUpdatesOnStartup>Проверка за актуализации при стартиране на приложението</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Показване на иконата в Dock</checkDockIcon>
         <checkFahrenheit>Да се използва скалата по Фаренхайт</checkFahrenheit>
         <checkPrecise>По-точно показване на температурата до десети от градуса (например 45.4)</checkPrecise>
         <labelSensors>Отчети температурите от</labelSensors>
@@ -147,10 +147,10 @@
         <checkDontShowAgain>Не показвай това съобщение отново</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Дейнсталирай Macs Fan Control?</title>
+        <message>На път сте напълно да деинсталирате приложението от вашия Mac, включително неговите предпочитания, системния помощник и данните за лиценз на Pro версията. Всички модификации на контрола на вентилаторите ще бъдат анулирани и контрола ще се поеме автоматично от системата. \n\nМоже да бъдете подканение да авторизирате приложението, за да може да се деинсталира.</message>
+        <authorizeText>Моля авторизирайте приложението, за да може да се деинсталира системния помощник.</authorizeText>
+        <buttonUninstall>Деинсталирай</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Затвори</buttonClose>
@@ -160,7 +160,7 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>пусната %1</ReleasedOn>
+            <ReleasedOn>Пусната %1</ReleasedOn>
             <CheckForUpdates>Проверка за обновяване...</CheckForUpdates>
             <NewVersionAvailable>Достъпна е нова версия %1!</NewVersionAvailable>
             <NewVersionAvailableText>%1 %2 е достъпна сега – вие разполагате с %3. Желаете ли да я свалите сега?</NewVersionAvailableText>
