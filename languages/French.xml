@@ -18,7 +18,7 @@
         <buttonFanControlCustom>Personnalisé...</buttonFanControlCustom>
         <buttonFanControlCustomInfo>Spécifier un mode de contrôle personnalisé</buttonFanControlCustomInfo>
         <buttonMinimize>Placer dans le Dock</buttonMinimize>
-        <buttonMinimizeMac>Masquer vers la barre des menus</buttonMinimizeMac>
+        <buttonMinimizeMac>Réduire dans la barre des menus</buttonMinimizeMac>
         <buttonPreferences>Préférences...</buttonPreferences>
         <buttonAbout>À propos...</buttonAbout>
         <messageHelperToolInstall>Macs Fan Control nécessite l'installation d'un outil d'aide au contrôle du ventilateur. Vous pouvez ignorer cette option si vous souhaitez uniquement surveiller les ventilateurs et les capteurs de température.</messageHelperToolInstall>
@@ -90,7 +90,7 @@
         <itemMoreLinks>Plus</itemMoreLinks>
         <itemWebsite>Site web</itemWebsite>
         <itemCheckForUpdates>Rechercher des mises à jour...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>Créér un fichier ZIP avec les informations techniques...</itemTechInfoZip>
         <itemRateApp>Noter sur Macupdate</itemRateApp>
         <itemFollowTwitter>Suivre @crystalidea</itemFollowTwitter>
         <itemUninstall>Désinstaller...</itemUninstall>
@@ -100,8 +100,8 @@
         <itemUpgradeToPro>Mise à niveau vers la version Pro</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>Le fichier ZIP de support '%1' est constitué de données techniques anonymes et d'une capture d'ecran de la fenêtre principale de l'application qui sest créée sur votre bureau. \n\nVeuillez envoyer ce fichier par mail à support@crystalidea.com ou postez-le dans la section problèmes de notre page GitHub.</message>
+        <browseButton>Afficher le fichier ZIP</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Préférences</title>
@@ -111,9 +111,9 @@
         <tabTrayIconMac>Affichage dans la barre des menus</tabTrayIconMac>
         <tabDiagnostics>Diagnostique</tabDiagnostics>
         <staticLanguage>Langue :</staticLanguage>
-        <checkSystemStart>Démarrer réduit avec la session (recommandé)</checkSystemStart>
+        <checkSystemStart>Démarrer en mode réduit avec la session (recommandé)</checkSystemStart>
         <checkUpdatesOnStartup>Vérifier les mises à jour au démarrage de l'application</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Afficher l'icone dans le dock</checkDockIcon>
         <checkFahrenheit>Utiliser l'échelle de degrés Fahrenheit</checkFahrenheit>
         <checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
         <labelSensors>Lire les températures de</labelSensors>
@@ -123,7 +123,7 @@
         <staticSensor>Sonde :</staticSensor>
         <staticFan>Ventilateur :</staticFan>
         <staticIcon>Icône :</staticIcon>
-        <comboIconOptionShow>En couleurs</comboIconOptionShow>
+        <comboIconOptionShow>En couleur</comboIconOptionShow>
         <comboIconOptionShowBW>En noir et blanc</comboIconOptionShowBW>
         <comboOptionNone>Aucune</comboOptionNone>
         <checkTwoLines>Condenser les indications sur 2 lignes pour gagner de la place</checkTwoLines>
@@ -147,8 +147,8 @@
         <checkDontShowAgain>Ne plus afficher ce message</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Désinstaller Macs Fan Control?</title>
-        <message>Vous êtes sur le point de complètement désinstallé le programme de votre Mac, ainsi que ces préférences, l'utilitaire de gestion du ventilateur et licence de la version Pro. Toutes les modifications concernant le contrôle du ventilateur seront rétablies à la valeur par défaut les ventilateur(s) seront à nouveau contrôlés automatiquement par le système.\n\nIl peut vous êtes demandé d'autoriser le programme à se désinstaller lui-même.</message>
+        <title>Désinstaller Macs Fan Control ?</title>
+        <message>Vous êtes sur le point de complètement désinstaller le programme de votre Mac, ainsi que ses préférences, l'utilitaire de gestion du ventilateur et la licence de la version Pro. Toutes les modifications concernant le contrôle du ventilateur seront rétablies à la valeur par défaut les ventilateur(s) seront à nouveau contrôlés automatiquement par le système.\n\nIl peut vous êtes demandé d'autoriser le programme à se désinstaller lui-même.</message>
         <authorizeText>Veuillez autoriser le programme pour qu'il désinstalle l'utilitaire de gestion du ventilateur.</authorizeText>
         <buttonUninstall>Désinstaller</buttonUninstall>
     </UninstallDialog>
