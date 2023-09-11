@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.12" Author="soleaf(soleaf@gmail.com/www.mintcode.org) &amp; HK Chung, Seungbin Oh (sboh1214@gmail.com)">
+<LanguageStrings version="1.5.16" Author="soleaf(soleaf@gmail.com/www.mintcode.org) &amp; HK Chung, Seungbin Oh (sboh1214@gmail.com)">
     <MainWindow>
         <staticSensorsListHeader>온도센서:</staticSensorsListHeader>
         <listColumnFan>팬</listColumnFan>
@@ -64,22 +64,22 @@
     <UpgradeToProDialog>
         <title>Macs Fan Control 프로로 업그레이드</title>
         <proInfo1>프로 버전은 사용자 정의 사전설정을 만들고, 활동에 따라 빠르게 전환할 수 있습니다.</proInfo1>
-        <proInfo2>만약 이미 이 앱을 구매하셨다면, 아래의 '라이센스 입력' 버튼을 눌러 주세요.</proInfo2>
+        <proInfo2>만약 이미 이 앱을 구매하셨다면, 아래의 '라이선스 입력' 버튼을 눌러 주세요.</proInfo2>
         <buttonPurchase>구매</buttonPurchase>
-        <buttonEnterLicense>라이센스 입력</buttonEnterLicense>
+        <buttonEnterLicense>라이선스 입력</buttonEnterLicense>
         <buttonLater>나중에</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>프로 버전 잠금해제하기</title>
-        <infoText>만약 이미 Macs Fan Control을 구매하셨다면, 아래의 입력란에 이메일 주소와 이메일 영수증으로부터 온 라이센스 키를 입력해 주세요. 이는 Macs Fan Control의 모든 프로 기능을 잠금해제할 것입니다.</infoText>
+        <infoText>만약 이미 Macs Fan Control을 구매하셨다면, 아래의 입력란에 이메일 주소와 이메일 영수증으로부터 온 라이선스 키를 입력해 주세요. 이는 Macs Fan Control의 모든 프로 기능을 잠금해제할 것입니다.</infoText>
         <licenseVerifyInfo>입력한 정보는 인터넷으로 인증됩니다.</licenseVerifyInfo>
         <email>이메일 주소</email>
-        <licenseKey>라이센스 키</licenseKey>
+        <licenseKey>라이선스 키</licenseKey>
         <buttonUnlock>잠금해제하기</buttonUnlock>
-        <buttonRestoreLicense>라이센스 복구</buttonRestoreLicense>
-        <invalidLicenseTitle>유효하지 않은 라이센스!</invalidLicenseTitle>
+        <buttonRestoreLicense>라이선스 복구</buttonRestoreLicense>
+        <invalidLicenseTitle>유효하지 않은 라이선스!</invalidLicenseTitle>
         <invalidLicenseText>모든 문자, 숫자 및 대시가 올바른 순서로 입력되었는지 확인하여 주세요. 번호를 직접 입력하는 대신 이메일에서 번호를 복사하여 붙여넣으세요.</invalidLicenseText>
-        <invalidLicenseMismatchOS>이 라이센스 키는 유효하지만 %1에서 사용할 수 없습니다.</invalidLicenseMismatchOS>
+        <invalidLicenseMismatchOS>이 라이선스 키는 유효하지만 %1에서 사용할 수 없습니다.</invalidLicenseMismatchOS>
         <thanksTitle>Macs Fan Control 프로를 구매해주셔서 감사합니다</thanksTitle>
         <thanksInfo>무료 버전의 모든 제한이 해제되었으며, 우리는 당신이 이 앱을 즐기기 바랍니다.</thanksInfo>
     </EnterLicenseDialog>
@@ -90,18 +90,18 @@
         <itemMoreLinks>더보기</itemMoreLinks>
         <itemWebsite>웹사이트</itemWebsite>
         <itemCheckForUpdates>업데이트 확인...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>tech zip 파일 생성...</itemTechInfoZip>
         <itemRateApp>MacUpdate에서 평가하기</itemRateApp>
         <itemFollowTwitter>@crystalidea 팔로우</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>앱 제거...</itemUninstall>
         <itemExit>종료</itemExit>
         <itemExitMac>Macs Fan Control 종료</itemExitMac>
         <itemSensorBased>온도기반</itemSensorBased>
         <itemUpgradeToPro>프로 버전으로 업그레이드</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>지원 패키지 ‘%1’ 에는 익명으로 처리된 기술적 데이터와 앱의 메인 설정창의 스크린샷이 포함되어 있습니다.\n\n이 파일을 support@crystalidea.com 로 보내시거나 당사의 GitHub Issue Tracker에 게시해주세요.</message>
+        <browseButton>zip 파일 보기</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>환경설정</title>
@@ -113,7 +113,7 @@
         <staticLanguage>언어:</staticLanguage>
         <checkSystemStart>시스템 시작 시 최소화로 자동시작 (권장)</checkSystemStart>
         <checkUpdatesOnStartup>앱이 시작할 때 업데이트 검사</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>독에 아이콘 표시</checkDockIcon>
         <checkFahrenheit>온도를 화씨로 표시</checkFahrenheit>
         <checkPrecise>온도를 정확하게 표시 (예 45.4)</checkPrecise>
         <labelSensors>다음으로부터 온도 불러오기</labelSensors>
@@ -137,20 +137,20 @@
         <staticOnlineHelp>온라인 지원</staticOnlineHelp>
         <staticFreeVersion>무료 버전</staticFreeVersion>
         <staticProVersion>프로 버전, %1개 컴퓨터 license</staticProVersion>
-        <staticWarning>Macs Fan Control은 맥을 잘 다룰 수 있는 고급사용자를 위한 프로그램입니다. 당사는 이 프로그램의 잘못된 사용으로 인해 발생할 수 있는 데이터의 손실, 기기의 손상 및 기타 발생할 수 있는 모든 문제들에 대한 법적책임을 지지 않습니다.</staticWarning>
+        <staticWarning>Macs Fan Control은 맥을 잘 다룰 수 있는 고급사용자를 위한 프로그램입니다.\n당사는 이 프로그램의 잘못된 사용으로 인한 데이터의 손실, 기기의 손상 및 기타 발생할 수 있는 모든 문제들에 대한 법적 책임을 지지 않습니다.</staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>MacUpdate에서 이 앱을 평가 해주세요</message>
-        <informativeText>만약 %1을 좋아하신다면, 조금 시간을 내어 평가해주시겠어요? 얼마 걸리지 않습니다.</informativeText>
+        <informativeText>%1 에 만족하셨다면, 약간의 짬을 내어 평가해주세요. 평가에 소요되는 시간은 약 1분 정도입니다. 여러분의 성원에 감사드립니다.</informativeText>
         <buttonRate>MacUpdate에서 평가하기</buttonRate>
         <buttonNoThanks>괜찮습니다</buttonNoThanks>
-        <checkDontShowAgain>이 메시지 다시보지 않기</checkDontShowAgain>
+        <checkDontShowAgain>이 메시지 다시 보지 않기</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
         <title>Macs Fan Control을 삭제할까요?</title>
-        <message>기본 설정, 도우미 프로그램 및 프로 버전의 라이선스 데이터를 포함하여 Mac에서 앱을 완전히 제거하려고 합니다. 기본 팬 제어에 대한 모든 수정 사항이 복구되고, 시스템에서 팬을 자동으로 제어합니다.\n\n앱을 삭제할 수 있도록 인증을 요구하는 메시지가 표시될 수 있습니다.</message>
+        <message>기본 설정, 도우미 프로그램 및 프로 버전의 라이선스 데이터를 포함하여 Mac에서 앱을 완전히 제거하려고 합니다. 기본 팬 제어에 대한 모든 수정 사항이 복구되고, 시스템에서 팬을 자동으로 제어합니다.\n\n앱 제거를 위해 사용자 인증을 요구할 수 있습니다.</message>
         <authorizeText>도우미 프로그램을 삭제할 수 있도록 인증하세요.</authorizeText>
-        <buttonUninstall>삭제</buttonUninstall>
+        <buttonUninstall>제거</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>닫기</buttonClose>
@@ -163,7 +163,7 @@
             <ReleasedOn>%1에 출시됨</ReleasedOn>
             <CheckForUpdates>업데이트 확인...</CheckForUpdates>
             <NewVersionAvailable>%1의 새 버전이 사용 가능합니다!</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 (은)는 지금 사용 가능합니다. - 현재 버전은 %3 입니다. 지금 다운로드할까요?</NewVersionAvailableText>
+            <NewVersionAvailableText>%1 %2 을(를) 사용할 수 있습니다. - 현재 버전은 %3 입니다. 지금 다운로드할까요?</NewVersionAvailableText>
             <UpdateAlertTitle>소프트웨어 업데이트</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>출시 노트:</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>나중에 알림</UpdateAlertRemindLater>
@@ -171,7 +171,7 @@
             <UpdateAlertInstall>업데이트 설치</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>자동으로 업데이트 확인</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>최신 버전입니다!</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>%1 %2 (은)는 현재 사용 가능한 최신 버전입니다.</MessageNoUpdateAvailableDescription>
+            <MessageNoUpdateAvailableDescription>현재 사용 가능한 최신 버전은 %1 %2 입니다.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>업데이트를 다운로드하는 동안 오류가 발생했습니다. 나중에 다시 시도하세요.</MessageErrorConnect>
             <MessageErrorParse>업데이트 피드를 구문 분석하는 동안 오류가 발생했습니다.</MessageErrorParse>
             <UpdateProgressTitle>%1 업데이트</UpdateProgressTitle>
@@ -187,14 +187,14 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Applications 폴더로 옮길 수 없습니다.</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Applications (으)로 옮기기</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Home 폴더내 Applications 폴더로 옮길까요?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>%1 을 Applications 폴더로 옮길 건가요?</kStrMoveApplicationQuestionMessage>
-            <kStrMoveApplicationButtonMove>Applications 폴더로 옮기기</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationCouldNotMove>응용 프로그램 폴더로 옮길 수 없습니다.</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>응용 프로그램 으로 옮기기</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>사용자 폴더 내 응용 프로그램 폴더로 옮기겠습니까?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>%1 을(를) 응용 프로그램 폴더로 옮기겠습니까?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>응용 프로그램 폴더로 옮기기</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>옮기지 않기</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>이건 관리자 비밀번호가 필요함을 알아두세요.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>이건 정리된 사용자의 다운로드 폴더를 유지합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>관리자 비밀번호가 필요합니다.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>다운로드 폴더를 정리합니다.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>실행 취소</actionUndo>
