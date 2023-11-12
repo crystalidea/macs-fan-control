@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8" Author="Taras (@tarasyyyk), Alexandr Loskutov">
+<LanguageStrings version="1.5.8" Author="Taras (@tarasyyyk), Alexandr Loskutov, Volodymyr Buberenko">
     <MainWindow>
         <staticSensorsListHeader>Датчики температури:</staticSensorsListHeader>
         <listColumnFan>Вентилятор</listColumnFan>
@@ -21,19 +21,19 @@
         <buttonMinimizeMac>Сховати в рядку меню</buttonMinimizeMac>
         <buttonPreferences>Налаштування...</buttonPreferences>
         <buttonAbout>Про застосунок...</buttonAbout>
-        <messageHelperToolInstall>Щоб керувати вентиляторами, застосункові Macs Fan Control потрібна допоміжна утиліта. Якщо її не встановлювати, Ви зможете лише спостерігати за обертами вентиляторів та температурними датчиками.</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Щоб керувати вентиляторами, застосункові Macs Fan Control потрібно оновити вже встановлену допоміжну утиліту.</messageHelperToolUpgrade>
-        <messageFanControlNotAvailableTitle>Керування вентиляторами не доступне</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control не може отримати доступ до своєї допоміжної утиліти, необхідної для керування вентиляторами.\n\nПереконайтеся в тому, що Ви вводите пароль адміністратора.\n\nВи все ще можете використовувати застосунок, але лише в режимі моніторингу.</messageFanControlNotAvailable>
+        <messageHelperToolInstall>Щоб керувати вентиляторами, Macs Fan Control має встановити допоміжну утиліту. Її можна не встановлювати якщо ви хочете лише спостерігати за обертами вентиляторів та температурними датчиками.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Щоб керувати вентиляторами, Macs Fan Control має оновити вже встановлену допоміжну утиліту.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Керування вентиляторами недоступне</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control не може отримати доступ до своєї допоміжної утиліти, необхідної для керування вентиляторами.\n\nВведіть пароль адміністратора коли побачите запит.\n\nВи все ще можете використовувати застосунок, але лише в режимі моніторингу.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Лише моніторинг</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Вентиляторів не знайдено, будь ласка, спробуйте [скинути SMC](https://support.apple.com/ru-ru/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>Цей комп'ютер не має вентиляторів і він охолоджується пасивно</messageNoFansAvailable>
+        <messageNoFansAvailable>Цей комп'ютер не має вентиляторів та охолоджується пасивно</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Керування вентилятором '%1'</title>
         <radioConstant>Постійне значення обертів</radioConstant>
-        <radioSensor>Базується на датчику</radioSensor>
-        <staticIncrease>Температура, при досягненні якої \nоберти збільшуються:</staticIncrease>
+        <radioSensor>На основі датчику</radioSensor>
+        <staticIncrease>Температура, за досягнення якої \nоберти збільшуються:</staticIncrease>
         <staticMax>Максимальна температура:</staticMax>
         <statusWarning>Проблема - мінімальне та максимальне значення для швидкості вентилятора збігаються (%1).&lt;br/&gt; Видаліть інше ПЗ, яке контролює роботу вентиляторів та скиньте налаштування SMC.</statusWarning>
         <saveToCurrentPreset>Зберегти в поточний профіль ('%1')</saveToCurrentPreset>
@@ -56,9 +56,9 @@
         <savePresetTitle>Зберегти користувацький профіль</savePresetTitle>
         <editPresetTitle>Редагувати ім'я профілю</editPresetTitle>
         <presetCreateNew>Новий...</presetCreateNew>
-        <presetCreateNewTitle>Створити новий пресет</presetCreateNewTitle>
-        <presetCreateNewMessage>В даний час усі ваші вентилятори контролюються системою. \n\nБудь ласка, змініть контроль на Користувацький, щоб принаймні один із ваших вентиляторів міг створити новий пресет.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Будь ласка, змініть контроль принаймні для одного з ваших вентиляторів, оскільки в даний час усі вони обертаються на повній потужності, відповідаючи існуючому пресету '%1'.</presetCreateNewMessage2>
+        <presetCreateNewTitle>Створити новий профіль</presetCreateNewTitle>
+        <presetCreateNewMessage>В даний час усі ваші вентилятори контролюються системою. \n\nБудь ласка, змініть контроль на Користувацький, щоб принаймні один із ваших вентиляторів міг створити новий профіль.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Будь ласка, змініть контроль принаймні для одного з ваших вентиляторів, оскільки в даний час усі вони обертаються на повній потужності, відповідаючи існуючому профілю '%1'.</presetCreateNewMessage2>
         <presetCreateNewButton>Користувацький контроль для '%1' вентилятора</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
@@ -93,39 +93,39 @@
         <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Оцінити на MacUpdate</itemRateApp>
         <itemFollowTwitter>Читати в Twitter: @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Видалити...</itemUninstall>
         <itemExit>Вихід</itemExit>
         <itemExitMac>Вийти з Macs Fan Control</itemExitMac>
         <itemSensorBased>Базується на датчику</itemSensorBased>
         <itemUpgradeToPro>Оновити до Pro версії</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>Файл '%1' з анонімними технічними даними та скріншотом головного вікна створено на вашому робочому столі.\n\n Будь ласка відправте цей файл на support@crystalidea.com або завантажте його у наш Github Issue Tracker.</message>
+        <browseButton>Показати zip файл</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Налаштування</title>
         <TabGeneral>Основні</TabGeneral>
         <tabTrayIcon>Іконка в рядку меню</tabTrayIcon>
-        <tabSensors>Сенсори</tabSensors>
+        <tabSensors>Датчики</tabSensors>
         <tabTrayIconMac>Рядок меню</tabTrayIconMac>
         <tabDiagnostics>Діагностика</tabDiagnostics>
         <staticLanguage>Мова:</staticLanguage>
         <checkSystemStart>Автостарт під час запуску системи (рекомендується)</checkSystemStart>
         <checkUpdatesOnStartup>Перевіряти оновлення під час запуску</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Показувати іконку у панелі Dock</checkDockIcon>
         <checkFahrenheit>Використовувати шкалу Фаренгейта</checkFahrenheit>
         <checkPrecise>Точніше відображення температури (до десятих)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPU підключені через Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Підключені диски SATA</checkSATADrives>
-        <checkNVMeDrives>Підключені диски NVMe</checkNVMeDrives>
+        <labelSensors>Зчитувати температури</labelSensors>
+        <checkExternalGPU>eGPU, що підключені через Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Підключених дисків SATA</checkSATADrives>
+        <checkNVMeDrives>Підключених дисків NVMe</checkNVMeDrives>
         <staticSensor>Датчик:</staticSensor>
         <staticFan>Вентилятор:</staticFan>
         <staticIcon>Іконка:</staticIcon>
-        <comboIconOptionShow>Відображати</comboIconOptionShow>
-        <comboIconOptionShowBW>Відображати (чорно-біла)</comboIconOptionShowBW>
-        <comboOptionNone>Ні</comboOptionNone>
+        <comboIconOptionShow>Кольорова</comboIconOptionShow>
+        <comboIconOptionShowBW>Чорно-біла</comboIconOptionShowBW>
+        <comboOptionNone>Не показувати</comboOptionNone>
         <checkTwoLines>Два дрібні рядки для температури/вентилятора</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(тільки у Цельсіях)</staticCelsiusOnlyOnWindows>
         <checkLog>Журналювання (необхідне перезавантаження)</checkLog>
@@ -147,10 +147,10 @@
         <checkDontShowAgain>Не показувати це повідомлення знову</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Видалити Macs Fan Control?</title>
+        <message>Ви збираєтесь повністю видалити застосунок з вашого Mac, включно з налаштуваннями, допоміжним інструментом та даними про ліцензію для Pro версії. Всі модифікації керування вентиляторами будуть повернуті до початкових значень та вентилятори перейдуть під контроль системи.\n\nВи можете отримати запит на дозвіл для застосунку щоб він міг видалити себе.</message>
+        <authorizeText>Будь ласка надайте дозвіл застосунку на видалення допоміжної утиліти.</authorizeText>
+        <buttonUninstall>Видалити</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Закрити</buttonClose>
@@ -161,17 +161,17 @@
     <core>
         <UpdateChecker>
             <ReleasedOn>випущено %1</ReleasedOn>
-            <CheckForUpdates>Перевірка оновлень...</CheckForUpdates>
+            <CheckForUpdates>Перевірити оновлення...</CheckForUpdates>
             <NewVersionAvailable>Є нова версія %1!</NewVersionAvailable>
             <NewVersionAvailableText>%1 %2 тепер доступний - ви маєте %3. Хочете завантажити його зараз?</NewVersionAvailableText>
             <UpdateAlertTitle>Оновлення програмного забезпечення</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Нотатки про випуск:</UpdateAlertReleaseNotes>
-            <UpdateAlertRemindLater>Нагадувати пізніше</UpdateAlertRemindLater>
+            <UpdateAlertRemindLater>Нагадати пізніше</UpdateAlertRemindLater>
             <UpdateAlertSkip>Пропустити цю версію</UpdateAlertSkip>
             <UpdateAlertInstall>Встановити оновлення</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>Перевіряти оновлення автоматично</UpdateAlertAutomaticUpdates>
-            <MessageNoUpdateAvailable>В вас встановлено останню версію.</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>В вас вже встановлено останню версію %1 %2.</MessageNoUpdateAvailableDescription>
+            <MessageNoUpdateAvailable>У вас установлено останню версію.</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>У вас вже встановлено останню версію %1 %2.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>При отриманні інформації про оновлення виникла помилка. Спробуйте пізніше.</MessageErrorConnect>
             <MessageErrorParse>При обробці інформації про оновлення сталася помилка.</MessageErrorParse>
             <UpdateProgressTitle>Оновлюю %1</UpdateProgressTitle>
