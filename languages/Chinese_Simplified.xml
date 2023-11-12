@@ -113,7 +113,7 @@
         <staticLanguage>语言：</staticLanguage>
         <checkSystemStart>随系统最小化自动启动（推荐）</checkSystemStart>
         <checkUpdatesOnStartup>当应用启动时检查更新</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>在Dock栏显示</checkDockIcon>
         <checkFahrenheit>使用华氏单位显示</checkFahrenheit>
         <checkPrecise>可能时精确显示温度（比如 45.4）</checkPrecise>
         <labelSensors>读取选项温度</labelSensors>
