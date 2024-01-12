@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.9" Author="Samuel Lee [samuel_lee_1991@qq.com]">
+<LanguageStrings version="1.5.16" Author="Samuel Lee [samuel_lee_1991@qq.com], Héctor Cortés(stonkol)">
     <MainWindow>
         <staticSensorsListHeader>传感器列表：</staticSensorsListHeader>
         <listColumnFan>风扇</listColumnFan>
@@ -90,18 +90,18 @@
         <itemMoreLinks>更多</itemMoreLinks>
         <itemWebsite>主页</itemWebsite>
         <itemCheckForUpdates>检查更新...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>创建技术zip文件...</itemTechInfoZip>
         <itemRateApp>在 MacUpdate 评价</itemRateApp>
         <itemFollowTwitter>关注 @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>卸载...</itemUninstall>
         <itemExit>退出</itemExit>
         <itemExitMac>退出Macs Fan Control</itemExitMac>
         <itemSensorBased>基于传感器检测值</itemSensorBased>
         <itemUpgradeToPro>升级到Pro版本</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>已在您的桌面上创建包含匿名技术数据和主窗口屏幕截图的支持包“%1”。\n\n请将此文件发送至support@crystalidea.com或发布到我们的GitHub问题跟踪器。</message>
+        <browseButton>显示zip文件</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>设置</title>
