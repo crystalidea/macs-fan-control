@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8.1" Author="Oriol Tous and usern132">
+<LanguageStrings version="1.5.16" Author="Oriol Tous, usern132, Héctor (stonkol)">
     <MainWindow>
         <staticSensorsListHeader>Sensors de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
@@ -90,18 +90,18 @@
         <itemMoreLinks>Més</itemMoreLinks>
         <itemWebsite>Pàgina web</itemWebsite>
         <itemCheckForUpdates>Comprovar actualitzacions...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>Create tech zip file... </itemTechInfoZip>
         <itemRateApp>Valorar l'aplicació a MacUpdate</itemRateApp>
         <itemFollowTwitter>Seguir @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Uninstall... </itemUninstall>
         <itemExit>Sortir</itemExit>
         <itemExitMac>Sortir de Macs Fan Control</itemExitMac>
         <itemSensorBased>Basat en sensor</itemSensorBased>
         <itemUpgradeToPro>Actualitzar a la versió Pro</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message> A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
+        <browseButton> Show zip file</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Preferències</title>
