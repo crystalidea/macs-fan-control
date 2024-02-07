@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.14" Author="Mladen Nikolov">
+<LanguageStrings version="1.5.16" Author="Mladen Nikolov">
     <MainWindow>
-        <staticSensorsListHeader>Tемпературни сензори:</staticSensorsListHeader>
+        <staticSensorsListHeader>Сензори за температура:</staticSensorsListHeader>
         <listColumnFan>Вентилатор</listColumnFan>
-        <listColumnRPM>Мин/Текущи/Макс обороти</listColumnRPM>
+        <listColumnRPM>Мин./Текущи/Макс. обороти</listColumnRPM>
         <listColumnControl>Управление</listColumnControl>
         <listColumnSensor>Сензор</listColumnSensor>
-        <listColumnSensorValue>Температура</listColumnSensorValue>
+        <listColumnSensorValue>Стойност</listColumnSensorValue>
         <listSeparatorDrives>Дискове:</listSeparatorDrives>
         <popupMenuItemControl>Променете начина на управление...</popupMenuItemControl>
         <popupMenuItemReset>Възстановете автоматичното управление</popupMenuItemReset>
         <fanControlAutomatic>Автоматично</fanControlAutomatic>
-        <fanControlAutomaticInfo>Автоматичен контрол от системата</fanControlAutomaticInfo>
+        <fanControlAutomaticInfo>Автоматично (Контролирано от системата)</fanControlAutomaticInfo>
         <fanControlConstant>Постоянна стойност от %1</fanControlConstant>
         <fanControlSensor>Базирано на %1</fanControlSensor>
         <fanControlUnknown>Неизвестно!</fanControlUnknown>
         <buttonFanControlCustom>Персонализиран...</buttonFanControlCustom>
         <buttonFanControlCustomInfo>Посочете персонализиран режим на управление</buttonFanControlCustomInfo>
-        <buttonMinimize>Минимизирай</buttonMinimize>
-        <buttonMinimizeMac>Скриване в лентата с менюта</buttonMinimizeMac>
+        <buttonMinimize>Минимизиране</buttonMinimize>
+        <buttonMinimizeMac>Скриване в горната лента</buttonMinimizeMac>
         <buttonPreferences>Настройки...</buttonPreferences>
         <buttonAbout>За програмата...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control се нуждае от системен помощник за да контролира вентилаторите. Може да пропуснете, ако искате само да следите скорости и температури.</messageHelperToolInstall>
+        <messageHelperToolInstall>Macs Fan Control се нуждае от системен помощник, за да контролира вентилаторите. Можете да пропуснете, ако искате само да следите скорости и температури.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control се нуждае от актуализация на системния помощник за контрол на вентилаторите.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Контрол на вентилаторите не е наличен</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control не можа да се свърже със системния помощник за да позволи контрол на вентилаторите и скоростите. Уверете се че въвеждате администраторската парола когато се изисква.\n\nВсе още можете да използвате приложението в режим само за наблюдение.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control не успя да се свърже със системния помощник, за да поеме контрол над вентилаторите и скоростите. Уверете се, че въвеждате администраторската парола когато се изисква.\n\nВсе още можете да използвате приложението в режим само за наблюдение.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Само за наблюдение</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>Не са открити вентилатори, моля опитайте да [нулирате КУС(SMC)](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>Този компютър няма вентилатори и е охлаждан пасивно</messageNoFansAvailable>
+        <messageNoFansDetected>Не са открити вентилатори, моля опитайте да [нулирате SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>Този компютър няма вентилатори и се охлажда пасивно</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Управление на '%1' вентилатор</title>
-        <radioConstant>Постоянна стойност на оборотите</radioConstant>
+        <radioConstant>Постоянна стойност на об/мин</radioConstant>
         <radioSensor>Стойност базирана на сензора</radioSensor>
-        <staticIncrease>Температура, при достигането на която оборотите се увеличават:</staticIncrease>
+        <staticIncrease>Температура, от която скоростта на вентилатора ще започне да се увеличава:</staticIncrease>
         <staticMax>Максимална температура:</staticMax>
-        <statusWarning>Проблем – минималното и максималното значение на скоростта на вентилатора съвпадат (%1).&lt;br/&gt; Премахнете другото приложение, контролиращо работата на вентилаторите и нулирайте КУС (SMC).</statusWarning>
+        <statusWarning>Възникна проблем – минималната и максималната скорост на вентилаторите съвпадат (%1).&lt;br/&gt; Премахнете друго приложение, контролиращо работата на вентилаторите и нулирайте SMC.</statusWarning>
         <saveToCurrentPreset>Запази текущата конфигурация ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Активна конфигурация:</activePresetLabel>
         <presetAutomatic>Автоматично</presetAutomatic>
-        <presetFullBlast>Пълна скорост</presetFullBlast>
+        <presetFullBlast>Пълна мощност</presetFullBlast>
         <presetCurrentUnsaved>Персонализиран*</presetCurrentUnsaved>
-        <presetMenuSave>Запази...</presetMenuSave>
-        <presetMenuRename>Преименувай</presetMenuRename>
-        <presetMenuDelete>Изтрий</presetMenuDelete>
+        <presetMenuSave>Запазване...</presetMenuSave>
+        <presetMenuRename>Преименуване</presetMenuRename>
+        <presetMenuDelete>Изтриване</presetMenuDelete>
         <presetMenuPredefined>Предварително зададени конфигурации:</presetMenuPredefined>
         <presetMenuCustom>Персонализирани конфигурации:</presetMenuCustom>
-        <presetMenuApply>Приложи</presetMenuApply>
-        <presetMenuProVersion>Налично в ПРО версията</presetMenuProVersion>
+        <presetMenuApply>Прилагане</presetMenuApply>
+        <presetMenuProVersion>Налично в Pro версията</presetMenuProVersion>
         <presetMenuCurrent>Конфигурация - %1</presetMenuCurrent>
-        <presetMenuDiscard>Откажи (върни всички вентилатори до автоматично)</presetMenuDiscard>
+        <presetMenuDiscard>Отказване (Връщане на всички вентилатори на автоматичен режим)</presetMenuDiscard>
         <labelPresetName>Име на конфигурацията:</labelPresetName>
-        <savePresetTitle>Запази персонализирана конфигурация</savePresetTitle>
-        <editPresetTitle>Редактиране на името на конфигурацията</editPresetTitle>
+        <savePresetTitle>Запазване на персонализирана конфигурация</savePresetTitle>
+        <editPresetTitle>Преименуване на конфигурацията</editPresetTitle>
         <presetCreateNew>Ново...</presetCreateNew>
         <presetCreateNewTitle>Създай нова конфигурация</presetCreateNewTitle>
-        <presetCreateNewMessage>В момента всичките Ви вентилатори се контролират от системата. \n\nМоля сменете контрола на персонализиран за поне един от вентилаторите Ви за да създадете нова конфигурация.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
+        <presetCreateNewMessage>В момента всичките Ви вентилатори се контролират от системата. \n\nМоля сменете контрола на персонализиран за поне един от вентилаторите, за да създадете нова конфигурация.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Моля, променете контрола на поне един от вашите вентилатори, защото в момента всички те се въртят на пълна мощност, съответствайки на предварително зададената конфигурация '%1'.</presetCreateNewMessage2>
         <presetCreateNewButton>Персонализиран контрол за '%1' вентилатор</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Надградете до Macs Fan Control Pro</title>
-        <proInfo1>Про версията ви позволява да създавате и запазвате конфигурации на вентилаторите, за да можете бързо да превключвате между тях в зависимост от активността Ви.</proInfo1>
+        <proInfo1>Pro версията ви позволява да създавате и запазвате конфигурации на вентилаторите, за да можете бързо да превключвате между тях в зависимост от активността Ви.</proInfo1>
         <proInfo2>Ако вече сте закупили приложението моля натиснете бутона 'Въведи линецз' по долу.</proInfo2>
         <buttonPurchase>Купи</buttonPurchase>
         <buttonEnterLicense>Въведи линецз</buttonEnterLicense>
         <buttonLater>По-късно</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Отключи Про версията</title>
-        <infoText>Ако вече сте закупили Macs Fan Control, въведете вашия имейл адрес и продуктов ключ от имейл бележката в полетата по долу. Така напълно ще отключите функциите на Macs Fan Control Pro.</infoText>
-        <licenseVerifyInfo>Информацията която въвеждате може да се верифицира през Интернет.</licenseVerifyInfo>
+        <title>Отключване на Pro версията</title>
+        <infoText>Ако вече сте закупили Macs Fan Control, въведете вашия имейл адрес и продуктов ключ от имейл бележката в полетата по-долу. Така напълно ще отключите функциите на Macs Fan Control Pro.</infoText>
+        <licenseVerifyInfo>Информацията която въвеждате може да бъде верифицирана през Интернет.</licenseVerifyInfo>
         <email>Имейл адрес</email>
         <licenseKey>Продуктов ключ</licenseKey>
-        <buttonUnlock>Активирай</buttonUnlock>
-        <buttonRestoreLicense>Възстанови Линецз</buttonRestoreLicense>
+        <buttonUnlock>Активиране</buttonUnlock>
+        <buttonRestoreLicense>Възстанови линецз</buttonRestoreLicense>
         <invalidLicenseTitle>Невалиден лиценз!</invalidLicenseTitle>
         <invalidLicenseText>Уверете се че всички букви, цифри и тирета са въведени в правилния ред. Ако пишете номера на ръка, опитайте да го копирате и поставите от имейл бележката.</invalidLicenseText>
         <invalidLicenseMismatchOS>Този продуктов ключ е валиден, но не е предназначен за използване в %1.</invalidLicenseMismatchOS>
         <thanksTitle>Благодарим Ви за закупуването на Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Всички лимити на безплатната версия бяха премахнати, надяваме се да ви хареса употребата на приложението!</thanksInfo>
+        <thanksInfo>Всички лимити на безплатната версия бяха премахнати, надяваме се да ви харесва!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
         <itemShow>Покажи Macs Fan Control</itemShow>
@@ -90,28 +90,28 @@
         <itemMoreLinks>Още</itemMoreLinks>
         <itemWebsite>Уебсайт</itemWebsite>
         <itemCheckForUpdates>Проверка за актуализации...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>Създай пакет за поддръжка...</itemTechInfoZip>
         <itemRateApp>Оцени в Macupdate</itemRateApp>
         <itemFollowTwitter>Последвай @crystalidea</itemFollowTwitter>
-        <itemUninstall>Дейнсталирай...</itemUninstall>
+        <itemUninstall>Дейнсталиране...</itemUninstall>
         <itemExit>Изход</itemExit>
         <itemExitMac>Спри Macs Fan Control</itemExitMac>
         <itemSensorBased>Базирано на сензора</itemSensorBased>
-        <itemUpgradeToPro>Надградете до Про версията</itemUpgradeToPro>
+        <itemUpgradeToPro>Надградете до Pro версията</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>Пакет за поддръжка '%1' съдържащ анонимни технически данни и екранна снимка на главния прозорец е създаден на вашия десктоп.\n\nМоля изпратете този файл на support@crystalidea.com или го публикувайте на нашия GitHub Issue Tracker.</message>
+        <message>Пакет за поддръжка '%1' съдържащ анонимни технически данни и екранна снимка на главния прозорец на програмата е създаден на вашия десктоп.\n\nМоля изпратете този файл на support@crystalidea.com или го публикувайте на нашия GitHub Issue Tracker.</message>
         <browseButton>Покажи ZIP файл</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Настройки</title>
         <TabGeneral>Общи</TabGeneral>
-        <tabTrayIcon>Иконка в лентата с програмите</tabTrayIcon>
+        <tabTrayIcon>Икона в лентата с програмите</tabTrayIcon>
         <tabSensors>Сензори</tabSensors>
-        <tabTrayIconMac>Показване в лентата с менютата</tabTrayIconMac>
+        <tabTrayIconMac>Показване в горната лента</tabTrayIconMac>
         <tabDiagnostics>Диагностика</tabDiagnostics>
         <staticLanguage>Език:</staticLanguage>
-        <checkSystemStart>Автостарт при включване на системата (препоръчва се)</checkSystemStart>
+        <checkSystemStart>Автостарт при включване на системата (препоръчано)</checkSystemStart>
         <checkUpdatesOnStartup>Проверка за актуализации при стартиране на приложението</checkUpdatesOnStartup>
         <checkDockIcon>Показване на иконата в Dock</checkDockIcon>
         <checkFahrenheit>Да се използва скалата по Фаренхайт</checkFahrenheit>
@@ -122,7 +122,7 @@
         <checkNVMeDrives>Свързани NVMe устройства</checkNVMeDrives>
         <staticSensor>Сензор:</staticSensor>
         <staticFan>Вентилатор:</staticFan>
-        <staticIcon>Иконка:</staticIcon>
+        <staticIcon>Икона:</staticIcon>
         <comboIconOptionShow>Цветна</comboIconOptionShow>
         <comboIconOptionShowBW>Черно-бяла</comboIconOptionShowBW>
         <comboOptionNone>Не</comboOptionNone>
@@ -136,7 +136,7 @@
         <staticTechnicalSupport>Техническа поддръжка на форума</staticTechnicalSupport>
         <staticOnlineHelp>Онлайн помощ</staticOnlineHelp>
         <staticFreeVersion>Безплатна версия</staticFreeVersion>
-        <staticProVersion>Про версия, лиценз за %1 компютър(ри)</staticProVersion>
+        <staticProVersion>Pro версия, лиценз за %1 компютър(ри)</staticProVersion>
         <staticWarning>ТАЗИ ПРОГРАМА Е ЗА НАПРЕДНАЛИ ПОТРЕБИТЕЛИ, КОИТО ЗНАЯТ КАК ДА Я ИЗПОЛЗВАТ БЕЗ ДА НАВРЕДЯТ НА СВОЯ MAC. АВТОРИТЕ НЕ НОСЯТ ОТГОВОРНОСТ ЗА ЗАГУБА НА ДАННИ, ПОВРЕДА НА ОБОРУДВАНЕТО И ВСЯКАКВИ ДРУГИ ЗАГУБИ, ПРОИЗТИЧАЩИ ОТ СОФТУЕРА</staticWarning>
     </AboutDialog>
     <RateMeDialog>
@@ -148,9 +148,9 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Дейнсталирай Macs Fan Control?</title>
-        <message>На път сте напълно да деинсталирате приложението от вашия Mac, включително неговите предпочитания, системния помощник и данните за лиценз на Pro версията. Всички модификации на контрола на вентилаторите ще бъдат анулирани и контрола ще се поеме автоматично от системата. \n\nМоже да бъдете подканение да авторизирате приложението, за да може да се деинсталира.</message>
+        <message>На път сте напълно да деинсталирате приложението от вашия Mac, включително неговите настройки, системния помощник и данните за лиценз на Pro версията. Всички модификации на контрола на вентилаторите ще бъдат изключени и контрола ще се поеме автоматично от системата. \n\nМоже да бъдете подканени да авторизирате приложението, за да може да се деинсталира.</message>
         <authorizeText>Моля авторизирайте приложението, за да може да се деинсталира системния помощник.</authorizeText>
-        <buttonUninstall>Деинсталирай</buttonUninstall>
+        <buttonUninstall>Деинсталиране</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Затвори</buttonClose>
@@ -160,26 +160,26 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>Пусната %1</ReleasedOn>
-            <CheckForUpdates>Проверка за обновяване...</CheckForUpdates>
+            <ReleasedOn>Излезнала на %1</ReleasedOn>
+            <CheckForUpdates>Проверка за актуализации...</CheckForUpdates>
             <NewVersionAvailable>Достъпна е нова версия %1!</NewVersionAvailable>
             <NewVersionAvailableText>%1 %2 е достъпна сега – вие разполагате с %3. Желаете ли да я свалите сега?</NewVersionAvailableText>
-            <UpdateAlertTitle>Обновяване на програмата</UpdateAlertTitle>
+            <UpdateAlertTitle>Актуализиране на програмата</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>Бележки за версията:</UpdateAlertReleaseNotes>
             <UpdateAlertRemindLater>Напомнете ми по-късно</UpdateAlertRemindLater>
             <UpdateAlertSkip>Пропуснете тази версия</UpdateAlertSkip>
-            <UpdateAlertInstall>Инсталирайте обновяването</UpdateAlertInstall>
-            <UpdateAlertAutomaticUpdates>Проверявай автоматично за обновявания</UpdateAlertAutomaticUpdates>
+            <UpdateAlertInstall>Инсталирайте актуализацията</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Проверявай автоматично за актуализации</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>Разполагате с последната версия.</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>При вас вече е инсталирана последната версия %1 %2.</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>При получаване на информацията за обновяване възникна грешка. Опитайте по-късно.</MessageErrorConnect>
-            <MessageErrorParse>При обработката на информацията за обновяване възникна грешка.</MessageErrorParse>
-            <UpdateProgressTitle>Обновявам %1</UpdateProgressTitle>
+            <MessageNoUpdateAvailableDescription>Вече е инсталирана последната версия %1 %2.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>При получаване на информация за актуализации възникна грешка. Опитайте по-късно.</MessageErrorConnect>
+            <MessageErrorParse>При обработката на информация за актуализации възникна грешка.</MessageErrorParse>
+            <UpdateProgressTitle>Актуализиране %1</UpdateProgressTitle>
             <UpdateProgressCancel>Отмени</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>Инсталирай и рестартирай програмата</UpdateProgressInstallAndRelaunch>
-            <UpdateProgressStatusDownloading>Изтеглям обновяването...</UpdateProgressStatusDownloading>
-            <UpdateProgressExtract>Разопаковам обновяването...</UpdateProgressExtract>
-            <UpdateProgressStatusReady>Готов за инсталиране</UpdateProgressStatusReady>
+            <UpdateProgressStatusDownloading>Актуализацията се изтегля...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Разопаковане...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Готово за инсталиране</UpdateProgressStatusReady>
             <UpdateProgressSize>%1 от %2</UpdateProgressSize>
             <UpdateProgressB>Б</UpdateProgressB>
             <UpdateProgressKB>КБ</UpdateProgressKB>
@@ -193,22 +193,22 @@
             <kStrMoveApplicationQuestionMessage>Бихте ли искали %1 да премести себе си в папката за приложения?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Премести в папката за приложения</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Не премествай</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Това ще изиска адмистраторската ви парола.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Това ще предпази папката ви с изтегляния от затрупване.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Това действие ще изиска адмистраторската ви парола.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Това ще запази папката Ви за изтегляния чиста.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>Отмени</actionUndo>
-            <actionRedo>Отмени отмяната</actionRedo>
-            <actionCut>Изрежи</actionCut>
-            <actionCopy>Копирай</actionCopy>
-            <actionPaste>Постави</actionPaste>
-            <actionDelete>Изтрий</actionDelete>
+            <actionRedo>Отмяна отмяната</actionRedo>
+            <actionCut>Изрязване</actionCut>
+            <actionCopy>Копиране</actionCopy>
+            <actionPaste>Поставяне</actionPaste>
+            <actionDelete>Изтриване</actionDelete>
             <actionSelectAll>Избери всички</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>ОК</buttonOK>
-            <buttonCancel>Отмени</buttonCancel>
-            <buttonClose>Затвори</buttonClose>
+            <buttonCancel>Отмяна</buttonCancel>
+            <buttonClose>Затваряне</buttonClose>
             <buttonYes>Да</buttonYes>
             <buttonNo>Не</buttonNo>
         </QMessageBoxEx>
