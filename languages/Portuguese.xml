@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.13" Author="Lúcio Alves">
+<LanguageStrings version="1.5.14" Author="Lúcio Alves">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventoinha</listColumnFan>
@@ -174,7 +174,7 @@
             <MessageNoUpdateAvailableDescription>%1 %2 é atualmente a última versão disponível.</MessageNoUpdateAvailableDescription>
             <MessageErrorConnect>Ocorreu um erro enquanto descarregava a atualização. Por favor, tente mais tarde.</MessageErrorConnect>
             <MessageErrorParse>Ocorreu um erro ao carregar a lista de versões.</MessageErrorParse>
-            <UpdateProgressTitle>Atualizando %1</UpdateProgressTitle>
+            <UpdateProgressTitle>A atualizar %1</UpdateProgressTitle>
             <UpdateProgressCancel>Cancelar</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>Instalar e Reabrir</UpdateProgressInstallAndRelaunch>
             <UpdateProgressStatusDownloading>A descarregar a atualização...</UpdateProgressStatusDownloading>
