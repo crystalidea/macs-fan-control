@@ -136,7 +136,7 @@
         <staticTechnicalSupport>Technical support on the forum</staticTechnicalSupport>
         <staticOnlineHelp>Online help</staticOnlineHelp>
         <staticFreeVersion>Free version</staticFreeVersion>
-        <staticProVersion>Pro version, %1 computer license(s)</staticProVersion>
+        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
         <staticWarning>THIS PROGRAM IS FOR ADVANCED USERS WHO KNOW HOW TO USE IT WITHOUT DOING HARM TO THEIR MAC. THE AUTHORS ARE NOT LIABLE FOR DATA LOSS, DAMAGES, PROFIT LOSS OR ANY OTHER TYPES OF LOSSES CAUSED BY THE USE OR MISUSE OF THIS PROGRAM</staticWarning>
     </AboutDialog>
     <RateMeDialog>
