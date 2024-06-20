@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.16" Author="A. Mesut Konuklar, mid0aria">
+<LanguageStrings version="1.5.17" Author="A. Mesut Konuklar, Mid0aria (github)">
     <MainWindow>
         <staticSensorsListHeader>Sıcaklık sensörleri:</staticSensorsListHeader>
         <listColumnFan>Fan</listColumnFan>
@@ -58,7 +58,7 @@
         <presetCreateNew>Yeni...</presetCreateNew>
         <presetCreateNewTitle>Yeni bir ön ayar oluştur</presetCreateNewTitle>
         <presetCreateNewMessage>Şu anda tüm fanlarınız sistem tarafından kontrol ediliyor. \n\nFanlarınızdan en az birinin ayarını özelleştirebilmek için lütfen kontrolü 'Özel' olarak değiştirin.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
+        <presetCreateNewMessage2>Lütfen fanlarınızdan en az biri için kontrolü değiştirin, çünkü şu anda hepsi mevcut '%1' ön ayarıyla eşleşerek tam güçle dönüyor.</presetCreateNewMessage2>
         <presetCreateNewButton>'%1' fanı için özel ayar</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
@@ -136,7 +136,7 @@
         <staticTechnicalSupport>Forum aracılığıyla teknik destek</staticTechnicalSupport>
         <staticOnlineHelp>Çevrimiçi yardım</staticOnlineHelp>
         <staticFreeVersion>Ücretsiz sürüm</staticFreeVersion>
-        <staticProVersion>Pro sürümü, %1 bilgisayar için lisans</staticProVersion>
+        <staticProVersion>Pro sürümü, %1 bilgisayar(lar) lisansı</staticProVersion>
         <staticWarning>BU PROGRAM MACLERİNE ZARAR VERMEDEN KULLANABİLEN İLERİ SEVİYE KULLANICILAR İÇİNDİR. PROGRAMIN YAZARLARI KULLANICI TARAFINDAN VEYA PROGRAMIN YANLIŞ KULLANIMI SONUCU OLUŞAN HERHANGİ BİR DATA KAYBI, ZARAR, KAR KAYBI YA DA HERHANGİ BİR TÜRDEN KAYIPLAR İÇİN SORUMLU DEĞİLDİR.</staticWarning>
     </AboutDialog>
     <RateMeDialog>
