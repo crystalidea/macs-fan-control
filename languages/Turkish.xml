@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.17" Author="A. Mesut Konuklar, Mid0aria (github)">
+<LanguageStrings version="1.5.16" Author="A. Mesut Konuklar, Mid0aria (github)">
     <MainWindow>
         <staticSensorsListHeader>Sıcaklık sensörleri:</staticSensorsListHeader>
         <listColumnFan>Fan</listColumnFan>
