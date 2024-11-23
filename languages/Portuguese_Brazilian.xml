@@ -21,13 +21,13 @@
         <buttonMinimizeMac>Esconder na barra de menus</buttonMinimizeMac>
         <buttonPreferences>Preferências...</buttonPreferences>
         <buttonAbout>Sobre...</buttonAbout>
-        <messageHelperToolInstall>O Macs Fan Control requer uma ferramenta ajudante para controlar os fans. Voce pode pular isso se deseja somente monitorar os fans &amp; e temperatura dos sensores.</messageHelperToolInstall>
+        <messageHelperToolInstall>O Macs Fan Control requer uma ferramenta ajudante para controlar os fans. Você pode pular isso se deseja somente monitorar os fans &amp; e temperatura dos sensores.</messageHelperToolInstall>
         <messageHelperToolUpgrade>O Macs Fan Control precisa instalar uma versão atualizada da ferramenta de controle dos fans.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Controle de Fans indisponível</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>O Macs Fan Controle não conseguiu se conectar ao app assistente para habilitar o controle e os ajustes de velocidade. Tenha certeza que digitou a senha de administrador quando perguntado.\n\nVocê ainda pode usar o app em modo de monitoramento.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Modo de Monitoramento</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Nenhum fan detectado, por favor tente [resetar o SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Este computador não possui nenhuma ventoinha e é refrigerado passivamente</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Mude o controle do fan para '%1'</title>
@@ -35,7 +35,7 @@
         <radioSensor>Valor baseado em sensor</radioSensor>
         <staticIncrease>Temperatura na qual os fans vão começar a aumentar a velocidade:</staticIncrease>
         <staticMax>Temperatura máxima:</staticMax>
-        <statusWarning>Algo esáa errado - Os valores min/max dos fans estão iguais (%1).&lt;br/&gt; Por favor desinstale qualquer outro software controlador de fans e resete o SMC.</statusWarning>
+        <statusWarning>Algo está errado - Os valores min/max dos fans estão iguais (%1).&lt;br/&gt; Por favor desinstale qualquer outro software controlador de fans e resete o SMC.</statusWarning>
         <saveToCurrentPreset>Salvar para o Preset atual ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
@@ -58,7 +58,7 @@
         <presetCreateNew>Novo...</presetCreateNew>
         <presetCreateNewTitle>Criar novo Preset</presetCreateNewTitle>
         <presetCreateNewMessage>Todos os seus fans estão sendo controlados pelo sistema \n\nPor favor mude o controle para customizado para pelo menos um dos seus fans para poder mudar o preset.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
+        <presetCreateNewMessage2>Por favor mude o controle de pelo menos uma ventoinha, atualmente todas as ventoinhas estão em velocidade maxima devido ao existente '%1' preset.</presetCreateNewMessage2>
         <presetCreateNewButton>Controle customizado para '%1' fan</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
@@ -93,15 +93,15 @@
         <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
         <itemRateApp>Avaliar em MacUpdate</itemRateApp>
         <itemFollowTwitter>Seguir @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Desinstalar...</itemUninstall>
         <itemExit>Sair</itemExit>
         <itemExitMac>Sair do Macs Fan Control</itemExitMac>
         <itemSensorBased>Baseado no Sensor</itemSensorBased>
         <itemUpgradeToPro>Upgrade para a versão PRO</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>Um pacote de suporte '%1' consistindo de dados técnicos anônimos e uma screenshot da janela principal foi criado no seu computador.\n\nPor favor envie esse arquivo para support@crystalidea.com ou poste no nosso GitHub Issue Tracker.</message>
+        <browseButton>Mostrar arquivo zip</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Preferências</title>
@@ -113,11 +113,11 @@
         <staticLanguage>Língua:</staticLanguage>
         <checkSystemStart>Iniciar automaticamente com o Sistema (Recomendado))</checkSystemStart>
         <checkUpdatesOnStartup>Procurar atualizações quando o App iniciar</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Mostrar icône na dock</checkDockIcon>
         <checkFahrenheit>Usar escala de temperatura Farenheit</checkFahrenheit>
         <checkPrecise>Mostrar temperatura exata quando possível (ex: 45.4)</checkPrecise>
         <labelSensors>Pegar temperatura de</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
+        <checkExternalGPU>eGPUs conectada via Thunderbolt</checkExternalGPU>
         <checkSATADrives>Drives SATA conectados</checkSATADrives>
         <checkNVMeDrives>Drives NVMe conectados</checkNVMeDrives>
         <staticSensor>Sensor:</staticSensor>
@@ -147,10 +147,10 @@
         <checkDontShowAgain>Não mostrar essa mensagem novamente</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Desinstalar Macs Fan Control?</title>
+        <message>Você está prestes a desinstalar completamente o aplicativo do seu Mac, incluindo as preferências, a ferramenta "Fan Helper Tool" e as informações de licença da versão Pro. Todas as modificações serão restauradas para o padrão, e as ventoinhas passarão a ser controladas automaticamente pelo sistema. \n\nVocê pode ser solicitado a autorizar a desinstalação do aplicativo.</message>
+        <authorizeText>Por favor autorize o app a desinstalar o fan helper tool.</authorizeText>
+        <buttonUninstall>Desinstalar</buttonUninstall>
     </UninstallDialog>
     <Common>
         <buttonClose>Fechar</buttonClose>
@@ -197,20 +197,20 @@
             <kStrMoveApplicationQuestionInfoInDownloadsFolder>Isso irá manter sua pasta de Downloads organizada.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
-            <actionUndo>Undo</actionUndo>
-            <actionRedo>Redo</actionRedo>
-            <actionCut>Cut</actionCut>
-            <actionCopy>Copy</actionCopy>
-            <actionPaste>Paste</actionPaste>
-            <actionDelete>Delete</actionDelete>
-            <actionSelectAll>Select All</actionSelectAll>
+            <actionUndo>Anular</actionUndo>
+            <actionRedo>Desfazer</actionRedo>
+            <actionCut>Recortar</actionCut>
+            <actionCopy>Copiar</actionCopy>
+            <actionPaste>Colar</actionPaste>
+            <actionDelete>Deletar</actionDelete>
+            <actionSelectAll>Selecionar Tudo</actionSelectAll>
         </QLineEditEx>
         <QMessageBoxEx>
             <buttonOK>OK</buttonOK>
-            <buttonCancel>Cancel</buttonCancel>
-            <buttonClose>Close</buttonClose>
-            <buttonYes>Yes</buttonYes>
-            <buttonNo>No</buttonNo>
+            <buttonCancel>Cancelar</buttonCancel>
+            <buttonClose>Fechar</buttonClose>
+            <buttonYes>Sim</buttonYes>
+            <buttonNo>Não</buttonNo>
         </QMessageBoxEx>
     </core>
 </LanguageStrings>
