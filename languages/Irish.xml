@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.13" Author="CrystalIdea Team">
+    <MainWindow>
+        <staticSensorsListHeader>Braiteoirí teochta:</staticSensorsListHeader>
+        <listColumnFan>Gaothrán</listColumnFan>
+        <listColumnRPM>Íosmhéid/Reatha/Uasmhéid RPM</listColumnRPM>
+        <listColumnControl>Smacht</listColumnControl>
+        <listColumnSensor>Braiteoir</listColumnSensor>
+        <listColumnSensorValue>Luach</listColumnSensorValue>
+        <listSeparatorDrives>Tiomántáin Diosca:</listSeparatorDrives>
+        <popupMenuItemControl>Rialú a athrú...</popupMenuItemControl>
+        <popupMenuItemReset>Athshocraigh go rialú uathoibríoch</popupMenuItemReset>
+        <fanControlAutomatic>Uathoibríoch</fanControlAutomatic>
+        <fanControlAutomaticInfo>Uathoibríoch (rialaithe ag córas)</fanControlAutomaticInfo>
+        <fanControlConstant>Luach tairiseach %1</fanControlConstant>
+        <fanControlSensor>Bunaithe ar %1</fanControlSensor>
+        <fanControlUnknown>Anaithnid!</fanControlUnknown>
+        <buttonFanControlCustom>Saincheaptha...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Sonraigh modh rialaithe saincheaptha</buttonFanControlCustomInfo>
+        <buttonMinimize>Íoslaghdaigh</buttonMinimize>
+        <buttonMinimizeMac>Folaigh go barra roghchláir</buttonMinimizeMac>
+        <buttonPreferences>Roghanna...</buttonPreferences>
+        <buttonAbout>Faoi...</buttonAbout>
+        <messageHelperToolInstall>Éilíonn Macs Fan Control uirlis chúntóra a shuiteáil le haghaidh rialú lucht leanúna. Is féidir leat é seo a scipeáil mura mian leat ach monatóireacht a dhéanamh ar lucht leanúna &amp; braiteoirí teochta.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Ní mór do Macs Fan Control leagan nuashonraithe den uirlis chúnta a úsáidtear chun lucht leanúna a rialú a shuiteáil.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Níl rialú fean ar fáil</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Níorbh fhéidir le Macs Fan Control ceangal leis an aip cabhrach chun rialú lucht leanúna a chumasú chomh maith leis na luasanna a choigeartú. Cinntigh go gcuirfidh tú isteach pasfhocal an riarthóra nuair a iarrtar ort é.\n\nIs féidir leat an aip a úsáid fós sa mhód monatóireachta amháin.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Monatóireacht-amháin</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Níor aimsíodh aon lucht leanúna, bain triail as [an SMC a athshocrú](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>Níl aon lucht leanúna ag an ríomhaire seo agus déantar é a fhuarú go héighníomhach</messageNoFansAvailable>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Athraigh rialtán an lucht leanúna don lucht leanúna '%1'</title>
+        <radioConstant>Luach seasmhach RPM</radioConstant>
+        <radioSensor>Luach braiteoir-bhunaithe</radioSensor>
+        <staticIncrease>Teocht a thosóidh luas an lucht leanúna ag ardú ó:</staticIncrease>
+        <staticMax>Teocht uasta:</staticMax>
+        <statusWarning>Tá rud éigin mícheart - tá luachanna lucht leanúna nóim/uas cothrom (%1).&lt;br/&gt; Cinntigh le do thoil go ndíshuiteálann tú aon bhogearraí eile a rialaíonn lucht leanúna agus go ndéanfaidh tú an SMC a athshocrú.</statusWarning>
+        <saveToCurrentPreset>Sábháil go dtí an réamhshocrú reatha ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Réamhshocrú gníomhach:</activePresetLabel>
+        <presetAutomatic>Uathoibríoch</presetAutomatic>
+        <presetFullBlast>Soinneáin iomlán</presetFullBlast>
+        <presetCurrentUnsaved>Saincheaptha*</presetCurrentUnsaved>
+        <presetMenuSave>Sábháil...</presetMenuSave>
+        <presetMenuRename>Athainmnigh</presetMenuRename>
+        <presetMenuDelete>Scrios</presetMenuDelete>
+        <presetMenuPredefined>Réamhshocruithe réamhshainithe:</presetMenuPredefined>
+        <presetMenuCustom>Réamhshocruithe saincheaptha:</presetMenuCustom>
+        <presetMenuApply>Cuir iarratas isteach</presetMenuApply>
+        <presetMenuProVersion>Ar fáil i leagan PRO</presetMenuProVersion>
+        <presetMenuCurrent>Réamhshocraithe - %1</presetMenuCurrent>
+        <presetMenuDiscard>Caith amach (athshocraigh gach leantóir go huathoibríoch)</presetMenuDiscard>
+        <labelPresetName>Ainm réamhshocraithe:</labelPresetName>
+        <savePresetTitle>Sábháil réamhshocraithe saincheaptha</savePresetTitle>
+        <editPresetTitle>Cuir ainm réamhshocraithe in eagar</editPresetTitle>
+        <presetCreateNew>Nua...</presetCreateNew>
+        <presetCreateNewTitle>Cruthaigh réamhshocrú nua</presetCreateNewTitle>
+        <presetCreateNewMessage>Tá do lucht leanúna ar fad á rialú ag an gcóras faoi láthair. \n\nAthraigh an rialtán go Saincheaptha le go mbeidh duine amháin de do lucht leanúna ar a laghad in ann réamhshocrú nua a chruthú.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Athraigh an rialtán le haghaidh ar a laghad ceann amháin de do lucht leanúna toisc go bhfuil siad ar fad ag casadh faoi lánseol agus ag meaitseáil an réamhshocrú reatha '%1'.</presetCreateNewMessage2>
+        <presetCreateNewButton>Rialú saincheaptha don lucht leanúna '%1'</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Uasghrádú go Macs Fan Control Pro</title>
+        <proInfo1>Tá an leagan Pro in ann réamhshocruithe lucht leanúna saincheaptha a chruthú agus a shábháil ionas gur féidir leat aistriú go tapa eatarthu ag brath ar do ghníomhaíocht.</proInfo1>
+        <proInfo2>Má cheannaigh tú an aip cheana féin, brúigh an cnaipe ‘Iontráil Ceadúnas’ thíos.</proInfo2>
+        <buttonPurchase>Ceannach</buttonPurchase>
+        <buttonEnterLicense>Iontráil Ceadúnas</buttonEnterLicense>
+        <buttonLater>Níos déanaí</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Díghlasáil leagan Pro</title>
+        <infoText>Má cheannaigh tú Macs Fan Control cheana féin, cuir isteach do sheoladh ríomhphoist agus eochair cheadúnais ó d’admháil ríomhphoist sna boscaí thíos. Díghlasálfaidh sé seo go hiomlán na gnéithe Pro de Macs Fan Control.</infoText>
+        <licenseVerifyInfo>Is féidir an fhaisnéis a chuireann tú isteach a fhíorú ar an Idirlíon.</licenseVerifyInfo>
+        <email>Seoladh ríomhphoist</email>
+        <licenseKey>Eochair Cheadúnais</licenseKey>
+        <buttonUnlock>Díghlasáil</buttonUnlock>
+        <buttonRestoreLicense>Athchóirigh Ceadúnas</buttonRestoreLicense>
+        <invalidLicenseTitle>Ceadúnas neamhbhailí!</invalidLicenseTitle>
+        <invalidLicenseText>Cinntigh go bhfuil gach litir, uimhir agus daiseanna curtha isteach san ord ceart. Má tá tú ag clóscríobh na gcarachtar de láimh, déan iarracht iad a chóipeáil agus a ghreamú ó d'admháil ríomhphoist ina ionad sin.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Tá an eochair cheadúnais seo bailí ach níl sé beartaithe í a úsáid ar %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Go raibh maith agat as Macs Fan Control Pro a cheannach</thanksTitle>
+        <thanksInfo>Baineadh na teorainneacha go léir den leagan saor in aisce, tá súil againn go mbainfidh tú taitneamh as an aip a úsáid!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrayMenu>
+        <itemShow>Taispeáin Rialú Fan Macs</itemShow>
+        <itemAvailableFans>Lucht leanúna ar fáil:</itemAvailableFans>
+        <itemFanPresets>Réamhshocruithe lucht leanúna:</itemFanPresets>
+        <itemMoreLinks>Tuilleadh</itemMoreLinks>
+        <itemWebsite>Suíomh Gréasáin</itemWebsite>
+        <itemCheckForUpdates>Seiceáil do nuashrónaithe...</itemCheckForUpdates>
+        <itemTechInfoZip>Cruthaigh comhad zip teicneolaíochta...</itemTechInfoZip>
+        <itemRateApp>Ráta ar MacUpdate</itemRateApp>
+        <itemFollowTwitter>Lean @crystalidea</itemFollowTwitter>
+        <itemUninstall>Dhíshuiteáil...</itemUninstall>
+        <itemExit>Scoir</itemExit>
+        <itemExitMac>Scoir Macs Fan Control</itemExitMac>
+        <itemSensorBased>Braiteoir-bhunaithe</itemSensorBased>
+        <itemUpgradeToPro>Uasghrádú go dtí an leagan Pro</itemUpgradeToPro>
+    </TrayMenu>
+    <techInfoZipMessage>
+        <message>Cruthaítear pacáiste tacaíochta '%1' ar a bhfuil sonraí teicniúla gan ainm agus gabháil scáileáin príomhfhuinneog ar do dheasc.\n\nSeol an comhad seo chuig support@crystalidea.com nó postáil ag ár Lorgaire Eisiúint GitHub.</message>
+        <browseButton>Taispeáin comhad zip</browseButton>
+    </techInfoZipMessage>
+    <PreferencesWindow>
+        <title>Roghanna</title>
+        <TabGeneral>Ginearálta</TabGeneral>
+        <tabTrayIcon>Deilbhín tráidire</tabTrayIcon>
+        <tabSensors>Braiteoirí</tabSensors>
+        <tabTrayIconMac>Taispeáint barra roghchláir</tabTrayIconMac>
+        <tabDiagnostics>Diagnóisic</tabDiagnostics>
+        <staticLanguage>Teanga:</staticLanguage>
+        <checkSystemStart>Uath-tús íoslaghdaithe nuair a logálann tú isteach (molta)</checkSystemStart>
+        <checkUpdatesOnStartup>Seiceáil le haghaidh nuashonruithe nuair a thosaíonn an aip</checkUpdatesOnStartup>
+        <checkDockIcon>Taispeáin deilbhín sa duga</checkDockIcon>
+        <checkFahrenheit>Bain úsáid as scála teochta Fahrenheit</checkFahrenheit>
+        <checkPrecise>Taispeáint beacht na teochta nuair is féidir (m.sh. 45.4)</checkPrecise>
+        <labelSensors>Léigh teochtaí de</labelSensors>
+        <checkExternalGPU>eGPUs nasctha trí Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Tiomántáin SATA nasctha</checkSATADrives>
+        <checkNVMeDrives>Tiomántáin NVMe nasctha</checkNVMeDrives>
+        <staticSensor>Braiteoir:</staticSensor>
+        <staticFan>Gaothrán:</staticFan>
+        <staticIcon>Deilbhín:</staticIcon>
+        <comboIconOptionShow>Daite</comboIconOptionShow>
+        <comboIconOptionShowBW>Monacrómach</comboIconOptionShowBW>
+        <comboOptionNone>Dada</comboOptionNone>
+        <checkTwoLines>Taispeáin léamha fean/braiteoir in dhá líne chun spás a shábháil</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Celsius amháin)</staticCelsiusOnlyOnWindows>
+        <checkLog>Cumasaigh logáil (atosú riachtanach)</checkLog>
+        <browseLog>Brabhsáil</browseLog>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Maidir le Macs Fan Control</title>
+        <staticTechnicalSupport>Tacaíocht theicniúil ar an bhfóram</staticTechnicalSupport>
+        <staticOnlineHelp>Cabhair ar líne</staticOnlineHelp>
+        <staticFreeVersion>Leagan saor in aisce</staticFreeVersion>
+        <staticProVersion>Leagan pro, %1 ceadúnas ríomhaire(í).</staticProVersion>
+        <staticWarning>TÁ AN CLÁR SEO D’ÚSÁIDÍ ARD-ÚSÁIDEOIRÍ A BHFUIL A FHIOS AGAT CONAS A ÚSÁID A DHÉANAMH GAN DHÍOBHÁIL A DHÉANAMH AR A MAC. NÁ NA HÚDARÁIS DHLITEANAS CAILLTEANAS MEÁCHAIN, DAMÁISTE, CAILLTEANAS MEÁCHAIN ​​NÓ AON CHINEÁLACHA EILE CAILLTEANAIS A BHEIDH ÚSÁID NÓ MÍ-ÚSÁID AN CLÁR SEO</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Déan rátáil ar an aip ar MacUpdate</message>
+        <informativeText>Má bhaineann tú sult as %1 a úsáid, an miste leat nóiméad a ghlacadh chun é a rátáil? Ní ghlacfaidh sé níos mó ná nóiméad. Go raibh maith agat as do chuid tacaíochta!</informativeText>
+        <buttonRate>Ráta ar MacUpdate</buttonRate>
+        <buttonNoThanks>Níl, go raibh maith agat</buttonNoThanks>
+        <checkDontShowAgain>Ná taispeáin an teachtaireacht seo arís</checkDontShowAgain>
+    </RateMeDialog>
+    <UninstallDialog>
+        <title>Díshuiteáil Macs Fan Control?</title>
+        <message>Tá tú ar tí an feidhmchlár a dhíshuiteáil go hiomlán ó do ríomhaire Mac, lena n-áirítear a chuid sainroghanna, an uirlis cabhrach gaothrán, agus sonraí ceadúnaithe don leagan Pro. Cuirfear gach athrú ar an rialú gaothrán réamhshocraithe ar ais agus rialóidh an córas an(na) gaothrán(na) go huathoibríoch. \n\nFéadfar iarraidh ort údarú a thabhairt don fheidhmchlár chun é féin a dhíshuiteáil.</message>
+        <authorizeText>Tabhair údarás don aip a bheith in ann an uirlis cúntóra fean a dhíshuiteáil.</authorizeText>
+        <buttonUninstall>Dhíshuiteáil</buttonUninstall>
+    </UninstallDialog>
+    <Common>
+        <buttonClose>Dún</buttonClose>
+        <buttonOK>Ceart go leor</buttonOK>
+        <buttonCancel>Cealaigh</buttonCancel>
+        <buttonContinue>Leanúint ar aghaidh</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>scaoileadh ar %1</ReleasedOn>
+            <CheckForUpdates>Seiceáil do nuashrónaithe...</CheckForUpdates>
+            <NewVersionAvailable>Tá leagan nua de %1 ar fáil!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 ar fáil anois - tá %3 agat. Ar mhaith leat é a íoslódáil anois?</NewVersionAvailableText>
+            <UpdateAlertTitle>Nuashonrú Bogearraí</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>Nótaí Eisiúna:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Cuir i gcuimhne Dhom Níos déanaí</UpdateAlertRemindLater>
+            <UpdateAlertSkip>Léim an Leagan Seo</UpdateAlertSkip>
+            <UpdateAlertInstall>Suiteáil Nuashonrú</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>Seiceáil le haghaidh nuashonruithe go huathoibríoch</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Tá tú suas chun dáta!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 faoi láthair an leagan is nuaí atá ar fáil.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Tharla earráid agus an nuashonrú á íosluchtú. Bain triail eile as ar ball le do thoil.</MessageErrorConnect>
+            <MessageErrorParse>An tharla earráid agus an fotha nuashonraithe á pharsáil.</MessageErrorParse>
+            <UpdateProgressTitle>Ag nuashonrú %1</UpdateProgressTitle>
+            <UpdateProgressCancel>Cealaigh</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>Suiteáil agus Athsheoladh</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>Ag nuashonrú íoslódáil...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>Nuashonrú á bhaint as...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>Réidh le Suiteáil</UpdateProgressStatusReady>
+            <UpdateProgressSize>%1 de %2</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Níorbh fhéidir bogadh go dtí an fillteán Feidhmchlár</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Bog go Feidhmchláir</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Bog go dtí an fillteán Feidhmchláir i d'fhillteán Baile?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Ar mhaith leat %1 a bhogadh go dtí an fillteán Feidhmchlár?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Bog go Fillteán na bhFeidhmchlár</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>Ná Bog</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Tabhair faoi deara go mbeidh pasfhocal riarthóra ag teastáil chuige seo.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Coinniallfaidh sé d’fhillteán Íoslódáil gan a bheith lán de choirp.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>Cealaigh</actionUndo>
+            <actionRedo>Athdhéan</actionRedo>
+            <actionCut>Gearr</actionCut>
+            <actionCopy>Cóipeáil</actionCopy>
+            <actionPaste>Greamaigh</actionPaste>
+            <actionDelete>Scrios</actionDelete>
+            <actionSelectAll>Roghnaigh Uile</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>Ceart go leor</buttonOK>
+            <buttonCancel>Cealaigh</buttonCancel>
+            <buttonClose>Dún</buttonClose>
+            <buttonYes>Tá</buttonYes>
+            <buttonNo>Níl</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
