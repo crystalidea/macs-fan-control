@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.1.12" Author="Gábor&amp;Patrik">
+<LanguageStrings version="1.1.12" Author="Gábor;Patrik;banditoth">
     <MainWindow>
-        <staticSensorsListHeader>Hőmérséklet szenzorok:</staticSensorsListHeader>
-        <listColumnFan>Ventillátor</listColumnFan>
+        <staticSensorsListHeader>Hőmérséklet érzékelők:</staticSensorsListHeader>
+        <listColumnFan>Ventilátor</listColumnFan>
         <listColumnRPM>Min/Aktuális/Max RPM</listColumnRPM>
         <listColumnControl>Vezérlés</listColumnControl>
-        <listColumnSensor>Szenzor</listColumnSensor>
+        <listColumnSensor>Érzékelő</listColumnSensor>
         <listColumnSensorValue>Érték</listColumnSensorValue>
         <listSeparatorDrives>Meghajtók:</listSeparatorDrives>
         <popupMenuItemControl>Vezérlés megváltoztatása...</popupMenuItemControl>
         <popupMenuItemReset>Visszaállítás alapértelmezettre</popupMenuItemReset>
-        <fanControlAutomatic>Automatikus (rendszer vezérelt)</fanControlAutomatic>
-        <fanControlAutomaticInfo>Automatikus (rendszer vezérelt)</fanControlAutomaticInfo>
+        <fanControlAutomatic>Automatikus (rendszer által vezérelt)</fanControlAutomatic>
+        <fanControlAutomaticInfo>Automatikus (rendszer által vezérelt)</fanControlAutomaticInfo>
         <fanControlConstant>Állandó %1 érték</fanControlConstant>
         <fanControlSensor>%1 alapján</fanControlSensor>
         <fanControlUnknown>Ismeretlen!</fanControlUnknown>
@@ -21,139 +21,139 @@
         <buttonMinimizeMac>Tálcára helyezés</buttonMinimizeMac>
         <buttonPreferences>Beállítások...</buttonPreferences>
         <buttonAbout>Rólunk...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Control requires a helper tool to be installed for fan control. You can skip this if you wish only to monitor fans &amp; temperature sensors.</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Control needs to install an updated version of the helper tool used for fan control.</messageHelperToolUpgrade>
-        <messageFanControlNotAvailableTitle>Ventillátor vezérlés nem elérhető</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control nem tudott csatlakozni a 'helper app'-hoz, hogy vezérelje a ventillátort és annak a sebességét. \n\nGyőződj meg róla, hogy kérésekor megadtad az rendszergazdai jelszót.\n\nYou can still use the app in monitoring-only mode.</messageFanControlNotAvailable>
-        <messageFanControlNotAvailableButtonMonitoringOnly>Monitoring-only</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>No fans detected, please try to [reset SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageHelperToolInstall>A Macs Fan Control telepítéséhez szükség van egy segédprogram telepítésére a ventilátorok vezérléséhez. Ezt kihagyhatod, ha csak az érzékelőket és ventilátorokat szeretnéd megfigyelni.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>A Macs Fan Control frissített segédprogramot igényel a ventilátorok vezérléséhez.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Ventilátor vezérlés nem elérhető</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>A Macs Fan Control nem tudott csatlakozni a segédalkalmazáshoz, hogy vezérelje a ventilátort és annak sebességét. \n\nGyőződj meg róla, hogy a kéréskor megadtad az adminisztrátori jelszót.\n\nAz alkalmazást továbbra is használhatod csak megfigyelési módban.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Csak megfigyelés</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Nem találtam ventilátorokat, próbáld meg újraindítani az SMC-t ([reset SMC](https://support.apple.com/en-us/HT201295)).</messageNoFansDetected>
+        <messageNoFansAvailable>Ez a gép passzívan hűtött, nincs ventilátora.</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>Következő beállítása: '%1' fan'</title>
+        <title>Következő beállítása: '%1' ventilátor</title>
         <radioConstant>Állandó érték</radioConstant>
         <radioSensor>Szenzor alapú:</radioSensor>
-        <staticIncrease>Kezdő hőméséklet:</staticIncrease>
-        <staticMax>Maximum hőmérséklet:</staticMax>
-        <statusWarning>Valami gond van - min/max értékek helytelenek (%1).&lt;br/&gt; Kérlek törölj minden más hasonló alkalmazást, és állítsd vissza az SMC-t.</statusWarning>
-        <saveToCurrentPreset>Save to the current preset ('%1')</saveToCurrentPreset>
+        <staticIncrease>Kezdő hőmérséklet:</staticIncrease>
+        <staticMax>Maximális hőmérséklet:</staticMax>
+        <statusWarning>Valami probléma van - a min/max értékek helytelenek (%1).&lt;br/&gt; Kérlek, törölj minden más hasonló alkalmazást, és állítsd vissza az SMC-t.</statusWarning>
+        <saveToCurrentPreset>Mentés az aktuális sablonba ('%1')</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
-        <activePresetLabel>Active preset:</activePresetLabel>
-        <presetAutomatic>Automatic</presetAutomatic>
-        <presetFullBlast>Full blast</presetFullBlast>
-        <presetCurrentUnsaved>Custom*</presetCurrentUnsaved>
-        <presetMenuSave>Save...</presetMenuSave>
-        <presetMenuRename>Rename</presetMenuRename>
-        <presetMenuDelete>Delete</presetMenuDelete>
-        <presetMenuPredefined>Predefined presets:</presetMenuPredefined>
-        <presetMenuCustom>Custom presets:</presetMenuCustom>
-        <presetMenuApply>Apply</presetMenuApply>
-        <presetMenuProVersion>Available in PRO version</presetMenuProVersion>
-        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
-        <presetMenuDiscard>Discard (reset all fans to auto)</presetMenuDiscard>
-        <labelPresetName>Preset name:</labelPresetName>
-        <savePresetTitle>Save custom preset</savePresetTitle>
-        <editPresetTitle>Edit preset name</editPresetTitle>
-        <presetCreateNew>New...</presetCreateNew>
-        <presetCreateNewTitle>Create a new preset</presetCreateNewTitle>
-        <presetCreateNewMessage>All of your fans are currently controlled by the system. \n\nPlease change control to Custom for at least one of your fans to be able to create a new preset.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Custom control for the '%1' fan</presetCreateNewButton>
+        <activePresetLabel>Aktív sablon:</activePresetLabel>
+        <presetAutomatic>Automatikus</presetAutomatic>
+        <presetFullBlast>Maximális teljesítmény</presetFullBlast>
+        <presetCurrentUnsaved>Egyedi*</presetCurrentUnsaved>
+        <presetMenuSave>Mentés...</presetMenuSave>
+        <presetMenuRename>Átnevezés</presetMenuRename>
+        <presetMenuDelete>Törlés</presetMenuDelete>
+        <presetMenuPredefined>Előre definiált sablonok:</presetMenuPredefined>
+        <presetMenuCustom>Egyedi sablonok:</presetMenuCustom>
+        <presetMenuApply>Alkalmaz</presetMenuApply>
+        <presetMenuProVersion>Elérhető a PRO verzióban</presetMenuProVersion>
+        <presetMenuCurrent>Sablon - %1</presetMenuCurrent>
+        <presetMenuDiscard>Elvetés (minden ventilátor automatikusra állítása)</presetMenuDiscard>
+        <labelPresetName>Sablon neve:</labelPresetName>
+        <savePresetTitle>Egyedi sablon mentése</savePresetTitle>
+        <editPresetTitle>Sablon nevének szerkesztése</editPresetTitle>
+        <presetCreateNew>Új...</presetCreateNew>
+        <presetCreateNewTitle>Új sablon létrehozása</presetCreateNewTitle>
+        <presetCreateNewMessage>Minden ventilátorodat jelenleg a rendszer vezérli. \n\nÁllítsd legalább az egyik ventilátort Egyedi vezérlésre, hogy létrehozhass egy új sablont.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Állítsd át legalább az egyik ventilátor vezérlését, mert jelenleg mind maximális teljesítménnyel forog a meglévő '%1' sablonnak megfelelően.</presetCreateNewMessage2>
+        <presetCreateNewButton>Egyedi vezérlés beállítása a '%1' ventilátorhoz</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>Upgrade to Macs Fan Control Pro</title>
-        <proInfo1>Pro version is able to create and save custom fan presets so you can quickly switch between them depending on your activity.</proInfo1>
-        <proInfo2>If you already purchased the app, please press the 'Enter License' button below.</proInfo2>
-        <buttonPurchase>Purchase</buttonPurchase>
-        <buttonEnterLicense>Enter License</buttonEnterLicense>
-        <buttonLater>Later</buttonLater>
+        <title>Frissítés Macs Fan Control Pro-ra</title>
+        <proInfo1>A Pro verzió lehetővé teszi egyedi ventilátorsablonok létrehozását és mentését, hogy gyorsan válthass tevékenységeid között.</proInfo1>
+        <proInfo2>Ha már megvásároltad az alkalmazást, nyomd meg a 'Licensz megadása' gombot lent.</proInfo2>
+        <buttonPurchase>Vásárlás</buttonPurchase>
+        <buttonEnterLicense>Licensz megadása</buttonEnterLicense>
+        <buttonLater>Később</buttonLater>
     </UpgradeToProDialog>
     <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+        <title>Pro verzió feloldása</title>
+        <infoText>Ha már megvásároltad a Macs Fan Control-t, írd be az email címedet és a licenszkulcsot az emailes visszaigazolásból az alábbi mezőkbe. Ez teljesen feloldja a Macs Fan Control Pro funkcióit.</infoText>
+        <licenseVerifyInfo>Az általad megadott információkat az interneten keresztül ellenőrizhetjük.</licenseVerifyInfo>
+        <email>Email cím</email>
+        <licenseKey>Licenszkulcs</licenseKey>
+        <buttonUnlock>Feloldás</buttonUnlock>
+        <buttonRestoreLicense>Licensz visszaállítása</buttonRestoreLicense>
+        <invalidLicenseTitle>Érvénytelen licensz!</invalidLicenseTitle>
+        <invalidLicenseText>Győződj meg róla, hogy az összes betű, szám és kötőjel helyes sorrendben van beírva. Ha kézzel írod be, próbáld meg másolni és beilleszteni az email visszaigazolásból.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Ez a licenszkulcs érvényes, de nem használható ezen a %1 rendszeren.</invalidLicenseMismatchOS>
+        <thanksTitle>Köszönjük, hogy megvásároltad a Macs Fan Control Pro-t</thanksTitle>
+        <thanksInfo>Minden korlátozást eltávolítottunk a Free verzióból, reméljük élvezed az alkalmazást!</thanksInfo>
     </EnterLicenseDialog>
     <TrayMenu>
-        <itemShow>Mutasd az alkalmazást</itemShow>
-        <itemAvailableFans>Ventillátorok:</itemAvailableFans>
-        <itemFanPresets>Fan presets:</itemFanPresets>
-        <itemMoreLinks>További</itemMoreLinks>
+        <itemShow>Alkalmazás megjelenítése</itemShow>
+        <itemAvailableFans>Elérhető ventilátorok:</itemAvailableFans>
+        <itemFanPresets>Ventilátor sablonok:</itemFanPresets>
+        <itemMoreLinks>További lehetőségek</itemMoreLinks>
         <itemWebsite>Honlap</itemWebsite>
         <itemCheckForUpdates>Frissítések ellenőrzése...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
-        <itemRateApp>Értékelés a Macupdate oldalán</itemRateApp>
-        <itemFollowTwitter>Követés Twitteren: @crystalidea</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemTechInfoZip>Technikai zip fájl létrehozása...</itemTechInfoZip>
+        <itemRateApp>Értékeld az alkalmazást a MacUpdate-en</itemRateApp>
+        <itemFollowTwitter>Kövess Twitteren: @crystalidea</itemFollowTwitter>
+        <itemUninstall>Eltávolítás...</itemUninstall>
         <itemExit>Kilépés</itemExit>
-        <itemExitMac>Quit Macs Fan Control</itemExitMac>
+        <itemExitMac>Macs Fan Control kilépés</itemExitMac>
         <itemSensorBased>Szenzor alapú</itemSensorBased>
-        <itemUpgradeToPro>Upgrade to Pro version</itemUpgradeToPro>
+        <itemUpgradeToPro>Frissítés Pro verzióra</itemUpgradeToPro>
     </TrayMenu>
-    <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <techInfoZipMessage>
+        <message>Egy támogatási csomag '%1', amely névtelen technikai adatokat és a főablak képernyőképét tartalmazza, létrejött az asztalodon.\n\nKüldd el ezt a fájlt a support@crystalidea.com címre vagy tedd közzé a GitHub hibakövető oldalunkon.</message>
+        <browseButton>Zip fájl megnyitása</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Beállítások</title>
         <TabGeneral>Általános</TabGeneral>
         <tabTrayIcon>Tálca ikon</tabTrayIcon>
-        <tabSensors>Sensors</tabSensors>
-        <tabTrayIconMac>Menüsoros megjelenítés</tabTrayIconMac>
+        <tabSensors>Érzékelők</tabSensors>
+        <tabTrayIconMac>Menüsor megjelenítése</tabTrayIconMac>
         <tabDiagnostics>Diagnosztika</tabDiagnostics>
         <staticLanguage>Nyelv:</staticLanguage>
-        <checkSystemStart>Indulás rendszerindításkor (javasolt)</checkSystemStart>
-        <checkUpdatesOnStartup>Check for updates when the app starts</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkSystemStart>Induljon rendszerindításkor (ajánlott)</checkSystemStart>
+        <checkUpdatesOnStartup>Frissítések ellenőrzése az alkalmazás indításakor</checkUpdatesOnStartup>
+        <checkDockIcon>Ikon megjelenítése a dokkon</checkDockIcon>
         <checkFahrenheit>Fahrenheit (ºF) skála használata</checkFahrenheit>
-        <checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl.: 45.4)</checkPrecise>
-        <labelSensors>Read temperatures of</labelSensors>
-        <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
-        <staticSensor>Szenzor:</staticSensor>
-        <staticFan>Ventillátor:</staticFan>
+        <checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl. 45.4)</checkPrecise>
+        <labelSensors>Hőmérséklet érzékelése:</labelSensors>
+        <checkExternalGPU>Thunderbolton keresztül csatlakoztatott eGPU-k</checkExternalGPU>
+        <checkSATADrives>Csatlakoztatott SATA meghajtók</checkSATADrives>
+        <checkNVMeDrives>Csatlakoztatott NVMe meghajtók</checkNVMeDrives>
+        <staticSensor>Érzékelő:</staticSensor>
+        <staticFan>Ventilátor:</staticFan>
         <staticIcon>Ikon:</staticIcon>
-        <comboIconOptionShow>Ikon mutatása</comboIconOptionShow>
-        <comboIconOptionShowBW>Ikon mutatása (fekete &amp; fehér)</comboIconOptionShowBW>
+        <comboIconOptionShow>Ikon megjelenítése</comboIconOptionShow>
+        <comboIconOptionShowBW>Ikon megjelenítése (fekete &amp; fehér)</comboIconOptionShowBW>
         <comboOptionNone>Nincs ikon</comboOptionNone>
-        <checkTwoLines>A ventillátor/szenzor értékek sortöréssel (kevesebb hely esetén)</checkTwoLines>
-        <staticCelsiusOnlyOnWindows>(Csak Celsius)</staticCelsiusOnlyOnWindows>
-        <checkLog>Loggolás engedélyezése (újraindítás szükséges)</checkLog>
+        <checkTwoLines>Ventilátor/érzékelő értékek sortöréssel (ha kevés a hely)</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Csak Celsius Windows esetén)</staticCelsiusOnlyOnWindows>
+        <checkLog>Naplózás engedélyezése (újraindítás szükséges)</checkLog>
         <browseLog>Tallózás...</browseLog>
     </PreferencesWindow>
     <AboutDialog>
         <title>Az alkalmazásról</title>
         <staticTechnicalSupport>Technikai támogatás a fórumon</staticTechnicalSupport>
-        <staticOnlineHelp>Online segítség</staticOnlineHelp>
-        <staticFreeVersion>Free version</staticFreeVersion>
-        <staticProVersion>Pro version, %1 computer(s) license</staticProVersion>
-        <staticWarning>Ez a program csak gyakorlott felhasználóknak ajánlott, akik pontosan tudják mit csinálnak. A fejlesztők nem vállalnak semmiféle felelősséget károkért, adatvesztésért, profit és bármilyen más típusú veszteség után amit a program okozhat.</staticWarning>
+        <staticOnlineHelp>Online súgó</staticOnlineHelp>
+        <staticFreeVersion>Ingyenes verzió</staticFreeVersion>
+        <staticProVersion>Pro verzió, %1 számítógép licensze</staticProVersion>
+        <staticWarning>Ez az alkalmazás csak tapasztalt felhasználóknak ajánlott, akik pontosan tudják, mit csinálnak. A fejlesztők semmilyen felelősséget nem vállalnak a program használatából eredő károkért, adatvesztésért, profitveszteségért vagy bármilyen más veszteségért.</staticWarning>
     </AboutDialog>
     <RateMeDialog>
-        <message>Értékeld az appot a MacUpdate honlapon</message>
-        <informativeText>Ha élvezed a %1 használatát, szánnál rá egy kis pillanatot, hogy értékeld? Nem fog egy percnél tovább tartani. Köszönjük a támogatásodat!</informativeText>
-        <buttonRate>Értékeld az appot a MacUpdate-n</buttonRate>
+        <message>Értékeld az alkalmazást a MacUpdate honlapon</message>
+        <informativeText>Ha élvezed a %1 használatát, szánnál egy percet, hogy értékeld? Nem tart tovább egy pillanatnál. Köszönjük a támogatásodat!</informativeText>
+        <buttonRate>App értékelése a MacUpdate-en</buttonRate>
         <buttonNoThanks>Nem, köszönöm</buttonNoThanks>
-        <checkDontShowAgain>Ne mutassa ezt az üzenetet mégegyszer</checkDontShowAgain>
+        <checkDontShowAgain>Ne mutasd újra ezt az üzenetet</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Macs Fan Control eltávolítása?</title>
+        <message>Az alkalmazást teljesen el fogod távolítani a Mac-ről, beleértve a beállításokat, a ventilátor segédprogramot és a Pro verzió licenszadatait. Minden módosítás visszaáll az alapértelmezett ventilátorvezérlésre, és a ventilátorokat ismét a rendszer fogja irányítani.\n\nAz alkalmazás eltávolításához valószínűleg engedélyt kell adnod.</message>
+        <authorizeText>Kérlek, engedélyezd az alkalmazást, hogy eltávolíthassa a ventilátor segédprogramot.</authorizeText>
+        <buttonUninstall>Eltávolítás</buttonUninstall>
     </UninstallDialog>
     <Common>
-        <buttonClose>Kilépés</buttonClose>
+        <buttonClose>Bezárás</buttonClose>
         <buttonOK>OK</buttonOK>
         <buttonCancel>Mégse</buttonCancel>
         <buttonContinue>Folytatás</buttonContinue>
@@ -163,17 +163,17 @@
             <ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
             <CheckForUpdates>Frissítések keresése...</CheckForUpdates>
             <NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
-            <NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
+            <NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Szeretnéd most letölteni?</NewVersionAvailableText>
             <UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
-            <UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
-            <UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
+            <UpdateAlertReleaseNotes>Kiadási jegyzetek:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Emlékeztess később</UpdateAlertRemindLater>
             <UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
             <UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
-            <UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
-            <MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
-            <MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
+            <UpdateAlertAutomaticUpdates>Automatikus frissítések ellenőrzése</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>A program naprakész!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 a legfrissebb verzió.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Hiba történt a frissítés letöltése során. Próbáld újra később.</MessageErrorConnect>
+            <MessageErrorParse>Hiba történt a frissítési hírcsatorna feldolgozása során.</MessageErrorParse>
             <UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
             <UpdateProgressCancel>Mégse</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
@@ -187,18 +187,18 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az alkalmazások mappába</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Áthelyezés az alkalmazásokba</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Áthelyezi az alkalmazások mappába a saját mappában?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Szeretné, hogy a(z) %1 áthelyezze magát az alkalmazások mappába?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az alkalmazások mappába.</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Áthelyezés az alkalmazások mappába</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Áthelyezed az alkalmazást az alkalmazások mappába?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Szeretnéd, hogy a(z) %1 áthelyezze magát az alkalmazások mappába?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Áthelyezés az alkalmazások mappába</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Ne helyezze át</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Ne feledje, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ez megőrzi a Letöltések mappa rendezettségét.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Ez rendszergazdai jelszót fog igényelni.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ez segít rendezetté tenni a Letöltések mappádat.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>Visszavonás</actionUndo>
-            <actionRedo>Végrehajtás megismétlése</actionRedo>
+            <actionRedo>Újra végrehajtás</actionRedo>
             <actionCut>Kivágás</actionCut>
             <actionCopy>Másolás</actionCopy>
             <actionPaste>Beillesztés</actionPaste>
