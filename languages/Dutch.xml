@@ -83,6 +83,17 @@
         <thanksTitle>Bedankt voor uw aankoop van Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Alle beperkingen van de gratis versie zijn verwijderd. Veel plezier met het programma!</thanksInfo>
     </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>Trial version</trialVersion>
+        <message>Thank you for trying %1</message>
+        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
+        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
+        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
+        <trialOver>The trial of %1 days is over.</trialOver>
+        <buttonContinue>Continue Trial</buttonContinue>
+        <buttonActivate>Activate License</buttonActivate>
+        <buttonBuy>Buy Now</buttonBuy>
+    </TrialDialog>
     <TrayMenu>
         <itemShow>Toon Macs Fan Control</itemShow>
         <itemAvailableFans>Ventilatoren:</itemAvailableFans>
@@ -152,6 +163,12 @@
         <authorizeText>Macs Fan Control heeft uw wachtwoord nodig om het hulpprogramma voor de ventilatorregeling te verwijderen.</authorizeText>
         <buttonUninstall>Verwijder</buttonUninstall>
     </UninstallDialog>
+    <messageFanControlLimited>
+        <title>Fans disabled by hardware</title>
+        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
+        <checkDiscard>Do not show this message again</checkDiscard>
+        <buttonMoreInfo>More info...</buttonMoreInfo>
+    </messageFanControlLimited>
     <Common>
         <buttonClose>Sluit</buttonClose>
         <buttonOK>OK</buttonOK>

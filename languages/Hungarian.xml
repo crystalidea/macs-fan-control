@@ -83,6 +83,17 @@
         <thanksTitle>Köszönjük, hogy megvásároltad a Macs Fan Control Pro-t</thanksTitle>
         <thanksInfo>Minden korlátozást eltávolítottunk a Free verzióból, reméljük élvezed az alkalmazást!</thanksInfo>
     </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>Trial version</trialVersion>
+        <message>Thank you for trying %1</message>
+        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
+        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
+        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
+        <trialOver>The trial of %1 days is over.</trialOver>
+        <buttonContinue>Continue Trial</buttonContinue>
+        <buttonActivate>Activate License</buttonActivate>
+        <buttonBuy>Buy Now</buttonBuy>
+    </TrialDialog>
     <TrayMenu>
         <itemShow>Alkalmazás megjelenítése</itemShow>
         <itemAvailableFans>Elérhető ventilátorok:</itemAvailableFans>
@@ -99,7 +110,7 @@
         <itemSensorBased>Szenzor alapú</itemSensorBased>
         <itemUpgradeToPro>Frissítés Pro verzióra</itemUpgradeToPro>
     </TrayMenu>
-        <techInfoZipMessage>
+    <techInfoZipMessage>
         <message>Egy támogatási csomag '%1', amely névtelen technikai adatokat és a főablak képernyőképét tartalmazza, létrejött az asztalodon.\n\nKüldd el ezt a fájlt a support@crystalidea.com címre vagy tedd közzé a GitHub hibakövető oldalunkon.</message>
         <browseButton>Zip fájl megnyitása</browseButton>
     </techInfoZipMessage>
@@ -152,6 +163,12 @@
         <authorizeText>Kérlek, engedélyezd az alkalmazást, hogy eltávolíthassa a ventilátor segédprogramot.</authorizeText>
         <buttonUninstall>Eltávolítás</buttonUninstall>
     </UninstallDialog>
+    <messageFanControlLimited>
+        <title>Fans disabled by hardware</title>
+        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
+        <checkDiscard>Do not show this message again</checkDiscard>
+        <buttonMoreInfo>More info...</buttonMoreInfo>
+    </messageFanControlLimited>
     <Common>
         <buttonClose>Bezárás</buttonClose>
         <buttonOK>OK</buttonOK>
@@ -163,17 +180,17 @@
             <ReleasedOn>Kiadás dátuma: %1</ReleasedOn>
             <CheckForUpdates>Frissítések keresése...</CheckForUpdates>
             <NewVersionAvailable>Új %1 verzió érhető el!</NewVersionAvailable>
-            <NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Szeretnéd most letölteni?</NewVersionAvailableText>
+            <NewVersionAvailableText>Elérhető verzió: %1 %2 - jelenleg telepített: %3. Letölti most?</NewVersionAvailableText>
             <UpdateAlertTitle>Szoftverfrissítés</UpdateAlertTitle>
-            <UpdateAlertReleaseNotes>Kiadási jegyzetek:</UpdateAlertReleaseNotes>
-            <UpdateAlertRemindLater>Emlékeztess később</UpdateAlertRemindLater>
+            <UpdateAlertReleaseNotes>Kiadási jegyzék:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>Emlékeztessen később</UpdateAlertRemindLater>
             <UpdateAlertSkip>Ez a verzió kihagyása</UpdateAlertSkip>
             <UpdateAlertInstall>Frissítés telepítése</UpdateAlertInstall>
-            <UpdateAlertAutomaticUpdates>Automatikus frissítések ellenőrzése</UpdateAlertAutomaticUpdates>
-            <MessageNoUpdateAvailable>A program naprakész!</MessageNoUpdateAvailable>
-            <MessageNoUpdateAvailableDescription>%1 %2 a legfrissebb verzió.</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>Hiba történt a frissítés letöltése során. Próbáld újra később.</MessageErrorConnect>
-            <MessageErrorParse>Hiba történt a frissítési hírcsatorna feldolgozása során.</MessageErrorParse>
+            <UpdateAlertAutomaticUpdates>Frissítések automatikus ellenőrzése</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>Jelenleg naprakész!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 jelenleg a legújabb verzió.</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>Hiba történt a frissítés letöltése közben. Kérjük, próbálkozzon később.</MessageErrorConnect>
+            <MessageErrorParse>Hiba történt a frissítési hírcsatorna elemzése közben.</MessageErrorParse>
             <UpdateProgressTitle>%1 frissítése</UpdateProgressTitle>
             <UpdateProgressCancel>Mégse</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>Telepítés és újraindítás</UpdateProgressInstallAndRelaunch>
@@ -187,18 +204,18 @@
             <UpdateProgressGB>GB</UpdateProgressGB>
         </UpdateChecker>
         <LetsMoveMac>
-            <kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az alkalmazások mappába.</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>Áthelyezés az alkalmazások mappába</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>Áthelyezed az alkalmazást az alkalmazások mappába?</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>Szeretnéd, hogy a(z) %1 áthelyezze magát az alkalmazások mappába?</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationCouldNotMove>Nem sikerült áthelyezni az alkalmazások mappába</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Áthelyezés az alkalmazásokba</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>Áthelyezi az alkalmazások mappába a saját mappában?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>Szeretné, hogy a(z) %1 áthelyezze magát az alkalmazások mappába?</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>Áthelyezés az alkalmazások mappába</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>Ne helyezze át</kStrMoveApplicationButtonDoNotMove>
-            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Ez rendszergazdai jelszót fog igényelni.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ez segít rendezetté tenni a Letöltések mappádat.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>Ne feledje, hogy ehhez rendszergazdai jelszó szükséges.</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>Ez megőrzi a Letöltések mappa rendezettségét.</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>Visszavonás</actionUndo>
-            <actionRedo>Újra végrehajtás</actionRedo>
+            <actionRedo>Végrehajtás megismétlése</actionRedo>
             <actionCut>Kivágás</actionCut>
             <actionCopy>Másolás</actionCopy>
             <actionPaste>Beillesztés</actionPaste>

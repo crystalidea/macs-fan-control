@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.7" Author="Gavin Wibisana [contact@gavinwibisana.me]">
+<LanguageStrings version="1.5.16" Author="Dr Isaac Govind Andy">
     <MainWindow>
         <staticSensorsListHeader>Sensor Temperatur:</staticSensorsListHeader>
         <listColumnFan>Kipas</listColumnFan>
@@ -21,13 +21,13 @@
         <buttonMinimizeMac>Sembunyikan ke Menubar</buttonMinimizeMac>
         <buttonPreferences>Prefrensi...</buttonPreferences>
         <buttonAbout>Mengenai Kami...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan control membutuhkan alat bantu untuk mengontrol kipas. Anda dapat melewati ini jika Anda hanya ingin memantau kipas &amp; sensor temperatur.</messageHelperToolInstall>
+        <messageHelperToolInstall>Macs Fan control perlukan alat bantu untuk mengontrol kipas. Anda dapat melewati ini jika Anda hanya ingin memantau kipas &amp; sensor temperatur.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan control harus menginstal versi terbaru dari alat bantu yang digunakan untuk kontrol kipas.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Kontrol Kipas tidak tersedia.</messageFanControlNotAvailableTitle>
         <messageFanControlNotAvailable>Macs Fan control tidak dapat terhubung ke aplikasi alat bantu. Untuk mengaktifkan kontrol kipas serta menyesuaikan kecepatan, pastikan anda memasukkan kata sandi administrator ketika ditanya.\n\nAnda masih dapat menggunakan aplikasi ini dalam mode pemantauan saja.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Pemantuan saja</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Tidak ada kipas yang terdeteksi, Silahkan coba untuk [Atur ulang SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Computer ini tiada kipas dan ia disejukkan secara pasif</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Ubah kontrol kipas untuk '%1' fan</title>

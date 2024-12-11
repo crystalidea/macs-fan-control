@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.13" Author="Denis Mikhailov">
+<LanguageStrings version="1.5.17" Author="Denis Mikhailov">
     <MainWindow>
         <staticSensorsListHeader>Температурные датчики:</staticSensorsListHeader>
         <listColumnFan>Вентилятор</listColumnFan>
@@ -83,6 +83,17 @@
         <thanksTitle>Спасибо за покупку Macs Fan Control Pro</thanksTitle>
         <thanksInfo>Все ограничения бесплатной версии убраны. Мы надеемся, что Вам понравится пользоваться программой!</thanksInfo>
     </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>Пробная версия</trialVersion>
+        <message>Спасибо за использование %1</message>
+        <messageSecondary>Единственное приложение для Mac-вентиляторов в Windows</messageSecondary>
+        <timeLeftDays>У вас осталось %1 дней испытательного периода</timeLeftDays>
+        <timeLeftHours>У вас осталось %1 часов испытательного периода</timeLeftHours>
+        <trialOver>Испытательный период завершен</trialOver>
+        <buttonContinue>Продолжить</buttonContinue>
+        <buttonActivate>Активировать</buttonActivate>
+        <buttonBuy>Купить</buttonBuy>
+    </TrialDialog>
     <TrayMenu>
         <itemShow>Показать Macs Fan Control</itemShow>
         <itemAvailableFans>Доступные вентиляторы:</itemAvailableFans>
@@ -152,6 +163,12 @@
         <authorizeText>Пожалуйста, разрешите программе удалить ее вспомогательную утилиту управления вентиляторами.</authorizeText>
         <buttonUninstall>Удалить</buttonUninstall>
     </UninstallDialog>
+    <messageFanControlLimited>
+        <title>Вентиляторы отключены системой</title>
+        <message>Из-за низкой температуры эта модель Mac автоматически отключила вентиляторы. Ручное управление вентиляторами станет возможно, когда они будут включены обратно, т.е. когда система решит, что ей необходимо охлаждение.</message>
+        <checkDiscard>Не отображать это сообщение больше</checkDiscard>
+        <buttonMoreInfo>Узнать больше...</buttonMoreInfo>
+    </messageFanControlLimited>
     <Common>
         <buttonClose>Закрыть</buttonClose>
         <buttonOK>OK</buttonOK>

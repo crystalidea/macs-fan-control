@@ -83,6 +83,17 @@
         <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
         <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
     </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>Trial version</trialVersion>
+        <message>Thank you for trying %1</message>
+        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
+        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
+        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
+        <trialOver>The trial of %1 days is over.</trialOver>
+        <buttonContinue>Continue Trial</buttonContinue>
+        <buttonActivate>Activate License</buttonActivate>
+        <buttonBuy>Buy Now</buttonBuy>
+    </TrialDialog>
     <TrayMenu>
         <itemShow>Näytä Macs Fan Control</itemShow>
         <itemAvailableFans>Tuulettimet:</itemAvailableFans>
@@ -152,6 +163,12 @@
         <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
         <buttonUninstall>Uninstall</buttonUninstall>
     </UninstallDialog>
+    <messageFanControlLimited>
+        <title>Fans disabled by hardware</title>
+        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
+        <checkDiscard>Do not show this message again</checkDiscard>
+        <buttonMoreInfo>More info...</buttonMoreInfo>
+    </messageFanControlLimited>
     <Common>
         <buttonClose>Sulje</buttonClose>
         <buttonOK>OK</buttonOK>
