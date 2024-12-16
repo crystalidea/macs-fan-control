@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.9" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez - Héctor Cortés (stonkol)">
+<LanguageStrings version="1.5.17" Author="Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez - Héctor Cortés (stonkol) - Adrian M">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
@@ -24,7 +24,7 @@
         <messageHelperToolInstall>Macs Fan Control requiere la instalación de una herramienta de ayuda para controlar los ventiladores. Puede saltar este paso si solo desea monitorear los ventiladores y la temperatura de los sensores.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control necesita instalar una versión actualizada de la herramienta de ayuda para controlar los ventiladores.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Configuración de ventiladores no disponible</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control no pudo iniciarse con permisos administrativos para activar el control del ventilador, así como para ajustar las velocidades. \n\nAsegúrese de ingresar una contraseña de administrador cuando se le solicite.\n\nPuede utilizar la aplicación solo para monitorear.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control no pudo iniciarse con permisos administrativos para activar el control del ventilador, así como para ajustar las velocidades.\n\nAsegúrese de ingresar una contraseña de administrador cuando se le solicite.\n\nPuede utilizar la aplicación solo para monitorear.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Solo Monitoreo</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>No se han detectado ventiladores. Por favor, intente [restablecer el Controlador de Gestión del Sistema (SMC)](https://support.apple.com/es-es/HT201295)</messageNoFansDetected>
         <messageNoFansAvailable>Este ordenador no tiene ventiladores y se refrigera de forma pasiva.</messageNoFansAvailable>
@@ -84,15 +84,15 @@
         <thanksInfo>Se han eliminado todas las limitaciones de la versión gratuita. ¡Esperamos que disfrute usando la aplicación!</thanksInfo>
     </EnterLicenseDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <trialVersion>Versión de prueba</trialVersion>
+        <message>Gracias por probar %1</message>
+        <messageSecondary>La única aplicación capaz de controlar los ventiladores de los Mac con Intel en Windows</messageSecondary>
+        <timeLeftDays>Le quedan %1 días de su período de prueba.</timeLeftDays>
+        <timeLeftHours>Te quedan %1 horas de tu período de prueba.</timeLeftHours>
+        <trialOver>La prueba de %1 días ha terminado.</trialOver>
+        <buttonContinue>Continuar Prueba</buttonContinue>
+        <buttonActivate>Activar Licencia</buttonActivate>
+        <buttonBuy>Cómpralo Ahora</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>Mostrar Macs Fan Control</itemShow>
@@ -124,7 +124,7 @@
         <staticLanguage>Idioma:</staticLanguage>
         <checkSystemStart>Ejecutar al inicio del sistema (recomendado)</checkSystemStart>
         <checkUpdatesOnStartup>Buscar actualizaciones cuando se inicie la aplicación</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Mostrar icono en dock</checkDockIcon>
         <checkFahrenheit>Usar escala en grados Fahrenheit</checkFahrenheit>
         <checkPrecise>Mostrar temperatura con precisión cuando sea posible (ej. 45.4)</checkPrecise>
         <labelSensors>Leer temperaturas de</labelSensors>
@@ -160,14 +160,14 @@
     <UninstallDialog>
         <title>¿Desinstalar Macs Fan Control?</title>
         <message>Estás a punto de desinstalar completamente la aplicación en tu Mac, incluyendo sus preferencias, la herramienta de ayuda para los ventiladores y los datos de licencia para la versión Pro. Todas las modificaciones se revertirán a los ajustes predeterminados del ventilador y el sistema controlará automáticamente el/los ventilador(es).\n\nEs posible que se le pida autorización para desinstalar la aplicación.</message>
-        <authorizeText>Autorice la aplicación para poder desinstalar la herramienta de ayuda del ventilador.Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <authorizeText>Por favor, autorice a la aplicación para poder desinstalar la herramienta de ayuda del ventilador.</authorizeText>
+        <buttonUninstall>Desinstalar</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>Deshabilitar ventiladores por hardware</title>
+        <message>Debido a las bajas temperaturas, este modelo de Mac ha deshabilitado automáticamente los ventiladores. El control manual de los ventiladores entrará en vigor una vez que el sistema los reactive, cuando determine que es necesario refrigerar.</message>
+        <checkDiscard>No volver a mostrar este mensaje</checkDiscard>
+        <buttonMoreInfo>Más info...</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>Cerrar</buttonClose>
