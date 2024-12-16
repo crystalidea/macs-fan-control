@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.13" Author="CrystalIdea Team">
+<LanguageStrings version="1.5.16" Author="CrystalIdea Team">
     <MainWindow>
         <staticSensorsListHeader>Braiteoirí teochta:</staticSensorsListHeader>
         <listColumnFan>Gaothrán</listColumnFan>
@@ -83,6 +83,17 @@
         <thanksTitle>Go raibh maith agat as Macs Fan Control Pro a cheannach</thanksTitle>
         <thanksInfo>Baineadh na teorainneacha go léir den leagan saor in aisce, tá súil againn go mbainfidh tú taitneamh as an aip a úsáid!</thanksInfo>
     </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>Trial version</trialVersion>
+        <message>Thank you for trying %1</message>
+        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
+        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
+        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
+        <trialOver>The trial of %1 days is over.</trialOver>
+        <buttonContinue>Continue Trial</buttonContinue>
+        <buttonActivate>Activate License</buttonActivate>
+        <buttonBuy>Buy Now</buttonBuy>
+    </TrialDialog>
     <TrayMenu>
         <itemShow>Taispeáin Rialú Fan Macs</itemShow>
         <itemAvailableFans>Lucht leanúna ar fáil:</itemAvailableFans>
@@ -152,6 +163,12 @@
         <authorizeText>Tabhair údarás don aip a bheith in ann an uirlis cúntóra fean a dhíshuiteáil.</authorizeText>
         <buttonUninstall>Dhíshuiteáil</buttonUninstall>
     </UninstallDialog>
+    <messageFanControlLimited>
+        <title>Fans disabled by hardware</title>
+        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
+        <checkDiscard>Do not show this message again</checkDiscard>
+        <buttonMoreInfo>More info...</buttonMoreInfo>
+    </messageFanControlLimited>
     <Common>
         <buttonClose>Dún</buttonClose>
         <buttonOK>Ceart go leor</buttonOK>

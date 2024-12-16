@@ -159,7 +159,7 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Gỡ cài đặt Macs Fan Control?</title>
-        <message>Bạn đang chuẩn bị gỡ cài đặt ứng dụng khỏi máy Mac của bạn bao gồm mục cài đặt, công cụ giúp đỡ và dữ liệu giấy phép cho phiên bản Pro. Tất cả sự sửa đổi đến điểu khiển mặc định của quạt sẽ được phục hồi và (các) quạt sẽ được điểu khiểu tự động bởi hệ thống. \n\nBạn có thể sẽ được hỏi để uỷ quyền ứng dụng để có thể tự gỡ cài đặt.   </message>
+        <message>Bạn đang chuẩn bị gỡ cài đặt ứng dụng khỏi máy Mac của bạn bao gồm mục cài đặt, công cụ giúp đỡ và dữ liệu giấy phép cho phiên bản Pro. Tất cả sự sửa đổi đến điểu khiển mặc định của quạt sẽ được phục hồi và (các) quạt sẽ được điểu khiểu tự động bởi hệ thống. \n\nBạn có thể sẽ được hỏi để uỷ quyền ứng dụng để có thể tự gỡ cài đặt.  </message>
         <authorizeText>Vui lòng uỷ quyền cho ứng dụng để có thể gỡ cài đặt công cụ giúp đỡ.</authorizeText>
         <buttonUninstall>Gỡ cài đặt</buttonUninstall>
     </UninstallDialog>

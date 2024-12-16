@@ -159,7 +159,7 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Odmesti Macs Fan Control?</title>
-        <message>Zdaj boste popolnoma odstranili aplikacijo iz svojega Maca, vključno z njenimi nastavitvami, orodjem za pomoč pri ventilatorju in podatki o licenci za Pro različico. Vse spremembe nastavitev privzetega upravljanja ventilatorjev bodo razveljavljene, ventilator(ji) pa bo(bodo) deloval(i) samodejno, kot jih upravlja sistem.    Morda boste morali dovoliti aplikaciji, da se lahko sama odstrani.</message>
+        <message>Zdaj boste popolnoma odstranili aplikacijo iz svojega Maca, vključno z njenimi nastavitvami, orodjem za pomoč pri ventilatorju in podatki o licenci za Pro različico. Vse spremembe nastavitev privzetega upravljanja ventilatorjev bodo razveljavljene, ventilator(ji) pa bo(bodo) deloval(i) samodejno, kot jih upravlja sistem.  Morda boste morali dovoliti aplikaciji, da se lahko sama odstrani.</message>
         <authorizeText>Prosim pooblastite aplikacijo, da lahko odmesti pomočnika.</authorizeText>
         <buttonUninstall>Odmesti</buttonUninstall>
     </UninstallDialog>
