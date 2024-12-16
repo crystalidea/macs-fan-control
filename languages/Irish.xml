@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.16" Author="CrystalIdea Team">
+<LanguageStrings version="1.5.16" Author="Aindriú Mac Giolla Eoin">
     <MainWindow>
         <staticSensorsListHeader>Braiteoirí teochta:</staticSensorsListHeader>
         <listColumnFan>Gaothrán</listColumnFan>
@@ -84,15 +84,15 @@
         <thanksInfo>Baineadh na teorainneacha go léir den leagan saor in aisce, tá súil againn go mbainfidh tú taitneamh as an aip a úsáid!</thanksInfo>
     </EnterLicenseDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
+        <trialVersion>Leagan trialach</trialVersion>
+        <message>Go raibh maith agat as triail a bhaint as $1</message>
         <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <timeLeftDays>Tá %1 lá fágtha agat de do thréimhse trialach.</timeLeftDays>
+        <timeLeftHours>Tá %1 uair fágtha agat de do thréimhse trialach.</timeLeftHours>
+        <trialOver>Tá triail %1 lá thart.</trialOver>
+        <buttonContinue>Leanúint ar aghaidh leis an Triail</buttonContinue>
+        <buttonActivate>Ceadúnas a ghníomhachtú</buttonActivate>
+        <buttonBuy>Ceannaigh Anois</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>Taispeáin Rialú Fan Macs</itemShow>
@@ -164,10 +164,10 @@
         <buttonUninstall>Dhíshuiteáil</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>Lucht leanúna díchumasaithe ag crua-earraí</title>
+        <message>Mar gheall ar theocht íseal, tá an tsamhail Mac seo tar éis an lucht leanúna a dhíchumasú go huathoibríoch. Tiocfaidh rialú lucht leanúna láimhe i bhfeidhm a luaithe a athghníomhóidh an córas iad, nuair a chinnfidh sé go bhfuil gá le fuarú.</message>
+        <checkDiscard>Ná taispeáin an teachtaireacht seo arís</checkDiscard>
+        <buttonMoreInfo>Tuilleadh eolais...</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>Dún</buttonClose>
