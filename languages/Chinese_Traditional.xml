@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.13" Author="Yi-Jyun Pan, Tenjin">
+<LanguageStrings version="1.5.18" Author="Yi-Jyun Pan, Tenjin">
     <MainWindow>
         <staticSensorsListHeader>溫度感測器清單：</staticSensorsListHeader>
         <listColumnFan>風扇</listColumnFan>
@@ -71,7 +71,7 @@
     </UpgradeToProDialog>
     <EnterLicenseDialog>
         <title>解鎖 Pro 版本</title>
-        <infoText>若您曾購買過 Macs Fan Control，請將電子收據中的電子信箱地址與授權碼輸入到下方欄位，即可完全解鎖 Mac Fan Control 中的所有的 Pro 功能。</infoText>
+        <infoText>若您曾購買過 Macs Fan Control，請將電子收據中的電子信箱地址與授權碼輸入到下方欄位，即可完全解鎖 Macs Fan Control 中的所有的 Pro 功能。</infoText>
         <licenseVerifyInfo>您輸入的資訊會經過網路驗證。</licenseVerifyInfo>
         <email>電子信箱地址</email>
         <licenseKey>授權碼</licenseKey>
@@ -84,15 +84,15 @@
         <thanksInfo>已經解除所有免費版本限制，我們誠摯希望您能享受這個 app！</thanksInfo>
     </EnterLicenseDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <trialVersion>試用版</trialVersion>
+        <message>感謝您試用 %1</message>
+        <messageSecondary>唯一能在 Windows 系統下控制 Intel 架構 Mac 電腦風扇的應用程式</messageSecondary>
+        <timeLeftDays>您的試用期還剩下 %1 天。</timeLeftDays>
+        <timeLeftHours>您的試用期還剩下 %1 個小時。</timeLeftHours>
+        <trialOver>%1 天的試用期已經結束。</trialOver>
+        <buttonContinue>繼續試用</buttonContinue>
+        <buttonActivate>啟用授權</buttonActivate>
+        <buttonBuy>立刻購買</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>顯示 Macs Fan Control</itemShow>
@@ -111,7 +111,7 @@
         <itemUpgradeToPro>升級到 Pro 版本</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>這會在桌面建立一個「%1」支援套件，裡面包含匿名的技術性資料和主視窗截圖。\n\n請將這個檔案傳到 support@crystalidea.com，或者是在我們的 GitHub Issue Tracker 回報問題。</message>
+        <message>這會在桌面建立一個「%1」支援套件，裡面包含匿名的技術性資料和主視窗截圖。\n\n請將這個檔案傳到 support@crystalidea.com，或者是在我們的 GitHub 問題追蹤器回報問題。</message>
         <browseButton>顯示 ZIP 檔案</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
@@ -164,10 +164,10 @@
         <buttonUninstall>解除安裝</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>風扇被硬體停用</title>
+        <message>由於溫度過低，本 Mac 機型已自動停用風扇。當系統判斷需要散熱而重新啟動風扇時，手動風扇控制功能才會生效。</message>
+        <checkDiscard>不要再次顯示這則訊息</checkDiscard>
+        <buttonMoreInfo>更多資訊⋯</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>關閉</buttonClose>
