@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.17" Author="Kyle Younge">
+    <MainWindow>
+        <staticSensorsListHeader>Temperatuursensors:</staticSensorsListHeader>
+        <listColumnFan>Waaiers</listColumnFan>
+        <listColumnRPM>Min/Aktueel/Max RPM</listColumnRPM>
+        <listColumnControl>Beheer</listColumnControl>
+        <listColumnSensor>Sensor</listColumnSensor>
+        <listColumnSensorValue>Waarde</listColumnSensorValue>
+        <listSeparatorDrives:>Skyfkykers:</listSeparatorDrives:>
+        <popupMenuItemControl>Verander beheer...</popupMenuItemControl>
+        <popupMenuItemReset>Herstel na outomatiese beheer</popupMenuItemReset>
+        <fanControlAutomatic>Outomaties</fanControlAutomatic>
+        <fanControlAutomaticInfo>Outomaties (beheer deur stelsel)</fanControlAutomaticInfo>
+        <fanControlConstant>Konstante waarde van %1</fanControlConstant>
+        <fanControlSensor>Gebaseer op %1</fanControlSensor>
+        <fanControlUnknown>Onbekend!</fanControlUnknown>
+        <buttonFanControlCustom>Aangepas...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Spesifiseer 'n aangepaste beheermodus</buttonFanControlCustomInfo>
+        <buttonMinimize>Minimaliseer</buttonMinimize>
+        <buttonMinimizeMac>Versteek na menubalk</buttonMinimizeMac>
+        <buttonPreferences>Voorkeure...</buttonPreferences>
+        <buttonAbout>Oor...</buttonAbout>
+        <messageHelperToolInstall>Macs Fan Control benodig 'n hulp-instrument om waaierbeheer moontlik te maak. Jy kan dit oorslaan as jy net waaiers en temperatuursensors wil monitor.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control moet 'n opgedateerde weergawe van die hulp-instrument installeer wat gebruik word vir waaierbeheer.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Waaierbeheer nie beskikbaar nie</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control kon nie aan die hulpprogram koppel om waaierbeheer in te skakel en spoed aan te pas nie. Maak seker jy voer die administrateurwagwoord in wanneer gevra.\n\nJy kan steeds die program in monitoringsmodus gebruik.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Slegs monitering</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Geen waaiers opgespoor nie, probeer asseblief om [die SMC te herstel](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>Hierdie rekenaar het geen waaiers nie en word passief gekoel</messageNoFansAvailable>
+    </MainWindow>
+    <FanControlDialog>
+        <title>Verander waaierbeheer vir die '%1' waaier</title>
+        <radioConstant>Konstante RPM-waarde</radioConstant>
+        <radioSensor>Sensor-gebaseerde waarde</radioSensor>
+        <staticIncrease>Temperatuur waarna die waaier spoed begin toeneem:</staticIncrease>
+        <staticMax>Maximale temperatuur:</staticMax>
+        <statusWarning>Iets is verkeerd - min/max waaierwaardes is gelyk (%1).&lt;br/&gt; Maak asseblief seker om enige ander waaierbeheersoftware te verwyder en die SMC te herstel.</statusWarning>
+        <saveToCurrentPreset>Stoor na huidige voorinstelling ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>Aktiewe voorinstelling:</activePresetLabel>
+        <presetAutomatic>Outomaties</presetAutomatic>
+        <presetFullBlast>Vol spoed</presetFullBlast>
+        <presetCurrentUnsaved>Aangepas*</presetCurrentUnsaved>
+        <presetMenuSave>Stoor...</presetMenuSave>
+        <presetMenuRename>Hernoem</presetMenuRename>
+        <presetMenuDelete>Verwyder</presetMenuDelete>
+        <presetMenuPredefined>Vooraf gedefinieerde voorinstellings:</presetMenuPredefined>
+        <presetMenuCustom>Aangepaste voorinstellings:</presetMenuCustom>
+        <presetMenuApply>Pas toe</presetMenuApply>
+        <presetMenuProVersion>Besikbaar in PRO-weergawe</presetMenuProVersion>
+        <presetMenuCurrent>Voorinstelling - %1</presetMenuCurrent>
+        <presetMenuDiscard>Verwerp (stel alle waaiers op outo)</presetMenuDiscard>
+        <labelPresetName>Voorinstelling naam:</labelPresetName>
+        <savePresetTitle>Stoor aangepaste voorinstelling</savePresetTitle>
+        <editPresetTitle>Wysig voorinstelling naam</editPresetTitle>
+        <presetCreateNew>Nuut...</presetCreateNew>
+        <presetCreateNewTitle>Skep 'n nuwe voorinstelling</presetCreateNewTitle>
+        <presetCreateNewMessage>Al jou waaiers word tans deur die stelsel beheer. \n\nVerander asseblief die beheer na Aangepas vir ten minste een waaier om 'n nuwe voorinstelling te skep.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Verander asseblief die beheer vir ten minste een waaier aangesien almal tans teen volle spoed draai, ooreenkomstig die bestaande '%1' voorinstelling.</presetCreateNewMessage2>
+        <presetCreateNewButton>Aangepaste beheer vir die '%1' waaier</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Opgradeer na Macs Fan Control Pro</title>
+        <proInfo1>Die Pro-weergawe kan aangepaste waaier-voorinstellings skep en stoor sodat jy vinnig kan wissel afhangende van jou aktiwiteit.</proInfo1>
+        <proInfo2>As jy die app reeds gekoop het, druk asseblief die 'Voer Lisensie In' knoppie hieronder.</proInfo2>
+        <buttonPurchase>Koop</buttonPurchase>
+        <buttonEnterLicense>Voer Lisensie In</buttonEnterLicense>
+        <buttonLater>Later</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Ontsluit Pro-weergawe</title>
+        <infoText>As jy Macs Fan Control reeds gekoop het, voer jou e-posadres en lisensiesleutel van jou e-poskwitansie hieronder in. Dit sal die Pro-funksies volledig ontsluit.</infoText>
+        <licenseVerifyInfo>Die ingevoerde inligting mag oor die Internet geverifieer word.</licenseVerifyInfo>
+        <email>E-posadres</email>
+        <licenseKey>Lisensiesleutel</licenseKey>
+        <buttonUnlock>Ontsluit</buttonUnlock>
+        <buttonRestoreLicense>Herstel Lisensie</buttonRestoreLicense>
+        <invalidLicenseTitle>Ongeldige lisensie!</invalidLicenseTitle>
+        <invalidLicenseText>Maak seker al letters, nommers en strepies is in die regte volgorde. As jy dit met die hand tik, probeer kopieer en plak dit van jou e-poskwitansie.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Hierdie lisensiesleutel is geldig, maar nie bedoel vir gebruik op %1 nie.</invalidLicenseMismatchOS>
+        <thanksTitle>Dankie dat jy Macs Fan Control Pro gekoop het</thanksTitle>
+        <thanksInfo>Alle beperkings van die gratis weergawe is verwyder, ons hoop jy geniet die gebruik van die app!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>Proefweergawe</trialVersion>
+        <message>Dankie dat jy %1 probeer</message>
+        <messageSecondary>Die enigste app wat waaiers op Intel-Macs in Windows kan beheer</messageSecondary>
+        <timeLeftDays>Jy het nog %1 dae van jou proefperiode oor.</timeLeftDays>
+        <timeLeftHours>Jy het nog %1 ure van jou proefperiode oor.</timeLeftHours>
+        <trialOver>Die %1 dae proefperiode is verby.</trialOver>
+        <buttonContinue>Gaan voort met proef</buttonContinue>
+        <buttonActivate>Aktiveer Lisensie</buttonActivate>
+        <buttonBuy>Koop Nou</buttonBuy>
+    </TrialDialog>
+    <TrayMenu>
+        <itemShow>Wys Macs Fan Control</itemShow>
+        <itemAvailableFans>Besikbare waaiers:</itemAvailableFans>
+        <itemFanPresets>Waaier voorinstellings:</itemFanPresets>
+        <itemMoreLinks>Meer</itemMoreLinks>
+        <itemWebsite>Webwerf</itemWebsite>
+        <itemCheckForUpdates>Kontroleer vir opdaterings...</itemCheckForUpdates>
+        <itemTechInfoZip>Skep tegniese zip-lêer...</itemTechInfoZip>
+        <itemRateApp>Grader die app op MacUpdate</itemRateApp>
+        <itemFollowTwitter>Volg @crystalidea</itemFollowTwitter>
+        <itemUninstall>Verwyder...</itemUninstall>
+        <itemExit>Verlaat</itemExit>
+        <itemExitMac>Sluit Macs Fan Control</itemExitMac>
+        <itemSensorBased>Sensor-gebaseer</itemSensorBased>
+        <itemUpgradeToPro>Opgradeer na Pro-weergawe</itemUpgradeToPro>
+    </TrayMenu>
+    <techInfoZipMessage>
+        <message>'n Ondersteuningspakket '%1', bestaande uit anonieme tegniese data en 'n skermskoot van die hoofvenster, is geskep op jou lessenaar.\n\nStuur asseblief hierdie lêer aan support@crystalidea.com of plaas dit by ons GitHub-kwesieopsporing.</message>
+        <browseButton>Wys zip-lêer</browseButton>
+    </techInfoZipMessage>
+    <PreferencesWindow>
+        <title>Voorkeure</title>
+        <TabGeneral>Algemeen</TabGeneral>
+        <tabTrayIcon>Tray-ikoon</tabTrayIcon>
+        <tabSensors>Sensors</tabSensors>
+        <tabTrayIconMac>Menubalk vertoning</tabTrayIconMac>
+        <tabDiagnostics>Diagnostiek</tabDiagnostics>
+        <staticLanguage>Taal:</staticLanguage>
+        <checkSystemStart>Begin geminimaliseer wanneer jy aanmeld (aanbeveel)</checkSystemStart>
+        <checkUpdatesOnStartup>Kontroleer vir opdaterings by opstart</checkUpdatesOnStartup>
+        <checkDockIcon>Wys ikoon in dok</checkDockIcon>
+        <checkFahrenheit>Gebruik Fahrenheit-temperatuurskaal</checkFahrenheit>
+        <checkPrecise>Presiese temperatuur vertoon waar moontlik (bv. 45.4)</checkPrecise>
+        <labelSensors>Lees temperature van</labelSensors>
+        <checkExternalGPU>eGPU's gekoppel via Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Gekoppelde SATA-skyfkykers</checkSATADrives>
+        <checkNVMeDrives>Gekoppelde NVMe-skyfkykers</checkNVMeDrives>
+        <staticSensor>Sensor:</staticSensor>
+        <staticFan>Waaiers:</staticFan>
+        <staticIcon>Ikoon:</staticIcon>
+        <comboIconOptionShow>Gekleurde</comboIconOptionShow>
+        <comboIconOptionShowBW>Monochroom</comboIconOptionShowBW>
+        <comboOptionNone>Geen</comboOptionNone>
+        <checkTwoLines>Vertoon waaier/sensor leeswaardes in twee lyne om spasie te bespaar</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Slegs Celsius)</staticCelsiusOnlyOnWindows>
+        <checkLog>Skakel logboek aan (herbegin nodig)</checkLog>
+        <browseLog>Blaai</browseLog>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Oor Macs Fan Control</title>
+        <staticTechnicalSupport>Tegniese ondersteuning op die forum</staticTechnicalSupport>
+        <staticOnlineHelp>Aanlyn hulp</staticOnlineHelp>
+        <staticFreeVersion>Gratis weergawe</staticFreeVersion>
+        <staticProVersion>Pro-weergawe, %1 rekenaar lisensie</staticProVersion>
+        <staticWarning>HIERDIE PROGRAM IS VIR GEAVANSEERDE GEBRUIKERS WAT WEET HOE OM DIT TE GEBRUIK SONDER BESERING AAN HUL MAC. DIE AUTEURS IS NIE AANSPREEKLIK VIR DATAVERLIES, SKADE, WINSVERLIES OF ENIGE ANDER VERLIESE WEENS GEBRUIK OF MISGEBRUIK VAN HIERDIE PROGRAM NIE</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>Grader die app op MacUpdate</message>
+        <informativeText>As jy daarvan hou om %1 te gebruik, kan jy asseblief 'n oomblik neem om dit te gradeer? Dit neem nie meer as 'n minuut nie. Dankie vir jou ondersteuning!</informativeText>
+        <buttonRate>Grader op MacUpdate</buttonRate>
+        <buttonNoThanks>Nee, dankie</buttonNoThanks>
+        <checkDontShowAgain>Moet hierdie boodskap nie weer wys nie</checkDontShowAgain>
+    </RateMeDialog>
+    <UninstallDialog>
+        <title>Verwyder Macs Fan Control?</title>
+        <message>Jy gaan die app heeltemal verwyder van jou Mac, insluitend voorkeure, die waaierhulp-instrument en lisensie-data vir die Pro-weergawe. Alle wysigings aan die standaard waaierbeheer sal herstel word en die waaiers sal outomaties deur die stelsel beheer word. \n\nJy mag gevra word om die app te magtig om homself te kan verwyder.</message>
+        <authorizeText>Gee asseblief toestemming vir die app om die waaierhulp-instrument te kan verwyder.</authorizeText>
+        <buttonUninstall>Verwyder</buttonUninstall>
+    </UninstallDialog>
+    <messageFanControlLimited>
+        <title>Waaiers gedeaktiveer deur hardeware</title>
+        <message>Vanweë lae temperature het hierdie Mac-model die waaiers outomaties gedeaktiveer. Handmatige waaierbeheer sal in werking tree sodra die stelsel hulle heraktiveer wanneer dit bepaal dat verkoeling nodig is.</message>
+        <checkDiscard>Moet hierdie boodskap nie weer wys nie</checkDiscard>
+        <buttonMoreInfo>Meer inligting...</buttonMoreInfo>
+    </messageFanControlLimited>
+    <Common>
+        <buttonClose>Sluit</buttonClose>
+        <buttonOK>OK</buttonOK>
+        <buttonCancel>Kanselleer</buttonCancel>
+        <buttonContinue>Gaan voort</buttonContinue>
+    </Common>
+</LanguageStrings>
