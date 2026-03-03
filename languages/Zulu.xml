@@ -121,7 +121,7 @@
         <staticFan>Isivunguvungu:</staticFan>
         <staticIcon>Isithonjana:</staticIcon>
         <comboIconOptionShow>Nemibala</comboIconOptionShow>
-        <comboIconOptionShowBW>Mnyama & Mhlophe</comboIconOptionShowBW>
+        <comboIconOptionShowBW>Mnyama &amp; Mhlophe</comboIconOptionShowBW>
         <comboOptionNone>Akukho</comboOptionNone>
         <checkTwoLines>Bonisa izifundo ze-fan/senzwa emigqeni emibili ukuze wonge indawo</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(Celsius kuphela)</staticCelsiusOnlyOnWindows>
