@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.5" Author="Rabota IT">
+<LanguageStrings version="1.5.20" Author="Rabota IT">
     <MainWindow>
         <staticSensorsListHeader>Temperatursensorer:</staticSensorsListHeader>
         <listColumnFan>Fläkt</listColumnFan>
