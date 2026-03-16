@@ -84,15 +84,15 @@
         <thanksInfo>Alla begränsningar i gratisversionen har tagits bort, vi hoppas att du gillar att använda programmet!</thanksInfo>
     </EnterLicenseDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <trialVersion>Prova på version</trialVersion>
+        <message>Tack för att du prövar %1</message>
+        <messageSecondary>Den enda appen som kan kontrollera fläktarna på Intel-baserade Macar i Windows</messageSecondary>
+        <timeLeftDays>Du har %1 dag(ar) återstående på din prövoperiod.</timeLeftDays>
+        <timeLeftHours>Du har %1 timme/timmar återstående på din prövoperiod.</timeLeftHours>
+        <trialOver>Prövoperioden på %1 dagar är över.</trialOver>
+        <buttonContinue>Fortsätt pröva</buttonContinue>
+        <buttonActivate>Aktivera licens</buttonActivate>
+        <buttonBuy>Köp nu</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>Öppna Macs Fan Control</itemShow>
@@ -101,7 +101,7 @@
         <itemMoreLinks>Mer</itemMoreLinks>
         <itemWebsite>Webbsida</itemWebsite>
         <itemCheckForUpdates>Leta efter uppdateringar...</itemCheckForUpdates>
-        <itemTechInfoZip>Skapa zip fil för support...</itemTechInfoZip>
+        <itemTechInfoZip>Skapa zip-fil för support...</itemTechInfoZip>
         <itemRateApp>Betygsätt på MacUpdate</itemRateApp>
         <itemFollowTwitter>Följ @crystalidea</itemFollowTwitter>
         <itemUninstall>Avinstallera...</itemUninstall>
@@ -112,7 +112,7 @@
     </TrayMenu>
     <techInfoZipMessage>
         <message>Ett supportpaket '%1' bestående av anonym teknisk data och en skärmavbild av huvudfönstret skapas på ditt skrivbord.\n\nVar god skicka denna fil till support@crystalidea.com eller posta den i vår ärendehanterare på GitHub.</message>
-        <browseButton>Visa zip fil</browseButton>
+        <browseButton>Visa zip-fil</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Inställningar</title>
@@ -164,10 +164,10 @@
         <buttonUninstall>Avinstallera</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>Fläk(ar) avstängda av hårdvara</title>
+        <message>P.g.a. låga temperaturer har denna Mac modell automatiskt stängt av fläkten/fläktarna. Manuell fläktstyrning kommer att fungera igen så fort systemet aktiverar fläkten/fläktarna igen, när den bestämmer att kylning är nödvändigt.</message>
+        <checkDiscard>Visa inte detta meddelande igen</checkDiscard>
+        <buttonMoreInfo>Mer info...</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>Stäng</buttonClose>
