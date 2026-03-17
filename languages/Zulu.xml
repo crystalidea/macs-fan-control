@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.17" Author="Kyle Younge">
+    <MainWindow>
+        <staticSensorsListHeader>Izizweli zokushisa (Temperature sensors):</staticSensorsListHeader>
+        <listColumnFan>Isivunguvungu</listColumnFan>
+        <listColumnRPM>Min/Okukhona/Max RPM</listColumnRPM>
+        <listColumnControl>Ukulawula</listColumnControl>
+        <listColumnSensor>Isenzwa</listColumnSensor>
+        <listColumnSensorValue>Inani</listColumnSensorValue>
+        <listSeparatorDrives>Amadrayivu eDiski:</listSeparatorDrives>
+        <popupMenuItemControl>Shintsha ukulawula...</popupMenuItemControl>
+        <popupMenuItemReset>Setha kabusha ukulawula ngokuzenzakalayo</popupMenuItemReset>
+        <fanControlAutomatic>Auto</fanControlAutomatic>
+        <fanControlAutomaticInfo>Okuzenzakalelayo (kulawulwa uhlelo)</fanControlAutomaticInfo>
+        <fanControlConstant>Inani elizinzile le %1</fanControlConstant>
+        <fanControlSensor>Kusekelwe ku %1</fanControlSensor>
+        <fanControlUnknown>Akaziwa!</fanControlUnknown>
+        <buttonFanControlCustom>Yenza ngokwakho...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>Cacisa indlela yokulawula oyifunayo</buttonFanControlCustomInfo>
+        <buttonMinimizeNciphisa>Nciphisa</buttonMinimizeNciphisa>
+        <buttonMinimizeMacFihla>Fihla ebha yemenyu</buttonMinimizeMacFihla>
+        <buttonPreferences>Izintandokazi...</buttonPreferences>
+        <buttonAbout>Mayelana...</buttonAbout>
+        <messageHelperToolInstall>Ukulawula ama-Fan kwe-Macs kudinga ithuluzi losizo lifakwe. Ungagxila kuphela ekubhekeni ama-fan nezizweli zokushisa uma ufuna kuphela ukubuka.</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control idinga ukufaka inguqulo entsha yethuluzi losizo lokulawula ama-fan.</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>Ukulawula ama-fan akutholakali</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control ayikwazanga ukuxhuma kuhlelo losizo ukuze ikwazi ukulawula ama-fan nokulungisa izivinini. Qiniseka ukufaka iphasiwedi yomlawuli lapho kucelwa.\n\nUsengasebenzisa uhlelo ngendlela yokubuka kuphela.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>Ukubuka kuphela</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>Azikho izivunguvungu ezitholiwe, zama [ukusetha kabusha i-SMC](https://support.apple.com/en-us/HT201295)</messageNoFansDetected>
+        <messageNoFansAvailable>Lena i-computer ayinazo izivunguvungu futhi ipholiswa ngokwemvelo</messageNoFansAvailable>
+    </MainWindow>
+
+    <FanControlDialog>
+        <title>Shintsha ukulawula i-fan '%1'</title>
+        <radioConstant>Inani le-RPM elizinzile</radioConstant>
+        <radioSensor>Inani elisekelwe ku-senzwa</radioSensor>
+        <staticIncrease>Izinga lokushisa lapho isivinini se-fan sizoqala ukukhuphuka:</staticIncrease>
+        <staticMax>Izinga lokushisa eliphezulu:</staticMax>
+        <statusWarning>Kukhona okungahambi kahle - amanani we-fan min/max alingana (%1).&lt;br/&gt; Qiniseka ukuthi ususa noma yiluphi uhlelo oluphatha ama-fan bese usetha kabusha i-SMC.</statusWarning>
+        <saveToCurrentPreset>Londoloza kumphumela wamanje ('%1')</saveToCurrentPreset>
+    </FanControlDialog>
+
+    <Presets>
+        <activePresetLabel>Umphumela osebenzayo:</activePresetLabel>
+        <presetAutomatic>Okuzenzakalelayo</presetAutomatic>
+        <presetFullBlast>Kugcwele amandla</presetFullBlast>
+        <presetCurrentUnsaved>Yenza ngokwakho*</presetCurrentUnsaved>
+        <presetMenuSave>Londoloza...</presetMenuSave>
+        <presetMenuRename>Shintsha igama</presetMenuRename>
+        <presetMenuDelete>Susa</presetMenuDelete>
+        <presetMenuPredefined>Imiphumela esethwe ngaphambilini:</presetMenuPredefined>
+        <presetMenuCustom>Imiphumela eyenziwe ngokwakho:</presetMenuCustom>
+        <presetMenuApply>Faka</presetMenuApply>
+        <presetMenuProVersion>Iyatholakala ku-PRO version</presetMenuProVersion>
+        <presetMenuCurrent>Umphumela - %1</presetMenuCurrent>
+        <presetMenuDiscard>Shiya (beka ama-fan wonke ku-auto)</presetMenuDiscard>
+        <labelPresetName>Igama lomphumela:</labelPresetName>
+        <savePresetTitle>Londoloza umphumela owenzile</savePresetTitle>
+        <editPresetTitle>Hlela igama lomphumela</editPresetTitle>
+        <presetCreateNew>Okusha...</presetCreateNew>
+        <presetCreateNewTitle>Dala umphumela omusha</presetCreateNewTitle>
+        <presetCreateNewMessage>Onke ama-fan akho alawulwa uhlelo njengamanje.\n\nSicela ushintshe ukulawula kube ngokwakho okungenani ku-fan eyodwa ukuze ukwazi ukudala umphumela omusha.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Sicela ushintshe ukulawula okungenani ku-fan eyodwa njengoba wonke ama-fan eshaya ngokuphelele njengamanje, ehambisana nomphumela '%1' osekhona.</presetCreateNewMessage2>
+        <presetCreateNewButton>Ukulawula ngokwakho kwe-fan '%1'</presetCreateNewButton>
+    </Presets>
+
+    <UpgradeToProDialog>
+        <title>Thuthukisa ku-Macs Fan Control Pro</title>
+        <proInfo1>Inguqulo ye-Pro ikwazi ukudala nokulondoloza imiphumela ye-fan ngokwezifiso ukuze ushintshe ngokushesha kuye ngomsebenzi wakho.</proInfo1>
+        <proInfo2>Uma usuvele uthenge uhlelo, sicela cindezela inkinobho 'Faka i-License' ngezansi.</proInfo2>
+        <buttonPurchase>Thenga</buttonPurchase>
+        <buttonEnterLicense>Faka i-License</buttonEnterLicense>
+        <buttonLater>Ngemuva</buttonLater>
+    </UpgradeToProDialog>
+
+    <EnterLicenseDialog>
+        <title>Vula inguqulo ye-Pro</title>
+        <infoText>Uma usuvele uthenge Macs Fan Control, faka ikheli lakho le-imeyili kanye ne-License key evela ku-receipt yakho ye-imeyili. Lokhu kuzovula ngokuphelele izici ze-Pro ze-Macs Fan Control.</infoText>
+        <licenseVerifyInfo>Ulwazi olufakayo lungaqinisekiswa nge-Internet.</licenseVerifyInfo>
+        <email>Ikheli le-imeyili</email>
+        <licenseKey>i-License Key</licenseKey>
+        <buttonUnlock>Vula</buttonUnlock>
+        <buttonRestoreLicense>Buyisela i-License</buttonRestoreLicense>
+        <invalidLicenseTitle>i-License Ayivumelekile!</invalidLicenseTitle>
+        <invalidLicenseText>Qiniseka ukuthi zonke izinhlamvu, izinombolo, nama-dashes afakiwe ngendlela efanele. Uma uthayipha ngesandla, zama ukukopisha nokunamathisela ku-receipt yakho ye-imeyili.</invalidLicenseText>
+        <invalidLicenseMismatchOS>Le License key ivumelekile kodwa ayihloselwe ukusetshenziswa ku %1.</invalidLicenseMismatchOS>
+        <thanksTitle>Ngiyabonga ngokuthenga Macs Fan Control Pro</thanksTitle>
+        <thanksInfo>Zonke izithiyo zenguqulo yamahhala sezisusiwe, sithemba ukuthi uyayijabulela!</thanksInfo>
+    </EnterLicenseDialog>
+
+    <TrialDialog>
+        <trialVersion>Inguqulo yesilingo</trialVersion>
+        <message>Ngiyabonga ngokuzama %1</message>
+        <messageSecondary>Uhlelo kuphela olungalawula ama-fan kuma-Intel Macs ngaphansi kwe-Windows</messageSecondary>
+        <timeLeftDays KuseleIzinsuku>You have %1 days remaining of your trial period.</timeLeftDays>
+        <timeLeftHours KuseleAmahora>You have %1 hours remaining of your trial period.</timeLeftHours>
+        <trialOver>Isikhathi sesilingo se-%1 sesiphelile.</trialOver>
+        <buttonContinue>Qhubeka nesilingo</buttonContinue>
+        <buttonActivate>Vula i-License</buttonActivate>
+        <buttonBuy>Thenga Manje</buttonBuy>
+    </TrialDialog>
+
+    <PreferencesWindow>
+        <title>Izintandokazi (Options)</title>
+        <TabGeneral>Okuvamile</TabGeneral>
+        <tabTrayIcon>Isithonjana se-Tray</tabTrayIcon>
+        <tabSensors>Izizweli</tabSensors>
+        <tabTrayIconMac>Bonisa ku-Menu bar</tabTrayIconMac>
+        <tabDiagnostics>Ukuhlola</tabDiagnostics>
+        <staticLanguage>Language (Ulimi):</staticLanguage>
+        <checkSystemStart>Qalisa ngokuzenzakalelayo unciphise uma ungene (kuyelulekwa)</checkSystemStart>
+        <checkUpdatesOnStartup>Bheka izibuyekezo ekuqaleni kohlelo</checkUpdatesOnStartup>
+        <checkDockIcon>Bonisa isithonjana ku-dock</checkDockIcon>
+        <checkFahrenheit>Sebenzisa izinga lokushisa le-Fahrenheit</checkFahrenheit>
+        <checkPrecise>Khombisa izinga lokushisa ngokunembile lapho kungenzeka (isib. 45.4)</checkPrecise>
+        <labelSensors>Funda izinga lokushisa le</labelSensors>
+        <checkExternalGPU>eGPU exhunywe nge-Thunderbolt</checkExternalGPU>
+        <checkSATADrives>Amadrayivu e-SATA axhunyiwe</checkSATADrives>
+        <checkNVMeDrives>Amadrayivu e-NVMe axhunyiwe</checkNVMeDrives>
+        <staticSensor>Isenzwa:</staticSensor>
+        <staticFan>Isivunguvungu:</staticFan>
+        <staticIcon>Isithonjana:</staticIcon>
+        <comboIconOptionShow>Nemibala</comboIconOptionShow>
+        <comboIconOptionShowBW>Mnyama &amp; Mhlophe</comboIconOptionShowBW>
+        <comboOptionNone>Akukho</comboOptionNone>
+        <checkTwoLines>Bonisa izifundo ze-fan/senzwa emigqeni emibili ukuze wonge indawo</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(Celsius kuphela)</staticCelsiusOnlyOnWindows>
+        <checkLog>Vula i-log (kudinga ukuqala kabusha)</checkLog>
+        <browseLog>Buka</browseLog>
+    </PreferencesWindow>
+</LanguageStrings>
