@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.17" Author="Mladen Nikolov">
+<LanguageStrings version="1.5.18" Author="Mladen Nikolov">
     <MainWindow>
         <staticSensorsListHeader>Сензори за температура:</staticSensorsListHeader>
         <listColumnFan>Вентилатор</listColumnFan>
@@ -54,7 +54,7 @@
         <presetMenuDiscard>Откажи (връщане на всички вентилатори на автоматичен режим)</presetMenuDiscard>
         <labelPresetName>Име на конфигурацията:</labelPresetName>
         <savePresetTitle>Запази персонализирана конфигурация</savePresetTitle>
-        <editPresetTitle>Преименувай  конфигурацията</editPresetTitle>
+        <editPresetTitle>Преименувай конфигурацията</editPresetTitle>
         <presetCreateNew>Нова...</presetCreateNew>
         <presetCreateNewTitle>Създай нова конфигурация</presetCreateNewTitle>
         <presetCreateNewMessage>В момента всички вентилатори се контролират от системата. \n\nМоля сменете управлението на персонализиран за поне един от вентилаторите, за да създадете нова конфигурация.</presetCreateNewMessage>
@@ -129,8 +129,8 @@
         <checkPrecise>Точно показване на температурата, когато е възможно (напр. 45.4)</checkPrecise>
         <labelSensors>Отчети температурите от</labelSensors>
         <checkExternalGPU>eGPU-та свързани чрез Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Свързани SATA дискове</checkSATADrives>
-        <checkNVMeDrives>Свързани NVMe дискове</checkNVMeDrives>
+        <checkDrives>Свързани NVMe/SATA дискове</checkDrives>
+        <checkDrivesExternal>Включително външни дискове</checkDrivesExternal>
         <staticSensor>Сензор:</staticSensor>
         <staticFan>Вентилатор:</staticFan>
         <staticIcon>Икона:</staticIcon>
