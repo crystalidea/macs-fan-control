@@ -115,8 +115,8 @@
         <checkPrecise>Exakt visning av temperatur om möjligt (ex 45,4)</checkPrecise>
         <labelSensors>Läs temperaturer från</labelSensors>
         <checkExternalGPU>eGPU:er anslutna via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Anslutna SATA enheter</checkSATADrives>
-        <checkNVMeDrives>Anslutna NVMe enheter</checkNVMeDrives>
+        <checkDrives>Anslutna NVMe/SATA enheter</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Fläkt:</staticFan>
         <staticIcon>Ikon:</staticIcon>

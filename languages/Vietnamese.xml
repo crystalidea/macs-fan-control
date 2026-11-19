@@ -115,7 +115,7 @@
         <checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (vd. 45.4)</checkPrecise>
         <labelSensors>Đọc chỉ số nhiệt của</labelSensors>
         <checkExternalGPU>eGPUs đã kết nối qua Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Ổ NVMe/SATA đã kết nối</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Cảm biến:</staticSensor>
         <staticFan>Quạt:</staticFan>

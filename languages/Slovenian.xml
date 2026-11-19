@@ -115,7 +115,7 @@
         <checkPrecise>Natančen prikaz temperature, ko je to mogoče (npr. 45,4)</checkPrecise>
         <labelSensors>Beri temperature od</labelSensors>
         <checkExternalGPU>eGPUs povezani preko Thunderbolt povezave</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Povezani NVMe/SATA diski</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilator:</staticFan>

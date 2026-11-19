@@ -115,7 +115,7 @@
         <checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
         <labelSensors>Načíst teploty z</labelSensors>
         <checkExternalGPU>eGPU připojené přes Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Připojených NVMe/SATA disků</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilátor:</staticFan>

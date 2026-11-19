@@ -115,7 +115,7 @@
         <checkPrecise>Geef temperatuur op één decimaal nauwkeurig (bijv. 45,4) weer (indien mogelijk)</checkPrecise>
         <labelSensors>Toon temperatuur van</labelSensors>
         <checkExternalGPU>Via Thunderbolt verbonden GPU’s</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Verbonden NVMe/SATA-schijven</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilator:</staticFan>

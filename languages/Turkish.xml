@@ -115,7 +115,7 @@
         <checkPrecise>Mümkün olduğunda sıcaklığın hassas değerini göster (örn 45.4)</checkPrecise>
         <labelSensors>Sıcaklıklarını oku</labelSensors>
         <checkExternalGPU>Thunderbolt ile bağlı eGPU</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Bağlı NVMe/SATA sürücüleri</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensör:</staticSensor>
         <staticFan>Fan:</staticFan>

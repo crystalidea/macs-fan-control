@@ -115,7 +115,7 @@
         <checkPrecise>ტემპერატურის უფრო ზუსტი ჩვენება (მეათედებამდე)</checkPrecise>
         <labelSensors>ტემპერატურის ჩვენება</labelSensors>
         <checkExternalGPU>დაკავშირებული გარე ვიდეო დაფების</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>დაკავშირებული NVMe/SATA დისკების</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>სენსორი:</staticSensor>
         <staticFan>ვენტილატორი:</staticFan>

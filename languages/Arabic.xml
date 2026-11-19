@@ -115,7 +115,7 @@
         <checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
         <labelSensors>اقرأ درجات حرارة</labelSensors>
         <checkExternalGPU>eGPUs متصلة عبر Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>محركات أقراص NVMe/SATA المتصلة</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>الحساس:</staticSensor>
         <staticFan>المروحه:</staticFan>

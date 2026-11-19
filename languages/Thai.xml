@@ -115,7 +115,7 @@
         <checkPrecise>แสดงค่าแบบแม่นยำ เมื่อสามารถทำได้ (เช่น 45.4)</checkPrecise>
         <labelSensors>อ่างค่าอุณหภูมิของ</labelSensors>
         <checkExternalGPU>eGPUs เมื่อเชื่อมต่อผ่าน Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>เชื่อต่อกับไดรฟ์ NVMe/SATA</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>เซ็นเซอร์:</staticSensor>
         <staticFan>พัดลม:</staticFan>

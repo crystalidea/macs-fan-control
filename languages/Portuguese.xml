@@ -115,7 +115,7 @@
         <checkPrecise>Mostrar valores de temperatura mais exatos (quando possível)</checkPrecise>
         <labelSensors>Ler temperaturas de:</labelSensors>
         <checkExternalGPU>eGPUs ligadas por Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Drives NVMe/SATA ligadas</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventoinha:</staticFan>

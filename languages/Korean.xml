@@ -115,8 +115,8 @@
         <checkPrecise>온도를 정확하게 표시 (예 45.4)</checkPrecise>
         <labelSensors>다음으로부터 온도 불러오기</labelSensors>
         <checkExternalGPU>ThunderBolt로 연결된 eGPU</checkExternalGPU>
-        <checkSATADrives>연결된 SATA 드라이브</checkSATADrives>
-        <checkNVMeDrives>연결된 NVMe 드라이브</checkNVMeDrives>
+        <checkDrives>연결된 NVMe/SATA 드라이브</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>센서:</staticSensor>
         <staticFan>팬:</staticFan>
         <staticIcon>아이콘:</staticIcon>

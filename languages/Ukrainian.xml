@@ -115,7 +115,7 @@
         <checkPrecise>Точніше відображення температури (до десятих)</checkPrecise>
         <labelSensors>Зчитувати температури</labelSensors>
         <checkExternalGPU>eGPU, що підключені через Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Підключених дисків NVMe/SATA</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Датчик:</staticSensor>
         <staticFan>Вентилятор:</staticFan>

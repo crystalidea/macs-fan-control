@@ -115,7 +115,7 @@
         <checkPrecise>Taispeáint beacht na teochta nuair is féidir (m.sh. 45.4)</checkPrecise>
         <labelSensors>Léigh teochtaí de</labelSensors>
         <checkExternalGPU>eGPUs nasctha trí Thunderbolt</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Tiomántáin NVMe/SATA nasctha</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Braiteoir:</staticSensor>
         <staticFan>Gaothrán:</staticFan>

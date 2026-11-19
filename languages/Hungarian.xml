@@ -115,7 +115,7 @@
         <checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl. 45.4)</checkPrecise>
         <labelSensors>Hőmérséklet érzékelése:</labelSensors>
         <checkExternalGPU>Thunderbolton keresztül csatlakoztatott eGPU-k</checkExternalGPU>
-        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrives>Csatlakoztatott NVMe/SATA meghajtók</checkDrives>
         <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Érzékelő:</staticSensor>
         <staticFan>Ventilátor:</staticFan>

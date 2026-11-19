@@ -115,8 +115,8 @@
         <checkPrecise>盡量顯示精確溫度（比如 45.4）</checkPrecise>
         <labelSensors>溫度讀取來源</labelSensors>
         <checkExternalGPU>透過 Thunderbolt 連接的 eGPU</checkExternalGPU>
-        <checkSATADrives>連接的 SATA 磁碟</checkSATADrives>
-        <checkNVMeDrives>連接的 NVMe 磁碟</checkNVMeDrives>
+        <checkDrives>連接的 NVMe/SATA 磁碟</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>感測器：</staticSensor>
         <staticFan>風扇：</staticFan>
         <staticIcon>圖示：</staticIcon>
