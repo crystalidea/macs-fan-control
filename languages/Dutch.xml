@@ -69,20 +69,6 @@
         <buttonEnterLicense>Voer licentie in</buttonEnterLicense>
         <buttonLater>Niet nu</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Ontgrendel Pro-versie</title>
-        <infoText>Als u Macs Fan Control al heeft aangeschaft, voert u uw e-mailadres en de licentiesleutel uit de e-mailbevestiging in de onderstaande velden in. Hiermee worden de Pro-functies van Macs Fan Control volledig ontgrendeld.</infoText>
-        <licenseVerifyInfo>De informatie die u invoert, kan worden geverifieerd via internet.</licenseVerifyInfo>
-        <email>E-mailadres</email>
-        <licenseKey>Licentiesleutel</licenseKey>
-        <buttonUnlock>Ontgrendel</buttonUnlock>
-        <buttonRestoreLicense>Herstel licentie</buttonRestoreLicense>
-        <invalidLicenseTitle>Ongeldige licentie</invalidLicenseTitle>
-        <invalidLicenseText>Zorg ervoor dat alle letters, cijfers en streepjes in de juiste volgorde zijn ingevoerd. Als u het nummer met de hand typt, probeert u het dan te kopiëren en plakken vanuit de e-mailbevestiging.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Deze licentiesleutel is geldig, maar niet bedoeld voor gebruik op %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Bedankt voor uw aankoop van Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Alle beperkingen van de gratis versie zijn verwijderd. Veel plezier met het programma!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Geef temperatuur op één decimaal nauwkeurig (bijv. 45,4) weer (indien mogelijk)</checkPrecise>
         <labelSensors>Toon temperatuur van</labelSensors>
         <checkExternalGPU>Via Thunderbolt verbonden GPU’s</checkExternalGPU>
-        <checkSATADrives>Verbonden SATA-schijven</checkSATADrives>
-        <checkNVMeDrives>Verbonden NVMe-schijven</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilator:</staticFan>
         <staticIcon>Pictogram:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Ja</buttonYes>
             <buttonNo>Nee</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Ontgrendel Pro-versie</title>
+            <infoText>Voer het e-mailadres waarmee u %1 heeft aangeschaft en de licentiesleutel uit uw aankoopbevestiging in om alle Pro-functies te ontgrendelen.</infoText>
+            <licenseVerifyInfo>De informatie die u invoert, kan worden geverifieerd via internet.</licenseVerifyInfo>
+            <email>E-mailadres</email>
+            <licenseKey>Licentiesleutel</licenseKey>
+            <buttonUnlock>Ontgrendel</buttonUnlock>
+            <buttonRestoreLicense>Herstel licentie</buttonRestoreLicense>
+            <invalidLicenseTitle>Ongeldige licentie</invalidLicenseTitle>
+            <invalidLicenseText>Zorg ervoor dat alle letters, cijfers en streepjes in de juiste volgorde zijn ingevoerd. Als u het nummer met de hand typt, probeert u het dan te kopiëren en plakken vanuit de e-mailbevestiging.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Deze licentiesleutel is geldig, maar niet bedoeld voor gebruik op %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Bedankt voor uw aankoop van %1 Pro</thanksTitle>
+            <thanksInfo>Alle beperkingen van de gratis versie zijn verwijderd. Veel plezier met het programma!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>Nhập giấy phép</buttonEnterLicense>
         <buttonLater>Để sau</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Mở khoá phiên bản Pro</title>
-        <infoText>Nếu bạn đã mua Macs Fan Control, hãy nhập địa chỉ email và mã giấy phép từ hoá đơn trong email của bạn vào hộp dưới đây. Việc này sẽ mở khoá toàn bộ chức năng của Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Thông tin bạn nhập có thể được xác nhận qua Internet.</licenseVerifyInfo>
-        <email>Địa chỉ Email</email>
-        <licenseKey>Mã giấy phép</licenseKey>
-        <buttonUnlock>Mở khoá</buttonUnlock>
-        <buttonRestoreLicense>Phục hồi Giấy phép</buttonRestoreLicense>
-        <invalidLicenseTitle>Giấy phép không hợp lệ!</invalidLicenseTitle>
-        <invalidLicenseText>Chắc chắn rằng tất cả chữ, số và dấu gạch ngang đã nhập theo đúng thứ tự. Nếu bạn đang cố nhập số bằng tay, hãy thử sao chép và dán nó từ trong hoá đơn email của bạn.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Giấy phép này hợp lệ nhưng không phù hợp để dùng trên %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Cảm ơn bạn đã mua Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Tất cả giới hạn của Phiên bản miễn phí đã được gỡ bỏ, chúng tôi mong bạn sẽ thích sử dụng ứng dụng này!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Hiện phần thập phân của nhiệt độ khi có thể (vd. 45.4)</checkPrecise>
         <labelSensors>Đọc chỉ số nhiệt của</labelSensors>
         <checkExternalGPU>eGPUs đã kết nối qua Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Ổ SATA đã kết nối</checkSATADrives>
-        <checkNVMeDrives>Ổ NVMe đã kết nối</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Cảm biến:</staticSensor>
         <staticFan>Quạt:</staticFan>
         <staticIcon>Biểu tượng:</staticIcon>
@@ -159,7 +145,7 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Gỡ cài đặt Macs Fan Control?</title>
-        <message>Bạn đang chuẩn bị gỡ cài đặt ứng dụng khỏi máy Mac của bạn bao gồm mục cài đặt, công cụ giúp đỡ và dữ liệu giấy phép cho phiên bản Pro. Tất cả sự sửa đổi đến điểu khiển mặc định của quạt sẽ được phục hồi và (các) quạt sẽ được điểu khiểu tự động bởi hệ thống. \n\nBạn có thể sẽ được hỏi để uỷ quyền ứng dụng để có thể tự gỡ cài đặt.  </message>
+        <message>Bạn đang chuẩn bị gỡ cài đặt ứng dụng khỏi máy Mac của bạn bao gồm mục cài đặt, công cụ giúp đỡ và dữ liệu giấy phép cho phiên bản Pro. Tất cả sự sửa đổi đến điểu khiển mặc định của quạt sẽ được phục hồi và (các) quạt sẽ được điểu khiểu tự động bởi hệ thống. \n\nBạn có thể sẽ được hỏi để uỷ quyền ứng dụng để có thể tự gỡ cài đặt. </message>
         <authorizeText>Vui lòng uỷ quyền cho ứng dụng để có thể gỡ cài đặt công cụ giúp đỡ.</authorizeText>
         <buttonUninstall>Gỡ cài đặt</buttonUninstall>
     </UninstallDialog>
@@ -229,5 +215,19 @@
             <buttonYes>Có</buttonYes>
             <buttonNo>Không</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Mở khoá phiên bản Pro</title>
+            <infoText>Hãy nhập địa chỉ email bạn đã dùng khi mua %1 và mã giấy phép trong hoá đơn để mở khoá toàn bộ chức năng Pro.</infoText>
+            <licenseVerifyInfo>Thông tin bạn nhập có thể được xác nhận qua Internet.</licenseVerifyInfo>
+            <email>Địa chỉ Email</email>
+            <licenseKey>Mã giấy phép</licenseKey>
+            <buttonUnlock>Mở khoá</buttonUnlock>
+            <buttonRestoreLicense>Phục hồi Giấy phép</buttonRestoreLicense>
+            <invalidLicenseTitle>Giấy phép không hợp lệ!</invalidLicenseTitle>
+            <invalidLicenseText>Chắc chắn rằng tất cả chữ, số và dấu gạch ngang đã nhập theo đúng thứ tự. Nếu bạn đang cố nhập số bằng tay, hãy thử sao chép và dán nó từ trong hoá đơn email của bạn.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Giấy phép này hợp lệ nhưng không phù hợp để dùng trên %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Cảm ơn bạn đã mua %1 Pro</thanksTitle>
+            <thanksInfo>Tất cả giới hạn của Phiên bản miễn phí đã được gỡ bỏ, chúng tôi mong bạn sẽ thích sử dụng ứng dụng này!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>Vnesi licenco</buttonEnterLicense>
         <buttonLater>Kasneje</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Odkleni Pro različico</title>
-        <infoText>Če ste Macs Fan Control že kupili, vnesite svojo elektronsko pošto in licenčni ključ, ki ste ga prejeli na računu, v polji spodaj. S tem boste odklenili Pro možnosti aplikacije Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Vnešeni podatki so lahko preverjeni preko interneta.</licenseVerifyInfo>
-        <email>Elektronska pošta</email>
-        <licenseKey>Licenčni ključ</licenseKey>
-        <buttonUnlock>Odkleni</buttonUnlock>
-        <buttonRestoreLicense>Obnovi licenco</buttonRestoreLicense>
-        <invalidLicenseTitle>Napačen licenčni ključ!</invalidLicenseTitle>
-        <invalidLicenseText>Prepričajte se, da so vse črke, številke in pomišljaji vnešeni v pravilnem zaporedju. Če ključ pretipkavate, ga poskusite kopirati z računa, ki ste ga prejeli na elektronsko pošto, in prilepiti.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Licenčni ključ je veljaven, a ni namenjen za uporabo v okviru %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Zahvaljujemo se Vam za nakup Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Vse omejitve brezplačne različice so bile odstranjene. Upamo, da boste uživali ob uporabi!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Natančen prikaz temperature, ko je to mogoče (npr. 45,4)</checkPrecise>
         <labelSensors>Beri temperature od</labelSensors>
         <checkExternalGPU>eGPUs povezani preko Thunderbolt povezave</checkExternalGPU>
-        <checkSATADrives>Povezani SATA diski</checkSATADrives>
-        <checkNVMeDrives>Povezani NVMe diski</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilator:</staticFan>
         <staticIcon>Ikona:</staticIcon>
@@ -159,7 +145,7 @@
     </RateMeDialog>
     <UninstallDialog>
         <title>Odmesti Macs Fan Control?</title>
-        <message>Zdaj boste popolnoma odstranili aplikacijo iz svojega Maca, vključno z njenimi nastavitvami, orodjem za pomoč pri ventilatorju in podatki o licenci za Pro različico. Vse spremembe nastavitev privzetega upravljanja ventilatorjev bodo razveljavljene, ventilator(ji) pa bo(bodo) deloval(i) samodejno, kot jih upravlja sistem.  Morda boste morali dovoliti aplikaciji, da se lahko sama odstrani.</message>
+        <message>Zdaj boste popolnoma odstranili aplikacijo iz svojega Maca, vključno z njenimi nastavitvami, orodjem za pomoč pri ventilatorju in podatki o licenci za Pro različico. Vse spremembe nastavitev privzetega upravljanja ventilatorjev bodo razveljavljene, ventilator(ji) pa bo(bodo) deloval(i) samodejno, kot jih upravlja sistem. Morda boste morali dovoliti aplikaciji, da se lahko sama odstrani.</message>
         <authorizeText>Prosim pooblastite aplikacijo, da lahko odmesti pomočnika.</authorizeText>
         <buttonUninstall>Odmesti</buttonUninstall>
     </UninstallDialog>
@@ -229,5 +215,19 @@
             <buttonYes>Da</buttonYes>
             <buttonNo>Ne</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Odkleni Pro različico</title>
+            <infoText>Vnesite naslov elektronske pošte, ki ste ga uporabili pri nakupu aplikacije %1, in licenčni ključ z računa, da odklenete vse Pro možnosti.</infoText>
+            <licenseVerifyInfo>Vnešeni podatki so lahko preverjeni preko interneta.</licenseVerifyInfo>
+            <email>Elektronska pošta</email>
+            <licenseKey>Licenčni ključ</licenseKey>
+            <buttonUnlock>Odkleni</buttonUnlock>
+            <buttonRestoreLicense>Obnovi licenco</buttonRestoreLicense>
+            <invalidLicenseTitle>Napačen licenčni ključ!</invalidLicenseTitle>
+            <invalidLicenseText>Prepričajte se, da so vse črke, številke in pomišljaji vnešeni v pravilnem zaporedju. Če ključ pretipkavate, ga poskusite kopirati z računa, ki ste ga prejeli na elektronsko pošto, in prilepiti.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Licenčni ključ je veljaven, a ni namenjen za uporabo v okviru %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Zahvaljujemo se Vam za nakup %1 Pro</thanksTitle>
+            <thanksInfo>Vse omejitve brezplačne različice so bile odstranjene. Upamo, da boste uživali ob uporabi!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

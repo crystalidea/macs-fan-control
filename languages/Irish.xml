@@ -69,20 +69,6 @@
         <buttonEnterLicense>Iontráil Ceadúnas</buttonEnterLicense>
         <buttonLater>Níos déanaí</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Díghlasáil leagan Pro</title>
-        <infoText>Má cheannaigh tú Macs Fan Control cheana féin, cuir isteach do sheoladh ríomhphoist agus eochair cheadúnais ó d’admháil ríomhphoist sna boscaí thíos. Díghlasálfaidh sé seo go hiomlán na gnéithe Pro de Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Is féidir an fhaisnéis a chuireann tú isteach a fhíorú ar an Idirlíon.</licenseVerifyInfo>
-        <email>Seoladh ríomhphoist</email>
-        <licenseKey>Eochair Cheadúnais</licenseKey>
-        <buttonUnlock>Díghlasáil</buttonUnlock>
-        <buttonRestoreLicense>Athchóirigh Ceadúnas</buttonRestoreLicense>
-        <invalidLicenseTitle>Ceadúnas neamhbhailí!</invalidLicenseTitle>
-        <invalidLicenseText>Cinntigh go bhfuil gach litir, uimhir agus daiseanna curtha isteach san ord ceart. Má tá tú ag clóscríobh na gcarachtar de láimh, déan iarracht iad a chóipeáil agus a ghreamú ó d'admháil ríomhphoist ina ionad sin.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Tá an eochair cheadúnais seo bailí ach níl sé beartaithe í a úsáid ar %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Go raibh maith agat as Macs Fan Control Pro a cheannach</thanksTitle>
-        <thanksInfo>Baineadh na teorainneacha go léir den leagan saor in aisce, tá súil againn go mbainfidh tú taitneamh as an aip a úsáid!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Leagan trialach</trialVersion>
         <message>Go raibh maith agat as triail a bhaint as $1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Taispeáint beacht na teochta nuair is féidir (m.sh. 45.4)</checkPrecise>
         <labelSensors>Léigh teochtaí de</labelSensors>
         <checkExternalGPU>eGPUs nasctha trí Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Tiomántáin SATA nasctha</checkSATADrives>
-        <checkNVMeDrives>Tiomántáin NVMe nasctha</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Braiteoir:</staticSensor>
         <staticFan>Gaothrán:</staticFan>
         <staticIcon>Deilbhín:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Tá</buttonYes>
             <buttonNo>Níl</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Díghlasáil leagan Pro</title>
+            <infoText>Chun gach gné Pro a dhíghlasáil, cuir isteach an seoladh ríomhphoist a d’úsáid tú nuair a cheannaigh tú %1, agus an eochair cheadúnais atá ar d’admháil.</infoText>
+            <licenseVerifyInfo>Is féidir an fhaisnéis a chuireann tú isteach a fhíorú ar an Idirlíon.</licenseVerifyInfo>
+            <email>Seoladh ríomhphoist</email>
+            <licenseKey>Eochair Cheadúnais</licenseKey>
+            <buttonUnlock>Díghlasáil</buttonUnlock>
+            <buttonRestoreLicense>Athchóirigh Ceadúnas</buttonRestoreLicense>
+            <invalidLicenseTitle>Ceadúnas neamhbhailí!</invalidLicenseTitle>
+            <invalidLicenseText>Cinntigh go bhfuil gach litir, uimhir agus daiseanna curtha isteach san ord ceart. Má tá tú ag clóscríobh na gcarachtar de láimh, déan iarracht iad a chóipeáil agus a ghreamú ó d'admháil ríomhphoist ina ionad sin.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Tá an eochair cheadúnais seo bailí ach níl sé beartaithe í a úsáid ar %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Go raibh maith agat as %1 Pro a cheannach</thanksTitle>
+            <thanksInfo>Baineadh na teorainneacha go léir den leagan saor in aisce, tá súil againn go mbainfidh tú taitneamh as an aip a úsáid!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

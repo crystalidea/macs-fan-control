@@ -69,20 +69,6 @@
         <buttonEnterLicense>Entrer une licence</buttonEnterLicense>
         <buttonLater>Plus tard</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Déverrouiller la version Pro</title>
-        <infoText>Si vous avez déjà acheté Mac Control Fan, entrez votre adresse électronique et votre clé de licence figurant sur le reçu de votre courrier électronique dans les champs ci-dessous. Cela déverrouillera complètement les fonctionnalités Pro de Mac Control Fan Control.</infoText>
-        <licenseVerifyInfo>Les informations que vous avez entrées peuvent être vérifiées sur Internet.</licenseVerifyInfo>
-        <email>Adresse e-mail</email>
-        <licenseKey>Clé de licence</licenseKey>
-        <buttonUnlock>Déverrouiller</buttonUnlock>
-        <buttonRestoreLicense>Restaurer la licence</buttonRestoreLicense>
-        <invalidLicenseTitle>Licence invalide !</invalidLicenseTitle>
-        <invalidLicenseText>Assurez-vous que toutes les lettres, chiffres et tirets sont entrés dans le bon ordre. Si vous tapez le numéro à la main, essayez plutôt de le copier-coller depuis le reçu de votre courriel.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Cette clé de licence est valide mais n'est pas destinée à être utilisée sur %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Merci d’avoir acheté Mac Control Fan Control Pro</thanksTitle>
-        <thanksInfo>Toutes les limitations de la version gratuite ont été supprimées, nous espérons que vous apprécierez l'utilisation de l'application !</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Afficher des températures précises si possible (ex. 45,4)</checkPrecise>
         <labelSensors>Lire les températures de</labelSensors>
         <checkExternalGPU>eGPU connectés par Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Disques SATA connectés</checkSATADrives>
-        <checkNVMeDrives>Lecteurs NVMe connectés</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sonde :</staticSensor>
         <staticFan>Ventilateur :</staticFan>
         <staticIcon>Icône :</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Oui</buttonYes>
             <buttonNo>Non</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Déverrouiller la version Pro</title>
+            <infoText>Entrez l’adresse e-mail utilisée pour acheter %1 ainsi que la clé de licence figurant sur votre reçu afin de déverrouiller toutes les fonctionnalités Pro.</infoText>
+            <licenseVerifyInfo>Les informations que vous avez entrées peuvent être vérifiées sur Internet.</licenseVerifyInfo>
+            <email>Adresse e-mail</email>
+            <licenseKey>Clé de licence</licenseKey>
+            <buttonUnlock>Déverrouiller</buttonUnlock>
+            <buttonRestoreLicense>Restaurer la licence</buttonRestoreLicense>
+            <invalidLicenseTitle>Licence invalide !</invalidLicenseTitle>
+            <invalidLicenseText>Assurez-vous que toutes les lettres, chiffres et tirets sont entrés dans le bon ordre. Si vous tapez le numéro à la main, essayez plutôt de le copier-coller depuis le reçu de votre courriel.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Cette clé de licence est valide mais n'est pas destinée à être utilisée sur %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Merci d’avoir acheté %1 Pro</thanksTitle>
+            <thanksInfo>Toutes les limitations de la version gratuite ont été supprimées, nous espérons que vous apprécierez l'utilisation de l'application !</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>Увод ліцэнзіі</buttonEnterLicense>
         <buttonLater>Пазней</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Разблакаваць Pro версію</title>
-        <infoText>Калi вы ўжо надбалі Macs Fan Control, увядзіце ніжэй ваш email адрас і ліцэнзійны ключ з ліста пакупкі. Гэта цалкам разблакуе ўсе функцыі Pro версіі Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Уведзеная інфармацыя можа быць праверана праз Інтэрнэт.</licenseVerifyInfo>
-        <email>Email адрес</email>
-        <licenseKey>Ліцэнзійны ключ</licenseKey>
-        <buttonUnlock>Разблакаваць</buttonUnlock>
-        <buttonRestoreLicense>Ўзнавіць ліцэнзію</buttonRestoreLicense>
-        <invalidLicenseTitle>Некарэктная ліцэнзія!</invalidLicenseTitle>
-        <invalidLicenseText>Пераканайцеся, што ўсе ўведзеныя літары, лічбы і працяжнік ў дакладным парадку. Калі Вы ўводзіце ключ самастойна, паспрабуйце замест гэтага скапіяваць яго з рэгістрацыйнага email адрасу і ўставіць.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Гэты ліцэнзійны ключ правільны, але ён не прызначаны для выкарыстання ў асяроддзі %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Дзякуй за надбанне Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Усе абмежаванні бясплатнай версіі прыбраны. Мы спадзяемся, што Вам спадабаецца карыстацца праграмай!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Больш дакладнае адлюстраванне тэмпературы (да дзесятых доляй)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
         <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Сэнсар:</staticSensor>
         <staticFan>Вентылятар:</staticFan>
         <staticIcon>Вобраз:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Так</buttonYes>
             <buttonNo>Не</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Разблакаваць Pro версію</title>
+            <infoText>Увядзіце email адрас, пазначаны пры набыцці праграмы %1, і ліцэнзійны ключ з квітанцыі, каб разблакаваць усе функцыі Pro версіі.</infoText>
+            <licenseVerifyInfo>Уведзеная інфармацыя можа быць праверана праз Інтэрнэт.</licenseVerifyInfo>
+            <email>Email адрес</email>
+            <licenseKey>Ліцэнзійны ключ</licenseKey>
+            <buttonUnlock>Разблакаваць</buttonUnlock>
+            <buttonRestoreLicense>Ўзнавіць ліцэнзію</buttonRestoreLicense>
+            <invalidLicenseTitle>Некарэктная ліцэнзія!</invalidLicenseTitle>
+            <invalidLicenseText>Пераканайцеся, што ўсе ўведзеныя літары, лічбы і працяжнік ў дакладным парадку. Калі Вы ўводзіце ключ самастойна, паспрабуйце замест гэтага скапіяваць яго з рэгістрацыйнага email адрасу і ўставіць.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Гэты ліцэнзійны ключ правільны, але ён не прызначаны для выкарыстання ў асяроддзі %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Дзякуй за надбанне %1 Pro</thanksTitle>
+            <thanksInfo>Усе абмежаванні бясплатнай версіі прыбраны. Мы спадзяемся, што Вам спадабаецца карыстацца праграмай!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

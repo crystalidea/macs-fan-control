@@ -69,20 +69,6 @@
         <buttonEnterLicense>ლიცენზიის შეყვანა</buttonEnterLicense>
         <buttonLater>მოგვიანებით</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Pro ვერსიის განბლოკვა</title>
-        <infoText>თუ თქვენ უკვე იყიდეთ Macs Fan Control, შეიყვანეთ თქვენი email მისამართი და ლიცენზიის კოდი ყიდვის დამადასტურებელი წერილიდან. ეს განბლოკავს Macs Fan Control Pro ვერსიის ყველა ფუნქციას.</infoText>
-        <licenseVerifyInfo>შეყვანილი ინფორმაცია შეიძლება გადამოწმდეს ინტერნეტის დახმარებით.</licenseVerifyInfo>
-        <email>Email მისამართი</email>
-        <licenseKey>ლიცენზიის კოდი</licenseKey>
-        <buttonUnlock>განბლოკვა</buttonUnlock>
-        <buttonRestoreLicense>ლიცენზიის აღდგენა</buttonRestoreLicense>
-        <invalidLicenseTitle>არასწორი ლიცენზია!</invalidLicenseTitle>
-        <invalidLicenseText>დარწმუნდით, რომ შეყვანილი ყველა ასო, რიცხვი და ტირე სწორ თანმიმდევრობაშია. თუ ლიცენზიის კოდი თქვენით შეგყავთ, სცადეთ დამადასტურებელი email-იდან დააკოპიროთ და ჩასვათ.</invalidLicenseText>
-        <invalidLicenseMismatchOS>ლიცენზიის ეს კოდი სწორია, მაგრამ არ განკუთვნილია ამ სივრცეში გამოსაყენებლად. %1.</invalidLicenseMismatchOS>
-        <thanksTitle>გმადლობთ Macs Fan Control Pro-ს ყიდვისთვის</thanksTitle>
-        <thanksInfo>უფასო ვერსიის ყველა შეზღუდვა გაუქმებულია. იმედი გვაქვს, რომ პროგრამის გამოყენება მოგეწონებათ!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>ტემპერატურის უფრო ზუსტი ჩვენება (მეათედებამდე)</checkPrecise>
         <labelSensors>ტემპერატურის ჩვენება</labelSensors>
         <checkExternalGPU>დაკავშირებული გარე ვიდეო დაფების</checkExternalGPU>
-        <checkSATADrives>დაკავშირებული SATA დისკების</checkSATADrives>
-        <checkNVMeDrives>დაკავშირებული NVMe დისკების</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>სენსორი:</staticSensor>
         <staticFan>ვენტილატორი:</staticFan>
         <staticIcon>ხატულება:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>კი</buttonYes>
             <buttonNo>არა</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Pro ვერსიის განბლოკვა</title>
+            <infoText>Pro ვერსიის ყველა ფუნქციის განსაბლოკად შეიყვანეთ email მისამართი, რომლითაც შეიძინეთ %1, და ლიცენზიის კოდი ყიდვის დამადასტურებელი წერილიდან.</infoText>
+            <licenseVerifyInfo>შეყვანილი ინფორმაცია შეიძლება გადამოწმდეს ინტერნეტის დახმარებით.</licenseVerifyInfo>
+            <email>Email მისამართი</email>
+            <licenseKey>ლიცენზიის კოდი</licenseKey>
+            <buttonUnlock>განბლოკვა</buttonUnlock>
+            <buttonRestoreLicense>ლიცენზიის აღდგენა</buttonRestoreLicense>
+            <invalidLicenseTitle>არასწორი ლიცენზია!</invalidLicenseTitle>
+            <invalidLicenseText>დარწმუნდით, რომ შეყვანილი ყველა ასო, რიცხვი და ტირე სწორ თანმიმდევრობაშია. თუ ლიცენზიის კოდი თქვენით შეგყავთ, სცადეთ დამადასტურებელი email-იდან დააკოპიროთ და ჩასვათ.</invalidLicenseText>
+            <invalidLicenseMismatchOS>ლიცენზიის ეს კოდი სწორია, მაგრამ არ განკუთვნილია %1 გარემოში გამოსაყენებლად.</invalidLicenseMismatchOS>
+            <thanksTitle>გმადლობთ %1 Pro-ს ყიდვისთვის</thanksTitle>
+            <thanksInfo>უფასო ვერსიის ყველა შეზღუდვა გაუქმებულია. იმედი გვაქვს, რომ პროგრამის გამოყენება მოგეწონებათ!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.17" Author="CrystalIdea Team">
+<LanguageStrings version="1.5.18" Author="CrystalIdea Team">
     <MainWindow>
         <staticSensorsListHeader>Temperature sensors:</staticSensorsListHeader>
         <listColumnFan>Fan</listColumnFan>
@@ -69,20 +69,6 @@
         <buttonEnterLicense>Enter License</buttonEnterLicense>
         <buttonLater>Later</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock the Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you are typing the characters by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All of the limitations of the Free version have been removed, we hope you enjoy using the app!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Precise display of temperature when possible (e.g. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
         <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Fan:</staticFan>
         <staticIcon>Icon:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Yes</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Unlock Pro version</title>
+            <infoText>Enter the email address you used to purchase %1 and the license key from your receipt to unlock all Pro features.</infoText>
+            <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
+            <email>Email Address</email>
+            <licenseKey>License Key</licenseKey>
+            <buttonUnlock>Unlock</buttonUnlock>
+            <buttonRestoreLicense>Restore License</buttonRestoreLicense>
+            <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
+            <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you are typing the characters by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
+            <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Thank you for purchasing %1 Pro</thanksTitle>
+            <thanksInfo>All of the limitations of the Free version have been removed, we hope you enjoy using the app!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.8.1" Author="Gerrit, update by ifeelhorst, Horst Brueckner">
+<LanguageStrings version="1.5.17" Author="Gerrit, update by ifeelhorst, Horst Brueckner, Marcus Herbert">
     <MainWindow>
         <staticSensorsListHeader>Temperatursensoren:</staticSensorsListHeader>
         <listColumnFan>Lüfter</listColumnFan>
@@ -24,10 +24,10 @@
         <messageHelperToolInstall>Macs Fan Control erfordert die Installation eines Hilfswerkzeugs zur Lüftersteuerung. Sie können dies überspringen, wenn Sie nur Lüfter &amp; Temperatursensoren überwachen möchten.</messageHelperToolInstall>
         <messageHelperToolUpgrade>Macs Fan Control muss eine aktualisierte Version des Hilfswerkzeugs für die Lüftersteuerung installieren.</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>Die Lüfter-Steuerung ist nicht verfügbar.</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit der helper-App verbinden um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nSie können die App weiterhin im reinen Monitoringmodus verwenden.</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control kann sich nicht mit dem Hilfswerkzeug verbinden, um die Lüfter, sowie deren Geschwindigkeit zu steuern. \n\nGeben Sie Ihr Administrator-Passwort ein, falls Sie danach gefragt werden.\n\nSie können die Anwendung weiterhin im reinen Monitoringmodus verwenden.</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>Nur Überwachung</messageFanControlNotAvailableButtonMonitoringOnly>
         <messageNoFansDetected>Keine Lüfter erkannt, bitte versuchen Sie es mit [SMC zurücksetzen](https://support.apple.com/de-de/HT201295)</messageNoFansDetected>
-        <messageNoFansAvailable>This computer doesn't have any fans and it's cooled passively</messageNoFansAvailable>
+        <messageNoFansAvailable>Dieser Computer hat keine Lüfter und wird passiv gekühlt</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
         <title>Steuerung des Lüfters %1</title>
@@ -36,7 +36,7 @@
         <staticIncrease>Temperatur, ab der die Drehzahl steigen soll:</staticIncrease>
         <staticMax>Maximale Temperatur:</staticMax>
         <statusWarning>Etwas ist schiefgelaufen - die minimalen und maximalen Lüfterwerte sind gleich (%1).&lt;br/&gt; Deinstallieren Sie alle anderen Lüftungssteuerungsprogramme und setzen Sie den SMC zurück.</statusWarning>
-        <saveToCurrentPreset>Speichern in der aktuellen Voreinstellung ('%1')</saveToCurrentPreset>
+        <saveToCurrentPreset>Speichern in der aktuellen Voreinstellung ("%1")</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>Aktive Voreinstellung:</activePresetLabel>
@@ -57,42 +57,28 @@
         <editPresetTitle>Benutzerdefinierte Voreinstellungen bearbeiten</editPresetTitle>
         <presetCreateNew>Neu...</presetCreateNew>
         <presetCreateNewTitle>Neue Voreinstellung erstellen</presetCreateNewTitle>
-        <presetCreateNewMessage>Alle Ihre Lüfter werden derzeit durch das System gesteuert. \n\nBitte stellen Sie die Steuerung für mindestens einen Lüfter auf Benutzerdefiniert um, damit mindestens ein Lüfter, eine neue Voreinstellung erhalten kann.</presetCreateNewMessage>
-        <presetCreateNewMessage2>Please change control for at least one of your fans, because currently all of them are spinning full blast matching the existing '%1' preset.</presetCreateNewMessage2>
-        <presetCreateNewButton>Benutzerdefinierte Steuerung für den '%1'-Lüfter</presetCreateNewButton>
+        <presetCreateNewMessage>Alle Ihre Lüfter werden derzeit durch das System gesteuert. \n\nBitte stellen Sie die Steuerung für mindestens einen Lüfter auf "Benutzerdefiniert" um, damit mindestens ein Lüfter, eine neue Voreinstellung erhalten kann.</presetCreateNewMessage>
+        <presetCreateNewMessage2>Bitte ändern Sie die Steuerung für mindestens einen Ihrer Lüfter, da derzeit alle mit voller Leistung entsprechend der vorhandenen Voreinstellung "%1" laufen.</presetCreateNewMessage2>
+        <presetCreateNewButton>Benutzerdefinierte Steuerung für den "%1"-Lüfter</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
         <title>Upgrade auf Macs Fan Control Pro</title>
         <proInfo1>Die Pro-Version ist in der Lage, benutzerdefinierte Lüftervoreinstellungen zu erstellen und zu speichern, so dass Sie je nach Aktivität schnell zwischen ihnen wechseln können.</proInfo1>
-        <proInfo2>Wenn Sie die App bereits gekauft haben, klicken Sie bitte auf die Schaltfläche "Lizenz eingeben" unten.</proInfo2>
+        <proInfo2>Wenn Sie die Anwendung bereits gekauft haben, klicken Sie bitte auf die Schaltfläche "Lizenz eingeben" unten.</proInfo2>
         <buttonPurchase>Kaufen</buttonPurchase>
         <buttonEnterLicense>Lizenz eingeben</buttonEnterLicense>
         <buttonLater>Später</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Pro-Version freischalten</title>
-        <infoText>Wenn Sie bereits Macs Fan Control gekauft haben, geben Sie Ihre E-Mail-Adresse und Ihren Lizenzschlüssel aus Ihrem E-Mail-Empfang in die folgenden Felder ein. Dadurch werden die Pro-Funktionen der Macs Fan Control vollständig freigeschaltet.</infoText>
-        <licenseVerifyInfo>Die von Ihnen eingegebenen Informationen können über das Internet überprüft werden.</licenseVerifyInfo>
-        <email>E-Mail Adresse</email>
-        <licenseKey>Lizenzschlüssel</licenseKey>
-        <buttonUnlock>Freischalten</buttonUnlock>
-        <buttonRestoreLicense>Lizenz wiederherstellen</buttonRestoreLicense>
-        <invalidLicenseTitle>Ungültige Lizenz!</invalidLicenseTitle>
-        <invalidLicenseText>Achten Sie darauf, dass alle Buchstaben, Zahlen und Striche in der richtigen Reihenfolge eingegeben werden. Wenn Sie die Nummer von Hand eingeben, versuchen Sie stattdessen, sie aus Ihrem E-Mail-Empfang zu kopieren und einzufügen.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Vielen Dank, dass Sie sich für den Kauf von Macs Fan Control Pro entschieden haben.</thanksTitle>
-        <thanksInfo>Alle Einschränkungen der kostenlosen Version wurden aufgehoben. Wir wünschen Ihnen viel Spaß bei der Nutzung der App!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <trialVersion>Test Version</trialVersion>
+        <message>Vielen Dank, dass Sie %1 ausprobieren.</message>
+        <messageSecondary>Die einzige Anwendung, um Lüfter auf Intel-Macs unter Windows zu steuern</messageSecondary>
+        <timeLeftDays>Sie haben noch %1 Tage Ihrer Test-Periode übrig.</timeLeftDays>
+        <timeLeftHours>Sie haben noch %1 Stunden Ihrer Test-Periode übrig.</timeLeftHours>
+        <trialOver>Die Test-Periode von %1 Tagen ist nun vorbei.</trialOver>
+        <buttonContinue>Weiter in Test-Periode</buttonContinue>
+        <buttonActivate>Lizenz aktivieren</buttonActivate>
+        <buttonBuy>Jetzt kaufen</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>Macs Fan Control anzeigen</itemShow>
@@ -101,18 +87,18 @@
         <itemMoreLinks>Mehr...</itemMoreLinks>
         <itemWebsite>Website</itemWebsite>
         <itemCheckForUpdates>Nach Aktualisierungen suchen</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
+        <itemTechInfoZip>Archiv mit technischen Infos anlegen...</itemTechInfoZip>
         <itemRateApp>Auf Macupdate bewerten...</itemRateApp>
         <itemFollowTwitter>@crystalidea folgen</itemFollowTwitter>
-        <itemUninstall>Uninstall...</itemUninstall>
+        <itemUninstall>Deinstallieren...</itemUninstall>
         <itemExit>Beenden </itemExit>
         <itemExitMac>Macs Fan Control beenden</itemExitMac>
         <itemSensorBased>Sensorbasiert</itemSensorBased>
         <itemUpgradeToPro>Upgrade zur Pro-Version</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>Auf Ihrem Schreibtisch wird ein Supportpaket "%1" bestehend aus anonymen technischen Daten und einem Screenshot des Hauptfensters erstellt.\n\nBitte senden Sie diese Datei an support@crystalidea.com oder posten Sie sie in unserem GitHub Issue Tracker.</message>
+        <browseButton>ZIP Datei anzeigen</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>Einstellungen</title>
@@ -124,13 +110,13 @@
         <staticLanguage>Sprache:</staticLanguage>
         <checkSystemStart>Beim Systemstart automatisch minimiert starten (empfohlen)</checkSystemStart>
         <checkUpdatesOnStartup>Beim Starten der App nach Aktualisierungen suchen</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>Icon im Dock anzeigen</checkDockIcon>
         <checkFahrenheit>Fahrenheit-Temperaturskala verwenden</checkFahrenheit>
         <checkPrecise>Genaue Temperatur anzeigen, wenn möglich (z. B. 45.4°C/°F)</checkPrecise>
         <labelSensors>Ausgelesene Temperaturen von</labelSensors>
         <checkExternalGPU>Über Thunderbolt angeschlossene eGPUs</checkExternalGPU>
-        <checkSATADrives>Angeschlossene SATA-Laufwerke</checkSATADrives>
-        <checkNVMeDrives>Angeschlossene NVMe Laufwerke</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Lüfter:</staticFan>
         <staticIcon>Symbol:</staticIcon>
@@ -158,16 +144,16 @@
         <checkDontShowAgain>Diesen Hinweis nicht wieder anzeigen.</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Uninstall Macs Fan Control?</title>
-        <message>You're about to completely uninstall the app from your mac including its preferences, the fan helper tool and licensing data for the Pro version. All modifications to the default fan control will be reverted and the fan(s) will be controlled automatically by the system. \n\nYou may be prompted to authorize the app to be able to uninstall itself.</message>
-        <authorizeText>Please authorize the app to be able to uninstall the fan helper tool.</authorizeText>
-        <buttonUninstall>Uninstall</buttonUninstall>
+        <title>Macs Fan Control deinstallieren?</title>
+        <message>Sie sind dabei, die Anwendung vollständig von Ihrem Mac zu deinstallieren, einschließlich der Einstellungen, des Hilfswerkzeugs und der Lizenzdaten für die Pro-Version. Alle Änderungen an der Lüftersteuerung werden rückgängig gemacht und der/die Lüfter werden automatisch vom System gesteuert. \n\nMöglicherweise werden Sie aufgefordert, die Anwendung zu autorisieren, damit sie sich selbst deinstallieren kann.</message>
+        <authorizeText>Bitte autorisieren Sie die Anwendung, um das Hilfswerkzeug zu deinstallieren.</authorizeText>
+        <buttonUninstall>Deinstallieren</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>Lüfter automatisch abgeschaltet</title>
+        <message>Wegen niedriger Temperatur hat dieser Mac die Lüfter abgeschaltet. Die manuelle Lüftersteuerung wird wieder möglich, sobald das System diese reaktiviert, weil Kühlung notwendig ist.</message>
+        <checkDiscard>Diese Meldung nicht wieder zeigen</checkDiscard>
+        <buttonMoreInfo>Weitere Informationen...</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>Schließen</buttonClose>
@@ -229,5 +215,19 @@
             <buttonYes>Ja</buttonYes>
             <buttonNo>Nein</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Pro-Version freischalten</title>
+            <infoText>Geben Sie die E-Mail-Adresse, mit der Sie %1 gekauft haben, und den Lizenzschlüssel aus Ihrer Kaufbestätigung ein, um alle Pro-Funktionen freizuschalten.</infoText>
+            <licenseVerifyInfo>Die von Ihnen eingegebenen Informationen können über das Internet überprüft werden.</licenseVerifyInfo>
+            <email>E-Mail Adresse</email>
+            <licenseKey>Lizenzschlüssel</licenseKey>
+            <buttonUnlock>Freischalten</buttonUnlock>
+            <buttonRestoreLicense>Lizenz wiederherstellen</buttonRestoreLicense>
+            <invalidLicenseTitle>Ungültige Lizenz!</invalidLicenseTitle>
+            <invalidLicenseText>Achten Sie darauf, dass alle Buchstaben, Zahlen und Striche in der richtigen Reihenfolge eingegeben werden. Wenn Sie die Nummer von Hand eingeben, versuchen Sie stattdessen, sie aus Ihrem E-Mail-Empfang zu kopieren und einzufügen.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Dieser Lizenzschlüssel ist gültig, aber nicht für die Nutzung unter %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Vielen Dank, dass Sie sich für den Kauf von %1 Pro entschieden haben.</thanksTitle>
+            <thanksInfo>Alle Einschränkungen der kostenlosen Version wurden aufgehoben. Wir wünschen Ihnen viel Spaß bei der Nutzung der App!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

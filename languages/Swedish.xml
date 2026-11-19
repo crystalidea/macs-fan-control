@@ -69,20 +69,6 @@
         <buttonEnterLicense>Mata in licens</buttonEnterLicense>
         <buttonLater>Senare</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Lås upp Pro-versionen</title>
-        <infoText>Om du redan köpt Macs Fan Control, mata in din e-postadress och din licensnyckel från ditt e-postkvitto i fälten nedan. Detta kommer att låsa upp alla Pro-funktioner i Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Informationen du matar in kan komma att verifieras över internet.</licenseVerifyInfo>
-        <email>E-postadress</email>
-        <licenseKey>Licensnyckel</licenseKey>
-        <buttonUnlock>Lås upp</buttonUnlock>
-        <buttonRestoreLicense>Återställ licens</buttonRestoreLicense>
-        <invalidLicenseTitle>Ogiltig licens!</invalidLicenseTitle>
-        <invalidLicenseText>Se till att alla bokstäver, siffror och bindestreck är inmatade i korrekt ordning. Om du angett dem för hand, prova att kopiera och klistra in dem från ditt e-postkvitto istället.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Licensnyckeln är giltig men är inte avsedd att användas på %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Tack för ditt köp av Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Alla begränsningar i gratisversionen har tagits bort, vi hoppas att du gillar att använda programmet!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Prova på version</trialVersion>
         <message>Tack för att du prövar %1</message>
@@ -229,5 +215,19 @@
             <buttonYes>Ja</buttonYes>
             <buttonNo>Nej</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Lås upp Pro-versionen</title>
+            <infoText>Ange e-postadressen du använde när du köpte %1 och licensnyckeln från ditt kvitto för att låsa upp alla Pro-funktioner.</infoText>
+            <licenseVerifyInfo>Informationen du matar in kan komma att verifieras över internet.</licenseVerifyInfo>
+            <email>E-postadress</email>
+            <licenseKey>Licensnyckel</licenseKey>
+            <buttonUnlock>Lås upp</buttonUnlock>
+            <buttonRestoreLicense>Återställ licens</buttonRestoreLicense>
+            <invalidLicenseTitle>Ogiltig licens!</invalidLicenseTitle>
+            <invalidLicenseText>Se till att alla bokstäver, siffror och bindestreck är inmatade i korrekt ordning. Om du angett dem för hand, prova att kopiera och klistra in dem från ditt e-postkvitto istället.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Licensnyckeln är giltig men är inte avsedd att användas på %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Tack för ditt köp av %1 Pro</thanksTitle>
+            <thanksInfo>Alla begränsningar i gratisversionen har tagits bort, vi hoppas att du gillar att använda programmet!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>Введення ліцензії</buttonEnterLicense>
         <buttonLater>Пізніше</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Розблокувати Pro версію</title>
-        <infoText>Якщо Ви вже купляли Macs Fan Control, введіть нижче ваш email адрес та ліцензійний ключ з листа покупки. Це повністю розблокує всі функції Pro версії Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Введену інформацію можуть перевірити через Інтернет.</licenseVerifyInfo>
-        <email>Email адрес</email>
-        <licenseKey>Ліцензійний ключ</licenseKey>
-        <buttonUnlock>Розблокувати</buttonUnlock>
-        <buttonRestoreLicense>Відновити ліцензію</buttonRestoreLicense>
-        <invalidLicenseTitle>Невірна ліцензія!</invalidLicenseTitle>
-        <invalidLicenseText>Переконайтеся, що всі букви, цифри і тире введено в правильній послідовності. Замість того, щоб вводити ключ вручну, попробуйте скопіювати його з реєстраційного email і вставити.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Цей ліцензійний ключ є дійсним, але не призначений для використання на %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Дякуємо за покупку Macs Fan Control</thanksTitle>
-        <thanksInfo>Всі обмеження безкоштовної версії знято. Ми сподіваємося, що Вам сподобається користуватися застосунком!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Точніше відображення температури (до десятих)</checkPrecise>
         <labelSensors>Зчитувати температури</labelSensors>
         <checkExternalGPU>eGPU, що підключені через Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Підключених дисків SATA</checkSATADrives>
-        <checkNVMeDrives>Підключених дисків NVMe</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Датчик:</staticSensor>
         <staticFan>Вентилятор:</staticFan>
         <staticIcon>Іконка:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Так</buttonYes>
             <buttonNo>Ні</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Розблокувати Pro версію</title>
+            <infoText>Введіть адресу email, яку Ви вказали під час купівлі %1, і ліцензійний ключ із листа про покупку, щоб розблокувати всі функції Pro версії.</infoText>
+            <licenseVerifyInfo>Введену інформацію можуть перевірити через Інтернет.</licenseVerifyInfo>
+            <email>Email адрес</email>
+            <licenseKey>Ліцензійний ключ</licenseKey>
+            <buttonUnlock>Розблокувати</buttonUnlock>
+            <buttonRestoreLicense>Відновити ліцензію</buttonRestoreLicense>
+            <invalidLicenseTitle>Невірна ліцензія!</invalidLicenseTitle>
+            <invalidLicenseText>Переконайтеся, що всі букви, цифри і тире введено в правильній послідовності. Замість того, щоб вводити ключ вручну, попробуйте скопіювати його з реєстраційного email і вставити.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Цей ліцензійний ключ є дійсним, але не призначений для використання на %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Дякуємо за покупку %1 Pro</thanksTitle>
+            <thanksInfo>Всі обмеження безкоштовної версії знято. Ми сподіваємося, що Вам сподобається користуватися застосунком!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

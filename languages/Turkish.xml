@@ -69,20 +69,6 @@
         <buttonEnterLicense>Lisansı Girin</buttonEnterLicense>
         <buttonLater>Sonra</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Pro versiyonun kilidini aç</title>
-        <infoText>Macs Fan Control'ü zaten satın aldıysanız, e-posta makbuzunuzdan e-posta adresinizi ve lisans anahtarınızı aşağıdaki kutulara girin. Bu, Mac Fan Control'ün Pro özelliklerinin kilidini tamamen açacaktır.</infoText>
-        <licenseVerifyInfo>Girdiğiniz bilgiler İnternet üzerinden doğrulanabilir.</licenseVerifyInfo>
-        <email>Email adresi</email>
-        <licenseKey>Lisans anahtarı</licenseKey>
-        <buttonUnlock>Kilidi aç</buttonUnlock>
-        <buttonRestoreLicense>Lisansı kurtar</buttonRestoreLicense>
-        <invalidLicenseTitle>Geçersiz lisans!</invalidLicenseTitle>
-        <invalidLicenseText>Tüm harflerin, sayıların ve tirelerin doğru sırada girildiğinden emin olun. Numarayı elle yazıyorsanız, bunun yerine e-posta makbuzunuzdan kopyalayıp yapıştırmayı deneyin.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Bu lisans anahtarı geçerlidir, ancak %1 üzerinde kullanılması amaçlanmamıştır.</invalidLicenseMismatchOS>
-        <thanksTitle>Macs Fan Control Pro'yu satın aldığınız için teşekkürler!</thanksTitle>
-        <thanksInfo>Ücretsiz sürümün tüm sınırlamaları kaldırıldı, uygulamayı kullanmaktan keyif alacağınızı umuyoruz!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Mümkün olduğunda sıcaklığın hassas değerini göster (örn 45.4)</checkPrecise>
         <labelSensors>Sıcaklıklarını oku</labelSensors>
         <checkExternalGPU>Thunderbolt ile bağlı eGPU</checkExternalGPU>
-        <checkSATADrives>Bağlı SATA sürücüleri</checkSATADrives>
-        <checkNVMeDrives>Bağlı NVMe sürücüleri</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensör:</staticSensor>
         <staticFan>Fan:</staticFan>
         <staticIcon>İkon:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Evet</buttonYes>
             <buttonNo>Hayır</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Pro versiyonun kilidini aç</title>
+            <infoText>Tüm Pro özelliklerin kilidini açmak için %1 uygulamasını satın alırken kullandığınız e-posta adresini ve makbuzunuzdaki lisans anahtarını girin.</infoText>
+            <licenseVerifyInfo>Girdiğiniz bilgiler İnternet üzerinden doğrulanabilir.</licenseVerifyInfo>
+            <email>Email adresi</email>
+            <licenseKey>Lisans anahtarı</licenseKey>
+            <buttonUnlock>Kilidi aç</buttonUnlock>
+            <buttonRestoreLicense>Lisansı kurtar</buttonRestoreLicense>
+            <invalidLicenseTitle>Geçersiz lisans!</invalidLicenseTitle>
+            <invalidLicenseText>Tüm harflerin, sayıların ve tirelerin doğru sırada girildiğinden emin olun. Numarayı elle yazıyorsanız, bunun yerine e-posta makbuzunuzdan kopyalayıp yapıştırmayı deneyin.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Bu lisans anahtarı geçerlidir, ancak %1 üzerinde kullanılması amaçlanmamıştır.</invalidLicenseMismatchOS>
+            <thanksTitle>%1 Pro'yu satın aldığınız için teşekkürler!</thanksTitle>
+            <thanksInfo>Ücretsiz sürümün tüm sınırlamaları kaldırıldı, uygulamayı kullanmaktan keyif alacağınızı umuyoruz!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

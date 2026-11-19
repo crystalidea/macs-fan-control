@@ -69,20 +69,6 @@
         <buttonEnterLicense>Enter License</buttonEnterLicense>
         <buttonLater>Later</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>وقتی امکانش بود نمایش دقیق دما (e.g. 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
         <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>سنسور:</staticSensor>
         <staticFan>فن:</staticFan>
         <staticIcon>آیکون:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>بله</buttonYes>
             <buttonNo>خیر</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>باز کردن قفل نسخه Pro</title>
+            <infoText>برای باز کردن قفل همه ویژگی‌های Pro، آدرس ایمیلی را که هنگام خرید %1 استفاده کرده‌اید و کلید لایسنس موجود در رسید را وارد کنید.</infoText>
+            <licenseVerifyInfo>اطلاعاتی که وارد می‌کنید ممکن است از طریق اینترنت بررسی شود.</licenseVerifyInfo>
+            <email>آدرس ایمیل</email>
+            <licenseKey>کلید لایسنس</licenseKey>
+            <buttonUnlock>باز کردن قفل</buttonUnlock>
+            <buttonRestoreLicense>بازیابی لایسنس</buttonRestoreLicense>
+            <invalidLicenseTitle>لایسنس نامعتبر است!</invalidLicenseTitle>
+            <invalidLicenseText>مطمئن شوید که همه حروف، ارقام و خط‌تیره‌ها به ترتیب درست وارد شده‌اند. اگر نویسه‌ها را دستی تایپ می‌کنید، بهتر است آن‌ها را از ایمیل رسید خرید کپی کنید و بچسبانید.</invalidLicenseText>
+            <invalidLicenseMismatchOS>این کلید لایسنس معتبر است، اما برای استفاده در %1 در نظر گرفته نشده است.</invalidLicenseMismatchOS>
+            <thanksTitle>از خرید %1 Pro سپاسگزاریم</thanksTitle>
+            <thanksInfo>همه محدودیت‌های نسخه رایگان برداشته شده‌اند. امیدواریم از کار با این برنامه لذت ببرید!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

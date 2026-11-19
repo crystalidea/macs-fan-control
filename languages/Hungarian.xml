@@ -69,20 +69,6 @@
         <buttonEnterLicense>Licensz megadása</buttonEnterLicense>
         <buttonLater>Később</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Pro verzió feloldása</title>
-        <infoText>Ha már megvásároltad a Macs Fan Control-t, írd be az email címedet és a licenszkulcsot az emailes visszaigazolásból az alábbi mezőkbe. Ez teljesen feloldja a Macs Fan Control Pro funkcióit.</infoText>
-        <licenseVerifyInfo>Az általad megadott információkat az interneten keresztül ellenőrizhetjük.</licenseVerifyInfo>
-        <email>Email cím</email>
-        <licenseKey>Licenszkulcs</licenseKey>
-        <buttonUnlock>Feloldás</buttonUnlock>
-        <buttonRestoreLicense>Licensz visszaállítása</buttonRestoreLicense>
-        <invalidLicenseTitle>Érvénytelen licensz!</invalidLicenseTitle>
-        <invalidLicenseText>Győződj meg róla, hogy az összes betű, szám és kötőjel helyes sorrendben van beírva. Ha kézzel írod be, próbáld meg másolni és beilleszteni az email visszaigazolásból.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Ez a licenszkulcs érvényes, de nem használható ezen a %1 rendszeren.</invalidLicenseMismatchOS>
-        <thanksTitle>Köszönjük, hogy megvásároltad a Macs Fan Control Pro-t</thanksTitle>
-        <thanksInfo>Minden korlátozást eltávolítottunk a Free verzióból, reméljük élvezed az alkalmazást!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Tizedesjegy kijelzése, ha lehetséges (pl. 45.4)</checkPrecise>
         <labelSensors>Hőmérséklet érzékelése:</labelSensors>
         <checkExternalGPU>Thunderbolton keresztül csatlakoztatott eGPU-k</checkExternalGPU>
-        <checkSATADrives>Csatlakoztatott SATA meghajtók</checkSATADrives>
-        <checkNVMeDrives>Csatlakoztatott NVMe meghajtók</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Érzékelő:</staticSensor>
         <staticFan>Ventilátor:</staticFan>
         <staticIcon>Ikon:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Igen</buttonYes>
             <buttonNo>Nem</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Pro verzió feloldása</title>
+            <infoText>Írd be az email címet, amellyel megvásároltad a(z) %1 alkalmazást, és a visszaigazolásban található licenszkulcsot, hogy feloldd az összes Pro funkciót.</infoText>
+            <licenseVerifyInfo>Az általad megadott információkat az interneten keresztül ellenőrizhetjük.</licenseVerifyInfo>
+            <email>Email cím</email>
+            <licenseKey>Licenszkulcs</licenseKey>
+            <buttonUnlock>Feloldás</buttonUnlock>
+            <buttonRestoreLicense>Licensz visszaállítása</buttonRestoreLicense>
+            <invalidLicenseTitle>Érvénytelen licensz!</invalidLicenseTitle>
+            <invalidLicenseText>Győződj meg róla, hogy az összes betű, szám és kötőjel helyes sorrendben van beírva. Ha kézzel írod be, próbáld meg másolni és beilleszteni az email visszaigazolásból.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Ez a licenszkulcs érvényes, de nem használható ezen a %1 rendszeren.</invalidLicenseMismatchOS>
+            <thanksTitle>Köszönjük, hogy megvásároltad a(z) %1 Pro-t</thanksTitle>
+            <thanksInfo>Minden korlátozást eltávolítottunk a Free verzióból, reméljük élvezed az alkalmazást!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>Vložit licenci</buttonEnterLicense>
         <buttonLater>Později</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Aktivovat verzi Pro</title>
-        <infoText>Pokud jste již Macs Fan Control zakoupili , zadejte email a licenční klíč dodané Vám v emailu. Tak odemknete další možnosti aplikace Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Zadané informace budou ověřeny přes internet.</licenseVerifyInfo>
-        <email>Email</email>
-        <licenseKey>Licenční klíč</licenseKey>
-        <buttonUnlock>Aktivovat</buttonUnlock>
-        <buttonRestoreLicense>Obnovit licenci</buttonRestoreLicense>
-        <invalidLicenseTitle>Neplatná licence!</invalidLicenseTitle>
-        <invalidLicenseText>Zkontrolujte správnost zadaných údajů, velikost písmen, číslice, správné pořadí , pomlčky. Pokud jste údaje zadávali ručně, zkuste zadat údaje pomocí Kopírovat-Vložit přímo z emailu.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Tento klíč je platný, ale neodpovídá verzi %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Děkujeme za zakoupení Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Všechna omezení Free verze budou odstraněna, užijte si naši aplikaci!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Pokud to je možné, zpřesnit teplotní stupnici (př. 45.4)</checkPrecise>
         <labelSensors>Načíst teploty z</labelSensors>
         <checkExternalGPU>eGPU připojené přes Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Připojených sata disků</checkSATADrives>
-        <checkNVMeDrives>Připojených NVMe disků</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Senzor:</staticSensor>
         <staticFan>Ventilátor:</staticFan>
         <staticIcon>Ikonu:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Ano</buttonYes>
             <buttonNo>Ne</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Aktivovat verzi Pro</title>
+            <infoText>Zadejte email, který jste použili při nákupu aplikace %1, a licenční klíč z účtenky, abyste odemkli všechny funkce verze Pro.</infoText>
+            <licenseVerifyInfo>Zadané informace budou ověřeny přes internet.</licenseVerifyInfo>
+            <email>Email</email>
+            <licenseKey>Licenční klíč</licenseKey>
+            <buttonUnlock>Aktivovat</buttonUnlock>
+            <buttonRestoreLicense>Obnovit licenci</buttonRestoreLicense>
+            <invalidLicenseTitle>Neplatná licence!</invalidLicenseTitle>
+            <invalidLicenseText>Zkontrolujte správnost zadaných údajů, velikost písmen, číslice, správné pořadí , pomlčky. Pokud jste údaje zadávali ručně, zkuste zadat údaje pomocí Kopírovat-Vložit přímo z emailu.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Tento klíč je platný, ale neodpovídá verzi %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Děkujeme za zakoupení %1 Pro</thanksTitle>
+            <thanksInfo>Všechna omezení Free verze budou odstraněna, užijte si naši aplikaci!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>กรอกใบอนุญาติ</buttonEnterLicense>
         <buttonLater>ไว้ทีหลัง</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>ปลดล็อกรุ่นโปร</title>
-        <infoText>ถ้าคุณเคยซื้อ Macs Fan Control แล้ว, โปรดกรอกที่ิอยู่อีเมลของคุณ และคีย์ใบอนุญาติจากใบเสร็จในเมลของคุณลงในกล่องกรอกข้อความด้านล่างนี้ นี่จะเป็นการปลดล็อกฟีทเจอร์โปรแบบเต็มสำหรับควบคุมพัดลมแมค</infoText>
-        <licenseVerifyInfo>ข้อมูลที่คุรกรอกอาจอาจได้รับการยืนยันผ่านทางอินเทอร์เน็ต</licenseVerifyInfo>
-        <email>ที่อยู่อีเมล</email>
-        <licenseKey>คีย์ใบอนุญาติ</licenseKey>
-        <buttonUnlock>ปลดล็อค</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>ใบอนุญาติผิด!</invalidLicenseTitle>
-        <invalidLicenseText>ให้แน่ใจว่าตัวอักษร ตัวเลข และขีดทุกตัวนั้นถูกกรอกอย่างถูกต้อง ถ้าคุณพิพม์ด้วยมือ ลองคัดลอกและวางคีย์จากในใบเสร็จในอีเมลของคุณแทน</invalidLicenseText>
-        <invalidLicenseMismatchOS>คีย์ใบอนุญาตินี้นั้นถูกต้อง แต่ไม่ได้ให้ใช้กับ %1</invalidLicenseMismatchOS>
-        <thanksTitle>ของคุณสำหรับการสั่งซื้อควบคุมพัดลมแมคโปร</thanksTitle>
-        <thanksInfo>ข้อจำกัดขงรุ่นฟรีทั้งหมดได้ถูกนำออกไปแล้ว พวกเราหวังว่าคุณจะสนุกกับการใช้แอพนี้!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>แสดงค่าแบบแม่นยำ เมื่อสามารถทำได้ (เช่น 45.4)</checkPrecise>
         <labelSensors>อ่างค่าอุณหภูมิของ</labelSensors>
         <checkExternalGPU>eGPUs เมื่อเชื่อมต่อผ่าน Thunderbolt</checkExternalGPU>
-        <checkSATADrives>เชื่อต่อกับไดรฟ์ SATA</checkSATADrives>
-        <checkNVMeDrives>เชื่อต่อกับไดรฟ์ NVMe</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>เซ็นเซอร์:</staticSensor>
         <staticFan>พัดลม:</staticFan>
         <staticIcon>ไอคอน:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>ใช่</buttonYes>
             <buttonNo>ไม่</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>ปลดล็อกรุ่นโปร</title>
+            <infoText>กรอกที่อยู่อีเมลที่คุณใช้ซื้อ %1 และคีย์ใบอนุญาตจากใบเสร็จของคุณ เพื่อปลดล็อกฟีเจอร์โปรทั้งหมด</infoText>
+            <licenseVerifyInfo>ข้อมูลที่คุรกรอกอาจอาจได้รับการยืนยันผ่านทางอินเทอร์เน็ต</licenseVerifyInfo>
+            <email>ที่อยู่อีเมล</email>
+            <licenseKey>คีย์ใบอนุญาติ</licenseKey>
+            <buttonUnlock>ปลดล็อค</buttonUnlock>
+            <buttonRestoreLicense>กู้คืนใบอนุญาต</buttonRestoreLicense>
+            <invalidLicenseTitle>ใบอนุญาติผิด!</invalidLicenseTitle>
+            <invalidLicenseText>ให้แน่ใจว่าตัวอักษร ตัวเลข และขีดทุกตัวนั้นถูกกรอกอย่างถูกต้อง ถ้าคุณพิพม์ด้วยมือ ลองคัดลอกและวางคีย์จากในใบเสร็จในอีเมลของคุณแทน</invalidLicenseText>
+            <invalidLicenseMismatchOS>คีย์ใบอนุญาตินี้นั้นถูกต้อง แต่ไม่ได้ให้ใช้กับ %1</invalidLicenseMismatchOS>
+            <thanksTitle>ขอบคุณสำหรับการสั่งซื้อ %1 โปร</thanksTitle>
+            <thanksInfo>ข้อจำกัดขงรุ่นฟรีทั้งหมดได้ถูกนำออกไปแล้ว พวกเราหวังว่าคุณจะสนุกกับการใช้แอพนี้!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

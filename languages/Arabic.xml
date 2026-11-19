@@ -69,20 +69,6 @@
         <buttonEnterLicense>إدخال الترخيص</buttonEnterLicense>
         <buttonLater>فيما بعد</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>فتح نسخة برو</title>
-        <infoText>إذا كنت قد قمت بالفعل بشراء Macs Fan Control ، فأدخل عنوان البريد الإلكتروني ومفتاح الترخيص من إيصال البريد الإلكتروني الخاص بك في المربعات أدناه. سيؤدي هذا إلى إلغاء قفل ميزات Pro للتحكم في أجهزة Mac.</infoText>
-        <licenseVerifyInfo>المعلومات التي تدخلها عبر الإنترنت ربما يتم التحقق منها عبر الانترنت.</licenseVerifyInfo>
-        <email>البريد الالكتروني</email>
-        <licenseKey>مفتاح الترخيص</licenseKey>
-        <buttonUnlock>فتح</buttonUnlock>
-        <buttonRestoreLicense>استعادة الرخصة</buttonRestoreLicense>
-        <invalidLicenseTitle>رخصة خاطئة!</invalidLicenseTitle>
-        <invalidLicenseText>تأكد من إدخال جميع الحروف والأرقام والشرطات بالترتيب الصحيح. إذا كنت تكتب الرقم باليد ، فحاول نسخها ولصقها من إيصال البريد الإلكتروني بدلاً من ذلك.</invalidLicenseText>
-        <invalidLicenseMismatchOS>مفتاح الترخيص هذا صالح ولكنه غير مخصص للاستخدام عليه %1.</invalidLicenseMismatchOS>
-        <thanksTitle>شكراً لشرائك البرنامج</thanksTitle>
-        <thanksInfo>تمت إزالة جميع القيود المفروضة على الإصدار المجاني ، نأمل أن تستمتع باستخدام التطبيق!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>اظهار درجات الحراره الدقيقه والتفصيليه (e.g. 45.4)</checkPrecise>
         <labelSensors>اقرأ درجات حرارة</labelSensors>
         <checkExternalGPU>eGPUs متصلة عبر Thunderbolt</checkExternalGPU>
-        <checkSATADrives>محركات أقراص SATA المتصلة</checkSATADrives>
-        <checkNVMeDrives>محركات أقراص NVMe المتصلة</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>الحساس:</staticSensor>
         <staticFan>المروحه:</staticFan>
         <staticIcon>الايقونه:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>نعم</buttonYes>
             <buttonNo>لا</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>فتح نسخة برو</title>
+            <infoText>لإلغاء قفل جميع ميزات Pro، أدخل عنوان البريد الإلكتروني الذي استخدمته عند شراء %1، ومفتاح الترخيص الموجود في إيصال الشراء.</infoText>
+            <licenseVerifyInfo>المعلومات التي تدخلها عبر الإنترنت ربما يتم التحقق منها عبر الانترنت.</licenseVerifyInfo>
+            <email>البريد الالكتروني</email>
+            <licenseKey>مفتاح الترخيص</licenseKey>
+            <buttonUnlock>فتح</buttonUnlock>
+            <buttonRestoreLicense>استعادة الرخصة</buttonRestoreLicense>
+            <invalidLicenseTitle>رخصة خاطئة!</invalidLicenseTitle>
+            <invalidLicenseText>تأكد من إدخال جميع الحروف والأرقام والشرطات بالترتيب الصحيح. إذا كنت تكتب الرقم باليد ، فحاول نسخها ولصقها من إيصال البريد الإلكتروني بدلاً من ذلك.</invalidLicenseText>
+            <invalidLicenseMismatchOS>مفتاح الترخيص هذا صالح ولكنه غير مخصص للاستخدام على %1.</invalidLicenseMismatchOS>
+            <thanksTitle>شكراً لشرائك %1 Pro</thanksTitle>
+            <thanksInfo>تمت إزالة جميع القيود المفروضة على الإصدار المجاني ، نأمل أن تستمتع باستخدام التطبيق!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

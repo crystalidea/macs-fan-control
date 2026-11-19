@@ -69,20 +69,6 @@
         <buttonEnterLicense>Masukan lisensi</buttonEnterLicense>
         <buttonLater>Nanti</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Buka versi Pro</title>
-        <infoText>Jika anda pernah membeli Macs Fan Control, Masukan email anda dan kode lisensi dari tanda terima yang dikirim melalui email ke kolom dibawah. ini sepenuhnya akan membuka fitur Pro dari Macs Fan Control.</infoText>
-        <licenseVerifyInfo>Informasi yang anda masukan akan diverifikasi melalui Internet.</licenseVerifyInfo>
-        <email>Alamat email</email>
-        <licenseKey>Kode lisensi</licenseKey>
-        <buttonUnlock>Buka kunci</buttonUnlock>
-        <buttonRestoreLicense>Kembalikan Lisensi</buttonRestoreLicense>
-        <invalidLicenseTitle>Lisensi tidak valid!</invalidLicenseTitle>
-        <invalidLicenseText>Pastikan semua huruf, angka, dan strip dimasukan dalam urutan yang benar. Jika anda mengetik angka menggunakan tangan, Silahkan coba untuk salin dan tempel dari tanda terima yang di kirim melalui email.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Kode lisensi ini valid akan tetapi kode lisensi ini tidak dimaksudkan untuk digunakan pada %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Terima Kasih sudah membeli Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Semua batasan versi Gratis telah dihapus, kami harap Anda menikmati menggunakan aplikasi ini!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Tampilan suhu yang tepat bila memungkinkan (contoh: 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
         <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Kipas:</staticFan>
         <staticIcon>Ikon:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Iya</buttonYes>
             <buttonNo>Tidak</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Buka versi Pro</title>
+            <infoText>Masukkan alamat email yang anda gunakan semasa membeli %1 dan kod lesen daripada resit pembelian untuk membuka kunci semua ciri Pro.</infoText>
+            <licenseVerifyInfo>Informasi yang anda masukan akan diverifikasi melalui Internet.</licenseVerifyInfo>
+            <email>Alamat email</email>
+            <licenseKey>Kode lisensi</licenseKey>
+            <buttonUnlock>Buka kunci</buttonUnlock>
+            <buttonRestoreLicense>Kembalikan Lisensi</buttonRestoreLicense>
+            <invalidLicenseTitle>Lisensi tidak valid!</invalidLicenseTitle>
+            <invalidLicenseText>Pastikan semua huruf, angka, dan strip dimasukan dalam urutan yang benar. Jika anda mengetik angka menggunakan tangan, Silahkan coba untuk salin dan tempel dari tanda terima yang di kirim melalui email.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Kode lisensi ini valid akan tetapi kode lisensi ini tidak dimaksudkan untuk digunakan pada %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Terima Kasih sudah membeli %1 Pro</thanksTitle>
+            <thanksInfo>Semua batasan versi Gratis telah dihapus, kami harap Anda menikmati menggunakan aplikasi ini!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

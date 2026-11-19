@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.12" Author="cosmos223">
+<LanguageStrings version="1.5.20" Author="9demaio1964">
     <MainWindow>
         <staticSensorsListHeader>温度センサー:</staticSensorsListHeader>
         <listColumnFan>ファン</listColumnFan>
@@ -7,36 +7,36 @@
         <listColumnControl>制御方法</listColumnControl>
         <listColumnSensor>センサー</listColumnSensor>
         <listColumnSensorValue>温度</listColumnSensorValue>
-        <listSeparatorDrives>Disk Drives:</listSeparatorDrives>
+        <listSeparatorDrives>ディスクドライブ:</listSeparatorDrives>
         <popupMenuItemControl>制御方法の変更...</popupMenuItemControl>
         <popupMenuItemReset>自動制御に戻す</popupMenuItemReset>
         <fanControlAutomatic>自動</fanControlAutomatic>
-        <fanControlAutomaticInfo>自動制御 (システムによる制御)</fanControlAutomaticInfo>
-        <fanControlConstant>回転数 %1</fanControlConstant>
+        <fanControlAutomaticInfo>自動制御(システムによる制御)</fanControlAutomaticInfo>
+        <fanControlConstant>%1 回転</fanControlConstant>
         <fanControlSensor>温度 %1</fanControlSensor>
-        <fanControlUnknown>Unknown!</fanControlUnknown>
+        <fanControlUnknown>不明</fanControlUnknown>
         <buttonFanControlCustom>カスタム...</buttonFanControlCustom>
-        <buttonFanControlCustomInfo>カスタムコントロールモードの指定</buttonFanControlCustomInfo>
+        <buttonFanControlCustomInfo>カスタム・コントロールモードの指定</buttonFanControlCustomInfo>
         <buttonMinimize>最小化</buttonMinimize>
-        <buttonMinimizeMac>メニューバーに隠す</buttonMinimizeMac>
+        <buttonMinimizeMac>しまう</buttonMinimizeMac>
         <buttonPreferences>環境設定...</buttonPreferences>
         <buttonAbout>Macs Fan Control について...</buttonAbout>
-        <messageHelperToolInstall>Macs Fan Controlは、ファンを制御するためのヘルパーツールをインストールする必要があります。ファンと温度センサーを監視したいだけの場合は、これをスキップすることができます。</messageHelperToolInstall>
-        <messageHelperToolUpgrade>Macs Fan Controlは、ファンの制御に使用されるヘルパーツールの最新版をインストールする必要があります。</messageHelperToolUpgrade>
+        <messageHelperToolInstall>Macs Fan Control はファンを制御するためのヘルパーツールをインストールする必要があります。ファンと温度センサーを監視したいだけの場合はこれをスキップできます。</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control はファンの制御に使用されるヘルパーツールの最新版をインストールする必要があります。</messageHelperToolUpgrade>
         <messageFanControlNotAvailableTitle>ファンの制御不可</messageFanControlNotAvailableTitle>
-        <messageFanControlNotAvailable>Macs Fan Controlは、ファンの制御、速度の調整をするために必要なヘルパーアプリに接続できませんでした。 \n\n管理者のパスワードを求められた場合、必ず入力してください。\n\nモニタリング専用モードで、アプリを使用し続けることもできます。</messageFanControlNotAvailable>
+        <messageFanControlNotAvailable>Macs Fan Control はファンの制御、速度の調整をするために必要なヘルパーアプリに接続できませんでした。\n\n管理者のパスワードを求められた場合、必ず入力してください。\n\nモニタリング専用モードで、アプリを使用し続けることもできます。</messageFanControlNotAvailable>
         <messageFanControlNotAvailableButtonMonitoringOnly>モニタリング専用モード</messageFanControlNotAvailableButtonMonitoringOnly>
-        <messageNoFansDetected>ファンを検出できませんでした。[SMCリセット](https://support.apple.com/ja-jp/HT201295)を試してください。</messageNoFansDetected>
+        <messageNoFansDetected>ファンを検出できませんでした。[SMCリセット](https://support.apple.com/ja-jp/HT201295) をお試しください。</messageNoFansDetected>
         <messageNoFansAvailable>このコンピュータはファンがなく、自然冷却されています。</messageNoFansAvailable>
     </MainWindow>
     <FanControlDialog>
-        <title>%1 ファンの制御方法</title>
-        <radioConstant>回転数を一定値</radioConstant>
-        <radioSensor>センサー温度による制御</radioSensor>
+        <title>'%1' ファンの制御方法</title>
+        <radioConstant>一定の回転数値</radioConstant>
+        <radioSensor>温度センサーに基づく値</radioSensor>
         <staticIncrease>ファン速度が増加を始める温度:</staticIncrease>
         <staticMax>最大温度:</staticMax>
-        <statusWarning>何かが間違っています - 最小/最大のファンの値が同じです。(%1).&lt;br/&gt; 他のファン制御ソフトウェアをアンインストールしてからSMCリセットして確認して下さい。</statusWarning>
-        <saveToCurrentPreset>現在のプリセット ('%1') に保存する</saveToCurrentPreset>
+        <statusWarning>何かが間違っています - 最小/最大のファンの値が同じです(%1)。&lt;br/&gt; 他のファン制御ソフトウェアをアンインストールしてから SMC リセットしてご確認ください。</statusWarning>
+        <saveToCurrentPreset>現在のプリセット('%1') に保存する</saveToCurrentPreset>
     </FanControlDialog>
     <Presets>
         <activePresetLabel>有効なプリセット:</activePresetLabel>
@@ -49,97 +49,83 @@
         <presetMenuPredefined>定義済みプリセット:</presetMenuPredefined>
         <presetMenuCustom>カスタムプリセット:</presetMenuCustom>
         <presetMenuApply>適用</presetMenuApply>
-        <presetMenuProVersion>PROバージョンで利用可能</presetMenuProVersion>
+        <presetMenuProVersion>Pro バージョンで利用可能です</presetMenuProVersion>
         <presetMenuCurrent>プリセット - %1</presetMenuCurrent>
-        <presetMenuDiscard>破棄 (すべてのファンを自動に戻す)</presetMenuDiscard>
+        <presetMenuDiscard>破棄(すべてのファンを自動に戻す)</presetMenuDiscard>
         <labelPresetName>プリセットの名前:</labelPresetName>
         <savePresetTitle>カスタムプリセットを保存</savePresetTitle>
         <editPresetTitle>プリセットの名前を変更</editPresetTitle>
         <presetCreateNew>新規...</presetCreateNew>
         <presetCreateNewTitle>新規プリセットを作成</presetCreateNewTitle>
-        <presetCreateNewMessage>現在、すべてのファンがシステムによって制御されています。\n\n新しいプリセットを作成できるようにするには、少なくとも1台のファンの制御を「カスタム」に変更してください。</presetCreateNewMessage>
-        <presetCreateNewMessage2>現在、すべてのファンが既存のプリセット「%1」により、フル回転しています。少なくとも１つのファン制御を変更してください。</presetCreateNewMessage2>
-        <presetCreateNewButton>「%1」ファン用のカスタム・コントロール</presetCreateNewButton>
+        <presetCreateNewMessage>現在、すべてのファンがシステムによって制御されています。\n\n新しいプリセットを作成できるようにするには、少なくとも 1 つのファンの制御を「カスタム」に変更してください。</presetCreateNewMessage>
+        <presetCreateNewMessage2>現在、すべてのファンが既存のプリセット '%1' により、フル回転しています。少なくとも 1 つのファンの制御を変更してください。</presetCreateNewMessage2>
+        <presetCreateNewButton>'%1' ファン用のカスタム・コントロール</presetCreateNewButton>
     </Presets>
     <UpgradeToProDialog>
-        <title>Macs Fan Control プロへのアップグレード</title>
-        <proInfo1>プロバージョンでは、ファンのカスタムプリセットを作成・保存できるため、アクティビティに応じて素早く切り替えることができます。</proInfo1>
-        <proInfo2>すでにご購入いただいている方は、下の「ライセンスを入力」をクリックしてください。</proInfo2>
+        <title>Macs Fan Control Pro へアップグレード</title>
+        <proInfo1>Pro バージョンでは、ファンのカスタムプリセットを作成・保存できるため、アクティビティに応じて素早く切り替えられます。</proInfo1>
+        <proInfo2>すでにご購入いただいている方は、下の 'ライセンスを入力' をクリックしてください。</proInfo2>
         <buttonPurchase>購入</buttonPurchase>
         <buttonEnterLicense>ライセンスを入力</buttonEnterLicense>
         <buttonLater>あとで</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>プロバージョンを解除</title>
-        <infoText>Macs Fan Controlをすでに購入されている方は、電子メールのレシートに記載されているお客様のメールアドレスとライセンスキーを以下のボックスに入力してください。これでMacs Fan ControlのPro機能が完全に解除されます。</infoText>
-        <licenseVerifyInfo>入力された情報は、インターネット上で確認されます。</licenseVerifyInfo>
-        <email>メールアドレス</email>
-        <licenseKey>ライセンスキー</licenseKey>
-        <buttonUnlock>解除</buttonUnlock>
-        <buttonRestoreLicense>ライセンスの復元</buttonRestoreLicense>
-        <invalidLicenseTitle>ライセンスが無効です。</invalidLicenseTitle>
-        <invalidLicenseText>すべての文字、数字、ダッシュが正しい順序で入力されていることを確認してください。手で番号を入力している場合は、代わりにメールのレシートからコピー＆ペーストしてください。</invalidLicenseText>
-        <invalidLicenseMismatchOS>このライセンス・キーは有効ですが、%1 で使用することはできません。</invalidLicenseMismatchOS>
-        <thanksTitle>この度は「Macs Fan Control Pro」をご購入いただきありがとうございます。</thanksTitle>
-        <thanksInfo>無料版での制限はすべて解除されていますので、ぜひご利用ください。</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <trialVersion>試用バージョン</trialVersion>
+        <message>%1 をご試用いただきありがとうございます</message>
+        <messageSecondary>Intel ベース Mac にインストールされた Windows で動作する唯一のファン制御アプリです</messageSecondary>
+        <timeLeftDays>ご試用期間はあと %1 日で終了します。</timeLeftDays>
+        <timeLeftHours>ご試用期間はあと %1 時間で終了します。</timeLeftHours>
+        <trialOver>%1 日間の試用期間は終了しました。</trialOver>
+        <buttonContinue>試用を続ける</buttonContinue>
+        <buttonActivate>ライセンスを有効化</buttonActivate>
+        <buttonBuy>今すぐ購入</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>Macs Fan Control を表示</itemShow>
         <itemAvailableFans>ファン:</itemAvailableFans>
         <itemFanPresets>ファンのプリセット:</itemFanPresets>
-        <itemMoreLinks>もっと</itemMoreLinks>
+        <itemMoreLinks>追加情報</itemMoreLinks>
         <itemWebsite>ウェブサイトへ</itemWebsite>
         <itemCheckForUpdates>アップデートの確認...</itemCheckForUpdates>
-        <itemTechInfoZip>Create tech zip file...</itemTechInfoZip>
-        <itemRateApp>MacUpdateで評価</itemRateApp>
+        <itemTechInfoZip>技術情報の zip ファイル...</itemTechInfoZip>
+        <itemRateApp>MacUpdate で評価する</itemRateApp>
         <itemFollowTwitter>@crystalidea をフォローする</itemFollowTwitter>
         <itemUninstall>アンインストール...</itemUninstall>
         <itemExit>Macs Fan Control を終了</itemExit>
         <itemExitMac>Macs Fan Control を終了</itemExitMac>
         <itemSensorBased>温度制御</itemSensorBased>
-        <itemUpgradeToPro>プロバージョンにアップグレード</itemUpgradeToPro>
+        <itemUpgradeToPro>Pro バージョンにアップグレード</itemUpgradeToPro>
     </TrayMenu>
     <techInfoZipMessage>
-        <message>A support package '%1' consisting of anonymous technical data and main window screenshot is created on your desktop.\n\nPlease send this file to support@crystalidea.com or post at our GitHub Issue Tracker.</message>
-        <browseButton>Show zip file</browseButton>
+        <message>無記名の技術情報とメインウィンドウのスクリーンショットで構成されるサポートパッケージ '%1' がデスクトップに作成されます。\n\nこのファイルを support@crystalidea.com へ送信するか、GitHub Issue トラッカーに投稿してください。</message>
+        <browseButton>zip ファイルを表示</browseButton>
     </techInfoZipMessage>
     <PreferencesWindow>
         <title>環境設定</title>
         <TabGeneral>一般</TabGeneral>
         <tabTrayIcon>トレイアイコン</tabTrayIcon>
         <tabSensors>センサー</tabSensors>
-        <tabTrayIconMac>メニューバーアイコン表示</tabTrayIconMac>
-        <tabDiagnostics>Diagnostics</tabDiagnostics>
+        <tabTrayIconMac>メニューバーの表示</tabTrayIconMac>
+        <tabDiagnostics>診断</tabDiagnostics>
         <staticLanguage>言語:</staticLanguage>
-        <checkSystemStart>システム開始時に最小化して起動 (推奨)</checkSystemStart>
+        <checkSystemStart>システム開始時に最小化して起動(推奨)</checkSystemStart>
         <checkUpdatesOnStartup>アプリ起動時にアップデートを確認</checkUpdatesOnStartup>
-        <checkDockIcon>Show icon in dock</checkDockIcon>
+        <checkDockIcon>ドックにアイコンを表示</checkDockIcon>
         <checkFahrenheit>温度単位に華氏を使用</checkFahrenheit>
-        <checkPrecise>可能な場合温度を正確に表示 (例 45.4)</checkPrecise>
-        <labelSensors>以下の温度を読み取ります</labelSensors>
-        <checkExternalGPU>Thunderboltで接続されたeGPU</checkExternalGPU>
-        <checkSATADrives>接続された SATA ドライブ</checkSATADrives>
-        <checkNVMeDrives>接続された NVMe ドライブ</checkNVMeDrives>
+        <checkPrecise>可能な場合温度を正確に表示(例 45.4)</checkPrecise>
+        <labelSensors>以下の温度を読み取る</labelSensors>
+        <checkExternalGPU>Thunderbolt で接続された eGPU</checkExternalGPU>
+        <checkDrives>接続された NVMe/SATA ドライブ</checkDrives>
+        <checkDrivesExternal>外部ドライブを含む</checkDrivesExternal>
         <staticSensor>センサー:</staticSensor>
         <staticFan>ファン:</staticFan>
         <staticIcon>アイコン:</staticIcon>
-        <comboIconOptionShow>表示</comboIconOptionShow>
-        <comboIconOptionShowBW>表示 (モノクロ)</comboIconOptionShowBW>
+        <comboIconOptionShow>カラー表示</comboIconOptionShow>
+        <comboIconOptionShowBW>単色表示</comboIconOptionShowBW>
         <comboOptionNone>なし</comboOptionNone>
-        <checkTwoLines>ファン／センサーの測定値を2行で表示し、スペースを節約</checkTwoLines>
+        <checkTwoLines>ファン / センサーの測定値を改行して表示し、スペースを節約</checkTwoLines>
         <staticCelsiusOnlyOnWindows>(摂氏のみ)</staticCelsiusOnlyOnWindows>
-        <checkLog>ログを有効 (再起動が必要)</checkLog>
+        <checkLog>ログを有効(再起動が必要)</checkLog>
         <browseLog>参照</browseLog>
     </PreferencesWindow>
     <AboutDialog>
@@ -147,27 +133,27 @@
         <staticTechnicalSupport>テクニカルサポートフォーラム</staticTechnicalSupport>
         <staticOnlineHelp>オンラインヘルプ</staticOnlineHelp>
         <staticFreeVersion>無料版</staticFreeVersion>
-        <staticProVersion>プロ版, %1 computer(s) ライセンス</staticProVersion>
-        <staticWarning>このプログラムは自分のMacを損傷させずに使用する方法を知っている上級者向けの機能です。　作者は、データの損失、損害、利益損失またはプログラムの使用や誤用とその他のいかなるタイプの損失にも責任を負いません。 </staticWarning>
+        <staticProVersion>Pro 版, %1 台のコンピューターへのライセンス</staticProVersion>
+        <staticWarning>このプログラムは自分の Mac を損傷させずに使用する方法を知っている上級者向けの機能です。作者は、データの損失、損害、利益損失またはプログラムの使用や誤用とその他のいかなる種類の損失にも責任を負いません。 </staticWarning>
     </AboutDialog>
     <RateMeDialog>
         <message>MacUpdateでアプリを評価する</message>
-        <informativeText>もし、あなたが %1 を楽しんで使っているなら、少し時間を割いて評価していただけませんか？ 1分もかかりません。ご協力ありがとうございます！</informativeText>
-        <buttonRate>MacUpdateで評価</buttonRate>
+        <informativeText>もし、あなたが %1 を楽しんで使っているなら、少し時間を割いて評価していただけませんか? 1分もかかりません。ご協力ありがとうございます!</informativeText>
+        <buttonRate>MacUpdate で評価する</buttonRate>
         <buttonNoThanks>いいえ、結構です</buttonNoThanks>
         <checkDontShowAgain>このメッセージを今後表示しない</checkDontShowAgain>
     </RateMeDialog>
     <UninstallDialog>
-        <title>Macs Fan Control をアンインストールしますか。</title>
-        <message>環境設定、ファンヘルパーツール、Pro版のライセンスデータを含め、アプリをお使いのMacから完全にアンインストールします。ファン制御に対するすべての変更は元に戻り、ファンはシステムによって自動的に制御されます。 \n\nアプリをアンインストールする際に、認証を求められる場合があります。</message>
+        <title>Macs Fan Control をアンインストールします</title>
+        <message>お使いの Mac から環境設定、ファンヘルパーツール、Pro 版のライセンスデータを含め、アプリを完全にアンインストールします。ファン制御に対するすべての変更は元に戻り、ファンはシステムによって自動的に制御されます。\n\nアプリをアンインストールする際に、認証を求められる場合があります。</message>
         <authorizeText>ファンヘルパーツールをアンインストールするために、アプリを認証してください。</authorizeText>
         <buttonUninstall>アンインストール</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>ハードウェアによりファンが無効になっています</title>
+        <message>温度が低いため、この Mac モデルはファンを自動的に停止しました。システムが冷却が必要と判断してファンを再起動した時点で、手動でのファン制御が可能になります。</message>
+        <checkDiscard>このメッセージを今後表示しない</checkDiscard>
+        <buttonMoreInfo>詳細情報...</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>閉じる</buttonClose>
@@ -177,25 +163,25 @@
     </Common>
     <core>
         <UpdateChecker>
-            <ReleasedOn>%1 日にリリース</ReleasedOn>
+            <ReleasedOn>%1 にリリース</ReleasedOn>
             <CheckForUpdates>アップデートの確認...</CheckForUpdates>
             <NewVersionAvailable>新しいバージョンの %1 が入手できます。</NewVersionAvailable>
-            <NewVersionAvailableText>%1 %2 が入手できます（使用中のバージョンは %3 です）。今すぐダウンロードしますか?</NewVersionAvailableText>
+            <NewVersionAvailableText>%1 %2 が入手できます(使用中のバージョンは %3 です)。今すぐダウンロードしますか?</NewVersionAvailableText>
             <UpdateAlertTitle>ソフトウェア・アップデート</UpdateAlertTitle>
             <UpdateAlertReleaseNotes>リリースノート:</UpdateAlertReleaseNotes>
-            <UpdateAlertRemindLater>後で通知</UpdateAlertRemindLater>
+            <UpdateAlertRemindLater>あとで通知</UpdateAlertRemindLater>
             <UpdateAlertSkip>このバージョンはスキップ</UpdateAlertSkip>
             <UpdateAlertInstall>アップデートをインストール</UpdateAlertInstall>
             <UpdateAlertAutomaticUpdates>アップデートを自動で確認させますか</UpdateAlertAutomaticUpdates>
             <MessageNoUpdateAvailable>最新版を使用しています！</MessageNoUpdateAvailable>
             <MessageNoUpdateAvailableDescription>%1 %2 は現在入手できる最新バージョンです。</MessageNoUpdateAvailableDescription>
-            <MessageErrorConnect>アップデートをダウンロード中にエラーが発生しました。後でもう一度やり直してください。</MessageErrorConnect>
+            <MessageErrorConnect>アップデートをダウンロード中にエラーが発生しました。あとでもう一度やり直してください。</MessageErrorConnect>
             <MessageErrorParse>アップデートフィードを解析中にエラーが発生しました。</MessageErrorParse>
             <UpdateProgressTitle>%1 をアップデート中</UpdateProgressTitle>
             <UpdateProgressCancel>キャンセル</UpdateProgressCancel>
             <UpdateProgressInstallAndRelaunch>インストールして再起動</UpdateProgressInstallAndRelaunch>
-            <UpdateProgressStatusDownloading>アップデートをダウンロードしています…</UpdateProgressStatusDownloading>
-            <UpdateProgressExtract>アップデートを展開しています…</UpdateProgressExtract>
+            <UpdateProgressStatusDownloading>アップデートをダウンロードしています...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>アップデートを展開しています...</UpdateProgressExtract>
             <UpdateProgressStatusReady>インストールできます</UpdateProgressStatusReady>
             <UpdateProgressSize>%1 / %2</UpdateProgressSize>
             <UpdateProgressB>B</UpdateProgressB>
@@ -205,13 +191,13 @@
         </UpdateChecker>
         <LetsMoveMac>
             <kStrMoveApplicationCouldNotMove>アプリケーションフォルダに移動できませんでした</kStrMoveApplicationCouldNotMove>
-            <kStrMoveApplicationQuestionTitle>アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitle>
-            <kStrMoveApplicationQuestionTitleHome>ホームフォルダ内の\"アプリケーション\"フォルダに移動しますか？</kStrMoveApplicationQuestionTitleHome>
-            <kStrMoveApplicationQuestionMessage>%1 このアプリケーションを\"アプリケーション\"フォルダに移動できます。</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationQuestionTitle>アプリケーションフォルダに移動しますか?</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>ホームフォルダ内のアプリケーションフォルダに移動しますか?</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>この %1 をアプリケーションフォルダに移動できます。</kStrMoveApplicationQuestionMessage>
             <kStrMoveApplicationButtonMove>アプリケーションフォルダに移動する</kStrMoveApplicationButtonMove>
             <kStrMoveApplicationButtonDoNotMove>移動しない</kStrMoveApplicationButtonDoNotMove>
             <kStrMoveApplicationQuestionInfoWillRequirePasswd>この操作には管理者パスワードが必要です。</kStrMoveApplicationQuestionInfoWillRequirePasswd>
-            <kStrMoveApplicationQuestionInfoInDownloadsFolder>これにより\"ダウンロード\"フォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>これによりダウンロードフォルダを整理できます。</kStrMoveApplicationQuestionInfoInDownloadsFolder>
         </LetsMoveMac>
         <QLineEditEx>
             <actionUndo>元に戻す</actionUndo>
@@ -229,5 +215,19 @@
             <buttonYes>はい</buttonYes>
             <buttonNo>いいえ</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Pro バージョンを解除</title>
+            <infoText>すべての Pro 機能のロックを解除するには、%1 の購入時に使用したメールアドレスと、レシートに記載されているライセンス・キーを入力してください。</infoText>
+            <licenseVerifyInfo>入力された情報は、インターネット上で確認されます。</licenseVerifyInfo>
+            <email>メールアドレス</email>
+            <licenseKey>ライセンス・キー</licenseKey>
+            <buttonUnlock>解除</buttonUnlock>
+            <buttonRestoreLicense>ライセンスの復元</buttonRestoreLicense>
+            <invalidLicenseTitle>ライセンスが無効です。</invalidLicenseTitle>
+            <invalidLicenseText>すべての文字、数字、ダッシュが正しい順序で入力されていることを確認してください。手で番号を入力している場合は、代わりにメールのレシートからコピー＆ペーストしてください。</invalidLicenseText>
+            <invalidLicenseMismatchOS>このライセンス・キーは有効ですが、%1 で使用することはできません。</invalidLicenseMismatchOS>
+            <thanksTitle>この度は %1 Pro をご購入いただきありがとうございます。</thanksTitle>
+            <thanksInfo>無料版での制限はすべて解除されていますので、ぜひご利用ください。</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>輸入授權</buttonEnterLicense>
         <buttonLater>晚點再說</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>解鎖 Pro 版本</title>
-        <infoText>若您曾購買過 Macs Fan Control，請將電子收據中的電子信箱地址與授權碼輸入到下方欄位，即可完全解鎖 Macs Fan Control 中的所有的 Pro 功能。</infoText>
-        <licenseVerifyInfo>您輸入的資訊會經過網路驗證。</licenseVerifyInfo>
-        <email>電子信箱地址</email>
-        <licenseKey>授權碼</licenseKey>
-        <buttonUnlock>解鎖</buttonUnlock>
-        <buttonRestoreLicense>復原授權</buttonRestoreLicense>
-        <invalidLicenseTitle>授權無效！</invalidLicenseTitle>
-        <invalidLicenseText>請確定您輸入的字母、數字與連接號順序皆正確。如為手動輸入，請改從電子收據複製貼上。</invalidLicenseText>
-        <invalidLicenseMismatchOS>授權碼有效，但不能用來啟用 %1。</invalidLicenseMismatchOS>
-        <thanksTitle>感謝您購買 Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>已經解除所有免費版本限制，我們誠摯希望您能享受這個 app！</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>試用版</trialVersion>
         <message>感謝您試用 %1</message>
@@ -229,5 +215,19 @@
             <buttonYes>是</buttonYes>
             <buttonNo>否</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>解鎖 Pro 版本</title>
+            <infoText>請輸入購買 %1 時使用的電子信箱地址，以及收據上的授權碼，即可解鎖所有 Pro 功能。</infoText>
+            <licenseVerifyInfo>您輸入的資訊會經過網路驗證。</licenseVerifyInfo>
+            <email>電子信箱地址</email>
+            <licenseKey>授權碼</licenseKey>
+            <buttonUnlock>解鎖</buttonUnlock>
+            <buttonRestoreLicense>復原授權</buttonRestoreLicense>
+            <invalidLicenseTitle>授權無效！</invalidLicenseTitle>
+            <invalidLicenseText>請確定您輸入的字母、數字與連接號順序皆正確。如為手動輸入，請改從電子收據複製貼上。</invalidLicenseText>
+            <invalidLicenseMismatchOS>授權碼有效，但不能在 %1 上使用。</invalidLicenseMismatchOS>
+            <thanksTitle>感謝您購買 %1 Pro</thanksTitle>
+            <thanksInfo>已經解除所有免費版本限制，我們誠摯希望您能享受這個 app！</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

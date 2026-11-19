@@ -69,20 +69,6 @@
         <buttonEnterLicense>Inserir Licença</buttonEnterLicense>
         <buttonLater>Depois</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Desbloquear versão PRO</title>
-        <infoText>Se você ja comprou o Macs Fan Control, coloque seu email e a chave de licença nas caixas abaixo. Isso irá destravar todas as funcionalidades PRO do Macs Fan Control.</infoText>
-        <licenseVerifyInfo>A informaçao que você fornecer será verificada pela internet.</licenseVerifyInfo>
-        <email>Endereço de Email</email>
-        <licenseKey>Chave de licença</licenseKey>
-        <buttonUnlock>Desbloquear</buttonUnlock>
-        <buttonRestoreLicense>Restaurar Licença</buttonRestoreLicense>
-        <invalidLicenseTitle>Licença Invalida!</invalidLicenseTitle>
-        <invalidLicenseText>Confira se todas as letras, numeros, e hífens estão na ordem correta. Se voce estiver copiando a mão, tente copiar do email de recibo.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Esta licença e valida mas não para ser usada em %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Obrigado por comprar o Macs Fan Control</thanksTitle>
-        <thanksInfo>Todas as limitaçoes da versão grátis foram removidas, obrigado por usar o Macs Fan Control!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Mostrar temperatura exata quando possível (ex: 45.4)</checkPrecise>
         <labelSensors>Pegar temperatura de</labelSensors>
         <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Drives SATA conectados</checkSATADrives>
-        <checkNVMeDrives>Drives NVMe conectados</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Fan:</staticFan>
         <staticIcon>Ícone:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Yes</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Desbloquear versão PRO</title>
+            <infoText>Digite o endereço de email usado na compra de %1 e a chave de licença do recibo para desbloquear todos os recursos Pro.</infoText>
+            <licenseVerifyInfo>A informaçao que você fornecer será verificada pela internet.</licenseVerifyInfo>
+            <email>Endereço de Email</email>
+            <licenseKey>Chave de licença</licenseKey>
+            <buttonUnlock>Desbloquear</buttonUnlock>
+            <buttonRestoreLicense>Restaurar Licença</buttonRestoreLicense>
+            <invalidLicenseTitle>Licença Invalida!</invalidLicenseTitle>
+            <invalidLicenseText>Confira se todas as letras, numeros, e hífens estão na ordem correta. Se voce estiver copiando a mão, tente copiar do email de recibo.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Esta licença e valida mas não para ser usada em %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Obrigado por comprar o %1 Pro</thanksTitle>
+            <thanksInfo>Todas as limitaçoes da versão grátis foram removidas, esperamos que você goste de usar o aplicativo!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.9" Author="Sergio Bejarano Romero - Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez - Héctor Cortés (stonkol)">
+<LanguageStrings version="1.5.19" Author="Sergio Bejarano Romero - Antonio Chaparro Agruña - Benjamin Segura Hernández - Darío Hereñú - Ugo R. Sanchez - Héctor Cortés (stonkol) - Adrian M">
     <MainWindow>
         <staticSensorsListHeader>Sensores de Temperatura:</staticSensorsListHeader>
         <listColumnFan>Ventilador</listColumnFan>
@@ -69,24 +69,10 @@
         <buttonEnterLicense>Ingresar licencia</buttonEnterLicense>
         <buttonLater>Más tarde</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Desbloquear versión Pro</title>
-        <infoText>Si ya compró Macs Fan Control, introduzca su email y la clave de licencia localizada en el recibo del correo electrónico en los campos de a continuación. Esto desbloqueará completamente las funciones Pro de Macs Fan Control.</infoText>
-        <licenseVerifyInfo>La información que introduzca puede ser verificada por Internet.</licenseVerifyInfo>
-        <email>Dirección de correo electrónico</email>
-        <licenseKey>Clave de licencia</licenseKey>
-        <buttonUnlock>Desbloquear</buttonUnlock>
-        <buttonRestoreLicense>Restablecer licencia</buttonRestoreLicense>
-        <invalidLicenseTitle>¡Licencia inválida!</invalidLicenseTitle>
-        <invalidLicenseText>Asegúrese de ingresar todas las letras, números y guiones en el orden correcto. Si está escribiendo la clave a mano, intente copiarla y pegarla desde su recibo del correo electrónico.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Esta clave de licencia es válida pero no está destinada a ser utilizada en %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Gracias por comprar Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Se han eliminado todas las limitaciones de la versión gratuita. ¡Esperamos que disfrute usando la aplicación!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Versión de prueba</trialVersion>
         <message>Gracias por probar %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
+        <messageSecondary>La única aplicación capaz de controlar ventiladores en Macs con procesador Intel en Windows.</messageSecondary>
         <timeLeftDays>Te quedan %1 días restantes de tu periodo de prueba.</timeLeftDays>
         <timeLeftHours>Te quedan %1 horas restantes de tu periodo de prueba.</timeLeftHours>
         <trialOver>La prueba de %1 días ha finalizado.</trialOver>
@@ -129,8 +115,8 @@
         <checkPrecise>Mostrar temperatura con precisión cuando sea posible (ej. 45.4)</checkPrecise>
         <labelSensors>Leer temperaturas de</labelSensors>
         <checkExternalGPU>eGPUs conectados via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Discos SATA conectados</checkSATADrives>
-        <checkNVMeDrives>Discos NVMe conectados</checkNVMeDrives>
+        <checkDrives>Discos NVMe/SATA conectados</checkDrives>
+        <checkDrivesExternal>Incluidos discos externos</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilador:</staticFan>
         <staticIcon>Icono:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Si</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Desbloquear versión Pro</title>
+            <infoText>Introduzca el correo electrónico con el que compró %1 y la clave de licencia de su recibo para desbloquear todas las funciones Pro.</infoText>
+            <licenseVerifyInfo>La información que introduzca puede ser verificada por Internet.</licenseVerifyInfo>
+            <email>Dirección de correo electrónico</email>
+            <licenseKey>Clave de licencia</licenseKey>
+            <buttonUnlock>Desbloquear</buttonUnlock>
+            <buttonRestoreLicense>Restablecer licencia</buttonRestoreLicense>
+            <invalidLicenseTitle>¡Licencia inválida!</invalidLicenseTitle>
+            <invalidLicenseText>Asegúrese de ingresar todas las letras, números y guiones en el orden correcto. Si está escribiendo la clave a mano, intente copiarla y pegarla desde su recibo del correo electrónico.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Esta clave de licencia es válida pero no está destinada a ser utilizada en %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Gracias por comprar %1 Pro</thanksTitle>
+            <thanksInfo>Se han eliminado todas las limitaciones de la versión gratuita. ¡Esperamos que disfrute usando la aplicación!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

@@ -69,20 +69,6 @@
         <buttonEnterLicense>Introduir Llicència</buttonEnterLicense>
         <buttonLater>Després</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Desbloquejar la versió Pro</title>
-        <infoText>Si ja has comprat Macs Fan Control, introdueix el teu correu electrònic i la clau de llicència inclosa a la factura enviada al seu correu electrònic als espais de sota. Això desbloquejarà completament la versió PRO de Macs Fan Control.</infoText>
-        <licenseVerifyInfo>La informació que introdueixis pot ser verificada a través d'Internet.</licenseVerifyInfo>
-        <email>Adreça de correu electrònic</email>
-        <licenseKey>Clau de llicència</licenseKey>
-        <buttonUnlock>Desbloquejar</buttonUnlock>
-        <buttonRestoreLicense>Restaurar Licència</buttonRestoreLicense>
-        <invalidLicenseTitle>Llicència invàlida!</invalidLicenseTitle>
-        <invalidLicenseText>Assegura't de que totes les lletres, números i guions estan escrits en l‘ordre correcte. Si ho estàs introduint manualment, intenta copiar-ho des de la factura enviada per correu electrònic i enganxar-ho aquí.</invalidLicenseText>
-        <invalidLicenseMismatchOS>Aquesta llicència és valida pero no és per ser utilitzada a %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Gràcies per comprar Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>Totes les limitacions de la versió gratuita s’han suprimit. Esperem que frueixis utilitzant l‘aplicació!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Visualització precisa de la temperatura quan sigui possible (per ex. 45.4)</checkPrecise>
         <labelSensors>Llegir temperatures de</labelSensors>
         <checkExternalGPU>eGPUs connectades a través de Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Discos SATA connectats</checkSATADrives>
-        <checkNVMeDrives>Discos NVMe connectats</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Sensor:</staticSensor>
         <staticFan>Ventilador:</staticFan>
         <staticIcon>Icona:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Sí</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Desbloquejar la versió Pro</title>
+            <infoText>Introdueix l'adreça de correu electrònic que vas fer servir per comprar %1 i la clau de llicència de la factura per desbloquejar totes les funcions Pro.</infoText>
+            <licenseVerifyInfo>La informació que introdueixis pot ser verificada a través d'Internet.</licenseVerifyInfo>
+            <email>Adreça de correu electrònic</email>
+            <licenseKey>Clau de llicència</licenseKey>
+            <buttonUnlock>Desbloquejar</buttonUnlock>
+            <buttonRestoreLicense>Restaurar Licència</buttonRestoreLicense>
+            <invalidLicenseTitle>Llicència invàlida!</invalidLicenseTitle>
+            <invalidLicenseText>Assegura't de que totes les lletres, números i guions estan escrits en l‘ordre correcte. Si ho estàs introduint manualment, intenta copiar-ho des de la factura enviada per correu electrònic i enganxar-ho aquí.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Aquesta llicència és valida pero no és per ser utilitzada a %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Gràcies per comprar %1 Pro</thanksTitle>
+            <thanksInfo>Totes les limitacions de la versió gratuita s’han suprimit. Esperem que frueixis utilitzant l‘aplicació!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>

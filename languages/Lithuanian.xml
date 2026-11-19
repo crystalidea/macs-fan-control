@@ -69,20 +69,6 @@
         <buttonEnterLicense>Enter License</buttonEnterLicense>
         <buttonLater>Later</buttonLater>
     </UpgradeToProDialog>
-    <EnterLicenseDialog>
-        <title>Unlock Pro version</title>
-        <infoText>If you have already purchased Macs Fan Control, enter your email address and license key from your email receipt into the boxes below. This will fully unlock Pro features of Macs Fan Control.</infoText>
-        <licenseVerifyInfo>The information you enter may be verified over the Internet.</licenseVerifyInfo>
-        <email>Email Address</email>
-        <licenseKey>License Key</licenseKey>
-        <buttonUnlock>Unlock</buttonUnlock>
-        <buttonRestoreLicense>Restore License</buttonRestoreLicense>
-        <invalidLicenseTitle>Invalid license!</invalidLicenseTitle>
-        <invalidLicenseText>Make sure all letters, numbers, and dashes are entered in the correct order. If you're typing the number by hand, try copying and pasting it from your email receipt instead.</invalidLicenseText>
-        <invalidLicenseMismatchOS>This license key is valid but not intended to be used on %1.</invalidLicenseMismatchOS>
-        <thanksTitle>Thank you for purchasing Macs Fan Control Pro</thanksTitle>
-        <thanksInfo>All the limitations of Free version have been removed, we hope you enjoy using the app!</thanksInfo>
-    </EnterLicenseDialog>
     <TrialDialog>
         <trialVersion>Trial version</trialVersion>
         <message>Thank you for trying %1</message>
@@ -129,8 +115,8 @@
         <checkPrecise>Patikslinti temperatūrą, kai galima (pvz.: 45.4)</checkPrecise>
         <labelSensors>Read temperatures of</labelSensors>
         <checkExternalGPU>eGPUs connected via Thunderbolt</checkExternalGPU>
-        <checkSATADrives>Connected SATA drives</checkSATADrives>
-        <checkNVMeDrives>Connected NVMe drives</checkNVMeDrives>
+        <checkDrives>Connected NVMe/SATA drives</checkDrives>
+        <checkDrivesExternal>Including external drives</checkDrivesExternal>
         <staticSensor>Jutiklisr:</staticSensor>
         <staticFan>Ventiliatorius:</staticFan>
         <staticIcon>Ikona:</staticIcon>
@@ -229,5 +215,19 @@
             <buttonYes>Yes</buttonYes>
             <buttonNo>No</buttonNo>
         </QMessageBoxEx>
+        <AppLicenseActivateDialog>
+            <title>Atrakinti Pro versiją</title>
+            <infoText>Įveskite el. pašto adresą, kurį naudojote pirkdami programą %1, ir licencijos raktą iš pirkimo kvito, kad atrakintumėte visas Pro funkcijas.</infoText>
+            <licenseVerifyInfo>Įvesta informacija gali būti patikrinta internetu.</licenseVerifyInfo>
+            <email>El. pašto adresas</email>
+            <licenseKey>Licencijos raktas</licenseKey>
+            <buttonUnlock>Atrakinti</buttonUnlock>
+            <buttonRestoreLicense>Atkurti licenciją</buttonRestoreLicense>
+            <invalidLicenseTitle>Netinkama licencija!</invalidLicenseTitle>
+            <invalidLicenseText>Įsitikinkite, kad visos raidės, skaitmenys ir brūkšneliai įvesti teisinga tvarka. Jei simbolius renkate ranka, pabandykite juos nukopijuoti ir įklijuoti iš el. laiške gauto kvito.</invalidLicenseText>
+            <invalidLicenseMismatchOS>Šis licencijos raktas galioja, tačiau nėra skirtas naudoti operacinėje sistemoje %1.</invalidLicenseMismatchOS>
+            <thanksTitle>Dėkojame, kad įsigijote %1 Pro</thanksTitle>
+            <thanksInfo>Visi nemokamos versijos apribojimai panaikinti. Tikimės, kad jums patiks naudotis programa!</thanksInfo>
+        </AppLicenseActivateDialog>
     </core>
 </LanguageStrings>
