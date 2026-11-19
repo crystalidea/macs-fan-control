@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageStrings version="1.5.13" Author="OREKASEP - Thanh TRAN CONG, sorae_42 (skyventuree)">
+<LanguageStrings version="1.5.17" Author="OREKASEP - Thanh TRAN CONG, sorae_42 (skyventuree)">
     <MainWindow>
         <staticSensorsListHeader>Cảm biến nhiệt độ:</staticSensorsListHeader>
         <listColumnFan>Quạt</listColumnFan>
@@ -50,7 +50,7 @@
         <presetMenuCustom>Presets tuỳ chỉnh:</presetMenuCustom>
         <presetMenuApply>Áp dụng</presetMenuApply>
         <presetMenuProVersion>Chỉ có ở phiên bản PRO</presetMenuProVersion>
-        <presetMenuCurrent>Preset - %1</presetMenuCurrent>
+        <presetMenuCurrent>Cấu hình - %1</presetMenuCurrent>
         <presetMenuDiscard>Huỷ bỏ (đặt lại quạt về tự động)</presetMenuDiscard>
         <labelPresetName>Tên preset:</labelPresetName>
         <savePresetTitle>Lưu preset tuỳ chỉnh</savePresetTitle>
@@ -70,15 +70,15 @@
         <buttonLater>Để sau</buttonLater>
     </UpgradeToProDialog>
     <TrialDialog>
-        <trialVersion>Trial version</trialVersion>
-        <message>Thank you for trying %1</message>
-        <messageSecondary>The only app able to control fans on Intel-based Macs in Windows</messageSecondary>
-        <timeLeftDays>You have %1 days remaining of your trial period.</timeLeftDays>
-        <timeLeftHours>You have %1 hours remaining of your trial period.</timeLeftHours>
-        <trialOver>The trial of %1 days is over.</trialOver>
-        <buttonContinue>Continue Trial</buttonContinue>
-        <buttonActivate>Activate License</buttonActivate>
-        <buttonBuy>Buy Now</buttonBuy>
+        <trialVersion>Phiên bản dùng thử</trialVersion>
+        <message>Cảm ơn bạn đã dùng thử %1</message>
+        <messageSecondary>Ứng dụng duy nhất có thể điều khiển quạt trên máy Mac chạy Intel trong Windows</messageSecondary>
+        <timeLeftDays>Bạn còn %1 ngày trong thời gian dùng thử.</timeLeftDays>
+        <timeLeftHours>Bạn còn %1 giờ trong thời gian dùng thử.</timeLeftHours>
+        <trialOver>Thời gian dùng thử %1 ngày đã hết.</trialOver>
+        <buttonContinue>Tiếp tục dùng thử</buttonContinue>
+        <buttonActivate>Kích hoạt giấy phép</buttonActivate>
+        <buttonBuy>Mua ngay</buttonBuy>
     </TrialDialog>
     <TrayMenu>
         <itemShow>Hiện Macs Fan Control</itemShow>
@@ -150,10 +150,10 @@
         <buttonUninstall>Gỡ cài đặt</buttonUninstall>
     </UninstallDialog>
     <messageFanControlLimited>
-        <title>Fans disabled by hardware</title>
-        <message>Due to low temperatures, this Mac model has automatically disabled the fans. Manual fan control will take effect once the system reactivates them, when it determines that cooling is necessary.</message>
-        <checkDiscard>Do not show this message again</checkDiscard>
-        <buttonMoreInfo>More info...</buttonMoreInfo>
+        <title>Quạt bị vô hiệu hoá bởi phần cứng</title>
+        <message>Do nhiệt độ thấp, dòng Mac này đã tự động tắt quạt. Chế độ điều khiển quạt thủ công sẽ có hiệu lực khi hệ thống kích hoạt lại quạt, khi xác định rằng cần làm mát.</message>
+        <checkDiscard>Không hiển thị thông báo này nữa</checkDiscard>
+        <buttonMoreInfo>Thêm thông tin...</buttonMoreInfo>
     </messageFanControlLimited>
     <Common>
         <buttonClose>Đóng</buttonClose>
