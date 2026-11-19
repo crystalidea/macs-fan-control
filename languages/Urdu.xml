@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageStrings version="1.5.17" Author="QwertyOfficial on GitHub">
+    <MainWindow>
+        <staticSensorsListHeader>درجہ حرارت کے سینسرز:</staticSensorsListHeader>
+        <listColumnFan>پنکھا</listColumnFan>
+        <listColumnRPM>کم/موجودہ/زیادہ RPM</listColumnRPM>
+        <listColumnControl>کنٹرول</listColumnControl>
+        <listColumnSensor>سینسر</listColumnSensor>
+        <listColumnSensorValue>قدر</listColumnSensorValue>
+        <listSeparatorDrives>ڈسک ڈرائیوز:</listSeparatorDrives>
+        <popupMenuItemControl>کنٹرول تبدیل کریں...</popupMenuItemControl>
+        <popupMenuItemReset>خودکار کنٹرول پر دوبارہ سیٹ کریں</popupMenuItemReset>
+        <fanControlAutomatic>خودکار</fanControlAutomatic>
+        <fanControlAutomaticInfo>خودکار (سسٹم کے ذریعے کنٹرول)</fanControlAutomaticInfo>
+        <fanControlConstant>%1 کی مستقل قدر</fanControlConstant>
+        <fanControlSensor>%1 پر مبنی</fanControlSensor>
+        <fanControlUnknown>نامعلوم!</fanControlUnknown>
+        <buttonFanControlCustom>حسب ضرورت...</buttonFanControlCustom>
+        <buttonFanControlCustomInfo>حسب ضرورت کنٹرولنگ موڈ متعین کریں</buttonFanControlCustomInfo>
+        <buttonMinimize>چھوٹا کریں</buttonMinimize>
+        <buttonMinimizeMac>مینو بار میں چھپائیں</buttonMinimizeMac>
+        <buttonPreferences>ترجیحات...</buttonPreferences>
+        <buttonAbout>معلومات...</buttonAbout>
+        <messageHelperToolInstall>Macs Fan Control کو پنکھے کے کنٹرول کے لیے ایک معاون ٹول انسٹال کرنے کی ضرورت ہے۔ اگر آپ صرف پنکھوں &amp; درجہ حرارت کے سینسرز کی نگرانی کرنا چاہتے ہیں تو آپ اسے چھوڑ سکتے ہیں۔</messageHelperToolInstall>
+        <messageHelperToolUpgrade>Macs Fan Control کو پنکھے کے کنٹرول کے لیے استعمال ہونے والے معاون ٹول کا اپ ڈیٹ شدہ ورژن انسٹال کرنے کی ضرورت ہے۔</messageHelperToolUpgrade>
+        <messageFanControlNotAvailableTitle>پنکھے کا کنٹرول دستیاب نہیں</messageFanControlNotAvailableTitle>
+        <messageFanControlNotAvailable>Macs Fan Control پنکھے کے کنٹرول کو فعال کرنے اور رفتار کو ایڈجسٹ کرنے کے لیے معاون ایپ سے منسلک نہیں ہو سکا۔ جب پوچھا جائے تو ایڈمنسٹریٹر پاس ورڈ درج کرنا یقینی بنائیں۔\n\nآپ ابھی بھی ایپ کو صرف نگرانی کے موڈ میں استعمال کر سکتے ہیں۔</messageFanControlNotAvailable>
+        <messageFanControlNotAvailableButtonMonitoringOnly>صرف نگرانی</messageFanControlNotAvailableButtonMonitoringOnly>
+        <messageNoFansDetected>کوئی پنکھے نہیں ملے، براہ کرم [SMC کو ری سیٹ](https://support.apple.com/en-us/HT201295) کرنے کی کوشش کریں</messageNoFansDetected>
+        <messageNoFansAvailable>اس کمپیوٹر میں کوئی پنکھے نہیں ہیں اور یہ غیر فعال طریقے سے ٹھنڈا ہوتا ہے</messageNoFansAvailable>
+    </MainWindow>
+    <FanControlDialog>
+        <title>'%1' پنکھے کے لیے پنکھے کا کنٹرول تبدیل کریں</title>
+        <radioConstant>مستقل RPM قدر</radioConstant>
+        <radioSensor>سینسر پر مبنی قدر</radioSensor>
+        <staticIncrease>وہ درجہ حرارت جس سے پنکھے کی رفتار بڑھنا شروع ہوگی:</staticIncrease>
+        <staticMax>زیادہ سے زیادہ درجہ حرارت:</staticMax>
+        <statusWarning>کچھ غلط ہے - کم/زیادہ پنکھے کی قدریں برابر ہیں (%1)۔&lt;br/&gt; براہ کرم یقینی بنائیں کہ کوئی دوسرا پنکھا کنٹرول کرنے والا سافٹ ویئر ان انسٹال کریں اور SMC کو ری سیٹ کریں۔</statusWarning>
+        <saveToCurrentPreset>موجودہ پری سیٹ ('%1') میں محفوظ کریں</saveToCurrentPreset>
+    </FanControlDialog>
+    <Presets>
+        <activePresetLabel>فعال پری سیٹ:</activePresetLabel>
+        <presetAutomatic>خودکار</presetAutomatic>
+        <presetFullBlast>مکمل رفتار</presetFullBlast>
+        <presetCurrentUnsaved>حسب ضرورت*</presetCurrentUnsaved>
+        <presetMenuSave>محفوظ کریں...</presetMenuSave>
+        <presetMenuRename>نام تبدیل کریں</presetMenuRename>
+        <presetMenuDelete>حذف کریں</presetMenuDelete>
+        <presetMenuPredefined>پہلے سے طے شدہ پری سیٹس:</presetMenuPredefined>
+        <presetMenuCustom>حسب ضرورت پری سیٹس:</presetMenuCustom>
+        <presetMenuApply>لاگو کریں</presetMenuApply>
+        <presetMenuProVersion>PRO ورژن میں دستیاب</presetMenuProVersion>
+        <presetMenuCurrent>پری سیٹ - %1</presetMenuCurrent>
+        <presetMenuDiscard>رد کریں (تمام پنکھوں کو خودکار پر ری سیٹ کریں)</presetMenuDiscard>
+        <labelPresetName>پری سیٹ کا نام:</labelPresetName>
+        <savePresetTitle>حسب ضرورت پری سیٹ محفوظ کریں</savePresetTitle>
+        <editPresetTitle>پری سیٹ کا نام تبدیل کریں</editPresetTitle>
+        <presetCreateNew>نیا...</presetCreateNew>
+        <presetCreateNewTitle>نیا پری سیٹ بنائیں</presetCreateNewTitle>
+        <presetCreateNewMessage>آپ کے تمام پنکھے فی الوقت سسٹم کے ذریعے کنٹرول کیے جا رہے ہیں۔ \n\nبراہ کرم نیا پری سیٹ بنانے کے قابل ہونے کے لیے اپنے کم از کم ایک پنکھے کے کنٹرول کو حسب ضرورت میں تبدیل کریں۔</presetCreateNewMessage>
+        <presetCreateNewMessage2>براہ کرم اپنے کم از کم ایک پنکھے کا کنٹرول تبدیل کریں کیونکہ وہ سب فی الوقت مکمل رفتار پر چل رہے ہیں، جو موجودہ '%1' پری سیٹ سے میچ کرتا ہے۔</presetCreateNewMessage2>
+        <presetCreateNewButton>'%1' پنکھے کے لیے حسب ضرورت کنٹرول</presetCreateNewButton>
+    </Presets>
+    <UpgradeToProDialog>
+        <title>Macs Fan Control Pro میں اپ گریڈ کریں</title>
+        <proInfo1>Pro ورژن حسب ضرورت پنکھے کی پری سیٹس بنانے اور محفوظ کرنے کے قابل ہے تاکہ آپ اپنی سرگرمی کے مطابق ان کے درمیان تیزی سے سوئچ کر سکیں۔</proInfo1>
+        <proInfo2>اگر آپ نے پہلے سے ایپ خریدی ہے، تو براہ کرم نیچے 'لائسنس درج کریں' بٹن دبائیں۔</proInfo2>
+        <buttonPurchase>خریدیں</buttonPurchase>
+        <buttonEnterLicense>لائسنس درج کریں</buttonEnterLicense>
+        <buttonLater>بعد میں</buttonLater>
+    </UpgradeToProDialog>
+    <EnterLicenseDialog>
+        <title>Pro ورژن ان لاک کریں</title>
+        <infoText>اگر آپ نے پہلے سے Macs Fan Control خریدا ہے، تو نیچے دیے گئے خانوں میں اپنی ای میل رسید سے اپنا ای میل ایڈریس اور لائسنس کی داخل کریں۔ اس سے Macs Fan Control کی Pro خصوصیات مکمل طور پر ان لاک ہو جائیں گی۔</infoText>
+        <licenseVerifyInfo>آپ جو معلومات درج کرتے ہیں وہ انٹرنیٹ کے ذریعے تصدیق ہو سکتی ہیں۔</licenseVerifyInfo>
+        <email>ای میل ایڈریس</email>
+        <licenseKey>لائسنس کی</licenseKey>
+        <buttonUnlock>ان لاک کریں</buttonUnlock>
+        <buttonRestoreLicense>لائسنس بحال کریں</buttonRestoreLicense>
+        <invalidLicenseTitle>غلط لائسنس!</invalidLicenseTitle>
+        <invalidLicenseText>یقینی بنائیں کہ تمام حروف، نمبر، اور ڈیشز درست ترتیب میں درج ہیں۔ اگر آپ حروف ہاتھ سے ٹائپ کر رہے ہیں، تو اس کے بجائے اپنی ای میل رسید سے کاپی اور پیسٹ کرنے کی کوشش کریں۔</invalidLicenseText>
+        <invalidLicenseMismatchOS>یہ لائسنس کی درست ہے لیکن %1 پر استعمال کرنے کے لیے نہیں ہے۔</invalidLicenseMismatchOS>
+        <thanksTitle>Macs Fan Control Pro خریدنے کے لیے آپ کا شکریہ</thanksTitle>
+        <thanksInfo>Free ورژن کی تمام پابندیاں ہٹا دی گئی ہیں، ہمیں امید ہے کہ آپ ایپ استعمال کرنے سے لطف اندوز ہوں گے!</thanksInfo>
+    </EnterLicenseDialog>
+    <TrialDialog>
+        <trialVersion>آزمائشی ورژن</trialVersion>
+        <message>%1 آزمانے کے لیے آپ کا شکریہ</message>
+        <messageSecondary>Windows میں Intel پر مبنی Macs پر پنکھوں کو کنٹرول کرنے والی واحد ایپ</messageSecondary>
+        <timeLeftDays>آپ کی آزمائشی مدت کے %1 دن باقی ہیں۔</timeLeftDays>
+        <timeLeftHours>آپ کی آزمائشی مدت کے %1 گھنٹے باقی ہیں۔</timeLeftHours>
+        <trialOver>%1 دنوں کی آزمائش ختم ہو گئی ہے۔</trialOver>
+        <buttonContinue>آزمائش جاری رکھیں</buttonContinue>
+        <buttonActivate>لائسنس فعال کریں</buttonActivate>
+        <buttonBuy>ابھی خریدیں</buttonBuy>
+    </TrialDialog>
+    <TrayMenu>
+        <itemShow>Macs Fan Control دکھائیں</itemShow>
+        <itemAvailableFans>دستیاب پنکھے:</itemAvailableFans>
+        <itemFanPresets>پنکھے کی پری سیٹس:</itemFanPresets>
+        <itemMoreLinks>مزید</itemMoreLinks>
+        <itemWebsite>ویب سائٹ</itemWebsite>
+        <itemCheckForUpdates>اپ ڈیٹس چیک کریں...</itemCheckForUpdates>
+        <itemTechInfoZip>ٹیک zip فائل بنائیں...</itemTechInfoZip>
+        <itemRateApp>MacUpdate پر درجہ بندی کریں</itemRateApp>
+        <itemFollowTwitter>@crystalidea فالو کریں</itemFollowTwitter>
+        <itemUninstall>ان انسٹال کریں...</itemUninstall>
+        <itemExit>باہر نکلیں</itemExit>
+        <itemExitMac>Macs Fan Control سے باہر نکلیں</itemExitMac>
+        <itemSensorBased>سینسر پر مبنی</itemSensorBased>
+        <itemUpgradeToPro>Pro ورژن میں اپ گریڈ کریں</itemUpgradeToPro>
+    </TrayMenu>
+    <techInfoZipMessage>
+        <message>گمنام تکنیکی ڈیٹا اور مین ونڈو کے اسکرین شاٹ پر مشتمل ایک سپورٹ پیکیج '%1' آپ کے ڈیسک ٹاپ پر بنایا گیا ہے۔\n\nبراہ کرم یہ فائل support@crystalidea.com کو بھیجیں یا ہمارے GitHub Issue Tracker پر پوسٹ کریں۔</message>
+        <browseButton>zip فائل دکھائیں</browseButton>
+    </techInfoZipMessage>
+    <PreferencesWindow>
+        <title>ترجیحات</title>
+        <TabGeneral>عمومی</TabGeneral>
+        <tabTrayIcon>ٹرے آئیکن</tabTrayIcon>
+        <tabSensors>سینسرز</tabSensors>
+        <tabTrayIconMac>مینو بار ڈسپلے</tabTrayIconMac>
+        <tabDiagnostics>تشخیص</tabDiagnostics>
+        <staticLanguage>زبان:</staticLanguage>
+        <checkSystemStart>لاگ ان ہونے پر خود بخود منیمائزڈ شروع کریں (تجویز کردہ)</checkSystemStart>
+        <checkUpdatesOnStartup>ایپ شروع ہونے پر اپ ڈیٹس چیک کریں</checkUpdatesOnStartup>
+        <checkDockIcon>ڈاک میں آئیکن دکھائیں</checkDockIcon>
+        <checkFahrenheit>فارن ہائیٹ درجہ حرارت کا پیمانہ استعمال کریں</checkFahrenheit>
+        <checkPrecise>ممکن ہونے پر درجہ حرارت کی درست نمائش (مثلاً 45.4)</checkPrecise>
+        <labelSensors>درجہ حرارت پڑھیں</labelSensors>
+        <checkExternalGPU>Thunderbolt کے ذریعے منسلک eGPUs</checkExternalGPU>
+        <checkSATADrives>منسلک SATA ڈرائیوز</checkSATADrives>
+        <checkNVMeDrives>منسلک NVMe ڈرائیوز</checkNVMeDrives>
+        <staticSensor>سینسر:</staticSensor>
+        <staticFan>پنکھا:</staticFan>
+        <staticIcon>آئیکن:</staticIcon>
+        <comboIconOptionShow>رنگین</comboIconOptionShow>
+        <comboIconOptionShowBW>یک رنگ</comboIconOptionShowBW>
+        <comboOptionNone>کوئی نہیں</comboOptionNone>
+        <checkTwoLines>کچھ جگہ بچانے کے لیے پنکھے/سینسر کی ریڈنگز دو لائنوں میں دکھائیں</checkTwoLines>
+        <staticCelsiusOnlyOnWindows>(صرف سیلسیس)</staticCelsiusOnlyOnWindows>
+        <checkLog>لاگ فعال کریں (دوبارہ شروع کرنا ضروری)</checkLog>
+        <browseLog>براؤز کریں</browseLog>
+    </PreferencesWindow>
+    <AboutDialog>
+        <title>Macs Fan Control کے بارے میں</title>
+        <staticTechnicalSupport>فورم پر تکنیکی معاونت</staticTechnicalSupport>
+        <staticOnlineHelp>آن لائن مدد</staticOnlineHelp>
+        <staticFreeVersion>Free ورژن</staticFreeVersion>
+        <staticProVersion>Pro ورژن، %1 کمپیوٹر(وں) کا لائسنس</staticProVersion>
+        <staticWarning>یہ پروگرام اعلیٰ صارفین کے لیے ہے جو جانتے ہیں کہ اپنے Mac کو نقصان پہنچائے بغیر اسے کیسے استعمال کرنا ہے۔ اس پروگرام کے استعمال یا غلط استعمال کی وجہ سے ڈیٹا کی کمی، نقصانات، منافع کی کمی یا کسی بھی دوسری قسم کے نقصانات کے لیے مصنفین ذمہ دار نہیں ہیں</staticWarning>
+    </AboutDialog>
+    <RateMeDialog>
+        <message>ایپ کو MacUpdate پر درجہ دیں</message>
+        <informativeText>اگر آپ %1 استعمال کرنے سے لطف اندوز ہو رہے ہیں، تو کیا آپ اسے درجہ دینے کے لیے ایک لمحہ نکال سکتے ہیں؟ اس میں ایک منٹ سے زیادہ وقت نہیں لگے گا۔ آپ کی حمایت کے لیے شکریہ!</informativeText>
+        <buttonRate>MacUpdate پر درجہ دیں</buttonRate>
+        <buttonNoThanks>نہیں، شکریہ</buttonNoThanks>
+        <checkDontShowAgain>یہ پیغام دوبارہ نہ دکھائیں</checkDontShowAgain>
+    </RateMeDialog>
+    <UninstallDialog>
+        <title>Macs Fan Control ان انسٹال کریں؟</title>
+        <message>آپ اپنے mac سے ایپ کو اس کی ترجیحات، پنکھے کے معاون ٹول اور Pro ورژن کے لیے لائسنسنگ ڈیٹا سمیت مکمل طور پر ان انسٹال کرنے والے ہیں۔ پہلے سے طے شدہ پنکھے کے کنٹرول میں تمام تبدیلیاں واپس کر دی جائیں گی اور پنکھے خودکار طور پر سسٹم کے ذریعے کنٹرول کیے جائیں گے۔ \n\nآپ کو ایپ کو خود کو ان انسٹال کرنے کے قابل ہونے کے لیے اجازت دینے کی درخواست کی جا سکتی ہے۔</message>
+        <authorizeText>براہ کرم ایپ کو پنکھے کے معاون ٹول کو ان انسٹال کرنے کے قابل ہونے کے لیے اجازت دیں۔</authorizeText>
+        <buttonUninstall>ان انسٹال کریں</buttonUninstall>
+    </UninstallDialog>
+    <messageFanControlLimited>
+        <title>ہارڈویئر کی طرف سے پنکھے غیر فعال</title>
+        <message>کم درجہ حرارت کی وجہ سے، اس Mac ماڈل نے خودکار طور پر پنکھوں کو غیر فعال کر دیا ہے۔ دستی پنکھے کا کنٹرول اثر انداز ہوگا جب سسٹم انہیں دوبارہ فعال کرے گا، جب یہ طے کرے گا کہ ٹھنڈک ضروری ہے۔</message>
+        <checkDiscard>یہ پیغام دوبارہ نہ دکھائیں</checkDiscard>
+        <buttonMoreInfo>مزید معلومات...</buttonMoreInfo>
+    </messageFanControlLimited>
+    <Common>
+        <buttonClose>بند کریں</buttonClose>
+        <buttonOK>ٹھیک ہے</buttonOK>
+        <buttonCancel>منسوخ کریں</buttonCancel>
+        <buttonContinue>جاری رکھیں</buttonContinue>
+    </Common>
+    <core>
+        <UpdateChecker>
+            <ReleasedOn>%1 کو جاری کیا گیا</ReleasedOn>
+            <CheckForUpdates>اپ ڈیٹس چیک کریں...</CheckForUpdates>
+            <NewVersionAvailable>%1 کا نیا ورژن دستیاب ہے!</NewVersionAvailable>
+            <NewVersionAvailableText>%1 %2 اب دستیاب ہے - آپ کے پاس %3 ہے۔ کیا آپ اسے ابھی ڈاؤن لوڈ کرنا چاہیں گے؟</NewVersionAvailableText>
+            <UpdateAlertTitle>سافٹ ویئر اپ ڈیٹ</UpdateAlertTitle>
+            <UpdateAlertReleaseNotes>ریلیز نوٹس:</UpdateAlertReleaseNotes>
+            <UpdateAlertRemindLater>بعد میں یاد دلائیں</UpdateAlertRemindLater>
+            <UpdateAlertSkip>یہ ورژن چھوڑ دیں</UpdateAlertSkip>
+            <UpdateAlertInstall>اپ ڈیٹ انسٹال کریں</UpdateAlertInstall>
+            <UpdateAlertAutomaticUpdates>خودکار طور پر اپ ڈیٹس چیک کریں</UpdateAlertAutomaticUpdates>
+            <MessageNoUpdateAvailable>آپ تازہ ترین ہیں!</MessageNoUpdateAvailable>
+            <MessageNoUpdateAvailableDescription>%1 %2 فی الوقت تازہ ترین دستیاب ورژن ہے۔</MessageNoUpdateAvailableDescription>
+            <MessageErrorConnect>اپ ڈیٹ ڈاؤن لوڈ کرتے وقت ایک خرابی پیش آئی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</MessageErrorConnect>
+            <MessageErrorParse>اپ ڈیٹ فیڈ کو پارس کرتے وقت ایک خرابی پیش آئی۔</MessageErrorParse>
+            <UpdateProgressTitle>%1 کو اپ ڈیٹ کر رہے ہیں</UpdateProgressTitle>
+            <UpdateProgressCancel>منسوخ کریں</UpdateProgressCancel>
+            <UpdateProgressInstallAndRelaunch>انسٹال کریں اور دوبارہ شروع کریں</UpdateProgressInstallAndRelaunch>
+            <UpdateProgressStatusDownloading>اپ ڈیٹ ڈاؤن لوڈ ہو رہا ہے...</UpdateProgressStatusDownloading>
+            <UpdateProgressExtract>اپ ڈیٹ نکال رہے ہیں...</UpdateProgressExtract>
+            <UpdateProgressStatusReady>انسٹال کرنے کے لیے تیار</UpdateProgressStatusReady>
+            <UpdateProgressSize>%2 میں سے %1</UpdateProgressSize>
+            <UpdateProgressB>B</UpdateProgressB>
+            <UpdateProgressKB>KB</UpdateProgressKB>
+            <UpdateProgressMB>MB</UpdateProgressMB>
+            <UpdateProgressGB>GB</UpdateProgressGB>
+        </UpdateChecker>
+        <LetsMoveMac>
+            <kStrMoveApplicationCouldNotMove>Applications فولڈر میں منتقل نہیں ہو سکا</kStrMoveApplicationCouldNotMove>
+            <kStrMoveApplicationQuestionTitle>Applications میں منتقل کریں</kStrMoveApplicationQuestionTitle>
+            <kStrMoveApplicationQuestionTitleHome>کیا ہوم فولڈر کے ایپلیکیشنز فولڈر میں منتقل کریں؟</kStrMoveApplicationQuestionTitleHome>
+            <kStrMoveApplicationQuestionMessage>کیا آپ چاہیں گے کہ %1 خود کو Applications فولڈر میں منتقل کرے؟</kStrMoveApplicationQuestionMessage>
+            <kStrMoveApplicationButtonMove>Applications فولڈر میں منتقل کریں</kStrMoveApplicationButtonMove>
+            <kStrMoveApplicationButtonDoNotMove>منتقل نہ کریں</kStrMoveApplicationButtonDoNotMove>
+            <kStrMoveApplicationQuestionInfoWillRequirePasswd>نوٹ کریں کہ اس کے لیے ایڈمنسٹریٹر پاس ورڈ کی ضرورت ہوگی۔</kStrMoveApplicationQuestionInfoWillRequirePasswd>
+            <kStrMoveApplicationQuestionInfoInDownloadsFolder>اس سے آپ کا Downloads فولڈر صاف رہے گا۔</kStrMoveApplicationQuestionInfoInDownloadsFolder>
+        </LetsMoveMac>
+        <QLineEditEx>
+            <actionUndo>کالعدم کریں</actionUndo>
+            <actionRedo>دوبارہ کریں</actionRedo>
+            <actionCut>کاٹیں</actionCut>
+            <actionCopy>کاپی کریں</actionCopy>
+            <actionPaste>پیسٹ کریں</actionPaste>
+            <actionDelete>حذف کریں</actionDelete>
+            <actionSelectAll>سب منتخب کریں</actionSelectAll>
+        </QLineEditEx>
+        <QMessageBoxEx>
+            <buttonOK>ٹھیک ہے</buttonOK>
+            <buttonCancel>منسوخ کریں</buttonCancel>
+            <buttonClose>بند کریں</buttonClose>
+            <buttonYes>ہاں</buttonYes>
+            <buttonNo>نہیں</buttonNo>
+        </QMessageBoxEx>
+    </core>
+</LanguageStrings>
